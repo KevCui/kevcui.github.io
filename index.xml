@@ -3,7 +3,7 @@
   <channel>
       <title>Krazy Kevin on Krazy Kevin </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://krazycavin.github.io/index.xml</link>
+    <link>https://krazycavin.github.io/index.xml</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Bye Firefox</title>
-      <link>http://krazycavin.github.io/2017/03/27/bye-firefox/</link>
+      <link>https://krazycavin.github.io/2017/03/27/bye-firefox/</link>
       <pubDate>Mon, 27 Mar 2017 23:02:13 CEST</pubDate>
       
-      <guid>http://krazycavin.github.io/2017/03/27/bye-firefox/</guid>
+      <guid>https://krazycavin.github.io/2017/03/27/bye-firefox/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Tz47QFcn9AAdFIOI-LOPkw.jpeg&#34; alt=&#34;firefox&#34; /&gt;
@@ -58,10 +58,10 @@
     
     <item>
       <title>My Toolbox</title>
-      <link>http://krazycavin.github.io/2017/03/08/my-toolbox/</link>
+      <link>https://krazycavin.github.io/2017/03/08/my-toolbox/</link>
       <pubDate>Wed, 08 Mar 2017 22:12:08 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2017/03/08/my-toolbox/</guid>
+      <guid>https://krazycavin.github.io/2017/03/08/my-toolbox/</guid>
       <description>
 
 &lt;h3 id=&#34;software-testing&#34;&gt;Software Testing&lt;/h3&gt;
@@ -182,10 +182,10 @@
     
     <item>
       <title>Why Hexo Why Not Jekyll</title>
-      <link>http://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
+      <link>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
       <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
+      <guid>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
       <description>
 
 &lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;http://127.0.0.1:4000/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finsih reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
@@ -235,10 +235,10 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
     
     <item>
       <title>Why I Failed to Use Calabash for Mobile Testing</title>
-      <link>http://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</link>
+      <link>https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</link>
       <pubDate>Sat, 21 Jan 2017 10:48:00 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
+      <guid>https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*61zMYo0AKZw7F_-UTBgULQ.jpeg&#34; alt=&#34;Sunset&#34; /&gt;&lt;/p&gt;
@@ -369,10 +369,10 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
     
     <item>
       <title>Nobody Asks Me Questions but I&#39;ve Some Answers</title>
-      <link>http://krazycavin.github.io/2017/01/13/nobody-asks-me-questions-but-i-give-some-answers/</link>
+      <link>https://krazycavin.github.io/2017/01/13/nobody-asks-me-questions-but-i-give-some-answers/</link>
       <pubDate>Fri, 13 Jan 2017 17:20:53 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2017/01/13/nobody-asks-me-questions-but-i-give-some-answers/</guid>
+      <guid>https://krazycavin.github.io/2017/01/13/nobody-asks-me-questions-but-i-give-some-answers/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*S4QCcKz1OmopX580Q2X_Vg.jpeg&#34; alt=&#34;qa&#34; /&gt;&lt;/p&gt;
@@ -415,10 +415,10 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
     
     <item>
       <title>Bugshido: Classify Warrior Bugs</title>
-      <link>http://krazycavin.github.io/2017/01/08/bugshido/</link>
+      <link>https://krazycavin.github.io/2017/01/08/bugshido/</link>
       <pubDate>Sun, 08 Jan 2017 12:31:43 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2017/01/08/bugshido/</guid>
+      <guid>https://krazycavin.github.io/2017/01/08/bugshido/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*En26YWwPSATot5n4bBjLrw.jpeg&#34; alt=&#34;war&#34; /&gt;&lt;/p&gt;
@@ -523,10 +523,10 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
     
     <item>
       <title>My Year 2k16</title>
-      <link>http://krazycavin.github.io/2016/12/23/my-year-2016/</link>
+      <link>https://krazycavin.github.io/2016/12/23/my-year-2016/</link>
       <pubDate>Fri, 23 Dec 2016 19:56:57 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2016/12/23/my-year-2016/</guid>
+      <guid>https://krazycavin.github.io/2016/12/23/my-year-2016/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sSwfFaDzVYmhN7cPWANpuQ.jpeg&#34; alt=&#34;tree&#34; /&gt;&lt;/p&gt;
@@ -685,10 +685,10 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
     
     <item>
       <title>10 (Unpopular but Good Quality) Android Apps I Recommend</title>
-      <link>http://krazycavin.github.io/2016/12/18/apps-i-recommend/</link>
+      <link>https://krazycavin.github.io/2016/12/18/apps-i-recommend/</link>
       <pubDate>Sun, 18 Dec 2016 15:29:04 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2016/12/18/apps-i-recommend/</guid>
+      <guid>https://krazycavin.github.io/2016/12/18/apps-i-recommend/</guid>
       <description>&lt;p&gt;I feel the urge to make a list before the end of this year. I donn&amp;rsquo;t know what to add for a list. So, I&amp;rsquo;m gonna recommend 10 android apps. I would say they&amp;rsquo;re not quite popular, because none of my friends has them (at least some friends whose phones I&amp;rsquo;ve checked). Personally, I really like these apps. They are making my life easier very day.&lt;/p&gt;
 
 &lt;p&gt;#10 &lt;img src=&#34;https://lh6.ggpht.com/os72icmFlDtbxpYbZCP-v6kOereSLGDmlKsBl1ISTPdgbcpoc4rSIuXDuoDECvgcvoFJ=w32&#34; alt=&#34;Barcode&#34; /&gt;
@@ -751,10 +751,10 @@ Source code: &lt;a href=&#34;https://github.com/AdAway/AdAway&#34;&gt;GitHub&lt;
     
     <item>
       <title>My Tweet Pinboard</title>
-      <link>http://krazycavin.github.io/2016/12/11/my-tweet-pinboard/</link>
+      <link>https://krazycavin.github.io/2016/12/11/my-tweet-pinboard/</link>
       <pubDate>Sun, 11 Dec 2016 22:00:00 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2016/12/11/my-tweet-pinboard/</guid>
+      <guid>https://krazycavin.github.io/2016/12/11/my-tweet-pinboard/</guid>
       <description>&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/4 How does &lt;a href=&#34;https://twitter.com/hashtag/QA?src=hash&#34;&gt;#QA&lt;/a&gt; prevent defects? My opinion is &amp;quot;Not really&amp;quot;. Similar to how to prevent sickness?&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/740548391537672192&#34;&gt;June 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
 &lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;2/4 Right release &amp;amp; &lt;a href=&#34;https://twitter.com/hashtag/QA?src=hash&#34;&gt;#QA&lt;/a&gt; processes,  like good habits, are necessary but not sufficient. Some unexpected virus can still break immune system.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/740548429542227968&#34;&gt;June 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
@@ -868,10 +868,10 @@ Source code: &lt;a href=&#34;https://github.com/AdAway/AdAway&#34;&gt;GitHub&lt;
     
     <item>
       <title>Let&#39;s Have Some Fun! Team Testing</title>
-      <link>http://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
+      <link>https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
       <pubDate>Thu, 01 Dec 2016 21:37:35 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
+      <guid>https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sonAggQw-dsCFHGrcozMfg.jpeg&#34; alt=&#34;devices&#34; /&gt;&lt;/p&gt;
@@ -982,10 +982,10 @@ Minor                |
     
     <item>
       <title>Know How to Build github.io Blog in 3 min?</title>
-      <link>http://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</link>
+      <link>https://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</link>
       <pubDate>Sat, 19 Nov 2016 13:00:00 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
+      <guid>https://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
       <description>
 
 &lt;p&gt;I write this tutorial with some notes about how to build a github.io blog, because I was struggling a little bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could &lt;strong&gt;waste&lt;/strong&gt; some of your time on customizing your own awesome blog. 😉&lt;/p&gt;
@@ -1096,10 +1096,10 @@ date:  2016-11-18 23:25:28 +0200
     
     <item>
       <title>Blogging!</title>
-      <link>http://krazycavin.github.io/2016/11/18/hello-world/</link>
+      <link>https://krazycavin.github.io/2016/11/18/hello-world/</link>
       <pubDate>Fri, 18 Nov 2016 22:09:23 &#43;0200</pubDate>
       
-      <guid>http://krazycavin.github.io/2016/11/18/hello-world/</guid>
+      <guid>https://krazycavin.github.io/2016/11/18/hello-world/</guid>
       <description>&lt;p&gt;This is my f1rst bl0g. Yep, it&amp;rsquo;s als0 a test blog to check Jekyll theme&lt;/p&gt;
 
 &lt;p&gt;pןɹoʍ oןןǝɥ&lt;/p&gt;
