@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Jekyll on Krazy Kevin </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://krazycavin.github.io/tags/jekyll/index.xml</link>
+    <language>en-us</language>
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Why Hexo Why Not Jekyll</title>
+      <link>http://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
+      <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
+      <description>
+
+&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;http://127.0.0.1:4000/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finsih reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
+
+&lt;h4 id=&#34;1-a-net-name-is-half-success&#34;&gt;1. A net name is half-success&lt;/h4&gt;
+
+&lt;p&gt;Everyone has his own taste on naming. Hexo vs. Jekyll which one is cooler? I cannot tell. But which one is net and easy to write. I vote for hexo.&lt;/p&gt;
+
+&lt;p&gt;You probably are not a clumsy-handed person, but unfortunately sometimes I am. I admit that many times I&amp;rsquo;m stupid (or drunken) to write jekyll as jeykll, jekyl, jekeyll&amp;hellip; How about hexo? I think I still need drink more 🍷 in order to make a spelling mistake of hexo.&lt;/p&gt;
+
+&lt;h4 id=&#34;2-node-js-home-lovely-home&#34;&gt;2. Node.js home lovely home&lt;/h4&gt;
+
+&lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to setup project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable . At the end, the only ting I want is just to setup something in 3 min and spend my time on writing more posts.&lt;/p&gt;
+
+&lt;h4 id=&#34;3-deployment-it-s-a-magic&#34;&gt;3. Deployment? It&amp;rsquo;s a magic!&lt;/h4&gt;
+
+&lt;p&gt;The deployment of hexo is amazing. I add my git repo info in _config.xml then run a simple command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~$ hexo d
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Done! What a magic! No need git add, git commit, git push&amp;hellip; It&amp;rsquo;s really continent to write and publish a post.&lt;/p&gt;
+
+&lt;p&gt;Another good thing is that hexo organizes git repo nicely. It contains only the final static html, js and css files. Other setup related file like _config.xml or themes or plugins can be stored separately in different repositories. It&amp;rsquo;s wonderful for person who has OCD.&lt;/p&gt;
+
+&lt;h4 id=&#34;4-setup-theme-dynamically&#34;&gt;4. Setup theme dynamically&lt;/h4&gt;
+
+&lt;p&gt;With hexo, there will be no more feeling of frustrated at changing theme. Hexo has an interesting structure to organize &lt;a href=&#34;https://hexo.io/docs/themes.html&#34;&gt;&lt;em&gt;themes&lt;/em&gt;&lt;/a&gt; in a separate folder. Choosing a theme is like switching a cloth. And it&amp;rsquo;s possible to have collect different themes 👗 in your armoire.&lt;/p&gt;
+
+&lt;h4 id=&#34;5-fast&#34;&gt;5. Fast&lt;/h4&gt;
+
+&lt;p&gt;Overall, hexo gives me an impression &lt;em&gt;fast&lt;/em&gt;, starting from the command execution with one letter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hexo s &amp;lt;=&amp;gt; hexo server
+hexo g &amp;lt;=&amp;gt; hexo generate
+hexo d &amp;lt;=&amp;gt; hexo deploy
+hexo cl &amp;lt;=&amp;gt; hexo clean
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;According to my needs, compared to Jekyll hexo has a net name, no learning curve, magic deployment, variable themes, and it runs faster. I&amp;rsquo;m quite satisfied with hexo so far. Maybe I will give &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; a try soon. But who knows when I will switch to the &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;next generator&lt;/a&gt;? 😬&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Know How to Build github.io Blog in 3 min?</title>
+      <link>http://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</link>
+      <pubDate>Sat, 19 Nov 2016 13:00:00 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
+      <description>
+
+&lt;p&gt;I write this tutorial with some notes about how to build a github.io blog, because I was struggling a little bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could &lt;strong&gt;waste&lt;/strong&gt; some of your time on customizing your own awesome blog. 😉&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(What about 3 min? It&amp;rsquo;s the time to read this post&amp;hellip;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;br-step-0-know-things-first&#34;&gt;&lt;br/&gt;STEP 0: Know &lt;em&gt;things&lt;/em&gt; first&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/join/&#34;&gt;GitHub account&lt;/a&gt;: If you don&amp;rsquo;t have one, what are you waiting for? Just get one ;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;: It&amp;rsquo;s designed to host your personal, organization, or project pages directly from a GitHub repository.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jeykll&lt;/a&gt;: It transfers plain text into static websites and blogs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;br-step-1-why&#34;&gt;&lt;br/&gt;STEP 1: Why?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s really simple, compared to WordPress&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s interesting to write post with Markdown ^^&lt;/li&gt;
+&lt;li&gt;You will tell me&amp;hellip; 😄&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;br-step-2-pick-theme&#34;&gt;&lt;br/&gt;STEP 2: Pick theme&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A list of some nice jekyll &lt;a href=&#34;https://github.com/jekyll/jekyll/wiki/Themes&#34;&gt;themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Check theme demos and pick favorite one&lt;/li&gt;
+&lt;li&gt;Open GitHub and check source page ☕️&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;br-step-3-fork-it&#34;&gt;&lt;br/&gt;STEP 3: Fork-it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fork the theme repository to your &lt;strong&gt;&lt;em&gt;username&lt;/em&gt;.github.io&lt;/strong&gt;, where &lt;em&gt;username&lt;/em&gt; is your own username on GitHub.
+(&lt;em&gt;#Eg: my repository for this blog is &lt;strong&gt;krazycavin.github.io&lt;/strong&gt;&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Clone it to your local&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ git clone https://github.com/username/username.github.io my-blog
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;br-step-4-configure-it&#34;&gt;&lt;br/&gt;STEP 4: Configure-it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go to my-blog&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ cd my-blog
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Open &lt;strong&gt;_config.yml&lt;/strong&gt; and modify&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;title: &#39;your-blog-title&#39;
+description: &#39;your-blog-description&#39;
+url: &#39;https://username.github.io&#39;
+baseurl: &#39;/&#39;
+...
+gems : [&#39;jekyull-paginate&#39;, &#39;jemoji&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;⚠️ Empty &lt;strong&gt;baseurl&lt;/strong&gt; or change it to &lt;strong&gt;/&lt;/strong&gt; depends on theme. Otherwise, some themes may not work correctly.&lt;br&gt;
+👊 jemoji!&lt;/p&gt;
+
+&lt;h3 id=&#34;br-step-5-test-it&#34;&gt;&lt;br/&gt;STEP 5: Test-it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Run locally&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ cd my-blog
+~ $ jekyll serve
+# =&amp;gt; Now browse to http://localhost:4000/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;br-step-6-post-it&#34;&gt;&lt;br/&gt;STEP 6: Post-it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create a post in &lt;strong&gt;_post&lt;/strong&gt;, name it &lt;strong&gt;YEAR-MONTH-DAY-title.md&lt;/strong&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;title: &amp;quot;How to build github.io blog in 3 min?&amp;quot;
+date:  2016-11-18 23:25:28 +0200
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;⚠️ Be careful of date format &lt;strong&gt;YYYY-MM-DD HH:MM:SS +/-TTTT&lt;/strong&gt;, TTTT is timezone offset&lt;/p&gt;
+
+&lt;h3 id=&#34;br-step-7-publish-it&#34;&gt;&lt;br/&gt;STEP 7: Publish-it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;git add, git commit, git push&lt;/li&gt;
+&lt;li&gt;Browse your new blog &lt;strong&gt;&lt;a href=&#34;https://username.github.io&#34;&gt;https://username.github.io&lt;/a&gt;&lt;/strong&gt;  👯&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;br-helpful-links&#34;&gt;&lt;br/&gt;Helpful links:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Basic syntax help for &lt;a href=&#34;http://daringfireball.net/projects/markdown/basics&#34;&gt;Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub basic formatting &lt;a href=&#34;https://help.github.com/articles/basic-writing-and-formatting-syntax/&#34;&gt;syntax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Emoji &lt;a href=&#34;http://www.webpagefx.com/tools/emoji-cheat-sheet/&#34;&gt;Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jekyll &lt;a href=&#34;https://jekyllrb.com/docs/usage/&#34;&gt;usage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jekyll Uno &lt;a href=&#34;https://github.com/joshgerdes/jekyll-uno&#34;&gt;theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blogging!</title>
+      <link>http://krazycavin.github.io/2016/11/18/hello-world/</link>
+      <pubDate>Fri, 18 Nov 2016 22:09:23 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2016/11/18/hello-world/</guid>
+      <description>&lt;p&gt;This is my f1rst bl0g. Yep, it&amp;rsquo;s als0 a test blog to check Jekyll theme&lt;/p&gt;
+
+&lt;p&gt;pןɹoʍ oןןǝɥ&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/2f7RQiiWMJc40.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

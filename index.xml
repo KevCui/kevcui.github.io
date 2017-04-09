@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Krazy Kevin on Krazy Kevin </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://krazycavin.github.io/index.xml</link>
+    <language>en-us</language>
+    
+    
+    <updated>Mon, 27 Mar 2017 23:02:13 CEST</updated>
+    
+    <item>
+      <title>Bye Firefox</title>
+      <link>http://krazycavin.github.io/2017/03/27/bye-firefox/</link>
+      <pubDate>Mon, 27 Mar 2017 23:02:13 CEST</pubDate>
+      
+      <guid>http://krazycavin.github.io/2017/03/27/bye-firefox/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Tz47QFcn9AAdFIOI-LOPkw.jpeg&#34; alt=&#34;firefox&#34; /&gt;
+&lt;sup&gt;&lt;em&gt;from &lt;a href=&#34;https://www.flickr.com/photos/garrett/280258600/in/photostream/&#34;&gt;Garrrett LeSage&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Love, without any reason. Leave, with a good reason.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Last week, I made my decision to switch from Firefox to Chromium. Although it&amp;rsquo;s not my first time trying to ditch Firefox, I&amp;rsquo;m quite sure this time it would be the last time. As I&amp;rsquo;m a reasonable person, therefore, I put my thoughts in this post with the reason why I made my decision.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-pressure-from-outside&#34;&gt;A pressure from outside&lt;/h3&gt;
+
+&lt;p&gt;I didn&amp;rsquo;t really remember since when I started to use Firefox, I always have it as my main browser. Back to the old good day, Firefox relies on its lightweight and fast speed amazes the world. No doubt it was the best browser. Nowadays, it is still one of the most popular browsers but definitely not top one. Many statics show it dramatically lost users &lt;a href=&#34;http://gs.statcounter.com/browser-market-share#monthly-201001-201702&#34;&gt;here&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; and &lt;a href=&#34;https://www.w3schools.com/browsers/default.asp&#34;&gt;here&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. It&amp;rsquo;s disappointed to see the number of Firefox users keep shrinking. During the decline in 2015, &lt;a href=&#34;https://arstechnica.com/business/2016/05/firefox-overtakes-microsoft-internet-explorer-edge-browsers-first-time-statcounter/&#34;&gt;Firefox tops IE &amp;amp; Edge browser market share for first time&lt;/a&gt;. It was especially ironic.&lt;/p&gt;
+
+&lt;p&gt;Firefox is not good enough? It&amp;rsquo;s probably good enough. But its competitors are better. I ran some performance tests, like &lt;a href=&#34;http://browserbench.org/JetStream/&#34;&gt;JetStream&lt;/a&gt;, &lt;a href=&#34;https://chromium.github.io/octane/&#34;&gt;Octane 2.0&lt;/a&gt;, &lt;a href=&#34;http://browserbench.org/Speedometer/&#34;&gt;Speedometer&lt;/a&gt; on Firefox v52 and Chromium v56 with my linux desktop. Chromium wins them all and beats Firefox easily. Besides that, personally I prefer Chromium built-in devtool and &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; is a huge +1.&lt;/p&gt;
+
+&lt;p&gt;These facts become a pressure from outside that weighs on Firefox. Once you run behind others, and you put all the effort to catch up. What people will see is that you&amp;rsquo;re following the same path, which others did already. It&amp;rsquo;s damn sad.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-reason-of-love&#34;&gt;A reason of love&lt;/h3&gt;
+
+&lt;p&gt;When one performs obviously better than another, why I should keep both? Yes I do have a reason, the only reason I feel comfortable to stay with Firefox. &lt;a href=&#34;https://github.com/vimperator/vimperator-labs&#34;&gt;Vimperator&lt;/a&gt; a firefox-only add-on which completely changes Firefox interface and turns it to vim-like. It provides me an efficient way to use browser. I&amp;rsquo;m totally fascinated by it.&lt;/p&gt;
+
+&lt;p&gt;As we all know, this year Firefox will face some big changes. One of them is e10s. Sadly, &lt;a href=&#34;https://github.com/vimperator/vimperator-labs/issues/211&#34;&gt;Vimperator seams won&amp;rsquo;t support e10s&lt;/a&gt; and the site &lt;a href=&#34;https://www.arewee10syet.com/&#34;&gt;Are we e10s yet?&lt;/a&gt; marks Vimperator as incompatible. It&amp;rsquo;s about time, sooner this November, anyway I will say goodbye to Vimperator, to Firefox. That&amp;rsquo;s it.&lt;/p&gt;
+
+&lt;p&gt;Now I live well with Chromium. There are lots of alternatives to try: &lt;a href=&#34;https://github.com/philc/vimium&#34;&gt;Vimium&lt;/a&gt;, &lt;a href=&#34;https://github.com/1995eaton/chromium-vim&#34;&gt;cVim&lt;/a&gt;, &lt;a href=&#34;https://github.com/jinzhu/vrome&#34;&gt;Vrome&lt;/a&gt; and this &lt;a href=&#34;https://brookhong.github.io/2015/09/15/surfingkeys.html&#34;&gt;interesting idea&lt;/a&gt;&amp;hellip; I know they are not as powerful as Vimperator. To fit my needs, they&amp;rsquo;re good enough.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-future-of-uncertainty&#34;&gt;A future of uncertainty&lt;/h3&gt;
+
+&lt;p&gt;Moz://a really pushes hard to fully rollout Electrolysis functionality this year. The main change like Multiprocess, it will boost performance certainly. But it&amp;rsquo;s a two-blade sword, Firefox will perhaps become another memory hog. Yes, it gonna be like Chrome. Regarding to the recent changes, I feel Firefox is different, unfamiliar or lost: &lt;a href=&#34;http://www.omgubuntu.co.uk/2017/03/firefox-52-no-sound-pulseaudio-alsa-linux&#34;&gt;Firefox Goes PulseAudio Only, Leaves ALSA Users With No Sound&lt;/a&gt;, &lt;a href=&#34;http://www.theverge.com/2017/1/25/14376710/walt-mossberg-mozilla-firefox-browser-revived&#34;&gt;What’s up with Firefox, the browser that time forgot?&lt;/a&gt;, &lt;a href=&#34;http://www.ghacks.net/2017/02/17/firefox-add-ons-roadmap-for-2017/&#34;&gt;Firefox Add-ons Roadmap for 2017&lt;/a&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;To make Firefox a better browser, surely there are reasons behind all changes. Maybe it&amp;rsquo;s me who cannot clearly understand them, who think the future is uncertain, who still believe in Firefox this year would have a new beginning, not the end.&lt;/p&gt;
+
+&lt;p&gt;Firefox changed world before, and now world is changing Firefox. What does the Fox say?&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://gs.statcounter.com/browser-market-share#monthly-201001-201702&#34;&gt;Browser Market Share Jan 2010 - Feb 2017&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;https://www.w3schools.com/browsers/default.asp&#34;&gt;W3Schools&amp;rsquo; Famous Month-by-Month Browser Statistics&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Toolbox</title>
+      <link>http://krazycavin.github.io/2017/03/08/my-toolbox/</link>
+      <pubDate>Wed, 08 Mar 2017 22:12:08 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2017/03/08/my-toolbox/</guid>
+      <description>
+
+&lt;h3 id=&#34;software-testing&#34;&gt;Software Testing&lt;/h3&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://ctweb.abstracta.com.uy/&#34;&gt;Test case generator (pairwise)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;📖👉 &lt;a href=&#34;http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf&#34;&gt;Test Heuristics Cheat Sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;📖👉 &lt;a href=&#34;https://medium.com/@userfocus/the-1-page-usability-test-plan-dbc8c3d7fb54#.e4fd2w21q&#34;&gt;1-page usability test plan&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/lestoni/faker-cli&#34;&gt;faker-cli&lt;/a&gt;: generate massive amounts of fake data&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/aoh/radamsa&#34;&gt;Radamsa&lt;/a&gt;: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/josephwilk/pairwise&#34;&gt;Ruby Pairwise&lt;/a&gt;: Ruby based tool for selecting a smaller number of test input combinations&lt;/p&gt;
+
+&lt;h3 id=&#34;mobile-testing&#34;&gt;Mobile Testing&lt;/h3&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://tools.perfectomobile.com/test-coverage-optimizer/&#34;&gt;Test coverage optimizer&lt;/a&gt;: discover the optimal mix for maximizing your test coverage with the fewest devices possible&lt;/p&gt;
+
+&lt;p&gt;📦👉 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.glasswire.android&#34;&gt;GlassWire&lt;/a&gt;: monitor app data usage&lt;/p&gt;
+
+&lt;p&gt;📦👉 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.testerkey.testerkeyboard&#34;&gt;TesterKey&lt;/a&gt;: generate complex and randomised input values&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/selendroid/selendroid&#34;&gt;Selendroid&lt;/a&gt;: test automation framework which drives of the UI of Android native and hybrid applications apps&lt;/p&gt;
+
+&lt;h3 id=&#34;web-testing&#34;&gt;Web Testing&lt;/h3&gt;
+
+&lt;p&gt;📖👉 &lt;a href=&#34;https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html&#34;&gt;UTF-8 plain text test file&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;📖👉 &lt;a href=&#34;https://github.com/dhamaniasad/HeadlessBrowsers&#34;&gt;Headless Browser list&lt;/a&gt;: a list of (almost) all headless web browsers in existence&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.performancebudget.io/&#34;&gt;Performance Budget Calculator&lt;/a&gt;: calculate a performance budget for your site&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/dhatanian/ticketmagpie&#34;&gt;TicketMagpie OWASP Top10 demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://validator.w3.org/i18n-checker/&#34;&gt;i18n Validator&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/galenframework/galen&#34;&gt;Galen Framework&lt;/a&gt;: testing layout and responsive design of web applications&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/jan-molak/serenity-js&#34;&gt;Serenity/JS&lt;/a&gt;: a node.js library designed to make acceptance and regression testing of modern web applications faster&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/teamcapybara/capybara&#34;&gt;capybara&lt;/a&gt;: acceptance test framework for web applications&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://securityheaders.io&#34;&gt;SecurityHeaders.io&lt;/a&gt;: a quick and easy way to check http headers&lt;/p&gt;
+
+&lt;h3 id=&#34;dev-tools&#34;&gt;Dev Tools&lt;/h3&gt;
+
+&lt;p&gt;🌏👉 PutsReq](&lt;a href=&#34;http://putsreq.com/):&#34;&gt;http://putsreq.com/):&lt;/a&gt; record HTTP requests and fake responses&lt;/p&gt;
+
+&lt;p&gt;📖👉 &lt;a href=&#34;http://www.stefankrause.net/js-frameworks-benchmark2/webdriver-java/table.html?utm_content=buffer615ad&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&#34;&gt;JS framework benchmark&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;http://cdn2.hubspot.net/hubfs/208250/Blog_Images/devops11.png&#34;&gt;The Ultimate DevOps Tools Ecosystem&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://regex101.com/&#34;&gt;regex101&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://rubular.com/&#34;&gt;rubular&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;📦👉 &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/dxa4481/truffleHog&#34;&gt;Truffle Dog&lt;/a&gt;: searches through git repositories for high entropy strings, digging deep into commit history and branches&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;👉 &lt;a href=&#34;https://github.com/jkbrzt/httpie&#34;&gt;HTTPie&lt;/a&gt;: a CLI, cURL-like tool for humans&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;:point_right: &lt;a href=&#34;https://github.com/lord/slate&#34;&gt;Slate&lt;/a&gt;: API doc generator&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/anvaka/git-also&#34;&gt;git-also&lt;/a&gt;: for a file in your git repository, prints other files that are most often committed together&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;mitmproxy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/naptha/tesseract.js&#34;&gt;Tesseract.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;💻point_right: &lt;a href=&#34;https://asciinema.org/&#34;&gt;asciinema&lt;/a&gt;: record and share terminal sessions&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://obfuscator.uo1.net/&#34;&gt;Online Text Obfuscator&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://pbs.twimg.com/media/C3JNXUtWEAAW951.jpg&#34;&gt;Cynefin Framework for user story splitting&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;http://melissaperri.com/wp-content/uploads/2016/07/Product-Strategy-Canvas-1.png&#34;&gt;Product Strategy Canvas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://natgeoeducationblog.files.wordpress.com/2017/01/ultimate-critical-thinking-worksheet.jpg&#34;&gt;The ultimate cheat sheet for critical thinking&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/co/thumb/6/68/Kano_model_showing_transition_over_time.png/737px-Kano_model_showing_transition_over_time.png&#34;&gt;Kano model&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;search&#34;&gt;Search&lt;/h3&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://foller.me/&#34;&gt;Twitter Analytics&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🌏:point_right: &lt;a href=&#34;https://www.shodan.io/&#34;&gt;Shodan&lt;/a&gt;: search engine for Internet-connected devices&lt;/p&gt;
+
+&lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://vimcolors.com/&#34;&gt;VIM color themes&lt;/a&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;👉 &lt;a href=&#34;https://github.com/sferik/t&#34;&gt;Ruby Twitter CLI&lt;/a&gt;&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;:point_right: &lt;a href=&#34;https://google-webfonts-helper.herokuapp.com/fonts&#34;&gt;Google Webfont Helper&lt;/a&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;👉 &lt;a href=&#34;https://github.com/mxstbr/sharingbuttons.io&#34;&gt;sharingbuttons.io&lt;/a&gt;: generate social sharing buttons&lt;/dt&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;:point_right: &lt;a href=&#34;https://github.com/l0b0/xterm-color-count&#34;&gt;XTerm Color Count&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👉 &lt;a href=&#34;https://github.com/WebpageFX/emoji-cheat-sheet.com&#34;&gt;emoji cheat sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://excel2jira.bluurgh.com/&#34;&gt;Excel to Jira table&lt;/a&gt;: copy and paste a table from Excel, click the button, and in return you will get the table formatted for JIRA&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://colormind.io/&#34;&gt;Colormind&lt;/a&gt;: Colormind is a deep learning AI that knows color theory. It can generate color palettes from scratch, or it can take your input and intelligently fill in the blanks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why Hexo Why Not Jekyll</title>
+      <link>http://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
+      <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
+      <description>
+
+&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;http://127.0.0.1:4000/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finsih reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
+
+&lt;h4 id=&#34;1-a-net-name-is-half-success&#34;&gt;1. A net name is half-success&lt;/h4&gt;
+
+&lt;p&gt;Everyone has his own taste on naming. Hexo vs. Jekyll which one is cooler? I cannot tell. But which one is net and easy to write. I vote for hexo.&lt;/p&gt;
+
+&lt;p&gt;You probably are not a clumsy-handed person, but unfortunately sometimes I am. I admit that many times I&amp;rsquo;m stupid (or drunken) to write jekyll as jeykll, jekyl, jekeyll&amp;hellip; How about hexo? I think I still need drink more 🍷 in order to make a spelling mistake of hexo.&lt;/p&gt;
+
+&lt;h4 id=&#34;2-node-js-home-lovely-home&#34;&gt;2. Node.js home lovely home&lt;/h4&gt;
+
+&lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to setup project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable . At the end, the only ting I want is just to setup something in 3 min and spend my time on writing more posts.&lt;/p&gt;
+
+&lt;h4 id=&#34;3-deployment-it-s-a-magic&#34;&gt;3. Deployment? It&amp;rsquo;s a magic!&lt;/h4&gt;
+
+&lt;p&gt;The deployment of hexo is amazing. I add my git repo info in _config.xml then run a simple command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~$ hexo d
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Done! What a magic! No need git add, git commit, git push&amp;hellip; It&amp;rsquo;s really continent to write and publish a post.&lt;/p&gt;
+
+&lt;p&gt;Another good thing is that hexo organizes git repo nicely. It contains only the final static html, js and css files. Other setup related file like _config.xml or themes or plugins can be stored separately in different repositories. It&amp;rsquo;s wonderful for person who has OCD.&lt;/p&gt;
+
+&lt;h4 id=&#34;4-setup-theme-dynamically&#34;&gt;4. Setup theme dynamically&lt;/h4&gt;
+
+&lt;p&gt;With hexo, there will be no more feeling of frustrated at changing theme. Hexo has an interesting structure to organize &lt;a href=&#34;https://hexo.io/docs/themes.html&#34;&gt;&lt;em&gt;themes&lt;/em&gt;&lt;/a&gt; in a separate folder. Choosing a theme is like switching a cloth. And it&amp;rsquo;s possible to have collect different themes 👗 in your armoire.&lt;/p&gt;
+
+&lt;h4 id=&#34;5-fast&#34;&gt;5. Fast&lt;/h4&gt;
+
+&lt;p&gt;Overall, hexo gives me an impression &lt;em&gt;fast&lt;/em&gt;, starting from the command execution with one letter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hexo s &amp;lt;=&amp;gt; hexo server
+hexo g &amp;lt;=&amp;gt; hexo generate
+hexo d &amp;lt;=&amp;gt; hexo deploy
+hexo cl &amp;lt;=&amp;gt; hexo clean
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;According to my needs, compared to Jekyll hexo has a net name, no learning curve, magic deployment, variable themes, and it runs faster. I&amp;rsquo;m quite satisfied with hexo so far. Maybe I will give &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; a try soon. But who knows when I will switch to the &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;next generator&lt;/a&gt;? 😬&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why I Failed to Use Calabash for Mobile Testing</title>
+      <link>http://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</link>
+      <pubDate>Sat, 21 Jan 2017 10:48:00 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*61zMYo0AKZw7F_-UTBgULQ.jpeg&#34; alt=&#34;Sunset&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;When I give up, I write it down. Someday I will pick myself up from the fall.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;preface&#34;&gt;Preface&lt;/h3&gt;
+
+&lt;p&gt;I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it &lt;em&gt;reckless passion&lt;/em&gt;. Although I learned a lot from it, I&amp;rsquo;ve never shared what I learned in public. After that I changed my focus and gave up on traditional UI automation.&lt;/p&gt;
+
+&lt;p&gt;This week, I had some small talks with our awesome developers about test automation. The idea was to implement special UI automated tests, in order to check new product release automatically instead of sanity checking manually by the whole team. I suddenly remembered that I forgot to share my failure with them. I&amp;rsquo;d like to write down in this post, my recklessness and something I learned. In case the team would like to move further on test automation, we could proceed with caution.&lt;/p&gt;
+
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;My story begins back in September 2015, a sunny day. At that moment, I was so confident that our mobile apps are fully mature for automating tests. That day I started a draft plan of test automation. In the following week, I planned everything, I finished my research to find a suitable framework, I started my experiment and even I announced my plan to the team in a non-meeting Tuesday&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;chapter-i-huge-ambitions-but-no-skills&#34;&gt;Chapter I: huge ambitions but no skills&lt;/h3&gt;
+
+&lt;p&gt;I successfully sold my big picture of test automation future to the them without any oppositions. With UI test automation, I had my dreams:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;A dream of brilliant and efficient release process&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A dream of full user behavior coverage&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A dream of no painful manual regression testing&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My initial plan is to follow the steps below:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Step 1: Build a main structure of test automation framework and create general functions&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Step 2: Create test scenarios to replace all manual sanity checks of app core features&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Step 3: Add new test scenarios to check acceptance criteria of user stories, to verify bug fixes&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To start the first step, I choose Calabash&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; as the framework. The reasons why I pick it because it is:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Cross-platform: Android and iOS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;BDD friendly&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Pure UI level, no need to dive deep into the code&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For me it looks really promising, even I had few knowledge of this tool and scripting using ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&amp;hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.&lt;/p&gt;
+
+&lt;p&gt;Now it&amp;rsquo;s time to move to the 2nd step, but soon in reality I found it&amp;rsquo;s hard to simulate user&amp;rsquo;s general actions, for example: a simple action like scroll down on a list. How many times? How far it can scroll, stop at the end or somewhere randomly?&lt;/p&gt;
+
+&lt;p&gt;Then I have to go back and forth between step 1 and step 2, when crating new test scenarios, meanwhile updating general action functions&amp;hellip; I felt troublesome.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next time I will ask myself first&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;During planning, &lt;strong&gt;&amp;ldquo;What&amp;rsquo;s the purpose of automation?&amp;rdquo;&lt;/strong&gt;, &lt;strong&gt;&amp;ldquo;What&amp;rsquo;s the limitation of automation?&amp;rdquo;&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Where to start to automate checks?&amp;rdquo;&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When choosing a tool or framework, &lt;strong&gt;&amp;ldquo;What are the pros and the cons of the tool?&amp;rdquo;&lt;/strong&gt;, &lt;strong&gt;&amp;ldquo;Does the tool fit all my needs?&amp;rdquo;&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Do I have the knowledge to master the tool?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Before staring implementation, &lt;strong&gt;What&amp;rsquo;s the testability of the product?&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Do I have a clear architecture and design of test automation?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;chapter-ii-unstable-execution-and-unreliable-result&#34;&gt;Chapter II: unstable execution and unreliable result&lt;/h3&gt;
+
+&lt;p&gt;Finally, I replaced almost all sanity checks by automated checks. I planned to announce the results to the team proudly but actually I didn&amp;rsquo;t. Because after I tried to run tests several times, I found that test executions are not stable and test results are not reliable.&lt;/p&gt;
+
+&lt;h4 id=&#34;unstable-test-execution&#34;&gt;Unstable test execution&lt;/h4&gt;
+
+&lt;p&gt;I created some Android emulators where I launch tests, but emulator is usually laggy. The frequent timeout of some test steps often destroyed the whole test execution. Then I have to launch tests on the real devices. Timeout issues got fewer. But after one snapshot version, executions were blocked by some small UI changes. After adapted all UI changes, I thought the execution should be smooth but I got the opposite. Due to the differences of test environment, some test cases are only executable in production environment, I have to add the mechanism to detect and switch environments.&lt;/p&gt;
+
+&lt;h4 id=&#34;unreliable-test-result&#34;&gt;Unreliable test result&lt;/h4&gt;
+
+&lt;p&gt;The worst thing in test automation is Schrödinger test, aka flaky test. Like ghosts haunting around, it&amp;rsquo;s never sure that the result is failing or passing after a running. I got some flaky tests due to the timing among actions, too many preconditions to fulfill, the changeable input data in production environment, the bugs in framework&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;A huge test case will also cause unreliable test results. Imagine a 20-step test case, if it&amp;rsquo;s failed in the 5th step, the hidden failure in the rest part is not able to be detected without continuing the execution. On the surface, it&amp;rsquo;s only one failure. But its possible that the failures of next 15 steps are covered underneath. I separated some huge test cases to small test cases. But in some cases, one step dependents on the app state created by another step. It took effort to remove dependencies.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next time I will ask myself first&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do I have a controllable and stable test environment?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Which test environment for which test case?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do I have a process to handle flaky tests? Retry, quarantine or remove?&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Is a failed test case clear enough to identify bugs?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;chapter-iii-one-man-show-and-demotivated-maintenance&#34;&gt;Chapter III: one-man show and demotivated maintenance&lt;/h3&gt;
+
+&lt;p&gt;3 months later, I didn&amp;rsquo;t go further in the 3rd step. Because my confidence was teared apart by unreliable results and my passion was extinguished by daily maintenance tasks. I told myself that it&amp;rsquo;s time to give up. Silently I stopped putting my effort to write new tests and maintain test suite.&lt;/p&gt;
+
+&lt;p&gt;2 sprints after, I came back from my vacation. I doubted whether tests were still executable. Then I accessed to the old Calabash repository carefully and executed scripts curiously, as expected, not a single test can start to run.&lt;/p&gt;
+
+&lt;p&gt;Since then, no one, including me, ever mentioned about Calabash test automation. I realized my biggest mistake: I should let the team involve in the entire automation project. So it wouldn&amp;rsquo;t end up now as a ridiculous one-man show.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Next time I will ask myself first&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Am I the only one who maintain the whole automation project?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do I manage to update test suite immediately after code changes?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;How do I measure the test automation whether it&amp;rsquo;s helpful or not?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fin&#34;&gt;Fin&lt;/h3&gt;
+
+&lt;p&gt;The sad story is over. It triggers the change of test automation definition in my mind. Now I see test automation as a tool&lt;sup&gt;&lt;a name=&#34;back4&#34;&gt;&lt;a href=&#34;#link4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; and a tester augmentation&lt;sup&gt;&lt;a name=&#34;back5&#34;&gt;&lt;a href=&#34;#link5&#34;&gt;[5]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. Following this definition, I made a lot of scripts to help me explore products efficiently.&lt;/p&gt;
+
+&lt;p&gt;But somewhere in my mind, I still have my assent of the traditional definition of test automation; Somewhere in my heart, I still have my passion to create a perfect UI automation for mobile testing. Next time when I restart, I will ask myself the above questions, to explore another path towards the successful &amp;ldquo;UI automation&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Calabash &lt;a href=&#34;http://calaba.sh/&#34;&gt;homepage&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Oleksii Burdin: &lt;a href=&#34;https://lazytesterua.blogspot.de/2016/02/where-to-start-automation.html&#34;&gt;Where to start to automate your checks?&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Walmyr Filho: &lt;a href=&#34;https://medium.com/the-making-of-appear-in/the-importance-of-dealing-with-flaky-tests-1b69145dee0f#.q5fgedjx0&#34;&gt;The importance of dealing with flaky tests&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link4&#34;&gt;&lt;a href=&#34;#back4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt; Micheal Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2016/01/a-context-driven-approach-to-automation-in-testing/&#34;&gt;A Context-Driven Approach to Automation in Testing&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link5&#34;&gt;&lt;a href=&#34;#back5&#34;&gt;[5]&lt;/a&gt;&lt;/a&gt; Josh Meieter: &lt;a href=&#34;https://medium.com/salesforce-engineering/tester-augmentation-not-test-automation-1de28269c9a4#.cdq1utnu3&#34;&gt;Tester Augmentation, Not Test Automation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nobody Asks Me Questions but I&#39;ve Some Answers</title>
+      <link>http://krazycavin.github.io/2017/01/13/nobody-asks-me-questions-but-i-give-some-answers/</link>
+      <pubDate>Fri, 13 Jan 2017 17:20:53 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2017/01/13/nobody-asks-me-questions-but-i-give-some-answers/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*S4QCcKz1OmopX580Q2X_Vg.jpeg&#34; alt=&#34;qa&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So far no one asks me any of questions I post below because it&amp;rsquo;s so obvious that I&amp;rsquo;m not interviewed, I&amp;rsquo;m not a speaker, I&amp;rsquo;m not a celebrity in software testing&amp;hellip; But in &lt;strong&gt;edge case&lt;/strong&gt; in the future, there is a little chance that someone would ask me these questions. In this case, the answers are provided even without asking. How awesome it is ¯\_(ツ)_/¯&lt;/p&gt;
+
+&lt;p&gt;I start these 3 questions from this interview &lt;a href=&#34;https://ukstar.eurostarsoftwaretesting.com/meet-ukstar-speaker-cassandra-leung/&#34;&gt;Meet UKSTAR Speaker – Cassandra Leung&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;how-did-you-get-started-in-software-testing&#34;&gt;How did you get started in software testing?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/HVr4gFHYIqeti.gif&#34; alt=&#34;adventure&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I can say 90% tester has a particular journey to start software testing adventure. I&amp;rsquo;m no exception.&lt;/p&gt;
+
+&lt;p&gt;As a freshman in Bio-Engineering, I didn&amp;rsquo;t expect at all that my profession would be related to software testing.&lt;/p&gt;
+
+&lt;p&gt;To start my journey on software testing is a beautiful coincidence I had in my life. I&amp;rsquo;ve a master degree of Biomedical in medical imaging area. As a hobby, I learned some programming skills by myself. Luckily, my diploma and my skills helped me to get an internship in a medical software company. I was in the software department and my mission is to build a web management tool.&lt;/p&gt;
+
+&lt;p&gt;After 8 months, the employer was quite happy about the outcomes of my internship. At that moment, they were searching for a new developer who can write scripts to build a in-house test automation framework and writing test cases. Luckily, I was chosen to start my adventure in software testing, as a SDET.&lt;/p&gt;
+
+&lt;h3 id=&#34;who-inspires-you&#34;&gt;Who inspires you?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/JpMv34oxICQrS.gif&#34; alt=&#34;sylar&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m inspired by a lot of awesome people. I&amp;rsquo;ve a list of these brilliant people, from whom I would like to steal their brains (I&amp;rsquo;m serious 👿). In software testing, I will name &lt;a href=&#34;https://twitter.com/michaelbolton&#34;&gt;Micheal Bolton&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/lisacrispin&#34;&gt;Lisa Crispin&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/testobsessed&#34;&gt;Elisabeth Hendrickson&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/dnlkntt&#34;&gt;Daniel Knott&lt;/a&gt;. If you know them, please send them my thanks and I&amp;rsquo;m coming for them soon ☺️&lt;/p&gt;
+
+&lt;h3 id=&#34;what-do-you-see-for-the-future-of-software-testing&#34;&gt;What do you see for the future of software testing?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/8IXEHur.gif&#34; alt=&#34;everyone&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For me, it&amp;rsquo;s a difficult question. Although my ability of prediction sucks, I&amp;rsquo;m predicting that the future of software testing is &lt;strong&gt;everyone performs small testing habitually&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The traditional checkpoint style testing will be sliced to some small tiny pieces. They&amp;rsquo;ll be performed continually by every team members in daily development, no matter programmed checking or manual testing.&lt;/p&gt;
+
+&lt;p&gt;Everyone takes care of testing and everyone does it habitually, even not testers. It&amp;rsquo;s a real challenge for the whole team to perform testing habitually, and also a huge challenge for testers to think how to help the whole team to perform testing habitually without testers. As a current trend, testers are shifted around. This movement of testers will bring the seeds of testing knowledge to different people in different job positions.&lt;/p&gt;
+
+&lt;h3 id=&#34;to-be-continued&#34;&gt;&lt;em&gt;(To be continued&amp;hellip;)&lt;/em&gt;&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bugshido: Classify Warrior Bugs</title>
+      <link>http://krazycavin.github.io/2017/01/08/bugshido/</link>
+      <pubDate>Sun, 08 Jan 2017 12:31:43 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2017/01/08/bugshido/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*En26YWwPSATot5n4bBjLrw.jpeg&#34; alt=&#34;war&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Warriors are born to die. Warriors live to be remembered.&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called &lt;strong&gt;Bugshido&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;As we all known, &lt;a href=&#34;https://en.wikipedia.org/wiki/Bushido&#34;&gt;Bushido&lt;/a&gt;: 武士道 the &lt;strong&gt;way&lt;/strong&gt; (Dō or Tao) of the &lt;strong&gt;warrior&lt;/strong&gt; (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors. Inspired by Bushido, Bugshido is the way symbolically to determine the existence of different bugs. The idea of Bugshido is based on the way which combines &lt;strong&gt;priority&lt;/strong&gt; and &lt;strong&gt;severity&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; by&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Priority: High, Medium, Low&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Severity: Critical, Major, Minor, Trivial&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Besides the name Bugshido, technically, it&amp;rsquo;s just a metaphor and there is nothing really new about it. Well, maybe itself is funny.&lt;/p&gt;
+
+&lt;p&gt;Now, imagine you are the emperor (developer/PO) rules a country (code base/product). Due to some changes here or there, the evil forces will raise against you. They are gathering warriors to break your country. As your Emperor&amp;rsquo;s adviser (tester), I&amp;rsquo;d like to explain you how to identify your enemies and the tactic to handle them.&lt;/p&gt;
+
+&lt;h3 id=&#34;geisha&#34;&gt;Geisha&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=79215&amp;amp;type=card&#34; alt=&#34;geisha&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Priority: Low&lt;br/&gt;Severity: Minor&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Geisha&#34;&gt;Geisha&lt;/a&gt; barely knows how to fight. All Geisha&amp;rsquo;s skills related to perform arts like music, dance&amp;hellip; Therefore, Geisha is not harmful and sometimes very entertaining. But in some edge cases, when the art a Geisha trained is martial art, she could become a dangerous assassin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advice: Go to visit them time to time when you&amp;rsquo;re bored.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;sōhei&#34;&gt;Sōhei&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=78684&amp;amp;type=card&#34; alt=&#34;sohei&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Priority: Low&lt;br/&gt;Severity: Major&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Sōhei&#34;&gt;Sōhei&lt;/a&gt; is known as warrior monk. Although warrior monk is the master of martial acts, his initial purpose to fight is to protect people, temple, Buddha&amp;hellip; Monk warriors are usually humble and peaceful. They won&amp;rsquo;t attack unless they&amp;rsquo;re attacked. Even they gonna fight, they will fight defensively. In general, warrior monks stay in their territory quietly. They appear because of the broke environment, which is caused by some small or big changes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advice: Find out the trigger is important. Normally they&amp;rsquo;re tough but there is no need of a long battle. A promise of reform should pacify them. If you choose to collect information and do nothing first, just don&amp;rsquo;t forget to add improvement later by refactoring.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rōnin&#34;&gt;Rōnin&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=74199&amp;amp;type=card&#34; alt=&#34;Ronin&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Priority: High&lt;br/&gt;Severity: Minor&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Rōnin&#34;&gt;Rōnin&lt;/a&gt; was a samurai who becomes masterless. Their skills were highly developed but without the purpose of life, their mind could become weak. They are wandering everywhere in the country and looking for a way to make a living with their swords, no matter good or evil.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advice: Seize the opportunity When they&amp;rsquo;re still weak and eliminate them as soon as possible before them are caught by evil force.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;samurai&#34;&gt;Samurai&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=50408&amp;amp;type=card&#34; alt=&#34;samurai&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Priority: High&lt;br/&gt;Severity: Major&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Samurai&#34;&gt;Samurai&lt;/a&gt; is the highest rank of warriors. The mastery of the sword is one of Samurai&amp;rsquo;s traits. Another one is the loyalty: they believe that the death to serve their lord is a great honor. They will fight to die on the battle, without blinking an eye. Send shivers down spine, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advice: Brace yourself, you know a tough fight is impossible to avoid. If you&amp;rsquo;re not sure Samurai&amp;rsquo;s capability, better to ask team members for support.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ninja&#34;&gt;Ninja&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=423530&amp;amp;type=card&#34; alt=&#34;ninja&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Priority: High&lt;br/&gt;Severity: Critical&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ninja&#34;&gt;Ninja&lt;/a&gt; exists as a mystery, rather than a warrior. A typical Ninja will hide in the shadow, waiting for a moment to kill the target with one fatal hit. The danger begins when the negligence of Ninja&amp;rsquo;s existence. Even sometimes there is a feeling to tell you that Ninja might be hidden in certain areas, but Ninja perform ninjutsu to keep them &lt;strong&gt;unpredictable&lt;/strong&gt; in first place.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advice: Unfortunately, most of time Ninja is only found after serious damages are made. The key point is fast-react in order to minimize the losses. Once a Ninja is defeated, take a lesson and learn not be fooled by the same ninjutsu next time.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;warrior-triage&#34;&gt;Warrior Triage&lt;/h3&gt;
+
+&lt;p&gt;After warrior-showoff is over, let&amp;rsquo;s take a closer look to the triage process. This part describes the battle tactic, it might be a little bit boring.&lt;/p&gt;
+
+&lt;h4 id=&#34;ninja-definitely-triggers-a-hotfix&#34;&gt;Ninja definitely triggers a hotfix&lt;/h4&gt;
+
+&lt;p&gt;A Ninja bug needs an urgent fix because it&amp;rsquo;s destructing the core functionality of the product. Everyone in the team, who can contribute efforts, should focus on the fix immediately. Seriously it&amp;rsquo;s the last step before a final checkmate.&lt;/p&gt;
+
+&lt;h4 id=&#34;samurai-blocks-new-product-release&#34;&gt;Samurai blocks new product release&lt;/h4&gt;
+
+&lt;p&gt;A Samurai bug or Ronin bug are considered as high potential dangers. No matter a huge effort taken to fix Samurai bug or a small effort taken to fix Ronin bug, they have to be fixed before releasing. In brief, Samurai bug is the release blocker.&lt;/p&gt;
+
+&lt;h4 id=&#34;sohei-geisha-are-about-time&#34;&gt;Sohei &amp;amp; Geisha are about time&lt;/h4&gt;
+
+&lt;p&gt;A Sohei bug or a Geisha bug could exist in product for a long time. Some of them never bother customers once. Their existence proves that nothing is perfect. Rather than keeping them in tracking tools, it&amp;rsquo;s justified to give them a Euthanasia after a specific time by closing them in tracking tool. It&amp;rsquo;s a decision made to balance allocated effort and added value.&lt;/p&gt;
+
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;I hope you had fun of reading. Besides that, now you know &lt;strong&gt;Bugshidao&lt;/strong&gt; to identify a warrior, like Ninja, Samurai, Ronin, Sohei and Geisha. You&amp;rsquo;ve also the basic tactic to deal them them. Last advice I have to give you, my friend, as I always keep it in my mind to warn myself:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Wake up! Evil warriors are killing your customers!&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Defect &lt;a href=&#34;http://softwaretestingfundamentals.com/defect/&#34;&gt;Classification&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Dan Ashby: &lt;a href=&#34;https://danashby.co.uk/2013/05/07/what-about-priority-and-severity/&#34;&gt;What about Priority and Severity&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Year 2k16</title>
+      <link>http://krazycavin.github.io/2016/12/23/my-year-2016/</link>
+      <pubDate>Fri, 23 Dec 2016 19:56:57 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2016/12/23/my-year-2016/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sSwfFaDzVYmhN7cPWANpuQ.jpeg&#34; alt=&#34;tree&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;A journey of a thousand miles begins with a single step.&amp;rdquo; &amp;ndash; Lao Tzu&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There is a tradition in Japan since 1995: Every year, one character will be chosen as &lt;a href=&#34;https://en.wikipedia.org/wiki/Kanji_of_the_year&#34;&gt;kanji of the year&lt;/a&gt; at Kiyomizu Temple, which represents the events of the entire year.&lt;/p&gt;
+
+&lt;p&gt;So I choose the character of my year 2016 is &lt;strong&gt;Shi&lt;/strong&gt; &lt;img src=&#34;https://raw.githubusercontent.com/KrazyCavin/krazycavin-jekyll-github-io/master/_source/beginning.png&#34; alt=&#34;beginning&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It means: to start, beginning.&lt;/p&gt;
+
+&lt;h3 id=&#34;begin-to-connect&#34;&gt;&lt;strong&gt;Begin to connect&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/j6iyD03LaUNuU.gif&#34; alt=&#34;modem&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;01-jan-2016-a-new-habit&#34;&gt;&lt;strong&gt;01 Jan 2016: A new habit&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Actually it&amp;rsquo;s easy for me to build this habit. I have too much time during my daily commute. Why not use this time for &lt;strong&gt;reading&lt;/strong&gt; articles I bookmarked? I&amp;rsquo;m quite happy that I keep reading everyday to charge my brain. Things are learnt from reading which inspire me to think more, to go deeper into the question &lt;strong&gt;why&lt;/strong&gt; behind &lt;strong&gt;what&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;A small fun fact: In 2016, I read &lt;strong&gt;2,089,596&lt;/strong&gt; words in &lt;a href=&#34;https://getpocket.com/&#34;&gt;Pocket&lt;/a&gt;, which is like reading 44 books. What a surprise I didn&amp;rsquo;t expect!&lt;/p&gt;
+
+&lt;p&gt;Also I managed to finish reading:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.kaner.com/pdfs/bugadvoc.pdf&#34;&gt;Bug Advocacy&lt;/a&gt; - Cem Kaner&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://books.google.de/books/about/How_Google_Tests_Software.html?id=vHlTOVTKHeUC&amp;amp;redir_esc=y&#34;&gt;How Google Tests Software&lt;/a&gt; - James A. Whittaker&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ministryoftesting.com/2010/12/mr-fails/&#34;&gt;Mr. Fails&lt;/a&gt; - Andy Glover&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://linuxcommand.org/tlcl.php&#34;&gt;The Linux Command Line&lt;/a&gt; - William Shotts&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.selfishprogramming.com/about/&#34;&gt;The Dream Team Nightmare&lt;/a&gt; - Portia Tung&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.jamesshore.com/Agile-Book/&#34;&gt;The Art of Agile Development&lt;/a&gt; - James Shore&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And I finished rereading:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://adventuresinqa.com/hands-on-mobile-app-testing/&#34;&gt;Hands-on Mobile App Testing&lt;/a&gt; - Daniel Knott&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But I left some books which are not finished yet:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.briantracy.com/blog/tag/eat-that-frog/&#34;&gt;Eat That Frog&lt;/a&gt; - Brian Tracy&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow&#34;&gt;Think, Fast and Slow&lt;/a&gt; - Daniel Kahneman&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;22-may-2016-a-new-tweet-https-twitter-com-kevcui-statuses-734274031860469760&#34;&gt;&lt;strong&gt;22 May 2016: A new &lt;a href=&#34;https://twitter.com/KevCui/statuses/734274031860469760&#34;&gt;tweet&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;After abandoned twitter account 6 years ago, I come back to twitter over again.&lt;/p&gt;
+
+&lt;p&gt;With a main focus on software testing, I followed tons of awesome people, read lots of great posts and participated some interesting challenges as well. I feel so happy to see passionate testers tweeting around with new interesting ideas and concepts. Also I saw many doubts and misunderstanding of QA, tester and testing&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Good or bad are two sides of the same coin. The point of view to an alive thing cannot be perfectly right or absolutely wrong. I started to question &amp;ldquo;What is quality?&amp;rdquo;, &amp;ldquo;What is my job as tester and QA?&amp;rdquo;, &amp;ldquo;What is testing?&amp;rdquo; and &amp;ldquo;What is wrong about them?&amp;rdquo;&amp;hellip; As far as I can see, software testing itself is evolving, for a new era.&lt;/p&gt;
+
+&lt;h4 id=&#34;07-aug-2016-the-first-repository-https-github-com-krazycavin-rio2016-medaltable&#34;&gt;&lt;strong&gt;07 Aug 2016: The first &lt;a href=&#34;https://github.com/KrazyCavin/rio2016-medaltable&#34;&gt;repository&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;I started to program something for fun. Actually, what I did isn&amp;rsquo;t a big-deal at all: some CLI geek-weird scripts and wrappers of some unpopular api&amp;hellip; But the most important thing is that I had a lot of fun. I enjoy the time when I do programming! Do I test my code? Nope, not now XD&lt;/p&gt;
+
+&lt;h4 id=&#34;18-nov-2016-a-new-blog-https-krazycavin-github-io-krazycavin-github-io-2016-hello-world&#34;&gt;&lt;strong&gt;18 Nov 2016: A new &lt;a href=&#34;https://krazycavin.github.io/krazycavin.github.io/2016/hello-world/&#34;&gt;blog&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;A new blog 🎉 Yes, another one! What&amp;rsquo;s different? Totally different, this time it&amp;rsquo;s a &lt;a href=&#34;https://pages.github.com/&#34;&gt;cooler way&lt;/a&gt; to blog. I promise that I will continue to keep recording crazy things happen in my journey.&lt;/p&gt;
+
+&lt;h3 id=&#34;begin-to-refine&#34;&gt;&lt;strong&gt;Begin to refine&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/vqpfhGHbLvhqo.gif&#34; alt=&#34;job&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;what-is-quality&#34;&gt;&lt;strong&gt;What is quality?&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;I started to change my understanding of the definition of quality, from &lt;del&gt;&amp;ldquo;The traditional software quality model identifies 6 main quality characteristics: &amp;hellip;.&amp;rdquo;&lt;/del&gt;&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; to &lt;strong&gt;&amp;ldquo;Quality is value to some person.&amp;rdquo;&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;what-is-my-job&#34;&gt;&lt;strong&gt;What is my job?&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;My job title is QA Engineer, as known as, &lt;a href=&#34;https://en.wikipedia.org/wiki/Quality_assurance&#34;&gt;Quality Assurance&lt;/a&gt; Engineer.&lt;/p&gt;
+
+&lt;p&gt;How I am able to make quality assured? Not really.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;We don’t own quality. We&amp;rsquo;re helping the people who are responsible for quality and the things that influence it.&amp;rdquo;&lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I see myself as a &lt;strong&gt;Quality Assistance&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back4&#34;&gt;&lt;a href=&#34;#link4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My role: Quality Control -&amp;gt; Quality Assurance -&amp;gt; Quality Assistance&lt;br /&gt;Me: Focus product -&amp;gt; Focus process -&amp;gt; Focus team motivation on testing&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/794424645332205568&#34;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;h4 id=&#34;what-is-testing&#34;&gt;&lt;strong&gt;What is testing?&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&amp;ldquo;Checking Is Confirmation. Testing Is Exploration and Learning.&amp;rdquo;&lt;sup&gt;&lt;a name=&#34;back5&#34;&gt;&lt;a href=&#34;#link5&#34;&gt;[5]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I see testing is a way to explore unknown of the product and to provide information of the awareness of risks.&lt;/p&gt;
+
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Nice metaphor! I do my best to provide correct relative info to who need know risks. Based on info, not me, they take care of their sleep... &lt;a href=&#34;https://t.co/Vuofazss3G&#34;&gt;https://t.co/Vuofazss3G&lt;/a&gt;&lt;/p&gt;&amp;mdash; @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/803337284447768576&#34;&gt;November 28, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;h3 id=&#34;begin-to-be-crazy&#34;&gt;&lt;strong&gt;Begin to be &amp;ldquo;Crazy&amp;rdquo;&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/N2rLxtwaU9rBC.gif&#34; alt=&#34;carzy&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Crazy&amp;rdquo; is being out of the ordinary. It&amp;rsquo;s a courage to have breakthrough thinking. I knew that some experiments sounds &amp;ldquo;crazy&amp;rdquo; but I really did them:&lt;/p&gt;
+
+&lt;h4 id=&#34;don-t-open-new-bug-ticket-immediately-until-must-have&#34;&gt;&lt;strong&gt;Don&amp;rsquo;t open new bug ticket immediately&lt;/strong&gt; until must-have&lt;/h4&gt;
+
+&lt;p&gt;When I have some findings, I&amp;rsquo;d like to check with other team members first, instead of logging it into bug tracking tool. Why? Because there is no value added to log a bug, fix it does. If its severity is low, regarding to effort and outcome, it won&amp;rsquo;t be fixed; If its severity is high, we should eliminate it immediately.&lt;sup&gt;&lt;a name=&#34;back6&#34;&gt;&lt;a href=&#34;#link6&#34;&gt;[6]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Another good thing without a bug ticket: I have to talk to developers and show them how issue looks like. Then we could start to discuss what&amp;rsquo;s the correct behavior from programming perspective and from user perspective. Then we go for a fix and test the fix together. For me, until now it&amp;rsquo;s the most efficient way to fix bugs.&lt;/p&gt;
+
+&lt;h4 id=&#34;remove-manual-regression-tests-because-i-m-shifted-left-sup-a-name-back7-7-link7-a-sup&#34;&gt;&lt;strong&gt;Remove manual regression tests&lt;/strong&gt; because I&amp;rsquo;m shifted-left&lt;sup&gt;&lt;a name=&#34;back7&#34;&gt;&lt;a href=&#34;#link7&#34;&gt;[7]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
+
+&lt;p&gt;No manual regression tests doesn&amp;rsquo;t mean not verify bug fix at all. The idea is old &amp;ldquo;Do testing as earlier as possible.&amp;rdquo; Instead of checking fix after developer says &amp;ldquo;done&amp;rdquo;, all manual tests should be done earlier before integration. It makes the feedback circle smaller. Let&amp;rsquo;s say &amp;ldquo;done&amp;rdquo; together.&lt;/p&gt;
+
+&lt;h4 id=&#34;make-team-testing-great-with-lots-of-fun&#34;&gt;&lt;strong&gt;Make team testing great&lt;/strong&gt; with lots of fun&lt;/h4&gt;
+
+&lt;p&gt;I say goodbye to the boring team testing. It&amp;rsquo;s not my style to organize a traditional team testing. I urge to &lt;a href=&#34;http://krazycavin.github.io/2016/Lets-have-some-fun-team-exploratory-testing/&#34;&gt;make it funny&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/2 Testing should be full of fun, like a treasure hunting, an Easter egg search,  a Geocache... a game to enjoy to have fun, not to win it&lt;br/&gt;&lt;br/&gt;2/2 I&amp;#39;d like to make a Team Testing:&lt;br /&gt;New features over Whole product&lt;br /&gt;User nature act over Planned step&lt;br /&gt;Motivation driven over Result driven&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/794439768041984000&#34;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+
+&lt;h4 id=&#34;ignore-low-usage-os-version-in-order-to-gain-precious-time&#34;&gt;&lt;strong&gt;Ignore low usage OS version&lt;/strong&gt; in order to gain precious time&lt;/h4&gt;
+
+&lt;p&gt;I removed a target OS version in scope in test plan because of its user coverage is really low. It turned to be a really big mistake. 😶
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;What I learnt:&lt;br /&gt;1. Never ignore an OS if it&amp;#39;s still in scope&lt;br /&gt;2. Still perform some tests on low coverage OS to at least check main functions&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/803309463541350400&#34;&gt;November 28, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;beginning-of-a-new-year&#34;&gt;&lt;strong&gt;Beginning of a New Year&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://4.bp.blogspot.com/-979_W3SpM3k/WFeQrw_CxvI/AAAAAAAAAHo/1Iuf3oXcKs8xKllAWXvQ6bJWRPHrnAHuACLcB/s400/2.jpg&#34; alt=&#34;newyear&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For the next year, I won&amp;rsquo;t expect a big change coming, but maybe some small changes. What I know is that my journey will continue, step by step.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll &lt;strong&gt;Fail friendly&lt;/strong&gt;, &lt;strong&gt;Learn fast&lt;/strong&gt; and &lt;strong&gt;Stay strong&lt;/strong&gt;!&lt;/p&gt;
+
+&lt;p&gt;始 终&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; ISO 9126 &lt;a href=&#34;http://www.sqa.net/iso9126.html&#34;&gt;Software Quality Characteristics&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Gerald M. Weinberg: &lt;a href=&#34;http://secretsofconsulting.blogspot.de/2012/09/agile-and-definition-of-quality.html&#34;&gt;Agile and the Definition of Quality&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Micheal Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/&#34;&gt;Blog: Testers: Get Out of the Quality Assurance Business&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link4&#34;&gt;&lt;a href=&#34;#back4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt; James Bach: &lt;a href=&#34;https://prezi.com/yymvnxbysd9i/a-testers-commitments-by-james-bach/&#34;&gt;A Tester&amp;rsquo;s Commitments&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link5&#34;&gt;&lt;a href=&#34;#back5&#34;&gt;[5]&lt;/a&gt;&lt;/a&gt; Micheal Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2009/08/testing-vs-checking/&#34;&gt;Blog: Testing vs. Checking&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link6&#34;&gt;&lt;a href=&#34;#back6&#34;&gt;[6]&lt;/a&gt;&lt;/a&gt; Augusto Evangelisti: &lt;a href=&#34;https://mysoftwarequality.wordpress.com/2016/10/17/ultimate-guide-to-reducing-the-amount-of-defects-and-other-waste-in-your-product/&#34;&gt;Ultimate Guide to Reducing the Amount of Defects and other Waste in your Product&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link7&#34;&gt;&lt;a href=&#34;#back7&#34;&gt;[7]&lt;/a&gt;&lt;/a&gt; Jesper Ottosen: &lt;a href=&#34;https://jlottosen.wordpress.com/2016/10/10/shift-left/&#34;&gt;Trending: Shift-Left&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>10 (Unpopular but Good Quality) Android Apps I Recommend</title>
+      <link>http://krazycavin.github.io/2016/12/18/apps-i-recommend/</link>
+      <pubDate>Sun, 18 Dec 2016 15:29:04 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2016/12/18/apps-i-recommend/</guid>
+      <description>&lt;p&gt;I feel the urge to make a list before the end of this year. I donn&amp;rsquo;t know what to add for a list. So, I&amp;rsquo;m gonna recommend 10 android apps. I would say they&amp;rsquo;re not quite popular, because none of my friends has them (at least some friends whose phones I&amp;rsquo;ve checked). Personally, I really like these apps. They are making my life easier very day.&lt;/p&gt;
+
+&lt;p&gt;#10 &lt;img src=&#34;https://lh6.ggpht.com/os72icmFlDtbxpYbZCP-v6kOereSLGDmlKsBl1ISTPdgbcpoc4rSIuXDuoDECvgcvoFJ=w32&#34; alt=&#34;Barcode&#34; /&gt;
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.google.zxing.client.android&#34;&gt;Barcode Scanner&lt;/a&gt;
+&lt;br/&gt;
+Source code: &lt;a href=&#34;https://github.com/zxing/zxing&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
+&amp;ndash; I use it mostly for QR code scan. It supports to scan ton of codes, which I never used once&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;#9 &lt;img src=&#34;https://lh3.googleusercontent.com/Qyoyu4zcIfgFeWB_p02F1w5ihsS1MQ_0QYYKxyzQ4MzjQ39VtQl57abyq9YuZgFSIv7k=w32&#34; alt=&#34;devrant&#34; /&gt;
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.hexicallabs.devrant&#34;&gt;devRant&lt;/a&gt;
+&lt;br/&gt;
+&amp;ndash; A very clean app with full of unclean dev jokes. They&amp;rsquo;re funny, they&amp;rsquo;re mean, they&amp;rsquo;re real devs.&lt;/p&gt;
+
+&lt;p&gt;#8 &lt;img src=&#34;https://lh3.googleusercontent.com/dFePrSuuWe6wD9xfNOrFQZoJAlBvwVYRZmDKnOAbQX6vxJmMMY2pBSUVIAwp8PAUI5v2=w32&#34; alt=&#34;FreeDCam&#34; /&gt;
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=troop.com.freedcam&#34;&gt;FreeDCam&lt;/a&gt;
+&lt;br/&gt;
+Source code: &lt;a href=&#34;https://github.com/troop/FreeDcam&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
+&amp;ndash; A high customizable camera app, specially destined for photo geek.&lt;/p&gt;
+
+&lt;p&gt;#7 &lt;img src=&#34;https://lh6.ggpht.com/FDMKTEO0v38Q-Tsgo2f6t5ZcbUQUxDZDUIofbEfjyzTCQzU7wJCaeDMsw7_iL3LRoA=w32&#34; alt=&#34;Opengur&#34; /&gt;
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.kennyc.open.imgur&#34;&gt;Opengur&lt;/a&gt;
+&lt;br/&gt;
+Source code: &lt;a href=&#34;https://github.com/Kennyc1012/Opengur&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
+&amp;ndash; A really good alternative app of Imgur. At least, unlike Imgur, Opengur always works when uploading pictures.&lt;/p&gt;
+
+&lt;p&gt;#6 &lt;img src=&#34;https://lh3.googleusercontent.com/nZnXmo0hvrtXh1eDKWnAy34b6sFGR2nekUYjZlAOF2R8k3BvhuTOlbnXRSPS2Pm3Cpc=w32&#34; alt=&#34;neutriNote&#34; /&gt;
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.appmindlab.nano&#34;&gt;neutriNote&lt;/a&gt;
+&lt;br/&gt;
+&amp;ndash; It&amp;rsquo;s one of the best app for editing Markdonw file. I use it a lot as a note app. Only thing is missing here: a sync feature.&lt;/p&gt;
+
+&lt;p&gt;#5 &lt;img src=&#34;https://lh3.googleusercontent.com/UFPeDvB63M0JpmKsVzN4P3UN0vV1ZrxdJoJCyO-P3foAleXuUqKxDE5BCKalHanR-A=w32&#34; alt=&#34;Twidere&#34; /&gt;
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.mariotaku.twidere&#34;&gt;Twidere for Twitter&lt;/a&gt;
+&lt;br/&gt;
+Source code: &lt;a href=&#34;https://github.com/mariotaku/twidere&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
+&amp;ndash; Clean look, well designed, no Ads, open source. What else do I need as a Twitter client?&lt;/p&gt;
+
+&lt;p&gt;#4 &lt;img src=&#34;https://lh3.googleusercontent.com/uuBMyrFcAb6iNE1cktu76WznoBlmoR00d9AKPUpO5LnjNtXoJksVGxqAZUMDUFFOsQ=w32&#34; alt=&#34;LeafPic&#34; /&gt;
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.horaapps.leafpic&#34;&gt;LeafPic Gallery&lt;/a&gt;
+&lt;br/&gt;
+Source code: &lt;a href=&#34;https://github.com/HoraApps/LeafPic&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
+&amp;ndash; Light, beautiful and fully functional photo gallery. It&amp;rsquo;s like the old-good day of QuickPic Gallery and it still keeps purity.&lt;/p&gt;
+
+&lt;p&gt;#3 &lt;img src=&#34;http://www.icon100.com/up/3467/32/1790-adaway.png&#34; alt=&#34;AdAway&#34; /&gt;
+&lt;a href=&#34;https://f-droid.org/repository/browse/?fdid=org.adaway&#34;&gt;AdAway&lt;/a&gt;
+&lt;br/&gt;
+Source code: &lt;a href=&#34;https://github.com/AdAway/AdAway&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
+&amp;ndash; It&amp;rsquo;s important for me to get rid of annoying Ads.&lt;/p&gt;
+
+&lt;p&gt;#2 &lt;img src=&#34;https://lh3.googleusercontent.com/vu1tmn-Fw9OSGKnEf4Q4dTk3gTB6bpjnW1ThUJN8DZAvJjFXJ7Kgt7T1v1cuShcyOY8=w32&#34; alt=&#34;TotalCommander&#34; /&gt;
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander&#34;&gt;Total Commander - file manager&lt;/a&gt;
+&lt;br/&gt;
+&amp;ndash; It offers me the power to fully control every single file on my phone. With its plugins, I can share files and get data from ftp server.&lt;/p&gt;
+
+&lt;p&gt;#1 &lt;img src=&#34;https://lh3.googleusercontent.com/aD8lHFubsqxzpVxiN72lX1xFqm42t7mDbdsxWMLzZEI9jDEWDxNmAEkW9Wt8rKajFA=w32&#34; alt=&#34;Pie Control&#34; /&gt;
+&lt;a href=&#34;https://play.google.com/store/apps/details?id=jun.ace.piecontrol&#34;&gt;Pie Control&lt;/a&gt;
+&lt;br/&gt;
+&amp;ndash; Awesome control tool to replace navigation buttons. Without virtual navigation buttons, phone screen looks super clean. A phone without Pie Control is just simply not &amp;ldquo;my phone&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>My Tweet Pinboard</title>
+      <link>http://krazycavin.github.io/2016/12/11/my-tweet-pinboard/</link>
+      <pubDate>Sun, 11 Dec 2016 22:00:00 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2016/12/11/my-tweet-pinboard/</guid>
+      <description>&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/4 How does &lt;a href=&#34;https://twitter.com/hashtag/QA?src=hash&#34;&gt;#QA&lt;/a&gt; prevent defects? My opinion is &amp;quot;Not really&amp;quot;. Similar to how to prevent sickness?&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/740548391537672192&#34;&gt;June 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;2/4 Right release &amp;amp; &lt;a href=&#34;https://twitter.com/hashtag/QA?src=hash&#34;&gt;#QA&lt;/a&gt; processes,  like good habits, are necessary but not sufficient. Some unexpected virus can still break immune system.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/740548429542227968&#34;&gt;June 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;3/4 Instead of preventing deflects, &lt;a href=&#34;https://twitter.com/hashtag/QA?src=hash&#34;&gt;#QA&lt;/a&gt; should be able to point out issues as early as possible and figure out the risks as well.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/740548514762117120&#34;&gt;June 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;4/4 Still not convinced by my opinion? Ok, I got another one in my mind:&lt;br /&gt;- How does &lt;a href=&#34;https://twitter.com/hashtag/QA?src=hash&#34;&gt;#QA&lt;/a&gt; prevent defects? &lt;br /&gt;- All men must die!&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/740548551336460288&#34;&gt;June 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/2 The definition of &lt;a href=&#34;https://twitter.com/hashtag/Quality?src=hash&#34;&gt;#Quality&lt;/a&gt; is clear in the dictionary.  When it&amp;#39;s related to a product in reality, it becomes very ambiguous.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/744121256803434500&#34;&gt;June 18, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;2/2 I need rethink about:&lt;br /&gt;- Quality is for whom?&lt;br /&gt;- How good quality is good enough for a release? &lt;br /&gt;- How to measure the &lt;a href=&#34;https://twitter.com/hashtag/Quality?src=hash&#34;&gt;#Quality&lt;/a&gt;?&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/744121518079221760&#34;&gt;June 18, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Deploying a Broken Application Faster Will Not Make It Any Less Broken&amp;quot; Actually it&amp;#39;s a good point 🤔 &lt;a href=&#34;https://t.co/bjImS2Wuz9&#34;&gt;https://t.co/bjImS2Wuz9&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/745868312358313984&#34;&gt;June 23, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;If you have the power to make people disappointed. Please use it on me now.&lt;br /&gt;If you don&amp;#39;t use it on me, I will be disappointed. Would you?&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/747871195064860672&#34;&gt;June 28, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Give you 10 more minutes, you will work more efficient? &lt;a href=&#34;https://twitter.com/hashtag/WhatAbout?src=hash&#34;&gt;#WhatAbout&lt;/a&gt;&lt;br /&gt;Give you 10L more gasoline, you will drive faster?&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/751443022546661376&#34;&gt;July 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;DAY 12: PROBLEM != PRO BLAME &lt;a href=&#34;https://twitter.com/hashtag/30daysoftesting?src=hash&#34;&gt;#30daysoftesting&lt;/a&gt; &lt;a href=&#34;https://t.co/49SWRzYb9y&#34;&gt;pic.twitter.com/49SWRzYb9y&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/752877782129053696&#34;&gt;July 12, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;To whom &amp;amp; my actions during dev:&lt;br /&gt;A sophisticated dev, question why&lt;br /&gt;A reliable dev, discuss how&lt;br /&gt;A careless dev, reminder what&lt;a href=&#34;https://twitter.com/hashtag/QAThought?src=hash&#34;&gt;#QAThought&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/760718586226827264&#34;&gt;August 3, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Q: Who&amp;#39;s ur exploratory testing idol?&lt;br /&gt;A: Christopher Columbus&lt;br /&gt;Q: Cause he found America?&lt;br /&gt;A: No I like to punish local ppl as he did &lt;a href=&#34;https://twitter.com/hashtag/BadJoke?src=hash&#34;&gt;#BadJoke&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/762538415669870592&#34;&gt;August 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;If I blame ppl for their mistakes, I would keep blaming myself endlessly...&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/762718202451390468&#34;&gt;August 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;M: Inside every man there is a little boy. &lt;br /&gt;F: How about women? &lt;br /&gt;M: I don&amp;#39;t really understand them, do you?&lt;br /&gt;F: ... &lt;a href=&#34;https://twitter.com/hashtag/BadJoke?src=hash&#34;&gt;#BadJoke&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/762722516095885312&#34;&gt;August 8, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Trustworthiness&lt;br /&gt;Enthusiasm&lt;br /&gt;Seeking&lt;br /&gt;Thoughtfulness&lt;br /&gt;Efficiency&lt;br /&gt;Rationality &lt;a href=&#34;https://twitter.com/hashtag/MakeATester?src=hash&#34;&gt;#MakeATester&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/763458650992218112&#34;&gt;August 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;As a tester, I should provide as much  information as I can and point out as many risks as I can, so that a correct decision can be made.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/765252794131644416&#34;&gt;August 15, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Diff time &amp;amp; results of testing:&lt;br /&gt;0 min nothing works&lt;br /&gt;30 min several bugs&lt;br /&gt;...&lt;br /&gt;2 hours Why can&amp;#39;t find even 1 small broken thing?!&lt;a href=&#34;https://twitter.com/hashtag/QAThought?src=hash&#34;&gt;#QAThought&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/767791220466802689&#34;&gt;August 22, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;So many X Diven [development|testing]: DDD, BDD, TDD, DDT, CDT...&lt;br /&gt;I&amp;#39;ve one more DPDT: Developer&amp;#39;s Personality Driven Testing 😉 &lt;a href=&#34;https://twitter.com/hashtag/QAThought?src=hash&#34;&gt;#QAThought&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/767793254620360705&#34;&gt;August 22, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Knowing context of question can reflect the answer, which is mostly acceptable by questioner. It&amp;#39;s a compromised agreement, not a truth.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/769198108345503744&#34;&gt;August 26, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A trust without proof or evidence is a risk.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/769198166893793280&#34;&gt;August 26, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;When I&amp;#39;m hungry, I&amp;#39;m angry. &lt;br /&gt;When I&amp;#39;m full, I&amp;#39;m fool.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/769218379785900032&#34;&gt;August 26, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Finding problems is my top skill, not solving problems. If I cannot see the problem and have to solve the problem. I&amp;#39;ll be in the trouble. 😱&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/770327189111836674&#34;&gt;August 29, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;How to prevent XXX? IMO, I&amp;#39;ve to occur XXX once. I would learn from it to make sure it won&amp;#39;t happen again. No one can prevent unknown XXX.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/770328090337771520&#34;&gt;August 29, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Test coverage is a blanket to product as ur body. If it covers body wrongly, doesn&amp;#39;t matter its size, you would still get cold. &lt;a href=&#34;https://twitter.com/hashtag/QAThought?src=hash&#34;&gt;#QAThought&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/770330028743811072&#34;&gt;August 29, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;You&amp;#39;ve little thing with u every day. It doesn&amp;#39;t change u. But once it disappears, u&amp;#39;ll feel uncomfortable. I forgot to wear my smartwatch.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/770332118002102272&#34;&gt;August 29, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;If I use my mechanical keyboard to cut the trees, it doesn&amp;#39;t work out, would I say this keyboard sucks? Same for tools and frameworks.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/770668797833469953&#34;&gt;August 30, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Testing: find out unexpected anomaly, which will occur in an unknown way&lt;br /&gt;Checking: verify expected result, which was demanded in a req.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/771040708849504258&#34;&gt;August 31, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;- Beautiful &lt;br /&gt;- Cheap&lt;br /&gt;- Available now &lt;br /&gt;In general you can max. pick 2 among them.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/771043310962151424&#34;&gt;August 31, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;When you received an email from your registered web, telling you to update your password, 50% chance phishing, 50% chance data breach.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/771288557797380096&#34;&gt;September 1, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Talk about editor war between vim and emacs, I remember a saying which is interesting:&lt;br /&gt;Vim is an editor of Gods&lt;br /&gt;Emacs is God of editors&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/772872295324983296&#34;&gt;September 5, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Your dream comes true with new Apple watch and new iPhone. Yes!  you can dive into the deep sea, catch a... Magikarp &lt;a href=&#34;https://twitter.com/hashtag/AppleEvent?src=hash&#34;&gt;#AppleEvent&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/773578088991031296&#34;&gt;September 7, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;RT “It’s easier to fool people than to convince them that they’ve been fooled.”&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/776367263729512448&#34;&gt;September 15, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A skilled acrobat can perform very dangerous moves without safety net. Why needs a safety net?&lt;br /&gt;For acrobat...&lt;br /&gt;For circus...&lt;br /&gt;For audience...&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/783352225624158208&#34;&gt;October 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Whole team tests+Full TDD+More SDET+Less tester+No QA+dogfooding+crowd/openbeta testing~=secured testing shift plan&lt;a href=&#34;https://t.co/4LB5W36nJ6&#34;&gt;https://t.co/4LB5W36nJ6&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/785750873481805829&#34;&gt;October 11, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;IMO, to a startup, the critical risks usually come from outside.&lt;br /&gt;To a corporation, the critical risks usually come from inside.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/786601574130978816&#34;&gt;October 13, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/3 Different company type influences its working env, process, culture. Culture effects the way of thinking, eventually effects mindset.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/786612401449861120&#34;&gt;October 13, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;2/3 To apply certain mindset regardless company type as a context, is like putting a fish on the tree,  to see how it will climb well.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/786612663895920641&#34;&gt;October 13, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;3/3 To understand which kind of company is important to predict its culture in general, avoiding a culture shock.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/786613416324689920&#34;&gt;October 13, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;When laptop is on &amp;amp; you still want to clean keyboard, before that just open a full screen and run vi. 99% sure no mistake will happen...&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/789387538897055745&#34;&gt;October 21, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Misunderstand data + No knowledge inside blackbox = Wrong conclusion &lt;a href=&#34;https://twitter.com/hashtag/KevFail?src=hash&#34;&gt;#KevFail&lt;/a&gt;&lt;br /&gt;ER: Hand accurate info to right person, guess stays as guess&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/791335206204702722&#34;&gt;October 26, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Given once a while&lt;br /&gt;When I have to eat a 💩&lt;br /&gt;Then I&amp;#39;ll do it in an elegant way with a good mood&lt;br /&gt;But I&amp;#39;d know after if 💩 is really unavoidable&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/792031690575183872&#34;&gt;October 28, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;I&amp;#39;ve 10 years experience. It must be done this way.&amp;quot; Without a convincible reason, I&amp;#39;ll say &amp;quot;I don&amp;#39;t want to eat 10 years 💩 as you did.&amp;quot;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/794247021058289664&#34;&gt;November 3, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My role: Quality Control -&amp;gt; Quality Assurance -&amp;gt; Quality Assistance&lt;br /&gt;Me: Focus product -&amp;gt; Focus process -&amp;gt; Focus team motivation on testing&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/794424645332205568&#34;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/2 Testing should be full of fun, like a treasure hunting, an Easter egg search,  a Geocache... a game to enjoy to have fun, not to win it&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/794438919563673600&#34;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;2/2 I&amp;#39;d like to make a Team Testing:&lt;br /&gt;New features over Whole product&lt;br /&gt;User nature act over Planned step&lt;br /&gt;Motivation driven over Result driven&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/794439768041984000&#34;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;If I say awesome, means I agree&lt;br /&gt;If I say OK, means I don&amp;#39;t care&lt;br /&gt;If I care but don&amp;#39;t agree, I go crazy&lt;br /&gt;Yep I know it&amp;#39;s me ¯\_(ツ)_/¯ I&amp;#39;m OK.&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/794571152551198720&#34;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Make amen great again...&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/796262312160219136&#34;&gt;November 9, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;You don&amp;#39;t just hide things. You hide your secrets. 👀&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/798423019580493824&#34;&gt;November 15, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Agility:&lt;br /&gt;Know context&lt;br /&gt;Make small steps&lt;br /&gt;Choose changeable way&lt;br /&gt;Create own best practice&lt;br /&gt;&amp;quot;Agile is Dead &lt;a href=&#34;https://t.co/gnGGovqm5z&#34;&gt;https://t.co/gnGGovqm5z&lt;/a&gt;&amp;quot; via &lt;a href=&#34;https://twitter.com/pragdave&#34;&gt;@pragdave&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/798617865746259973&#34;&gt;November 15, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Think carefully, do crazy. &lt;a href=&#34;https://twitter.com/hashtag/MyMotto?src=hash&#34;&gt;#MyMotto&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/799146183683952640&#34;&gt;November 17, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Heard a middle-aged lady says &amp;quot;Car Zwei Go&amp;quot;. My reaction was... &lt;a href=&#34;https://t.co/rLj9ORUYRG&#34;&gt;pic.twitter.com/rLj9ORUYRG&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/800739052676845568&#34;&gt;November 21, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;What I learnt:&lt;br /&gt;1. Never ignore an OS if it&amp;#39;s still in scope&lt;br /&gt;2. Still perform some tests on low coverage OS to at least check main functions&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/803309463541350400&#34;&gt;November 28, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;How about I take a box of salad on one shelf and change it with a sandwich on another self? Then I pass a banana to an old lady... &lt;a href=&#34;https://twitter.com/hashtag/AmazonGo?src=hash&#34;&gt;#AmazonGo&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/805865120538759174&#34;&gt;December 5, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Great talk! &lt;br /&gt;- Don&amp;#39;t do Agile, be agile&lt;br /&gt;- Outcomes over outputs&lt;br /&gt;- Focus on real customers and resolve their real problems &lt;a href=&#34;https://t.co/fPpIFGImUX&#34;&gt;https://t.co/fPpIFGImUX&lt;/a&gt;&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/807628340916060160&#34;&gt;December 10, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s Have Some Fun! Team Testing</title>
+      <link>http://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
+      <pubDate>Thu, 01 Dec 2016 21:37:35 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sonAggQw-dsCFHGrcozMfg.jpeg&#34; alt=&#34;devices&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;damn-old-picture-of-team-testing&#34;&gt;&lt;strong&gt;Damn old picture of team testing&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;When we talk about team testing, I guess many of you will image a picture in your mind:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;People are sitting around a table.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When testing start, people follows same test cases on the paper, step by step &amp;ldquo;testing&amp;rdquo; product.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Soon, People looks like a robot: they look at paper and write down the answer &amp;ldquo;yes&amp;rdquo;, &amp;ldquo;expected result&amp;rdquo;, &amp;ldquo;pass&amp;rdquo;, &amp;ldquo;no&amp;rdquo;&amp;hellip; Someone will collect paper and check pass/fail&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Well, pretty like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.qalogictesting.com/wp-content/uploads/2015/06/dtest.jpg&#34; alt=&#34;&#34; /&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m always asking myself. If I&amp;rsquo;m one of these guys participating this the kind of team testing, would I be bored to die? What&amp;rsquo;s the problem here?&lt;/p&gt;
+
+&lt;p&gt;Why not make team testing like taking a challenge, playing a game, exploring around?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oscarandpatch.co.uk/image_uploads_mce/testing-team.jpg&#34; alt=&#34;&#34; /&gt;&lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;let-s-have-some-fun&#34;&gt;&lt;strong&gt;Let&amp;rsquo;s have some fun!&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&#34;people-are-sitting-around-a-table-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;People are sitting around a table.&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Instead of limiting people to focus on his own stuff, I really like to make people pair together and let them share a &amp;ldquo;test challenge&amp;rdquo;. They can do testing together no mater where they want. Paring together in team testing is a good test strategy for:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Making comparison&lt;/strong&gt;: when it needs to know if different platforms, different versions have different behaviors&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Exchanging idea&lt;/strong&gt;: when someone comes an idea, (s)he can immediately try with her/his testing partner&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Remembering findings&lt;/strong&gt;: when something found, (s)he can show to her/his partner how to reproduce&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Training newcomer&lt;/strong&gt;: when a new team member is joining, (s)he is not quite familiar with product&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;everyone-gets-a-paper-in-front-of-them-this-paper-could-be-a-check-list-full-of-test-steps-could-be-a-sheet-full-of-test-scenarios-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;In my team testing, there is no check list, no test scenarios. I call them &lt;strong&gt;mission&lt;/strong&gt; and &lt;strong&gt;challenge&lt;/strong&gt;. My thought here: Do exploring, not checking. Because exploring is more exciting. I prefer to describe simply a challenge in one sentence using &lt;strong&gt;CAR&lt;/strong&gt; model (it&amp;rsquo;s the first name comes into my mind&amp;hellip;). CAR stands for &lt;strong&gt;C&lt;/strong&gt;ondition,  &lt;strong&gt;A&lt;/strong&gt;ction and &lt;strong&gt;R&lt;/strong&gt;esult. A simple example:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;ondition: GPS on&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;ction:  open app&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;esult: my current location shown&lt;/p&gt;
+
+&lt;p&gt;Then the challenge is: When phone GPS turned on, I open app, should I see my current location shown correctly?&lt;/p&gt;
+
+&lt;p&gt;For a 30min testing session, in a mission, 10-15 challenges are recommended. Above 15 is too much, because when people are getting tired, no fun :(&lt;/p&gt;
+
+&lt;h4 id=&#34;when-testing-start-people-follows-same-test-cases-on-the-paper-step-by-step-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing start, people follows same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Using CAR model, it&amp;rsquo;s easy to remove useless test steps and to modify them dynamically according to tests.&lt;/p&gt;
+
+&lt;p&gt;For example, we&amp;rsquo;re focusing on a new feature to reserve vehicle from vehicle list. Then the challenge is: &lt;strong&gt;When my test account is logged in, I pick a vehicle in list, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If next time, we want to test general reservation function. Then the challenge is: &lt;strong&gt;When my test account is logged in, I pick a vehicle in list or on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Or it can be splited to 2 challenge:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle in list, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And I will put them to the different &lt;strong&gt;mission&lt;/strong&gt;s for different participants.&lt;/p&gt;
+
+&lt;h4 id=&#34;soon-people-looks-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-pass-fail-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People looks like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Usually I setup a simple finding-wall, like blow:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;             iOS     |    Android
+Major                |
+Minor                |
+?                    |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Column: platform&lt;/p&gt;
+
+&lt;p&gt;Row: major findings, minor findings and unclear findings (needs to discuss)&lt;/p&gt;
+
+&lt;p&gt;All participants will put findings on the wall during team testing. After testing, they will be taken down one by one and fixed one by one.&lt;/p&gt;
+
+&lt;p&gt;If you ask me how about those mission paper? I will destroy them immediately after testing and let it be a secret mission.&lt;/p&gt;
+
+&lt;h3 id=&#34;expected-result&#34;&gt;&lt;strong&gt;Expected result&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;After participating this team exploratory testing, you will probably think &amp;ldquo;I&amp;rsquo;d like to test more next time!&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Michael Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2009/08/testing-vs-checking/&#34;&gt;Testing vs. Checking&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://www.qalogictesting.com/wp-content/uploads/2015/06/dtest.jpg&#34;&gt;Damn round table team testing&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://oscarandpatch.co.uk/image_uploads_mce/testing-team.jpg&#34;&gt;Children play around&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Know How to Build github.io Blog in 3 min?</title>
+      <link>http://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</link>
+      <pubDate>Sat, 19 Nov 2016 13:00:00 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
+      <description>
+
+&lt;p&gt;I write this tutorial with some notes about how to build a github.io blog, because I was struggling a little bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could &lt;strong&gt;waste&lt;/strong&gt; some of your time on customizing your own awesome blog. 😉&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(What about 3 min? It&amp;rsquo;s the time to read this post&amp;hellip;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;br-step-0-know-things-first&#34;&gt;&lt;br/&gt;STEP 0: Know &lt;em&gt;things&lt;/em&gt; first&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/join/&#34;&gt;GitHub account&lt;/a&gt;: If you don&amp;rsquo;t have one, what are you waiting for? Just get one ;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;: It&amp;rsquo;s designed to host your personal, organization, or project pages directly from a GitHub repository.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jeykll&lt;/a&gt;: It transfers plain text into static websites and blogs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;br-step-1-why&#34;&gt;&lt;br/&gt;STEP 1: Why?&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s really simple, compared to WordPress&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s interesting to write post with Markdown ^^&lt;/li&gt;
+&lt;li&gt;You will tell me&amp;hellip; 😄&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;br-step-2-pick-theme&#34;&gt;&lt;br/&gt;STEP 2: Pick theme&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A list of some nice jekyll &lt;a href=&#34;https://github.com/jekyll/jekyll/wiki/Themes&#34;&gt;themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Check theme demos and pick favorite one&lt;/li&gt;
+&lt;li&gt;Open GitHub and check source page ☕️&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;br-step-3-fork-it&#34;&gt;&lt;br/&gt;STEP 3: Fork-it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fork the theme repository to your &lt;strong&gt;&lt;em&gt;username&lt;/em&gt;.github.io&lt;/strong&gt;, where &lt;em&gt;username&lt;/em&gt; is your own username on GitHub.
+(&lt;em&gt;#Eg: my repository for this blog is &lt;strong&gt;krazycavin.github.io&lt;/strong&gt;&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Clone it to your local&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ git clone https://github.com/username/username.github.io my-blog
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;br-step-4-configure-it&#34;&gt;&lt;br/&gt;STEP 4: Configure-it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go to my-blog&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ cd my-blog
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Open &lt;strong&gt;_config.yml&lt;/strong&gt; and modify&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;title: &#39;your-blog-title&#39;
+description: &#39;your-blog-description&#39;
+url: &#39;https://username.github.io&#39;
+baseurl: &#39;/&#39;
+...
+gems : [&#39;jekyull-paginate&#39;, &#39;jemoji&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;⚠️ Empty &lt;strong&gt;baseurl&lt;/strong&gt; or change it to &lt;strong&gt;/&lt;/strong&gt; depends on theme. Otherwise, some themes may not work correctly.&lt;br&gt;
+👊 jemoji!&lt;/p&gt;
+
+&lt;h3 id=&#34;br-step-5-test-it&#34;&gt;&lt;br/&gt;STEP 5: Test-it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Run locally&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ cd my-blog
+~ $ jekyll serve
+# =&amp;gt; Now browse to http://localhost:4000/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;br-step-6-post-it&#34;&gt;&lt;br/&gt;STEP 6: Post-it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create a post in &lt;strong&gt;_post&lt;/strong&gt;, name it &lt;strong&gt;YEAR-MONTH-DAY-title.md&lt;/strong&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;title: &amp;quot;How to build github.io blog in 3 min?&amp;quot;
+date:  2016-11-18 23:25:28 +0200
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;⚠️ Be careful of date format &lt;strong&gt;YYYY-MM-DD HH:MM:SS +/-TTTT&lt;/strong&gt;, TTTT is timezone offset&lt;/p&gt;
+
+&lt;h3 id=&#34;br-step-7-publish-it&#34;&gt;&lt;br/&gt;STEP 7: Publish-it&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;git add, git commit, git push&lt;/li&gt;
+&lt;li&gt;Browse your new blog &lt;strong&gt;&lt;a href=&#34;https://username.github.io&#34;&gt;https://username.github.io&lt;/a&gt;&lt;/strong&gt;  👯&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;br-helpful-links&#34;&gt;&lt;br/&gt;Helpful links:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Basic syntax help for &lt;a href=&#34;http://daringfireball.net/projects/markdown/basics&#34;&gt;Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub basic formatting &lt;a href=&#34;https://help.github.com/articles/basic-writing-and-formatting-syntax/&#34;&gt;syntax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Emoji &lt;a href=&#34;http://www.webpagefx.com/tools/emoji-cheat-sheet/&#34;&gt;Cheatsheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jekyll &lt;a href=&#34;https://jekyllrb.com/docs/usage/&#34;&gt;usage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jekyll Uno &lt;a href=&#34;https://github.com/joshgerdes/jekyll-uno&#34;&gt;theme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Blogging!</title>
+      <link>http://krazycavin.github.io/2016/11/18/hello-world/</link>
+      <pubDate>Fri, 18 Nov 2016 22:09:23 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2016/11/18/hello-world/</guid>
+      <description>&lt;p&gt;This is my f1rst bl0g. Yep, it&amp;rsquo;s als0 a test blog to check Jekyll theme&lt;/p&gt;
+
+&lt;p&gt;pןɹoʍ oןןǝɥ&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/2f7RQiiWMJc40.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

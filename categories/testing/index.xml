@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Testing on Krazy Kevin </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://krazycavin.github.io/categories/testing/index.xml</link>
+    <language>en-us</language>
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Let&#39;s Have Some Fun! Team Testing</title>
+      <link>http://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
+      <pubDate>Thu, 01 Dec 2016 21:37:35 &#43;0200</pubDate>
+      
+      <guid>http://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sonAggQw-dsCFHGrcozMfg.jpeg&#34; alt=&#34;devices&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;damn-old-picture-of-team-testing&#34;&gt;&lt;strong&gt;Damn old picture of team testing&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;When we talk about team testing, I guess many of you will image a picture in your mind:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;People are sitting around a table.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;When testing start, people follows same test cases on the paper, step by step &amp;ldquo;testing&amp;rdquo; product.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Soon, People looks like a robot: they look at paper and write down the answer &amp;ldquo;yes&amp;rdquo;, &amp;ldquo;expected result&amp;rdquo;, &amp;ldquo;pass&amp;rdquo;, &amp;ldquo;no&amp;rdquo;&amp;hellip; Someone will collect paper and check pass/fail&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Well, pretty like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.qalogictesting.com/wp-content/uploads/2015/06/dtest.jpg&#34; alt=&#34;&#34; /&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m always asking myself. If I&amp;rsquo;m one of these guys participating this the kind of team testing, would I be bored to die? What&amp;rsquo;s the problem here?&lt;/p&gt;
+
+&lt;p&gt;Why not make team testing like taking a challenge, playing a game, exploring around?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://oscarandpatch.co.uk/image_uploads_mce/testing-team.jpg&#34; alt=&#34;&#34; /&gt;&lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;let-s-have-some-fun&#34;&gt;&lt;strong&gt;Let&amp;rsquo;s have some fun!&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&#34;people-are-sitting-around-a-table-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;People are sitting around a table.&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Instead of limiting people to focus on his own stuff, I really like to make people pair together and let them share a &amp;ldquo;test challenge&amp;rdquo;. They can do testing together no mater where they want. Paring together in team testing is a good test strategy for:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Making comparison&lt;/strong&gt;: when it needs to know if different platforms, different versions have different behaviors&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Exchanging idea&lt;/strong&gt;: when someone comes an idea, (s)he can immediately try with her/his testing partner&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Remembering findings&lt;/strong&gt;: when something found, (s)he can show to her/his partner how to reproduce&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Training newcomer&lt;/strong&gt;: when a new team member is joining, (s)he is not quite familiar with product&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;everyone-gets-a-paper-in-front-of-them-this-paper-could-be-a-check-list-full-of-test-steps-could-be-a-sheet-full-of-test-scenarios-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;In my team testing, there is no check list, no test scenarios. I call them &lt;strong&gt;mission&lt;/strong&gt; and &lt;strong&gt;challenge&lt;/strong&gt;. My thought here: Do exploring, not checking. Because exploring is more exciting. I prefer to describe simply a challenge in one sentence using &lt;strong&gt;CAR&lt;/strong&gt; model (it&amp;rsquo;s the first name comes into my mind&amp;hellip;). CAR stands for &lt;strong&gt;C&lt;/strong&gt;ondition,  &lt;strong&gt;A&lt;/strong&gt;ction and &lt;strong&gt;R&lt;/strong&gt;esult. A simple example:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;ondition: GPS on&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;ction:  open app&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;esult: my current location shown&lt;/p&gt;
+
+&lt;p&gt;Then the challenge is: When phone GPS turned on, I open app, should I see my current location shown correctly?&lt;/p&gt;
+
+&lt;p&gt;For a 30min testing session, in a mission, 10-15 challenges are recommended. Above 15 is too much, because when people are getting tired, no fun :(&lt;/p&gt;
+
+&lt;h4 id=&#34;when-testing-start-people-follows-same-test-cases-on-the-paper-step-by-step-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing start, people follows same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Using CAR model, it&amp;rsquo;s easy to remove useless test steps and to modify them dynamically according to tests.&lt;/p&gt;
+
+&lt;p&gt;For example, we&amp;rsquo;re focusing on a new feature to reserve vehicle from vehicle list. Then the challenge is: &lt;strong&gt;When my test account is logged in, I pick a vehicle in list, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If next time, we want to test general reservation function. Then the challenge is: &lt;strong&gt;When my test account is logged in, I pick a vehicle in list or on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Or it can be splited to 2 challenge:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle in list, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And I will put them to the different &lt;strong&gt;mission&lt;/strong&gt;s for different participants.&lt;/p&gt;
+
+&lt;h4 id=&#34;soon-people-looks-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-pass-fail-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People looks like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Usually I setup a simple finding-wall, like blow:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;             iOS     |    Android
+Major                |
+Minor                |
+?                    |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Column: platform&lt;/p&gt;
+
+&lt;p&gt;Row: major findings, minor findings and unclear findings (needs to discuss)&lt;/p&gt;
+
+&lt;p&gt;All participants will put findings on the wall during team testing. After testing, they will be taken down one by one and fixed one by one.&lt;/p&gt;
+
+&lt;p&gt;If you ask me how about those mission paper? I will destroy them immediately after testing and let it be a secret mission.&lt;/p&gt;
+
+&lt;h3 id=&#34;expected-result&#34;&gt;&lt;strong&gt;Expected result&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;After participating this team exploratory testing, you will probably think &amp;ldquo;I&amp;rsquo;d like to test more next time!&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Michael Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2009/08/testing-vs-checking/&#34;&gt;Testing vs. Checking&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://www.qalogictesting.com/wp-content/uploads/2015/06/dtest.jpg&#34;&gt;Damn round table team testing&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://oscarandpatch.co.uk/image_uploads_mce/testing-team.jpg&#34;&gt;Children play around&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
