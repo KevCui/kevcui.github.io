@@ -3,7 +3,7 @@
   <channel>
       <title>Krazy Kevin</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/index.xml</link>
+    <link>https://krazycavin.github.io/</link>
     <language>en-us</language>
     
     
@@ -72,11 +72,11 @@
 
 &lt;p&gt;📖👉 &lt;a href=&#34;https://medium.com/@userfocus/the-1-page-usability-test-plan-dbc8c3d7fb54#.e4fd2w21q&#34;&gt;1-page usability test plan&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/lestoni/faker-cli&#34;&gt;faker-cli&lt;/a&gt;: generate massive amounts of fake data&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/lestoni/faker-cli&#34;&gt;faker-cli&lt;/a&gt;: generate massive amounts of fake data&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/aoh/radamsa&#34;&gt;Radamsa&lt;/a&gt;: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/aoh/radamsa&#34;&gt;Radamsa&lt;/a&gt;: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/josephwilk/pairwise&#34;&gt;Ruby Pairwise&lt;/a&gt;: Ruby based tool for selecting a smaller number of test input combinations&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/josephwilk/pairwise&#34;&gt;Ruby Pairwise&lt;/a&gt;: Ruby based tool for selecting a smaller number of test input combinations&lt;/p&gt;
 
 &lt;h3 id=&#34;mobile-testing&#34;&gt;Mobile Testing&lt;/h3&gt;
 
@@ -86,7 +86,7 @@
 
 &lt;p&gt;📦👉 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.testerkey.testerkeyboard&#34;&gt;TesterKey&lt;/a&gt;: generate complex and randomised input values&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/selendroid/selendroid&#34;&gt;Selendroid&lt;/a&gt;: test automation framework which drives of the UI of Android native and hybrid applications apps&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/selendroid/selendroid&#34;&gt;Selendroid&lt;/a&gt;: test automation framework which drives of the UI of Android native and hybrid applications apps&lt;/p&gt;
 
 &lt;h3 id=&#34;web-testing&#34;&gt;Web Testing&lt;/h3&gt;
 
@@ -100,11 +100,11 @@
 
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://validator.w3.org/i18n-checker/&#34;&gt;i18n Validator&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/galenframework/galen&#34;&gt;Galen Framework&lt;/a&gt;: testing layout and responsive design of web applications&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/galenframework/galen&#34;&gt;Galen Framework&lt;/a&gt;: testing layout and responsive design of web applications&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/jan-molak/serenity-js&#34;&gt;Serenity/JS&lt;/a&gt;: a node.js library designed to make acceptance and regression testing of modern web applications faster&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/jan-molak/serenity-js&#34;&gt;Serenity/JS&lt;/a&gt;: a node.js library designed to make acceptance and regression testing of modern web applications faster&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/teamcapybara/capybara&#34;&gt;capybara&lt;/a&gt;: acceptance test framework for web applications&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/teamcapybara/capybara&#34;&gt;capybara&lt;/a&gt;: acceptance test framework for web applications&lt;/p&gt;
 
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://securityheaders.io&#34;&gt;SecurityHeaders.io&lt;/a&gt;: a quick and easy way to check http headers&lt;/p&gt;
 
@@ -114,11 +114,11 @@
 
 &lt;h3 id=&#34;dev-tools&#34;&gt;Dev Tools&lt;/h3&gt;
 
-&lt;p&gt;🌏👉 PutsReq](&lt;a href=&#34;http://putsreq.com/):&#34;&gt;http://putsreq.com/):&lt;/a&gt; record HTTP requests and fake responses&lt;/p&gt;
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://putsreq.com/&#34;&gt;PutsReq&lt;/a&gt;: record HTTP requests and fake responses&lt;/p&gt;
 
 &lt;p&gt;📖👉 &lt;a href=&#34;http://www.stefankrause.net/js-frameworks-benchmark2/webdriver-java/table.html?utm_content=buffer615ad&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&#34;&gt;JS framework benchmark&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;http://cdn2.hubspot.net/hubfs/208250/Blog_Images/devops11.png&#34;&gt;The Ultimate DevOps Tools Ecosystem&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📖👉 &lt;a href=&#34;http://cdn2.hubspot.net/hubfs/208250/Blog_Images/devops11.png&#34;&gt;The Ultimate DevOps Tools Ecosystem&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://regex101.com/&#34;&gt;regex101&lt;/a&gt;&lt;/p&gt;
 
@@ -126,21 +126,19 @@
 
 &lt;p&gt;📦👉 &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/dxa4481/truffleHog&#34;&gt;Truffle Dog&lt;/a&gt;: searches through git repositories for high entropy strings, digging deep into commit history and branches&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/dxa4481/truffleHog&#34;&gt;Truffle Dog&lt;/a&gt;: searches through git repositories for high entropy strings, digging deep into commit history and branches&lt;/p&gt;
 
-&lt;dl&gt;
-&lt;dt&gt;👉 &lt;a href=&#34;https://github.com/jkbrzt/httpie&#34;&gt;HTTPie&lt;/a&gt;: a CLI, cURL-like tool for humans&lt;/dt&gt;
-&lt;/dl&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/jkbrzt/httpie&#34;&gt;HTTPie&lt;/a&gt;: a CLI, cURL-like tool for humans&lt;/p&gt;
 
-&lt;p&gt;:point_right: &lt;a href=&#34;https://github.com/lord/slate&#34;&gt;Slate&lt;/a&gt;: API doc generator&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/lord/slate&#34;&gt;Slate&lt;/a&gt;: API doc generator&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/anvaka/git-also&#34;&gt;git-also&lt;/a&gt;: for a file in your git repository, prints other files that are most often committed together&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/anvaka/git-also&#34;&gt;git-also&lt;/a&gt;: for a file in your git repository, prints other files that are most often committed together&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;mitmproxy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;mitmproxy&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/naptha/tesseract.js&#34;&gt;Tesseract.js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/naptha/tesseract.js&#34;&gt;Tesseract.js&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;💻point_right: &lt;a href=&#34;https://asciinema.org/&#34;&gt;asciinema&lt;/a&gt;: record and share terminal sessions&lt;/p&gt;
+&lt;p&gt;💻👉 &lt;a href=&#34;https://asciinema.org/&#34;&gt;asciinema&lt;/a&gt;: record and share terminal sessions&lt;/p&gt;
 
 &lt;p&gt;🌏👉 &lt;a href=&#34;http://obfuscator.uo1.net/&#34;&gt;Online Text Obfuscator&lt;/a&gt;&lt;/p&gt;
 
@@ -156,27 +154,23 @@
 
 &lt;h3 id=&#34;search&#34;&gt;Search&lt;/h3&gt;
 
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://foller.me/&#34;&gt;Twitter Analytics&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.shodan.io/&#34;&gt;Shodan&lt;/a&gt;: search engine for Internet-connected devices&lt;/p&gt;
 
-&lt;p&gt;🌏:point_right: &lt;a href=&#34;https://www.shodan.io/&#34;&gt;Shodan&lt;/a&gt;: search engine for Internet-connected devices&lt;/p&gt;
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://foller.me/&#34;&gt;Twitter Analytics&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
 
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/sferik/t&#34;&gt;Ruby Twitter CLI&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;📀👉 &lt;a href=&#34;https://google-webfonts-helper.herokuapp.com/fonts&#34;&gt;Google Webfont Helper&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;🌏👉 &lt;a href=&#34;http://vimcolors.com/&#34;&gt;VIM color themes&lt;/a&gt;&lt;/p&gt;
 
-&lt;dl&gt;
-&lt;dt&gt;👉 &lt;a href=&#34;https://github.com/sferik/t&#34;&gt;Ruby Twitter CLI&lt;/a&gt;&lt;/dt&gt;
-&lt;/dl&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/mxstbr/sharingbuttons.io&#34;&gt;sharingbuttons.io&lt;/a&gt;: generate social sharing buttons&lt;/p&gt;
 
-&lt;p&gt;:point_right: &lt;a href=&#34;https://google-webfonts-helper.herokuapp.com/fonts&#34;&gt;Google Webfont Helper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/l0b0/xterm-color-count&#34;&gt;XTerm Color Count&lt;/a&gt;&lt;/p&gt;
 
-&lt;dl&gt;
-&lt;dt&gt;👉 &lt;a href=&#34;https://github.com/mxstbr/sharingbuttons.io&#34;&gt;sharingbuttons.io&lt;/a&gt;: generate social sharing buttons&lt;/dt&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;:point_right: &lt;a href=&#34;https://github.com/l0b0/xterm-color-count&#34;&gt;XTerm Color Count&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;👉 &lt;a href=&#34;https://github.com/WebpageFX/emoji-cheat-sheet.com&#34;&gt;emoji cheat sheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/WebpageFX/emoji-cheat-sheet.com&#34;&gt;emoji cheat sheet&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;🌏👉 &lt;a href=&#34;http://excel2jira.bluurgh.com/&#34;&gt;Excel to Jira table&lt;/a&gt;: copy and paste a table from Excel, click the button, and in return you will get the table formatted for JIRA&lt;/p&gt;
 
