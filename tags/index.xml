@@ -111,9 +111,18 @@
     <item>
       <title>Hexo</title>
       <link>https://krazycavin.github.io/tags/hexo/</link>
-      <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
+      <pubDate>Wed, 12 Apr 2017 22:47:26 CEST</pubDate>
       
       <guid>https://krazycavin.github.io/tags/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://krazycavin.github.io/tags/hugo/</link>
+      <pubDate>Wed, 12 Apr 2017 22:47:26 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -132,15 +141,6 @@
       <pubDate>Wed, 08 Mar 2017 22:12:08 &#43;0200</pubDate>
       
       <guid>https://krazycavin.github.io/tags/list/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Qa</title>
-      <link>https://krazycavin.github.io/tags/qa/</link>
-      <pubDate>Fri, 13 Jan 2017 17:20:53 &#43;0200</pubDate>
-      
-      <guid>https://krazycavin.github.io/tags/qa/</guid>
       <description></description>
     </item>
     

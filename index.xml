@@ -7,7 +7,95 @@
     <language>en-us</language>
     
     
-    <updated>Mon, 27 Mar 2017 23:02:13 CEST</updated>
+    <updated>Wed, 12 Apr 2017 22:47:26 CEST</updated>
+    
+    <item>
+      <title>Why Hugo Why Not Hexo</title>
+      <link>https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/</link>
+      <pubDate>Wed, 12 Apr 2017 22:47:26 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/</guid>
+      <description>
+
+&lt;p&gt;As you probably remember that I just about &lt;a href=&#34;https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/&#34;&gt;switched from jekyll to hexo&lt;/a&gt; 2 month ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&lt;/p&gt;
+
+&lt;h3 id=&#34;why-hexo-was-chosen&#34;&gt;Why hexo was chosen?&lt;/h3&gt;
+
+&lt;p&gt;Let&amp;rsquo;s start from the reasons why I ditched jekyll without any regrets:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Hexo has a good name&lt;/li&gt;
+&lt;li&gt;Hexo is powered by Node.js&lt;/li&gt;
+&lt;li&gt;Hexo is easy to deploy&lt;/li&gt;
+&lt;li&gt;Hexo supports theme change&lt;/li&gt;
+&lt;li&gt;Hexo is pretty fast&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Honestly hexo is quite good and I&amp;rsquo;m pretty happy living with it. I have &lt;a href=&#34;https://github.com/KrazyCavin/krazycavin-hexo-github-io&#34;&gt;a &amp;ldquo;clever&amp;rdquo; repository setup of hexo in GitHub&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Branch &lt;strong&gt;hexo&lt;/strong&gt;: to keep source code, posts and theme&lt;/li&gt;
+&lt;li&gt;Branch &lt;strong&gt;master&lt;/strong&gt;: to store all generated static files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I found &lt;a href=&#34;https://github.com/hexojs/hexo-deployer-git&#34;&gt;a useful deploy plugin&lt;/a&gt;, which allows me to write posts and backup them in hexo branch, to publish final static files easily to master branch. I&amp;rsquo;ve to say I got nothing to complain. Hexo works as expected, all 👌&lt;/p&gt;
+
+&lt;h3 id=&#34;why-i-choose-hugo-then&#34;&gt;Why I choose hugo then?&lt;/h3&gt;
+
+&lt;p&gt;You know I&amp;rsquo;m a guy who crave clean &amp;amp; fast thingy and I never settle down. I cannot control myself not touching cool thing. &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, another popular static web generator engine, is mentioned a lot as &amp;ldquo;an alternative&amp;rdquo; of jekyll and recommended by some cool guys. When I&amp;rsquo;m motivated, I won&amp;rsquo;t give up the chance to try hugo, would I?&lt;/p&gt;
+
+&lt;h4 id=&#34;1-even-better-on-theme-changing&#34;&gt;1. Even better on theme changing&lt;/h4&gt;
+
+&lt;p&gt;Hexo supports theme change flexibly:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download a new theme&lt;/li&gt;
+&lt;li&gt;Update &lt;code&gt;_config.yaml&lt;/code&gt; to use it&lt;/li&gt;
+&lt;li&gt;Run server&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Hugo is even better:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download a new theme&lt;/li&gt;
+&lt;li&gt;Run server with theme name as a parameter, done!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;2-zero-dependency&#34;&gt;2. Zero dependency&lt;/h4&gt;
+
+&lt;p&gt;Hugo is built using Go, free, &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;open source&lt;/a&gt;. If I only want to use hugo without building from source, I could just download executable &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;release binary&lt;/a&gt;. Literally it has zero dependency, one binary that&amp;rsquo;s all, so clean. On the other hand, hexo requests much more. First npm, then install around 10 dependencies during initializing. Now I&amp;rsquo;ve only basic functionalities of hexo. If I want to generate emoji, 👌 add a &lt;a href=&#34;https://github.com/crimx/hexo-filter-github-emojis&#34;&gt;plugin&lt;/a&gt;; if I want deploy code automatically, 👌 add another &lt;a href=&#34;https://github.com/hexojs/hexo-deployer-git&#34;&gt;plugin&lt;/a&gt;; if I want backup code automatically, 👌 add another &lt;a href=&#34;https://github.com/coneycode/hexo-git-backup&#34;&gt;plugin&lt;/a&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h4 id=&#34;3-lightweight-file-structure&#34;&gt;3. Lightweight file structure&lt;/h4&gt;
+
+&lt;p&gt;Not to say if &lt;code&gt;node_modules&lt;/code&gt; is a design flaw of npm, the fact is that &lt;code&gt;node_modules&lt;/code&gt; is bloated heavily, interesting post &lt;a href=&#34;https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558&#34;&gt;here&lt;/a&gt; and interesting discussion &lt;a href=&#34;https://www.reddit.com/r/webdev/comments/42cpjy/why_is_my_node_modules_directory_140mb_is_this/&#34;&gt;here&lt;/a&gt;. Hexo is powered by Node.js and naturally bloated by it. That&amp;rsquo;s why &lt;code&gt;node_modules&lt;/code&gt; is that place where I really don&amp;rsquo;t want to look deep inside. To have a better understanding, I roughly checked the size of folders including the same theme and the result is kind as expected:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Hexo w/ node_modules: 18M
+Hexo w/o node_modules: 69M
+Hugo: 29M
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;4-little-surprises&#34;&gt;4. Little surprises&lt;/h4&gt;
+
+&lt;p&gt;After I know more about hugo, I get more little surprises:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/livereload/&#34;&gt;LiveReload&lt;/a&gt;: it instantly reloads browser after any changes. Based on hugo&amp;rsquo;s build speed, it&amp;rsquo;s super continent for developing theme and checking post&amp;rsquo;s looking, easy and fun. I like its speedy &lt;strong&gt;live&lt;/strong&gt; reload. ⚡️&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/aliases/&#34;&gt;Aliases&lt;/a&gt;: I call it  page redirect. Once I put alias url in a post and then visiting this alias url from browser, hugo will redirect alias url to post url. It easily solves the problem of url changes caused by migration from other frameworks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;To sum up, hugo is definitely my new favorite. But hexo is actually good enough to suit my needs. It seams hard to pick one, so my suggestion is following. Imagine you would like to build your own static web pages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You start from fresh new, I will recommend you give &lt;strong&gt;hugo&lt;/strong&gt; a try first.&lt;/li&gt;
+&lt;li&gt;You already use hexo, and you are a fan of JavaScript, then &lt;strong&gt;hexo&lt;/strong&gt; is the one to stick with.&lt;/li&gt;
+&lt;li&gt;You already use hexo, and your plan is to spend time on writing, then &lt;strong&gt;hexo&lt;/strong&gt; is good enough.&lt;/li&gt;
+&lt;li&gt;You already use hexo, and you want to learn new thing, and you&amp;rsquo;ve 1-2 days free time, then &lt;strong&gt;hugo&lt;/strong&gt; would be a good choice for you.&lt;/li&gt;
+&lt;li&gt;You already use hugo, then keep using &lt;strong&gt;hugo&lt;/strong&gt; and don&amp;rsquo;t look around 😉&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Bye Firefox</title>

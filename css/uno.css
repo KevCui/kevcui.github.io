@@ -1020,8 +1020,8 @@ blockquote {
 ol, ul {
   margin: 0 0 1.3em 2.5em; }
   ol li, ul li {
-    margin: 0 0 .2em 0;
-    line-height: 1.2em; }
+    margin: 0 0 .5em 0;
+    line-height: 1.5em; }
   ol ol, ol ul, ul ol, ul ul {
     margin: .1em 0 .2em 2em; }
 
