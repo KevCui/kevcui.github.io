@@ -17,6 +17,9 @@
       <guid>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
       <description>
 
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg&#34; alt=&#34;explore&#34; /&gt;
+&lt;sup&gt;&lt;em&gt;from &lt;a href=&#34;https://www.flickr.com/photos/kwl/3573458354/in/photostream/&#34;&gt;Kenny Louie&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -41,7 +44,7 @@
 
 &lt;p&gt;&lt;strong&gt;Time estimation&lt;/strong&gt;: 15 min&lt;/p&gt;
 
-&lt;p&gt;On this stage, the key is to &lt;strong&gt;think different&lt;/strong&gt;. By asking people PO, stakeholder, designer, developer, etc&amp;hellip; who already has the information of context. For instance, if the testing target is a new feature:&lt;/p&gt;
+&lt;p&gt;On this stage, the key is to &lt;strong&gt;think different&lt;/strong&gt;. By asking PO, stakeholder, designer, developer, etc&amp;hellip; who already have the information of context. For instance, if the testing target is a new feature:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;To understand the &lt;strong&gt;problem&lt;/strong&gt; behind: What&amp;rsquo;s the problem to solve?&lt;/li&gt;
@@ -49,7 +52,7 @@
 &lt;li&gt;To understand the detail of &lt;strong&gt;implementation&lt;/strong&gt;: Which kind of user cases are considered and checked already?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;With these information in mind, I will &lt;strong&gt;think&lt;/strong&gt; about the implementation does not only meet the request, but also provide the functionality to solve the problem:&lt;/p&gt;
+&lt;p&gt;With these information in mind, I will &lt;strong&gt;think&lt;/strong&gt; about that the implementation does not only meet the request, but also provide the functionality to solve the problem:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Implementation versus Request: What are the misunderstandings and ambiguities?&lt;/li&gt;
