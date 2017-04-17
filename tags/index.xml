@@ -75,18 +75,9 @@
     <item>
       <title>Exploratory</title>
       <link>https://krazycavin.github.io/tags/exploratory/</link>
-      <pubDate>Thu, 01 Dec 2016 21:37:35 &#43;0200</pubDate>
-      
-      <guid>https://krazycavin.github.io/tags/exploratory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exploratory Testing</title>
-      <link>https://krazycavin.github.io/tags/exploratory-testing/</link>
       <pubDate>Mon, 17 Apr 2017 22:30:00 CEST</pubDate>
       
-      <guid>https://krazycavin.github.io/tags/exploratory-testing/</guid>
+      <guid>https://krazycavin.github.io/tags/exploratory/</guid>
       <description></description>
     </item>
     
@@ -141,6 +132,15 @@
       <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
       
       <guid>https://krazycavin.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>List</title>
+      <link>https://krazycavin.github.io/tags/list/</link>
+      <pubDate>Wed, 08 Mar 2017 22:12:08 &#43;0200</pubDate>
+      
+      <guid>https://krazycavin.github.io/tags/list/</guid>
       <description></description>
     </item>
     

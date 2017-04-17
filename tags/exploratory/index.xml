@@ -7,7 +7,180 @@
     <language>en-us</language>
     
     
-    <updated>Thu, 01 Dec 2016 21:37:35 &#43;0200</updated>
+    <updated>Mon, 17 Apr 2017 22:30:00 CEST</updated>
+    
+    <item>
+      <title>How I Do Exploratory Testing</title>
+      <link>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</link>
+      <pubDate>Mon, 17 Apr 2017 22:30:00 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;what-is-et&#34;&gt;What is ET?&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;E&lt;/strong&gt;xploratory &lt;strong&gt;T&lt;/strong&gt;esting is the nature of testing&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same. It&amp;rsquo;s the true symphony of efficiency!&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-my-understanding-of-et&#34;&gt;What is my understanding of ET?&lt;/h3&gt;
+
+&lt;p&gt;For me, ET is an elegant testing approach with &lt;strong&gt;free spirit&lt;/strong&gt;, to &lt;strong&gt;think&lt;/strong&gt; about different possibilities, to &lt;strong&gt;discover&lt;/strong&gt; the unknown, to &lt;strong&gt;collect&lt;/strong&gt; effective information and to &lt;strong&gt;share&lt;/strong&gt; new knowledge efficiently.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-my-practice-of-et&#34;&gt;What is my practice of ET?&lt;/h3&gt;
+
+&lt;p&gt;Since the beginning of last year when &lt;a href=&#34;https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/&#34;&gt;I failed to use calabash for mobile testing&lt;/a&gt;, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: &lt;strong&gt;To have a concrete structure of ET and to adapt change easily based on it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Combining the purpose and my understanding, I tried some practices and made some changes. It becomes the current one I&amp;rsquo;m satisfied with. First of all, please remember it&amp;rsquo;s definitely &lt;strong&gt;not&lt;/strong&gt; the &amp;ldquo;best practice&amp;rdquo;. I still keep striving for a better practice, your feedback could help me as well 😉&lt;/p&gt;
+
+&lt;p&gt;Back to my practice of ET, each time I proceed with 3 important stages (a.k.a. 3G stages): &lt;strong&gt;Get context&lt;/strong&gt;, &lt;strong&gt;Go explore&lt;/strong&gt;, and &lt;strong&gt;Give feedback&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;stage-1-get-context&#34;&gt;Stage 1: Get context&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Time estimation&lt;/strong&gt;: 15 min&lt;/p&gt;
+
+&lt;p&gt;On this stage, the key is to &lt;strong&gt;think different&lt;/strong&gt;. By asking people PO, stakeholder, designer, developer, etc&amp;hellip; who already has the information of context. For instance, if the testing target is a new feature:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To understand the &lt;strong&gt;problem&lt;/strong&gt; behind: What&amp;rsquo;s the problem to solve?&lt;/li&gt;
+&lt;li&gt;To understand the &lt;strong&gt;request&lt;/strong&gt; of developing this feature: What&amp;rsquo;s the acceptable result look like?&lt;/li&gt;
+&lt;li&gt;To understand the detail of &lt;strong&gt;implementation&lt;/strong&gt;: Which kind of user cases are considered and checked already?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With these information in mind, I will &lt;strong&gt;think&lt;/strong&gt; about the implementation does not only meet the request, but also provide the functionality to solve the problem:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implementation versus Request: What are the misunderstandings and ambiguities?&lt;/li&gt;
+&lt;li&gt;Implementation versus Problem: What are the blind spots and missing checks, could potentially cause the risk of malfunction?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Normally I prefer to take some factors and put them in the questions, in order to generate some testing ideas. Some factors could be considered:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Environment: region, timezone, language&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Hardware: device, platform, OS, screen size&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Aspect: usability, security, performance&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
+OS x Implementation versus Problem: Does this feature work on iOS 7 device?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br/&gt;
+Then I will put the ideas or assumptions shortly on a to-do list:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tesing ideas:
+[ ] Support all regions?
+[ ] iOS 7
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;stage-2-go-explore&#34;&gt;Stage 2: Go explore&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Time box&lt;/strong&gt;: 30 min&lt;/p&gt;
+
+&lt;p&gt;This stage is the most exciting one. The key is to &lt;strong&gt;discover&lt;/strong&gt; and to &lt;strong&gt;collect&lt;/strong&gt;. Before stating explore, a time box is rather important, which forces me to proceed with the next steps. Otherwise, I could probably explore forever far around and way deeper.&lt;/p&gt;
+
+&lt;p&gt;Remember the to-do list earlier I got in the first stage? Now it&amp;rsquo;s time to make hands dirty using the ideas, I call them seeds, as initial starting points to discover the unknown. Following and focusing on one seed to perform some checks, I will start to collect new seeds:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Relate to current seed, add as a sub task&lt;/li&gt;
+&lt;li&gt;Not relate to current seed, add as a new seed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once I got a finding or a question, I will make a quick note with necessary screenshot and video record.&lt;/p&gt;
+
+&lt;p&gt;After one seed is finished, I will continue to explore anther seed. One seed at a time, seed by seed until timeout. You probably have a question in your mind &amp;ldquo;When one seed is done, what to pick as the next seed?&amp;rdquo; I&amp;rsquo;ve a rule of thumb for priority: seed on top of the list has higher priority to explore.&lt;/p&gt;
+
+&lt;p&gt;After 30 min, my to-do list looks like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Tesing ideas:
+[?] Support all regions?
+    [x] Europe
+    [?] Asia: no response from api
+        =&amp;gt; Question 1
+[-] iOS 7
+    =&amp;gt; Issue 1
+[-] No interent
+    [x] Error message
+    [x] retry when internet is back
+    [x] app restart when no internet
+[?] Animation
+    =&amp;gt; Question 2
+[ ] Performace of new api request?
+
+Question 1: need api response for Asia?
+Need check with backend team: this feature is not available for Asia users?
+&amp;lt;Screenshot of api request and response&amp;gt;
+
+Quesiion 2: Refresh animation feels laggy
+Need check with designer and developer: make a nicer animation
+
+Issue 1: crash on iOS 7
+&amp;lt;device info&amp;gt;
+- &amp;lt;step 1&amp;gt;
+- &amp;lt;step 2&amp;gt;
+- &amp;lt;step 3&amp;gt;
+&amp;lt;crash stack traces&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;stage-3-give-feedback&#34;&gt;Stage 3: Give feedback&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Time estimation&lt;/strong&gt;: 15 min&lt;/p&gt;
+
+&lt;p&gt;The key of this stage is to &lt;strong&gt;share knowledge&lt;/strong&gt;. I&amp;rsquo;ve some questions and issues on my list collected from previous stage and I know who I need to contact. Can I just throw my feedback on their face directly? I hope I can but apparently nope.&lt;/p&gt;
+
+&lt;p&gt;Regarding to the questions, it needs to have a proper conversation to remove misunderstandings and ambiguities:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What&amp;rsquo;s my opinion and suggestion?&lt;/li&gt;
+&lt;li&gt;What&amp;rsquo;s your opinion and suggestion?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Regarding to the issues, it needs to have a proper discussion to evaluate the risk:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What can be fixed?&lt;/li&gt;
+&lt;li&gt;What is out of scope?&lt;/li&gt;
+&lt;li&gt;What needs to be improved in the future?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;what-else&#34;&gt;What else?&lt;/h3&gt;
+
+&lt;p&gt;Basically it&amp;rsquo;s the core part of my lovely ET practice:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3G stages: Get context, Go explore and Give feedback&lt;/li&gt;
+&lt;li&gt;4 actions: Think, Discover, Collect and Share&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Although there are still a lot of topics I&amp;rsquo;d like to expand, I don&amp;rsquo;t want to make one post too long too boring. I will probably write &lt;strong&gt;a series of ET topics&lt;/strong&gt; in the future, like:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;How to think different and some factors to consider?&lt;/li&gt;
+&lt;li&gt;How to collect and share findings efficiently?&lt;/li&gt;
+&lt;li&gt;How to shorten feedback loop in development?&lt;/li&gt;
+&lt;li&gt;How to train myself always be ready to be interrupted?&lt;/li&gt;
+&lt;li&gt;How to pair with developers?&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/3o6Zthv4W72jUHRCUg/giphy.gif&#34; alt=&#34;out&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Testing is like holding a torch to light up the road in darkness. You could clearly see the way to go, make a map, and mark thorns and flowers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://www.anshome.org/index.php/nature-programs/children-family/audubon-nature-preschool&#34;&gt;Audubon Nature Preschool&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://www.kaner.com/pdfs/QAIExploring.pdf&#34;&gt;Cem Kaner: A Tutorial in Exploratory Testing&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Let&#39;s Have Some Fun! Team Testing</title>
