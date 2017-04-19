@@ -35,7 +35,7 @@
 
 &lt;p&gt;The deployment of hexo is amazing. I add my git repo info in _config.xml then run a simple command:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;~$ hexo d
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;~$ hexo d
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Done! What a magic! No need git add, git commit, git push&amp;hellip; It&amp;rsquo;s really continent to write and publish a post.&lt;/p&gt;
@@ -50,7 +50,7 @@
 
 &lt;p&gt;Overall, hexo gives me an impression &lt;em&gt;fast&lt;/em&gt;, starting from the command execution with one letter:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;hexo s &amp;lt;=&amp;gt; hexo server
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hexo s &amp;lt;=&amp;gt; hexo server
 hexo g &amp;lt;=&amp;gt; hexo generate
 hexo d &amp;lt;=&amp;gt; hexo deploy
 hexo cl &amp;lt;=&amp;gt; hexo clean
@@ -106,7 +106,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 &lt;li&gt;Clone it to your local&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ git clone https://github.com/username/username.github.io my-blog
+&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;~ $ git clone https://github.com/username/username.github.io my-blog
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;br-step-4-configure-it&#34;&gt;&lt;br/&gt;STEP 4: Configure-it&lt;/h3&gt;
@@ -115,14 +115,14 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 &lt;li&gt;Go to my-blog&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ cd my-blog
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;~ $ cd my-blog
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Open &lt;strong&gt;_config.yml&lt;/strong&gt; and modify&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;title: &#39;your-blog-title&#39;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;title: &#39;your-blog-title&#39;
 description: &#39;your-blog-description&#39;
 url: &#39;https://username.github.io&#39;
 baseurl: &#39;/&#39;
@@ -139,7 +139,7 @@ gems : [&#39;jekyull-paginate&#39;, &#39;jemoji&#39;]
 &lt;li&gt;Run locally&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ cd my-blog
+&lt;pre&gt;&lt;code class=&#34;language-Bash&#34;&gt;~ $ cd my-blog
 ~ $ jekyll serve
 # =&amp;gt; Now browse to http://localhost:4000/
 &lt;/code&gt;&lt;/pre&gt;
@@ -150,7 +150,7 @@ gems : [&#39;jekyull-paginate&#39;, &#39;jemoji&#39;]
 &lt;li&gt;Create a post in &lt;strong&gt;_post&lt;/strong&gt;, name it &lt;strong&gt;YEAR-MONTH-DAY-title.md&lt;/strong&gt;&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;title: &amp;quot;How to build github.io blog in 3 min?&amp;quot;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;title: &amp;quot;How to build github.io blog in 3 min?&amp;quot;
 date:  2016-11-18 23:25:28 +0200
 ...
 &lt;/code&gt;&lt;/pre&gt;

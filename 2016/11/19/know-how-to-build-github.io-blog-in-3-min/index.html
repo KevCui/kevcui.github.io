@@ -52,8 +52,10 @@
 	
     
     <script src="https://krazycavin.github.io/js/jquery.min.js"></script>
-    <script src="https://krazycavin.github.io/js/main.min.js">
-    </script>
+    <script src="https://krazycavin.github.io/js/main.min.js"></script>
+    <link rel="stylesheet" href="https://krazycavin.github.io/css/monokai.min.css">
+    <script src="https://krazycavin.github.io/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
   <body>
@@ -257,7 +259,7 @@
 <li>Clone it to your local<br/></li>
 </ul>
 
-<pre><code class="language-python">~ $ git clone https://github.com/username/username.github.io my-blog
+<pre><code class="language-Shell">~ $ git clone https://github.com/username/username.github.io my-blog
 </code></pre>
 
 <h3 id="br-step-4-configure-it"><br/>STEP 4: Configure-it</h3>
@@ -266,14 +268,14 @@
 <li>Go to my-blog<br/></li>
 </ul>
 
-<pre><code class="language-python">~ $ cd my-blog
+<pre><code class="language-bash">~ $ cd my-blog
 </code></pre>
 
 <ul>
 <li>Open <strong>_config.yml</strong> and modify<br/></li>
 </ul>
 
-<pre><code class="language-python">title: 'your-blog-title'
+<pre><code class="language-yaml">title: 'your-blog-title'
 description: 'your-blog-description'
 url: 'https://username.github.io'
 baseurl: '/'
@@ -290,7 +292,7 @@ gems : ['jekyull-paginate', 'jemoji']
 <li>Run locally<br/></li>
 </ul>
 
-<pre><code class="language-python">~ $ cd my-blog
+<pre><code class="language-Bash">~ $ cd my-blog
 ~ $ jekyll serve
 # =&gt; Now browse to http://localhost:4000/
 </code></pre>
@@ -301,7 +303,7 @@ gems : ['jekyull-paginate', 'jemoji']
 <li>Create a post in <strong>_post</strong>, name it <strong>YEAR-MONTH-DAY-title.md</strong><br/></li>
 </ul>
 
-<pre><code class="language-python">title: &quot;How to build github.io blog in 3 min?&quot;
+<pre><code class="language-markdown">title: &quot;How to build github.io blog in 3 min?&quot;
 date:  2016-11-18 23:25:28 +0200
 ...
 </code></pre>

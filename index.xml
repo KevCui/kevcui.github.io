@@ -70,14 +70,14 @@
 
 &lt;p&gt;For example:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
 OS x Implementation versus Problem: Does this feature work on iOS 7 device?
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;br/&gt;
 Then I will put the ideas or assumptions shortly on a to-do list:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Testing ideas:
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;Testing ideas:
 [ ] Support all regions?
 [ ] iOS 7
 &lt;/code&gt;&lt;/pre&gt;
@@ -101,7 +101,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:&lt;/p&gt;
 
 &lt;p&gt;After 30 min, my to-do list looks like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Testing ideas:
+&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;Testing ideas:
 [?] Support all regions?
     [x] Europe
     [?] Asia: no response from api
@@ -129,7 +129,6 @@ Issue 1: crash on iOS 7
 - &amp;lt;step 2&amp;gt;
 - &amp;lt;step 3&amp;gt;
 &amp;lt;crash stack traces&amp;gt;
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4 id=&#34;stage-3-give-feedback&#34;&gt;Stage 3: Give feedback&lt;/h4&gt;
@@ -245,7 +244,7 @@ Issue 1: crash on iOS 7
 
 &lt;p&gt;Not to say if &lt;code&gt;node_modules&lt;/code&gt; is a design flaw of npm, the fact is that &lt;code&gt;node_modules&lt;/code&gt; is bloated heavily, interesting post &lt;a href=&#34;https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558&#34;&gt;here&lt;/a&gt; and interesting discussion &lt;a href=&#34;https://www.reddit.com/r/webdev/comments/42cpjy/why_is_my_node_modules_directory_140mb_is_this/&#34;&gt;here&lt;/a&gt;. Hexo is powered by Node.js and naturally bloated by it. That&amp;rsquo;s why &lt;code&gt;node_modules&lt;/code&gt; is that place where I really don&amp;rsquo;t want to look deep inside. To have a better understanding, I roughly checked the size of folders including the same theme and the result is kind as expected:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Hexo w/ node_modules: 18M
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Hexo w/ node_modules: 18M
 Hexo w/o node_modules: 69M
 Hugo: 29M
 &lt;/code&gt;&lt;/pre&gt;
@@ -468,7 +467,7 @@ Hugo: 29M
 
 &lt;p&gt;The deployment of hexo is amazing. I add my git repo info in _config.xml then run a simple command:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;~$ hexo d
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;~$ hexo d
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Done! What a magic! No need git add, git commit, git push&amp;hellip; It&amp;rsquo;s really continent to write and publish a post.&lt;/p&gt;
@@ -483,7 +482,7 @@ Hugo: 29M
 
 &lt;p&gt;Overall, hexo gives me an impression &lt;em&gt;fast&lt;/em&gt;, starting from the command execution with one letter:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;hexo s &amp;lt;=&amp;gt; hexo server
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hexo s &amp;lt;=&amp;gt; hexo server
 hexo g &amp;lt;=&amp;gt; hexo generate
 hexo d &amp;lt;=&amp;gt; hexo deploy
 hexo cl &amp;lt;=&amp;gt; hexo clean
@@ -1286,7 +1285,7 @@ Minor                |
 &lt;li&gt;Clone it to your local&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ git clone https://github.com/username/username.github.io my-blog
+&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;~ $ git clone https://github.com/username/username.github.io my-blog
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;br-step-4-configure-it&#34;&gt;&lt;br/&gt;STEP 4: Configure-it&lt;/h3&gt;
@@ -1295,14 +1294,14 @@ Minor                |
 &lt;li&gt;Go to my-blog&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ cd my-blog
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;~ $ cd my-blog
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Open &lt;strong&gt;_config.yml&lt;/strong&gt; and modify&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;title: &#39;your-blog-title&#39;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;title: &#39;your-blog-title&#39;
 description: &#39;your-blog-description&#39;
 url: &#39;https://username.github.io&#39;
 baseurl: &#39;/&#39;
@@ -1319,7 +1318,7 @@ gems : [&#39;jekyull-paginate&#39;, &#39;jemoji&#39;]
 &lt;li&gt;Run locally&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;~ $ cd my-blog
+&lt;pre&gt;&lt;code class=&#34;language-Bash&#34;&gt;~ $ cd my-blog
 ~ $ jekyll serve
 # =&amp;gt; Now browse to http://localhost:4000/
 &lt;/code&gt;&lt;/pre&gt;
@@ -1330,7 +1329,7 @@ gems : [&#39;jekyull-paginate&#39;, &#39;jemoji&#39;]
 &lt;li&gt;Create a post in &lt;strong&gt;_post&lt;/strong&gt;, name it &lt;strong&gt;YEAR-MONTH-DAY-title.md&lt;/strong&gt;&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;title: &amp;quot;How to build github.io blog in 3 min?&amp;quot;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;title: &amp;quot;How to build github.io blog in 3 min?&amp;quot;
 date:  2016-11-18 23:25:28 +0200
 ...
 &lt;/code&gt;&lt;/pre&gt;

@@ -69,7 +69,7 @@
 
 &lt;p&gt;Not to say if &lt;code&gt;node_modules&lt;/code&gt; is a design flaw of npm, the fact is that &lt;code&gt;node_modules&lt;/code&gt; is bloated heavily, interesting post &lt;a href=&#34;https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558&#34;&gt;here&lt;/a&gt; and interesting discussion &lt;a href=&#34;https://www.reddit.com/r/webdev/comments/42cpjy/why_is_my_node_modules_directory_140mb_is_this/&#34;&gt;here&lt;/a&gt;. Hexo is powered by Node.js and naturally bloated by it. That&amp;rsquo;s why &lt;code&gt;node_modules&lt;/code&gt; is that place where I really don&amp;rsquo;t want to look deep inside. To have a better understanding, I roughly checked the size of folders including the same theme and the result is kind as expected:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Hexo w/ node_modules: 18M
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Hexo w/ node_modules: 18M
 Hexo w/o node_modules: 69M
 Hugo: 29M
 &lt;/code&gt;&lt;/pre&gt;

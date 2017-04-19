@@ -70,14 +70,14 @@
 
 &lt;p&gt;For example:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
 OS x Implementation versus Problem: Does this feature work on iOS 7 device?
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;br/&gt;
 Then I will put the ideas or assumptions shortly on a to-do list:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Testing ideas:
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;Testing ideas:
 [ ] Support all regions?
 [ ] iOS 7
 &lt;/code&gt;&lt;/pre&gt;
@@ -101,7 +101,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:&lt;/p&gt;
 
 &lt;p&gt;After 30 min, my to-do list looks like:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Testing ideas:
+&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;Testing ideas:
 [?] Support all regions?
     [x] Europe
     [?] Asia: no response from api
@@ -129,7 +129,6 @@ Issue 1: crash on iOS 7
 - &amp;lt;step 2&amp;gt;
 - &amp;lt;step 3&amp;gt;
 &amp;lt;crash stack traces&amp;gt;
-
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4 id=&#34;stage-3-give-feedback&#34;&gt;Stage 3: Give feedback&lt;/h4&gt;

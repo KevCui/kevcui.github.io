@@ -52,8 +52,10 @@
 	
     
     <script src="https://krazycavin.github.io/js/jquery.min.js"></script>
-    <script src="https://krazycavin.github.io/js/main.min.js">
-    </script>
+    <script src="https://krazycavin.github.io/js/main.min.js"></script>
+    <link rel="stylesheet" href="https://krazycavin.github.io/css/monokai.min.css">
+    <script src="https://krazycavin.github.io/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
   <body>
@@ -274,14 +276,14 @@
 
 <p>For example:</p>
 
-<pre><code>Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
+<pre><code class="language-shell">Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
 OS x Implementation versus Problem: Does this feature work on iOS 7 device?
 </code></pre>
 
 <p><br/>
 Then I will put the ideas or assumptions shortly on a to-do list:</p>
 
-<pre><code>Testing ideas:
+<pre><code class="language-shell">Testing ideas:
 [ ] Support all regions?
 [ ] iOS 7
 </code></pre>
@@ -305,7 +307,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:</p>
 
 <p>After 30 min, my to-do list looks like:</p>
 
-<pre><code>Testing ideas:
+<pre><code class="language-Shell">Testing ideas:
 [?] Support all regions?
     [x] Europe
     [?] Asia: no response from api
@@ -333,7 +335,6 @@ Issue 1: crash on iOS 7
 - &lt;step 2&gt;
 - &lt;step 3&gt;
 &lt;crash stack traces&gt;
-
 </code></pre>
 
 <h4 id="stage-3-give-feedback">Stage 3: Give feedback</h4>

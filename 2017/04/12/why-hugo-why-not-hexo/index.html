@@ -52,8 +52,10 @@
 	
     
     <script src="https://krazycavin.github.io/js/jquery.min.js"></script>
-    <script src="https://krazycavin.github.io/js/main.min.js">
-    </script>
+    <script src="https://krazycavin.github.io/js/main.min.js"></script>
+    <link rel="stylesheet" href="https://krazycavin.github.io/css/monokai.min.css">
+    <script src="https://krazycavin.github.io/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
   <body>
@@ -273,7 +275,7 @@
 
 <p>Not to say if <code>node_modules</code> is a design flaw of npm, the fact is that <code>node_modules</code> is bloated heavily, interesting post <a href="https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558">here</a> and interesting discussion <a href="https://www.reddit.com/r/webdev/comments/42cpjy/why_is_my_node_modules_directory_140mb_is_this/">here</a>. Hexo is powered by Node.js and naturally bloated by it. That&rsquo;s why <code>node_modules</code> is that place where I really don&rsquo;t want to look deep inside. To have a better understanding, I roughly checked the size of folders including the same theme and the result is kind as expected:</p>
 
-<pre><code>Hexo w/ node_modules: 18M
+<pre><code class="language-markdown">Hexo w/ node_modules: 18M
 Hexo w/o node_modules: 69M
 Hugo: 29M
 </code></pre>
