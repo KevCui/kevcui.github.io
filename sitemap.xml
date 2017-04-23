@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://krazycavin.github.io/2017/04/23/tweet-pinboard_01-052017/</loc>
+    <lastmod>2017-04-23T11:19:25+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</loc>
     <lastmod>2017-04-17T22:30:00+02:00</lastmod>
   </url>
@@ -181,19 +186,19 @@
   
   <url>
     <loc>https://krazycavin.github.io/</loc>
-    <lastmod>2017-04-17T22:30:00+02:00</lastmod>
+    <lastmod>2017-04-23T11:19:25+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://krazycavin.github.io/tags/list/</loc>
-    <lastmod>2017-03-08T22:12:08+02:00</lastmod>
+    <lastmod>2017-04-23T11:19:25+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://krazycavin.github.io/post/</loc>
-    <lastmod>2017-04-17T22:30:00+02:00</lastmod>
+    <lastmod>2017-04-23T11:19:25+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -247,7 +252,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/tags/twitter/</loc>
-    <lastmod>2016-12-11T22:00:00+02:00</lastmod>
+    <lastmod>2017-04-23T11:19:25+02:00</lastmod>
     <priority>0</priority>
   </url>
   
