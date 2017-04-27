@@ -99,7 +99,7 @@
 &lt;li&gt;To understand the detail of &lt;strong&gt;implementation&lt;/strong&gt;: Which kind of user cases are considered and checked already?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;With these information in mind, I will &lt;strong&gt;think&lt;/strong&gt; about that the implementation does not only meet the request, but also provide the functionality to solve the problem:&lt;/p&gt;
+&lt;p&gt;With this information in mind, I will &lt;strong&gt;think&lt;/strong&gt; about that the implementation does not only meet the request, but also provide the functionality to solve the problem:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Implementation versus Request: What are the misunderstandings and ambiguities?&lt;/li&gt;
@@ -118,7 +118,7 @@
 &lt;p&gt;For example:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
-OS x Implementation versus Problem: Does this feature work on iOS 7 device?
+OS x Implementation versus Problem: Does this feature work on iOS 7 devices?
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;br/&gt;
@@ -184,14 +184,14 @@ Issue 1: crash on iOS 7
 
 &lt;p&gt;The key of this stage is to &lt;strong&gt;share knowledge&lt;/strong&gt;. I&amp;rsquo;ve some questions and issues on my list collected from previous stage and I know who I need to contact. Can I just throw my feedback on their face directly? I hope I can but apparently nope.&lt;/p&gt;
 
-&lt;p&gt;Regarding to the questions, it needs to have a proper conversation to remove misunderstandings and ambiguities:&lt;/p&gt;
+&lt;p&gt;Regarding the questions, it needs to have a proper conversation to remove misunderstandings and ambiguities:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;What&amp;rsquo;s my opinion and suggestion?&lt;/li&gt;
 &lt;li&gt;What&amp;rsquo;s your opinion and suggestion?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Regarding to the issues, it needs to have a proper discussion to evaluate the risk:&lt;/p&gt;
+&lt;p&gt;Regarding the issues, it needs to have a proper discussion to evaluate the risk:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;What can be fixed?&lt;/li&gt;
@@ -214,7 +214,7 @@ Issue 1: crash on iOS 7
 &lt;li&gt;How to think different and some factors to consider?&lt;/li&gt;
 &lt;li&gt;How to collect and share findings efficiently?&lt;/li&gt;
 &lt;li&gt;How to shorten feedback loop in development?&lt;/li&gt;
-&lt;li&gt;How to train myself always be ready to be interrupted?&lt;/li&gt;
+&lt;li&gt;How to train myself be always ready to be interrupted?&lt;/li&gt;
 &lt;li&gt;How to pair with developers?&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
@@ -239,7 +239,7 @@ Issue 1: crash on iOS 7
       <guid>https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/</guid>
       <description>
 
-&lt;p&gt;As you probably remember that I just about &lt;a href=&#34;https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/&#34;&gt;switched from jekyll to hexo&lt;/a&gt; 2 month ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&lt;/p&gt;
+&lt;p&gt;As you probably remember that I just about &lt;a href=&#34;https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/&#34;&gt;switched from jekyll to hexo&lt;/a&gt; 2 months ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&lt;/p&gt;
 
 &lt;h3 id=&#34;why-hexo-was-chosen&#34;&gt;Why hexo was chosen?&lt;/h3&gt;
 
@@ -302,12 +302,12 @@ Hugo: 29M
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/livereload/&#34;&gt;LiveReload&lt;/a&gt;: it instantly reloads browser after any changes. Based on hugo&amp;rsquo;s build speed, it&amp;rsquo;s super continent for developing theme and checking post&amp;rsquo;s looking, easy and fun. I like its speedy &lt;strong&gt;live&lt;/strong&gt; reload. ⚡️&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/aliases/&#34;&gt;Aliases&lt;/a&gt;: I call it  page redirect. Once I put alias url in a post and then visiting this alias url from browser, hugo will redirect alias url to post url. It easily solves the problem of url changes caused by migration from other frameworks.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/aliases/&#34;&gt;Aliases&lt;/a&gt;: I call it  page redirect. Once I put alias URL in a post and then visiting this alias URL from browser, hugo will redirect alias URL to post URL. It easily solves the problem of URL changes caused by migration from other frameworks.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 
-&lt;p&gt;To sum up, hugo is definitely my new favorite. But hexo is actually good enough to suit my needs. It seams hard to pick one, so my suggestion is following. Imagine you would like to build your own static web pages:&lt;/p&gt;
+&lt;p&gt;To sum up, hugo is definitely my new favorite. But hexo is actually good enough to suit my needs. It seems hard to pick one, so my suggestion is following. Imagine you would like to build your own static web pages:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;You start from fresh new, I will recommend you give &lt;strong&gt;hugo&lt;/strong&gt; a try first.&lt;/li&gt;
@@ -340,7 +340,7 @@ Hugo: 29M
 
 &lt;p&gt;I didn&amp;rsquo;t really remember since when I started to use Firefox, I always have it as my main browser. Back to the old good day, Firefox relies on its lightweight and fast speed amazing the world. No doubt it was the best browser. Nowadays, it is still one of the most popular browsers but definitely not top one. Many statics show it dramatically lost users &lt;a href=&#34;http://gs.statcounter.com/browser-market-share#monthly-201001-201702&#34;&gt;here&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; and &lt;a href=&#34;https://www.w3schools.com/browsers/default.asp&#34;&gt;here&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. It&amp;rsquo;s disappointed to see the number of Firefox users keep shrinking. During the decline in 2015, &lt;a href=&#34;https://arstechnica.com/business/2016/05/firefox-overtakes-microsoft-internet-explorer-edge-browsers-first-time-statcounter/&#34;&gt;Firefox tops IE &amp;amp; Edge browser market share for first time&lt;/a&gt;. It was especially ironic.&lt;/p&gt;
 
-&lt;p&gt;Firefox is not good enough? It&amp;rsquo;s probably good enough. But its competitors are better. I ran some performance tests, like &lt;a href=&#34;http://browserbench.org/JetStream/&#34;&gt;JetStream&lt;/a&gt;, &lt;a href=&#34;https://chromium.github.io/octane/&#34;&gt;Octane 2.0&lt;/a&gt;, &lt;a href=&#34;http://browserbench.org/Speedometer/&#34;&gt;Speedometer&lt;/a&gt; on Firefox v52 and Chromium v56 with my linux desktop. Chromium wins them all and beats Firefox easily. Besides that, personally I prefer Chromium built-in devtool and &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; is a huge +1.&lt;/p&gt;
+&lt;p&gt;Firefox is not good enough? It&amp;rsquo;s probably good enough. But its competitors are better. I ran some performance tests, like &lt;a href=&#34;http://browserbench.org/JetStream/&#34;&gt;JetStream&lt;/a&gt;, &lt;a href=&#34;https://chromium.github.io/octane/&#34;&gt;Octane 2.0&lt;/a&gt;, &lt;a href=&#34;http://browserbench.org/Speedometer/&#34;&gt;Speedometer&lt;/a&gt; on Firefox v52 and Chromium v56 with my Linux desktop. Chromium wins them all and beats Firefox easily. Besides that, personally I prefer Chromium built-in devtool and &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; is a huge +1.&lt;/p&gt;
 
 &lt;p&gt;These facts become a pressure from outside that weighs on Firefox. Once you run behind others, and you put all the effort to catch up. What people will see is that you&amp;rsquo;re following the same path, which others did already. It&amp;rsquo;s damn sad.&lt;/p&gt;
 
@@ -354,7 +354,7 @@ Hugo: 29M
 
 &lt;h3 id=&#34;a-future-of-uncertainty&#34;&gt;A future of uncertainty&lt;/h3&gt;
 
-&lt;p&gt;Moz://a really pushes hard to fully rollout Electrolysis functionality this year. The main change like Multiprocess, it will boost performance certainly. But it&amp;rsquo;s a two-blade sword, Firefox will perhaps become another memory hog. Yes, it gonna be like Chrome. Regarding to the recent changes, I feel Firefox is different, unfamiliar or lost: &lt;a href=&#34;http://www.omgubuntu.co.uk/2017/03/firefox-52-no-sound-pulseaudio-alsa-linux&#34;&gt;Firefox Goes PulseAudio Only, Leaves ALSA Users With No Sound&lt;/a&gt;, &lt;a href=&#34;http://www.theverge.com/2017/1/25/14376710/walt-mossberg-mozilla-firefox-browser-revived&#34;&gt;What’s up with Firefox, the browser that time forgot?&lt;/a&gt;, &lt;a href=&#34;http://www.ghacks.net/2017/02/17/firefox-add-ons-roadmap-for-2017/&#34;&gt;Firefox Add-ons Roadmap for 2017&lt;/a&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Moz://a really pushes hard to fully rollout Electrolysis functionality this year. The main change like Multiprocess, it will boost performance certainly. But it&amp;rsquo;s a two-blade sword, Firefox will perhaps become another memory hog. Yes, it&amp;rsquo;s gonna be like Chrome. Regarding the recent changes, I feel Firefox is different, unfamiliar or lost: &lt;a href=&#34;http://www.omgubuntu.co.uk/2017/03/firefox-52-no-sound-pulseaudio-alsa-linux&#34;&gt;Firefox Goes PulseAudio Only, Leaves ALSA Users With No Sound&lt;/a&gt;, &lt;a href=&#34;http://www.theverge.com/2017/1/25/14376710/walt-mossberg-mozilla-firefox-browser-revived&#34;&gt;What’s up with Firefox, the browser that time forgot?&lt;/a&gt;, &lt;a href=&#34;http://www.ghacks.net/2017/02/17/firefox-add-ons-roadmap-for-2017/&#34;&gt;Firefox Add-ons Roadmap for 2017&lt;/a&gt;&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;To make Firefox a better browser, surely there are reasons behind all changes. Maybe it&amp;rsquo;s me who cannot clearly understand them, who think the future is uncertain, who still believe in Firefox this year would have a new beginning, not the end.&lt;/p&gt;
 
@@ -510,7 +510,7 @@ Hugo: 29M
       <guid>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
       <description>
 
-&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;http://127.0.0.1:4000/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finsih reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
+&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;http://127.0.0.1:4000/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
 
 &lt;h4 id=&#34;1-a-net-name-is-half-success&#34;&gt;1. A net name is half-success&lt;/h4&gt;
 
@@ -520,9 +520,9 @@ Hugo: 29M
 
 &lt;h4 id=&#34;2-node-js-home-lovely-home&#34;&gt;2. Node.js home lovely home&lt;/h4&gt;
 
-&lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to setup project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
+&lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to set up project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
 
-&lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable . At the end, the only ting I want is just to setup something in 3 min and spend my time on writing more posts.&lt;/p&gt;
+&lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable . At the end, the only ting I want is just to set up something in 3 min and spend my time on writing more posts.&lt;/p&gt;
 
 &lt;h4 id=&#34;3-deployment-it-s-a-magic&#34;&gt;3. Deployment? It&amp;rsquo;s a magic!&lt;/h4&gt;
 
@@ -581,7 +581,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;h3 id=&#34;chapter-i-huge-ambitions-but-no-skills&#34;&gt;Chapter I: huge ambitions but no skills&lt;/h3&gt;
 
-&lt;p&gt;I successfully sold my big picture of test automation future to the them without any oppositions. With UI test automation, I had my dreams:&lt;/p&gt;
+&lt;p&gt;I successfully sold my big picture of test automation future to without any oppositions. With UI test automation, I had my dreams:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A dream of brilliant and efficient release process&lt;/p&gt;&lt;/li&gt;
@@ -611,7 +611,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 &lt;li&gt;&lt;p&gt;Pure UI level, no need to dive deep into the code&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;For me it looks really promising, even I had few knowledge of this tool and scripting using ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&amp;hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.&lt;/p&gt;
+&lt;p&gt;For me it looks really promising, even I had little knowledge of this tool and scripting using ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&amp;hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.&lt;/p&gt;
 
 &lt;p&gt;Now it&amp;rsquo;s time to move to the 2nd step, but soon in reality I found it&amp;rsquo;s hard to simulate user&amp;rsquo;s general actions, for example: a simple action like scroll down on a list. How many times? How far it can scroll, stop at the end or somewhere randomly?&lt;/p&gt;
 
@@ -655,7 +655,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;h3 id=&#34;chapter-iii-one-man-show-and-demotivated-maintenance&#34;&gt;Chapter III: one-man show and demotivated maintenance&lt;/h3&gt;
 
-&lt;p&gt;3 months later, I didn&amp;rsquo;t go further in the 3rd step. Because my confidence was teared apart by unreliable results and my passion was extinguished by daily maintenance tasks. I told myself that it&amp;rsquo;s time to give up. Silently I stopped putting my effort to write new tests and maintain test suite.&lt;/p&gt;
+&lt;p&gt;3 months later, I didn&amp;rsquo;t go further in the 3rd step. Because my confidence was torn apart by unreliable results and my passion was extinguished by daily maintenance tasks. I told myself that it&amp;rsquo;s time to give up. Silently I stopped putting my effort to write new tests and maintain test suite.&lt;/p&gt;
 
 &lt;p&gt;2 sprints after, I came back from my vacation. I doubted whether tests were still executable. Then I accessed to the old Calabash repository carefully and executed scripts curiously, as expected, not a single test can start to run.&lt;/p&gt;
 
@@ -713,7 +713,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;To start my journey on software testing is a beautiful coincidence I had in my life. I&amp;rsquo;ve a master degree of Biomedical in medical imaging area. As a hobby, I learned some programming skills by myself. Luckily, my diploma and my skills helped me to get an internship in a medical software company. I was in the software department and my mission is to build a web management tool.&lt;/p&gt;
 
-&lt;p&gt;After 8 months, the employer was quite happy about the outcomes of my internship. At that moment, they were searching for a new developer who can write scripts to build a in-house test automation framework and writing test cases. Luckily, I was chosen to start my adventure in software testing, as a SDET.&lt;/p&gt;
+&lt;p&gt;After 8 months, the employer was quite happy about the outcomes of my internship. At that moment, they were searching for a new developer who can write scripts to build an in-house test automation framework and writing test cases. Luckily, I was chosen to start my adventure in software testing, as a SDET.&lt;/p&gt;
 
 &lt;h3 id=&#34;who-inspires-you&#34;&gt;Who inspires you?&lt;/h3&gt;
 
@@ -751,7 +751,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called &lt;strong&gt;Bugshido&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;As we all known, &lt;a href=&#34;https://en.wikipedia.org/wiki/Bushido&#34;&gt;Bushido&lt;/a&gt;: 武士道 the &lt;strong&gt;way&lt;/strong&gt; (Dō or Tao) of the &lt;strong&gt;warrior&lt;/strong&gt; (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors. Inspired by Bushido, Bugshido is the way symbolically to determine the existence of different bugs. The idea of Bugshido is based on the way which combines &lt;strong&gt;priority&lt;/strong&gt; and &lt;strong&gt;severity&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; by&lt;/p&gt;
+&lt;p&gt;As we all know, &lt;a href=&#34;https://en.wikipedia.org/wiki/Bushido&#34;&gt;Bushido&lt;/a&gt;: 武士道 the &lt;strong&gt;way&lt;/strong&gt; (Dō or Tao) of the &lt;strong&gt;warrior&lt;/strong&gt; (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors. Inspired by Bushido, Bugshido is the way symbolically to determine the existence of different bugs. The idea of Bugshido is based on the way which combines &lt;strong&gt;priority&lt;/strong&gt; and &lt;strong&gt;severity&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; by&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Priority: High, Medium, Low&amp;hellip;&lt;/p&gt;&lt;/li&gt;
@@ -811,11 +811,11 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ninja&#34;&gt;Ninja&lt;/a&gt; exists as a mystery, rather than a warrior. A typical Ninja will hide in the shadow, waiting for a moment to kill the target with one fatal hit. The danger begins when the negligence of Ninja&amp;rsquo;s existence. Even sometimes there is a feeling to tell you that Ninja might be hidden in certain areas, but Ninja perform ninjutsu to keep them &lt;strong&gt;unpredictable&lt;/strong&gt; in first place.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Advice: Unfortunately, most of time Ninja is only found after serious damages are made. The key point is fast-react in order to minimize the losses. Once a Ninja is defeated, take a lesson and learn not be fooled by the same ninjutsu next time.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Advice: Unfortunately, most of time Ninja is only found after serious damages are made. The key point is fast-react in order to minimize the losses. Once a Ninja is defeated, take a lesson and learn not to be fooled by the same ninjutsu next time.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;warrior-triage&#34;&gt;Warrior Triage&lt;/h3&gt;
 
-&lt;p&gt;After warrior-showoff is over, let&amp;rsquo;s take a closer look to the triage process. This part describes the battle tactic, it might be a little bit boring.&lt;/p&gt;
+&lt;p&gt;After warrior-showoff is over, let&amp;rsquo;s take a closer look to the triage process. This part describes the battle tactic, it might be a bit boring.&lt;/p&gt;
 
 &lt;h4 id=&#34;ninja-definitely-triggers-a-hotfix&#34;&gt;Ninja definitely triggers a hotfix&lt;/h4&gt;
 
@@ -831,7 +831,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 
-&lt;p&gt;I hope you had fun of reading. Besides that, now you know &lt;strong&gt;Bugshidao&lt;/strong&gt; to identify a warrior, like Ninja, Samurai, Ronin, Sohei and Geisha. You&amp;rsquo;ve also the basic tactic to deal them them. Last advice I have to give you, my friend, as I always keep it in my mind to warn myself:&lt;/p&gt;
+&lt;p&gt;I hope you had fun of reading. Besides that, now you know &lt;strong&gt;Bugshidao&lt;/strong&gt; to identify a warrior, like Ninja, Samurai, Ronin, Sohei and Geisha. You&amp;rsquo;ve also the basic tactic to deal with them. Last advice I have to give you, my friend, as I always keep it in my mind to warn myself:&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Wake up! Evil warriors are killing your customers!&amp;rdquo;&lt;/p&gt;
@@ -869,11 +869,11 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;h4 id=&#34;01-jan-2016-a-new-habit&#34;&gt;&lt;strong&gt;01 Jan 2016: A new habit&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;Actually it&amp;rsquo;s easy for me to build this habit. I have too much time during my daily commute. Why not use this time for &lt;strong&gt;reading&lt;/strong&gt; articles I bookmarked? I&amp;rsquo;m quite happy that I keep reading everyday to charge my brain. Things are learnt from reading which inspire me to think more, to go deeper into the question &lt;strong&gt;why&lt;/strong&gt; behind &lt;strong&gt;what&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Actually it&amp;rsquo;s easy for me to build this habit. I have too much time during my daily commute. Why not use this time for &lt;strong&gt;reading&lt;/strong&gt; articles I bookmarked? I&amp;rsquo;m quite happy that I keep reading every day to charge my brain. Things are learnt from reading which inspire me to think more, to go deeper into the question &lt;strong&gt;why&lt;/strong&gt; behind &lt;strong&gt;what&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;A small fun fact: In 2016, I read &lt;strong&gt;2,089,596&lt;/strong&gt; words in &lt;a href=&#34;https://getpocket.com/&#34;&gt;Pocket&lt;/a&gt;, which is like reading 44 books. What a surprise I didn&amp;rsquo;t expect!&lt;/p&gt;
 
-&lt;p&gt;Also I managed to finish reading:&lt;/p&gt;
+&lt;p&gt;Also, I managed to finish reading:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.kaner.com/pdfs/bugadvoc.pdf&#34;&gt;Bug Advocacy&lt;/a&gt; - Cem Kaner&lt;/p&gt;&lt;/li&gt;
@@ -907,7 +907,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;After abandoned twitter account 6 years ago, I come back to twitter over again.&lt;/p&gt;
 
-&lt;p&gt;With a main focus on software testing, I followed tons of awesome people, read lots of great posts and participated some interesting challenges as well. I feel so happy to see passionate testers tweeting around with new interesting ideas and concepts. Also I saw many doubts and misunderstanding of QA, tester and testing&amp;hellip;&lt;/p&gt;
+&lt;p&gt;With a main focus on software testing, I followed tons of awesome people, read lots of great posts and participated some interesting challenges as well. I feel so happy to see passionate testers tweeting around with new interesting ideas and concepts. Also, I saw many doubts and misunderstanding of QA, tester and testing&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;Good or bad are two sides of the same coin. The point of view to an alive thing cannot be perfectly right or absolutely wrong. I started to question &amp;ldquo;What is quality?&amp;rdquo;, &amp;ldquo;What is my job as tester and QA?&amp;rdquo;, &amp;ldquo;What is testing?&amp;rdquo; and &amp;ldquo;What is wrong about them?&amp;rdquo;&amp;hellip; As far as I can see, software testing itself is evolving, for a new era.&lt;/p&gt;
 
@@ -957,13 +957,13 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;h4 id=&#34;don-t-open-new-bug-ticket-immediately-until-must-have&#34;&gt;&lt;strong&gt;Don&amp;rsquo;t open new bug ticket immediately&lt;/strong&gt; until must-have&lt;/h4&gt;
 
-&lt;p&gt;When I have some findings, I&amp;rsquo;d like to check with other team members first, instead of logging it into bug tracking tool. Why? Because there is no value added to log a bug, fix it does. If its severity is low, regarding to effort and outcome, it won&amp;rsquo;t be fixed; If its severity is high, we should eliminate it immediately.&lt;sup&gt;&lt;a name=&#34;back6&#34;&gt;&lt;a href=&#34;#link6&#34;&gt;[6]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;When I have some findings, I&amp;rsquo;d like to check with other team members first, instead of logging it into bug tracking tool. Why? Because there is no value added to log a bug, fix it does. If its severity is low, regarding effort and outcome, it won&amp;rsquo;t be fixed; If its severity is high, we should eliminate it immediately.&lt;sup&gt;&lt;a name=&#34;back6&#34;&gt;&lt;a href=&#34;#link6&#34;&gt;[6]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Another good thing without a bug ticket: I have to talk to developers and show them how issue looks like. Then we could start to discuss what&amp;rsquo;s the correct behavior from programming perspective and from user perspective. Then we go for a fix and test the fix together. For me, until now it&amp;rsquo;s the most efficient way to fix bugs.&lt;/p&gt;
 
 &lt;h4 id=&#34;remove-manual-regression-tests-because-i-m-shifted-left-sup-a-name-back7-7-link7-a-sup&#34;&gt;&lt;strong&gt;Remove manual regression tests&lt;/strong&gt; because I&amp;rsquo;m shifted-left&lt;sup&gt;&lt;a name=&#34;back7&#34;&gt;&lt;a href=&#34;#link7&#34;&gt;[7]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
 
-&lt;p&gt;No manual regression tests doesn&amp;rsquo;t mean not verify bug fix at all. The idea is old &amp;ldquo;Do testing as earlier as possible.&amp;rdquo; Instead of checking fix after developer says &amp;ldquo;done&amp;rdquo;, all manual tests should be done earlier before integration. It makes the feedback circle smaller. Let&amp;rsquo;s say &amp;ldquo;done&amp;rdquo; together.&lt;/p&gt;
+&lt;p&gt;No manual regression tests doesn&amp;rsquo;t mean not verify bug fix at all. The idea is old &amp;ldquo;Do testing as early as possible.&amp;rdquo; Instead of checking fix after developer says &amp;ldquo;done&amp;rdquo;, all manual tests should be done earlier before integration. It makes the feedback circle smaller. Let&amp;rsquo;s say &amp;ldquo;done&amp;rdquo; together.&lt;/p&gt;
 
 &lt;h4 id=&#34;make-team-testing-great-with-lots-of-fun&#34;&gt;&lt;strong&gt;Make team testing great&lt;/strong&gt; with lots of fun&lt;/h4&gt;
 
@@ -1211,9 +1211,9 @@ Source code: &lt;a href=&#34;https://github.com/AdAway/AdAway&#34;&gt;GitHub&lt;
 
 &lt;li&gt;&lt;p&gt;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;When testing starts, people follows same test cases on the paper, step by step &amp;ldquo;testing&amp;rdquo; product.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When testing starts, people follow same test cases on the paper, step by step &amp;ldquo;testing&amp;rdquo; product.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Soon, People looks like a robot: they look at paper and write down the answer &amp;ldquo;yes&amp;rdquo;, &amp;ldquo;expected result&amp;rdquo;, &amp;ldquo;pass&amp;rdquo;, &amp;ldquo;no&amp;rdquo;&amp;hellip; Someone will collect paper and check pass/fail&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Soon, People look like a robot: they look at paper and write down the answer &amp;ldquo;yes&amp;rdquo;, &amp;ldquo;expected result&amp;rdquo;, &amp;ldquo;pass&amp;rdquo;, &amp;ldquo;no&amp;rdquo;&amp;hellip; Someone will collect paper and check pass/fail&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Well, pretty like:&lt;/p&gt;
@@ -1244,7 +1244,7 @@ Source code: &lt;a href=&#34;https://github.com/AdAway/AdAway&#34;&gt;GitHub&lt;
 
 &lt;h4 id=&#34;everyone-gets-a-paper-in-front-of-them-this-paper-could-be-a-check-list-full-of-test-steps-could-be-a-sheet-full-of-test-scenarios-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;In my team testing, there is no check list, no test scenarios. I call them &lt;strong&gt;mission&lt;/strong&gt; and &lt;strong&gt;challenge&lt;/strong&gt;. My thought here: Do exploring, not checking. Because exploring is more exciting. I prefer to describe simply a challenge in one sentence using &lt;strong&gt;CAR&lt;/strong&gt; model (it&amp;rsquo;s the first name comes into my mind&amp;hellip;). CAR stands for &lt;strong&gt;C&lt;/strong&gt;ondition,  &lt;strong&gt;A&lt;/strong&gt;ction and &lt;strong&gt;R&lt;/strong&gt;esult. A simple example:&lt;/p&gt;
+&lt;p&gt;In my team testing, there is no check list, no test scenarios. I call them &lt;strong&gt;mission&lt;/strong&gt; and &lt;strong&gt;challenge&lt;/strong&gt;. My thought here: Do exploring, not checking, because exploring is more exciting. I prefer to describe simply a challenge in one sentence using &lt;strong&gt;CAR&lt;/strong&gt; model (it&amp;rsquo;s the first name comes into my mind&amp;hellip;). CAR stands for &lt;strong&gt;C&lt;/strong&gt;ondition,  &lt;strong&gt;A&lt;/strong&gt;ction and &lt;strong&gt;R&lt;/strong&gt;esult. A simple example:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;ondition: GPS on&lt;/p&gt;
 
@@ -1256,7 +1256,7 @@ Source code: &lt;a href=&#34;https://github.com/AdAway/AdAway&#34;&gt;GitHub&lt;
 
 &lt;p&gt;For a 30min testing session, in a mission, 10-15 challenges are recommended. Above 15 is too much, because when people are getting tired, no fun :(&lt;/p&gt;
 
-&lt;h4 id=&#34;when-testing-starts-people-follows-same-test-cases-on-the-paper-step-by-step-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing starts, people follows same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;when-testing-starts-people-follow-same-test-cases-on-the-paper-step-by-step-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing starts, people follow same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;Using CAR model, it&amp;rsquo;s easy to remove useless test steps and to modify them dynamically according to tests.&lt;/p&gt;
 
@@ -1272,7 +1272,7 @@ Source code: &lt;a href=&#34;https://github.com/AdAway/AdAway&#34;&gt;GitHub&lt;
 
 &lt;p&gt;And I will put them to the different &lt;strong&gt;missions&lt;/strong&gt; for different participants.&lt;/p&gt;
 
-&lt;h4 id=&#34;soon-people-looks-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-pass-fail-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People looks like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;soon-people-look-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-pass-fail-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People look like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;Usually I setup a simple finding-wall, like blow:&lt;/p&gt;
 
@@ -1288,7 +1288,7 @@ Minor                |
 
 &lt;p&gt;All participants will put findings on the wall during team testing. After testing, they will be taken down one by one and fixed one by one.&lt;/p&gt;
 
-&lt;p&gt;If you ask me how about those mission paper? I will destroy them immediately after testing and let it be a secret mission.&lt;/p&gt;
+&lt;p&gt;If you ask me how about those mission-paper? I will destroy them immediately after testing and let it be a secret mission.&lt;/p&gt;
 
 &lt;h3 id=&#34;expected-result&#34;&gt;&lt;strong&gt;Expected result&lt;/strong&gt;&lt;/h3&gt;
 
@@ -1310,7 +1310,7 @@ Minor                |
       <guid>https://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
       <description>
 
-&lt;p&gt;I write this tutorial with some notes about how to build a github.io blog, because I was struggling a little bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could &lt;strong&gt;waste&lt;/strong&gt; some of your time on customizing your own awesome blog. 😉&lt;/p&gt;
+&lt;p&gt;I write this tutorial with some notes about how to build a github.io blog, because I was struggling a bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could &lt;strong&gt;waste&lt;/strong&gt; some of your time on customizing your own awesome blog. 😉&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;(What about 3 min? It&amp;rsquo;s the time to read this post&amp;hellip;)&lt;/em&gt;&lt;/p&gt;
 

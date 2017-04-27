@@ -17,7 +17,7 @@
       <guid>https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/</guid>
       <description>
 
-&lt;p&gt;As you probably remember that I just about &lt;a href=&#34;https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/&#34;&gt;switched from jekyll to hexo&lt;/a&gt; 2 month ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&lt;/p&gt;
+&lt;p&gt;As you probably remember that I just about &lt;a href=&#34;https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/&#34;&gt;switched from jekyll to hexo&lt;/a&gt; 2 months ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&lt;/p&gt;
 
 &lt;h3 id=&#34;why-hexo-was-chosen&#34;&gt;Why hexo was chosen?&lt;/h3&gt;
 
@@ -80,12 +80,12 @@ Hugo: 29M
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/livereload/&#34;&gt;LiveReload&lt;/a&gt;: it instantly reloads browser after any changes. Based on hugo&amp;rsquo;s build speed, it&amp;rsquo;s super continent for developing theme and checking post&amp;rsquo;s looking, easy and fun. I like its speedy &lt;strong&gt;live&lt;/strong&gt; reload. ⚡️&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/aliases/&#34;&gt;Aliases&lt;/a&gt;: I call it  page redirect. Once I put alias url in a post and then visiting this alias url from browser, hugo will redirect alias url to post url. It easily solves the problem of url changes caused by migration from other frameworks.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/aliases/&#34;&gt;Aliases&lt;/a&gt;: I call it  page redirect. Once I put alias URL in a post and then visiting this alias URL from browser, hugo will redirect alias URL to post URL. It easily solves the problem of URL changes caused by migration from other frameworks.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 
-&lt;p&gt;To sum up, hugo is definitely my new favorite. But hexo is actually good enough to suit my needs. It seams hard to pick one, so my suggestion is following. Imagine you would like to build your own static web pages:&lt;/p&gt;
+&lt;p&gt;To sum up, hugo is definitely my new favorite. But hexo is actually good enough to suit my needs. It seems hard to pick one, so my suggestion is following. Imagine you would like to build your own static web pages:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;You start from fresh new, I will recommend you give &lt;strong&gt;hugo&lt;/strong&gt; a try first.&lt;/li&gt;
@@ -105,7 +105,7 @@ Hugo: 29M
       <guid>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
       <description>
 
-&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;http://127.0.0.1:4000/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finsih reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
+&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;http://127.0.0.1:4000/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
 
 &lt;h4 id=&#34;1-a-net-name-is-half-success&#34;&gt;1. A net name is half-success&lt;/h4&gt;
 
@@ -115,9 +115,9 @@ Hugo: 29M
 
 &lt;h4 id=&#34;2-node-js-home-lovely-home&#34;&gt;2. Node.js home lovely home&lt;/h4&gt;
 
-&lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to setup project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
+&lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to set up project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
 
-&lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable . At the end, the only ting I want is just to setup something in 3 min and spend my time on writing more posts.&lt;/p&gt;
+&lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable . At the end, the only ting I want is just to set up something in 3 min and spend my time on writing more posts.&lt;/p&gt;
 
 &lt;h4 id=&#34;3-deployment-it-s-a-magic&#34;&gt;3. Deployment? It&amp;rsquo;s a magic!&lt;/h4&gt;
 

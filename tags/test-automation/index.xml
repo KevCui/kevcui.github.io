@@ -35,7 +35,7 @@
 
 &lt;h3 id=&#34;chapter-i-huge-ambitions-but-no-skills&#34;&gt;Chapter I: huge ambitions but no skills&lt;/h3&gt;
 
-&lt;p&gt;I successfully sold my big picture of test automation future to the them without any oppositions. With UI test automation, I had my dreams:&lt;/p&gt;
+&lt;p&gt;I successfully sold my big picture of test automation future to without any oppositions. With UI test automation, I had my dreams:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A dream of brilliant and efficient release process&lt;/p&gt;&lt;/li&gt;
@@ -65,7 +65,7 @@
 &lt;li&gt;&lt;p&gt;Pure UI level, no need to dive deep into the code&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;For me it looks really promising, even I had few knowledge of this tool and scripting using ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&amp;hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.&lt;/p&gt;
+&lt;p&gt;For me it looks really promising, even I had little knowledge of this tool and scripting using ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&amp;hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.&lt;/p&gt;
 
 &lt;p&gt;Now it&amp;rsquo;s time to move to the 2nd step, but soon in reality I found it&amp;rsquo;s hard to simulate user&amp;rsquo;s general actions, for example: a simple action like scroll down on a list. How many times? How far it can scroll, stop at the end or somewhere randomly?&lt;/p&gt;
 
@@ -109,7 +109,7 @@
 
 &lt;h3 id=&#34;chapter-iii-one-man-show-and-demotivated-maintenance&#34;&gt;Chapter III: one-man show and demotivated maintenance&lt;/h3&gt;
 
-&lt;p&gt;3 months later, I didn&amp;rsquo;t go further in the 3rd step. Because my confidence was teared apart by unreliable results and my passion was extinguished by daily maintenance tasks. I told myself that it&amp;rsquo;s time to give up. Silently I stopped putting my effort to write new tests and maintain test suite.&lt;/p&gt;
+&lt;p&gt;3 months later, I didn&amp;rsquo;t go further in the 3rd step. Because my confidence was torn apart by unreliable results and my passion was extinguished by daily maintenance tasks. I told myself that it&amp;rsquo;s time to give up. Silently I stopped putting my effort to write new tests and maintain test suite.&lt;/p&gt;
 
 &lt;p&gt;2 sprints after, I came back from my vacation. I doubted whether tests were still executable. Then I accessed to the old Calabash repository carefully and executed scripts curiously, as expected, not a single test can start to run.&lt;/p&gt;
 

@@ -52,7 +52,7 @@
 &lt;li&gt;To understand the detail of &lt;strong&gt;implementation&lt;/strong&gt;: Which kind of user cases are considered and checked already?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;With these information in mind, I will &lt;strong&gt;think&lt;/strong&gt; about that the implementation does not only meet the request, but also provide the functionality to solve the problem:&lt;/p&gt;
+&lt;p&gt;With this information in mind, I will &lt;strong&gt;think&lt;/strong&gt; about that the implementation does not only meet the request, but also provide the functionality to solve the problem:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Implementation versus Request: What are the misunderstandings and ambiguities?&lt;/li&gt;
@@ -71,7 +71,7 @@
 &lt;p&gt;For example:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
-OS x Implementation versus Problem: Does this feature work on iOS 7 device?
+OS x Implementation versus Problem: Does this feature work on iOS 7 devices?
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;br/&gt;
@@ -137,14 +137,14 @@ Issue 1: crash on iOS 7
 
 &lt;p&gt;The key of this stage is to &lt;strong&gt;share knowledge&lt;/strong&gt;. I&amp;rsquo;ve some questions and issues on my list collected from previous stage and I know who I need to contact. Can I just throw my feedback on their face directly? I hope I can but apparently nope.&lt;/p&gt;
 
-&lt;p&gt;Regarding to the questions, it needs to have a proper conversation to remove misunderstandings and ambiguities:&lt;/p&gt;
+&lt;p&gt;Regarding the questions, it needs to have a proper conversation to remove misunderstandings and ambiguities:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;What&amp;rsquo;s my opinion and suggestion?&lt;/li&gt;
 &lt;li&gt;What&amp;rsquo;s your opinion and suggestion?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Regarding to the issues, it needs to have a proper discussion to evaluate the risk:&lt;/p&gt;
+&lt;p&gt;Regarding the issues, it needs to have a proper discussion to evaluate the risk:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;What can be fixed?&lt;/li&gt;
@@ -167,7 +167,7 @@ Issue 1: crash on iOS 7
 &lt;li&gt;How to think different and some factors to consider?&lt;/li&gt;
 &lt;li&gt;How to collect and share findings efficiently?&lt;/li&gt;
 &lt;li&gt;How to shorten feedback loop in development?&lt;/li&gt;
-&lt;li&gt;How to train myself always be ready to be interrupted?&lt;/li&gt;
+&lt;li&gt;How to train myself be always ready to be interrupted?&lt;/li&gt;
 &lt;li&gt;How to pair with developers?&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
@@ -208,7 +208,7 @@ Issue 1: crash on iOS 7
 
 &lt;p&gt;To start my journey on software testing is a beautiful coincidence I had in my life. I&amp;rsquo;ve a master degree of Biomedical in medical imaging area. As a hobby, I learned some programming skills by myself. Luckily, my diploma and my skills helped me to get an internship in a medical software company. I was in the software department and my mission is to build a web management tool.&lt;/p&gt;
 
-&lt;p&gt;After 8 months, the employer was quite happy about the outcomes of my internship. At that moment, they were searching for a new developer who can write scripts to build a in-house test automation framework and writing test cases. Luckily, I was chosen to start my adventure in software testing, as a SDET.&lt;/p&gt;
+&lt;p&gt;After 8 months, the employer was quite happy about the outcomes of my internship. At that moment, they were searching for a new developer who can write scripts to build an in-house test automation framework and writing test cases. Luckily, I was chosen to start my adventure in software testing, as a SDET.&lt;/p&gt;
 
 &lt;h3 id=&#34;who-inspires-you&#34;&gt;Who inspires you?&lt;/h3&gt;
 
@@ -253,9 +253,9 @@ Issue 1: crash on iOS 7
 
 &lt;li&gt;&lt;p&gt;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;When testing starts, people follows same test cases on the paper, step by step &amp;ldquo;testing&amp;rdquo; product.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When testing starts, people follow same test cases on the paper, step by step &amp;ldquo;testing&amp;rdquo; product.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Soon, People looks like a robot: they look at paper and write down the answer &amp;ldquo;yes&amp;rdquo;, &amp;ldquo;expected result&amp;rdquo;, &amp;ldquo;pass&amp;rdquo;, &amp;ldquo;no&amp;rdquo;&amp;hellip; Someone will collect paper and check pass/fail&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Soon, People look like a robot: they look at paper and write down the answer &amp;ldquo;yes&amp;rdquo;, &amp;ldquo;expected result&amp;rdquo;, &amp;ldquo;pass&amp;rdquo;, &amp;ldquo;no&amp;rdquo;&amp;hellip; Someone will collect paper and check pass/fail&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Well, pretty like:&lt;/p&gt;
@@ -286,7 +286,7 @@ Issue 1: crash on iOS 7
 
 &lt;h4 id=&#34;everyone-gets-a-paper-in-front-of-them-this-paper-could-be-a-check-list-full-of-test-steps-could-be-a-sheet-full-of-test-scenarios-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;In my team testing, there is no check list, no test scenarios. I call them &lt;strong&gt;mission&lt;/strong&gt; and &lt;strong&gt;challenge&lt;/strong&gt;. My thought here: Do exploring, not checking. Because exploring is more exciting. I prefer to describe simply a challenge in one sentence using &lt;strong&gt;CAR&lt;/strong&gt; model (it&amp;rsquo;s the first name comes into my mind&amp;hellip;). CAR stands for &lt;strong&gt;C&lt;/strong&gt;ondition,  &lt;strong&gt;A&lt;/strong&gt;ction and &lt;strong&gt;R&lt;/strong&gt;esult. A simple example:&lt;/p&gt;
+&lt;p&gt;In my team testing, there is no check list, no test scenarios. I call them &lt;strong&gt;mission&lt;/strong&gt; and &lt;strong&gt;challenge&lt;/strong&gt;. My thought here: Do exploring, not checking, because exploring is more exciting. I prefer to describe simply a challenge in one sentence using &lt;strong&gt;CAR&lt;/strong&gt; model (it&amp;rsquo;s the first name comes into my mind&amp;hellip;). CAR stands for &lt;strong&gt;C&lt;/strong&gt;ondition,  &lt;strong&gt;A&lt;/strong&gt;ction and &lt;strong&gt;R&lt;/strong&gt;esult. A simple example:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;ondition: GPS on&lt;/p&gt;
 
@@ -298,7 +298,7 @@ Issue 1: crash on iOS 7
 
 &lt;p&gt;For a 30min testing session, in a mission, 10-15 challenges are recommended. Above 15 is too much, because when people are getting tired, no fun :(&lt;/p&gt;
 
-&lt;h4 id=&#34;when-testing-starts-people-follows-same-test-cases-on-the-paper-step-by-step-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing starts, people follows same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;when-testing-starts-people-follow-same-test-cases-on-the-paper-step-by-step-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing starts, people follow same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;Using CAR model, it&amp;rsquo;s easy to remove useless test steps and to modify them dynamically according to tests.&lt;/p&gt;
 
@@ -314,7 +314,7 @@ Issue 1: crash on iOS 7
 
 &lt;p&gt;And I will put them to the different &lt;strong&gt;missions&lt;/strong&gt; for different participants.&lt;/p&gt;
 
-&lt;h4 id=&#34;soon-people-looks-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-pass-fail-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People looks like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;soon-people-look-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-pass-fail-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People look like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;Usually I setup a simple finding-wall, like blow:&lt;/p&gt;
 
@@ -330,7 +330,7 @@ Minor                |
 
 &lt;p&gt;All participants will put findings on the wall during team testing. After testing, they will be taken down one by one and fixed one by one.&lt;/p&gt;
 
-&lt;p&gt;If you ask me how about those mission paper? I will destroy them immediately after testing and let it be a secret mission.&lt;/p&gt;
+&lt;p&gt;If you ask me how about those mission-paper? I will destroy them immediately after testing and let it be a secret mission.&lt;/p&gt;
 
 &lt;h3 id=&#34;expected-result&#34;&gt;&lt;strong&gt;Expected result&lt;/strong&gt;&lt;/h3&gt;
 

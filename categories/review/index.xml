@@ -35,11 +35,11 @@
 
 &lt;h4 id=&#34;01-jan-2016-a-new-habit&#34;&gt;&lt;strong&gt;01 Jan 2016: A new habit&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;Actually it&amp;rsquo;s easy for me to build this habit. I have too much time during my daily commute. Why not use this time for &lt;strong&gt;reading&lt;/strong&gt; articles I bookmarked? I&amp;rsquo;m quite happy that I keep reading everyday to charge my brain. Things are learnt from reading which inspire me to think more, to go deeper into the question &lt;strong&gt;why&lt;/strong&gt; behind &lt;strong&gt;what&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Actually it&amp;rsquo;s easy for me to build this habit. I have too much time during my daily commute. Why not use this time for &lt;strong&gt;reading&lt;/strong&gt; articles I bookmarked? I&amp;rsquo;m quite happy that I keep reading every day to charge my brain. Things are learnt from reading which inspire me to think more, to go deeper into the question &lt;strong&gt;why&lt;/strong&gt; behind &lt;strong&gt;what&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;A small fun fact: In 2016, I read &lt;strong&gt;2,089,596&lt;/strong&gt; words in &lt;a href=&#34;https://getpocket.com/&#34;&gt;Pocket&lt;/a&gt;, which is like reading 44 books. What a surprise I didn&amp;rsquo;t expect!&lt;/p&gt;
 
-&lt;p&gt;Also I managed to finish reading:&lt;/p&gt;
+&lt;p&gt;Also, I managed to finish reading:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.kaner.com/pdfs/bugadvoc.pdf&#34;&gt;Bug Advocacy&lt;/a&gt; - Cem Kaner&lt;/p&gt;&lt;/li&gt;
@@ -73,7 +73,7 @@
 
 &lt;p&gt;After abandoned twitter account 6 years ago, I come back to twitter over again.&lt;/p&gt;
 
-&lt;p&gt;With a main focus on software testing, I followed tons of awesome people, read lots of great posts and participated some interesting challenges as well. I feel so happy to see passionate testers tweeting around with new interesting ideas and concepts. Also I saw many doubts and misunderstanding of QA, tester and testing&amp;hellip;&lt;/p&gt;
+&lt;p&gt;With a main focus on software testing, I followed tons of awesome people, read lots of great posts and participated some interesting challenges as well. I feel so happy to see passionate testers tweeting around with new interesting ideas and concepts. Also, I saw many doubts and misunderstanding of QA, tester and testing&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;Good or bad are two sides of the same coin. The point of view to an alive thing cannot be perfectly right or absolutely wrong. I started to question &amp;ldquo;What is quality?&amp;rdquo;, &amp;ldquo;What is my job as tester and QA?&amp;rdquo;, &amp;ldquo;What is testing?&amp;rdquo; and &amp;ldquo;What is wrong about them?&amp;rdquo;&amp;hellip; As far as I can see, software testing itself is evolving, for a new era.&lt;/p&gt;
 
@@ -123,13 +123,13 @@
 
 &lt;h4 id=&#34;don-t-open-new-bug-ticket-immediately-until-must-have&#34;&gt;&lt;strong&gt;Don&amp;rsquo;t open new bug ticket immediately&lt;/strong&gt; until must-have&lt;/h4&gt;
 
-&lt;p&gt;When I have some findings, I&amp;rsquo;d like to check with other team members first, instead of logging it into bug tracking tool. Why? Because there is no value added to log a bug, fix it does. If its severity is low, regarding to effort and outcome, it won&amp;rsquo;t be fixed; If its severity is high, we should eliminate it immediately.&lt;sup&gt;&lt;a name=&#34;back6&#34;&gt;&lt;a href=&#34;#link6&#34;&gt;[6]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;When I have some findings, I&amp;rsquo;d like to check with other team members first, instead of logging it into bug tracking tool. Why? Because there is no value added to log a bug, fix it does. If its severity is low, regarding effort and outcome, it won&amp;rsquo;t be fixed; If its severity is high, we should eliminate it immediately.&lt;sup&gt;&lt;a name=&#34;back6&#34;&gt;&lt;a href=&#34;#link6&#34;&gt;[6]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Another good thing without a bug ticket: I have to talk to developers and show them how issue looks like. Then we could start to discuss what&amp;rsquo;s the correct behavior from programming perspective and from user perspective. Then we go for a fix and test the fix together. For me, until now it&amp;rsquo;s the most efficient way to fix bugs.&lt;/p&gt;
 
 &lt;h4 id=&#34;remove-manual-regression-tests-because-i-m-shifted-left-sup-a-name-back7-7-link7-a-sup&#34;&gt;&lt;strong&gt;Remove manual regression tests&lt;/strong&gt; because I&amp;rsquo;m shifted-left&lt;sup&gt;&lt;a name=&#34;back7&#34;&gt;&lt;a href=&#34;#link7&#34;&gt;[7]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
 
-&lt;p&gt;No manual regression tests doesn&amp;rsquo;t mean not verify bug fix at all. The idea is old &amp;ldquo;Do testing as earlier as possible.&amp;rdquo; Instead of checking fix after developer says &amp;ldquo;done&amp;rdquo;, all manual tests should be done earlier before integration. It makes the feedback circle smaller. Let&amp;rsquo;s say &amp;ldquo;done&amp;rdquo; together.&lt;/p&gt;
+&lt;p&gt;No manual regression tests doesn&amp;rsquo;t mean not verify bug fix at all. The idea is old &amp;ldquo;Do testing as early as possible.&amp;rdquo; Instead of checking fix after developer says &amp;ldquo;done&amp;rdquo;, all manual tests should be done earlier before integration. It makes the feedback circle smaller. Let&amp;rsquo;s say &amp;ldquo;done&amp;rdquo; together.&lt;/p&gt;
 
 &lt;h4 id=&#34;make-team-testing-great-with-lots-of-fun&#34;&gt;&lt;strong&gt;Make team testing great&lt;/strong&gt; with lots of fun&lt;/h4&gt;
 
