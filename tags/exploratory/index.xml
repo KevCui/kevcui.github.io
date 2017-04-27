@@ -207,7 +207,7 @@ Issue 1: crash on iOS 7
 
 &lt;li&gt;&lt;p&gt;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;When testing start, people follows same test cases on the paper, step by step &amp;ldquo;testing&amp;rdquo; product.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When testing starts, people follows same test cases on the paper, step by step &amp;ldquo;testing&amp;rdquo; product.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Soon, People looks like a robot: they look at paper and write down the answer &amp;ldquo;yes&amp;rdquo;, &amp;ldquo;expected result&amp;rdquo;, &amp;ldquo;pass&amp;rdquo;, &amp;ldquo;no&amp;rdquo;&amp;hellip; Someone will collect paper and check pass/fail&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -252,7 +252,7 @@ Issue 1: crash on iOS 7
 
 &lt;p&gt;For a 30min testing session, in a mission, 10-15 challenges are recommended. Above 15 is too much, because when people are getting tired, no fun :(&lt;/p&gt;
 
-&lt;h4 id=&#34;when-testing-start-people-follows-same-test-cases-on-the-paper-step-by-step-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing start, people follows same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;when-testing-starts-people-follows-same-test-cases-on-the-paper-step-by-step-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing starts, people follows same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;Using CAR model, it&amp;rsquo;s easy to remove useless test steps and to modify them dynamically according to tests.&lt;/p&gt;
 
@@ -260,13 +260,13 @@ Issue 1: crash on iOS 7
 
 &lt;p&gt;If next time, we want to test general reservation function. Then the challenge is: &lt;strong&gt;When my test account is logged in, I pick a vehicle in list or on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Or it can be splited to 2 challenge:&lt;/p&gt;
+&lt;p&gt;Or it can be splitted to 2 challenges:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle in list, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;And I will put them to the different &lt;strong&gt;mission&lt;/strong&gt;s for different participants.&lt;/p&gt;
+&lt;p&gt;And I will put them to the different &lt;strong&gt;missions&lt;/strong&gt; for different participants.&lt;/p&gt;
 
 &lt;h4 id=&#34;soon-people-looks-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-pass-fail-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People looks like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
