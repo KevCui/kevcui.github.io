@@ -85,7 +85,7 @@
 
 &lt;p&gt;If next time, we want to test general reservation function. Then the challenge is: &lt;strong&gt;When my test account is logged in, I pick a vehicle in list or on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Or it can be splitted to 2 challenges:&lt;/p&gt;
+&lt;p&gt;Or it can be separated into 2 challenges:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle in list, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
 
