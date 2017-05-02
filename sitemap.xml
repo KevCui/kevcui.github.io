@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://krazycavin.github.io/2017/05/02/refine-software-testing-types/</loc>
+    <lastmod>2017-05-02T20:35:50+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://krazycavin.github.io/2017/04/29/be-prepared-interruption-is-coming/</loc>
     <lastmod>2017-04-29T21:25:25+02:00</lastmod>
   </url>
@@ -178,6 +183,12 @@
   </url>
   
   <url>
+    <loc>https://krazycavin.github.io/tags/idea/</loc>
+    <lastmod>2017-05-02T20:35:50+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://krazycavin.github.io/tags/jekyll/</loc>
     <lastmod>2017-02-26T16:40:26+02:00</lastmod>
     <priority>0</priority>
@@ -191,7 +202,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/</loc>
-    <lastmod>2017-04-29T21:25:25+02:00</lastmod>
+    <lastmod>2017-05-02T20:35:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -203,7 +214,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/post/</loc>
-    <lastmod>2017-04-29T21:25:25+02:00</lastmod>
+    <lastmod>2017-05-02T20:35:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -239,7 +250,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/tags/testing/</loc>
-    <lastmod>2017-04-17T22:30:00+02:00</lastmod>
+    <lastmod>2017-05-02T20:35:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
