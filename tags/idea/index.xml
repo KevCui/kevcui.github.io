@@ -29,7 +29,7 @@
 
 &lt;p&gt;Actually we are more or less talking about the same thing. We misunderstand each other because we think from different perspectives.&lt;/p&gt;
 
-&lt;p&gt;In order to make less confusion, I try to refine software testing types by using 5 different categories. Each categories represent one perspective. In other words, they are independent of each other. These categories are &lt;strong&gt;How&lt;/strong&gt;, &lt;strong&gt;When&lt;/strong&gt;, &lt;strong&gt;Who&lt;/strong&gt;, &lt;strong&gt;What&lt;/strong&gt; and &lt;strong&gt;Which&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;In order to make less confusion, I try to refine software testing types by using 5 different categories. Each categories represent one perspective. In other words, they are independent of each other. These categories are &lt;strong&gt;How&lt;/strong&gt;, &lt;strong&gt;When&lt;/strong&gt;, &lt;strong&gt;Who&lt;/strong&gt;, &lt;strong&gt;What&lt;/strong&gt; and &lt;strong&gt;Which&lt;/strong&gt;. Then I put testing types one by one into each category, E.g:&lt;/p&gt;
 
 &lt;p&gt;1.1) &lt;strong&gt;How&lt;/strong&gt; does structure look like:&lt;/p&gt;
 
