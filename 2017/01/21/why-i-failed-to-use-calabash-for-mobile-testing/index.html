@@ -230,7 +230,7 @@
 
 <h3 id="preface">Preface</h3>
 
-<p>I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it <em>reckless passion</em>. Although I learned a lot from it, I&rsquo;ve never shared what I learned in public. After that I changed my focus and gave up on traditional UI automation.</p>
+<p>I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it <em>reckless passion</em>. Although I learned a lot from it, I&rsquo;ve never shared what I learned in public. After that, I changed my focus and gave up on traditional UI automation.</p>
 
 <p>This week, I had some small talks with our awesome developers about test automation. The idea was to implement special UI automated tests, in order to check new product release automatically instead of sanity checking manually by the whole team. I suddenly remembered that I forgot to share my failure with them. I&rsquo;d like to write down in this post, my recklessness and something I learned. In case the team would like to move further on test automation, we could proceed with caution.</p>
 
@@ -240,7 +240,7 @@
 
 <h3 id="chapter-i-huge-ambitions-but-no-skills">Chapter I: huge ambitions but no skills</h3>
 
-<p>I successfully sold my big picture of test automation future to without any oppositions. With UI test automation, I had my dreams:</p>
+<p>I successfully sold my big picture of test automation future too without any oppositions. With UI test automation, I had my dreams:</p>
 
 <ul>
 <li><p>A dream of brilliant and efficient release process</p></li>
@@ -253,7 +253,7 @@
 <p>My initial plan is to follow the steps below:</p>
 
 <ul>
-<li><p>Step 1: Build a main structure of test automation framework and create general functions</p></li>
+<li><p>Step 1: Build the main structure of test automation framework and create general functions</p></li>
 
 <li><p>Step 2: Create test scenarios to replace all manual sanity checks of app core features</p></li>
 
@@ -270,11 +270,11 @@
 <li><p>Pure UI level, no need to dive deep into the code</p></li>
 </ul>
 
-<p>For me it looks really promising, even I had little knowledge of this tool and scripting using ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.</p>
+<p>For me it looks really promising, even I had little knowledge of this tool and scripting using Ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.</p>
 
-<p>Now it&rsquo;s time to move to the 2nd step, but soon in reality I found it&rsquo;s hard to simulate user&rsquo;s general actions, for example: a simple action like scroll down on a list. How many times? How far it can scroll, stop at the end or somewhere randomly?</p>
+<p>Now it&rsquo;s time to move to the 2nd step, but soon in reality, I found it&rsquo;s hard to simulate user&rsquo;s general actions, for example: a simple action like scroll down on a list. How many times? How far can it scroll, stop at the end or somewhere randomly?</p>
 
-<p>Then I have to go back and forth between step 1 and step 2, when crating new test scenarios, meanwhile updating general action functions&hellip; I felt troublesome.</p>
+<p>Then I have to go back and forth between step 1 and step 2, when creating new test scenarios, meanwhile updating general action functions&hellip; I felt troublesome.</p>
 
 <p><strong>Next time I will ask myself first&hellip;</strong></p>
 
@@ -283,7 +283,7 @@
 
 <li><p>When choosing a tool or framework, <strong>&ldquo;What are the pros and the cons of the tool?&rdquo;</strong>, <strong>&ldquo;Does the tool fit all my needs?&rdquo;</strong> and <strong>&ldquo;Do I have the knowledge to master the tool?&rdquo;</strong></p></li>
 
-<li><p>Before staring implementation, <strong>What&rsquo;s the testability of the product?</strong> and <strong>&ldquo;Do I have a clear architecture and design of test automation?&rdquo;</strong></p></li>
+<li><p>Before starting implementation, <strong>What&rsquo;s the testability of the product?</strong> and <strong>&ldquo;Do I have a clear architecture and design of test automation?&rdquo;</strong></p></li>
 </ul>
 
 <h3 id="chapter-ii-unstable-execution-and-unreliable-result">Chapter II: unstable execution and unreliable result</h3>
@@ -292,13 +292,13 @@
 
 <h4 id="unstable-test-execution">Unstable test execution</h4>
 
-<p>I created some Android emulators where I launch tests, but emulator is usually laggy. The frequent timeout of some test steps often destroyed the whole test execution. Then I have to launch tests on the real devices. Timeout issues got fewer. But after one snapshot version, executions were blocked by some small UI changes. After adapted all UI changes, I thought the execution should be smooth but I got the opposite. Due to the differences of test environment, some test cases are only executable in production environment, I have to add the mechanism to detect and switch environments.</p>
+<p>I created some Android emulators where I launch tests, but the emulator is usually laggy. The frequent timeout of some test steps often destroyed the whole test execution. Then I have to launch tests on the real devices. Timeout issues got fewer. But after one snapshot version, executions were blocked by some small UI changes. After adapted all UI changes, I thought the execution should be smooth but I got the opposite. Due to the differences of the test environment, some test cases are only executable in a production environment, I have to add the mechanism to detect and switch environments.</p>
 
 <h4 id="unreliable-test-result">Unreliable test result</h4>
 
-<p>The worst thing in test automation is Schrödinger test, aka flaky test. Like ghosts haunting around, it&rsquo;s never sure that the result is failing or passing after a running. I got some flaky tests due to the timing among actions, too many preconditions to fulfill, the changeable input data in production environment, the bugs in framework&hellip;</p>
+<p>The worst thing in test automation is Schrödinger test, aka flaky test. Like ghosts haunting around, it&rsquo;s never sure that the result is failing or passing after a running. I got some flaky tests due to the timing of actions, too many preconditions to fulfill, the changeable input data in production environment, the bugs in framework&hellip;</p>
 
-<p>A huge test case will also cause unreliable test results. Imagine a 20-step test case, if it&rsquo;s failed in the 5th step, the hidden failure in the rest part is not able to be detected without continuing the execution. On the surface, it&rsquo;s only one failure. But its possible that the failures of next 15 steps are covered underneath. I separated some huge test cases to small test cases. But in some cases, one step dependents on the app state created by another step. It took effort to remove dependencies.</p>
+<p>A huge test case will also cause unreliable test results. Imagine a 20-step test case, if it&rsquo;s failed in the 5th step, the hidden failure in the rest part is not able to be detected without continuing the execution. On the surface, it&rsquo;s only one failure. But it&rsquo;s possible that the failures of next 15 steps are covered underneath. I separated some huge test cases to small test cases. But in some cases, one step dependents on the app state created by another step. It took the effort to remove dependencies.</p>
 
 <p><strong>Next time I will ask myself first&hellip;</strong></p>
 
@@ -334,7 +334,7 @@
 
 <p>The sad story is over. It triggers the change of test automation definition in my mind. Now I see test automation as a tool<sup><a name="back4"><a href="#link4">[4]</a></a></sup> and a tester augmentation<sup><a name="back5"><a href="#link5">[5]</a></a></sup>. Following this definition, I made a lot of scripts to help me explore products efficiently.</p>
 
-<p>But somewhere in my mind, I still have my assent of the traditional definition of test automation; Somewhere in my heart, I still have my passion to create a perfect UI automation for mobile testing. Next time when I restart, I will ask myself the above questions, to explore another path towards the successful &ldquo;UI automation&rdquo;.</p>
+<p>But somewhere in my mind, I still have my assent of the traditional definition of test automation; Somewhere in my heart, I still have my passion for creating a perfect UI automation for mobile testing. Next time when I restart, I will ask myself the above questions, to explore another path towards the successful &ldquo;UI automation&rdquo;.</p>
 
 <p><a name="link1"><a href="#back1">[1]</a></a> Calabash <a href="http://calaba.sh/">homepage</a>
 <br/>

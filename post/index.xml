@@ -754,7 +754,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;h3 id=&#34;preface&#34;&gt;Preface&lt;/h3&gt;
 
-&lt;p&gt;I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it &lt;em&gt;reckless passion&lt;/em&gt;. Although I learned a lot from it, I&amp;rsquo;ve never shared what I learned in public. After that I changed my focus and gave up on traditional UI automation.&lt;/p&gt;
+&lt;p&gt;I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it &lt;em&gt;reckless passion&lt;/em&gt;. Although I learned a lot from it, I&amp;rsquo;ve never shared what I learned in public. After that, I changed my focus and gave up on traditional UI automation.&lt;/p&gt;
 
 &lt;p&gt;This week, I had some small talks with our awesome developers about test automation. The idea was to implement special UI automated tests, in order to check new product release automatically instead of sanity checking manually by the whole team. I suddenly remembered that I forgot to share my failure with them. I&amp;rsquo;d like to write down in this post, my recklessness and something I learned. In case the team would like to move further on test automation, we could proceed with caution.&lt;/p&gt;
 
@@ -764,7 +764,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;h3 id=&#34;chapter-i-huge-ambitions-but-no-skills&#34;&gt;Chapter I: huge ambitions but no skills&lt;/h3&gt;
 
-&lt;p&gt;I successfully sold my big picture of test automation future to without any oppositions. With UI test automation, I had my dreams:&lt;/p&gt;
+&lt;p&gt;I successfully sold my big picture of test automation future too without any oppositions. With UI test automation, I had my dreams:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;A dream of brilliant and efficient release process&lt;/p&gt;&lt;/li&gt;
@@ -777,7 +777,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 &lt;p&gt;My initial plan is to follow the steps below:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Step 1: Build a main structure of test automation framework and create general functions&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Step 1: Build the main structure of test automation framework and create general functions&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Step 2: Create test scenarios to replace all manual sanity checks of app core features&lt;/p&gt;&lt;/li&gt;
 
@@ -794,11 +794,11 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 &lt;li&gt;&lt;p&gt;Pure UI level, no need to dive deep into the code&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;For me it looks really promising, even I had little knowledge of this tool and scripting using ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&amp;hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.&lt;/p&gt;
+&lt;p&gt;For me it looks really promising, even I had little knowledge of this tool and scripting using Ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&amp;hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.&lt;/p&gt;
 
-&lt;p&gt;Now it&amp;rsquo;s time to move to the 2nd step, but soon in reality I found it&amp;rsquo;s hard to simulate user&amp;rsquo;s general actions, for example: a simple action like scroll down on a list. How many times? How far it can scroll, stop at the end or somewhere randomly?&lt;/p&gt;
+&lt;p&gt;Now it&amp;rsquo;s time to move to the 2nd step, but soon in reality, I found it&amp;rsquo;s hard to simulate user&amp;rsquo;s general actions, for example: a simple action like scroll down on a list. How many times? How far can it scroll, stop at the end or somewhere randomly?&lt;/p&gt;
 
-&lt;p&gt;Then I have to go back and forth between step 1 and step 2, when crating new test scenarios, meanwhile updating general action functions&amp;hellip; I felt troublesome.&lt;/p&gt;
+&lt;p&gt;Then I have to go back and forth between step 1 and step 2, when creating new test scenarios, meanwhile updating general action functions&amp;hellip; I felt troublesome.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Next time I will ask myself first&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
 
@@ -807,7 +807,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;li&gt;&lt;p&gt;When choosing a tool or framework, &lt;strong&gt;&amp;ldquo;What are the pros and the cons of the tool?&amp;rdquo;&lt;/strong&gt;, &lt;strong&gt;&amp;ldquo;Does the tool fit all my needs?&amp;rdquo;&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Do I have the knowledge to master the tool?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Before staring implementation, &lt;strong&gt;What&amp;rsquo;s the testability of the product?&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Do I have a clear architecture and design of test automation?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Before starting implementation, &lt;strong&gt;What&amp;rsquo;s the testability of the product?&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Do I have a clear architecture and design of test automation?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;chapter-ii-unstable-execution-and-unreliable-result&#34;&gt;Chapter II: unstable execution and unreliable result&lt;/h3&gt;
@@ -816,13 +816,13 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;h4 id=&#34;unstable-test-execution&#34;&gt;Unstable test execution&lt;/h4&gt;
 
-&lt;p&gt;I created some Android emulators where I launch tests, but emulator is usually laggy. The frequent timeout of some test steps often destroyed the whole test execution. Then I have to launch tests on the real devices. Timeout issues got fewer. But after one snapshot version, executions were blocked by some small UI changes. After adapted all UI changes, I thought the execution should be smooth but I got the opposite. Due to the differences of test environment, some test cases are only executable in production environment, I have to add the mechanism to detect and switch environments.&lt;/p&gt;
+&lt;p&gt;I created some Android emulators where I launch tests, but the emulator is usually laggy. The frequent timeout of some test steps often destroyed the whole test execution. Then I have to launch tests on the real devices. Timeout issues got fewer. But after one snapshot version, executions were blocked by some small UI changes. After adapted all UI changes, I thought the execution should be smooth but I got the opposite. Due to the differences of the test environment, some test cases are only executable in a production environment, I have to add the mechanism to detect and switch environments.&lt;/p&gt;
 
 &lt;h4 id=&#34;unreliable-test-result&#34;&gt;Unreliable test result&lt;/h4&gt;
 
-&lt;p&gt;The worst thing in test automation is Schrödinger test, aka flaky test. Like ghosts haunting around, it&amp;rsquo;s never sure that the result is failing or passing after a running. I got some flaky tests due to the timing among actions, too many preconditions to fulfill, the changeable input data in production environment, the bugs in framework&amp;hellip;&lt;/p&gt;
+&lt;p&gt;The worst thing in test automation is Schrödinger test, aka flaky test. Like ghosts haunting around, it&amp;rsquo;s never sure that the result is failing or passing after a running. I got some flaky tests due to the timing of actions, too many preconditions to fulfill, the changeable input data in production environment, the bugs in framework&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;A huge test case will also cause unreliable test results. Imagine a 20-step test case, if it&amp;rsquo;s failed in the 5th step, the hidden failure in the rest part is not able to be detected without continuing the execution. On the surface, it&amp;rsquo;s only one failure. But its possible that the failures of next 15 steps are covered underneath. I separated some huge test cases to small test cases. But in some cases, one step dependents on the app state created by another step. It took effort to remove dependencies.&lt;/p&gt;
+&lt;p&gt;A huge test case will also cause unreliable test results. Imagine a 20-step test case, if it&amp;rsquo;s failed in the 5th step, the hidden failure in the rest part is not able to be detected without continuing the execution. On the surface, it&amp;rsquo;s only one failure. But it&amp;rsquo;s possible that the failures of next 15 steps are covered underneath. I separated some huge test cases to small test cases. But in some cases, one step dependents on the app state created by another step. It took the effort to remove dependencies.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Next time I will ask myself first&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
 
@@ -858,7 +858,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;The sad story is over. It triggers the change of test automation definition in my mind. Now I see test automation as a tool&lt;sup&gt;&lt;a name=&#34;back4&#34;&gt;&lt;a href=&#34;#link4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; and a tester augmentation&lt;sup&gt;&lt;a name=&#34;back5&#34;&gt;&lt;a href=&#34;#link5&#34;&gt;[5]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. Following this definition, I made a lot of scripts to help me explore products efficiently.&lt;/p&gt;
 
-&lt;p&gt;But somewhere in my mind, I still have my assent of the traditional definition of test automation; Somewhere in my heart, I still have my passion to create a perfect UI automation for mobile testing. Next time when I restart, I will ask myself the above questions, to explore another path towards the successful &amp;ldquo;UI automation&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;But somewhere in my mind, I still have my assent of the traditional definition of test automation; Somewhere in my heart, I still have my passion for creating a perfect UI automation for mobile testing. Next time when I restart, I will ask myself the above questions, to explore another path towards the successful &amp;ldquo;UI automation&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Calabash &lt;a href=&#34;http://calaba.sh/&#34;&gt;homepage&lt;/a&gt;
 &lt;br/&gt;
