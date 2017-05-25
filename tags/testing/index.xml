@@ -293,15 +293,15 @@ Issue 1: crash on iOS 7
 
 &lt;p&gt;As a freshman in Bio-Engineering, I didn&amp;rsquo;t expect at all that my profession would be related to software testing.&lt;/p&gt;
 
-&lt;p&gt;To start my journey on software testing is a beautiful coincidence I had in my life. I&amp;rsquo;ve a master degree of Biomedical in medical imaging area. As a hobby, I learned some programming skills by myself. Luckily, my diploma and my skills helped me to get an internship in a medical software company. I was in the software department and my mission is to build a web management tool.&lt;/p&gt;
+&lt;p&gt;To start my journey on software testing is a beautiful coincidence I had in my life. I have a master degree of Biomedical in the medical imaging area. As a hobby, I learned some programming skills by myself. Luckily, my diploma and my skills helped me to get an internship in a medical software company. I was in the software department and my mission is to build a web management tool.&lt;/p&gt;
 
-&lt;p&gt;After 8 months, the employer was quite happy about the outcomes of my internship. At that moment, they were searching for a new developer who can write scripts to build an in-house test automation framework and writing test cases. Luckily, I was chosen to start my adventure in software testing, as a SDET.&lt;/p&gt;
+&lt;p&gt;After 8 months, the employer was quite happy about the outcomes of my internship. At that moment, they were searching for a new developer who can write scripts to build an in-house test automation framework and writing test cases. Luckily, I was chosen to start my adventure in software testing, as an SDET.&lt;/p&gt;
 
 &lt;h3 id=&#34;who-inspires-you&#34;&gt;Who inspires you?&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://i.giphy.com/JpMv34oxICQrS.gif&#34; alt=&#34;sylar&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;m inspired by a lot of awesome people. I&amp;rsquo;ve a list of these brilliant people, from whom I would like to steal their brains (I&amp;rsquo;m serious 👿). In software testing, I will name &lt;a href=&#34;https://twitter.com/michaelbolton&#34;&gt;Micheal Bolton&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/lisacrispin&#34;&gt;Lisa Crispin&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/testobsessed&#34;&gt;Elisabeth Hendrickson&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/dnlkntt&#34;&gt;Daniel Knott&lt;/a&gt;. If you know them, please send them my thanks and I&amp;rsquo;m coming for them soon ☺️&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m inspired by a lot of awesome people. I have a list of these brilliant people, from whom I would like to steal their brains (I&amp;rsquo;m serious 👿). In software testing, I will name &lt;a href=&#34;https://twitter.com/michaelbolton&#34;&gt;Micheal Bolton&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/lisacrispin&#34;&gt;Lisa Crispin&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/testobsessed&#34;&gt;Elisabeth Hendrickson&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/dnlkntt&#34;&gt;Daniel Knott&lt;/a&gt;. If you know them, please send them my thanks and I&amp;rsquo;m coming for them soon ☺️&lt;/p&gt;
 
 &lt;h3 id=&#34;what-do-you-see-for-the-future-of-software-testing&#34;&gt;What do you see for the future of software testing?&lt;/h3&gt;
 
@@ -338,7 +338,7 @@ Issue 1: crash on iOS 7
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;People are sitting around a table.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;When testing starts, people follow same test cases on the paper, step by step &amp;ldquo;testing&amp;rdquo; product.&lt;/p&gt;&lt;/li&gt;
 
@@ -359,27 +359,27 @@ Issue 1: crash on iOS 7
 
 &lt;h4 id=&#34;people-are-sitting-around-a-table-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;People are sitting around a table.&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;Instead of limiting people to focus on his own stuff, I really like to make people pair together and let them share a &amp;ldquo;test challenge&amp;rdquo;. They can do testing together no mater where they want. Paring together in team testing is a good test strategy for:&lt;/p&gt;
+&lt;p&gt;Instead of limiting people to focus on his own stuff, I really like to make people pair together and let them share a &amp;ldquo;test challenge&amp;rdquo;. They can do testing together no matter where they want. Pairing together in team testing is a good test strategy for:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Making comparison&lt;/strong&gt;: when it needs to know if different platforms, different versions have different behaviors&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Exchanging idea&lt;/strong&gt;: when someone comes an idea, (s)he can immediately try with her/his testing partner&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Exchanging idea&lt;/strong&gt;: when someone comes to an idea, (s)he can immediately try with her/his testing partner&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Remembering findings&lt;/strong&gt;: when something found, (s)he can show to her/his partner how to reproduce&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;strong&gt;Training newcomer&lt;/strong&gt;: when a new team member is joining, (s)he is not quite familiar with product&amp;hellip;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id=&#34;everyone-gets-a-paper-in-front-of-them-this-paper-could-be-a-check-list-full-of-test-steps-could-be-a-sheet-full-of-test-scenarios-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Everyone gets a paper in front of them. This paper could be a check list full of test steps, could be a sheet full of test scenarios&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;everyone-gets-a-paper-in-front-of-them-this-paper-could-be-a-checklist-full-of-test-steps-could-be-a-sheet-full-of-test-scenarios-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;In my team testing, there is no check list, no test scenarios. I call them &lt;strong&gt;mission&lt;/strong&gt; and &lt;strong&gt;challenge&lt;/strong&gt;. My thought here: Do exploring, not checking, because exploring is more exciting. I prefer to describe simply a challenge in one sentence using &lt;strong&gt;CAR&lt;/strong&gt; model (it&amp;rsquo;s the first name comes into my mind&amp;hellip;). CAR stands for &lt;strong&gt;C&lt;/strong&gt;ondition,  &lt;strong&gt;A&lt;/strong&gt;ction and &lt;strong&gt;R&lt;/strong&gt;esult. A simple example:&lt;/p&gt;
+&lt;p&gt;In my team testing, there is no checklist, no test scenarios. I call them &lt;strong&gt;mission&lt;/strong&gt; and &lt;strong&gt;challenge&lt;/strong&gt;. My thought here: Do exploring, not checking, because exploring is more exciting. I prefer to describe simply a challenge in one sentence using &lt;strong&gt;CAR&lt;/strong&gt; model (it&amp;rsquo;s the first name comes to my mind&amp;hellip;). CAR stands for &lt;strong&gt;C&lt;/strong&gt;ondition,  &lt;strong&gt;A&lt;/strong&gt;ction and &lt;strong&gt;R&lt;/strong&gt;esult. A simple example:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;ondition: GPS on&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;ction:  open app&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;esult: my current location shown&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;esult: my current location was shown&lt;/p&gt;
 
 &lt;p&gt;Then the challenge is: When phone GPS turned on, I open app, should I see my current location shown correctly?&lt;/p&gt;
 
@@ -403,7 +403,7 @@ Issue 1: crash on iOS 7
 
 &lt;h4 id=&#34;soon-people-look-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-pass-fail-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People look like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;Usually I setup a simple finding-wall, like blow:&lt;/p&gt;
+&lt;p&gt;Usually I set up a simple finding-wall, like blow:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;             iOS     |    Android
 Major                |
@@ -417,7 +417,7 @@ Minor                |
 
 &lt;p&gt;All participants will put findings on the wall during team testing. After testing, they will be taken down one by one and fixed one by one.&lt;/p&gt;
 
-&lt;p&gt;If you ask me how about those mission-paper? I will destroy them immediately after testing and let it be a secret mission.&lt;/p&gt;
+&lt;p&gt;If you ask me how about that mission-paper? I will destroy them immediately after testing and let it be a secret mission.&lt;/p&gt;
 
 &lt;h3 id=&#34;expected-result&#34;&gt;&lt;strong&gt;Expected result&lt;/strong&gt;&lt;/h3&gt;
 
