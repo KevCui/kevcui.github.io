@@ -944,7 +944,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;Besides the name Bugshido, technically, it&amp;rsquo;s just a metaphor and there is nothing really new about it. Well, maybe itself is funny.&lt;/p&gt;
 
-&lt;p&gt;Now, imagine you are the emperor (developer/PO) rules a country (code base/product). Due to some changes here or there, the evil forces will raise against you. They are gathering warriors to break your country. As your Emperor&amp;rsquo;s adviser (tester), I&amp;rsquo;d like to explain you how to identify your enemies and the tactic to handle them.&lt;/p&gt;
+&lt;p&gt;Now, imagine you are the emperor (developer/PO) rules a country (code base/product). Due to some changes here or there, the evil forces will raise against you. They are gathering warriors to break your country. As your Emperor&amp;rsquo;s adviser (tester), I&amp;rsquo;d like to explain to you how to identify your enemies and the tactic to handle them.&lt;/p&gt;
 
 &lt;h3 id=&#34;geisha&#34;&gt;Geisha&lt;/h3&gt;
 
@@ -952,7 +952,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;Priority: Low&lt;br/&gt;Severity: Minor&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Geisha&#34;&gt;Geisha&lt;/a&gt; barely knows how to fight. All Geisha&amp;rsquo;s skills related to perform arts like music, dance&amp;hellip; Therefore, Geisha is not harmful and sometimes very entertaining. But in some edge cases, when the art a Geisha trained is martial art, she could become a dangerous assassin.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Geisha&#34;&gt;Geisha&lt;/a&gt; barely knows how to fight. All Geisha&amp;rsquo;s skills related to performing arts like music, dance&amp;hellip; Therefore, Geisha is not harmful and sometimes very entertaining. But in some edge cases, when the art a Geisha trained is the martial art, she could become a dangerous assassin.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Advice: Go to visit them time to time when you&amp;rsquo;re bored.&lt;/strong&gt;&lt;/p&gt;
 
@@ -962,9 +962,9 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;Priority: Low&lt;br/&gt;Severity: Major&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Sōhei&#34;&gt;Sōhei&lt;/a&gt; is known as warrior monk. Although warrior monk is the master of martial acts, his initial purpose to fight is to protect people, temple, Buddha&amp;hellip; Monk warriors are usually humble and peaceful. They won&amp;rsquo;t attack unless they&amp;rsquo;re attacked. Even they gonna fight, they will fight defensively. In general, warrior monks stay in their territory quietly. They appear because of the broke environment, which is caused by some small or big changes.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Sōhei&#34;&gt;Sōhei&lt;/a&gt; is known as the warrior monk. Although warrior monk is the master of martial arts, his initial purpose to fight is to protect people, temple, Buddha&amp;hellip; Monk warriors are usually humble and peaceful. They won&amp;rsquo;t attack unless they&amp;rsquo;re attacked. Even they gonna fight, they will fight defensively. In general, warrior monks stay in their territory quietly. They appear because of the broke environment, which is caused by some small or big changes.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Advice: Find out the trigger is important. Normally they&amp;rsquo;re tough but there is no need of a long battle. A promise of reform should pacify them. If you choose to collect information and do nothing first, just don&amp;rsquo;t forget to add improvement later by refactoring.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Advice: Find out the trigger is important. Normally they&amp;rsquo;re tough but there is no need for a long battle. A promise of reform should pacify them. If you choose to collect information and do nothing first, just don&amp;rsquo;t forget to add improvement later by refactoring.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;rōnin&#34;&gt;Rōnin&lt;/h3&gt;
 
@@ -972,9 +972,9 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;Priority: High&lt;br/&gt;Severity: Minor&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Rōnin&#34;&gt;Rōnin&lt;/a&gt; was a samurai who becomes masterless. Their skills were highly developed but without the purpose of life, their mind could become weak. They are wandering everywhere in the country and looking for a way to make a living with their swords, no matter good or evil.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Rōnin&#34;&gt;Rōnin&lt;/a&gt; was a samurai who becomes masterless. Their skills were highly developed but without the purpose of life, their mind could become weak. They are wandering everywhere in the country and looking for a way to make a living with their sword, no matter good or evil.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Advice: Seize the opportunity When they&amp;rsquo;re still weak and eliminate them as soon as possible before them are caught by evil force.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Advice: Seize the opportunity When they&amp;rsquo;re still weak and eliminate them as soon as possible before they are caught by the evil force.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;samurai&#34;&gt;Samurai&lt;/h3&gt;
 
@@ -982,7 +982,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;Priority: High&lt;br/&gt;Severity: Major&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Samurai&#34;&gt;Samurai&lt;/a&gt; is the highest rank of warriors. The mastery of the sword is one of Samurai&amp;rsquo;s traits. Another one is the loyalty: they believe that the death to serve their lord is a great honor. They will fight to die on the battle, without blinking an eye. Send shivers down spine, right?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Samurai&#34;&gt;Samurai&lt;/a&gt; is the highest rank of warriors. The mastery of the sword is one of Samurai&amp;rsquo;s traits. Another one is the loyalty: they believe that the death to serve their Lord is a great honor. They will fight to die in the battle, without blinking an eye. Send shivers down spine, right?&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Advice: Brace yourself, you know a tough fight is impossible to avoid. If you&amp;rsquo;re not sure Samurai&amp;rsquo;s capability, better to ask team members for support.&lt;/strong&gt;&lt;/p&gt;
 
@@ -992,7 +992,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;p&gt;Priority: High&lt;br/&gt;Severity: Critical&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ninja&#34;&gt;Ninja&lt;/a&gt; exists as a mystery, rather than a warrior. A typical Ninja will hide in the shadow, waiting for a moment to kill the target with one fatal hit. The danger begins when the negligence of Ninja&amp;rsquo;s existence. Even sometimes there is a feeling to tell you that Ninja might be hidden in certain areas, but Ninja perform ninjutsu to keep them &lt;strong&gt;unpredictable&lt;/strong&gt; in first place.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ninja&#34;&gt;Ninja&lt;/a&gt; exists as a mystery, rather than a warrior. A typical Ninja will hide in the shadow, waiting for a moment to kill the target with one fatal hit. The danger begins when the negligence of Ninja&amp;rsquo;s existence. Even sometimes there is a feeling to tell you that Ninja might be hidden in certain areas, but Ninja performs ninjutsu to keep them &lt;strong&gt;unpredictable&lt;/strong&gt; in the first place.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Advice: Unfortunately, most of time Ninja is only found after serious damages are made. The key point is fast-react in order to minimize the losses. Once a Ninja is defeated, take a lesson and learn not to be fooled by the same ninjutsu next time.&lt;/strong&gt;&lt;/p&gt;
 
@@ -1006,7 +1006,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;h4 id=&#34;samurai-blocks-new-product-release&#34;&gt;Samurai blocks new product release&lt;/h4&gt;
 
-&lt;p&gt;A Samurai bug or Ronin bug are considered as high potential dangers. No matter a huge effort taken to fix Samurai bug or a small effort taken to fix Ronin bug, they have to be fixed before releasing. In brief, Samurai bug is the release blocker.&lt;/p&gt;
+&lt;p&gt;A Samurai bug or Ronin bug are considered as high potential dangers. No matter a huge effort is taken to fix Samurai bug or a small effort taken to fix Ronin bug, they have to be fixed before release. In brief, Samurai bug is the release blocker.&lt;/p&gt;
 
 &lt;h4 id=&#34;sohei-geisha-are-about-time&#34;&gt;Sohei &amp;amp; Geisha are about time&lt;/h4&gt;
 
@@ -1014,7 +1014,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
 
-&lt;p&gt;I hope you had fun of reading. Besides that, now you know &lt;strong&gt;Bugshidao&lt;/strong&gt; to identify a warrior, like Ninja, Samurai, Ronin, Sohei and Geisha. You&amp;rsquo;ve also the basic tactic to deal with them. Last advice I have to give you, my friend, as I always keep it in my mind to warn myself:&lt;/p&gt;
+&lt;p&gt;I hope you had a fun of reading. Besides that, now you know &lt;strong&gt;Bugshidao&lt;/strong&gt; to identify a warrior, like Ninja, Samurai, Ronin, Sohei and Geisha. You&amp;rsquo;ve also the basic tactic to deal with them. Last advice I have to give you, my friend, as I always keep it in my mind to warn myself:&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Wake up! Evil warriors are killing your customers!&amp;rdquo;&lt;/p&gt;
