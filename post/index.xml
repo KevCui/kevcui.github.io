@@ -328,7 +328,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;Testing ideas:
 [?] Support all regions?
     [x] Europe
-    [?] Asia: no response from api
+    [?] Asia: no response from API
         =&amp;gt; Question 1
 [-] iOS 7
     =&amp;gt; Issue 1
@@ -338,11 +338,11 @@ Then I will put the ideas or assumptions shortly on a to-do list:&lt;/p&gt;
     [x] app restart when no internet
 [?] Animation
     =&amp;gt; Question 2
-[ ] Performace of new api request?
+[ ] Performace of new API request?
 
-Question 1: need api response for Asia?
+Question 1: need API response for Asia?
 Need check with backend team: this feature is not available for Asia users?
-&amp;lt;Screenshot of api request and response&amp;gt;
+&amp;lt;Screenshot of API request and response&amp;gt;
 
 Question 2: Refresh animation feels laggy
 Need check with designer and developer: make a nicer animation
@@ -564,6 +564,16 @@ Hugo: 29M
 &lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/aoh/radamsa&#34;&gt;Radamsa&lt;/a&gt;: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&lt;/p&gt;
 
 &lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/josephwilk/pairwise&#34;&gt;Ruby Pairwise&lt;/a&gt;: Ruby based tool for selecting a smaller number of test input combinations&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/&#34;&gt;Name&lt;/a&gt;: all about name&lt;/p&gt;
+
+&lt;p&gt;🌏:point_right: &lt;a href=&#34;https://github.com/minimaxir/big-list-of-naughty-strings&#34;&gt;Big List of Naughty Strings&lt;/a&gt;: list of strings which have a high probability of causing issues&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/jagracey/Awesome-Unicode&#34;&gt;Awesome Unicode&lt;/a&gt;: Unicode list&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/danielmiessler/SecLists&#34;&gt;SecLists&lt;/a&gt;: a collection of multiple types of lists used during security assessments&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://commons.wikimedia.org/wiki/Category:Large_images&#34;&gt;Large images&lt;/a&gt;: a list of very large images above 50 Megapixel&lt;/p&gt;
 
 &lt;h3 id=&#34;mobile-testing&#34;&gt;Mobile Testing&lt;/h3&gt;
 

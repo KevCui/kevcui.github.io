@@ -191,7 +191,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;Testing ideas:
 [?] Support all regions?
     [x] Europe
-    [?] Asia: no response from api
+    [?] Asia: no response from API
         =&amp;gt; Question 1
 [-] iOS 7
     =&amp;gt; Issue 1
@@ -201,11 +201,11 @@ Then I will put the ideas or assumptions shortly on a to-do list:&lt;/p&gt;
     [x] app restart when no internet
 [?] Animation
     =&amp;gt; Question 2
-[ ] Performace of new api request?
+[ ] Performace of new API request?
 
-Question 1: need api response for Asia?
+Question 1: need API response for Asia?
 Need check with backend team: this feature is not available for Asia users?
-&amp;lt;Screenshot of api request and response&amp;gt;
+&amp;lt;Screenshot of API request and response&amp;gt;
 
 Question 2: Refresh animation feels laggy
 Need check with designer and developer: make a nicer animation
