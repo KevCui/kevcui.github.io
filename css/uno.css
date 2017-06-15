@@ -36,7 +36,7 @@ body {
   line-height: 1.2;
   font-family: "Montserrat", sans-serif;
   font-weight: 300; 
-  /*font-size: 1.2em;*/
+  font-size: 1.15em;
   /*color: #000000;*/
   color: #2d2926;
   width: 100%;
@@ -940,7 +940,7 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 300; 
-  /*font-size: 1.2em;*/
+  font-size: 1.15em;
   line-height: 1.2;
   /*color: #000000;*/
   color: #2d2926;
