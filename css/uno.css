@@ -34,9 +34,11 @@ q:before, q:after {
 body {
   background: #f5f5f5;
   line-height: 1.2;
-  font-family: "Lora", sans-serif;
-  font-size: 1.2em;
-  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300; 
+  /*font-size: 1.2em;*/
+  /*color: #000000;*/
+  color: #2d2926;
   width: 100%;
   *zoom: 1; }
   body:before, body:after {
@@ -936,10 +938,12 @@ html {
   max-height: 100%; }
 
 body {
-  font-family: "Lora", sans-serif;
-  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300; 
+  /*font-size: 1.2em;*/
   line-height: 1.2;
-  color: #000000;
+  /*color: #000000;*/
+  color: #2d2926;
   width: 100%; }
 
 ::selection {
