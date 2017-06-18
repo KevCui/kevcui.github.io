@@ -17,7 +17,7 @@
       <guid>https://krazycavin.github.io/2017/06/18/hugo-github-pages/</guid>
       <description>
 
-&lt;p&gt;It has been 2 months since I switched &lt;a href=&#34;https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/&#34;&gt;from Hexo to Hugo&lt;/a&gt;. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog git repository, then I have to reconfigure the part of deploying Hugo to Github Pages&amp;hellip;&lt;/p&gt;
+&lt;p&gt;It has been 2 months since I switched &lt;a href=&#34;https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/&#34;&gt;from Hexo to Hugo&lt;/a&gt;. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog Git repository, then I have to reconfigure the part of deploying Hugo website to Github Pages&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for the forgetful people, like me.&lt;/p&gt;
 
