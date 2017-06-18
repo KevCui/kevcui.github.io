@@ -7,7 +7,72 @@
     <language>en-us</language>
     
     
-    <updated>Wed, 12 Apr 2017 22:47:26 CEST</updated>
+    <updated>Sun, 18 Jun 2017 15:55:09 CEST</updated>
+    
+    <item>
+      <title>Hugo x Github Pages</title>
+      <link>https://krazycavin.github.io/2017/06/18/hugo-github-pages/</link>
+      <pubDate>Sun, 18 Jun 2017 15:55:09 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/06/18/hugo-github-pages/</guid>
+      <description>
+
+&lt;p&gt;It has been 2 months, since I switched &lt;a href=&#34;https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/&#34;&gt;from hexo to hugo&lt;/a&gt;. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog git repository, then I have to reconfigure the part of deploying hugo to github pages&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for forgetful person, like me.&lt;/p&gt;
+
+&lt;p&gt;Hugo has a good doc to explain &lt;a href=&#34;https://gohugo.io/tutorials/github-pa-blog/&#34;&gt;how to host on Github Pages&lt;/a&gt;. Based on it, my configuration is following:&lt;/p&gt;
+
+&lt;h3 id=&#34;add-worktree&#34;&gt;Add Worktree&lt;/h3&gt;
+
+&lt;p&gt;Basally, I created 2 repositories for my blog. One is for the theme I used, it&amp;rsquo;s called &lt;a href=&#34;https://github.com/KrazyCavin/uno&#34;&gt;uno&lt;/a&gt;. The other one is for both posts and generated static files. Its name is &lt;a href=&#34;https://github.com/KrazyCavin/krazycavin.github.io&#34;&gt;krazycavin.github.io&lt;/a&gt;, a name predefined by Github Pages. I decide the put them in one repository because it&amp;rsquo;s easy to maintenance. I separated them into 2 different branches:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Branch &lt;strong&gt;hugo&lt;/strong&gt;: posts, assets&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Branch &lt;strong&gt;master&lt;/strong&gt;: public/ folder with all the generated static files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then I need to link the &lt;strong&gt;public/&lt;/strong&gt; to &lt;strong&gt;master&lt;/strong&gt; branch:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;rm -rf public
+rm -rf ./worktrees
+git worktree add -B master public origin/master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;create-deploy-script&#34;&gt;Create deploy script&lt;/h3&gt;
+
+&lt;p&gt;Here is my deploy script &lt;a href=&#34;https://github.com/KrazyCavin/krazycavin.github.io/blob/hugo/deploy.sh&#34;&gt;deploy.sh&lt;/a&gt;. The theme I&amp;rsquo;m using is &lt;a href=&#34;https://github.com/KrazyCavin/uno&#34;&gt;uno&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/sh
+
+# Build the project with theme
+hugo -t uno
+
+# Go To Public folder
+cd public
+
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&amp;quot;rebuilding site `date`&amp;quot;
+if [ $# -eq 1 ]
+    then msg=&amp;quot;$1&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come back
+cd ..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Every time after running the script deploy.sh, it will generate new static files and push them to master branch. The changes will be published immediately by Github Pages.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s all, a piece of 🍰&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Why Hugo Why Not Hexo</title>
