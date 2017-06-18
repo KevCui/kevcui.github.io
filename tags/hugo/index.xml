@@ -17,15 +17,15 @@
       <guid>https://krazycavin.github.io/2017/06/18/hugo-github-pages/</guid>
       <description>
 
-&lt;p&gt;It has been 2 months, since I switched &lt;a href=&#34;https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/&#34;&gt;from hexo to hugo&lt;/a&gt;. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog git repository, then I have to reconfigure the part of deploying hugo to github pages&amp;hellip;&lt;/p&gt;
+&lt;p&gt;It has been 2 months since I switched &lt;a href=&#34;https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/&#34;&gt;from Hexo to Hugo&lt;/a&gt;. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog git repository, then I have to reconfigure the part of deploying Hugo to Github Pages&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for forgetful person, like me.&lt;/p&gt;
+&lt;p&gt;To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for the forgetful people, like me.&lt;/p&gt;
 
 &lt;p&gt;Hugo has a good doc to explain &lt;a href=&#34;https://gohugo.io/tutorials/github-pa-blog/&#34;&gt;how to host on Github Pages&lt;/a&gt;. Based on it, my configuration is following:&lt;/p&gt;
 
 &lt;h3 id=&#34;add-worktree&#34;&gt;Add Worktree&lt;/h3&gt;
 
-&lt;p&gt;Basally, I created 2 repositories for my blog. One is for the theme I used, it&amp;rsquo;s called &lt;a href=&#34;https://github.com/KrazyCavin/uno&#34;&gt;uno&lt;/a&gt;. The other one is for both posts and generated static files. Its name is &lt;a href=&#34;https://github.com/KrazyCavin/krazycavin.github.io&#34;&gt;krazycavin.github.io&lt;/a&gt;, a name predefined by Github Pages. I decide the put them in one repository because it&amp;rsquo;s easy to maintenance. I separated them into 2 different branches:&lt;/p&gt;
+&lt;p&gt;Basally, I created 2 repositories for my blog. One is the theme I used, it&amp;rsquo;s called &lt;a href=&#34;https://github.com/KrazyCavin/uno&#34;&gt;uno&lt;/a&gt;. The other one is for both posts and generated static files. Its name is &lt;a href=&#34;https://github.com/KrazyCavin/krazycavin.github.io&#34;&gt;krazycavin.github.io&lt;/a&gt;, a name predefined by Github Pages. I decide the put them in one repository because it&amp;rsquo;s easy to maintenance. I separated them into 2 different branches:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Branch &lt;strong&gt;hugo&lt;/strong&gt;: posts, assets&amp;hellip;&lt;/li&gt;
