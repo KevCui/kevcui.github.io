@@ -7,7 +7,49 @@
     <language>en-us</language>
     
     
-    <updated>Tue, 20 Jun 2017 21:28:30 CEST</updated>
+    <updated>Tue, 27 Jun 2017 21:43:23 CEST</updated>
+    
+    <item>
+      <title>Bad Use of A Good Tool</title>
+      <link>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
+      <pubDate>Tue, 27 Jun 2017 21:43:23 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;If all you have is a hammer, everything looks like a nail.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to &lt;a href=&#34;https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;organize this testing party&lt;/a&gt;. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well. I feel shame for it. I ask myself why it happened? After I think again and again, one thing I could tell is because of &lt;strong&gt;my bad use of a good tool&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-good-tool&#34;&gt;A good tool&lt;/h3&gt;
+
+&lt;p&gt;Undeniably, &lt;a href=&#34;https://www.charlesproxy.com/&#34;&gt;Charles&lt;/a&gt; is an excellent debugging proxy. It&amp;rsquo;s powerful and handy. With a clean UI and easy setup, it becomes my daily tool. I rely on it to inspect HTTP/HTTPS requests and response, set breakpoints, simulate response status, mock response, bandwidth throttling, etc&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Naturally, more I use it, more I like it; More I will use it, then I will like it more&amp;hellip;.&lt;/p&gt;
+
+&lt;h3 id=&#34;bad-use&#34;&gt;Bad use&lt;/h3&gt;
+
+&lt;p&gt;One day, I tried &lt;a href=&#34;https://www.charlesproxy.com/documentation/tools/rewrite/&#34;&gt;rewrite tool&lt;/a&gt; in Charles to replace a simple JSON API response by some mock data. I found surprisingly that it worked very well. Since that, I started to add more and more rewriting rules for this and that&amp;hellip; Nowadays the set of rewriting rules becomes really complex. The mock data I used to replace response which started from the beginning as 4 lines, until now the entire content of a 4K file!&lt;/p&gt;
+
+&lt;p&gt;Sometimes I complain &amp;ldquo;Why Charles gives users only 1-line input filed for replacing stuff. It&amp;rsquo;s not possible to edit long text. How bad design it is!&amp;rdquo; Now I think it again and I have to admit that Charles is not designed for that. I use it wrongly. I should use it as a simple match-replace function for some strings, that&amp;rsquo;s it.&lt;/p&gt;
+
+&lt;p&gt;Another mistake I made is to treat it as a proxy server. Usually, I connect 1 Android and 1 iOS device to Charles proxy. But the craziest time, like last team testing, I ran Charles with heavy mock data and planned to setup the connection of 10+ mobile devices. The connection was not stable at all. The half of devices were disconnected frequently.&lt;/p&gt;
+
+&lt;p&gt;As it&amp;rsquo;s named as &amp;ldquo;debugging proxy&amp;rdquo;, it&amp;rsquo;s unfair for it to support 10+ devices &amp;ldquo;debugging&amp;rdquo; at the same time.&lt;/p&gt;
+
+&lt;h3 id=&#34;right-tool-for-the-job&#34;&gt;Right tool for the job&lt;/h3&gt;
+
+&lt;p&gt;Charles proxy is not a snake oil. It has pros and cons. In my case, I need a proxy tool to mock response data heavily and change data easily, meanwhile it should also provide stable connections of massive mobile devices. Charles is a good tool for sure, but it&amp;rsquo;s not the right tool for that need.&lt;/p&gt;
+
+&lt;p&gt;I have to search for a proper solution. I find that &lt;a href=&#34;https://mitmproxy.org/&#34;&gt;mitmproxy&lt;/a&gt; could be a candidate to try out. Because of open-source and the support of customized python script, it would be flexible to adapt all kinds of situations. All I need to do is to make scripts to fulfill my need. I like making my hands dirty. Luckily, mitmproxy provides a good &lt;a href=&#34;http://docs.mitmproxy.org/en/stable/&#34;&gt;documentation&lt;/a&gt; and nice &lt;a href=&#34;https://discourse.mitmproxy.org/&#34;&gt;forums&lt;/a&gt;. So it&amp;rsquo;s not too hard for me to write &lt;a href=&#34;https://github.com/KrazyCavin/mitm-rewrite-script&#34;&gt;mitm-rewrite-script&lt;/a&gt;, which provides me the function I need.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;Tools are designed to help us to deal with the problems. Depends on the different situations and the strength &amp;amp; weakness of tools, I have to think carefully and decide which one to use. Once I decided that it is a good time for Charles, I would confidently say &amp;ldquo;&lt;strong&gt;I choose you, Charles!&lt;/strong&gt;&amp;ldquo;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>I&#39;m A Tester &amp; I&#39;m A Rubber Duck</title>
@@ -322,43 +364,43 @@ What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
       <pubDate>Sun, 23 Apr 2017 11:19:25 CEST</pubDate>
       
       <guid>https://krazycavin.github.io/2017/04/23/tweet-pinboard_01-052017/</guid>
-      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Bug &amp;lt;-&amp;gt; Debug&lt;br&gt;Test &amp;lt;-&amp;gt; Detest&lt;br&gt;&lt;br&gt;Is that a kind of coincidence?&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/814838322891804672&#34;&gt;December 30, 2016&lt;/a&gt;&lt;/blockquote&gt;
+      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Bug &amp;lt;-&amp;gt; Debug&lt;br&gt;Test &amp;lt;-&amp;gt; Detest&lt;br&gt;&lt;br&gt;Is that a kind of coincidence?&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/814838322891804672&#34;&gt;December 30, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;1. 🎥: 👯🐇💨🚶㊙🚪🐈🐛👒🍵👸👰👑♠♥♣♦😴&lt;br&gt;&lt;br&gt;2. 📺: 🐺🐯🐲💮🐙🐟... 👑❤💔🔞🔥💥🔪... 💀😱💀💀😱😱💀💀💀😶💀💀💀💀💀...&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/816692325833461760&#34;&gt;January 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;1. 🎥: 👯🐇💨🚶㊙🚪🐈🐛👒🍵👸👰👑♠♥♣♦😴&lt;br&gt;&lt;br&gt;2. 📺: 🐺🐯🐲💮🐙🐟... 👑❤💔🔞🔥💥🔪... 💀😱💀💀😱😱💀💀💀😶💀💀💀💀💀...&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/816692325833461760&#34;&gt;January 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Declare variables not war,&lt;br&gt;Get bugs fixed not mindset.&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820378849225609218&#34;&gt;January 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Declare variables not war,&lt;br&gt;Get bugs fixed not mindset.&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820378849225609218&#34;&gt;January 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A tool for work:&lt;br&gt;20 years ago, a tool is a tool.&lt;br&gt;10 years ago, a tool is a software.&lt;br&gt;5 years ago, a tool is a website.&lt;br&gt;Now a tool is an app.&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820702959260565509&#34;&gt;January 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A tool for work:&lt;br&gt;20 years ago, a tool is a tool.&lt;br&gt;10 years ago, a tool is a software.&lt;br&gt;5 years ago, a tool is a website.&lt;br&gt;Now a tool is an app.&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820702959260565509&#34;&gt;January 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Dear DEVils,&lt;br&gt;During my absence, you&amp;#39;re authorised to use my tool for testing purpose. Any abuses are welcome.&lt;br&gt;Happy testing!&lt;br&gt;Xoxo, TESTERia &lt;a href=&#34;https://t.co/yNht8lnPDG&#34;&gt;pic.twitter.com/yNht8lnPDG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/824309415851466752&#34;&gt;January 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Dear DEVils,&lt;br&gt;During my absence, you&amp;#39;re authorised to use my tool for testing purpose. Any abuses are welcome.&lt;br&gt;Happy testing!&lt;br&gt;Xoxo, TESTERia &lt;a href=&#34;https://t.co/yNht8lnPDG&#34;&gt;pic.twitter.com/yNht8lnPDG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/824309415851466752&#34;&gt;January 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A good news without &amp;quot;but&amp;quot; is a perfect good news.&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826085227512500224&#34;&gt;January 30, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A good news without &amp;quot;but&amp;quot; is a perfect good news.&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826085227512500224&#34;&gt;January 30, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;In theory there is no difference between theory and practice. In practice there is.&amp;quot; 😉&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826429344088100865&#34;&gt;January 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;In theory there is no difference between theory and practice. In practice there is.&amp;quot; 😉&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826429344088100865&#34;&gt;January 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Wisely and slowly; they stumble that run fast.&amp;quot;&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/837361764492771329&#34;&gt;March 2, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Wisely and slowly; they stumble that run fast.&amp;quot;&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/837361764492771329&#34;&gt;March 2, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Best practice only exists for someone at certain period of time. Not everyone, not always.&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841716053046644737&#34;&gt;March 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Best practice only exists for someone at certain period of time. Not everyone, not always.&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841716053046644737&#34;&gt;March 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤣 true &lt;a href=&#34;https://t.co/6S8jT0ZkX6&#34;&gt;https://t.co/6S8jT0ZkX6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841953703812861953&#34;&gt;March 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤣 true &lt;a href=&#34;https://t.co/6S8jT0ZkX6&#34;&gt;https://t.co/6S8jT0ZkX6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841953703812861953&#34;&gt;March 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Oh I&amp;#39;m capable of suffering all small revertable changes &amp;amp; working on piece by piece, in order to make the world a better place🙏 &lt;a href=&#34;https://twitter.com/hashtag/AgilityGod?src=hash&#34;&gt;#AgilityGod&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/842787425541865472&#34;&gt;March 17, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Oh I&amp;#39;m capable of suffering all small revertable changes &amp;amp; working on piece by piece, in order to make the world a better place🙏 &lt;a href=&#34;https://twitter.com/hashtag/AgilityGod?src=hash&#34;&gt;#AgilityGod&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/842787425541865472&#34;&gt;March 17, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Testing is not about finding bugs. It&amp;#39;s about exploring unknown area, resolving ambiguity and leaning new things. 1/2&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843906547273097216&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Testing is not about finding bugs. It&amp;#39;s about exploring unknown area, resolving ambiguity and leaning new things. 1/2&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843906547273097216&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a troch to light up the road in darkness, you could clearly see the way to go,  make a map,  and mark thorns and flowers. 2/2&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843911859287871490&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a troch to light up the road in darkness, you could clearly see the way to go,  make a map,  and mark thorns and flowers. 2/2&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843911859287871490&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Checking is not about finding bugs. It&amp;#39;s about verifying expectation, feeling confidence of working things and killing time. 1/2&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843914267355217920&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Checking is not about finding bugs. It&amp;#39;s about verifying expectation, feeling confidence of working things and killing time. 1/2&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843914267355217920&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a map in daylight, you&amp;#39;re guided to avoid known obstacles, confident of your ability and ready for the next journey, again. 2/2&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843915943373930496&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a map in daylight, you&amp;#39;re guided to avoid known obstacles, confident of your ability and ready for the next journey, again. 2/2&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843915943373930496&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤷 let me guess it&amp;#39;s a part of How to reduce cost and assure phone call quality. ISTQB = I Swear That&amp;#39;s Quite Boring&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/848280133999804416&#34;&gt;April 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤷 let me guess it&amp;#39;s a part of How to reduce cost and assure phone call quality. ISTQB = I Swear That&amp;#39;s Quite Boring&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/848280133999804416&#34;&gt;April 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Junior XXX: I want a job even it&amp;#39;s shitty&lt;br&gt;Senior XXX: I don&amp;#39;t want a shitty job, no!&lt;br&gt;Expert XXX: I want to do some shitty things as my job 😉&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/851867342976028673&#34;&gt;April 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Junior XXX: I want a job even it&amp;#39;s shitty&lt;br&gt;Senior XXX: I don&amp;#39;t want a shitty job, no!&lt;br&gt;Expert XXX: I want to do some shitty things as my job 😉&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/851867342976028673&#34;&gt;April 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Agility stops when HiPPO starts.&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/852536634155335680&#34;&gt;April 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Agility stops when HiPPO starts.&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/852536634155335680&#34;&gt;April 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Certification is a decent purchase invoice. &lt;a href=&#34;https://t.co/QgXh9a6aaF&#34;&gt;https://t.co/QgXh9a6aaF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin🖖💻 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/855715620377243649&#34;&gt;April 22, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Certification is a decent purchase invoice. &lt;a href=&#34;https://t.co/QgXh9a6aaF&#34;&gt;https://t.co/QgXh9a6aaF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin🖖 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/855715620377243649&#34;&gt;April 22, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>
@@ -738,6 +780,8 @@ Hugo: 29M
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://cards-dev.twitter.com/validator&#34;&gt;Twitter Card Validator&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://developers.facebook.com/tools/debug/&#34;&gt;Facebook Debugger&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.jsontest.com&#34;&gt;JSON Test&lt;/a&gt;: JSON Testing Service&lt;/p&gt;
 
 &lt;h3 id=&#34;dev-tools&#34;&gt;Dev Tools&lt;/h3&gt;
 
@@ -1327,72 +1371,6 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 &lt;a name=&#34;link6&#34;&gt;&lt;a href=&#34;#back6&#34;&gt;[6]&lt;/a&gt;&lt;/a&gt; Augusto Evangelisti: &lt;a href=&#34;https://mysoftwarequality.wordpress.com/2016/10/17/ultimate-guide-to-reducing-the-amount-of-defects-and-other-waste-in-your-product/&#34;&gt;Ultimate Guide to Reducing the Amount of Defects and other Waste in your Product&lt;/a&gt;
 &lt;br/&gt;
 &lt;a name=&#34;link7&#34;&gt;&lt;a href=&#34;#back7&#34;&gt;[7]&lt;/a&gt;&lt;/a&gt; Jesper Ottosen: &lt;a href=&#34;https://jlottosen.wordpress.com/2016/10/10/shift-left/&#34;&gt;Trending: Shift-Left&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>10 (Unpopular but Good Quality) Android Apps I Recommend</title>
-      <link>https://krazycavin.github.io/2016/12/18/apps-i-recommend/</link>
-      <pubDate>Sun, 18 Dec 2016 15:29:04 &#43;0200</pubDate>
-      
-      <guid>https://krazycavin.github.io/2016/12/18/apps-i-recommend/</guid>
-      <description>&lt;p&gt;I feel the urge to make a list before the end of this year. I donn&amp;rsquo;t know what to add for a list. So, I&amp;rsquo;m gonna recommend 10 android apps. I would say they&amp;rsquo;re not quite popular, because none of my friends has them (at least some friends whose phones I&amp;rsquo;ve checked). Personally, I really like these apps. They are making my life easier very day.&lt;/p&gt;
-
-&lt;p&gt;#10 &lt;img src=&#34;https://lh6.ggpht.com/os72icmFlDtbxpYbZCP-v6kOereSLGDmlKsBl1ISTPdgbcpoc4rSIuXDuoDECvgcvoFJ=w32&#34; alt=&#34;Barcode&#34; /&gt;
-&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.google.zxing.client.android&#34;&gt;Barcode Scanner&lt;/a&gt;
-&lt;br/&gt;
-Source code: &lt;a href=&#34;https://github.com/zxing/zxing&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
-&amp;ndash; I use it mostly for QR code scan. It supports to scan ton of codes, which I never used once&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;#9 &lt;img src=&#34;https://lh3.googleusercontent.com/Qyoyu4zcIfgFeWB_p02F1w5ihsS1MQ_0QYYKxyzQ4MzjQ39VtQl57abyq9YuZgFSIv7k=w32&#34; alt=&#34;devrant&#34; /&gt;
-&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.hexicallabs.devrant&#34;&gt;devRant&lt;/a&gt;
-&lt;br/&gt;
-&amp;ndash; A very clean app with full of unclean dev jokes. They&amp;rsquo;re funny, they&amp;rsquo;re mean, they&amp;rsquo;re real devs.&lt;/p&gt;
-
-&lt;p&gt;#8 &lt;img src=&#34;https://lh3.googleusercontent.com/dFePrSuuWe6wD9xfNOrFQZoJAlBvwVYRZmDKnOAbQX6vxJmMMY2pBSUVIAwp8PAUI5v2=w32&#34; alt=&#34;FreeDCam&#34; /&gt;
-&lt;a href=&#34;https://play.google.com/store/apps/details?id=troop.com.freedcam&#34;&gt;FreeDCam&lt;/a&gt;
-&lt;br/&gt;
-Source code: &lt;a href=&#34;https://github.com/troop/FreeDcam&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
-&amp;ndash; A high customizable camera app, specially destined for photo geek.&lt;/p&gt;
-
-&lt;p&gt;#7 &lt;img src=&#34;https://lh6.ggpht.com/FDMKTEO0v38Q-Tsgo2f6t5ZcbUQUxDZDUIofbEfjyzTCQzU7wJCaeDMsw7_iL3LRoA=w32&#34; alt=&#34;Opengur&#34; /&gt;
-&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.kennyc.open.imgur&#34;&gt;Opengur&lt;/a&gt;
-&lt;br/&gt;
-Source code: &lt;a href=&#34;https://github.com/Kennyc1012/Opengur&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
-&amp;ndash; A really good alternative app of Imgur. At least, unlike Imgur, Opengur always works when uploading pictures.&lt;/p&gt;
-
-&lt;p&gt;#6 &lt;img src=&#34;https://lh3.googleusercontent.com/nZnXmo0hvrtXh1eDKWnAy34b6sFGR2nekUYjZlAOF2R8k3BvhuTOlbnXRSPS2Pm3Cpc=w32&#34; alt=&#34;neutriNote&#34; /&gt;
-&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.appmindlab.nano&#34;&gt;neutriNote&lt;/a&gt;
-&lt;br/&gt;
-&amp;ndash; It&amp;rsquo;s one of the best app for editing Markdonw file. I use it a lot as a note app. Only thing is missing here: a sync feature.&lt;/p&gt;
-
-&lt;p&gt;#5 &lt;img src=&#34;https://lh3.googleusercontent.com/UFPeDvB63M0JpmKsVzN4P3UN0vV1ZrxdJoJCyO-P3foAleXuUqKxDE5BCKalHanR-A=w32&#34; alt=&#34;Twidere&#34; /&gt;
-&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.mariotaku.twidere&#34;&gt;Twidere for Twitter&lt;/a&gt;
-&lt;br/&gt;
-Source code: &lt;a href=&#34;https://github.com/mariotaku/twidere&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
-&amp;ndash; Clean look, well designed, no Ads, open source. What else do I need as a Twitter client?&lt;/p&gt;
-
-&lt;p&gt;#4 &lt;img src=&#34;https://lh3.googleusercontent.com/uuBMyrFcAb6iNE1cktu76WznoBlmoR00d9AKPUpO5LnjNtXoJksVGxqAZUMDUFFOsQ=w32&#34; alt=&#34;LeafPic&#34; /&gt;
-&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.horaapps.leafpic&#34;&gt;LeafPic Gallery&lt;/a&gt;
-&lt;br/&gt;
-Source code: &lt;a href=&#34;https://github.com/HoraApps/LeafPic&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
-&amp;ndash; Light, beautiful and fully functional photo gallery. It&amp;rsquo;s like the old-good day of QuickPic Gallery and it still keeps purity.&lt;/p&gt;
-
-&lt;p&gt;#3 &lt;img src=&#34;http://www.icon100.com/up/3467/32/1790-adaway.png&#34; alt=&#34;AdAway&#34; /&gt;
-&lt;a href=&#34;https://f-droid.org/repository/browse/?fdid=org.adaway&#34;&gt;AdAway&lt;/a&gt;
-&lt;br/&gt;
-Source code: &lt;a href=&#34;https://github.com/AdAway/AdAway&#34;&gt;GitHub&lt;/a&gt;&lt;br/&gt;
-&amp;ndash; It&amp;rsquo;s important for me to get rid of annoying Ads.&lt;/p&gt;
-
-&lt;p&gt;#2 &lt;img src=&#34;https://lh3.googleusercontent.com/vu1tmn-Fw9OSGKnEf4Q4dTk3gTB6bpjnW1ThUJN8DZAvJjFXJ7Kgt7T1v1cuShcyOY8=w32&#34; alt=&#34;TotalCommander&#34; /&gt;
-&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander&#34;&gt;Total Commander - file manager&lt;/a&gt;
-&lt;br/&gt;
-&amp;ndash; It offers me the power to fully control every single file on my phone. With its plugins, I can share files and get data from ftp server.&lt;/p&gt;
-
-&lt;p&gt;#1 &lt;img src=&#34;https://lh3.googleusercontent.com/aD8lHFubsqxzpVxiN72lX1xFqm42t7mDbdsxWMLzZEI9jDEWDxNmAEkW9Wt8rKajFA=w32&#34; alt=&#34;Pie Control&#34; /&gt;
-&lt;a href=&#34;https://play.google.com/store/apps/details?id=jun.ace.piecontrol&#34;&gt;Pie Control&lt;/a&gt;
-&lt;br/&gt;
-&amp;ndash; Awesome control tool to replace navigation buttons. Without virtual navigation buttons, phone screen looks super clean. A phone without Pie Control is just simply not &amp;ldquo;my phone&amp;rdquo;.&lt;/p&gt;
 </description>
     </item>
     

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Krazy Kevin</title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://krazycavin.github.io/tags/charles/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Tue, 27 Jun 2017 21:43:23 CEST</updated>
+    
+    <item>
+      <title>Bad Use of A Good Tool</title>
+      <link>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
+      <pubDate>Tue, 27 Jun 2017 21:43:23 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;If all you have is a hammer, everything looks like a nail.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to &lt;a href=&#34;https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;organize this testing party&lt;/a&gt;. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well. I feel shame for it. I ask myself why it happened? After I think again and again, one thing I could tell is because of &lt;strong&gt;my bad use of a good tool&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-good-tool&#34;&gt;A good tool&lt;/h3&gt;
+
+&lt;p&gt;Undeniably, &lt;a href=&#34;https://www.charlesproxy.com/&#34;&gt;Charles&lt;/a&gt; is an excellent debugging proxy. It&amp;rsquo;s powerful and handy. With a clean UI and easy setup, it becomes my daily tool. I rely on it to inspect HTTP/HTTPS requests and response, set breakpoints, simulate response status, mock response, bandwidth throttling, etc&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Naturally, more I use it, more I like it; More I will use it, then I will like it more&amp;hellip;.&lt;/p&gt;
+
+&lt;h3 id=&#34;bad-use&#34;&gt;Bad use&lt;/h3&gt;
+
+&lt;p&gt;One day, I tried &lt;a href=&#34;https://www.charlesproxy.com/documentation/tools/rewrite/&#34;&gt;rewrite tool&lt;/a&gt; in Charles to replace a simple JSON API response by some mock data. I found surprisingly that it worked very well. Since that, I started to add more and more rewriting rules for this and that&amp;hellip; Nowadays the set of rewriting rules becomes really complex. The mock data I used to replace response which started from the beginning as 4 lines, until now the entire content of a 4K file!&lt;/p&gt;
+
+&lt;p&gt;Sometimes I complain &amp;ldquo;Why Charles gives users only 1-line input filed for replacing stuff. It&amp;rsquo;s not possible to edit long text. How bad design it is!&amp;rdquo; Now I think it again and I have to admit that Charles is not designed for that. I use it wrongly. I should use it as a simple match-replace function for some strings, that&amp;rsquo;s it.&lt;/p&gt;
+
+&lt;p&gt;Another mistake I made is to treat it as a proxy server. Usually, I connect 1 Android and 1 iOS device to Charles proxy. But the craziest time, like last team testing, I ran Charles with heavy mock data and planned to setup the connection of 10+ mobile devices. The connection was not stable at all. The half of devices were disconnected frequently.&lt;/p&gt;
+
+&lt;p&gt;As it&amp;rsquo;s named as &amp;ldquo;debugging proxy&amp;rdquo;, it&amp;rsquo;s unfair for it to support 10+ devices &amp;ldquo;debugging&amp;rdquo; at the same time.&lt;/p&gt;
+
+&lt;h3 id=&#34;right-tool-for-the-job&#34;&gt;Right tool for the job&lt;/h3&gt;
+
+&lt;p&gt;Charles proxy is not a snake oil. It has pros and cons. In my case, I need a proxy tool to mock response data heavily and change data easily, meanwhile it should also provide stable connections of massive mobile devices. Charles is a good tool for sure, but it&amp;rsquo;s not the right tool for that need.&lt;/p&gt;
+
+&lt;p&gt;I have to search for a proper solution. I find that &lt;a href=&#34;https://mitmproxy.org/&#34;&gt;mitmproxy&lt;/a&gt; could be a candidate to try out. Because of open-source and the support of customized python script, it would be flexible to adapt all kinds of situations. All I need to do is to make scripts to fulfill my need. I like making my hands dirty. Luckily, mitmproxy provides a good &lt;a href=&#34;http://docs.mitmproxy.org/en/stable/&#34;&gt;documentation&lt;/a&gt; and nice &lt;a href=&#34;https://discourse.mitmproxy.org/&#34;&gt;forums&lt;/a&gt;. So it&amp;rsquo;s not too hard for me to write &lt;a href=&#34;https://github.com/KrazyCavin/mitm-rewrite-script&#34;&gt;mitm-rewrite-script&lt;/a&gt;, which provides me the function I need.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;Tools are designed to help us to deal with the problems. Depends on the different situations and the strength &amp;amp; weakness of tools, I have to think carefully and decide which one to use. Once I decided that it is a good time for Charles, I would confidently say &amp;ldquo;&lt;strong&gt;I choose you, Charles!&lt;/strong&gt;&amp;ldquo;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
