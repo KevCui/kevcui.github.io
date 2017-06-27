@@ -109,15 +109,6 @@
     </item>
     
     <item>
-      <title>Failure</title>
-      <link>https://krazycavin.github.io/tags/failure/</link>
-      <pubDate>Tue, 27 Jun 2017 21:43:23 CEST</pubDate>
-      
-      <guid>https://krazycavin.github.io/tags/failure/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Firefox</title>
       <link>https://krazycavin.github.io/tags/firefox/</link>
       <pubDate>Mon, 27 Mar 2017 23:02:13 CEST</pubDate>
@@ -141,6 +132,15 @@
       <pubDate>Sun, 18 Jun 2017 15:55:09 CEST</pubDate>
       
       <guid>https://krazycavin.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hexo</title>
+      <link>https://krazycavin.github.io/tags/hexo/</link>
+      <pubDate>Wed, 12 Apr 2017 22:47:26 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/tags/hexo/</guid>
       <description></description>
     </item>
     
