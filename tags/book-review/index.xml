@@ -28,17 +28,17 @@
 &lt;p&gt;As described in the book, The Phoenix Project presents &lt;a href=&#34;https://itrevolution.com/the-three-ways-principles-underpinning-devops/&#34;&gt;the Three Ways as the principles underpinning DevOps&lt;/a&gt;:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;The technical practices of flow: it enables fast left-to-right flow of work from Devs to Ops, so that value can be quickly and safely delivered to customers.&lt;/li&gt;
-&lt;li&gt;The technical practices of feedback: it enables the fast and constant flow of feedback from right to left at all stages of the value stream.&lt;/li&gt;
-&lt;li&gt;The technical practices of continual learning and experimentation: it enables the creation of a culture of learning and experimentation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The technical practices of flow&lt;/strong&gt;: it enables fast left-to-right flow of work from Devs to Ops, so that value can be quickly and safely delivered to customers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The technical practices of feedback&lt;/strong&gt;: it enables the fast and constant flow of feedback from right to left at all stages of the value stream.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The technical practices of continual learning and experimentation&lt;/strong&gt;: it enables the creation of a culture of learning and experimentation.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;I see the 3 ways as 3 focuses in different phases:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Initialization: Build a right pipeline&lt;/li&gt;
-&lt;li&gt;Improvement: Get quick feedback to adjust pipeline to a right direction&lt;/li&gt;
-&lt;li&gt;Interaction: Create a culture to learn from experimentation, to increase safety&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Initialization&lt;/strong&gt;: Build a right pipeline&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improvement&lt;/strong&gt;: Get quick feedback to adjust pipeline to a right direction&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Interaction&lt;/strong&gt;: Create a culture to learn from experimentation, to increase safety&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&#34;appendices&#34;&gt;Appendices&lt;/h4&gt;
