@@ -7,7 +7,78 @@
     <language>en-us</language>
     
     
-    <updated>Tue, 27 Jun 2017 21:43:23 CEST</updated>
+    <updated>Tue, 04 Jul 2017 19:35:28 CEST</updated>
+    
+    <item>
+      <title>Book Review: The DevOps Handbook</title>
+      <link>https://krazycavin.github.io/2017/07/04/book-review-the-devops-handbook/</link>
+      <pubDate>Tue, 04 Jul 2017 19:35:28 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/07/04/book-review-the-devops-handbook/</guid>
+      <description>
+
+&lt;h3 id=&#34;something-interesting&#34;&gt;😀 Something interesting&lt;/h3&gt;
+
+&lt;h4 id=&#34;deployment-lead-time&#34;&gt;Deployment Lead Time&lt;/h4&gt;
+
+&lt;p&gt;DevOps focuses on optimizing &amp;ldquo;deployment lead time&amp;rdquo;. The definition of &amp;ldquo;deployment lead time&amp;rdquo; is not explained clearly in this book. As my understanding, a lead time is a latency between the initiation and execution of a process, then &amp;ldquo;deployment lead time&amp;rdquo; should be the time between deployment initiation is required and the product in production.&lt;/p&gt;
+
+&lt;h4 id=&#34;the-three-ways&#34;&gt;The Three Ways&lt;/h4&gt;
+
+&lt;p&gt;As described in the book, The Phoenix Project presents &lt;a href=&#34;https://itrevolution.com/the-three-ways-principles-underpinning-devops/&#34;&gt;the Three Ways as the principles underpinning DevOps&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The technical practices of flow: it enables fast left-to-right flow of work from Devs to Ops, so that value can be quickly and safely delivered to customers.&lt;/li&gt;
+&lt;li&gt;The technical practices of feedback: it enables the fast and constant flow of feedback from right to left at all stages of the value stream.&lt;/li&gt;
+&lt;li&gt;The technical practices of continual learning and experimentation: it enables the creation of a culture of learning and experimentation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I see the 3 ways as 3 focuses in different phases:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Initialization: Build a right pipeline&lt;/li&gt;
+&lt;li&gt;Improvement: Get quick feedback to adjust pipeline to a right direction&lt;/li&gt;
+&lt;li&gt;Interaction: Create a culture to learn from experimentation, to increase safety&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;appendices&#34;&gt;Appendices&lt;/h4&gt;
+
+&lt;p&gt;I found the appendices in this book are quite interesting. Appendices contain copious additional materials with short descriptions. Some of them are worth to know more. Then I search for some additional information and list them here:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://setandbma.wordpress.com/2012/03/23/agile-history/&#34;&gt;History of movements&lt;/a&gt;: the Lean movement, the Agile movement, the Agile infrastructure and velocity movement, the Continues Delivery movement, the Toyota Kata movement, the Lean Startup movement, the Lean UX movement&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.iploca.com/platform/content/element/24312/ErikHollnagel-SafetyMyths.pdf&#34;&gt;Some myths of industrial safety&lt;/a&gt;: by revealing 5 common myths about safety, it guides people to think different types of outcomes: adverse outcomes and successful outcomes. Furthermore, it introduces 2 types of safety defined by 2 different perspectives: &amp;ldquo;no lack of safety&amp;rdquo; or &amp;ldquo;resilient safety management&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://itrevolution.com/kata/&#34;&gt;The Toyota Andon Cord&lt;/a&gt;: it&amp;rsquo;s one of the quality control method invented by Toyota. Andon Cord is a notify system with signal lights hanging on the cord. When a defect was suspected in the production line, the worker should light up the signal and the whole system will be stopped. By stopping the system, you will get an immediate opportunity for improvement, or solving the root cause.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116&#34;&gt;The Netflix Simian Army&lt;/a&gt;: based on the idea of &lt;a href=&#34;https://en.wikipedia.org/wiki/Monkey_testing&#34;&gt;monkey testing&lt;/a&gt;, Netflix built an army of &amp;ldquo;skilled monkeys&amp;rdquo;. Once these monkeys are unleashed, they will start to randomly disable the service and destroy the system. It&amp;rsquo;s an interesting way to test the robustness of service and system. One day, these monkeys cannot cause any noticeable troubles, you will trust that your system is fail-safe.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;something-boring&#34;&gt;🙈 Something boring&lt;/h3&gt;
+
+&lt;h4 id=&#34;lack-of-depth&#34;&gt;Lack of depth&lt;/h4&gt;
+
+&lt;p&gt;After finishing this book, my first feeling is &amp;ldquo;This book could go deeper&amp;rdquo;. The true ideas and thoughts are heavily covered by quotes and stories. Actually, stories are good and interesting, but they are used in the book so often like the case study, instead of being used to explain a conception. Some chapters are based on one shallow story. After reading one chapter, I could only roughly tell the story. What about the idea behind it? It was not expressed clearly. At the end, I feel more like &amp;ldquo;emh.. ok&amp;hellip;&amp;rdquo;. The surprise, which I expected from this book at the beginning, is missing.&lt;/p&gt;
+
+&lt;p&gt;Maybe it&amp;rsquo;s the purpose to go breadth by throwing conceptions without deeper explanations, in order to cover more readers.&lt;/p&gt;
+
+&lt;h4 id=&#34;repeated-terms&#34;&gt;Repeated Terms&lt;/h4&gt;
+
+&lt;p&gt;This is maybe only my personal OCD. Some terms appearing repeatedly make me feel annoyed. It happens at the very beginning of the book. For example, &amp;ldquo;Product owners, development, QA, IT Operation and Infosec&amp;hellip;&amp;rdquo; This chain of terms appears at least twice on some pages. Once I noticed it, I totally faint out&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;something-for-future&#34;&gt;🔮 Something for future&lt;/h3&gt;
+
+&lt;p&gt;For me, this book is an introduction to DevOps world. I think there are many valuable things to learn in DevOps. Therefore, I will continue to take a look at other interesting DevOps books. Perhaps I would pick first another book from the same author. It&amp;rsquo;s called &lt;a href=&#34;https://www.amazon.de/Phoenix-Project-DevOps-Helping-Business/dp/0988262509/ref=sr_1_1?ie=UTF8&amp;amp;qid=1499117368&amp;amp;sr=8-1&amp;amp;keywords=the+phoenix+project&#34;&gt;&amp;ldquo;The Phoenix Project&amp;rdquo;&lt;/a&gt;. It&amp;rsquo;s an interesting novel and I trust the author&amp;rsquo;s storytelling skill.&lt;/p&gt;
+
+&lt;h3 id=&#34;recommendation&#34;&gt;👉 Recommendation&lt;/h3&gt;
+
+&lt;p&gt;Who do I recommend to read &amp;ldquo;The DevOps Handbook&amp;rdquo;?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Someone knows nothing about DevOps, like John Snow&lt;/li&gt;
+&lt;li&gt;Someone has huge resource to manage and wants to create a great company culture&lt;/li&gt;
+&lt;li&gt;Someone is doing DevOps but blocked and needs some decent ideas&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Bad Use of A Good Tool</title>
@@ -1215,168 +1286,6 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 &lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Defect &lt;a href=&#34;http://softwaretestingfundamentals.com/defect/&#34;&gt;Classification&lt;/a&gt;
 &lt;br/&gt;
 &lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Dan Ashby: &lt;a href=&#34;https://danashby.co.uk/2013/05/07/what-about-priority-and-severity/&#34;&gt;What about Priority and Severity&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My Year 2k16</title>
-      <link>https://krazycavin.github.io/2016/12/23/my-year-2016/</link>
-      <pubDate>Fri, 23 Dec 2016 19:56:57 &#43;0200</pubDate>
-      
-      <guid>https://krazycavin.github.io/2016/12/23/my-year-2016/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sSwfFaDzVYmhN7cPWANpuQ.jpeg&#34; alt=&#34;tree&#34; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;A journey of a thousand miles begins with a single step.&amp;rdquo; &amp;ndash; Lao Tzu&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There is a tradition in Japan since 1995: Every year, one character will be chosen as &lt;a href=&#34;https://en.wikipedia.org/wiki/Kanji_of_the_year&#34;&gt;kanji of the year&lt;/a&gt; at Kiyomizu Temple, which represents the events of the entire year.&lt;/p&gt;
-
-&lt;p&gt;So I choose the character of my year 2016 is &lt;strong&gt;Shi&lt;/strong&gt; &lt;img src=&#34;https://raw.githubusercontent.com/KrazyCavin/krazycavin-jekyll-github-io/master/_source/beginning.png&#34; alt=&#34;beginning&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It means: to start, beginning.&lt;/p&gt;
-
-&lt;h3 id=&#34;begin-to-connect&#34;&gt;&lt;strong&gt;Begin to connect&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/j6iyD03LaUNuU.gif&#34; alt=&#34;modem&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;01-jan-2016-a-new-habit&#34;&gt;&lt;strong&gt;01 Jan 2016: A new habit&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;Actually it&amp;rsquo;s easy for me to build this habit. I have too much time during my daily commute. Why not use this time for &lt;strong&gt;reading&lt;/strong&gt; articles I bookmarked? I&amp;rsquo;m quite happy that I keep reading every day to charge my brain. Things are learned from reading which inspires me to think more, to go deeper into the question &lt;strong&gt;why&lt;/strong&gt; behind &lt;strong&gt;what&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;A small fun fact: In 2016, I read &lt;strong&gt;2,089,596&lt;/strong&gt; words in &lt;a href=&#34;https://getpocket.com/&#34;&gt;Pocket&lt;/a&gt;, which is like reading 44 books. What a surprise I didn&amp;rsquo;t expect!&lt;/p&gt;
-
-&lt;p&gt;Also, I managed to finish reading:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.kaner.com/pdfs/bugadvoc.pdf&#34;&gt;Bug Advocacy&lt;/a&gt; - Cem Kaner&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://books.google.de/books/about/How_Google_Tests_Software.html?id=vHlTOVTKHeUC&amp;amp;redir_esc=y&#34;&gt;How Google Tests Software&lt;/a&gt; - James A. Whittaker&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ministryoftesting.com/2010/12/mr-fails/&#34;&gt;Mr. Fails&lt;/a&gt; - Andy Glover&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://linuxcommand.org/tlcl.php&#34;&gt;The Linux Command Line&lt;/a&gt; - William Shotts&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.selfishprogramming.com/about/&#34;&gt;The Dream Team Nightmare&lt;/a&gt; - Portia Tung&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.jamesshore.com/Agile-Book/&#34;&gt;The Art of Agile Development&lt;/a&gt; - James Shore&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;And I finished rereading:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://adventuresinqa.com/hands-on-mobile-app-testing/&#34;&gt;Hands-on Mobile App Testing&lt;/a&gt; - Daniel Knott&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;But I left some books which are not finished yet:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.briantracy.com/blog/tag/eat-that-frog/&#34;&gt;Eat That Frog&lt;/a&gt; - Brian Tracy&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow&#34;&gt;Think, Fast and Slow&lt;/a&gt; - Daniel Kahneman&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;22-may-2016-a-new-tweet-https-twitter-com-kevcui-statuses-734274031860469760&#34;&gt;&lt;strong&gt;22 May 2016: A new &lt;a href=&#34;https://twitter.com/KevCui/statuses/734274031860469760&#34;&gt;tweet&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;After abandoned Twitter account 6 years ago, I come back to Twitter over again.&lt;/p&gt;
-
-&lt;p&gt;With the main focus on software testing, I followed tons of awesome people, read lots of great posts and participated some interesting challenges as well. I feel so happy to see passionate testers tweeting around with new interesting ideas and concepts. Also, I saw many doubts and misunderstanding of QA, tester and testing&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Good or bad are two sides of the same coin. The point of view to an alive thing cannot be perfectly right or absolutely wrong. I started to question &amp;ldquo;What is quality?&amp;rdquo;, &amp;ldquo;What is my job as tester and QA?&amp;rdquo;, &amp;ldquo;What is testing?&amp;rdquo; and &amp;ldquo;What is wrong with them?&amp;rdquo;&amp;hellip; As far as I can see, software testing itself is evolving, for a new era.&lt;/p&gt;
-
-&lt;h4 id=&#34;07-aug-2016-the-first-repository-https-github-com-krazycavin-rio2016-medaltable&#34;&gt;&lt;strong&gt;07 Aug 2016: The first &lt;a href=&#34;https://github.com/KrazyCavin/rio2016-medaltable&#34;&gt;repository&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;I started to program something for fun. Actually, what I did isn&amp;rsquo;t a big deal at all: some CLI geek-weird scripts and wrappers of some unpopular API&amp;hellip; But the most important thing is that I had a lot of fun. I enjoy the time when I do programming! Do I test my code? Nope, not now XD&lt;/p&gt;
-
-&lt;h4 id=&#34;18-nov-2016-a-new-blog-https-krazycavin-github-io-2016-hello-world&#34;&gt;&lt;strong&gt;18 Nov 2016: A new &lt;a href=&#34;https://krazycavin.github.io/2016/hello-world/&#34;&gt;blog&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;A new blog 🎉 Yes, another one! What&amp;rsquo;s different? Totally different, this time it&amp;rsquo;s a &lt;a href=&#34;https://pages.github.com/&#34;&gt;cooler way&lt;/a&gt; to blog. I promise that I will continue to keep recording crazy things happen in my journey.&lt;/p&gt;
-
-&lt;h3 id=&#34;begin-to-refine&#34;&gt;&lt;strong&gt;Begin to refine&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/vqpfhGHbLvhqo.gif&#34; alt=&#34;job&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;what-is-quality&#34;&gt;&lt;strong&gt;What is quality?&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;I started to change my understanding of the definition of quality, from &lt;del&gt;&amp;ldquo;The traditional software quality model identifies 6 main quality characteristics: &amp;hellip;.&amp;rdquo;&lt;/del&gt;&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; to &lt;strong&gt;&amp;ldquo;Quality is value to some person.&amp;rdquo;&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;what-is-my-job&#34;&gt;&lt;strong&gt;What is my job?&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;My job title is QA Engineer, as known as, &lt;a href=&#34;https://en.wikipedia.org/wiki/Quality_assurance&#34;&gt;Quality Assurance&lt;/a&gt; Engineer.&lt;/p&gt;
-
-&lt;p&gt;How am I able to make quality assured? Not really.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;We don’t own quality. We&amp;rsquo;re helping the people who are responsible for quality and the things that influence it.&amp;rdquo;&lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;I see myself as a &lt;strong&gt;Quality Assistance&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back4&#34;&gt;&lt;a href=&#34;#link4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My role: Quality Control -&amp;gt; Quality Assurance -&amp;gt; Quality Assistance&lt;br /&gt;Me: Focus product -&amp;gt; Focus process -&amp;gt; Focus team motivation on testing&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/794424645332205568&#34;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
-
-&lt;h4 id=&#34;what-is-testing&#34;&gt;&lt;strong&gt;What is testing?&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;&amp;ldquo;Checking Is Confirmation. Testing Is Exploration and Learning.&amp;rdquo;&lt;sup&gt;&lt;a name=&#34;back5&#34;&gt;&lt;a href=&#34;#link5&#34;&gt;[5]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;I see testing is a way to explore unknown of the product and to provide information about the awareness of risks.&lt;/p&gt;
-
-&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Nice metaphor! I do my best to provide correct relative info to who need know risks. Based on info, not me, they take care of their sleep... &lt;a href=&#34;https://t.co/Vuofazss3G&#34;&gt;https://t.co/Vuofazss3G&lt;/a&gt;&lt;/p&gt;&amp;mdash; @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/803337284447768576&#34;&gt;November 28, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
-
-&lt;h3 id=&#34;begin-to-be-crazy&#34;&gt;&lt;strong&gt;Begin to be &amp;ldquo;Crazy&amp;rdquo;&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/N2rLxtwaU9rBC.gif&#34; alt=&#34;carzy&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Crazy&amp;rdquo; is being out of the ordinary. It&amp;rsquo;s a courage to have breakthrough thinking. I knew that some experiments sound &amp;ldquo;crazy&amp;rdquo; but I really did them:&lt;/p&gt;
-
-&lt;h4 id=&#34;don-t-open-new-bug-ticket-immediately-until-must-have&#34;&gt;&lt;strong&gt;Don&amp;rsquo;t open new bug ticket immediately&lt;/strong&gt; until must-have&lt;/h4&gt;
-
-&lt;p&gt;When I have some findings, I&amp;rsquo;d like to check with other team members first, instead of logging it into bug tracking tool. Why? Because there is no value added to log a bug, fix it does. If its severity is low, regarding effort and outcome, it won&amp;rsquo;t be fixed; If its severity is high, we should eliminate it immediately.&lt;sup&gt;&lt;a name=&#34;back6&#34;&gt;&lt;a href=&#34;#link6&#34;&gt;[6]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Another good thing without a bug ticket: I have to talk to developers and show them how the issue looks like. Then we could start to discuss what&amp;rsquo;s the correct behavior from the programming perspective and from the user perspective. Then we go for a fix and test the fix together. For me, until now it&amp;rsquo;s the most efficient way to fix bugs.&lt;/p&gt;
-
-&lt;h4 id=&#34;remove-manual-regression-tests-because-i-m-shifted-left-sup-a-name-back7-7-link7-a-sup&#34;&gt;&lt;strong&gt;Remove manual regression tests&lt;/strong&gt; because I&amp;rsquo;m shifted-left&lt;sup&gt;&lt;a name=&#34;back7&#34;&gt;&lt;a href=&#34;#link7&#34;&gt;[7]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/h4&gt;
-
-&lt;p&gt;No manual regression tests don&amp;rsquo;t mean not verify bug fix at all. The idea is old &amp;ldquo;Do testing as early as possible.&amp;rdquo; Instead of checking fix after developer says &amp;ldquo;done&amp;rdquo;, all manual tests should be done earlier before integration. It makes the feedback circle smaller. Let&amp;rsquo;s say &amp;ldquo;done&amp;rdquo; together.&lt;/p&gt;
-
-&lt;h4 id=&#34;make-team-testing-great-with-lots-of-fun&#34;&gt;&lt;strong&gt;Make team testing great&lt;/strong&gt; with lots of fun&lt;/h4&gt;
-
-&lt;p&gt;I say goodbye to the boring team testing. It&amp;rsquo;s not my style to organize a traditional team testing. I urge to &lt;a href=&#34;https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;make it funny&lt;/a&gt;.&lt;/p&gt;
-
-&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/2 Testing should be full of fun, like a treasure hunting, an Easter egg search,  a Geocache... a game to enjoy to have fun, not to win it&lt;br/&gt;&lt;br/&gt;2/2 I&amp;#39;d like to make a Team Testing:&lt;br /&gt;New features over Whole product&lt;br /&gt;User nature act over Planned step&lt;br /&gt;Motivation driven over Result driven&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/794439768041984000&#34;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;
-
-&lt;h4 id=&#34;ignore-low-usage-os-version-in-order-to-gain-precious-time&#34;&gt;&lt;strong&gt;Ignore low usage OS version&lt;/strong&gt; in order to gain precious time&lt;/h4&gt;
-
-&lt;p&gt;I removed a target OS version in scope in test plan because of its user coverage is really low. It turned to be a really big mistake. 😶
-&lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;What I learnt:&lt;br /&gt;1. Never ignore an OS if it&amp;#39;s still in scope&lt;br /&gt;2. Still perform some tests on low coverage OS to at least check main functions&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/803309463541350400&#34;&gt;November 28, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&#34;&#34; src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/div&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;beginning-of-a-new-year&#34;&gt;&lt;strong&gt;Beginning of a New Year&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://4.bp.blogspot.com/-979_W3SpM3k/WFeQrw_CxvI/AAAAAAAAAHo/1Iuf3oXcKs8xKllAWXvQ6bJWRPHrnAHuACLcB/s400/2.jpg&#34; alt=&#34;newyear&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For the next year, I won&amp;rsquo;t expect a big change coming, but maybe some small changes. What I know is that my journey will continue, step by step.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ll &lt;strong&gt;Fail friendly&lt;/strong&gt;, &lt;strong&gt;Learn fast&lt;/strong&gt; and &lt;strong&gt;Stay strong&lt;/strong&gt;!&lt;/p&gt;
-
-&lt;p&gt;始 终&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; ISO 9126 &lt;a href=&#34;http://www.sqa.net/iso9126.html&#34;&gt;Software Quality Characteristics&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Gerald M. Weinberg: &lt;a href=&#34;http://secretsofconsulting.blogspot.de/2012/09/agile-and-definition-of-quality.html&#34;&gt;Agile and the Definition of Quality&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Micheal Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/&#34;&gt;Blog: Testers: Get Out of the Quality Assurance Business&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link4&#34;&gt;&lt;a href=&#34;#back4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt; James Bach: &lt;a href=&#34;https://prezi.com/yymvnxbysd9i/a-testers-commitments-by-james-bach/&#34;&gt;A Tester&amp;rsquo;s Commitments&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link5&#34;&gt;&lt;a href=&#34;#back5&#34;&gt;[5]&lt;/a&gt;&lt;/a&gt; Micheal Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2009/08/testing-vs-checking/&#34;&gt;Blog: Testing vs. Checking&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link6&#34;&gt;&lt;a href=&#34;#back6&#34;&gt;[6]&lt;/a&gt;&lt;/a&gt; Augusto Evangelisti: &lt;a href=&#34;https://mysoftwarequality.wordpress.com/2016/10/17/ultimate-guide-to-reducing-the-amount-of-defects-and-other-waste-in-your-product/&#34;&gt;Ultimate Guide to Reducing the Amount of Defects and other Waste in your Product&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link7&#34;&gt;&lt;a href=&#34;#back7&#34;&gt;[7]&lt;/a&gt;&lt;/a&gt; Jesper Ottosen: &lt;a href=&#34;https://jlottosen.wordpress.com/2016/10/10/shift-left/&#34;&gt;Trending: Shift-Left&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

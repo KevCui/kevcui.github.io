@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://krazycavin.github.io/2017/07/04/book-review-the-devops-handbook/</loc>
+    <lastmod>2017-07-04T19:35:28+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</loc>
     <lastmod>2017-06-27T21:43:23+02:00</lastmod>
   </url>
@@ -120,6 +125,12 @@
   </url>
   
   <url>
+    <loc>https://krazycavin.github.io/tags/book-review/</loc>
+    <lastmod>2017-07-04T19:35:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://krazycavin.github.io/tags/browser/</loc>
     <lastmod>2017-03-27T23:02:13+02:00</lastmod>
     <priority>0</priority>
@@ -180,6 +191,12 @@
   </url>
   
   <url>
+    <loc>https://krazycavin.github.io/tags/devops/</loc>
+    <lastmod>2017-07-04T19:35:28+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://krazycavin.github.io/tags/exploratory/</loc>
     <lastmod>2017-04-17T22:30:00+02:00</lastmod>
     <priority>0</priority>
@@ -235,7 +252,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/</loc>
-    <lastmod>2017-06-27T21:43:23+02:00</lastmod>
+    <lastmod>2017-07-04T19:35:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -253,7 +270,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/post/</loc>
-    <lastmod>2017-06-27T21:43:23+02:00</lastmod>
+    <lastmod>2017-07-04T19:35:28+02:00</lastmod>
     <priority>0</priority>
   </url>
   

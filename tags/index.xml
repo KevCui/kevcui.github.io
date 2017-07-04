@@ -28,6 +28,15 @@
     </item>
     
     <item>
+      <title>Book Review</title>
+      <link>https://krazycavin.github.io/tags/book-review/</link>
+      <pubDate>Tue, 04 Jul 2017 19:35:28 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/tags/book-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Browser</title>
       <link>https://krazycavin.github.io/tags/browser/</link>
       <pubDate>Mon, 27 Mar 2017 23:02:13 CEST</pubDate>
@@ -100,6 +109,15 @@
     </item>
     
     <item>
+      <title>Devops</title>
+      <link>https://krazycavin.github.io/tags/devops/</link>
+      <pubDate>Tue, 04 Jul 2017 19:35:28 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exploratory</title>
       <link>https://krazycavin.github.io/tags/exploratory/</link>
       <pubDate>Mon, 17 Apr 2017 22:30:00 CEST</pubDate>
@@ -123,24 +141,6 @@
       <pubDate>Thu, 01 Dec 2016 21:37:35 &#43;0200</pubDate>
       
       <guid>https://krazycavin.github.io/tags/fun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://krazycavin.github.io/tags/github/</link>
-      <pubDate>Sun, 18 Jun 2017 15:55:09 CEST</pubDate>
-      
-      <guid>https://krazycavin.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hexo</title>
-      <link>https://krazycavin.github.io/tags/hexo/</link>
-      <pubDate>Wed, 12 Apr 2017 22:47:26 CEST</pubDate>
-      
-      <guid>https://krazycavin.github.io/tags/hexo/</guid>
       <description></description>
     </item>
     
