@@ -201,7 +201,7 @@
   src: url('../fonts/montserrat/montserrat-v10-latin-ext_latin-300.eot'); /* IE9 Compat Modes */
   src: local('Montserrat Light'), local('Montserrat-Light'),
        url('../fonts/montserrat/montserrat-v10-latin-ext_latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/montserrat/montserrat-v9-latin-ext_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/montserrat/montserrat-v10-latin-ext_latin-300.woff2') format('woff2'), /* Super Modern Browsers */
        url('../fonts/montserrat/montserrat-v10-latin-ext_latin-300.woff') format('woff'), /* Modern Browsers */
        url('../fonts/montserrat/montserrat-v10-latin-ext_latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/montserrat/montserrat-v10-latin-ext_latin-300.svg#Montserrat') format('svg'); /* Legacy iOS */
