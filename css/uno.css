@@ -987,6 +987,8 @@ h2 {
   font-size: 2em; }
 
 h3 {
+  padding: 0.3em 0em 0.3em 0.5em;
+  border-left: 15px solid #272822;
   font-size: 1.6em; }
 
 h4 {
