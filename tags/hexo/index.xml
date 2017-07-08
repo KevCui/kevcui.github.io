@@ -107,19 +107,19 @@ Hugo: 29M
 
 &lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;http://127.0.0.1:4000/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
 
-&lt;h4 id=&#34;1-a-net-name-is-half-success&#34;&gt;1. A net name is half-success&lt;/h4&gt;
+&lt;h3 id=&#34;a-net-name-is-half-success&#34;&gt;A net name is half-success&lt;/h3&gt;
 
 &lt;p&gt;Everyone has his own taste on naming. Hexo vs. Jekyll which one is cooler? I cannot tell. But which one is net and easy to write. I vote for hexo.&lt;/p&gt;
 
 &lt;p&gt;You probably are not a clumsy-handed person, but unfortunately sometimes I am. I admit that many times I&amp;rsquo;m stupid (or drunken) to write jekyll as jeykll, jekyl, jekeyll&amp;hellip; How about hexo? I think I still need drink more 🍷 in order to make a spelling mistake of hexo.&lt;/p&gt;
 
-&lt;h4 id=&#34;2-node-js-home-lovely-home&#34;&gt;2. Node.js home lovely home&lt;/h4&gt;
+&lt;h3 id=&#34;node-js-home-lovely-home&#34;&gt;Node.js home lovely home&lt;/h3&gt;
 
 &lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to set up project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
 
 &lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable . At the end, the only ting I want is just to set up something in 3 min and spend my time on writing more posts.&lt;/p&gt;
 
-&lt;h4 id=&#34;3-deployment-it-s-a-magic&#34;&gt;3. Deployment? It&amp;rsquo;s a magic!&lt;/h4&gt;
+&lt;h3 id=&#34;deployment-it-s-a-magic&#34;&gt;Deployment? It&amp;rsquo;s a magic!&lt;/h3&gt;
 
 &lt;p&gt;The deployment of hexo is amazing. I add my git repo info in _config.xml then run a simple command:&lt;/p&gt;
 
@@ -130,11 +130,11 @@ Hugo: 29M
 
 &lt;p&gt;Another good thing is that hexo organizes git repo nicely. It contains only the final static html, js and css files. Other setup related file like _config.xml or themes or plugins can be stored separately in different repositories. It&amp;rsquo;s wonderful for person who has OCD.&lt;/p&gt;
 
-&lt;h4 id=&#34;4-setup-theme-dynamically&#34;&gt;4. Setup theme dynamically&lt;/h4&gt;
+&lt;h3 id=&#34;setup-theme-dynamically&#34;&gt;Setup theme dynamically&lt;/h3&gt;
 
 &lt;p&gt;With hexo, there will be no more feeling of frustrated at changing theme. Hexo has an interesting structure to organize &lt;a href=&#34;https://hexo.io/docs/themes.html&#34;&gt;&lt;em&gt;themes&lt;/em&gt;&lt;/a&gt; in a separate folder. Choosing a theme is like switching a cloth. And it&amp;rsquo;s possible to have collect different themes 👗 in your armoire.&lt;/p&gt;
 
-&lt;h4 id=&#34;5-fast&#34;&gt;5. Fast&lt;/h4&gt;
+&lt;h3 id=&#34;fast&#34;&gt;Fast&lt;/h3&gt;
 
 &lt;p&gt;Overall, hexo gives me an impression &lt;em&gt;fast&lt;/em&gt;, starting from the command execution with one letter:&lt;/p&gt;
 
@@ -144,7 +144,7 @@ hexo d &amp;lt;=&amp;gt; hexo deploy
 hexo cl &amp;lt;=&amp;gt; hexo clean
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h4&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
 
 &lt;p&gt;According to my needs, compared to Jekyll hexo has a net name, no learning curve, magic deployment, variable themes, and it runs faster. I&amp;rsquo;m quite satisfied with hexo so far. Maybe I will give &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; a try soon. But who knows when I will switch to the &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;next generator&lt;/a&gt;? 😬&lt;/p&gt;
 </description>
