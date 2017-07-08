@@ -28,6 +28,13 @@ $(document).ready(function() {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
+  if ($('.panel-cover' ).hasClass( "panel-cover--collapsed") == false) {
+    $('.panel-cover__logo').addClass('animated fadeInUp');
+    $('.panel-cover__title').addClass('animated fadeIn');
+    $('.panel-cover__description').addClass('animated fadeIn');
+    $('.navigation-wrapper').addClass('animated fadeInDown');
+  }
+
   $('.btn-mobile-menu').click(function() {
     $('.navigation-wrapper').toggleClass('visible animated bounceInDown');
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
