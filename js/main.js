@@ -6,10 +6,11 @@ $(document).ready(function() {
     currentWidth = $('.panel-cover').width();
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed');
-      $('.content-wrapper').addClass('animated slideInRight');
+      $('article').addClass('animated fadeIn');
     } else {
       $('.panel-cover').css('max-width',currentWidth);
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function() {} );
+      $('article').addClass('animated fadeIn');
     }
   });
 
@@ -36,7 +37,7 @@ $(document).ready(function() {
   }
 
   $('.btn-mobile-menu').click(function() {
-    $('.navigation-wrapper').toggleClass('visible animated bounceInDown');
+    $('.navigation-wrapper').toggleClass('visible animated fadeInDown');
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
   });
 

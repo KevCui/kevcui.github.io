@@ -1816,7 +1816,8 @@ input[type="tel"] {
         margin: 1em auto; }
 
   .navigation-wrapper {
-    animation-delay: 0.6s;
+    animation-delay: 0.3s;
+    animation-duration: 0.1s;
     display: none;
     position: fixed;
     top: 42px;
