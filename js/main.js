@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $('body').removeClass('no-js');
 
   $('a.blog-button').click(function() {
@@ -15,14 +14,17 @@ $(document).ready(function() {
   });
 
   if (window.location.hash && window.location.hash == "#blog") {
+    $('article').addClass('animated fadeIn');
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
   if (window.location.pathname.substring(0, 5) == "/tag/") {
+    $('article').addClass('animated fadeIn');
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
   if (window.location.pathname.substring(0, 6) == "/page/") {
+    $('article').addClass('animated fadeIn');
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
