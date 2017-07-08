@@ -37,7 +37,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 300; 
   font-size: 1.15em;
-  /*color: #000000;*/
   color: #2d2926;
   width: 100%;
   *zoom: 1; }
@@ -47,6 +46,63 @@ body {
   body:after {
     clear: both; }
 
+/* Bubble Right */
+.hvr-bubble-right {
+  font-size: 1.2em;
+  display: inline-block;
+  vertical-align: baseline;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+.hvr-bubble-right:before {
+  font-size: 1em;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '\00bb';
+  opacity: 0;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  right: 0;
+}
+.hvr-bubble-right:hover:before, .hvr-bubble-right:focus:before, .hvr-bubble-right:active:before {
+  opacity: 1;
+  -webkit-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Bubble Left */
+.hvr-bubble-left {
+  font-size:1.2em;
+  display: inline-block;
+  vertical-align: baseline;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+.hvr-bubble-left:before {
+  font-size:1em;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '\00ab';
+  opacity: 0;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  left: 0;
+}
+.hvr-bubble-left:hover:before, .hvr-bubble-left:focus:before, .hvr-bubble-left:active:before {
+  opacity: 1;
+  -webkit-transform: translateX(-15px);
+  transform: translateX(-15px);
+}
 /*
  * Foundation Icons v 3.0
  * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
@@ -942,7 +998,6 @@ body {
   font-weight: 300; 
   font-size: 1.15em;
   line-height: 1.2;
-  /*color: #000000;*/
   color: #2d2926;
   width: 100%; }
 
@@ -955,12 +1010,95 @@ body {
 a {
   text-decoration: none;
   color: #00aced; }
-  a:hover {
-    color: #77c9d4;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s; }
+
+article > div > a,
+span > a,
+section > ul > li > a,
+p > a {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+article > div > a:before,
+span > a:before,
+section > ul > li > a:before,
+p > a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #2098D1;
+  height: 1px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+article > div > a:hover:before,
+span > a:hover:before,
+section > ul > li > a:hover:before,
+p > a:hover:before,
+article > div > a:focus:before,
+span > a:focus:before,
+section > ul > li > a:focus:before,
+p > a:focus:before,
+article > div > a:active:before,
+span > a:active:before,
+section > ul > li > a:active:before,
+p > a:active:before {
+  right: 0;
+}
+
+/* Bounce To Right */
+.hvr-bounce-to-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-bounce-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #3c3c3c;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+  color: white !important;
+}
+.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
 
 h1,
 h2,
@@ -1058,17 +1196,12 @@ sup {
 .author,
 .tags {
   font-size: .9em;
-  color: #a5a5af; }
+  color: #a5a5af;}
   .date a,
   .time a,
   .author a,
   .tags a {
-    color: #a5a5af; }
-    .date a:hover,
-    .time a:hover,
-    .author a:hover,
-    .tags a:hover {
-      color: #77c9d4; }
+    color: #00aced; }
 
 .excerpt {
   margin: .7em 0 0 0;
@@ -1330,9 +1463,9 @@ hr {
   text-shadow: none;
   color: #00aced;
   -webkit-font-smoothing: antialiased; }
-  .btn:hover, .navigation__item a:hover {
-    color: #77c9d4;
-    border-color: #77c9d4; }
+  /*.btn:hover, .navigation__item a:hover {*/
+    /*color: #77c9d4;*/
+    /*border-color: #77c9d4; }*/
 
 .btn-secondary {
   border-color: #5ba4e5;
@@ -1417,8 +1550,8 @@ nav {
   margin: 0 0 4em 0; }
 
 .pagination__page-number {
-  margin: 0;
-  font-size: .8em;
+  margin-left: 22px;
+  font-size: 1.2em;
   color: #999999; }
 
 .pagination__newer {
@@ -1457,8 +1590,8 @@ i {
   line-height: 1.2; }
   .post-list__post-title a {
     color: #3c3c3c; }
-    .post-list__post-title a:hover {
-      color: #77c9d4; }
+    /*.post-list__post-title a:hover {*/
+      /*color: #77c9d4; }*/
 
 .post-list__meta {
   display: block;
@@ -1782,12 +1915,11 @@ pre {
 
 .soc li {
     display:inline-block;
-    *display:inline;
     zoom:1;
 }
 
 .soc li a {
-    font-family:si!important;
+    font-family:'si'!important;
     font-style:normal;
     font-weight:400;
     -webkit-font-smoothing:antialiased;
