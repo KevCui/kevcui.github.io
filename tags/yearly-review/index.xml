@@ -17,7 +17,11 @@
       <guid>https://krazycavin.github.io/2016/12/23/my-year-2016/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sSwfFaDzVYmhN7cPWANpuQ.jpeg&#34; alt=&#34;tree&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sSwfFaDzVYmhN7cPWANpuQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;A journey of a thousand miles begins with a single step.&amp;rdquo; &amp;ndash; Lao Tzu&lt;/p&gt;

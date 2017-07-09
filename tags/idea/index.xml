@@ -15,7 +15,11 @@
       <pubDate>Tue, 02 May 2017 20:35:50 CEST</pubDate>
       
       <guid>https://krazycavin.github.io/2017/05/02/refine-software-testing-types/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;wordcloud&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://krazycavin.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
 
 &lt;p&gt;Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:&lt;/p&gt;
 

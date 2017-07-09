@@ -17,8 +17,17 @@
       <guid>https://krazycavin.github.io/2017/03/27/bye-firefox/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Tz47QFcn9AAdFIOI-LOPkw.jpeg&#34; alt=&#34;firefox&#34; /&gt;
-&lt;sup&gt;&lt;em&gt;from &lt;a href=&#34;https://www.flickr.com/photos/garrett/280258600/in/photostream/&#34;&gt;Garrrett LeSage&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Tz47QFcn9AAdFIOI-LOPkw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://www.flickr.com/photos/garrett/280258600/in/photostream/&#34;&gt;Garrrett LeSage&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;Love, without any reason. Leave, with a good reason.&lt;/p&gt;

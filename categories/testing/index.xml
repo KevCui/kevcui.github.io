@@ -17,7 +17,11 @@
       <guid>https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sonAggQw-dsCFHGrcozMfg.jpeg&#34; alt=&#34;devices&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sonAggQw-dsCFHGrcozMfg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;

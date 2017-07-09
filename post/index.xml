@@ -17,7 +17,11 @@
       <guid>https://krazycavin.github.io/2017/07/04/book-review-the-devops-handbook/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*aQ6VuapHdv713A677HYPkw.jpeg&#34; alt=&#34;devops-handbook&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*aQ6VuapHdv713A677HYPkw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
 
 &lt;h3 id=&#34;something-interesting&#34;&gt;😀 Something interesting&lt;/h3&gt;
 
@@ -90,8 +94,17 @@
       <guid>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Y7unAywBRkUxr51nVx_kvg.jpeg&#34; alt=&#34;tools&#34; /&gt;
-&lt;sup&gt;&lt;em&gt;from &lt;a href=&#34;https://www.flickr.com/photos/clumsyjim/1907979770/&#34;&gt;Jim&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Y7unAywBRkUxr51nVx_kvg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://www.flickr.com/photos/clumsyjim/1907979770/&#34;&gt;Jim&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;If all you have is a hammer, everything looks like a nail.&lt;/p&gt;
@@ -135,8 +148,17 @@
       <guid>https://krazycavin.github.io/2017/06/20/i-am-a-rubber-duck/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*EbZDvsozz270lIhuAibaCg.jpeg&#34; alt=&#34;rubberduck&#34; /&gt;
-&lt;sup&gt;&lt;em&gt;from &lt;a href=&#34;https://www.flickr.com/photos/silvia-m/34764790472/in/photolist-UY3D2b-9zw2em-hSV-8XAvVA&#34;&gt;Silvia Maggi&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*EbZDvsozz270lIhuAibaCg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://www.flickr.com/photos/silvia-m/34764790472/in/photolist-UY3D2b-9zw2em-hSV-8XAvVA&#34;&gt;Silvia Maggi&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;I&amp;rsquo;ll be there for you, like I&amp;rsquo;ve been there before; I&amp;rsquo;ll be there for you, &amp;lsquo;Cause you&amp;rsquo;re there for me too.&amp;rdquo; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -263,7 +285,11 @@ cd ..
       <pubDate>Tue, 02 May 2017 20:35:50 CEST</pubDate>
       
       <guid>https://krazycavin.github.io/2017/05/02/refine-software-testing-types/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;wordcloud&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://krazycavin.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
 
 &lt;p&gt;Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:&lt;/p&gt;
 
@@ -352,8 +378,17 @@ What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
       <guid>https://krazycavin.github.io/2017/04/29/be-prepared-interruption-is-coming/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*A4g-4mSEERgcCJAU9aoiBQ.jpeg&#34; alt=&#34;focus&#34; /&gt;
-&lt;sup&gt;&lt;em&gt;from &lt;a href=&#34;https://www.flickr.com/photos/toolstop/4546017269/in/photolist-7VHwy6-7T3sBx-pvPtJf-nywY2v-9qrj88-f6gPjy-9J1BdE-8eB9zK-eTJxN4-fvp6xs-697QaY-kQEJ5Z-8j199M-2ar2Sb-8j1944-nRvec8-5oDgFr-nC1Kzp-ANtt56-nZ9Y9G-7a4QsY-miwiuT-qLGJw2-Sg25Nb-6bUidP-frHAzg-nzWYLx-rFgD9r-7pNK4V-drfRNk-5se7vP-pGvU4T-a7Wjjq-s6nuVQ-8oVLCo-9DvfFb-5NLEtK-oJAqmx-q7mtBs-4ViWX-guzccR-6bMfa9-6bUiut-8Rw2LS-5PhERM-9YfCgz-8RvU6t-obqmkU-9tntU6-kQJtL1&#34;&gt;Mark Hunter&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*A4g-4mSEERgcCJAU9aoiBQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://www.flickr.com/photos/toolstop/4546017269/in/photolist-7VHwy6-7T3sBx-pvPtJf-nywY2v-9qrj88-f6gPjy-9J1BdE-8eB9zK-eTJxN4-fvp6xs-697QaY-kQEJ5Z-8j199M-2ar2Sb-8j1944-nRvec8-5oDgFr-nC1Kzp-ANtt56-nZ9Y9G-7a4QsY-miwiuT-qLGJw2-Sg25Nb-6bUidP-frHAzg-nzWYLx-rFgD9r-7pNK4V-drfRNk-5se7vP-pGvU4T-a7Wjjq-s6nuVQ-8oVLCo-9DvfFb-5NLEtK-oJAqmx-q7mtBs-4ViWX-guzccR-6bMfa9-6bUiut-8Rw2LS-5PhERM-9YfCgz-8RvU6t-obqmkU-9tntU6-kQJtL1&#34;&gt;Mark Hunter&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;By failing to prepare, you are preparing to fail.&lt;/p&gt;
@@ -489,8 +524,17 @@ What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
       <guid>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg&#34; alt=&#34;explore&#34; /&gt;
-&lt;sup&gt;&lt;em&gt;from &lt;a href=&#34;https://www.flickr.com/photos/kwl/3573458354/in/photostream/&#34;&gt;Kenny Louie&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://www.flickr.com/photos/kwl/3573458354/in/photostream/&#34;&gt;Kenny Louie&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -752,8 +796,17 @@ Hugo: 29M
       <guid>https://krazycavin.github.io/2017/03/27/bye-firefox/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Tz47QFcn9AAdFIOI-LOPkw.jpeg&#34; alt=&#34;firefox&#34; /&gt;
-&lt;sup&gt;&lt;em&gt;from &lt;a href=&#34;https://www.flickr.com/photos/garrett/280258600/in/photostream/&#34;&gt;Garrrett LeSage&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Tz47QFcn9AAdFIOI-LOPkw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://www.flickr.com/photos/garrett/280258600/in/photostream/&#34;&gt;Garrrett LeSage&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;Love, without any reason. Leave, with a good reason.&lt;/p&gt;
@@ -1012,7 +1065,11 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
       <guid>https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*61zMYo0AKZw7F_-UTBgULQ.jpeg&#34; alt=&#34;Sunset&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*61zMYo0AKZw7F_-UTBgULQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;When I give up, I write it down. Someday I will pick myself up from the fall.&amp;rdquo;&lt;/p&gt;
@@ -1146,7 +1203,11 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
       <guid>https://krazycavin.github.io/2017/01/13/nobody-asks-me-questions-but-i-give-some-answers/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*S4QCcKz1OmopX580Q2X_Vg.jpeg&#34; alt=&#34;qa&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*S4QCcKz1OmopX580Q2X_Vg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
 
 &lt;p&gt;So far no one asks me any of questions I post below because it&amp;rsquo;s so obvious that I&amp;rsquo;m not interviewed, I&amp;rsquo;m not a speaker, I&amp;rsquo;m not a celebrity in software testing&amp;hellip; But in &lt;strong&gt;edge case&lt;/strong&gt; in the future, there is a little chance that someone would ask me these questions. In this case, the answers are provided even without asking. How awesome it is ¯\_(ツ)_/¯&lt;/p&gt;
 
@@ -1192,7 +1253,11 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
       <guid>https://krazycavin.github.io/2017/01/08/bugshido/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*En26YWwPSATot5n4bBjLrw.jpeg&#34; alt=&#34;war&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*En26YWwPSATot5n4bBjLrw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Warriors are born to die. Warriors live to be remembered.&amp;rdquo;&lt;/p&gt;

@@ -17,8 +17,17 @@
       <guid>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg&#34; alt=&#34;explore&#34; /&gt;
-&lt;sup&gt;&lt;em&gt;from &lt;a href=&#34;https://www.flickr.com/photos/kwl/3573458354/in/photostream/&#34;&gt;Kenny Louie&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://www.flickr.com/photos/kwl/3573458354/in/photostream/&#34;&gt;Kenny Louie&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -192,7 +201,11 @@ Issue 1: crash on iOS 7
       <guid>https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sonAggQw-dsCFHGrcozMfg.jpeg&#34; alt=&#34;devices&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sonAggQw-dsCFHGrcozMfg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
 
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
