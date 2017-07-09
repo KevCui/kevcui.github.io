@@ -46,6 +46,32 @@ body {
   body:after {
     clear: both; }
 
+.cover-image {
+  display: block;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  background-size: cover; }
+
+.FadeAway{
+  position: fixed;
+  z-index: -1;
+  top:0px;
+  left:0px;
+  width:700px;
+  height:100%;
+  background:transparent;
+  background: linear-gradient(left, rgba( 255, 255, 255, 255 ) 0%, rgba( 255, 255, 255, 1 ) 100% );
+  background: -moz-linear-gradient(left, rgba( 255, 255, 255, 0) 0%, rgba( 255, 255, 255, 1 ) 100% );
+  background: -ms-linear-gradient(left, rgba( 255, 255, 255, 0 ) 0%, rgba( 255, 255, 255, 1 ) 100% );
+  background: -o-linear-gradient(left, rgba( 255, 255, 255, 0 ) 0%, rgba( 255, 255, 255, 1 ) 100% );
+  background: -webkit-linear-gradient(left, rgba( 55, 55, 55, 0.5 ) 55%, rgba( 255, 255, 255, 1 ) 100% );
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#550000FF, endColorstr=#550000FF);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00ffffff, endColorstr=#ffffffff);
+}
+
 /* Bubble Right */
 .hvr-bubble-right {
   font-size: 1.2em;
@@ -1179,9 +1205,9 @@ blockquote {
   font-family: "Raleway", serif;
   margin: 1em 0;
   padding: 1em 0;
-  background: #f8f8f8;
-  border: 1px solid #eeeeee;
-  border-radius: 3px;
+  /*background: #f8f8f8;*/
+  /*border: 1px solid #eeeeee;*/
+  /*border-radius: 3px;*/
   font-weight: lighter;
   font-style: italic;
   font-size: 1.4em;
@@ -1534,9 +1560,18 @@ hr {
 
 .btn-mobile-menu__icon,
 .btn-mobile-close__icon {
-  position: relative;
-  top: 3px;
+  position: absolute;
+  /*top: 3px;*/
   font-size: 36px;
+  left: 20px;
+  color: #FFF; }
+
+.mobile-top-right-button {
+  position: absolute;
+  vertical-align: middle;
+  font-size: 18px;
+  right: 20px;
+  top: 10px;
   color: #FFF; }
 
 nav {
@@ -1775,6 +1810,7 @@ input[type="tel"] {
 
   .panel-main {
     display: table;
+	/*height: 150px;*/
     position: relative; }
 
   .panel-cover--collapsed {
@@ -1807,9 +1843,13 @@ input[type="tel"] {
   .panel-cover.panel-cover--collapsed .panel-main__inner {
     display: block;
     padding: 70px 0 30px 0; }
+  .panel-cover.panel-cover--collapsed .panel-main {
+    height: 150px; }
   .panel-cover.panel-cover--collapsed .panel-cover__logo {
   /*width: 60px;*/
     border-width: 2px; }
+  .main-button,
+  .panel-cover.panel-cover--collapsed .panel-cover__title,
   .panel-cover.panel-cover--collapsed .panel-cover__logo,
   .panel-cover.panel-cover--collapsed .panel-cover__description {
     display: none; }
