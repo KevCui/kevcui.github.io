@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Krazy Kevin</title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://krazycavin.github.io/tags/animation/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Tue, 11 Jul 2017 20:57:53 CEST</updated>
+    
+    <item>
+      <title>2 CSS Effect Libraries for Creating Fancy Animations</title>
+      <link>https://krazycavin.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</link>
+      <pubDate>Tue, 11 Jul 2017 20:57:53 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</guid>
+      <description>
+
+&lt;p&gt;Animation is fun. It makes everything look vivid. A good animation is that you won&amp;rsquo;t notice its existence but it pleases your eyes and makes you feel good!&lt;/p&gt;
+
+&lt;p&gt;To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results. Fortunately, there are many interesting CSS effect libraries could support me to fulfill the mission. I would like to recommend 2 useful CSS libraries, which helped me to create &amp;ldquo;fancy&amp;rdquo; animations efficiently. All the codes below can be found in my &lt;a href=&#34;https://github.com/KrazyCavin/uno&#34;&gt;hugo-uno&lt;/a&gt; theme repository.&lt;/p&gt;
+
+&lt;h3 id=&#34;hover-css&#34;&gt;hover.css&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ianlunn.github.io/Hover/&#34;&gt;Hover.css&lt;/a&gt; is a great CSS library. It contains almost all hover effects. On the demo site, all possible animations are well presented. Once you got your favorite one, the implication is easy. You could either go straight forward to include the whole library and add the class name in the HTML tags. Or you could search for the effect inside the raw CSS file and then copy that part into your CSS file. The last step is to add animation class name in HTML tag. It&amp;rsquo;s a piece of cake. These are stylish animations I picked and what they look like:&lt;/p&gt;
+
+&lt;h4 id=&#34;bubble-left-right&#34;&gt;&lt;strong&gt;Bubble left &amp;amp; right&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/prev_next.gif&#34; alt=&#34;prev-next&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;underline-from-left&#34;&gt;&lt;strong&gt;Underline from left&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/hover.gif&#34; alt=&#34;hover&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;bounce-to-right&#34;&gt;&lt;strong&gt;Bounce to right&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/title_animation.gif&#34; alt=&#34;bounce&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t mock me because of my bad animation taste. Once you know how to do it, then you would apply it everywhere. It&amp;rsquo;s never too fancy, right?&lt;/p&gt;
+
+&lt;h3 id=&#34;animate-css&#34;&gt;animate.css&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://daneden.github.io/animate.css/&#34;&gt;animate.css&lt;/a&gt; is a super-star CSS library for creating page transitions. Almost all basic (PowerPoint style?) page transitions can be found in this library. The usage is simple. First of all, it needs to include animate.css in your project, file or hosted link as you prefer. Then you only need to add class name animated and effect name in HTML tag.&lt;/p&gt;
+
+&lt;p&gt;But I didn&amp;rsquo;t use this fixed way. I want to add animation dynamically with jQuery. For example, I did for of articles fade-in appearing on post summary page:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;$(&#39;article&#39;).addClass(&#39;animated fadeIn&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/fadein.gif&#34; alt=&#34;article&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You may notice that there is a delay of fade-in effect. It&amp;rsquo;s a CSS trick. Actually, I set a 0.2s interval between the presences of 2 articles:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;article:nth-child(2) {
+  animation-delay: 0.2s;
+}
+article:nth-child(3) {
+  animation-delay: 0.4s;
+}
+article:nth-child(4) {
+  animation-delay: 0.6s;
+}
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;Et voilà, 2 powerful CSS libraries get fancymation job done. During my small &amp;ldquo;weekend project&amp;rdquo;, I added other animations for my blog. I had a fun time playing around CSS for animations. Furthermore, I&amp;rsquo;m happy that I learned how to use 2 awesome CSS libraries, which I could share with you here. #AnimateAlltheThings!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,68 @@
     <language>en-us</language>
     
     
-    <updated>Tue, 04 Jul 2017 19:35:28 CEST</updated>
+    <updated>Tue, 11 Jul 2017 20:57:53 CEST</updated>
+    
+    <item>
+      <title>2 CSS Effect Libraries for Creating Fancy Animations</title>
+      <link>https://krazycavin.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</link>
+      <pubDate>Tue, 11 Jul 2017 20:57:53 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</guid>
+      <description>
+
+&lt;p&gt;Animation is fun. It makes everything look vivid. A good animation is that you won&amp;rsquo;t notice its existence but it pleases your eyes and makes you feel good!&lt;/p&gt;
+
+&lt;p&gt;To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results. Fortunately, there are many interesting CSS effect libraries could support me to fulfill the mission. I would like to recommend 2 useful CSS libraries, which helped me to create &amp;ldquo;fancy&amp;rdquo; animations efficiently. All the codes below can be found in my &lt;a href=&#34;https://github.com/KrazyCavin/uno&#34;&gt;hugo-uno&lt;/a&gt; theme repository.&lt;/p&gt;
+
+&lt;h3 id=&#34;hover-css&#34;&gt;hover.css&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://ianlunn.github.io/Hover/&#34;&gt;Hover.css&lt;/a&gt; is a great CSS library. It contains almost all hover effects. On the demo site, all possible animations are well presented. Once you got your favorite one, the implication is easy. You could either go straight forward to include the whole library and add the class name in the HTML tags. Or you could search for the effect inside the raw CSS file and then copy that part into your CSS file. The last step is to add animation class name in HTML tag. It&amp;rsquo;s a piece of cake. These are stylish animations I picked and what they look like:&lt;/p&gt;
+
+&lt;h4 id=&#34;bubble-left-right&#34;&gt;&lt;strong&gt;Bubble left &amp;amp; right&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/prev_next.gif&#34; alt=&#34;prev-next&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;underline-from-left&#34;&gt;&lt;strong&gt;Underline from left&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/hover.gif&#34; alt=&#34;hover&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;bounce-to-right&#34;&gt;&lt;strong&gt;Bounce to right&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/title_animation.gif&#34; alt=&#34;bounce&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t mock me because of my bad animation taste. Once you know how to do it, then you would apply it everywhere. It&amp;rsquo;s never too fancy, right?&lt;/p&gt;
+
+&lt;h3 id=&#34;animate-css&#34;&gt;animate.css&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://daneden.github.io/animate.css/&#34;&gt;animate.css&lt;/a&gt; is a super-star CSS library for creating page transitions. Almost all basic (PowerPoint style?) page transitions can be found in this library. The usage is simple. First of all, it needs to include animate.css in your project, file or hosted link as you prefer. Then you only need to add class name animated and effect name in HTML tag.&lt;/p&gt;
+
+&lt;p&gt;But I didn&amp;rsquo;t use this fixed way. I want to add animation dynamically with jQuery. For example, I did for of articles fade-in appearing on post summary page:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;$(&#39;article&#39;).addClass(&#39;animated fadeIn&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/fadein.gif&#34; alt=&#34;article&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You may notice that there is a delay of fade-in effect. It&amp;rsquo;s a CSS trick. Actually, I set a 0.2s interval between the presences of 2 articles:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;article:nth-child(2) {
+  animation-delay: 0.2s;
+}
+article:nth-child(3) {
+  animation-delay: 0.4s;
+}
+article:nth-child(4) {
+  animation-delay: 0.6s;
+}
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;Et voilà, 2 powerful CSS libraries get fancymation job done. During my small &amp;ldquo;weekend project&amp;rdquo;, I added other animations for my blog. I had a fun time playing around CSS for animations. Furthermore, I&amp;rsquo;m happy that I learned how to use 2 awesome CSS libraries, which I could share with you here. #AnimateAlltheThings!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Book Review: The DevOps Handbook</title>
@@ -1242,118 +1303,6 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 &lt;p&gt;Everyone takes care of testing and everyone does it habitually, even not testers. It&amp;rsquo;s a real challenge for the whole team to perform testing habitually, and also a huge challenge for testers to think how to help the whole team to perform testing habitually without testers. As a current trend, testers are shifted around. This movement of testers will bring the seeds of testing knowledge to different people in different job positions.&lt;/p&gt;
 
 &lt;h3 id=&#34;to-be-continued&#34;&gt;&lt;em&gt;(To be continued&amp;hellip;)&lt;/em&gt;&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bugshido: Classify Warrior Bugs</title>
-      <link>https://krazycavin.github.io/2017/01/08/bugshido/</link>
-      <pubDate>Sun, 08 Jan 2017 12:31:43 &#43;0200</pubDate>
-      
-      <guid>https://krazycavin.github.io/2017/01/08/bugshido/</guid>
-      <description>
-
-&lt;p class=&#34;hidden&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*En26YWwPSATot5n4bBjLrw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Warriors are born to die. Warriors live to be remembered.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called &lt;strong&gt;Bugshido&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;As we all know, &lt;a href=&#34;https://en.wikipedia.org/wiki/Bushido&#34;&gt;Bushido&lt;/a&gt;: 武士道 the &lt;strong&gt;way&lt;/strong&gt; (Dō or Tao) of the &lt;strong&gt;warrior&lt;/strong&gt; (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors. Inspired by Bushido, Bugshido is the way symbolically to determine the existence of different bugs. The idea of Bugshido is based on the way which combines &lt;strong&gt;priority&lt;/strong&gt; and &lt;strong&gt;severity&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; by&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Priority: High, Medium, Low&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Severity: Critical, Major, Minor, Trivial&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Besides the name Bugshido, technically, it&amp;rsquo;s just a metaphor and there is nothing really new about it. Well, maybe itself is funny.&lt;/p&gt;
-
-&lt;p&gt;Now, imagine you are the emperor (developer/PO) rules a country (code base/product). Due to some changes here or there, the evil forces will raise against you. They are gathering warriors to break your country. As your Emperor&amp;rsquo;s adviser (tester), I&amp;rsquo;d like to explain to you how to identify your enemies and the tactic to handle them.&lt;/p&gt;
-
-&lt;h3 id=&#34;geisha&#34;&gt;Geisha&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=79215&amp;amp;type=card&#34; alt=&#34;geisha&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Priority: Low&lt;br/&gt;Severity: Minor&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Geisha&#34;&gt;Geisha&lt;/a&gt; barely knows how to fight. All Geisha&amp;rsquo;s skills related to performing arts like music, dance&amp;hellip; Therefore, Geisha is not harmful and sometimes very entertaining. But in some edge cases, when the art a Geisha trained is the martial art, she could become a dangerous assassin.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice: Go to visit them time to time when you&amp;rsquo;re bored.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;sōhei&#34;&gt;Sōhei&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=78684&amp;amp;type=card&#34; alt=&#34;sohei&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Priority: Low&lt;br/&gt;Severity: Major&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Sōhei&#34;&gt;Sōhei&lt;/a&gt; is known as the warrior monk. Although warrior monk is the master of martial arts, his initial purpose to fight is to protect people, temple, Buddha&amp;hellip; Monk warriors are usually humble and peaceful. They won&amp;rsquo;t attack unless they&amp;rsquo;re attacked. Even they gonna fight, they will fight defensively. In general, warrior monks stay in their territory quietly. They appear because of the broke environment, which is caused by some small or big changes.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice: Find out the trigger is important. Normally they&amp;rsquo;re tough but there is no need for a long battle. A promise of reform should pacify them. If you choose to collect information and do nothing first, just don&amp;rsquo;t forget to add improvement later by refactoring.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;rōnin&#34;&gt;Rōnin&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=74199&amp;amp;type=card&#34; alt=&#34;Ronin&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Priority: High&lt;br/&gt;Severity: Minor&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Rōnin&#34;&gt;Rōnin&lt;/a&gt; was a samurai who becomes masterless. Their skills were highly developed but without the purpose of life, their mind could become weak. They are wandering everywhere in the country and looking for a way to make a living with their sword, no matter good or evil.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice: Seize the opportunity When they&amp;rsquo;re still weak and eliminate them as soon as possible before they are caught by the evil force.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;samurai&#34;&gt;Samurai&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=50408&amp;amp;type=card&#34; alt=&#34;samurai&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Priority: High&lt;br/&gt;Severity: Major&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Samurai&#34;&gt;Samurai&lt;/a&gt; is the highest rank of warriors. The mastery of the sword is one of Samurai&amp;rsquo;s traits. Another one is the loyalty: they believe that the death to serve their Lord is a great honor. They will fight to die in the battle, without blinking an eye. Send shivers down spine, right?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice: Brace yourself, you know a tough fight is impossible to avoid. If you&amp;rsquo;re not sure Samurai&amp;rsquo;s capability, better to ask team members for support.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;ninja&#34;&gt;Ninja&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=423530&amp;amp;type=card&#34; alt=&#34;ninja&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Priority: High&lt;br/&gt;Severity: Critical&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ninja&#34;&gt;Ninja&lt;/a&gt; exists as a mystery, rather than a warrior. A typical Ninja will hide in the shadow, waiting for a moment to kill the target with one fatal hit. The danger begins when the negligence of Ninja&amp;rsquo;s existence. Even sometimes there is a feeling to tell you that Ninja might be hidden in certain areas, but Ninja performs ninjutsu to keep them &lt;strong&gt;unpredictable&lt;/strong&gt; in the first place.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice: Unfortunately, most of time Ninja is only found after serious damages are made. The key point is fast-react in order to minimize the losses. Once a Ninja is defeated, take a lesson and learn not to be fooled by the same ninjutsu next time.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;warrior-triage&#34;&gt;Warrior Triage&lt;/h3&gt;
-
-&lt;p&gt;After warrior-showoff is over, let&amp;rsquo;s take a closer look to the triage process. This part describes the battle tactic, it might be a bit boring.&lt;/p&gt;
-
-&lt;h4 id=&#34;ninja-definitely-triggers-a-hotfix&#34;&gt;Ninja definitely triggers a hotfix&lt;/h4&gt;
-
-&lt;p&gt;A Ninja bug needs an urgent fix because it&amp;rsquo;s destructing the core functionality of the product. Everyone in the team, who can contribute efforts, should focus on the fix immediately. Seriously it&amp;rsquo;s the last step before a final checkmate.&lt;/p&gt;
-
-&lt;h4 id=&#34;samurai-blocks-new-product-release&#34;&gt;Samurai blocks new product release&lt;/h4&gt;
-
-&lt;p&gt;A Samurai bug or Ronin bug are considered as high potential dangers. No matter a huge effort is taken to fix Samurai bug or a small effort taken to fix Ronin bug, they have to be fixed before release. In brief, Samurai bug is the release blocker.&lt;/p&gt;
-
-&lt;h4 id=&#34;sohei-geisha-are-about-time&#34;&gt;Sohei &amp;amp; Geisha are about time&lt;/h4&gt;
-
-&lt;p&gt;A Sohei bug or a Geisha bug could exist in product for a long time. Some of them never bother customers once. Their existence proves that nothing is perfect. Rather than keeping them in tracking tools, it&amp;rsquo;s justified to give them a Euthanasia after a specific time by closing them in tracking tool. It&amp;rsquo;s a decision made to balance allocated effort and added value.&lt;/p&gt;
-
-&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;I hope you had a fun of reading. Besides that, now you know &lt;strong&gt;Bugshidao&lt;/strong&gt; to identify a warrior, like Ninja, Samurai, Ronin, Sohei and Geisha. You&amp;rsquo;ve also the basic tactic to deal with them. Last advice I have to give you, my friend, as I always keep it in my mind to warn myself:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Wake up! Evil warriors are killing your customers!&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Defect &lt;a href=&#34;http://softwaretestingfundamentals.com/defect/&#34;&gt;Classification&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Dan Ashby: &lt;a href=&#34;https://danashby.co.uk/2013/05/07/what-about-priority-and-severity/&#34;&gt;What about Priority and Severity&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
