@@ -17,7 +17,7 @@
       <guid>https://krazycavin.github.io/2017/06/20/i-am-a-rubber-duck/</guid>
       <description>
 
-&lt;p class=&#34;hidden&#34;&gt;
+&lt;!--&lt;p class=&#34;hidden&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*EbZDvsozz270lIhuAibaCg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
     &lt;sup&gt;
@@ -27,11 +27,14 @@
     &lt;/sup&gt;
     
 &lt;/p&gt;
+--&gt;
 
+&lt;p&gt;&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://krazycavin.github.io/images/white.jpg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;I&amp;rsquo;ll be there for you, like I&amp;rsquo;ve been there before; I&amp;rsquo;ll be there for you, &amp;lsquo;Cause you&amp;rsquo;re there for me too.&amp;rdquo; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&amp;gt; &amp;ldquo;I&amp;rsquo;ll be there for you, like I&amp;rsquo;ve been there before; I&amp;rsquo;ll be there for you, &amp;lsquo;Cause you&amp;rsquo;re there for me too.&amp;rdquo; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m a tester. When a developer talks to me, I see myself as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Rubber_duck_debugging&#34;&gt;rubber duck&lt;/a&gt;.&lt;/p&gt;
 
