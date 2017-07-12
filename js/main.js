@@ -3,6 +3,7 @@ $(document).ready(function() {
   if ($('.panel-cover').hasClass('panel-cover--collapsed')) {
       $('a.blog-button').addClass('hidden');
   }
+  $('.singlepost').addClass('animated fadeIn');
 
   img = $('p img[alt="coverimage"]').attr('src');
   if (typeof img != 'undefined') {
