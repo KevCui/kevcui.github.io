@@ -32,8 +32,8 @@ $(document).ready(function() {
     $('.mobile-top-right-button').addClass('hidden');
   }
 
-  $('.btn-mobile-menu').click(function() {
-    $('.navigation-wrapper').toggleClass('visible animated fadeInDown');
+  $('.btn-mobile-menu__icon').click(function() {
+    $('.navigation-wrapper').toggleClass('visible');
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
   });
 
