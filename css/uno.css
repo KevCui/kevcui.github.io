@@ -55,6 +55,14 @@ body {
   height: 100%;
   background-size: cover; }
 
+.footer-image {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.swirl {
+  height: 50px; }
+
 .FadeAway{
   position: fixed;
   z-index: -1;
@@ -1812,6 +1820,9 @@ input[type="tel"] {
   #sidebar-toc-Ik4D-toggleBtn {
    visibility: hidden;
   }
+
+  .swirl {
+    height: 30px; }
 
   .btn-mobile-menu {
     display: block; }
