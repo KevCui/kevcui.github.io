@@ -166,6 +166,10 @@ article:nth-child(10) {
   animation-delay: 1.8s;
 }
 
+.resume-button {
+  display: none;
+}
+
 /*
  * Foundation Icons v 3.0
  * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
@@ -1870,6 +1874,9 @@ input[type="tel"] {
   .panel-cover.panel-cover--collapsed .panel-cover__logo {
   /*width: 60px;*/
     border-width: 2px; }
+
+  .resume-button {
+    display: block; }
 
   .main-button,
   .panel-cover.panel-cover--collapsed .panel-cover__mobile-button,
