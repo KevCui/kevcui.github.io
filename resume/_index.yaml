@@ -1,0 +1,76 @@
+---
+title: "> whoami"
+
+contact: true
+
+intro: >
+    I'm a curious and passionate Software Tester.
+    Besides that, I love Linux CLI
+    I'd like to write blogs
+
+experience:
+    exp1:
+        title: Quality Assistance / Quality Engineer
+        date: May 2015 - Now
+        name: car2go GmbH
+        location: Hamburg 🇩🇪
+        web: https://www.car2go.com
+        memo: xxx
+    exp2:
+        title: Quality Assurance Engineer
+        date: Oct 2015 – Jan 2016
+        name: mytaxi (Intelligent Apps GmbH)
+        location: Hamburg 🇩🇪
+        web: https://de.mytaxi.com/index.html
+        memo: xxxXX
+    exp3:
+        title: Quality Assurance Engineer
+        date: May 2015 – Nov 2016
+        name: moovel Group GmbH
+        location: Hamburg 🇩🇪
+        web: https://www.moovel.com/de/en
+        memo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Inter metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus.
+    exp4:
+        title: Software Development Engineer in Test
+        date: Oct 2010 – Dec 2014
+        name: GE Healthcare Europe Headquarters
+        location: Buc 🇫🇷
+        web: http://www3.gehealthcare.com/en/products/categories/advanced_visualization/applications
+        memo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Inter metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus.
+    exp5:
+        title: Web Developer (Internship)
+        date: Feb 2010 – Aug 2010
+        name: GE Healthcare Europe Headquarters
+        location: Buc 🇫🇷
+        web: http://www3.gehealthcare.com/en/products/categories/advanced_visualization/applications
+        memo: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Inter metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus.
+
+education:
+    edu1:
+        title: ISTQB Certified Tester Foundation Level
+        date: Jun 2014
+        name: gasq Service GmbH
+        location: Vélizy-Villacoublay 🇫🇷
+        web: https://www.gasq.org/en/certification/istqb.html#foundation-level-zweispalter)
+    edu2:
+        title: Master Degree of Biomedical Engineering
+        date: Sep 2008 – Jun 2010
+        name: Université de Technologie de Compiègne
+        location: Compègne 🇫🇷
+        web: https://www.utc.fr/en/utc.html)
+
+language:
+    lang1:
+        type: Human Language
+        language: "🇬🇧/🇺🇸 (C2), 🇫🇷 (C2), 🇩🇪 (A1.2), 🇨🇳 (∞), 🇯🇵 (?)"
+    lang2:
+        type: Scripting language
+        language: "Unix Shell Scripting (Bash/sh), JavaScript, Python, Ruby, PHP, Tcl/Tk, MATLAB"
+    lang3:
+        type: Markup language
+        language: "HTML, XML, CSS, XHTML"
+    lang4:
+        type: Query language
+        language: "SQL"
+
+---

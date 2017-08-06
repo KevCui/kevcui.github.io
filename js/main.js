@@ -16,7 +16,7 @@ $(document).ready(function() {
     $('p img[alt="coverimage"]').css('display', 'none').next('sup').css('display', 'none');
   }
 
-  if ((window.location.hash && window.location.hash == "#blog") || (window.location.pathname.substring(0, 5) == "/tag/") || (window.location.pathname.substring(0, 6) == "/page/")) {
+  if ((window.location.hash && window.location.hash == "#blog") || (window.location.pathname.substring(0, 5) == "/tag/") || (window.location.pathname.substring(0, 6) == "/page/") || (window.location.pathname.substring(0,8) == "/resume/")) {
     animateSider();
   }
 

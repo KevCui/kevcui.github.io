@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Krazy Kevin</title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://krazycavin.github.io/tags/personality/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sun, 11 Jun 2017 19:49:21 CEST</updated>
+    
+    <item>
+      <title>Conflicts in my life? Me as A Tester!</title>
+      <link>https://krazycavin.github.io/2017/06/11/split_personalities_me_a_tester/</link>
+      <pubDate>Sun, 11 Jun 2017 19:49:21 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/06/11/split_personalities_me_a_tester/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;If left brain is always right, right brain had already left.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;me&#34;&gt;Me&lt;/h3&gt;
+
+&lt;p&gt;According to the horoscopes, I&amp;rsquo;m a Gemini ♊️. &lt;a href=&#34;http://horoscopes.lovetoknow.com/Gemini_Traits&#34;&gt;Gemini is the legendary dualistic sign of the zodiac and is rumored to have almost a split persona&amp;hellip;&lt;/a&gt; Therefore, I have probably a split personality, by design. Nice.&lt;/p&gt;
+
+&lt;p&gt;In fact, I didn&amp;rsquo;t really realize it until I became a software tester. When I&amp;rsquo;m thinking of a question as a tester, my personalities start to twist together. Topically, two different forces, representing two perspectives, are fighting each other. They keep pulling and pushing in my mind. If you could see these dramatic struggles on my face, I promise you that it would be spectacular. But you couldn&amp;rsquo;t see it. Instead, you could hear so often that my first response is &amp;ldquo;It depends&amp;hellip;&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;a-tester&#34;&gt;A tester&lt;/h3&gt;
+
+&lt;p&gt;To become a tester actually makes things more complicated, because of the tester&amp;rsquo;s types and roles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A tester can have different types: &lt;em&gt;the enforcer, the explorer, the automator, the checklister, the socialiser, the day dreamer&amp;hellip;&lt;/em&gt;&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;A tester can fill up many empty roles: &lt;em&gt;consultants, developers, quality coaches, system thinkers, product designers, product owners..&lt;/em&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To have different types and different roles is an interesting challenge, at least it doesn&amp;rsquo;t sound boring. When everything is under control, it&amp;rsquo;s fun for me. But when I&amp;rsquo;m in a complicated situation, depends on which roles I have and which tester type I&amp;rsquo;m, I could make totally different decisions.&lt;/p&gt;
+
+&lt;h3 id=&#34;conflicts-in-my-life&#34;&gt;Conflicts in my life&lt;/h3&gt;
+
+&lt;p&gt;In reality, these conflicts in my life are not simply against each other. They may have the tricky cooperation, to show the presence of symbiosis. They are like forces form different directions, which drive my thinking to various directions, one way or another. What I need to do is to keep balance by myself. Like tilting doll, I have to get help from one force to reach certain level, and then use another one to pull me back to the center of mass.&lt;/p&gt;
+
+&lt;h4 id=&#34;focus-vs-defocus&#34;&gt;Focus vs. Defocus&lt;/h4&gt;
+
+&lt;p&gt;Focus is preferable for developers, as well as for me. I like being focusing, which brings me the efficiency. But there is no perfect life as planned and ordered, usually higher priority things will come, here or there, big or small, they need someone to take a look. For example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PO doubts an app misbehavior happens in product. It needs to do some checks.&lt;/li&gt;
+&lt;li&gt;Developer cannot figure out why a crash happens. It needs to investigate possibilities and give more details.&lt;/li&gt;
+&lt;li&gt;Designer wants to show a new prototype. It needs to try out and give a quick feedback.&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To be a supportive tester in these cases, I would rather stop my tasks, don&amp;rsquo;t interrupt other developers in the first place. Because they desire to be protected &lt;a href=&#34;https://hackernoon.com/why-do-programmers-where-headphones-5ca3a2f81266&#34;&gt;in a flow state&lt;/a&gt; as long as possible. Therefore I&amp;rsquo;ll do my best to provide necessary information in order to filter out these interruptions as many as possible. Once the &amp;ldquo;unplanned&amp;rdquo; task is done, I will jump back to my previous task and focus on it quickly. That&amp;rsquo;s why I keep &lt;a href=&#34;https://krazycavin.github.io/2017/04/29/be-prepared-interruption-is-coming/&#34;&gt;training myself to switch between focus and defocus&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Focus is for efficiency and defocus is also for efficiency. It&amp;rsquo;s tricky.&lt;/p&gt;
+
+&lt;h4 id=&#34;positive-thinking-vs-negative-thinking&#34;&gt;Positive thinking vs. Negative thinking&lt;/h4&gt;
+
+&lt;p&gt;A well-known joke says &amp;ldquo;Software test engineer walks into a bar. Orders a beer. Orders 0 beers. Orders 999999999 beers. Orders a lizard. Orders -1 beers. Orders a sfdeljknesv.&amp;rdquo; Because testers have to point out problems and risks, we used to have negative thinking of &amp;ldquo;unhappy&amp;rdquo; paths and &amp;ldquo;edge&amp;rdquo; cases, which could potentially cause product failures. Over time, people see us as &amp;ldquo;negative&amp;rdquo; people who always loves celebrating failures.&lt;/p&gt;
+
+&lt;p&gt;Negative thinking is a powerful double-edged sword. I lock it carefully and only use it serving for its needs, without any negative emotion:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;I don&amp;rsquo;t celebrate failures;&lt;/li&gt;
+&lt;li&gt;I don&amp;rsquo;t block project as purpose;&lt;/li&gt;
+&lt;li&gt;I don&amp;rsquo;t blame other people&amp;rsquo;s mistakes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On the other hand, it&amp;rsquo;s important to &lt;em&gt;think positive in a negative testing world&lt;/em&gt;&lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. It helps to understand the reason of success and give people motivation to replicate the success.&lt;/p&gt;
+
+&lt;p&gt;I keep telling myself that positive and negative thinking are contagious. raise awareness of risks and positive gives motivation. It needs to be balanced.&lt;/p&gt;
+
+&lt;p&gt;motivation
+Optimistic
+defensive pessimist
+positive thinking&lt;/p&gt;
+
+&lt;p&gt;Negative thinking is a striving for success and positive thinking is also a striving for success.&lt;/p&gt;
+
+&lt;p&gt;stay motivated, stay passionate&lt;/p&gt;
+
+&lt;p&gt;Process no process
+As the questions&lt;/p&gt;
+
+&lt;h4 id=&#34;big-picture-vs-small-details&#34;&gt;Big picture vs. Small details&lt;/h4&gt;
+
+&lt;p&gt;My purpose with me or without me&lt;/p&gt;
+
+&lt;p&gt;Technical perspective business perspective&lt;/p&gt;
+
+&lt;p&gt;Keep balancing the conflicts and compromises
+Luckily I&amp;rsquo;m a Gemini. My hardware could support my software running in multiple threads smoothly.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Rob Lambert: &lt;a href=&#34;http://api.ning.com/files/i*eW06Cb6TvhaKiW0YMISUQISOfmspxyCh7YhHf8gBAsqGjSDdtadxvpDlGnfuTilR3pDuAbL27zmnMUQqiPzUDcWHmABRF6/testertypes.pdf&#34;&gt;Tester Types&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Patrick Prill: &lt;a href=&#34;https://testpappy.wordpress.com/2017/05/25/who-are-these-ominous-testers/&#34;&gt;Who are these ominous “testers”?&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Rosie Sherry: &lt;a href=&#34;https://www.ministryoftesting.com/2015/05/thinking-positive-in-a-negative-testing-world/&#34;&gt;Thinking Positive In A Negative Testing World&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
