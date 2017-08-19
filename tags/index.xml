@@ -28,15 +28,6 @@
     </item>
     
     <item>
-      <title>App</title>
-      <link>https://krazycavin.github.io/tags/app/</link>
-      <pubDate>Sun, 18 Dec 2016 15:29:04 &#43;0200</pubDate>
-      
-      <guid>https://krazycavin.github.io/tags/app/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Book Review</title>
       <link>https://krazycavin.github.io/tags/book-review/</link>
       <pubDate>Tue, 04 Jul 2017 19:35:28 CEST</pubDate>
@@ -141,6 +132,15 @@
       <pubDate>Mon, 17 Apr 2017 22:30:00 CEST</pubDate>
       
       <guid>https://krazycavin.github.io/tags/exploratory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firefox</title>
+      <link>https://krazycavin.github.io/tags/firefox/</link>
+      <pubDate>Mon, 27 Mar 2017 23:02:13 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/tags/firefox/</guid>
       <description></description>
     </item>
     
