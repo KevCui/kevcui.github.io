@@ -1428,7 +1428,8 @@ hr {
   width: 40%;
   max-width: 530px; }
 
-.panel-cover.panel-cover--collapsed .blog-button {
+.panel-cover.panel-cover--collapsed #blog-button,
+.panel-cover.panel-cover--collapsed .mobile-sidebar-option {
   display: none; }
 
 .panel-cover--overlay {
