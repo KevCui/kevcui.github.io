@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Krazy Kevin</title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://krazycavin.github.io/tags/qwerty/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sat, 19 Aug 2017 20:48:03 CEST</updated>
+    
+    <item>
+      <title>Why I Switch to Colemak Keyboard Layout?</title>
+      <link>https://krazycavin.github.io/2017/08/19/why-i-switch-to-colemak/</link>
+      <pubDate>Sat, 19 Aug 2017 20:48:03 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/08/19/why-i-switch-to-colemak/</guid>
+      <description>
+
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://colemak.com/wiki/images/e/ef/Colemak_fingers.png&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://colemak.com/FAQ&#34;&gt;Colemak&lt;/a&gt;, pronounced /&amp;lsquo;ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It&amp;rsquo;s developed by &lt;a href=&#34;https://ie.linkedin.com/in/shaicolema&#34;&gt;Shai Coleman&lt;/a&gt; and released in 2006. Colemak keyboard layout looks like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  q w f p g j l u y ;
+   a r s t d h n e i o
+    z x c v b k m , . /
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What&amp;rsquo;s special about Colemak?  Why do I decide to switch from QWERTY to Colemak?&lt;/p&gt;
+
+&lt;h3 id=&#34;reason-1-discard-qwerty&#34;&gt;Reason 1: Discard QWERTY&lt;/h3&gt;
+
+&lt;p&gt;As we all known, QWERTY was originally designed for the typewriter to solve the problem of the type bars colliding with each other and jamming. The idea behind is &lt;em&gt;to arrange the keys with the most common letters in hard to reach spots, to slow typists down and try to avoid typewriter jams&lt;/em&gt;. &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re interested in more stories of QWERTY, &lt;a href=&#34;http://discovermagazine.com/1997/apr/thecurseofqwerty1099&#34;&gt;The Curse of QWERTY&lt;/a&gt; is a nice article to read.&lt;/p&gt;
+
+&lt;p&gt;Since the mechanical typewriters vanished from historical stage and all the modern computers don&amp;rsquo;t have &amp;ldquo;mechanical sticking&amp;rdquo; problem, why we still need to bear the pain of the inefficiency of QWERTY? It&amp;rsquo;s time to let QWERTY be retired with honor. Let it go!&lt;/p&gt;
+
+&lt;h3 id=&#34;reason-2-i-want-a-challenge&#34;&gt;Reason 2: I want a challenge&lt;/h3&gt;
+
+&lt;p&gt;When I was 14 years old, I started to learn to type on a typewriter in school. Yes, a real typewriter and it&amp;rsquo;s amazing! I can still recall the comment when type bars hit on paper, the sound and the feeling are so satisfying. At the end of the semester, I successfully passed typing exam with the speed of 70 WPM. Now it has been 15 years, my speed stays around 75 WPM. For me, it&amp;rsquo;s obviously not improved at all&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;As a guy who is eager for something new and obsessed with efficiency, I don&amp;rsquo;t believe that 75 WPM is my limit. I&amp;rsquo;m afraid that QWERTY itself is the obstacle. Maybe an alternative keyboard would unchain my ability. That&amp;rsquo;s why I want a challenge to see how fast I&amp;rsquo;m able to type.&lt;/p&gt;
+
+&lt;h3 id=&#34;reason-3-efficacy-is-the-key&#34;&gt;Reason 3: Efficacy is the key&lt;/h3&gt;
+
+&lt;p&gt;Colemak is designed to be &lt;em&gt;ergonomic, comfortable and fast.&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;According to &lt;a href=&#34;http://mkweb.bcgsc.ca/carpalx/?popular_alternatives&#34;&gt;carpalx analysis&lt;/a&gt;, Colemak has a quite low typing effort among 10 keyboard layouts. The carpalx detailed analysis &lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; shows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Colemak has a great home row usage 74%, compared to QWERTY 34% and Dvorak 71%&lt;/li&gt;
+&lt;li&gt;Colemak bottom row usage is low at 9%, the same as Dvorak, which is better than QWERTY 15%&lt;/li&gt;
+&lt;li&gt;Colemak is more balanced in hand use, with a 6% preference for the right hand. Dvorak has 14% for the right and QWERTY 15% for the left&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There is an app to analyze the different keyboard layouts. It&amp;rsquo;s called &lt;a href=&#34;http://patorjk.com/keyboard-layout-analyzer/#/main&#34;&gt;Keyboard Layout Analyzer&lt;/a&gt;. I&amp;rsquo;m curious how the result would be. So I tried to input:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;A recent &lt;a href=&#34;http://www.bbc.com/news/world-europe-40990927&#34;&gt;BBC article&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;George R. R. Martin &lt;a href=&#34;https://www.biography.com/people/george-r-r-martin-20786615?_escaped_fragment_=&#34;&gt;Biography&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;One of my &lt;a href=&#34;https://github.com/KrazyCavin/hearthstone-cards-searcher/blob/master/hsSearch.py&#34;&gt;python script&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My blog &lt;a href=&#34;https://raw.githubusercontent.com/KrazyCavin/krazycavin.github.io/master/index.html&#34;&gt;index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;One of my blog &lt;a href=&#34;https://krazycavin.github.io/2016/12/23/my-year-2016/&#34;&gt;post&lt;/a&gt; plain text&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The result of these 5 rounds: Colemak scores the highest in each round.&lt;/p&gt;
+
+&lt;p&gt;High home row usage, less finger travel distance, and balanced left-right hands&amp;hellip; These advantages of Colemak make it as one of the best keyboard layouts for improving efficiency and ergonomics.&lt;/p&gt;
+
+&lt;h3 id=&#34;reason-4-easy-to-learn&#34;&gt;Reason 4: Easy to learn&lt;/h3&gt;
+
+&lt;p&gt;I remember 5 years ago, I planned to switch to Dvorak. But I was totally failed after 1-week struggling. Because the transition phrase from QWERTY to Dvorak is really hard, I was not good enough to use only Dvorak at work. Therefore, it required me to memorize 2 different keyboard layouts at the same time, which was possible for my brain but impossible for my muscles. I was kidding at that time: I need at least a 2-months vacation to train Dvorak without any productivity.&lt;/p&gt;
+
+&lt;p&gt;To learn Colemak, I feel it would be a different story. Colemak is based on QWERTY layout, which means it&amp;rsquo;s built without the terrifying prospect of changing everything. &lt;em&gt;The Colemak layout is reasonably similar to QWERTY with just 17 different keys as opposed to Dvorak&amp;rsquo;s 33, and only two letters P and E that move from one hand to the other, whereas with Dvorak it&amp;rsquo;s 22.&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back4&#34;&gt;&lt;a href=&#34;#link4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Colemak is rather easy to learn. It took me only 30 min to memorize Colemak keyboard layout without any frustration. After 1 day training, now I&amp;rsquo;m already used to it. I estimate that a 2-days weekend should be enough for me to have a reasonable typing speed. It wouldn&amp;rsquo;t cause my huge headache to use Colemak at work next Monday.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;These tantalizing reasons give me the motivation to switch to Colemak. I guess I have to face this challenge and I will be busy with training next week. Challenge is on and change is now.&lt;/p&gt;
+
+&lt;p&gt;Happy typing Colemak!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://media0.giphy.com/media/toXKzaJP3WIgM/giphy.gif&#34; alt=&#34;typing&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; HowStuffWorks: &lt;a href=&#34;http://computer.howstuffworks.com/question458.htm&#34;&gt;Why are the keys arranged the way they are on a QWERTY keyboard?&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Shai Coleman: &lt;a href=&#34;https://colemak.com/&#34;&gt;Colemak advantages&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Carpalx: &lt;a href=&#34;http://mkweb.bcgsc.ca/carpalx/?colemak&#34;&gt;Colemak typing effort&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link4&#34;&gt;&lt;a href=&#34;#back4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt; Eric Limer: &lt;a href=&#34;http://www.popularmechanics.com/technology/a20524/learning-to-type-again-colemak&#34;&gt;Why I&amp;rsquo;m Learning To Type All Over Again&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

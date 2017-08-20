@@ -57,7 +57,7 @@
 
 &lt;p&gt;I have to search for a proper solution. I find that &lt;a href=&#34;https://mitmproxy.org/&#34;&gt;mitmproxy&lt;/a&gt; could be a candidate to try out. Because of open-source and the support of customized python script, it would be flexible to adapt all kinds of situations. All I need to do is to make scripts to fulfill my need. I like making my hands dirty. Luckily, mitmproxy provides a good &lt;a href=&#34;http://docs.mitmproxy.org/en/stable/&#34;&gt;documentation&lt;/a&gt; and nice &lt;a href=&#34;https://discourse.mitmproxy.org/&#34;&gt;forums&lt;/a&gt;. At the end, it&amp;rsquo;s not too hard to write &lt;a href=&#34;https://github.com/KrazyCavin/mitm-rewrite-script&#34;&gt;mitm-rewrite-script&lt;/a&gt;, which provides me the function I need.&lt;/p&gt;
 
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;Tools are designed to help us to deal with the problems. Depends on the different situations and the strength &amp;amp; weakness of tools, I have to think carefully and decide which one to use. Probably mitmproxy is my new proxy-hammer, but I won&amp;rsquo;t see everything like a nail. Once I decided that it is a good time to use Charles properly, I would say loudly and confidently &amp;ldquo;&lt;strong&gt;I choose you, Charles!&lt;/strong&gt;&amp;ldquo;&lt;/p&gt;
 </description>
