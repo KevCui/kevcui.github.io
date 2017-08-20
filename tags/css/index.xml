@@ -76,7 +76,7 @@ article:nth-child(4) {
 ...
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;Et voilà, 2 powerful CSS libraries get fancymation job done. During my small &amp;ldquo;weekend project&amp;rdquo;, I added other animations for my blog. I had a fun time playing around CSS for animations. Furthermore, I&amp;rsquo;m happy that I learned how to use 2 awesome CSS libraries, which I could share with you here. #AnimateAlltheThings!&lt;/p&gt;
 </description>
