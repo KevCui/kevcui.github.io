@@ -232,3 +232,81 @@
        url('../fonts/montserrat/montserrat-v10-latin-ext_latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/montserrat/montserrat-v10-latin-ext_latin-500.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
+/* interface */
+@font-face {
+  font-family: 'Interface';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Interface Regular'), local('Interface-Regular'),
+       url('../fonts/interface/Interface-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/interface/Interface-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/interface/Interface-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+
+}
+@font-face {
+  font-family: 'Interface';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Interface RegularItalic'), local('Interface-RegularItalic'),
+       url('../fonts/interface/Interface-RegularItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/interface/Interface-RegularItalic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/interface/Interface-RegularItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Interface';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Interface Medium'), local('Interface-Medium'),
+       url('../fonts/interface/Interface-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/interface/Interface-Medium.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/interface/Interface-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Interface';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Interface MediumItalic'), local('Interface-MediumItalic'),
+       url('../fonts/interface/Interface-MediumItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/interface/Interface-MediumItalic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/interface/Interface-MediumItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Interface';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Interface Bold'), local('Interface-Bold'),
+       url('../fonts/interface/Interface-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/interface/Interface-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/interface/Interface-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Interface';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Interface BoldItalic'), local('Interface-BoldItalic'),
+       url('../fonts/interface/Interface-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/interface/Interface-BoldItalic.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/interface/Interface-BoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+/*
+ * Foundation Icons v 3.0
+ * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
+ * MIT License
+ */
+@font-face {
+  font-family: "foundation-icons";
+  src: url("../fonts/foundation-icons/foundation-icons.eot");
+  src: url("../fonts/foundation-icons/foundation-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/foundation-icons/foundation-icons.woff") format("woff"), url("../fonts/foundation-icons/foundation-icons.ttf") format("truetype"), url("../fonts/foundation-icons/foundation-icons.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+    font-family: 'si';
+    src: url('../fonts/socicon/socicon.eot');
+    src: url('../fonts/socicon/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socicon/socicon.woff') format('woff'),
+         url('../fonts/socicon/socicon.ttf') format('truetype'),
+         url('../fonts/socicon/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
