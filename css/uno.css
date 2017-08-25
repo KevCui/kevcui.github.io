@@ -1060,12 +1060,14 @@ a {
   text-decoration: none;
   color: #414141; }
 
+li > a,
 section > p > a {
   text-decoration: underline; }
 
 article > div > a,
 span > a,
 section > ul > li > a,
+section > ol > li > a,
 p > a {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -1909,7 +1911,7 @@ input[type="tel"] {
         width: 25.8%; }
 
   .content-wrapper {
-    width: 90%;
+    width: 88%;
     max-width: none;
     margin: 0 auto; }
 
