@@ -1810,7 +1810,11 @@ input[type="tel"] {
   }
 
   #sidebar-toc-Ik4D-toggleBtn {
-   visibility: hidden;
+    visibility: hidden;
+  }
+
+  #cv {
+    margin-bottom: 0px !important;
   }
 
   .swirl {
