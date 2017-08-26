@@ -36,7 +36,7 @@ body {
   line-height: 1.2;
   font-family: "Interface", sans-serif;
   font-weight: 400;
-  font-size: 1.15em;
+  font-size: 1em;
   color: #414141;
   width: 100%;
   *zoom: 1; }
@@ -1045,7 +1045,7 @@ html {
 body {
   font-family: "Interface", sans-serif;
   font-weight: 400;
-  font-size: 1.15em;
+  font-size: 1em;
   line-height: 1.2;
   color: #414141;
   width: 100%; }
