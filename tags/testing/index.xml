@@ -278,6 +278,8 @@ Issue 1: crash on iOS 7
 &lt;p&gt;Testing is like holding a torch to light up the road in darkness. You could clearly see the way to go, make a map, and mark thorns and flowers.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;hr /&gt;
+
 &lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://www.anshome.org/index.php/nature-programs/children-family/audubon-nature-preschool&#34;&gt;Audubon Nature Preschool&lt;/a&gt;
 &lt;br/&gt;
 &lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://www.kaner.com/pdfs/QAIExploring.pdf&#34;&gt;Cem Kaner: A Tutorial in Exploratory Testing&lt;/a&gt;&lt;/p&gt;
@@ -443,6 +445,8 @@ Minor                |
 &lt;h3 id=&#34;expected-result&#34;&gt;&lt;strong&gt;Expected result&lt;/strong&gt;&lt;/h3&gt;
 
 &lt;p&gt;After participating this team exploratory testing, you will probably think &amp;ldquo;I&amp;rsquo;d like to test more next time!&amp;rdquo;.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Michael Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2009/08/testing-vs-checking/&#34;&gt;Testing vs. Checking&lt;/a&gt;
 &lt;br/&gt;
