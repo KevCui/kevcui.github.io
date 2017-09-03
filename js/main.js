@@ -21,7 +21,6 @@ $(document).ready(function() {
   }
 
   if ($('.panel-cover').hasClass( "panel-cover--collapsed") == false) {
-    $('.panel-cover__logo').addClass('animated fadeInUp');
     $('.panel-cover__title').addClass('animated fadeIn');
     $('.panel-cover__description').addClass('animated fadeIn');
     $('.navigation-wrapper').addClass('animated fadeInDown');
