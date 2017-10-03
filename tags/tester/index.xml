@@ -17,7 +17,7 @@
       <guid>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
       <description>
 
-&lt;p&gt;A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed in any circumstances. However, sometimes a bad question may cause some communication troubles:&lt;/p&gt;
+&lt;p&gt;A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, sometimes a bad question may cause some communication troubles:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;An unnecessary question makes developers annoyed.&lt;/li&gt;
@@ -33,18 +33,18 @@
 &lt;p&gt;Before asking questions, I consider asking myself questions first to figure out 2 important things:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;The background of current situation - questions to figure out &amp;ldquo;what to question&amp;rdquo;:
+&lt;li&gt;The background of the current situation - questions to figure out &amp;ldquo;what to question&amp;rdquo;:
 
 &lt;ul&gt;
 &lt;li&gt;Do I understand the current situation?&lt;/li&gt;
 &lt;li&gt;Is there anything unclear for me or for others?&lt;/li&gt;
-&lt;li&gt;Is my question important to make current situation clear for me or for others?&lt;/li&gt;
+&lt;li&gt;Is my question important to make the current situation clear for me or for others?&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;The target - questions to figure out &amp;ldquo;question to who&amp;rdquo;:
 
 &lt;ul&gt;
 &lt;li&gt;Do I find the correct person/group to address my questions?&lt;/li&gt;
-&lt;li&gt;Do I reduce the amount of unnecessary persons?&lt;/li&gt;
+&lt;li&gt;Do I reduce a number of unnecessary persons?&lt;/li&gt;
 &lt;li&gt;Is the target person/group available at the moment?&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -53,14 +53,14 @@
 
 &lt;h3 id=&#34;i-ask-questions-to-collect-information&#34;&gt;I ask questions to collect information&lt;/h3&gt;
 
-&lt;p&gt;It applies for the situation that I&amp;rsquo;m the one who want to know the answer. Other person may give me the information. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/Open-ended_question&#34;&gt;open questions&lt;/a&gt; are preferable in this case.&lt;/p&gt;
+&lt;p&gt;It applies to the situation that I&amp;rsquo;m the one who wants to know the answer. Another person may give me the information. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/Open-ended_question&#34;&gt;open questions&lt;/a&gt; are preferable in this case.&lt;/p&gt;
 
 &lt;p&gt;The background:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Current situation: Bob and Stuart were paring on some tasks. But these tasks are marked as &amp;ldquo;blocked&amp;rdquo; on our scum board.&lt;/li&gt;
 &lt;li&gt;Unclear thing for me: These tasks are blocked for which reason?&lt;/li&gt;
-&lt;li&gt;Importance of the question: I need to know what I can help&lt;/li&gt;
+&lt;li&gt;Purpose of the question: I need to know what I can help&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The target:&lt;/p&gt;
@@ -75,14 +75,14 @@
 
 &lt;h3 id=&#34;i-ask-questions-to-confirm-a-response&#34;&gt;I ask questions to confirm a response&lt;/h3&gt;
 
-&lt;p&gt;It applies for the situation that I already knew the answer, but some wordings or terms would confuse people. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/Closed-ended_question&#34;&gt;closed questions&lt;/a&gt; are preferable in this case.&lt;/p&gt;
+&lt;p&gt;It applies to the situation that I already knew the answer, but some wordings or terms would confuse people. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/Closed-ended_question&#34;&gt;closed questions&lt;/a&gt; are preferable in this case.&lt;/p&gt;
 
 &lt;p&gt;The background:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Current situation: App has a feature toggle which is disabling the new feature. Now we plan to release the new feature to customers. Bob, PO and I are discussing about feature toggle OFF.&lt;/li&gt;
-&lt;li&gt;Unclear thing for people: Bob might think that turning feature toggle OFF means still disabling new feature.&lt;/li&gt;
-&lt;li&gt;Importance of the question: Everyone needs to be clear that customers will have new feature enabled&lt;/li&gt;
+&lt;li&gt;Current situation: App has a feature toggle which is disabling the new feature. Now we plan to release the new feature to customers. Bob, PO and I are discussing feature toggle OFF.&lt;/li&gt;
+&lt;li&gt;Unclear thing for people: Bob might think that turning feature toggle OFF means still disabling the new feature.&lt;/li&gt;
+&lt;li&gt;Purpose of the question: Everyone needs to be clear that customers will have new feature enabled&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The target:&lt;/p&gt;
@@ -97,14 +97,14 @@
 
 &lt;h3 id=&#34;i-ask-questions-to-make-a-suggestion&#34;&gt;I ask questions to make a suggestion&lt;/h3&gt;
 
-&lt;p&gt;It applies for the situation that I probably know the correct answer, but others may or may not think about it yet. As it&amp;rsquo;s a suggestion and I&amp;rsquo;m not the person who will proceed working on it, I will pay attention to leave it as open as possible for the further discussion.&lt;/p&gt;
+&lt;p&gt;It applies to the situation that I probably know the correct answer, but others may or may not think about it yet. As it&amp;rsquo;s a suggestion and I&amp;rsquo;m not the person who will proceed working on it, I will pay attention to leave it as open as possible for the further discussion.&lt;/p&gt;
 
 &lt;p&gt;The background:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Current situation: Bob, Designer, PO and I are planning to have new design of component A and component B in this release. Due to the schedule, they are not possible to be complete together in the same release.&lt;/li&gt;
-&lt;li&gt;Unclear thing for others: Component B is dependent on component, but A is independent on B.&lt;/li&gt;
-&lt;li&gt;Importance of the question: It provides a solution&lt;/li&gt;
+&lt;li&gt;Current situation: Bob, Designer, PO and I are planning to have new designs of component A and component B in this release. Due to the schedule, they are not possible to be completed together in the same release.&lt;/li&gt;
+&lt;li&gt;Unclear thing for others: Component B is dependent on component A, but A is independent on B.&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It provides a solution&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The target:&lt;/p&gt;
@@ -119,14 +119,14 @@
 
 &lt;h3 id=&#34;i-ask-questions-to-probe-the-thinking&#34;&gt;I ask questions to probe the thinking&lt;/h3&gt;
 
-&lt;p&gt;It applies for the situation that no one has ideas for what is happening. And the root cause is unknown. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/5_Whys&#34;&gt;5 whys&lt;/a&gt; is useful to determine the root cause.&lt;/p&gt;
+&lt;p&gt;It applies to the situation that no one has ideas for what is happening. And the root cause is unknown. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/5_Whys&#34;&gt;5-whys&lt;/a&gt; is useful to determine the root cause.&lt;/p&gt;
 
 &lt;p&gt;The background:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Current situation: Recently many customers send us reports and logs because they cannot login the app anymore. After an investigation, Bob and Stuart cannot find any useful information to go further.&lt;/li&gt;
-&lt;li&gt;Unclear thing for people: The root cause of users cannot login is unknown.&lt;/li&gt;
-&lt;li&gt;Importance of the question: It probes thinking.&lt;/li&gt;
+&lt;li&gt;Current situation: Recently many customers send us reports and logs because they cannot log in the app anymore. After an investigation, Bob and Stuart cannot find any useful information to go further.&lt;/li&gt;
+&lt;li&gt;Unclear thing for people: The root cause of users cannot log in is unknown.&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It probes thinking.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The target:&lt;/p&gt;
@@ -134,20 +134,20 @@
 &lt;ul&gt;
 &lt;li&gt;Correct person: Bob and Stuart&lt;/li&gt;
 &lt;li&gt;Unnecessary person: None&lt;/li&gt;
-&lt;li&gt;Available person: Same&lt;/li&gt;
+&lt;li&gt;Available person: Bob and Stuart&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;So it comes to my question to start the discussion: &lt;em&gt;&amp;ldquo;After we read all users&amp;rsquo; reports and logs, what is the common thing they all have? Same language, same location, same OS, same device or&amp;hellip;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Then, we take a careful look at all reports and logs. We find that all customers have the devices from the same manufacture and they have the same OS.&lt;/p&gt;
+&lt;p&gt;Then, we take a careful look at all reports and logs. We find that all customers have the devices from the same manufacturer and they have the same OS.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Why the issue happens only on the devices from this manufacture, with this specific OS?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Why the issue happens only on the devices from this manufacturer, with this specific OS?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Then, we search for the news of changes in the new OS provided by this manufacture. We find that this manufacture made some changes on handling log-in events. Apparently, some other apps have the similar log-in issue on those devices.&lt;/p&gt;
+&lt;p&gt;Then, we search for the news of changes in the new OS provided by this manufacturer. We find that this manufacturer made some changes on handling log-in events. Apparently, some other apps have the similar log-in issue on those devices.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Since the OS changes impact on our app and other apps, what&amp;rsquo;s the common thing in our app and in other impacted apps have?&amp;rdquo;&lt;/em&gt;&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;Each question brings us to a deeper investigation, until we finally see the root cause.&lt;/p&gt;
+&lt;p&gt;Each question brings us to a deeper investigation until we finally see the root cause.&lt;/p&gt;
 
 &lt;hr /&gt;
 
