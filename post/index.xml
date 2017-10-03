@@ -7,7 +7,187 @@
     <language>en-us</language>
     
     
-    <updated>Sun, 27 Aug 2017 10:07:30 CEST</updated>
+    <updated>Tue, 03 Oct 2017 17:50:00 CEST</updated>
+    
+    <item>
+      <title>Asking Better Questions for 4 Different Purposes</title>
+      <link>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</link>
+      <pubDate>Tue, 03 Oct 2017 17:50:00 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
+      <description>
+
+&lt;p&gt;A good tester asks good questions. Asking questions is a must-have communication skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed in anything at any time. Sometimes, a bad question may cause some communication troubles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An unnecessary question makes developers annoyed.&lt;/li&gt;
+&lt;li&gt;A wrong question makes POs confused&lt;/li&gt;
+&lt;li&gt;An absurd question makes stakeholders scared&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To understand the purposes of questions may help to ask them effectively. I&amp;rsquo;d like to share some thoughts on how to ask better questions for 4 different purposes.&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-myself-questions-before-asking-people-questions&#34;&gt;I ask myself questions before asking people questions&lt;/h3&gt;
+
+&lt;p&gt;Before asking questions, I consider asking myself questions first to figure out 2 important things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The background of current situation - questions to figure out &amp;ldquo;what to question&amp;rdquo;:
+
+&lt;ul&gt;
+&lt;li&gt;Do I understand the current situation?&lt;/li&gt;
+&lt;li&gt;Is there anything unclear for me or for others?&lt;/li&gt;
+&lt;li&gt;Is my question important to make current situation clear for me or for others?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;The target - questions to figure out &amp;ldquo;question to who&amp;rdquo;:
+
+&lt;ul&gt;
+&lt;li&gt;Do I find the correct person/group to address my questions?&lt;/li&gt;
+&lt;li&gt;Do I select the target and reduce the unnecessary persons?&lt;/li&gt;
+&lt;li&gt;Is the target person/group available at the moment?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If the answers are all &amp;ldquo;yeah&amp;rdquo; for the questions above, it&amp;rsquo;s good to go ahead for asking my questions!&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-collect-information&#34;&gt;I ask questions to collect information&lt;/h3&gt;
+
+&lt;p&gt;It applies for the situation that I&amp;rsquo;m the one who want to know the answer. Other person may give me the information. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/Open-ended_question&#34;&gt;open questions&lt;/a&gt; are preferable in this case.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: Bob and Stuart were paring on some tasks. But these tasks are marked as &amp;ldquo;blocked&amp;rdquo; on our scum board.&lt;/li&gt;
+&lt;li&gt;Unclear thing for me: These tasks are blocked for which reason?&lt;/li&gt;
+&lt;li&gt;Importance of the question: I need to know what I can help&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob and Stuart&lt;/li&gt;
+&lt;li&gt;Unnecessary person: Bob or Stuart, no need 2 of them&lt;/li&gt;
+&lt;li&gt;Available person: Bob. He is going to have a coffee, without his headphone.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question to Bob: &lt;em&gt;&amp;ldquo;I saw that some tasks of this story are currently blocked. I want to know if I can support you on these tasks. Maybe you know what is the blocker?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-confirm-a-response&#34;&gt;I ask questions to confirm a response&lt;/h3&gt;
+
+&lt;p&gt;It applies for the situation that I already knew the answer, but some wordings or terms would confuse people. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/Closed-ended_question&#34;&gt;closed questions&lt;/a&gt; are preferable in this case.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: App has a feature toggle which is disabling the new feature. Now we plan to release the new feature to customers. Bob, PO and I are discussing about feature toggle OFF.&lt;/li&gt;
+&lt;li&gt;Unclear thing for people: Bob might think that turning feature toggle OFF means still disabling new feature.&lt;/li&gt;
+&lt;li&gt;Importance of the question: Everyone needs to be clear that customers will have new feature enabled&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob and PO&lt;/li&gt;
+&lt;li&gt;Unnecessary person: None&lt;/li&gt;
+&lt;li&gt;Available person: Bob and PO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question at the end of discussion: &lt;em&gt;&amp;ldquo;As we discussed, we are going to remove the feature toggle now and release the new feature. Does it means that our customers will see this new feature in the next release?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-make-a-suggestion&#34;&gt;I ask questions to make a suggestion&lt;/h3&gt;
+
+&lt;p&gt;It applies for the situation that I probably know the correct answer, but others may or may not think about it yet. As it&amp;rsquo;s a suggestion and I&amp;rsquo;m not the person who will proceed working on it, I will pay attention to leave it as open as possible for the further discussion.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: Bob, Designer, PO and I are planning to have new design of component A and component B in this release. Due to the schedule, they are not possible to be complete together in the same release.&lt;/li&gt;
+&lt;li&gt;Unclear thing for others: Component B is dependent on component, but A is independent on B.&lt;/li&gt;
+&lt;li&gt;Importance of the question: It provides a solution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob, Stuart, Designer and PO&lt;/li&gt;
+&lt;li&gt;Unnecessary person: None&lt;/li&gt;
+&lt;li&gt;Available person: Bob, Stuart, Designer and PO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question during the discussion: &lt;em&gt;&amp;ldquo;As we all know, it&amp;rsquo;s impossible to finish new design of both component A and component B. Since the new design of B depends on A, how about we focus on finishing component A in this release first and then start to work on B in the next release?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-probe-the-thinking&#34;&gt;I ask questions to probe the thinking&lt;/h3&gt;
+
+&lt;p&gt;It applies for the situation that no one has ideas for what is happening. And the root cause is unknown. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/5_Whys&#34;&gt;5 whys&lt;/a&gt; is useful to determine the root cause.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: Recently many customers send us reports and logs because they cannot login the app anymore. After an investigation, Bob and Stuart cannot find any useful information to go further.&lt;/li&gt;
+&lt;li&gt;Unclear thing for people: The root cause of users cannot login is unknown.&lt;/li&gt;
+&lt;li&gt;Importance of the question: It probes thinking.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob and Stuart&lt;/li&gt;
+&lt;li&gt;Unnecessary person: None&lt;/li&gt;
+&lt;li&gt;Available person: Same&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question to start the discussion: &lt;em&gt;&amp;ldquo;After we read all users&amp;rsquo; reports and logs, what is the common thing they all have? Same language, same location, same OS, same device or&amp;hellip;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, we take a careful look at all reports and logs. We find that all customers have the devices from the same manufacture and they have the same OS.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Why the issue happens only on the devices from this manufacture, with this specific OS?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, we search for the news of changes in the new OS provided by this manufacture. We find that this manufacture made some changes on handling log-in events. Apparently, some other apps have the similar log-in issue on those devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Since the OS changes impact on our app and other apps, what&amp;rsquo;s the common thing in our app and in other impacted apps have?&amp;rdquo;&lt;/em&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Each question brings us to a deeper investigation, until we finally see the root cause.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The eventual goal of asking questions is to eliminate ambiguities. Every question has to serve its purpose: &lt;strong&gt;to collect information&lt;/strong&gt;, &lt;strong&gt;to confirm a response&lt;/strong&gt;, &lt;strong&gt;to make a suggestion&lt;/strong&gt; and &lt;strong&gt;to probe the thinking&lt;/strong&gt;. To understand which purpose your question is serving will help you to ask better questions.&lt;/p&gt;
+
+&lt;p&gt;Do you have any questions?&lt;/p&gt;
+
+&lt;!--
+# Thoughts
+m y o
+x - -
+x x -
+x - x
+x x x
+- x -
+- - x
+- x x
+- - -
+
+m: me
+y: you
+o: others
+x: got answer
+-: no answer
+
+k me - to make a suggestion
+k me, you, others - don&#39;t waste time to ask questions
+k me, you or others - to confirm a response
+nk you/others, you and others - to collect information
+nk null - to initialize a discussion
+
+ideas for further:
+care of wording
+given when then: simplify actions
+ask why to what no who
+multiple questions in a roll
+Listening is the key
+--&gt;
+</description>
+    </item>
     
     <item>
       <title>One Week with Colemak</title>
@@ -814,43 +994,43 @@ What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
       <pubDate>Sun, 23 Apr 2017 11:19:25 CEST</pubDate>
       
       <guid>https://krazycavin.github.io/2017/04/23/tweet-pinboard_01-052017/</guid>
-      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Bug &amp;lt;-&amp;gt; Debug&lt;br&gt;Test &amp;lt;-&amp;gt; Detest&lt;br&gt;&lt;br&gt;Is that a kind of coincidence?&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/814838322891804672?ref_src=twsrc%5Etfw&#34;&gt;December 30, 2016&lt;/a&gt;&lt;/blockquote&gt;
+      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Bug &amp;lt;-&amp;gt; Debug&lt;br&gt;Test &amp;lt;-&amp;gt; Detest&lt;br&gt;&lt;br&gt;Is that a kind of coincidence?&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/814838322891804672?ref_src=twsrc%5Etfw&#34;&gt;December 30, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;1. 🎥: 👯🐇💨🚶㊙🚪🐈🐛👒🍵👸👰👑♠♥♣♦😴&lt;br&gt;&lt;br&gt;2. 📺: 🐺🐯🐲💮🐙🐟... 👑❤💔🔞🔥💥🔪... 💀😱💀💀😱😱💀💀💀😶💀💀💀💀💀...&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/816692325833461760?ref_src=twsrc%5Etfw&#34;&gt;January 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;1. 🎥: 👯🐇💨🚶㊙🚪🐈🐛👒🍵👸👰👑♠♥♣♦😴&lt;br&gt;&lt;br&gt;2. 📺: 🐺🐯🐲💮🐙🐟... 👑❤💔🔞🔥💥🔪... 💀😱💀💀😱😱💀💀💀😶💀💀💀💀💀...&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/816692325833461760?ref_src=twsrc%5Etfw&#34;&gt;January 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Declare variables not war,&lt;br&gt;Get bugs fixed not mindset.&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820378849225609218?ref_src=twsrc%5Etfw&#34;&gt;January 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Declare variables not war,&lt;br&gt;Get bugs fixed not mindset.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820378849225609218?ref_src=twsrc%5Etfw&#34;&gt;January 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A tool for work:&lt;br&gt;20 years ago, a tool is a tool.&lt;br&gt;10 years ago, a tool is a software.&lt;br&gt;5 years ago, a tool is a website.&lt;br&gt;Now a tool is an app.&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820702959260565509?ref_src=twsrc%5Etfw&#34;&gt;January 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A tool for work:&lt;br&gt;20 years ago, a tool is a tool.&lt;br&gt;10 years ago, a tool is a software.&lt;br&gt;5 years ago, a tool is a website.&lt;br&gt;Now a tool is an app.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820702959260565509?ref_src=twsrc%5Etfw&#34;&gt;January 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Dear DEVils,&lt;br&gt;During my absence, you&amp;#39;re authorised to use my tool for testing purpose. Any abuses are welcome.&lt;br&gt;Happy testing!&lt;br&gt;Xoxo, TESTERia &lt;a href=&#34;https://t.co/yNht8lnPDG&#34;&gt;pic.twitter.com/yNht8lnPDG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/824309415851466752?ref_src=twsrc%5Etfw&#34;&gt;January 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Dear DEVils,&lt;br&gt;During my absence, you&amp;#39;re authorised to use my tool for testing purpose. Any abuses are welcome.&lt;br&gt;Happy testing!&lt;br&gt;Xoxo, TESTERia &lt;a href=&#34;https://t.co/yNht8lnPDG&#34;&gt;pic.twitter.com/yNht8lnPDG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/824309415851466752?ref_src=twsrc%5Etfw&#34;&gt;January 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A good news without &amp;quot;but&amp;quot; is a perfect good news.&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826085227512500224?ref_src=twsrc%5Etfw&#34;&gt;January 30, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A good news without &amp;quot;but&amp;quot; is a perfect good news.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826085227512500224?ref_src=twsrc%5Etfw&#34;&gt;January 30, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;In theory there is no difference between theory and practice. In practice there is.&amp;quot; 😉&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826429344088100865?ref_src=twsrc%5Etfw&#34;&gt;January 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;In theory there is no difference between theory and practice. In practice there is.&amp;quot; 😉&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826429344088100865?ref_src=twsrc%5Etfw&#34;&gt;January 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Wisely and slowly; they stumble that run fast.&amp;quot;&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/837361764492771329?ref_src=twsrc%5Etfw&#34;&gt;March 2, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Wisely and slowly; they stumble that run fast.&amp;quot;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/837361764492771329?ref_src=twsrc%5Etfw&#34;&gt;March 2, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Best practice only exists for someone at certain period of time. Not everyone, not always.&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841716053046644737?ref_src=twsrc%5Etfw&#34;&gt;March 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Best practice only exists for someone at certain period of time. Not everyone, not always.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841716053046644737?ref_src=twsrc%5Etfw&#34;&gt;March 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤣 true &lt;a href=&#34;https://t.co/6S8jT0ZkX6&#34;&gt;https://t.co/6S8jT0ZkX6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841953703812861953?ref_src=twsrc%5Etfw&#34;&gt;March 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤣 true &lt;a href=&#34;https://t.co/6S8jT0ZkX6&#34;&gt;https://t.co/6S8jT0ZkX6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841953703812861953?ref_src=twsrc%5Etfw&#34;&gt;March 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Oh I&amp;#39;m capable of suffering all small revertable changes &amp;amp; working on piece by piece, in order to make the world a better place🙏 &lt;a href=&#34;https://twitter.com/hashtag/AgilityGod?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#AgilityGod&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/842787425541865472?ref_src=twsrc%5Etfw&#34;&gt;March 17, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Oh I&amp;#39;m capable of suffering all small revertable changes &amp;amp; working on piece by piece, in order to make the world a better place🙏 &lt;a href=&#34;https://twitter.com/hashtag/AgilityGod?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#AgilityGod&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/842787425541865472?ref_src=twsrc%5Etfw&#34;&gt;March 17, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Testing is not about finding bugs. It&amp;#39;s about exploring unknown area, resolving ambiguity and leaning new things. 1/2&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843906547273097216?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Testing is not about finding bugs. It&amp;#39;s about exploring unknown area, resolving ambiguity and leaning new things. 1/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843906547273097216?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a troch to light up the road in darkness, you could clearly see the way to go,  make a map,  and mark thorns and flowers. 2/2&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843911859287871490?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a troch to light up the road in darkness, you could clearly see the way to go,  make a map,  and mark thorns and flowers. 2/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843911859287871490?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Checking is not about finding bugs. It&amp;#39;s about verifying expectation, feeling confidence of working things and killing time. 1/2&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843914267355217920?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Checking is not about finding bugs. It&amp;#39;s about verifying expectation, feeling confidence of working things and killing time. 1/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843914267355217920?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a map in daylight, you&amp;#39;re guided to avoid known obstacles, confident of your ability and ready for the next journey, again. 2/2&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843915943373930496?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a map in daylight, you&amp;#39;re guided to avoid known obstacles, confident of your ability and ready for the next journey, again. 2/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843915943373930496?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤷 let me guess it&amp;#39;s a part of How to reduce cost and assure phone call quality. ISTQB = I Swear That&amp;#39;s Quite Boring&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/848280133999804416?ref_src=twsrc%5Etfw&#34;&gt;April 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤷 let me guess it&amp;#39;s a part of How to reduce cost and assure phone call quality. ISTQB = I Swear That&amp;#39;s Quite Boring&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/848280133999804416?ref_src=twsrc%5Etfw&#34;&gt;April 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Junior XXX: I want a job even it&amp;#39;s shitty&lt;br&gt;Senior XXX: I don&amp;#39;t want a shitty job, no!&lt;br&gt;Expert XXX: I want to do some shitty things as my job 😉&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/851867342976028673?ref_src=twsrc%5Etfw&#34;&gt;April 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Junior XXX: I want a job even it&amp;#39;s shitty&lt;br&gt;Senior XXX: I don&amp;#39;t want a shitty job, no!&lt;br&gt;Expert XXX: I want to do some shitty things as my job 😉&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/851867342976028673?ref_src=twsrc%5Etfw&#34;&gt;April 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Agility stops when HiPPO starts.&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/852536634155335680?ref_src=twsrc%5Etfw&#34;&gt;April 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Agility stops when HiPPO starts.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/852536634155335680?ref_src=twsrc%5Etfw&#34;&gt;April 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Certification is a decent purchase invoice. &lt;a href=&#34;https://t.co/QgXh9a6aaF&#34;&gt;https://t.co/QgXh9a6aaF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin 🔮 (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/855715620377243649?ref_src=twsrc%5Etfw&#34;&gt;April 22, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Certification is a decent purchase invoice. &lt;a href=&#34;https://t.co/QgXh9a6aaF&#34;&gt;https://t.co/QgXh9a6aaF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/855715620377243649?ref_src=twsrc%5Etfw&#34;&gt;April 22, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 </description>
     </item>
@@ -1348,59 +1528,6 @@ Hugo: 29M
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://coolors.co/&#34;&gt;Coolors&lt;/a&gt;: fast color schemes generator&lt;/p&gt;
 
 &lt;p&gt;🌏👉 &lt;a href=&#34;http://www.archetypeapp.com/&#34;&gt;archetype&lt;/a&gt;: create consistent typography styling and spacing live&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Why Hexo Why Not Jekyll</title>
-      <link>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
-      <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
-      
-      <guid>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
-      <description>
-
-&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;http://127.0.0.1:4000/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
-
-&lt;h3 id=&#34;a-net-name-is-half-success&#34;&gt;A net name is half-success&lt;/h3&gt;
-
-&lt;p&gt;Everyone has his own taste on naming. Hexo vs. Jekyll which one is cooler? I cannot tell. But which one is net and easy to write. I vote for hexo.&lt;/p&gt;
-
-&lt;p&gt;You probably are not a clumsy-handed person, but unfortunately sometimes I am. I admit that many times I&amp;rsquo;m stupid (or drunken) to write jekyll as jeykll, jekyl, jekeyll&amp;hellip; How about hexo? I think I still need drink more 🍷 in order to make a spelling mistake of hexo.&lt;/p&gt;
-
-&lt;h3 id=&#34;node-js-home-lovely-home&#34;&gt;Node.js home lovely home&lt;/h3&gt;
-
-&lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to set up project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
-
-&lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable . At the end, the only ting I want is just to set up something in 3 min and spend my time on writing more posts.&lt;/p&gt;
-
-&lt;h3 id=&#34;deployment-it-s-a-magic&#34;&gt;Deployment? It&amp;rsquo;s a magic!&lt;/h3&gt;
-
-&lt;p&gt;The deployment of hexo is amazing. I add my git repo info in _config.xml then run a simple command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;~$ hexo d
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Done! What a magic! No need git add, git commit, git push&amp;hellip; It&amp;rsquo;s really continent to write and publish a post.&lt;/p&gt;
-
-&lt;p&gt;Another good thing is that hexo organizes git repo nicely. It contains only the final static html, js and css files. Other setup related file like _config.xml or themes or plugins can be stored separately in different repositories. It&amp;rsquo;s wonderful for person who has OCD.&lt;/p&gt;
-
-&lt;h3 id=&#34;setup-theme-dynamically&#34;&gt;Setup theme dynamically&lt;/h3&gt;
-
-&lt;p&gt;With hexo, there will be no more feeling of frustrated at changing theme. Hexo has an interesting structure to organize &lt;a href=&#34;https://hexo.io/docs/themes.html&#34;&gt;&lt;em&gt;themes&lt;/em&gt;&lt;/a&gt; in a separate folder. Choosing a theme is like switching a cloth. And it&amp;rsquo;s possible to have collect different themes 👗 in your armoire.&lt;/p&gt;
-
-&lt;h3 id=&#34;fast&#34;&gt;Fast&lt;/h3&gt;
-
-&lt;p&gt;Overall, hexo gives me an impression &lt;em&gt;fast&lt;/em&gt;, starting from the command execution with one letter:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hexo s &amp;lt;=&amp;gt; hexo server
-hexo g &amp;lt;=&amp;gt; hexo generate
-hexo d &amp;lt;=&amp;gt; hexo deploy
-hexo cl &amp;lt;=&amp;gt; hexo clean
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;According to my needs, compared to Jekyll hexo has a net name, no learning curve, magic deployment, variable themes, and it runs faster. I&amp;rsquo;m quite satisfied with hexo so far. Maybe I will give &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; a try soon. But who knows when I will switch to the &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;next generator&lt;/a&gt;? 😬&lt;/p&gt;
 </description>
     </item>
     
