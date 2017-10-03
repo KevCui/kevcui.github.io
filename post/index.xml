@@ -76,14 +76,14 @@
 &lt;ul&gt;
 &lt;li&gt;Current situation: Bob and Stuart were paring on some tasks. But these tasks are marked as &amp;ldquo;blocked&amp;rdquo; on our scum board.&lt;/li&gt;
 &lt;li&gt;Unclear thing for me: These tasks are blocked for which reason?&lt;/li&gt;
-&lt;li&gt;Purpose of the question: I need to know what I can help&lt;/li&gt;
+&lt;li&gt;Purpose of the question: I need to know what I can help.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The target:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Correct person: Bob and Stuart&lt;/li&gt;
-&lt;li&gt;Unnecessary person: Bob or Stuart, no need 2 of them&lt;/li&gt;
+&lt;li&gt;Unnecessary person: Bob or Stuart, no need both of them&lt;/li&gt;
 &lt;li&gt;Available person: Bob. He is going to have a coffee, without his headphone.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -96,9 +96,9 @@
 &lt;p&gt;The background:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Current situation: App has a feature toggle which is disabling the new feature. Now we plan to release the new feature to customers. Bob, PO and I are discussing feature toggle OFF.&lt;/li&gt;
+&lt;li&gt;Current situation: App has a feature toggle which is disabling the new feature. Now we plan to release the new feature to customers. Bob, PO and I are discussing to turn feature toggle OFF.&lt;/li&gt;
 &lt;li&gt;Unclear thing for people: Bob might think that turning feature toggle OFF means still disabling the new feature.&lt;/li&gt;
-&lt;li&gt;Purpose of the question: Everyone needs to be clear that customers will have new feature enabled&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It confirms that everyone is clear to let customers see the new feature.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The target:&lt;/p&gt;
@@ -120,7 +120,7 @@
 &lt;ul&gt;
 &lt;li&gt;Current situation: Bob, Designer, PO and I are planning to have new designs of component A and component B in this release. Due to the schedule, they are not possible to be completed together in the same release.&lt;/li&gt;
 &lt;li&gt;Unclear thing for others: Component B is dependent on component A, but A is independent on B.&lt;/li&gt;
-&lt;li&gt;Purpose of the question: It provides a solution&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It provides a solution.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The target:&lt;/p&gt;
@@ -131,7 +131,7 @@
 &lt;li&gt;Available person: Bob, Stuart, Designer and PO&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;So it comes to my question during the discussion: &lt;em&gt;&amp;ldquo;As we all know, it&amp;rsquo;s impossible to finish new designs of both component A and component B. Since the new design of B depends on A, how about we focus on finishing component A in this release first and then start to work on B in the next release?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So it comes to my question during the discussion: &lt;em&gt;&amp;ldquo;As we all know, it&amp;rsquo;s impossible to finish new designs of both component A and component B. Since the new design of B depends on A but A doesn&amp;rsquo;t depends on B. How about we focus on finishing component A in this release first and then start to work on B in the next release?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;i-ask-questions-to-probe-the-thinking&#34;&gt;I ask questions to probe the thinking&lt;/h3&gt;
 
@@ -142,7 +142,7 @@
 &lt;ul&gt;
 &lt;li&gt;Current situation: Recently many customers send us reports and logs because they cannot log in the app anymore. After an investigation, Bob and Stuart cannot find any useful information to go further.&lt;/li&gt;
 &lt;li&gt;Unclear thing for people: The root cause of users cannot log in is unknown.&lt;/li&gt;
-&lt;li&gt;Purpose of the question: It probes thinking.&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It probes thinking to find out root cause.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The target:&lt;/p&gt;
@@ -165,7 +165,7 @@
 
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;Each question brings us to a deeper investigation until we finally see the root cause.&lt;/p&gt;
+&lt;p&gt;Each question brings us to a deeper investigation until we finally determine the root cause.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -205,6 +205,7 @@ given when then: simplify actions
 ask why to what no who
 multiple questions in a roll
 Listening is the key
+avoid double negative
 --&gt;
 </description>
     </item>
