@@ -44,7 +44,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Do I find the correct person/group to address my questions?&lt;/li&gt;
-&lt;li&gt;Do I reduce a number of unnecessary persons?&lt;/li&gt;
+&lt;li&gt;Do I reduce the number of unnecessary persons?&lt;/li&gt;
 &lt;li&gt;Is the target person/group available at the moment?&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -139,19 +139,21 @@
 
 &lt;p&gt;So it comes to my question to start the discussion: &lt;em&gt;&amp;ldquo;After we read all users&amp;rsquo; reports and logs, what is the common thing they all have? Same language, same location, same OS, same device or&amp;hellip;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Then, we take a careful look at all reports and logs. We find that all customers have the devices from the same manufacturer and they have the same OS.&lt;/p&gt;
+&lt;p&gt;Then, we take a careful look at all reports and logs. We find that all customers have the devices from the same manufacturer and they have the same OS?&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Why the issue happens only on the devices from this manufacturer, with this specific OS?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Then, we search for the news of changes in the new OS provided by this manufacturer. We find that this manufacturer made some changes on handling log-in events. Apparently, some other apps have the similar log-in issue on those devices.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Since the OS changes impact on our app and other apps, what&amp;rsquo;s the common thing in our app and in other impacted apps have?&amp;rdquo;&lt;/em&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Since the OS changes impact on our app and other apps, what&amp;rsquo;s the common thing in our app and in other impacted apps have?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;Each question brings us to a deeper investigation until we finally see the root cause.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;The eventual goal of asking questions is to eliminate ambiguities. Every question has to serve its purpose: &lt;strong&gt;to collect information&lt;/strong&gt;, &lt;strong&gt;to confirm a response&lt;/strong&gt;, &lt;strong&gt;to make a suggestion&lt;/strong&gt; and &lt;strong&gt;to probe the thinking&lt;/strong&gt;. To understand which purpose your question is serving will help you to ask better questions.&lt;/p&gt;
+&lt;p&gt;The ultimate goal of asking questions is to eliminate ambiguities. Every question has to serve its purpose: &lt;strong&gt;to collect information&lt;/strong&gt;, &lt;strong&gt;to confirm a response&lt;/strong&gt;, &lt;strong&gt;to make a suggestion&lt;/strong&gt; and &lt;strong&gt;to probe the thinking&lt;/strong&gt;. Understanding which purpose your question is serving will help you to ask better questions.&lt;/p&gt;
 
 &lt;p&gt;Do you have any questions?&lt;/p&gt;
 
