@@ -17,6 +17,10 @@
       <guid>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
       <description>
 
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;You should not ask questions without knowledge.&amp;rdquo; &amp;ndash; W. Edwards Deming&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;p&gt;A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, asking questions is not always easy. We all know sometimes a bad question may cause some communication troubles:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -115,11 +119,11 @@
 &lt;li&gt;Available person: Bob, Stuart, Designer and PO&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;So it comes to my question during the discussion: &lt;em&gt;&amp;ldquo;As we all know, it&amp;rsquo;s impossible to finish new design of both component A and component B. Since the new design of B depends on A, how about we focus on finishing component A in this release first and then start to work on B in the next release?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So it comes to my question during the discussion: &lt;em&gt;&amp;ldquo;As we all know, it&amp;rsquo;s impossible to finish new designs of both component A and component B. Since the new design of B depends on A, how about we focus on finishing component A in this release first and then start to work on B in the next release?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;i-ask-questions-to-probe-the-thinking&#34;&gt;I ask questions to probe the thinking&lt;/h3&gt;
 
-&lt;p&gt;It applies to the situation that no one has ideas for what is happening. And the root cause is unknown. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/5_Whys&#34;&gt;5-whys&lt;/a&gt; is useful to determine the root cause.&lt;/p&gt;
+&lt;p&gt;It applies to the situation that no one has an idea for what is happening. And the root cause is unknown. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/5_Whys&#34;&gt;5-whys&lt;/a&gt; is useful to determine the root cause.&lt;/p&gt;
 
 &lt;p&gt;The background:&lt;/p&gt;
 
@@ -156,6 +160,8 @@
 &lt;p&gt;The ultimate goal of asking questions is to eliminate ambiguities. Every question has to serve its purpose: &lt;strong&gt;to collect information&lt;/strong&gt;, &lt;strong&gt;to confirm a response&lt;/strong&gt;, &lt;strong&gt;to make a suggestion&lt;/strong&gt; and &lt;strong&gt;to probe the thinking&lt;/strong&gt;. Understanding which purpose your question is serving will help you to ask better questions.&lt;/p&gt;
 
 &lt;p&gt;Do you have any questions?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/F1T5fmx.gif&#34; alt=&#34;question&#34; /&gt;&lt;/p&gt;
 
 &lt;!--
 # Thoughts
