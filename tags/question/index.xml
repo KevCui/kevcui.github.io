@@ -17,7 +17,7 @@
       <guid>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
       <description>
 
-&lt;p&gt;A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, sometimes a bad question may cause some communication troubles:&lt;/p&gt;
+&lt;p&gt;A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, asking questions is not always easy. We all know sometimes a bad question may cause some communication troubles:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;An unnecessary question makes developers annoyed.&lt;/li&gt;
@@ -139,7 +139,7 @@
 
 &lt;p&gt;So it comes to my question to start the discussion: &lt;em&gt;&amp;ldquo;After we read all users&amp;rsquo; reports and logs, what is the common thing they all have? Same language, same location, same OS, same device or&amp;hellip;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Then, we take a careful look at all reports and logs. We find that all customers have the devices from the same manufacturer and they have the same OS?&lt;/p&gt;
+&lt;p&gt;Then, we take a careful look at all reports and logs. We find that all customers have the devices from the same manufacturer and they have the same OS.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Why the issue happens only on the devices from this manufacturer, with this specific OS?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
 
