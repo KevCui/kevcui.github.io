@@ -170,11 +170,20 @@ article:nth-child(10) {
   display: none;
 }
 
-/*
- * Foundation Icons v 3.0
- * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
- * MIT License
- */
+[class^="soc-"],
+[class*=" soc-"] {
+  font-family: 'Socicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .icon:before {
   font-family: "foundation-icons";
   font-style: normal;
@@ -2005,9 +2014,6 @@ pre {
 }
 
 .soc li a {
-    font-family:'si'!important;
-    font-style:normal;
-    font-weight:400;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
     -webkit-box-sizing:border-box;
@@ -2053,26 +2059,29 @@ pre {
 .soc-icon-last{
     margin:0 !important;
 }
+.soc-blogger:before {
+    content:'\e012';
+}
 .soc-twitter:before {
-    content:'\e040';
+    content:'\e08d';
 }
 .soc-github:before {
-    content:'\e030';
+    content:'\e032';
 }
 .soc-medium:before {
-    content:'\e06d';
+    content:'\e051';
+}
+.soc-unsplash:before {
+    content:'\e914';
 }
 .soc-xing:before {
-    content:'\e04b';
+    content:'\e09f';
 }
 .soc-mail:before {
-    content:'\e01f';
+    content:'\e050';
 }
 .soc-rss:before {
-    content:'\e00b';
-}
-#blog-button:before {
-    content:'\e020';
+    content:'\e071';
 }
 .icon-list:before {
     content:'\f169';
