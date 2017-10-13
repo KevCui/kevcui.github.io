@@ -7,7 +7,210 @@
     <language>en-us</language>
     
     
-    <updated>Tue, 20 Jun 2017 21:28:30 CEST</updated>
+    <updated>Tue, 03 Oct 2017 17:50:00 CEST</updated>
+    
+    <item>
+      <title>Asking Better Questions for 4 Different Purposes</title>
+      <link>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</link>
+      <pubDate>Tue, 03 Oct 2017 17:50:00 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
+      <description>
+
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*_7gaDlQJMxk0nz5w3CSklQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://unsplash.com/photos/GxnyOLTxCr8&#34;&gt;Jonathan Simcoe&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;You should not ask questions without knowledge.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; W. Edwards Deming&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, asking questions is not always easy. We all know sometimes a bad question may cause some communication troubles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An unnecessary question makes developers annoyed.&lt;/li&gt;
+&lt;li&gt;A wrong question makes POs confused&lt;/li&gt;
+&lt;li&gt;An absurd question makes stakeholders scared.&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Understanding the purposes of questions may help to ask them effectively. I&amp;rsquo;d like to share some thoughts on how to ask better questions for 4 different purposes.&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-myself-questions-before-asking-people-questions&#34;&gt;I ask myself questions before asking people questions&lt;/h3&gt;
+
+&lt;p&gt;Before asking questions, I consider asking myself questions first to figure out 2 important things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The background of the current situation - questions to figure out &amp;ldquo;what to question&amp;rdquo;:
+
+&lt;ul&gt;
+&lt;li&gt;Do I understand the current situation?&lt;/li&gt;
+&lt;li&gt;Is there anything unclear for me or for others?&lt;/li&gt;
+&lt;li&gt;Is my question important to make the current situation clear for me or for others?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;The target - questions to figure out &amp;ldquo;question to who&amp;rdquo;:
+
+&lt;ul&gt;
+&lt;li&gt;Do I find the correct person/group to address my questions?&lt;/li&gt;
+&lt;li&gt;Do I reduce the number of unnecessary persons?&lt;/li&gt;
+&lt;li&gt;Is the target person/group available at the moment?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If the answers are all &amp;ldquo;yeah&amp;rdquo; for the questions above, it&amp;rsquo;s good to go ahead!&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-collect-information&#34;&gt;I ask questions to collect information&lt;/h3&gt;
+
+&lt;p&gt;It applies to the situation that I&amp;rsquo;m the one who wants to know the answer. Another person may give me the information. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/Open-ended_question&#34;&gt;open questions&lt;/a&gt; are preferable in this case.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: Bob and Stuart were paring on some tasks. But these tasks are marked as &amp;ldquo;blocked&amp;rdquo; on our scum board.&lt;/li&gt;
+&lt;li&gt;Unclear thing for me: These tasks are blocked for which reason?&lt;/li&gt;
+&lt;li&gt;Purpose of the question: I need to know what I can help.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob and Stuart&lt;/li&gt;
+&lt;li&gt;Unnecessary person: Bob or Stuart, no need both of them&lt;/li&gt;
+&lt;li&gt;Available person: Bob. He is going to have a coffee, without his headphone.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question to Bob: &lt;em&gt;&amp;ldquo;I saw that some tasks of this story are currently blocked. I want to know if I can support you on these tasks. Maybe you know what is the blocker?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-confirm-a-response&#34;&gt;I ask questions to confirm a response&lt;/h3&gt;
+
+&lt;p&gt;It applies to the situation that I already knew the answer, but some wordings or terms would confuse people. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/Closed-ended_question&#34;&gt;closed questions&lt;/a&gt; are preferable in this case.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: App has a feature toggle which is disabling the new feature. Now we plan to release the new feature to customers. Bob, PO and I are discussing to turn feature toggle OFF.&lt;/li&gt;
+&lt;li&gt;Unclear thing for people: Bob might think that turning feature toggle OFF means still disabling the new feature.&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It confirms that everyone is clear to let customers see the new feature.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob and PO&lt;/li&gt;
+&lt;li&gt;Unnecessary person: None&lt;/li&gt;
+&lt;li&gt;Available person: Bob and PO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question at the end of discussion: &lt;em&gt;&amp;ldquo;As we discussed, we are going to remove the feature toggle now and release the new feature. Does it means that our customers will see this new feature in the next release?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-make-a-suggestion&#34;&gt;I ask questions to make a suggestion&lt;/h3&gt;
+
+&lt;p&gt;It applies to the situation that I probably know the correct answer, but others may or may not think about it yet. As it&amp;rsquo;s a suggestion and I&amp;rsquo;m not the person who will proceed working on it, I will pay attention to leave it as open as possible for the further discussion.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: Bob, Designer, PO and I are planning to have new designs of component A and component B in this release. Due to the schedule, they are not possible to be completed together in the same release.&lt;/li&gt;
+&lt;li&gt;Unclear thing for others: Component B is dependent on component A, but A is independent on B.&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It provides a solution.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob, Stuart, Designer and PO&lt;/li&gt;
+&lt;li&gt;Unnecessary person: None&lt;/li&gt;
+&lt;li&gt;Available person: Bob, Stuart, Designer and PO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question during the discussion: &lt;em&gt;&amp;ldquo;As we all know, it&amp;rsquo;s impossible to finish new designs of both component A and component B. Since the new design of B depends on A but A doesn&amp;rsquo;t depends on B. How about we focus on finishing component A in this release first and then start to work on B in the next release?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-probe-the-thinking&#34;&gt;I ask questions to probe the thinking&lt;/h3&gt;
+
+&lt;p&gt;It applies to the situation that no one has an idea for what is happening. And the root cause is unknown. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/5_Whys&#34;&gt;5-whys&lt;/a&gt; is useful to determine the root cause.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: Recently many customers send us reports and logs because they cannot log in the app anymore. After an investigation, Bob and Stuart cannot find any useful information to go further.&lt;/li&gt;
+&lt;li&gt;Unclear thing for people: The root cause of users cannot log in is unknown.&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It probes thinking to find out root cause.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob and Stuart&lt;/li&gt;
+&lt;li&gt;Unnecessary person: None&lt;/li&gt;
+&lt;li&gt;Available person: Bob and Stuart&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question to start the discussion: &lt;em&gt;&amp;ldquo;After we read all users&amp;rsquo; reports and logs, what is the common thing they all have? Same language, same location, same OS, same device or&amp;hellip;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, we take a careful look at all reports and logs. We find that all customers have the devices from the same manufacturer and they have the same OS.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Why the issue happens only on the devices from this manufacturer, with this specific OS?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, we search for the news of changes in the new OS provided by this manufacturer. We find that this manufacturer made some changes on handling log-in events. Apparently, some other apps have the similar log-in issue on those devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Since the OS changes impact on our app and other apps, what&amp;rsquo;s the common thing in our app and in other impacted apps have?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Each question brings us to a deeper investigation until we finally determine the root cause.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The ultimate goal of asking questions is to eliminate ambiguities. Every question has to serve its purpose: &lt;strong&gt;to collect information&lt;/strong&gt;, &lt;strong&gt;to confirm a response&lt;/strong&gt;, &lt;strong&gt;to make a suggestion&lt;/strong&gt; and &lt;strong&gt;to probe the thinking&lt;/strong&gt;. Understanding which purpose your question is serving will help you to ask better questions.&lt;/p&gt;
+
+&lt;p&gt;Do you have any questions?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/F1T5fmx.gif&#34; alt=&#34;question&#34; /&gt;&lt;/p&gt;
+
+&lt;!--
+# Thoughts
+m y o
+x - -
+x x -
+x - x
+x x x
+- x -
+- - x
+- x x
+- - -
+
+m: me
+y: you
+o: others
+x: got answer
+-: no answer
+
+k me - to make a suggestion
+k me, you, others - don&#39;t waste time to ask questions
+k me, you or others - to confirm a response
+nk you/others, you and others - to collect information
+nk null - to initialize a discussion
+
+ideas for further:
+care of wording
+given when then: simplify actions
+ask why to what no who
+multiple questions in a roll
+Listening is the key
+avoid double negative
+--&gt;
+</description>
+    </item>
     
     <item>
       <title>I&#39;m A Tester &amp; I&#39;m A Rubber Duck</title>
