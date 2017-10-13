@@ -1490,6 +1490,7 @@ hr {
     color: #FFF; }
 
 .cover-navigation {
+  margin-left: 8px;
   margin-top: 10px; }
 
 .cover-navigation--social {
