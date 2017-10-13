@@ -7,7 +7,210 @@
     <language>en-us</language>
     
     
-    <updated>Sun, 27 Aug 2017 10:07:30 CEST</updated>
+    <updated>Tue, 03 Oct 2017 17:50:00 CEST</updated>
+    
+    <item>
+      <title>Asking Better Questions for 4 Different Purposes</title>
+      <link>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</link>
+      <pubDate>Tue, 03 Oct 2017 17:50:00 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
+      <description>
+
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*_7gaDlQJMxk0nz5w3CSklQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://unsplash.com/photos/GxnyOLTxCr8&#34;&gt;Jonathan Simcoe&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;You should not ask questions without knowledge.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash; W. Edwards Deming&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, asking questions is not always easy. We all know sometimes a bad question may cause some communication troubles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An unnecessary question makes developers annoyed.&lt;/li&gt;
+&lt;li&gt;A wrong question makes POs confused&lt;/li&gt;
+&lt;li&gt;An absurd question makes stakeholders scared.&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Understanding the purposes of questions may help to ask them effectively. I&amp;rsquo;d like to share some thoughts on how to ask better questions for 4 different purposes.&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-myself-questions-before-asking-people-questions&#34;&gt;I ask myself questions before asking people questions&lt;/h3&gt;
+
+&lt;p&gt;Before asking questions, I consider asking myself questions first to figure out 2 important things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The background of the current situation - questions to figure out &amp;ldquo;what to question&amp;rdquo;:
+
+&lt;ul&gt;
+&lt;li&gt;Do I understand the current situation?&lt;/li&gt;
+&lt;li&gt;Is there anything unclear for me or for others?&lt;/li&gt;
+&lt;li&gt;Is my question important to make the current situation clear for me or for others?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;The target - questions to figure out &amp;ldquo;question to who&amp;rdquo;:
+
+&lt;ul&gt;
+&lt;li&gt;Do I find the correct person/group to address my questions?&lt;/li&gt;
+&lt;li&gt;Do I reduce the number of unnecessary persons?&lt;/li&gt;
+&lt;li&gt;Is the target person/group available at the moment?&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If the answers are all &amp;ldquo;yeah&amp;rdquo; for the questions above, it&amp;rsquo;s good to go ahead!&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-collect-information&#34;&gt;I ask questions to collect information&lt;/h3&gt;
+
+&lt;p&gt;It applies to the situation that I&amp;rsquo;m the one who wants to know the answer. Another person may give me the information. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/Open-ended_question&#34;&gt;open questions&lt;/a&gt; are preferable in this case.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: Bob and Stuart were paring on some tasks. But these tasks are marked as &amp;ldquo;blocked&amp;rdquo; on our scum board.&lt;/li&gt;
+&lt;li&gt;Unclear thing for me: These tasks are blocked for which reason?&lt;/li&gt;
+&lt;li&gt;Purpose of the question: I need to know what I can help.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob and Stuart&lt;/li&gt;
+&lt;li&gt;Unnecessary person: Bob or Stuart, no need both of them&lt;/li&gt;
+&lt;li&gt;Available person: Bob. He is going to have a coffee, without his headphone.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question to Bob: &lt;em&gt;&amp;ldquo;I saw that some tasks of this story are currently blocked. I want to know if I can support you on these tasks. Maybe you know what is the blocker?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-confirm-a-response&#34;&gt;I ask questions to confirm a response&lt;/h3&gt;
+
+&lt;p&gt;It applies to the situation that I already knew the answer, but some wordings or terms would confuse people. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/Closed-ended_question&#34;&gt;closed questions&lt;/a&gt; are preferable in this case.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: App has a feature toggle which is disabling the new feature. Now we plan to release the new feature to customers. Bob, PO and I are discussing to turn feature toggle OFF.&lt;/li&gt;
+&lt;li&gt;Unclear thing for people: Bob might think that turning feature toggle OFF means still disabling the new feature.&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It confirms that everyone is clear to let customers see the new feature.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob and PO&lt;/li&gt;
+&lt;li&gt;Unnecessary person: None&lt;/li&gt;
+&lt;li&gt;Available person: Bob and PO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question at the end of discussion: &lt;em&gt;&amp;ldquo;As we discussed, we are going to remove the feature toggle now and release the new feature. Does it means that our customers will see this new feature in the next release?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-make-a-suggestion&#34;&gt;I ask questions to make a suggestion&lt;/h3&gt;
+
+&lt;p&gt;It applies to the situation that I probably know the correct answer, but others may or may not think about it yet. As it&amp;rsquo;s a suggestion and I&amp;rsquo;m not the person who will proceed working on it, I will pay attention to leave it as open as possible for the further discussion.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: Bob, Designer, PO and I are planning to have new designs of component A and component B in this release. Due to the schedule, they are not possible to be completed together in the same release.&lt;/li&gt;
+&lt;li&gt;Unclear thing for others: Component B is dependent on component A, but A is independent on B.&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It provides a solution.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob, Stuart, Designer and PO&lt;/li&gt;
+&lt;li&gt;Unnecessary person: None&lt;/li&gt;
+&lt;li&gt;Available person: Bob, Stuart, Designer and PO&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question during the discussion: &lt;em&gt;&amp;ldquo;As we all know, it&amp;rsquo;s impossible to finish new designs of both component A and component B. Since the new design of B depends on A but A doesn&amp;rsquo;t depends on B. How about we focus on finishing component A in this release first and then start to work on B in the next release?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;i-ask-questions-to-probe-the-thinking&#34;&gt;I ask questions to probe the thinking&lt;/h3&gt;
+
+&lt;p&gt;It applies to the situation that no one has an idea for what is happening. And the root cause is unknown. Usually, &lt;a href=&#34;https://en.wikipedia.org/wiki/5_Whys&#34;&gt;5-whys&lt;/a&gt; is useful to determine the root cause.&lt;/p&gt;
+
+&lt;p&gt;The background:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Current situation: Recently many customers send us reports and logs because they cannot log in the app anymore. After an investigation, Bob and Stuart cannot find any useful information to go further.&lt;/li&gt;
+&lt;li&gt;Unclear thing for people: The root cause of users cannot log in is unknown.&lt;/li&gt;
+&lt;li&gt;Purpose of the question: It probes thinking to find out root cause.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The target:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Correct person: Bob and Stuart&lt;/li&gt;
+&lt;li&gt;Unnecessary person: None&lt;/li&gt;
+&lt;li&gt;Available person: Bob and Stuart&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So it comes to my question to start the discussion: &lt;em&gt;&amp;ldquo;After we read all users&amp;rsquo; reports and logs, what is the common thing they all have? Same language, same location, same OS, same device or&amp;hellip;&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, we take a careful look at all reports and logs. We find that all customers have the devices from the same manufacturer and they have the same OS.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Why the issue happens only on the devices from this manufacturer, with this specific OS?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, we search for the news of changes in the new OS provided by this manufacturer. We find that this manufacturer made some changes on handling log-in events. Apparently, some other apps have the similar log-in issue on those devices.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Since the OS changes impact on our app and other apps, what&amp;rsquo;s the common thing in our app and in other impacted apps have?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Each question brings us to a deeper investigation until we finally determine the root cause.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The ultimate goal of asking questions is to eliminate ambiguities. Every question has to serve its purpose: &lt;strong&gt;to collect information&lt;/strong&gt;, &lt;strong&gt;to confirm a response&lt;/strong&gt;, &lt;strong&gt;to make a suggestion&lt;/strong&gt; and &lt;strong&gt;to probe the thinking&lt;/strong&gt;. Understanding which purpose your question is serving will help you to ask better questions.&lt;/p&gt;
+
+&lt;p&gt;Do you have any questions?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/F1T5fmx.gif&#34; alt=&#34;question&#34; /&gt;&lt;/p&gt;
+
+&lt;!--
+# Thoughts
+m y o
+x - -
+x x -
+x - x
+x x x
+- x -
+- - x
+- x x
+- - -
+
+m: me
+y: you
+o: others
+x: got answer
+-: no answer
+
+k me - to make a suggestion
+k me, you, others - don&#39;t waste time to ask questions
+k me, you or others - to confirm a response
+nk you/others, you and others - to collect information
+nk null - to initialize a discussion
+
+ideas for further:
+care of wording
+given when then: simplify actions
+ask why to what no who
+multiple questions in a roll
+Listening is the key
+avoid double negative
+--&gt;
+</description>
+    </item>
     
     <item>
       <title>One Week with Colemak</title>
@@ -1348,59 +1551,6 @@ Hugo: 29M
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://coolors.co/&#34;&gt;Coolors&lt;/a&gt;: fast color schemes generator&lt;/p&gt;
 
 &lt;p&gt;🌏👉 &lt;a href=&#34;http://www.archetypeapp.com/&#34;&gt;archetype&lt;/a&gt;: create consistent typography styling and spacing live&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Why Hexo Why Not Jekyll</title>
-      <link>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
-      <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
-      
-      <guid>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
-      <description>
-
-&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;http://127.0.0.1:4000/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
-
-&lt;h3 id=&#34;a-net-name-is-half-success&#34;&gt;A net name is half-success&lt;/h3&gt;
-
-&lt;p&gt;Everyone has his own taste on naming. Hexo vs. Jekyll which one is cooler? I cannot tell. But which one is net and easy to write. I vote for hexo.&lt;/p&gt;
-
-&lt;p&gt;You probably are not a clumsy-handed person, but unfortunately sometimes I am. I admit that many times I&amp;rsquo;m stupid (or drunken) to write jekyll as jeykll, jekyl, jekeyll&amp;hellip; How about hexo? I think I still need drink more 🍷 in order to make a spelling mistake of hexo.&lt;/p&gt;
-
-&lt;h3 id=&#34;node-js-home-lovely-home&#34;&gt;Node.js home lovely home&lt;/h3&gt;
-
-&lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to set up project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
-
-&lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable . At the end, the only ting I want is just to set up something in 3 min and spend my time on writing more posts.&lt;/p&gt;
-
-&lt;h3 id=&#34;deployment-it-s-a-magic&#34;&gt;Deployment? It&amp;rsquo;s a magic!&lt;/h3&gt;
-
-&lt;p&gt;The deployment of hexo is amazing. I add my git repo info in _config.xml then run a simple command:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;~$ hexo d
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Done! What a magic! No need git add, git commit, git push&amp;hellip; It&amp;rsquo;s really continent to write and publish a post.&lt;/p&gt;
-
-&lt;p&gt;Another good thing is that hexo organizes git repo nicely. It contains only the final static html, js and css files. Other setup related file like _config.xml or themes or plugins can be stored separately in different repositories. It&amp;rsquo;s wonderful for person who has OCD.&lt;/p&gt;
-
-&lt;h3 id=&#34;setup-theme-dynamically&#34;&gt;Setup theme dynamically&lt;/h3&gt;
-
-&lt;p&gt;With hexo, there will be no more feeling of frustrated at changing theme. Hexo has an interesting structure to organize &lt;a href=&#34;https://hexo.io/docs/themes.html&#34;&gt;&lt;em&gt;themes&lt;/em&gt;&lt;/a&gt; in a separate folder. Choosing a theme is like switching a cloth. And it&amp;rsquo;s possible to have collect different themes 👗 in your armoire.&lt;/p&gt;
-
-&lt;h3 id=&#34;fast&#34;&gt;Fast&lt;/h3&gt;
-
-&lt;p&gt;Overall, hexo gives me an impression &lt;em&gt;fast&lt;/em&gt;, starting from the command execution with one letter:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hexo s &amp;lt;=&amp;gt; hexo server
-hexo g &amp;lt;=&amp;gt; hexo generate
-hexo d &amp;lt;=&amp;gt; hexo deploy
-hexo cl &amp;lt;=&amp;gt; hexo clean
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;According to my needs, compared to Jekyll hexo has a net name, no learning curve, magic deployment, variable themes, and it runs faster. I&amp;rsquo;m quite satisfied with hexo so far. Maybe I will give &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; a try soon. But who knows when I will switch to the &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;next generator&lt;/a&gt;? 😬&lt;/p&gt;
 </description>
     </item>
     

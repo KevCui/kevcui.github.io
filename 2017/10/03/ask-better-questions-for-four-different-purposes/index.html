@@ -1,0 +1,555 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Krazy Kevin </title>
+    
+    <link rel="stylesheet" type="text/css" href="https://krazycavin.github.io/css/uno.min.css" />
+    
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://krazycavin.github.io/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://krazycavin.github.io/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://krazycavin.github.io/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://krazycavin.github.io/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://krazycavin.github.io/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://krazycavin.github.io/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://krazycavin.github.io/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://krazycavin.github.io/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://krazycavin.github.io/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://krazycavin.github.io/images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://krazycavin.github.io/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://krazycavin.github.io/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://krazycavin.github.io/images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://krazycavin.github.io/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://krazycavin.github.io/images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://krazycavin.github.io/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://krazycavin.github.io/images/favicons/mstile-144x144.png">
+    
+    <link href="https://krazycavin.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Krazy Kevin" />
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Asking Better Questions for 4 Different Purposes">
+	<meta property="og:url" content="https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/">
+	<meta property="og:site_name" content="Krazy Kevin">
+    <meta name="twitter:site" content="Krazy Kevin">
+	<meta itemprop="name" content="Asking Better Questions for 4 Different Purposes">
+	<meta name="twitter:title" content="Asking Better Questions for 4 Different Purposes">
+	<meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevcui">
+	
+		<meta name="description" content="A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However...">
+		<meta name="og:description" content="A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However...">
+		<meta name="twitter:description" content="A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However...">
+		<meta itemprop="description" content="A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However...">
+	
+	
+	   <meta property="og:image" content="https://cdn-images-1.medium.com/max/1000/1*_7gaDlQJMxk0nz5w3CSklQ.jpeg"/>
+	   <meta property="twitter:image" content="https://cdn-images-1.medium.com/max/1000/1*_7gaDlQJMxk0nz5w3CSklQ.jpeg"/>
+	   <meta itemprop="image" content="https://cdn-images-1.medium.com/max/1000/1*_7gaDlQJMxk0nz5w3CSklQ.jpeg">
+	
+    
+    <script src="https://krazycavin.github.io/js/jquery.min.js"></script>
+    <script src="https://krazycavin.github.io/js/main.min.js"></script>
+    <link rel="stylesheet" href="https://krazycavin.github.io/css/monokai.min.css">
+    <script src="https://krazycavin.github.io/js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/haven.jpeg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://krazycavin.github.io/" title="link to homepage for Krazy Kevin"> <img src="/images/profile.png" width="80" alt="Krazy Kevin logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="https://krazycavin.github.io/"  title="link to homepage for Krazy Kevin">Krazy Kevin</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  crazy enough to be creative  </p>
+                <p class="panel-cover__mobile-blog"><a title="my blog" class="mobile-sidebar-option mobile-blog-button" href="/#blog">blog</a></p>
+                <p class="panel-cover__mobile-blog"><a title="resume" class="mobile-sidebar-option" href="/resume">résumé</a></p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    <li>
+        <a href="/#blog" title="My Blog" id="blog-button" class="blog-button"><span class="label">Blog</span></a>
+    </li>
+    
+    
+    <li>
+        <a href="http://twitter.com/@KevCui" title="@@KevCui on Twitter" class="soc-twitter" target="_blank"><span class="label">Twitter</span></a>
+    </li> 
+    
+    
+    
+    <li>
+        <a href="https://github.com/KrazyCavin" title="KrazyCavin on github" class="soc-github" target="_blank"><span class="label">Github</span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://medium.com/@kevcui" title="Medium" class="soc-medium" target="_blank"><span class="label">Medium</span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://www.xing.com/profile/Jiawen_Cui" title="Xing" class="soc-xing" target="_blank"><span class="label">Xing</span></a>
+    </li> 
+    
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" class="soc-mail" target="_blank"><span class="label">Email</span></a>
+    </li> 
+    <li>
+        <a href="https://krazycavin.github.io/index.xml" title="Subsribe" class="soc-rss soc-icon-last" target="_blank"><span class="label">RSS</span></a>
+    </li>
+    
+        <p><a class="resume-button" href=/resume>résumé</a></p>
+    
+</ul>
+
+                    </nav>
+                </div>
+                
+                    
+                        <p><a class="main-button" href="/resume">résumé</a></p>
+                    
+                    <p><a class="main-button" href="/#blog">posts</a></p>
+                
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/haven.jpeg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://krazycavin.github.io/" title="link to homepage for Krazy Kevin"> <img src="/images/profile.png" width="80" alt="Krazy Kevin logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="https://krazycavin.github.io/"  title="link to homepage for Krazy Kevin">Krazy Kevin</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  crazy enough to be creative  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    <li>
+        <a href="/#blog" title="My Blog" id="blog-button" class="blog-button"><span class="label">Blog</span></a>
+    </li>
+    
+    
+    <li>
+        <a href="http://twitter.com/@KevCui" title="@@KevCui on Twitter" class="soc-twitter" target="_blank"><span class="label">Twitter</span></a>
+    </li> 
+    
+    
+    
+    <li>
+        <a href="https://github.com/KrazyCavin" title="KrazyCavin on github" class="soc-github" target="_blank"><span class="label">Github</span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://medium.com/@kevcui" title="Medium" class="soc-medium" target="_blank"><span class="label">Medium</span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://www.xing.com/profile/Jiawen_Cui" title="Xing" class="soc-xing" target="_blank"><span class="label">Xing</span></a>
+    </li> 
+    
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" class="soc-mail" target="_blank"><span class="label">Email</span></a>
+    </li> 
+    <li>
+        <a href="https://krazycavin.github.io/index.xml" title="Subsribe" class="soc-rss soc-icon-last" target="_blank"><span class="label">RSS</span></a>
+    </li>
+    
+        <p><a class="resume-button" href=/resume>résumé</a></p>
+    
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        
+                            <p><a class="main-button" href="/resume">résumé</a></p>
+                        
+                        <p><a class="main-button" href="/#blog">posts</a></p>
+                    
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Oct 3, 2017</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/question">question,</a>
+					
+                
+					
+						<a href="/tags/tester">tester,</a>
+					
+                
+					
+						<a href="/tags/experience">experience</a>
+					
+                
+              </span>
+              • 1100 words 6 min. read
+          </div>
+          <h1>Asking Better Questions for 4 Different Purposes</h1>
+          <section id="post-content" class="article-content post">
+              
+
+<p class="hidden">
+    <img src="https://cdn-images-1.medium.com/max/1000/1*_7gaDlQJMxk0nz5w3CSklQ.jpeg" alt="coverimage"/>
+    
+    <sup>
+        <em>
+            from <a href="https://unsplash.com/photos/GxnyOLTxCr8">Jonathan Simcoe</a>
+        </em>
+    </sup>
+    
+</p>
+
+
+<blockquote>
+<p>&ldquo;You should not ask questions without knowledge.&rdquo;</p>
+
+<p>&ndash; W. Edwards Deming</p>
+</blockquote>
+
+<p>A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, asking questions is not always easy. We all know sometimes a bad question may cause some communication troubles:</p>
+
+<ul>
+<li>An unnecessary question makes developers annoyed.</li>
+<li>A wrong question makes POs confused</li>
+<li>An absurd question makes stakeholders scared.</li>
+<li>&hellip;</li>
+</ul>
+
+<p>Understanding the purposes of questions may help to ask them effectively. I&rsquo;d like to share some thoughts on how to ask better questions for 4 different purposes.</p>
+
+<h3 id="i-ask-myself-questions-before-asking-people-questions">I ask myself questions before asking people questions</h3>
+
+<p>Before asking questions, I consider asking myself questions first to figure out 2 important things:</p>
+
+<ol>
+<li>The background of the current situation - questions to figure out &ldquo;what to question&rdquo;:
+
+<ul>
+<li>Do I understand the current situation?</li>
+<li>Is there anything unclear for me or for others?</li>
+<li>Is my question important to make the current situation clear for me or for others?</li>
+</ul></li>
+<li>The target - questions to figure out &ldquo;question to who&rdquo;:
+
+<ul>
+<li>Do I find the correct person/group to address my questions?</li>
+<li>Do I reduce the number of unnecessary persons?</li>
+<li>Is the target person/group available at the moment?</li>
+</ul></li>
+</ol>
+
+<p>If the answers are all &ldquo;yeah&rdquo; for the questions above, it&rsquo;s good to go ahead!</p>
+
+<h3 id="i-ask-questions-to-collect-information">I ask questions to collect information</h3>
+
+<p>It applies to the situation that I&rsquo;m the one who wants to know the answer. Another person may give me the information. Usually, <a href="https://en.wikipedia.org/wiki/Open-ended_question">open questions</a> are preferable in this case.</p>
+
+<p>The background:</p>
+
+<ul>
+<li>Current situation: Bob and Stuart were paring on some tasks. But these tasks are marked as &ldquo;blocked&rdquo; on our scum board.</li>
+<li>Unclear thing for me: These tasks are blocked for which reason?</li>
+<li>Purpose of the question: I need to know what I can help.</li>
+</ul>
+
+<p>The target:</p>
+
+<ul>
+<li>Correct person: Bob and Stuart</li>
+<li>Unnecessary person: Bob or Stuart, no need both of them</li>
+<li>Available person: Bob. He is going to have a coffee, without his headphone.</li>
+</ul>
+
+<p>So it comes to my question to Bob: <em>&ldquo;I saw that some tasks of this story are currently blocked. I want to know if I can support you on these tasks. Maybe you know what is the blocker?&rdquo;</em></p>
+
+<h3 id="i-ask-questions-to-confirm-a-response">I ask questions to confirm a response</h3>
+
+<p>It applies to the situation that I already knew the answer, but some wordings or terms would confuse people. Usually, <a href="https://en.wikipedia.org/wiki/Closed-ended_question">closed questions</a> are preferable in this case.</p>
+
+<p>The background:</p>
+
+<ul>
+<li>Current situation: App has a feature toggle which is disabling the new feature. Now we plan to release the new feature to customers. Bob, PO and I are discussing to turn feature toggle OFF.</li>
+<li>Unclear thing for people: Bob might think that turning feature toggle OFF means still disabling the new feature.</li>
+<li>Purpose of the question: It confirms that everyone is clear to let customers see the new feature.</li>
+</ul>
+
+<p>The target:</p>
+
+<ul>
+<li>Correct person: Bob and PO</li>
+<li>Unnecessary person: None</li>
+<li>Available person: Bob and PO</li>
+</ul>
+
+<p>So it comes to my question at the end of discussion: <em>&ldquo;As we discussed, we are going to remove the feature toggle now and release the new feature. Does it means that our customers will see this new feature in the next release?&rdquo;</em></p>
+
+<h3 id="i-ask-questions-to-make-a-suggestion">I ask questions to make a suggestion</h3>
+
+<p>It applies to the situation that I probably know the correct answer, but others may or may not think about it yet. As it&rsquo;s a suggestion and I&rsquo;m not the person who will proceed working on it, I will pay attention to leave it as open as possible for the further discussion.</p>
+
+<p>The background:</p>
+
+<ul>
+<li>Current situation: Bob, Designer, PO and I are planning to have new designs of component A and component B in this release. Due to the schedule, they are not possible to be completed together in the same release.</li>
+<li>Unclear thing for others: Component B is dependent on component A, but A is independent on B.</li>
+<li>Purpose of the question: It provides a solution.</li>
+</ul>
+
+<p>The target:</p>
+
+<ul>
+<li>Correct person: Bob, Stuart, Designer and PO</li>
+<li>Unnecessary person: None</li>
+<li>Available person: Bob, Stuart, Designer and PO</li>
+</ul>
+
+<p>So it comes to my question during the discussion: <em>&ldquo;As we all know, it&rsquo;s impossible to finish new designs of both component A and component B. Since the new design of B depends on A but A doesn&rsquo;t depends on B. How about we focus on finishing component A in this release first and then start to work on B in the next release?&rdquo;</em></p>
+
+<h3 id="i-ask-questions-to-probe-the-thinking">I ask questions to probe the thinking</h3>
+
+<p>It applies to the situation that no one has an idea for what is happening. And the root cause is unknown. Usually, <a href="https://en.wikipedia.org/wiki/5_Whys">5-whys</a> is useful to determine the root cause.</p>
+
+<p>The background:</p>
+
+<ul>
+<li>Current situation: Recently many customers send us reports and logs because they cannot log in the app anymore. After an investigation, Bob and Stuart cannot find any useful information to go further.</li>
+<li>Unclear thing for people: The root cause of users cannot log in is unknown.</li>
+<li>Purpose of the question: It probes thinking to find out root cause.</li>
+</ul>
+
+<p>The target:</p>
+
+<ul>
+<li>Correct person: Bob and Stuart</li>
+<li>Unnecessary person: None</li>
+<li>Available person: Bob and Stuart</li>
+</ul>
+
+<p>So it comes to my question to start the discussion: <em>&ldquo;After we read all users&rsquo; reports and logs, what is the common thing they all have? Same language, same location, same OS, same device or&hellip;&rdquo;</em></p>
+
+<p>Then, we take a careful look at all reports and logs. We find that all customers have the devices from the same manufacturer and they have the same OS.</p>
+
+<p><em>&ldquo;Why the issue happens only on the devices from this manufacturer, with this specific OS?&rdquo;</em></p>
+
+<p>Then, we search for the news of changes in the new OS provided by this manufacturer. We find that this manufacturer made some changes on handling log-in events. Apparently, some other apps have the similar log-in issue on those devices.</p>
+
+<p><em>&ldquo;Since the OS changes impact on our app and other apps, what&rsquo;s the common thing in our app and in other impacted apps have?&rdquo;</em></p>
+
+<p>&hellip;</p>
+
+<p>Each question brings us to a deeper investigation until we finally determine the root cause.</p>
+
+<hr />
+
+<p>The ultimate goal of asking questions is to eliminate ambiguities. Every question has to serve its purpose: <strong>to collect information</strong>, <strong>to confirm a response</strong>, <strong>to make a suggestion</strong> and <strong>to probe the thinking</strong>. Understanding which purpose your question is serving will help you to ask better questions.</p>
+
+<p>Do you have any questions?</p>
+
+<p><img src="http://i.imgur.com/F1T5fmx.gif" alt="question" /></p>
+
+<!--
+# Thoughts
+m y o
+x - -
+x x -
+x - x
+x x x
+- x -
+- - x
+- x x
+- - -
+
+m: me
+y: you
+o: others
+x: got answer
+-: no answer
+
+k me - to make a suggestion
+k me, you, others - don't waste time to ask questions
+k me, you or others - to confirm a response
+nk you/others, you and others - to collect information
+nk null - to initialize a discussion
+
+ideas for further:
+care of wording
+given when then: simplify actions
+ask why to what no who
+multiple questions in a roll
+Listening is the key
+avoid double negative
+-->
+
+          </section>
+          
+          <br/>
+        </div>
+        <section class="share">
+    <p class="sharethis">Share this:</p>
+
+    
+    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f03%2fask-better-questions-for-four-different-purposes%2f&title=Asking%20Better%20Questions%20for%204%20Different%20Purposes&summary=A%20good%20tester%20asks%20good%20questions.%20Asking%20questions%20is%20a%20must-have%20skill%20for%20a%20software%20tester.%20Therefore%2c%20as%20a%20software%20tester%2c%20I%20see%20asking%20questions%20as%20a%20privilege%2c%20which%20is%20allowed%20under%20any%20circumstances.%20However..." target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Asking%20Better%20Questions%20for%204%20Different%20Purposes&amp;url=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f03%2fask-better-questions-for-four-different-purposes%2f" target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://plus.google.com/share?url=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f03%2fask-better-questions-for-four-different-purposes%2f" target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--google resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.37 12.93c-.73-.52-1.4-1.27-1.4-1.5 0-.43.03-.63.98-1.37 1.23-.97 1.9-2.23 1.9-3.57 0-1.22-.36-2.3-1-3.05h.5c.1 0 .2-.04.28-.1l1.36-.98c.16-.12.23-.34.17-.54-.07-.2-.25-.33-.46-.33H7.6c-.66 0-1.34.12-2 .35-2.23.76-3.78 2.66-3.78 4.6 0 2.76 2.13 4.85 5 4.9-.07.23-.1.45-.1.66 0 .43.1.83.33 1.22h-.08c-2.72 0-5.17 1.34-6.1 3.32-.25.52-.37 1.04-.37 1.56 0 .5.13.98.38 1.44.6 1.04 1.84 1.86 3.55 2.28.87.23 1.82.34 2.8.34.88 0 1.7-.1 2.5-.34 2.4-.7 3.97-2.48 3.97-4.54 0-1.97-.63-3.15-2.33-4.35zm-7.7 4.5c0-1.42 1.8-2.68 3.9-2.68h.05c.45 0 .9.07 1.3.2l.42.28c.96.66 1.6 1.1 1.77 1.8.05.16.07.33.07.5 0 1.8-1.33 2.7-3.96 2.7-1.98 0-3.54-1.23-3.54-2.8zM5.54 3.9c.33-.38.75-.58 1.23-.58h.05c1.35.05 2.64 1.55 2.88 3.35.14 1.02-.08 1.97-.6 2.55-.32.37-.74.56-1.23.56h-.03c-1.32-.04-2.63-1.6-2.87-3.4-.13-1 .08-1.92.58-2.5zM23.5 9.5h-3v-3h-2v3h-3v2h3v3h2v-3h3"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f03%2fask-better-questions-for-four-different-purposes%2f&title=Asking%20Better%20Questions%20for%204%20Different%20Purposes" target="_blank" aria-label="">
+        <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.75-1.64-6.07-1.72.08-1.1.4-3.05 1.52-3.7.72-.4 1.73-.24 3 .5C17.2 6.3 18.46 7.5 20 7.5c1.65 0 3-1.35 3-3s-1.35-3-3-3c-1.38 0-2.54.94-2.88 2.22-1.43-.72-2.64-.8-3.6-.25-1.64.94-1.95 3.47-2 4.55-2.33.08-4.45.7-6.1 1.72C4.86 8.98 3.96 8.5 3 8.5c-1.65 0-3 1.35-3 3 0 1.32.84 2.44 2.05 2.84-.03.22-.05.44-.05.66 0 3.86 4.5 7 10 7s10-3.14 10-7c0-.22-.02-.44-.05-.66 1.2-.4 2.05-1.54 2.05-2.84zM2.3 13.37C1.5 13.07 1 12.35 1 11.5c0-1.1.9-2 2-2 .64 0 1.22.32 1.6.82-1.1.85-1.92 1.9-2.3 3.05zm3.7.13c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9.8 4.8c-1.08.63-2.42.96-3.8.96-1.4 0-2.74-.34-3.8-.95-.24-.13-.32-.44-.2-.68.15-.24.46-.32.7-.18 1.83 1.06 4.76 1.06 6.6 0 .23-.13.53-.05.67.2.14.23.06.54-.18.67zm.2-2.8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm5.7-2.13c-.38-1.16-1.2-2.2-2.3-3.05.38-.5.97-.82 1.6-.82 1.1 0 2 .9 2 2 0 .84-.53 1.57-1.3 1.87z"/></svg>
+            </div>
+        </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&canonicalUrl=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f03%2fask-better-questions-for-four-different-purposes%2f" target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5.5v5h5v4h-5V15c0 5 3.5 4.4 6 2.8v4.4c-6.7 3.2-12 0-12-4.2V9.5h-3V6.7c1-.3 2.2-.7 3-1.3.5-.5 1-1.2 1.4-2 .3-.7.6-1.7.7-3h3.8z"/></svg>
+          </div>
+      </div>
+    </a>
+    
+    
+      
+        
+        
+      
+    
+
+    
+    <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f03%2fask-better-questions-for-four-different-purposes%2f&amp;title=Asking%20Better%20Questions%20for%204%20Different%20Purposes&amp;summary=A%20good%20tester%20asks%20good%20questions.%20Asking%20questions%20is%20a%20must-have%20skill%20for%20a%20software%20tester.%20Therefore%2c%20as%20a%20software%20tester%2c%20I%20see%20asking%20questions%20as%20a%20privilege%2c%20which%20is%20allowed%20under%20any%20circumstances.%20However...&amp;source=nnn" target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f03%2fask-better-questions-for-four-different-purposes%2f&title=Asking%20Better%20Questions%20for%204%20Different%20Purposes" target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.2 9.7l-3-5.4C7.2 4 7 4 6.8 4h-5c-.3 0-.4 0-.5.2v.5L4 10 .4 16v.5c0 .2.2.3.4.3h5c.3 0 .4 0 .5-.2l4-6.6v-.5zM24 .2l-.5-.2H18s-.2 0-.3.3l-8 14v.4l5.2 9c0 .2 0 .3.3.3h5.4s.3 0 .4-.2c.2-.2.2-.4 0-.5l-5-8.8L24 .7V.2z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    
+      
+        
+        
+      
+    
+
+</section>
+
+        
+
+        <footer class="footer">
+    <span class="footer__copyright">&copy; 2017 Kevin Cui </span>
+</footer>
+
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+    title: "Index",
+    overlay: true,
+    contentId: "post-content",
+});
+</script>
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-87663794-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>
