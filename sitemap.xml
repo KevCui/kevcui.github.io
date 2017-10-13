@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</loc>
-    <lastmod>2017-10-03T17:50:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://krazycavin.github.io/2017/08/27/one-week-with-colemak/</loc>
     <lastmod>2017-08-27T10:07:30+02:00</lastmod>
   </url>
@@ -229,12 +224,6 @@
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/tags/experience/</loc>
-    <lastmod>2017-10-03T17:50:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://krazycavin.github.io/tags/exploratory/</loc>
     <lastmod>2017-04-17T22:30:00+02:00</lastmod>
     <priority>0</priority>
@@ -296,7 +285,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/</loc>
-    <lastmod>2017-10-03T17:50:00+02:00</lastmod>
+    <lastmod>2017-08-27T10:07:30+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -314,7 +303,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/post/</loc>
-    <lastmod>2017-10-03T17:50:00+02:00</lastmod>
+    <lastmod>2017-08-27T10:07:30+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -327,12 +316,6 @@
   <url>
     <loc>https://krazycavin.github.io/tags/qa/</loc>
     <lastmod>2017-01-13T17:20:53+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://krazycavin.github.io/tags/question/</loc>
-    <lastmod>2017-10-03T17:50:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -368,7 +351,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/tags/tester/</loc>
-    <lastmod>2017-10-03T17:50:00+02:00</lastmod>
+    <lastmod>2017-06-20T21:28:30+02:00</lastmod>
     <priority>0</priority>
   </url>
   
