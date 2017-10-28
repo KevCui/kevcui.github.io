@@ -88,11 +88,6 @@
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/2017/01/13/nobody-asks-me-questions-but-i-give-some-answers/</loc>
-    <lastmod>2017-01-13T17:20:53+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://krazycavin.github.io/2017/01/08/bugshido/</loc>
     <lastmod>2017-01-08T12:31:43+02:00</lastmod>
   </url>
@@ -130,12 +125,6 @@
   
   <url>
     <loc>https://krazycavin.github.io/resume/</loc>
-  </url>
-  
-  <url>
-    <loc>https://krazycavin.github.io/tags/about-me/</loc>
-    <lastmod>2017-01-13T17:20:53+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -325,12 +314,6 @@
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/tags/qa/</loc>
-    <lastmod>2017-01-13T17:20:53+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://krazycavin.github.io/tags/question/</loc>
     <lastmod>2017-10-03T17:50:00+02:00</lastmod>
     <priority>0</priority>
@@ -356,7 +339,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/tags/</loc>
-    <lastmod>2017-01-13T17:20:53+02:00</lastmod>
+    <lastmod>2017-07-11T20:57:53+02:00</lastmod>
     <priority>0</priority>
   </url>
   
