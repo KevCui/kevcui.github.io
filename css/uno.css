@@ -1425,8 +1425,7 @@ hr {
   width: 40%;
   max-width: 530px; }
 
-.panel-cover.panel-cover--collapsed #blog-button,
-.panel-cover.panel-cover--collapsed .mobile-sidebar-option {
+.panel-cover.panel-cover--collapsed #blog-button {
   display: none; }
 
 .panel-cover--overlay {
@@ -1887,7 +1886,7 @@ input[type="tel"] {
     display: block; }
 
   .share,
-  .main-button,
+  .panel-cover.panel-cover--collapsed .main-button,
   .panel-cover.panel-cover--collapsed .panel-cover__mobile-button,
   .panel-cover.panel-cover--collapsed .panel-cover__title,
   .panel-cover.panel-cover--collapsed .panel-cover__logo,
