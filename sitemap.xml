@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://krazycavin.github.io/2017/10/28/tweet-pinboard_05-092017/</loc>
+    <lastmod>2017-10-28T15:15:43+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</loc>
     <lastmod>2017-10-03T17:50:00+02:00</lastmod>
   </url>
@@ -53,7 +58,7 @@
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/2017/04/23/tweet-pinboard_01-052017/</loc>
+    <loc>https://krazycavin.github.io/2017/04/23/tweet-pinboard_01-042017/</loc>
     <lastmod>2017-04-23T11:19:25+02:00</lastmod>
   </url>
   
@@ -146,13 +151,13 @@
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/categories/bug/</loc>
+    <loc>https://krazycavin.github.io/tags/bug/</loc>
     <lastmod>2017-01-08T12:31:43+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/tags/bug/</loc>
+    <loc>https://krazycavin.github.io/categories/bug/</loc>
     <lastmod>2017-01-08T12:31:43+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -266,14 +271,14 @@
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/categories/jekyll/</loc>
-    <lastmod>2016-11-18T22:09:23+02:00</lastmod>
+    <loc>https://krazycavin.github.io/tags/jekyll/</loc>
+    <lastmod>2017-02-26T16:40:26+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/tags/jekyll/</loc>
-    <lastmod>2017-02-26T16:40:26+02:00</lastmod>
+    <loc>https://krazycavin.github.io/categories/jekyll/</loc>
+    <lastmod>2016-11-18T22:09:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -285,13 +290,13 @@
   
   <url>
     <loc>https://krazycavin.github.io/</loc>
-    <lastmod>2017-10-03T17:50:00+02:00</lastmod>
+    <lastmod>2017-10-28T15:15:43+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://krazycavin.github.io/tags/list/</loc>
-    <lastmod>2017-04-23T11:19:25+02:00</lastmod>
+    <lastmod>2017-10-28T15:15:43+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -303,7 +308,7 @@
   
   <url>
     <loc>https://krazycavin.github.io/post/</loc>
-    <lastmod>2017-10-03T17:50:00+02:00</lastmod>
+    <lastmod>2017-10-28T15:15:43+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -356,14 +361,14 @@
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/categories/testing/</loc>
-    <lastmod>2016-12-01T21:37:35+02:00</lastmod>
+    <loc>https://krazycavin.github.io/tags/testing/</loc>
+    <lastmod>2017-05-02T20:35:50+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/tags/testing/</loc>
-    <lastmod>2017-05-02T20:35:50+02:00</lastmod>
+    <loc>https://krazycavin.github.io/categories/testing/</loc>
+    <lastmod>2016-12-01T21:37:35+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -380,14 +385,14 @@
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/categories/twitter/</loc>
-    <lastmod>2016-12-11T22:00:00+02:00</lastmod>
+    <loc>https://krazycavin.github.io/tags/twitter/</loc>
+    <lastmod>2017-10-28T15:15:43+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://krazycavin.github.io/tags/twitter/</loc>
-    <lastmod>2017-04-23T11:19:25+02:00</lastmod>
+    <loc>https://krazycavin.github.io/categories/twitter/</loc>
+    <lastmod>2016-12-11T22:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
