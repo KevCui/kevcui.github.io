@@ -7,7 +7,117 @@
     <language>en-us</language>
     
     
-    <updated>Sat, 28 Oct 2017 15:15:43 CEST</updated>
+    <updated>Sun, 29 Oct 2017 15:11:23 CET</updated>
+    
+    <item>
+      <title>Ghost in the Shell - A Testing Horror Story</title>
+      <link>https://krazycavin.github.io/2017/10/29/ghost-in-the-shell/</link>
+      <pubDate>Sun, 29 Oct 2017 15:11:23 CET</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/10/29/ghost-in-the-shell/</guid>
+      <description>
+
+&lt;p class=&#34;hidden&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*-3tBMgj6n1bSgjgDHaHP7A.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://unsplash.com/photos/V9keLsAtxyA&#34;&gt;Scott Walsh&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;em&gt;Disclaimer: This story may never happen in my life. However, it may happen in yours.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rick&#34;&gt;Rick&lt;/h3&gt;
+
+&lt;p&gt;&amp;ldquo;So, you are Rick? Nice to meet you.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m shaking hands with a middle-aged woman in her office. She is talking to me. She is Madame Q, the QA manager of Y Bank.&lt;/p&gt;
+
+&lt;p&gt;My name is Rick, 30 years old single male. I&amp;rsquo;m a software developer in test. I&amp;rsquo;m working as a software consultant in banking. I&amp;rsquo;m universally recognized in my consultant company as the top talent. My business is to help my client solve their technical problems in software testing. I have a motto &amp;ldquo;Automate all the things!&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Today is my first day in Y Bank. I have a 3-month project here to provide them a test automation solution.&lt;/p&gt;
+
+&lt;h3 id=&#34;y-bank&#34;&gt;Y Bank&lt;/h3&gt;
+
+&lt;p&gt;Y Bank is one of the top banks in the world. As a Fortune 500 company, Y Bank provides tons of financial services in the worldwide. In this department, there are around 50 developers and 10 testers. All of them are consultants from different IT consultant companies. They are developing an online banking tool, which provides financial services to other companies.&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-team&#34;&gt;QA team&lt;/h3&gt;
+
+&lt;p&gt;Madame Q is showing me my working place. It&amp;rsquo;s an open space with around 10 desks.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Welcome to our QA team. Currently, we have 5 manual testers and 3 automation testers.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Everyone in the office suddenly stands up and comes closer to me. They tell me their names and shake hands with me.&lt;/p&gt;
+
+&lt;p&gt;She points to the corner where my desk is.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;In case, you wonder where are developers. There is another open office for them. We are in building A. They are in building B.&amp;rdquo;&lt;/p&gt;
+
+&lt;h3 id=&#34;plan&#34;&gt;Plan&lt;/h3&gt;
+
+&lt;p&gt;In 3 months, they are going to launch a final product. There will be a 1-week quality gate in 2 months. As QA team, we have to catch all bugs during the quality gate. Then developers will use 1 month to fix all bugs. After that, QA team will have another 1-week regression testing session to validate the whole product. Then hopefully, it&amp;rsquo;s a happy ending.&lt;/p&gt;
+
+&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;
+
+&lt;p&gt;QA team doesn&amp;rsquo;t have enough manpower to verify all requirements of products in just 1 week. Madame Q came up with a suggestion: automatizing as many as possible requirements in order to reduce manual work. After calculated investments and benefits, the higher managers approved Madame Q&amp;rsquo;s suggestion. That&amp;rsquo;s why now I&amp;rsquo;m involved in her plan. Madame Q starts to present her ambitious goal: In 2 months, we are going to automatize 1000 test cases, from scratch.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-one&#34;&gt;The One&lt;/h3&gt;
+
+&lt;p&gt;Although I don&amp;rsquo;t know how good other 3 automation testers are, I trust absolutely my technical skills.&lt;/p&gt;
+
+&lt;p&gt;After several days, I find out another 3 automation testers are quite junior-ish. They didn&amp;rsquo;t say anything about how to proceed this project, but you can see the worries from their faces.&lt;/p&gt;
+
+&lt;p&gt;After several meetings with other testers and developers, I know more or less how the product works.&lt;/p&gt;
+
+&lt;p&gt;I know that I&amp;rsquo;m the One who can save the plan. Then, I organize a meeting with Lead Developer, Head of Developers and Madame Q. I propose them a test automation framework and show them what we are going to do. Everything I planned looks reasonable. I see they are knocking their heads. They didn&amp;rsquo;t say anything about how to proceed this plan, but you can see the satisfaction from their faces.&lt;/p&gt;
+
+&lt;p&gt;Next day, Madame Q dispatches tasks to automation team. Now I&amp;rsquo;m alone in charge of implementing the test automation framework. Others are working on creating test cases from automatizing requirements.&lt;/p&gt;
+
+&lt;h3 id=&#34;ghosts&#34;&gt;Ghosts&lt;/h3&gt;
+
+&lt;p&gt;Finally, after 1 month, I finished the whole setup of automation framework: Tests can be executed automatically; Test reports will be sent to managers&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;The whole test automation part looks really shining, as the same stuff I did in my last projects. Everyone, no matter he or she understands what I did, gives me their thumbs-up. I&amp;rsquo;m gaining my reputation very fast. Even testers on other sites in Y Bank, they invite me to their meeting to discuss their test automation.&lt;/p&gt;
+
+&lt;p&gt;Below the surface, things get chill.&lt;/p&gt;
+
+&lt;p&gt;Several test cases are not handled perfectly in the framework. Sometimes they pass, sometimes they fail. They are like ghosts haunting in the system. These strange creatures will cause people being worried. Therefore, people will start to lose the confidences on my automation framework setup.&lt;/p&gt;
+
+&lt;p&gt;Gladly, I blocked all these test cases running in the system. No one else knows this secret, except the guy Jack who created these test cases. I required him to fix these tests, although I know that he did all tests correctly.&lt;/p&gt;
+
+&lt;p&gt;Next day, Madame Q organizes a meeting to ask for the number of test cases. In order to make the number reaching 1000, I decide to add these ghost tests in official execution suite. They will be executed as the first time in the quality gate. Jack shows his worry about my decision. I tell him to keep calm because I have already the idea how to fix ghost tests. Besides, we don&amp;rsquo;t need to worry about the initial goal anymore.&lt;/p&gt;
+
+&lt;h3 id=&#34;judgment-day&#34;&gt;Judgment Day&lt;/h3&gt;
+
+&lt;p&gt;Today is the day when quality gate starts, as known as Judgment Day. For us, automation testers, we are quite relaxed. All the test cases are triggered automatically to check target release build. It will take a roughly half day to get the final green-red style test report.&lt;/p&gt;
+
+&lt;p&gt;When I open the final test report in my mailbox, surprisingly, all ghost tests are marked as green color. It&amp;rsquo;s the color with full of hope. I breathe a sigh of relief.&lt;/p&gt;
+
+&lt;h3 id=&#34;ending&#34;&gt;Ending&lt;/h3&gt;
+
+&lt;p&gt;Weeks later, when I come to the office, there is an envelope on my desk. My name &amp;ldquo;Rick&amp;rdquo; is writing on the envelope. I know that it&amp;rsquo;s an outcome of my last talk with Madame Q, before she flies to another country for the product launch. I know, inside this envelop, it&amp;rsquo;s a job offer. Y Bank wants me to become an official employee, with a higher position.&lt;/p&gt;
+
+&lt;p&gt;Today is also my last day of the 3-month project. I need to decide now whether to accept this offer or not. I&amp;rsquo;m sitting in my chair and thinking whole day long.&lt;/p&gt;
+
+&lt;p&gt;Everyone in the office starts to go home. Staring at the envelope, I still don&amp;rsquo;t have a clue.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s time that the nightly test execution starts running. My computer screen turns on, showing me the monitoring of each execution. The first test is green, now it runs the second one&amp;hellip; green, green and green&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;I stand up and take my bag. I walk to the door and turn off the lights of the office. I look back in the office, only my computer screen is bright in the darkness. It shows green, green and green&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Suddenly, everything on the screen stops moving. It turns a full-screen warning in red. The red color is expanding and eating all the darkness. There is a name on the envelope reflected by the red light. It is a bloody red &amp;ldquo;Rick&amp;rdquo;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Happy Halloween! 🎃&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://media.riffsy.com/images/1b75507a048bbedb7b7c3bc27a3f21d1/tenor.gif&#34; alt=&#34;pumpkin-dance&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Tweet Pinboard: May 2017 - September 2017</title>
@@ -1496,64 +1606,6 @@ Hugo: 29M
 &lt;li&gt;You already use hexo, and you want to learn new thing, and you&amp;rsquo;ve 1-2 days free time, then &lt;strong&gt;hugo&lt;/strong&gt; would be a good choice for you.&lt;/li&gt;
 &lt;li&gt;You already use hugo, then keep using &lt;strong&gt;hugo&lt;/strong&gt; and don&amp;rsquo;t look around 😉&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bye Firefox</title>
-      <link>https://krazycavin.github.io/2017/03/27/bye-firefox/</link>
-      <pubDate>Mon, 27 Mar 2017 23:02:13 CEST</pubDate>
-      
-      <guid>https://krazycavin.github.io/2017/03/27/bye-firefox/</guid>
-      <description>
-
-&lt;p class=&#34;hidden&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Tz47QFcn9AAdFIOI-LOPkw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-    &lt;sup&gt;
-        &lt;em&gt;
-            from &lt;a href=&#34;https://www.flickr.com/photos/garrett/280258600/in/photostream/&#34;&gt;Garrrett LeSage&lt;/a&gt;
-        &lt;/em&gt;
-    &lt;/sup&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;Love, without any reason. Leave, with a good reason.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Last week, I made my decision to switch from Firefox to Chromium. Although it&amp;rsquo;s not my first time trying to ditch Firefox, I&amp;rsquo;m quite sure this time it would be the last time. As I&amp;rsquo;m a reasonable person, therefore, I put my thoughts in this post with the reason why I made my decision.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-pressure-from-outside&#34;&gt;A pressure from outside&lt;/h3&gt;
-
-&lt;p&gt;I didn&amp;rsquo;t really remember since when I started to use Firefox, I always have it as my main browser. Back to the old good day, Firefox relies on its lightweight and fast speed amazing the world. No doubt it was the best browser. Nowadays, it is still one of the most popular browsers but definitely not top one. Many statics show it dramatically lost users &lt;a href=&#34;http://gs.statcounter.com/browser-market-share#monthly-201001-201702&#34;&gt;here&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; and &lt;a href=&#34;https://www.w3schools.com/browsers/default.asp&#34;&gt;here&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. It&amp;rsquo;s disappointed to see the number of Firefox users keep shrinking. During the decline in 2015, &lt;a href=&#34;https://arstechnica.com/business/2016/05/firefox-overtakes-microsoft-internet-explorer-edge-browsers-first-time-statcounter/&#34;&gt;Firefox tops IE &amp;amp; Edge browser market share for the first time&lt;/a&gt;. It was especially ironic.&lt;/p&gt;
-
-&lt;p&gt;Is Firefox not good enough? It&amp;rsquo;s probably good enough. But its competitors are better. I ran some performance tests, like &lt;a href=&#34;http://browserbench.org/JetStream/&#34;&gt;JetStream&lt;/a&gt;, &lt;a href=&#34;https://chromium.github.io/octane/&#34;&gt;Octane 2.0&lt;/a&gt;, &lt;a href=&#34;http://browserbench.org/Speedometer/&#34;&gt;Speedometer&lt;/a&gt; on Firefox v52 and Chromium v56 with my Linux desktop. Chromium wins them all and beats Firefox easily. Besides that, personally I prefer Chromium built-in devtool and &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; is a huge +1.&lt;/p&gt;
-
-&lt;p&gt;These facts become a pressure from outside that weighs on Firefox. Once you run behind others, and you put all the effort to catch up. What people will see is that you&amp;rsquo;re following the same path, which others did already. It&amp;rsquo;s damn sad.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-reason-of-love&#34;&gt;A reason of love&lt;/h3&gt;
-
-&lt;p&gt;When one performs obviously better than another, why I should keep both? Yes I do have a reason, the only reason I feel comfortable to stay with Firefox. &lt;a href=&#34;https://github.com/vimperator/vimperator-labs&#34;&gt;Vimperator&lt;/a&gt; a Firefox-only add-on which completely changes Firefox interface and turns it to vim-like. It provides me an efficient way to use the browser. I&amp;rsquo;m totally fascinated by it.&lt;/p&gt;
-
-&lt;p&gt;As we all know, this year Firefox will face some big changes. One of them is e10s. Sadly, &lt;a href=&#34;https://github.com/vimperator/vimperator-labs/issues/211&#34;&gt;Vimperator seams won&amp;rsquo;t support e10s&lt;/a&gt; and the site &lt;a href=&#34;https://www.arewee10syet.com/&#34;&gt;Are we e10s yet?&lt;/a&gt; marks Vimperator as incompatible. It&amp;rsquo;s about time, sooner this November, anyway I will say goodbye to Vimperator, to Firefox. That&amp;rsquo;s it.&lt;/p&gt;
-
-&lt;p&gt;Now I live well with Chromium. There are lots of alternatives to try: &lt;a href=&#34;https://github.com/philc/vimium&#34;&gt;Vimium&lt;/a&gt;, &lt;a href=&#34;https://github.com/1995eaton/chromium-vim&#34;&gt;cVim&lt;/a&gt;, &lt;a href=&#34;https://github.com/jinzhu/vrome&#34;&gt;Vrome&lt;/a&gt; and this &lt;a href=&#34;https://brookhong.github.io/2015/09/15/surfingkeys.html&#34;&gt;interesting idea&lt;/a&gt;&amp;hellip; I know they are not as powerful as Vimperator. To fit my needs, they&amp;rsquo;re good enough.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-future-of-uncertainty&#34;&gt;A future of uncertainty&lt;/h3&gt;
-
-&lt;p&gt;Moz://a really pushes hard to fully rollout Electrolysis functionality this year. The main change like Multiprocess, it will boost performance certainly. But it&amp;rsquo;s a two-blade sword, Firefox will perhaps become another memory hog. Yes, it&amp;rsquo;s gonna be like Chrome. Regarding the recent changes, I feel Firefox is different, unfamiliar or lost: &lt;a href=&#34;http://www.omgubuntu.co.uk/2017/03/firefox-52-no-sound-pulseaudio-alsa-linux&#34;&gt;Firefox Goes PulseAudio Only, Leaves ALSA Users With No Sound&lt;/a&gt;, &lt;a href=&#34;http://www.theverge.com/2017/1/25/14376710/walt-mossberg-mozilla-firefox-browser-revived&#34;&gt;What’s up with Firefox, the browser that time forgot?&lt;/a&gt;, &lt;a href=&#34;http://www.ghacks.net/2017/02/17/firefox-add-ons-roadmap-for-2017/&#34;&gt;Firefox Add-ons Roadmap for 2017&lt;/a&gt;&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;To make Firefox a better browser, surely there are reasons behind all changes. Maybe it&amp;rsquo;s me who cannot clearly understand them, who think the future is uncertain, who still believe in Firefox this year would have a new beginning, not the end.&lt;/p&gt;
-
-&lt;p&gt;Firefox changed the world before, and now the world is changing Firefox. What does the Fox say?&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://gs.statcounter.com/browser-market-share#monthly-201001-201702&#34;&gt;Browser Market Share Jan 2010 - Feb 2017&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;https://www.w3schools.com/browsers/default.asp&#34;&gt;W3Schools&amp;rsquo; Famous Month-by-Month Browser Statistics&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
