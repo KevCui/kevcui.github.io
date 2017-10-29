@@ -43,9 +43,13 @@ git worktree add -B master public origin/master
 
 &lt;p&gt;Here is my deploy script &lt;a href=&#34;https://github.com/KrazyCavin/krazycavin.github.io/blob/hugo/deploy.sh&#34;&gt;deploy.sh&lt;/a&gt;. The theme I&amp;rsquo;m using is &lt;a href=&#34;https://github.com/KrazyCavin/uno&#34;&gt;uno&lt;/a&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/sh
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;
+#!/bin/sh
 
-# Build the project with theme
+# Create worktree
+# git worktree add -B master public origin/master
+
+# Build the project.
 hugo -t uno
 
 # Go To Public folder
@@ -53,6 +57,15 @@ cd public
 
 # Add changes to git.
 git add -A
+
+# Remove original js files
+cd js
+ls -1 --color=none | grep -v &amp;quot;min.js&amp;quot; | xargs rm -f
+
+# Remove original css files
+cd ../css
+ls -1 --color=none | grep -v &amp;quot;min.css&amp;quot; | xargs rm -f
+cd ..
 
 # Commit changes.
 msg=&amp;quot;rebuilding site `date`&amp;quot;
