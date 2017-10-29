@@ -279,9 +279,13 @@ git worktree add -B master public origin/master
 
 <p>Here is my deploy script <a href="https://github.com/KrazyCavin/krazycavin.github.io/blob/hugo/deploy.sh">deploy.sh</a>. The theme I&rsquo;m using is <a href="https://github.com/KrazyCavin/uno">uno</a>:</p>
 
-<pre><code class="language-sh">#!/bin/sh
+<pre><code class="language-sh">
+#!/bin/sh
 
-# Build the project with theme
+# Create worktree
+# git worktree add -B master public origin/master
+
+# Build the project.
 hugo -t uno
 
 # Go To Public folder
@@ -289,6 +293,15 @@ cd public
 
 # Add changes to git.
 git add -A
+
+# Remove original js files
+cd js
+ls -1 --color=none | grep -v &quot;min.js&quot; | xargs rm -f
+
+# Remove original css files
+cd ../css
+ls -1 --color=none | grep -v &quot;min.css&quot; | xargs rm -f
+cd ..
 
 # Commit changes.
 msg=&quot;rebuilding site `date`&quot;
