@@ -71,7 +71,7 @@
 
 &lt;p&gt;Although I don&amp;rsquo;t know how good other 3 automation testers are, I trust absolutely my technical skills.&lt;/p&gt;
 
-&lt;p&gt;After several days, I find out another 3 automation testers are quite junior-ish. They didn&amp;rsquo;t say anything about how to proceed this project, but you can see the worries from their faces.&lt;/p&gt;
+&lt;p&gt;After several days, I find out other 3 automation testers are quite junior-ish. They didn&amp;rsquo;t say anything about how to proceed this project, but you can see the worries from their faces.&lt;/p&gt;
 
 &lt;p&gt;After several meetings with other testers and developers, I know more or less how the product works.&lt;/p&gt;
 
@@ -81,21 +81,21 @@
 
 &lt;h3 id=&#34;ghosts&#34;&gt;Ghosts&lt;/h3&gt;
 
-&lt;p&gt;Finally, after 1 month, I finished the whole setup of automation framework: Tests can be executed automatically; Test reports will be sent to managers&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Finally, after 1 month, I finished the whole setup of automation framework: Test cases can be executed automatically; Test reports will be sent to managers&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;The whole test automation part looks really shining, as the same stuff I did in my last projects. Everyone, no matter he or she understands what I did, gives me their thumbs-up. I&amp;rsquo;m gaining my reputation very fast. Even testers on other sites in Y Bank, they invite me to their meeting to discuss their test automation.&lt;/p&gt;
+&lt;p&gt;The whole test automation looks really shining, as the same stuff I did in my last projects. Everyone, no matter he or she understands what I did or not, gives me their thumbs-up. I&amp;rsquo;m gaining my reputation very fast. Even testers on other sites in Y Bank, they invite me to their meetings to discuss their test automation.&lt;/p&gt;
 
 &lt;p&gt;Below the surface, things get chill.&lt;/p&gt;
 
 &lt;p&gt;Several test cases are not handled perfectly in the framework. Sometimes they pass, sometimes they fail. They are like ghosts haunting in the system. These strange creatures will cause people being worried. Therefore, people will start to lose the confidences on my automation framework setup.&lt;/p&gt;
 
-&lt;p&gt;Gladly, I blocked all these test cases running in the system. No one else knows this secret, except the guy Jack who created these test cases. I required him to fix these tests, although I know that he did all tests correctly.&lt;/p&gt;
+&lt;p&gt;Gladly, I blocked all these test cases running in the system. No one else knows this secret, except the guy Jack who created these test cases. I required him to fix these tests, although I know that he did create all tests correctly.&lt;/p&gt;
 
-&lt;p&gt;Next day, Madame Q organizes a meeting to ask for the number of test cases. In order to make the number reaching 1000, I decide to add these ghost tests in official execution suite. They will be executed as the first time in the quality gate. Jack shows his worry about my decision. I tell him to keep calm because I have already the idea how to fix ghost tests. Besides, we don&amp;rsquo;t need to worry about the initial goal anymore.&lt;/p&gt;
+&lt;p&gt;Next day, Madame Q asks for the number of test cases in an email. In order to make the number reaching 1000, I decide to add these ghost tests in official execution suite. They will be executed as the first time in the quality gate. Jack shows his worry about my decision. I tell him to keep calm because I have already the idea how to fix ghost tests. Besides, we don&amp;rsquo;t need to worry about the initial goal anymore.&lt;/p&gt;
 
 &lt;h3 id=&#34;judgment-day&#34;&gt;Judgment Day&lt;/h3&gt;
 
-&lt;p&gt;Today is the day when quality gate starts, as known as Judgment Day. For us, automation testers, we are quite relaxed. All the test cases are triggered automatically to check target release build. It will take a roughly half day to get the final green-red style test report.&lt;/p&gt;
+&lt;p&gt;Today is the day when quality gate starts, as known as Judgment Day. For us, automation testers, we are quite relaxed. All the test cases will be triggered automatically to check target release build. It will take a roughly half-day to get the final green-red style test report.&lt;/p&gt;
 
 &lt;p&gt;When I open the final test report in my mailbox, surprisingly, all ghost tests are marked as green color. It&amp;rsquo;s the color with full of hope. I breathe a sigh of relief.&lt;/p&gt;
 
