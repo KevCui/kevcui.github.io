@@ -737,7 +737,7 @@ avoid double negative
 
 &lt;p&gt;Animation is fun. It makes everything look vivid. A good animation is that you won&amp;rsquo;t notice its existence but it pleases your eyes and makes you feel good!&lt;/p&gt;
 
-&lt;p&gt;To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results. Fortunately, there are many interesting CSS effect libraries could support me to fulfill the mission. I would like to recommend 2 useful CSS libraries, which helped me to create &amp;ldquo;fancy&amp;rdquo; animations efficiently. All the codes below can be found in my &lt;a href=&#34;https://github.com/KrazyCavin/uno-dark&#34;&gt;hugo-uno-dark&lt;/a&gt; theme repository.&lt;/p&gt;
+&lt;p&gt;To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results. Fortunately, there are many interesting CSS effect libraries could support me to fulfill the mission. I would like to recommend 2 useful CSS libraries, which helped me to create &amp;ldquo;fancy&amp;rdquo; animations efficiently. All the codes below can be found in my &lt;a href=&#34;https://github.com/KrazyCavin/hugo-uno-dark&#34;&gt;hugo-uno-dark&lt;/a&gt; theme repository.&lt;/p&gt;
 
 &lt;h3 id=&#34;hover-css&#34;&gt;hover.css&lt;/h3&gt;
 
