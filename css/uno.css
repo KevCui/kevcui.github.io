@@ -1239,7 +1239,7 @@ ul {
   list-style-type: disc; }
 
 code {
-  background-color: #f8f8f8;
+  /*background-color: #f8f8f8;*/
   color: #d14;
   border: none;
   word-wrap: break-word;
