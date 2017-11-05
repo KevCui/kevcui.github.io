@@ -1,0 +1,460 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Krazy Kevin </title>
+    
+    <link rel="stylesheet" type="text/css" href="https://krazycavin.github.io/css/uno.min.css" />
+    
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://krazycavin.github.io/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://krazycavin.github.io/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://krazycavin.github.io/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://krazycavin.github.io/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://krazycavin.github.io/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://krazycavin.github.io/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://krazycavin.github.io/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://krazycavin.github.io/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://krazycavin.github.io/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://krazycavin.github.io/images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://krazycavin.github.io/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://krazycavin.github.io/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://krazycavin.github.io/images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://krazycavin.github.io/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://krazycavin.github.io/images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://krazycavin.github.io/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://krazycavin.github.io/images/favicons/mstile-144x144.png">
+    
+    <link href="https://krazycavin.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Krazy Kevin" />
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Ghost in the Shell - A Testing Horror Story">
+	<meta property="og:url" content="https://krazycavin.github.io/2017/10/29/ghost-in-the-shell/">
+	<meta property="og:site_name" content="Krazy Kevin">
+    <meta name="twitter:site" content="Krazy Kevin">
+	<meta itemprop="name" content="Ghost in the Shell - A Testing Horror Story">
+	<meta name="twitter:title" content="Ghost in the Shell - A Testing Horror Story">
+	<meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevcui">
+	
+		<meta name="description" content="My name is Rick, 30 years old single male. I&#39;m a test automation specialist. I&#39;m working as a software consultant in banking. I&#39;m universally recognized in my consultant company as the top talent. My business is to help my client solve their technical problems in software testing...">
+		<meta name="og:description" content="My name is Rick, 30 years old single male. I&#39;m a test automation specialist. I&#39;m working as a software consultant in banking. I&#39;m universally recognized in my consultant company as the top talent. My business is to help my client solve their technical problems in software testing...">
+		<meta name="twitter:description" content="My name is Rick, 30 years old single male. I&#39;m a test automation specialist. I&#39;m working as a software consultant in banking. I&#39;m universally recognized in my consultant company as the top talent. My business is to help my client solve their technical problems in software testing...">
+		<meta itemprop="description" content="My name is Rick, 30 years old single male. I&#39;m a test automation specialist. I&#39;m working as a software consultant in banking. I&#39;m universally recognized in my consultant company as the top talent. My business is to help my client solve their technical problems in software testing...">
+	
+	
+	   <meta property="og:image" content="https://cdn-images-1.medium.com/max/2000/1*-3tBMgj6n1bSgjgDHaHP7A.jpeg"/>
+	   <meta property="twitter:image" content="https://cdn-images-1.medium.com/max/2000/1*-3tBMgj6n1bSgjgDHaHP7A.jpeg"/>
+	   <meta itemprop="image" content="https://cdn-images-1.medium.com/max/2000/1*-3tBMgj6n1bSgjgDHaHP7A.jpeg">
+	
+    
+    <script src="https://krazycavin.github.io/js/jquery.min.js"></script>
+    <script src="https://krazycavin.github.io/js/main.min.js"></script>
+    <link rel="stylesheet" href="https://krazycavin.github.io/css/monokai.min.css">
+    <script src="https://krazycavin.github.io/js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/sky.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://krazycavin.github.io/" title="link to homepage for Krazy Kevin"> <img src="/images/profile.png" width="80" alt="Krazy Kevin logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="https://krazycavin.github.io/"  title="link to homepage for Krazy Kevin">Krazy Kevin</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  crazy enough to be creative  </p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    
+    
+    <li>
+        <a href="http://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank"><span class="soc soc-twitter"></span></a>
+    </li> 
+    
+    
+    
+    <li>
+        <a href="https://github.com/KrazyCavin" title="KrazyCavin on github" target="_blank"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://medium.com/@kevcui" title="Medium" target="_blank"><span class="soc soc-medium"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://unsplash.com/@kevcui" title="Unsplash" target="_blank"><span class="soc soc-unsplash"></span></a>
+
+    </li> 
+    
+    
+    <li>
+        <a href="https://www.xing.com/profile/Jiawen_Cui" title="Xing" target="_blank"><span class="soc soc-xing"></span></a>
+    </li> 
+    
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://krazycavin.github.io/index.xml" title="Subsribe" target="_blank"><span class="soc soc-rss"></span></a>
+    </li>
+    
+        <p><a class="resume-button" href=/resume>résumé</a></p>
+    
+</ul>
+
+                    </nav>
+                </div>
+
+                <br/>
+                
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
+                
+                <p class=""><a title="resume" class="main-button" href="/resume">résumé</a></p>
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/sky.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://krazycavin.github.io/" title="link to homepage for Krazy Kevin"> <img src="/images/profile.png" width="80" alt="Krazy Kevin logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="https://krazycavin.github.io/"  title="link to homepage for Krazy Kevin">Krazy Kevin</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  crazy enough to be creative  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    
+    
+    <li>
+        <a href="http://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank"><span class="soc soc-twitter"></span></a>
+    </li> 
+    
+    
+    
+    <li>
+        <a href="https://github.com/KrazyCavin" title="KrazyCavin on github" target="_blank"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://medium.com/@kevcui" title="Medium" target="_blank"><span class="soc soc-medium"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://unsplash.com/@kevcui" title="Unsplash" target="_blank"><span class="soc soc-unsplash"></span></a>
+
+    </li> 
+    
+    
+    <li>
+        <a href="https://www.xing.com/profile/Jiawen_Cui" title="Xing" target="_blank"><span class="soc soc-xing"></span></a>
+    </li> 
+    
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://krazycavin.github.io/index.xml" title="Subsribe" target="_blank"><span class="soc soc-rss"></span></a>
+    </li>
+    
+        <p><a class="resume-button" href=/resume>résumé</a></p>
+    
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        <p><a class="main-button" href="/#blog">blog</a></p>
+                    
+                    <p class=""><a title="resume" class="main-button" href="/resume">résumé</a></p>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Oct 29, 2017</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/story">story</a>
+					
+                
+              </span>
+              • 1200 words 6 min. read
+          </div>
+          <h1>Ghost in the Shell - A Testing Horror Story</h1>
+          <section id="post-content" class="article-content post">
+              
+
+<p class="coverimage">
+    <img src="https://cdn-images-1.medium.com/max/1000/1*-3tBMgj6n1bSgjgDHaHP7A.jpeg" alt="coverimage"/>
+    
+    <sup>
+        <em>
+            from <a href="https://unsplash.com/photos/V9keLsAtxyA">Scott Walsh</a>
+        </em>
+    </sup>
+    
+</p>
+
+
+<p><em>Disclaimer: This story may never happen in my life. However, it may happen in yours.</em></p>
+
+<h3 id="rick">Rick</h3>
+
+<p>&ldquo;So, you are Rick? Nice to meet you.&rdquo;</p>
+
+<p>I&rsquo;m shaking hands with a middle-aged woman in her office. She is talking to me. She is Madame Q, the QA manager of Y Bank.</p>
+
+<p>My name is Rick, 30 years old single male. I&rsquo;m a test automation specialist. I&rsquo;m working as a software consultant in banking. I&rsquo;m universally recognized in my consultant company as the top talent. People say, &ldquo;With Rick, Without Risk!&rdquo;</p>
+
+<p>My business is to help my client solve their technical problems in software testing. I have a motto &ldquo;Automate all the things!&rdquo;.</p>
+
+<p>Today is my first day in Y Bank. I have a 3-month project here to provide them a test automation solution.</p>
+
+<h3 id="y-bank">Y Bank</h3>
+
+<p>Y Bank is one of the top banks in the world. As a Fortune 500 company, Y Bank provides tons of financial services in the worldwide. In this department, there are around 50 developers and 10 testers. All of them are consultants from different IT consultant companies. They are developing an online banking tool, which provides financial services to other companies.</p>
+
+<h3 id="qa-team">QA team</h3>
+
+<p>Madame Q is showing me my working place. It&rsquo;s an open space with around 10 desks.</p>
+
+<p>&ldquo;Welcome to our QA team. Currently, we have 5 manual testers and 3 automation testers.&rdquo;</p>
+
+<p>Everyone in the office suddenly stands up and comes closer to me. They tell me their names and shake hands with me.</p>
+
+<p>She points to the corner where my desk is.</p>
+
+<p>&ldquo;In case, you wonder where are developers. There is another open office for them. We are in building A. They are in building B.&rdquo;</p>
+
+<h3 id="plan">Plan</h3>
+
+<p>In 3 months, they are going to launch a final product. There will be a 1-week quality gate in 2 months. As QA team, we have to catch all bugs during the quality gate. Then developers will use 1 month to fix all bugs. After that, QA team will have another 1-week regression testing session to validate the whole product. Then hopefully, it&rsquo;s a happy ending.</p>
+
+<h3 id="problem">Problem</h3>
+
+<p>QA team doesn&rsquo;t have enough manpower to verify all requirements of products in just 1 week. Madame Q came up with a suggestion: automatizing as many as possible requirements in order to reduce manual work. After calculated investments and benefits, the higher managers approved Madame Q&rsquo;s suggestion. That&rsquo;s why now I&rsquo;m involved in her plan. Madame Q starts to present her ambitious goal: In 2 months, we are going to automatize 1000 test cases, from scratch.</p>
+
+<h3 id="the-one">The One</h3>
+
+<p>Although I don&rsquo;t know how good other 3 automation testers are, I trust absolutely my technical skills.</p>
+
+<p>After several days, I find out other 3 automation testers are quite junior-ish. They didn&rsquo;t say anything about how to proceed this project, but you can see the worries from their faces.</p>
+
+<p>After several meetings with other testers and developers, I know more or less how the product works.</p>
+
+<p>I know that I&rsquo;m the One who can save the plan. Then, I organize a meeting with Lead Developer, Head of Developers and Madame Q. I propose them a test automation framework and show them what we are going to do. Everything I planned looks reasonable. I see they are knocking their heads. They didn&rsquo;t say anything about how to proceed this plan, but you can see the satisfaction from their faces.</p>
+
+<p>Next day, Madame Q dispatches tasks to automation team. Now I&rsquo;m alone in charge of implementing the test automation framework. Others are working on creating test cases from automatizing requirements.</p>
+
+<h3 id="ghosts">Ghosts</h3>
+
+<p>Finally, after 1 month, I finished the whole setup of automation framework: Test cases can be executed automatically; Test reports will be sent to managers&hellip;</p>
+
+<p>The whole test automation looks really shining, as the same stuff I did in my last projects. Everyone, no matter he or she understands what I did or not, gives me their thumbs-up. I&rsquo;m gaining my reputation very fast. Even testers on other sites in Y Bank, they invite me to their meetings to discuss their test automation.</p>
+
+<p>Below the surface, things get chill.</p>
+
+<p>Several test cases are not handled perfectly in the framework. Sometimes they pass, sometimes they fail. They are like ghosts haunting in the system. These strange creatures will cause people being worried. Therefore, people will start to lose the confidences on my automation framework setup.</p>
+
+<p>Gladly, I blocked all these test cases running in the system. No one else knows this secret, except the guy Jack who created these test cases. I required him to fix these tests, although I know that he did create all tests correctly.</p>
+
+<p>Next day, Madame Q asks for the number of test cases in an email. In order to make the number reaching 1000, I decide to add these ghost tests in official execution suite. They will be executed as the first time in the quality gate. Jack shows his worry about my decision. I tell him to keep calm because I have already the idea how to fix ghost tests. Besides, we don&rsquo;t need to worry about the initial goal anymore.</p>
+
+<h3 id="judgment-day">Judgment Day</h3>
+
+<p>Today is the day when quality gate starts, as known as Judgment Day. For us, automation testers, we are quite relaxed. All the test cases will be triggered automatically to check target release build. It will take a roughly half-day to get the final green-red style test report.</p>
+
+<p>When I open the final test report in my mailbox, surprisingly, all ghost tests are marked as green color. It&rsquo;s the color with full of hope. I breathe a sigh of relief.</p>
+
+<h3 id="ending">Ending</h3>
+
+<p>Weeks later, when I come to the office, there is an envelope on my desk. My name &ldquo;Rick&rdquo; is writing on the envelope. I know that it&rsquo;s an outcome of my last talk with Madame Q, before she flies to another country for the product launch. I know, inside this envelop, it&rsquo;s a job offer. Y Bank wants me to become an official employee, with a higher position.</p>
+
+<p>Today is also my last day of the 3-month project. I need to decide now whether to accept this offer or not. I&rsquo;m sitting in my chair and thinking whole day long.</p>
+
+<p>Everyone in the office starts to go home. Staring at the envelope, I still don&rsquo;t have a clue.</p>
+
+<p>It&rsquo;s time that the nightly test execution starts running. My computer screen turns on, showing me the monitoring of each execution. The first test is green, now it runs the second one&hellip; green, green and green&hellip;</p>
+
+<p>I stand up and take my bag. I walk to the door and turn off the lights of the office. I look back in the office, only my computer screen is bright in the darkness. It shows green, green and green&hellip;</p>
+
+<p>Suddenly, everything on the screen stops moving. It turns a full-screen warning in red. The red color is expanding and eating all the darkness. There is a name on the envelope reflected by the red light. It is a bloody red &ldquo;Rick&rdquo;.</p>
+
+<hr />
+
+<p>Happy Halloween! 🎃</p>
+
+<p><img src="http://media.riffsy.com/images/1b75507a048bbedb7b7c3bc27a3f21d1/tenor.gif" alt="pumpkin-dance" /></p>
+
+          </section>
+          
+          <br/>
+        </div>
+        <section class="share">
+    <p class="sharethis">Share this:</p>
+
+    
+    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f29%2fghost-in-the-shell%2f&title=Ghost%20in%20the%20Shell%20-%20A%20Testing%20Horror%20Story&summary=My%20name%20is%20Rick%2c%2030%20years%20old%20single%20male.%20I%27m%20a%20test%20automation%20specialist.%20I%27m%20working%20as%20a%20software%20consultant%20in%20banking.%20I%27m%20universally%20recognized%20in%20my%20consultant%20company%20as%20the%20top%20talent.%20My%20business%20is%20to%20help%20my%20client%20solve%20their%20technical%20problems%20in%20software%20testing..." target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Ghost%20in%20the%20Shell%20-%20A%20Testing%20Horror%20Story&amp;url=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f29%2fghost-in-the-shell%2f" target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://plus.google.com/share?url=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f29%2fghost-in-the-shell%2f" target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--google resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.37 12.93c-.73-.52-1.4-1.27-1.4-1.5 0-.43.03-.63.98-1.37 1.23-.97 1.9-2.23 1.9-3.57 0-1.22-.36-2.3-1-3.05h.5c.1 0 .2-.04.28-.1l1.36-.98c.16-.12.23-.34.17-.54-.07-.2-.25-.33-.46-.33H7.6c-.66 0-1.34.12-2 .35-2.23.76-3.78 2.66-3.78 4.6 0 2.76 2.13 4.85 5 4.9-.07.23-.1.45-.1.66 0 .43.1.83.33 1.22h-.08c-2.72 0-5.17 1.34-6.1 3.32-.25.52-.37 1.04-.37 1.56 0 .5.13.98.38 1.44.6 1.04 1.84 1.86 3.55 2.28.87.23 1.82.34 2.8.34.88 0 1.7-.1 2.5-.34 2.4-.7 3.97-2.48 3.97-4.54 0-1.97-.63-3.15-2.33-4.35zm-7.7 4.5c0-1.42 1.8-2.68 3.9-2.68h.05c.45 0 .9.07 1.3.2l.42.28c.96.66 1.6 1.1 1.77 1.8.05.16.07.33.07.5 0 1.8-1.33 2.7-3.96 2.7-1.98 0-3.54-1.23-3.54-2.8zM5.54 3.9c.33-.38.75-.58 1.23-.58h.05c1.35.05 2.64 1.55 2.88 3.35.14 1.02-.08 1.97-.6 2.55-.32.37-.74.56-1.23.56h-.03c-1.32-.04-2.63-1.6-2.87-3.4-.13-1 .08-1.92.58-2.5zM23.5 9.5h-3v-3h-2v3h-3v2h3v3h2v-3h3"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f29%2fghost-in-the-shell%2f&title=Ghost%20in%20the%20Shell%20-%20A%20Testing%20Horror%20Story" target="_blank" aria-label="">
+        <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.75-1.64-6.07-1.72.08-1.1.4-3.05 1.52-3.7.72-.4 1.73-.24 3 .5C17.2 6.3 18.46 7.5 20 7.5c1.65 0 3-1.35 3-3s-1.35-3-3-3c-1.38 0-2.54.94-2.88 2.22-1.43-.72-2.64-.8-3.6-.25-1.64.94-1.95 3.47-2 4.55-2.33.08-4.45.7-6.1 1.72C4.86 8.98 3.96 8.5 3 8.5c-1.65 0-3 1.35-3 3 0 1.32.84 2.44 2.05 2.84-.03.22-.05.44-.05.66 0 3.86 4.5 7 10 7s10-3.14 10-7c0-.22-.02-.44-.05-.66 1.2-.4 2.05-1.54 2.05-2.84zM2.3 13.37C1.5 13.07 1 12.35 1 11.5c0-1.1.9-2 2-2 .64 0 1.22.32 1.6.82-1.1.85-1.92 1.9-2.3 3.05zm3.7.13c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9.8 4.8c-1.08.63-2.42.96-3.8.96-1.4 0-2.74-.34-3.8-.95-.24-.13-.32-.44-.2-.68.15-.24.46-.32.7-.18 1.83 1.06 4.76 1.06 6.6 0 .23-.13.53-.05.67.2.14.23.06.54-.18.67zm.2-2.8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm5.7-2.13c-.38-1.16-1.2-2.2-2.3-3.05.38-.5.97-.82 1.6-.82 1.1 0 2 .9 2 2 0 .84-.53 1.57-1.3 1.87z"/></svg>
+            </div>
+        </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&canonicalUrl=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f29%2fghost-in-the-shell%2f" target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5.5v5h5v4h-5V15c0 5 3.5 4.4 6 2.8v4.4c-6.7 3.2-12 0-12-4.2V9.5h-3V6.7c1-.3 2.2-.7 3-1.3.5-.5 1-1.2 1.4-2 .3-.7.6-1.7.7-3h3.8z"/></svg>
+          </div>
+      </div>
+    </a>
+    
+    
+      
+        
+        
+      
+    
+
+    
+    <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f29%2fghost-in-the-shell%2f&amp;title=Ghost%20in%20the%20Shell%20-%20A%20Testing%20Horror%20Story&amp;summary=My%20name%20is%20Rick%2c%2030%20years%20old%20single%20male.%20I%27m%20a%20test%20automation%20specialist.%20I%27m%20working%20as%20a%20software%20consultant%20in%20banking.%20I%27m%20universally%20recognized%20in%20my%20consultant%20company%20as%20the%20top%20talent.%20My%20business%20is%20to%20help%20my%20client%20solve%20their%20technical%20problems%20in%20software%20testing...&amp;source=nnn" target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fkrazycavin.github.io%2f2017%2f10%2f29%2fghost-in-the-shell%2f&title=Ghost%20in%20the%20Shell%20-%20A%20Testing%20Horror%20Story" target="_blank" aria-label="">
+      <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.2 9.7l-3-5.4C7.2 4 7 4 6.8 4h-5c-.3 0-.4 0-.5.2v.5L4 10 .4 16v.5c0 .2.2.3.4.3h5c.3 0 .4 0 .5-.2l4-6.6v-.5zM24 .2l-.5-.2H18s-.2 0-.3.3l-8 14v.4l5.2 9c0 .2 0 .3.3.3h5.4s.3 0 .4-.2c.2-.2.2-.4 0-.5l-5-8.8L24 .7V.2z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    
+      
+        
+        
+      
+    
+
+</section>
+
+        
+
+        <footer class="footer">
+    <span class="footer__copyright">&copy; 2017 Kevin Cui </span>
+</footer>
+
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+    title: "Index",
+    overlay: true,
+    contentId: "post-content",
+});
+</script>
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-87663794-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

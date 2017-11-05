@@ -7,7 +7,248 @@
     <language>en-us</language>
     
     
-    <updated>Tue, 03 Oct 2017 17:50:00 CEST</updated>
+    <updated>Sun, 29 Oct 2017 15:11:23 CET</updated>
+    
+    <item>
+      <title>Ghost in the Shell - A Testing Horror Story</title>
+      <link>https://krazycavin.github.io/2017/10/29/ghost-in-the-shell/</link>
+      <pubDate>Sun, 29 Oct 2017 15:11:23 CET</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/10/29/ghost-in-the-shell/</guid>
+      <description>
+
+&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*-3tBMgj6n1bSgjgDHaHP7A.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            from &lt;a href=&#34;https://unsplash.com/photos/V9keLsAtxyA&#34;&gt;Scott Walsh&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;em&gt;Disclaimer: This story may never happen in my life. However, it may happen in yours.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rick&#34;&gt;Rick&lt;/h3&gt;
+
+&lt;p&gt;&amp;ldquo;So, you are Rick? Nice to meet you.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m shaking hands with a middle-aged woman in her office. She is talking to me. She is Madame Q, the QA manager of Y Bank.&lt;/p&gt;
+
+&lt;p&gt;My name is Rick, 30 years old single male. I&amp;rsquo;m a test automation specialist. I&amp;rsquo;m working as a software consultant in banking. I&amp;rsquo;m universally recognized in my consultant company as the top talent. People say, &amp;ldquo;With Rick, Without Risk!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;My business is to help my client solve their technical problems in software testing. I have a motto &amp;ldquo;Automate all the things!&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Today is my first day in Y Bank. I have a 3-month project here to provide them a test automation solution.&lt;/p&gt;
+
+&lt;h3 id=&#34;y-bank&#34;&gt;Y Bank&lt;/h3&gt;
+
+&lt;p&gt;Y Bank is one of the top banks in the world. As a Fortune 500 company, Y Bank provides tons of financial services in the worldwide. In this department, there are around 50 developers and 10 testers. All of them are consultants from different IT consultant companies. They are developing an online banking tool, which provides financial services to other companies.&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-team&#34;&gt;QA team&lt;/h3&gt;
+
+&lt;p&gt;Madame Q is showing me my working place. It&amp;rsquo;s an open space with around 10 desks.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Welcome to our QA team. Currently, we have 5 manual testers and 3 automation testers.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Everyone in the office suddenly stands up and comes closer to me. They tell me their names and shake hands with me.&lt;/p&gt;
+
+&lt;p&gt;She points to the corner where my desk is.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;In case, you wonder where are developers. There is another open office for them. We are in building A. They are in building B.&amp;rdquo;&lt;/p&gt;
+
+&lt;h3 id=&#34;plan&#34;&gt;Plan&lt;/h3&gt;
+
+&lt;p&gt;In 3 months, they are going to launch a final product. There will be a 1-week quality gate in 2 months. As QA team, we have to catch all bugs during the quality gate. Then developers will use 1 month to fix all bugs. After that, QA team will have another 1-week regression testing session to validate the whole product. Then hopefully, it&amp;rsquo;s a happy ending.&lt;/p&gt;
+
+&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;
+
+&lt;p&gt;QA team doesn&amp;rsquo;t have enough manpower to verify all requirements of products in just 1 week. Madame Q came up with a suggestion: automatizing as many as possible requirements in order to reduce manual work. After calculated investments and benefits, the higher managers approved Madame Q&amp;rsquo;s suggestion. That&amp;rsquo;s why now I&amp;rsquo;m involved in her plan. Madame Q starts to present her ambitious goal: In 2 months, we are going to automatize 1000 test cases, from scratch.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-one&#34;&gt;The One&lt;/h3&gt;
+
+&lt;p&gt;Although I don&amp;rsquo;t know how good other 3 automation testers are, I trust absolutely my technical skills.&lt;/p&gt;
+
+&lt;p&gt;After several days, I find out other 3 automation testers are quite junior-ish. They didn&amp;rsquo;t say anything about how to proceed this project, but you can see the worries from their faces.&lt;/p&gt;
+
+&lt;p&gt;After several meetings with other testers and developers, I know more or less how the product works.&lt;/p&gt;
+
+&lt;p&gt;I know that I&amp;rsquo;m the One who can save the plan. Then, I organize a meeting with Lead Developer, Head of Developers and Madame Q. I propose them a test automation framework and show them what we are going to do. Everything I planned looks reasonable. I see they are knocking their heads. They didn&amp;rsquo;t say anything about how to proceed this plan, but you can see the satisfaction from their faces.&lt;/p&gt;
+
+&lt;p&gt;Next day, Madame Q dispatches tasks to automation team. Now I&amp;rsquo;m alone in charge of implementing the test automation framework. Others are working on creating test cases from automatizing requirements.&lt;/p&gt;
+
+&lt;h3 id=&#34;ghosts&#34;&gt;Ghosts&lt;/h3&gt;
+
+&lt;p&gt;Finally, after 1 month, I finished the whole setup of automation framework: Test cases can be executed automatically; Test reports will be sent to managers&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;The whole test automation looks really shining, as the same stuff I did in my last projects. Everyone, no matter he or she understands what I did or not, gives me their thumbs-up. I&amp;rsquo;m gaining my reputation very fast. Even testers on other sites in Y Bank, they invite me to their meetings to discuss their test automation.&lt;/p&gt;
+
+&lt;p&gt;Below the surface, things get chill.&lt;/p&gt;
+
+&lt;p&gt;Several test cases are not handled perfectly in the framework. Sometimes they pass, sometimes they fail. They are like ghosts haunting in the system. These strange creatures will cause people being worried. Therefore, people will start to lose the confidences on my automation framework setup.&lt;/p&gt;
+
+&lt;p&gt;Gladly, I blocked all these test cases running in the system. No one else knows this secret, except the guy Jack who created these test cases. I required him to fix these tests, although I know that he did create all tests correctly.&lt;/p&gt;
+
+&lt;p&gt;Next day, Madame Q asks for the number of test cases in an email. In order to make the number reaching 1000, I decide to add these ghost tests in official execution suite. They will be executed as the first time in the quality gate. Jack shows his worry about my decision. I tell him to keep calm because I have already the idea how to fix ghost tests. Besides, we don&amp;rsquo;t need to worry about the initial goal anymore.&lt;/p&gt;
+
+&lt;h3 id=&#34;judgment-day&#34;&gt;Judgment Day&lt;/h3&gt;
+
+&lt;p&gt;Today is the day when quality gate starts, as known as Judgment Day. For us, automation testers, we are quite relaxed. All the test cases will be triggered automatically to check target release build. It will take a roughly half-day to get the final green-red style test report.&lt;/p&gt;
+
+&lt;p&gt;When I open the final test report in my mailbox, surprisingly, all ghost tests are marked as green color. It&amp;rsquo;s the color with full of hope. I breathe a sigh of relief.&lt;/p&gt;
+
+&lt;h3 id=&#34;ending&#34;&gt;Ending&lt;/h3&gt;
+
+&lt;p&gt;Weeks later, when I come to the office, there is an envelope on my desk. My name &amp;ldquo;Rick&amp;rdquo; is writing on the envelope. I know that it&amp;rsquo;s an outcome of my last talk with Madame Q, before she flies to another country for the product launch. I know, inside this envelop, it&amp;rsquo;s a job offer. Y Bank wants me to become an official employee, with a higher position.&lt;/p&gt;
+
+&lt;p&gt;Today is also my last day of the 3-month project. I need to decide now whether to accept this offer or not. I&amp;rsquo;m sitting in my chair and thinking whole day long.&lt;/p&gt;
+
+&lt;p&gt;Everyone in the office starts to go home. Staring at the envelope, I still don&amp;rsquo;t have a clue.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s time that the nightly test execution starts running. My computer screen turns on, showing me the monitoring of each execution. The first test is green, now it runs the second one&amp;hellip; green, green and green&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;I stand up and take my bag. I walk to the door and turn off the lights of the office. I look back in the office, only my computer screen is bright in the darkness. It shows green, green and green&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Suddenly, everything on the screen stops moving. It turns a full-screen warning in red. The red color is expanding and eating all the darkness. There is a name on the envelope reflected by the red light. It is a bloody red &amp;ldquo;Rick&amp;rdquo;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Happy Halloween! 🎃&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://media.riffsy.com/images/1b75507a048bbedb7b7c3bc27a3f21d1/tenor.gif&#34; alt=&#34;pumpkin-dance&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tweet Pinboard: May 2017 - September 2017</title>
+      <link>https://krazycavin.github.io/2017/10/28/tweet-pinboard_05-092017/</link>
+      <pubDate>Sat, 28 Oct 2017 15:15:43 CEST</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/10/28/tweet-pinboard_05-092017/</guid>
+      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;USB sounds like a backup​ in case the USA fails&amp;quot; 😂&lt;a href=&#34;https://t.co/Wma4Buitof&#34;&gt;https://t.co/Wma4Buitof&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/859009342145794048?ref_src=twsrc%5Etfw&#34;&gt;May 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Sometimes an expected bad practice could bring an unexpected good result.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/859436451351711744?ref_src=twsrc%5Etfw&#34;&gt;May 2, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Don&amp;#39;t judge a (face)book (user) by its cover (image).&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/860382418179690496?ref_src=twsrc%5Etfw&#34;&gt;May 5, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Saw a meme: Locks car keys in house, house keys locked in car... 🤦‍♂️&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/862387214126370817?ref_src=twsrc%5Etfw&#34;&gt;May 10, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;2b || !2b ?&lt;a href=&#34;https://twitter.com/hashtag/makemyday?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#makemyday&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/866686177641979904?ref_src=twsrc%5Etfw&#34;&gt;May 22, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Spiders 🕷️ are skilled web 🕸️ developers. They develop web to catch bugs 🐞.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/868845183391211522?ref_src=twsrc%5Etfw&#34;&gt;May 28, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Project risk: Sth blocks product delivery&lt;br&gt;Product risk: Sth causes building product wrongly&lt;br&gt;Business risk: Sth leads to build wrong product&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/870360385421004803?ref_src=twsrc%5Etfw&#34;&gt;June 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;You have to think really hard to get a simpler truth.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/870511183895212032?ref_src=twsrc%5Etfw&#34;&gt;June 2, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Internet Of Things is when your toaster mines Bitcoins to pay off its gambling debts to the fridge.” by Andrew Miller&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/871972770405638149?ref_src=twsrc%5Etfw&#34;&gt;June 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;If left brain is always right, then right brain had already left. 🤔&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/872105802374541313?ref_src=twsrc%5Etfw&#34;&gt;June 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;E&amp;quot; letter stands for &amp;quot;extremely slow&amp;quot;. For example: edge connectivity, IE browser and E2E tests...&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/872121865866813440?ref_src=twsrc%5Etfw&#34;&gt;June 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Zero width space is pure evil 😈 &lt;a href=&#34;https://t.co/eyZPL9DSgV&#34;&gt;pic.twitter.com/eyZPL9DSgV&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/874685433128660992?ref_src=twsrc%5Etfw&#34;&gt;June 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I&amp;#39;d say I&amp;#39;m a 📙 reviewer. Before publish, read it carefully, think if stories are interesting to readers, give quick feedback to authors...&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/876862385193189377?ref_src=twsrc%5Etfw&#34;&gt;June 19, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;If you go to Japan, you don&amp;#39;t really need to speak Japanese. You can communicate with people there using Ruby.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/876864628822872064?ref_src=twsrc%5Etfw&#34;&gt;June 19, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Last time, my doctor googled things in front of me... I told myself at least he can tell which search result is wrong.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/877476924536303616?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;“Make it correct, make it clear, make it concise, make it fast. In that order.” - Wes Dyer&lt;/p&gt;&amp;mdash; Programming Wisdom (@CodeWisdom) &lt;a href=&#34;https://twitter.com/CodeWisdom/status/877934557487546368?ref_src=twsrc%5Etfw&#34;&gt;June 22, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A decent &lt;a href=&#34;https://twitter.com/hashtag/crash?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#crash&lt;/a&gt; report &amp;quot;Cat sitting on keyboard crashes lightdm&amp;quot; To replicate: place keyboard on chair. Sit on it &lt;a href=&#34;https://t.co/ozneylwFDc&#34;&gt;https://t.co/ozneylwFDc&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/878111564930236416?ref_src=twsrc%5Etfw&#34;&gt;June 23, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;One extra spicy meal makes you suffer twice.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/878251723038392320?ref_src=twsrc%5Etfw&#34;&gt;June 23, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Code refactoring is like room cleaning. Daily small task. Nothing should change from outside of the house. No broken wall, no new 🏊 pool.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/878290152363315200?ref_src=twsrc%5Etfw&#34;&gt;June 23, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;10 yrs ago ppl ask me: how old are you? It means how young I am.&lt;br&gt;Now when ppl ask me the same question, I know it really means &amp;quot;how old&amp;quot;...&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/879456622468378626?ref_src=twsrc%5Etfw&#34;&gt;June 26, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;🕵️‍♂️😕&lt;br&gt;🤔😇🙅‍♂️🤔😈🙅‍♂️😵☹️&lt;br&gt;🤔🙅‍♂️🤔🙅‍♂️🤔🙅‍♂️...&lt;br&gt;☕... &lt;br&gt;💡😱🤔😨🤔🤓🤔😶🤷‍♂️&lt;a href=&#34;https://twitter.com/hashtag/reproduce?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#reproduce&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/edgecase?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#edgecase&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/880461630844305409?ref_src=twsrc%5Etfw&#34;&gt;June 29, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Dude’s Law: V = W / H&lt;br&gt;V is &lt;a href=&#34;https://twitter.com/hashtag/value?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#value&lt;/a&gt;&lt;br&gt;W is &lt;a href=&#34;https://twitter.com/hashtag/why?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#why&lt;/a&gt; (intent)&lt;br&gt;H is &lt;a href=&#34;https://twitter.com/hashtag/how?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#how&lt;/a&gt; (mechanics/process)&lt;a href=&#34;https://t.co/LRosRMQZO7&#34;&gt;https://t.co/LRosRMQZO7&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/davidhussman?ref_src=twsrc%5Etfw&#34;&gt;@davidhussman&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/882118176074600452?ref_src=twsrc%5Etfw&#34;&gt;July 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;We cling to memories as if they define us, but what we do defines us&amp;quot;.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/885597383165456384?ref_src=twsrc%5Etfw&#34;&gt;July 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Estimating&amp;quot; unknown unknowns is &amp;quot;guessing&amp;quot;. If it&amp;#39;s a number estimation, the answer is 42.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/887746142590697472?ref_src=twsrc%5Etfw&#34;&gt;July 19, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A &amp;quot;manager&amp;quot;, who is not able to get a whole overview of the things what (s)he is managing, is just &amp;quot;man&amp;quot; or &amp;quot;ager&amp;quot;.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/889870996181848069?ref_src=twsrc%5Etfw&#34;&gt;July 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;How to be successful&amp;quot; is a vague question. To be successful &amp;quot;as&amp;quot; what and &amp;quot;at&amp;quot; what is the explicit question to think about.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/890250330084134912?ref_src=twsrc%5Etfw&#34;&gt;July 26, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Ellison&amp;#39;s Law: the larger the licensing fees for a product, the larger the pain for operations the product will be.&lt;/p&gt;&amp;mdash; 0operator (@sadoperator) &lt;a href=&#34;https://twitter.com/sadoperator/status/894617505364295680?ref_src=twsrc%5Etfw&#34;&gt;August 7, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Amazing talk on Psychological Safety by  &lt;a href=&#34;https://twitter.com/JoshuaKerievsky?ref_src=twsrc%5Etfw&#34;&gt;@JoshuaKerievsky&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/heidihelfand?ref_src=twsrc%5Etfw&#34;&gt;@heidihelfand&lt;/a&gt;. Thank you both! &lt;a href=&#34;https://twitter.com/hashtag/agile17?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#agile17&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/ModernAgile?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#ModernAgile&lt;/a&gt; &lt;a href=&#34;https://t.co/CEILBuuaRD&#34;&gt;pic.twitter.com/CEILBuuaRD&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jefim Piekarz (@jefimpiekarz) &lt;a href=&#34;https://twitter.com/jefimpiekarz/status/894931549329772544?ref_src=twsrc%5Etfw&#34;&gt;August 8, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Sam looked at his book draft. He crossed out the title &amp;quot;A Song of Ice and Fire&amp;quot; then wrote down &amp;quot;The Awareness of Global Warming&amp;quot;&lt;br&gt;~Fin~ &lt;a href=&#34;https://twitter.com/hashtag/GoT?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#GoT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/895707719876923393?ref_src=twsrc%5Etfw&#34;&gt;August 10, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;We are soooo Agile but we don&amp;#39;t see any improvement in TTM.&amp;quot; Really?! Guess why? &lt;a href=&#34;https://t.co/zEIvmU9aCV&#34;&gt;pic.twitter.com/zEIvmU9aCV&lt;/a&gt;&lt;/p&gt;&amp;mdash; Klaus Leopold (@klausleopold) &lt;a href=&#34;https://twitter.com/klausleopold/status/896736607461662723?ref_src=twsrc%5Etfw&#34;&gt;August 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;You want him to think big. Give him something big to think about.&amp;quot;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/899702382174642176?ref_src=twsrc%5Etfw&#34;&gt;August 21, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Perceptions of probability and numbers as a joyplot. &lt;a href=&#34;https://twitter.com/hashtag/dataviz?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#dataviz&lt;/a&gt;&lt;a href=&#34;https://t.co/ksYA5tFaFk&#34;&gt;https://t.co/ksYA5tFaFk&lt;/a&gt; &lt;a href=&#34;https://t.co/v2sVHncRdC&#34;&gt;pic.twitter.com/v2sVHncRdC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Randy Olson (@randal_olson) &lt;a href=&#34;https://twitter.com/randal_olson/status/901095695079354368?ref_src=twsrc%5Etfw&#34;&gt;August 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;At least, now they are easier to use than all-in-one microwave... &lt;a href=&#34;https://t.co/cf4OpFS5fh&#34;&gt;pic.twitter.com/cf4OpFS5fh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/903001375004659722?ref_src=twsrc%5Etfw&#34;&gt;August 30, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Some ppl are really stubborn. They follow rules strictly. They&amp;#39;re afraid of losing control &amp;amp; power. But they don&amp;#39;t know Agility is a ladder.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/903280833620008961?ref_src=twsrc%5Etfw&#34;&gt;August 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;QA is a job title, often a noun, sometimes a verb... My rule of thumb if word &amp;quot;f*ck&amp;quot; can replace it &amp;amp; ppl still understand, then it&amp;#39;s clear. &lt;a href=&#34;https://t.co/htw248jBy0&#34;&gt;https://t.co/htw248jBy0&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/904745782473056256?ref_src=twsrc%5Etfw&#34;&gt;September 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A good sprint is like a rollercoaster ride: you feel excited, nothing can stop you, the ride looks risky but you&amp;#39;re confident in its safety.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/905108321383976960?ref_src=twsrc%5Etfw&#34;&gt;September 5, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Up in the air, above the thick dark clouds, here comes the ☀&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/906435584843030528?ref_src=twsrc%5Etfw&#34;&gt;September 9, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A boy asks his mother how he can be Batman. Mother says &amp;quot;You must be rich first.&amp;quot; I have to correct her &amp;quot;Your boy must be parentless first.&amp;quot;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/907235962773794816?ref_src=twsrc%5Etfw&#34;&gt;September 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;His laptop has id scanner &amp;amp; screen protector. He types password slowly with 2 fingers in public.&lt;br&gt;Security isn&amp;#39;t only tech, it&amp;#39;s awareness.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/913080488998391808?ref_src=twsrc%5Etfw&#34;&gt;September 27, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;84 characters. I&amp;#39;m translating, not trolling... &lt;a href=&#34;https://t.co/NIbUHMPpiC&#34;&gt;pic.twitter.com/NIbUHMPpiC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/913094688399351809?ref_src=twsrc%5Etfw&#34;&gt;September 27, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Asking Better Questions for 4 Different Purposes</title>
@@ -17,7 +258,7 @@
       <guid>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
       <description>
 
-&lt;p class=&#34;hidden&#34;&gt;
+&lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*_7gaDlQJMxk0nz5w3CSklQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
     &lt;sup&gt;
@@ -220,7 +461,7 @@ avoid double negative
       <guid>https://krazycavin.github.io/2017/08/27/one-week-with-colemak/</guid>
       <description>
 
-&lt;p class=&#34;hidden&#34;&gt;
+&lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*f9faYiSaK7qnUoXfSSn5YA.png&#34; alt=&#34;coverimage&#34;/&gt;
     
 &lt;/p&gt;
@@ -391,7 +632,7 @@ avoid double negative
       <guid>https://krazycavin.github.io/2017/08/19/why-i-switch-to-colemak/</guid>
       <description>
 
-&lt;p class=&#34;hidden&#34;&gt;
+&lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://colemak.com/wiki/images/e/ef/Colemak_fingers.png&#34; alt=&#34;coverimage&#34;/&gt;
     
 &lt;/p&gt;
@@ -482,7 +723,7 @@ avoid double negative
       <guid>https://krazycavin.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</guid>
       <description>
 
-&lt;p class=&#34;hidden&#34;&gt;
+&lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*fXBo56b0tanSCNHo4O2eWw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
     &lt;sup&gt;
@@ -496,7 +737,7 @@ avoid double negative
 
 &lt;p&gt;Animation is fun. It makes everything look vivid. A good animation is that you won&amp;rsquo;t notice its existence but it pleases your eyes and makes you feel good!&lt;/p&gt;
 
-&lt;p&gt;To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results. Fortunately, there are many interesting CSS effect libraries could support me to fulfill the mission. I would like to recommend 2 useful CSS libraries, which helped me to create &amp;ldquo;fancy&amp;rdquo; animations efficiently. All the codes below can be found in my &lt;a href=&#34;https://github.com/KrazyCavin/uno&#34;&gt;hugo-uno&lt;/a&gt; theme repository.&lt;/p&gt;
+&lt;p&gt;To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results. Fortunately, there are many interesting CSS effect libraries could support me to fulfill the mission. I would like to recommend 2 useful CSS libraries, which helped me to create &amp;ldquo;fancy&amp;rdquo; animations efficiently. All the codes below can be found in my &lt;a href=&#34;https://github.com/KrazyCavin/hugo-uno-dark&#34;&gt;hugo-uno-dark&lt;/a&gt; theme repository.&lt;/p&gt;
 
 &lt;h3 id=&#34;hover-css&#34;&gt;hover.css&lt;/h3&gt;
 
@@ -555,7 +796,7 @@ article:nth-child(4) {
       <guid>https://krazycavin.github.io/2017/07/04/book-review-the-devops-handbook/</guid>
       <description>
 
-&lt;p class=&#34;hidden&#34;&gt;
+&lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*aQ6VuapHdv713A677HYPkw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
 &lt;/p&gt;
@@ -632,7 +873,7 @@ article:nth-child(4) {
       <guid>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
       <description>
 
-&lt;p class=&#34;hidden&#34;&gt;
+&lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Y7unAywBRkUxr51nVx_kvg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
     &lt;sup&gt;
@@ -686,7 +927,7 @@ article:nth-child(4) {
       <guid>https://krazycavin.github.io/2017/06/20/i-am-a-rubber-duck/</guid>
       <description>
 
-&lt;p class=&#34;hidden&#34;&gt;
+&lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*EbZDvsozz270lIhuAibaCg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
     &lt;sup&gt;
@@ -788,9 +1029,13 @@ git worktree add -B master public origin/master
 
 &lt;p&gt;Here is my deploy script &lt;a href=&#34;https://github.com/KrazyCavin/krazycavin.github.io/blob/hugo/deploy.sh&#34;&gt;deploy.sh&lt;/a&gt;. The theme I&amp;rsquo;m using is &lt;a href=&#34;https://github.com/KrazyCavin/uno&#34;&gt;uno&lt;/a&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;#!/bin/sh
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;
+#!/bin/sh
 
-# Build the project with theme
+# Create worktree
+# git worktree add -B master public origin/master
+
+# Build the project.
 hugo -t uno
 
 # Go To Public folder
@@ -798,6 +1043,15 @@ cd public
 
 # Add changes to git.
 git add -A
+
+# Remove original js files
+cd js
+ls -1 --color=none | grep -v &amp;quot;min.js&amp;quot; | xargs rm -f
+
+# Remove original css files
+cd ../css
+ls -1 --color=none | grep -v &amp;quot;min.css&amp;quot; | xargs rm -f
+cd ..
 
 # Commit changes.
 msg=&amp;quot;rebuilding site `date`&amp;quot;
@@ -825,7 +1079,7 @@ cd ..
       <pubDate>Tue, 02 May 2017 20:35:50 CEST</pubDate>
       
       <guid>https://krazycavin.github.io/2017/05/02/refine-software-testing-types/</guid>
-      <description>&lt;p class=&#34;hidden&#34;&gt;
+      <description>&lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://krazycavin.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;coverimage&#34;/&gt;
     
 &lt;/p&gt;
@@ -918,7 +1172,7 @@ What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
       <guid>https://krazycavin.github.io/2017/04/29/be-prepared-interruption-is-coming/</guid>
       <description>
 
-&lt;p class=&#34;hidden&#34;&gt;
+&lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*A4g-4mSEERgcCJAU9aoiBQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
     &lt;sup&gt;
@@ -1013,48 +1267,73 @@ What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
     
     <item>
       <title>Tweet Pinboard: January 2017 - April 2017</title>
-      <link>https://krazycavin.github.io/2017/04/23/tweet-pinboard_01-052017/</link>
+      <link>https://krazycavin.github.io/2017/04/23/tweet-pinboard_01-042017/</link>
       <pubDate>Sun, 23 Apr 2017 11:19:25 CEST</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/04/23/tweet-pinboard_01-052017/</guid>
-      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Bug &amp;lt;-&amp;gt; Debug&lt;br&gt;Test &amp;lt;-&amp;gt; Detest&lt;br&gt;&lt;br&gt;Is that a kind of coincidence?&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/814838322891804672?ref_src=twsrc%5Etfw&#34;&gt;December 30, 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;1. 🎥: 👯🐇💨🚶㊙🚪🐈🐛👒🍵👸👰👑♠♥♣♦😴&lt;br&gt;&lt;br&gt;2. 📺: 🐺🐯🐲💮🐙🐟... 👑❤💔🔞🔥💥🔪... 💀😱💀💀😱😱💀💀💀😶💀💀💀💀💀...&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/816692325833461760?ref_src=twsrc%5Etfw&#34;&gt;January 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Declare variables not war,&lt;br&gt;Get bugs fixed not mindset.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820378849225609218?ref_src=twsrc%5Etfw&#34;&gt;January 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A tool for work:&lt;br&gt;20 years ago, a tool is a tool.&lt;br&gt;10 years ago, a tool is a software.&lt;br&gt;5 years ago, a tool is a website.&lt;br&gt;Now a tool is an app.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820702959260565509?ref_src=twsrc%5Etfw&#34;&gt;January 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Dear DEVils,&lt;br&gt;During my absence, you&amp;#39;re authorised to use my tool for testing purpose. Any abuses are welcome.&lt;br&gt;Happy testing!&lt;br&gt;Xoxo, TESTERia &lt;a href=&#34;https://t.co/yNht8lnPDG&#34;&gt;pic.twitter.com/yNht8lnPDG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/824309415851466752?ref_src=twsrc%5Etfw&#34;&gt;January 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A good news without &amp;quot;but&amp;quot; is a perfect good news.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826085227512500224?ref_src=twsrc%5Etfw&#34;&gt;January 30, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;In theory there is no difference between theory and practice. In practice there is.&amp;quot; 😉&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826429344088100865?ref_src=twsrc%5Etfw&#34;&gt;January 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Wisely and slowly; they stumble that run fast.&amp;quot;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/837361764492771329?ref_src=twsrc%5Etfw&#34;&gt;March 2, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Best practice only exists for someone at certain period of time. Not everyone, not always.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841716053046644737?ref_src=twsrc%5Etfw&#34;&gt;March 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤣 true &lt;a href=&#34;https://t.co/6S8jT0ZkX6&#34;&gt;https://t.co/6S8jT0ZkX6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841953703812861953?ref_src=twsrc%5Etfw&#34;&gt;March 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Oh I&amp;#39;m capable of suffering all small revertable changes &amp;amp; working on piece by piece, in order to make the world a better place🙏 &lt;a href=&#34;https://twitter.com/hashtag/AgilityGod?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#AgilityGod&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/842787425541865472?ref_src=twsrc%5Etfw&#34;&gt;March 17, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Testing is not about finding bugs. It&amp;#39;s about exploring unknown area, resolving ambiguity and leaning new things. 1/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843906547273097216?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a troch to light up the road in darkness, you could clearly see the way to go,  make a map,  and mark thorns and flowers. 2/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843911859287871490?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Checking is not about finding bugs. It&amp;#39;s about verifying expectation, feeling confidence of working things and killing time. 1/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843914267355217920?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a map in daylight, you&amp;#39;re guided to avoid known obstacles, confident of your ability and ready for the next journey, again. 2/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843915943373930496?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤷 let me guess it&amp;#39;s a part of How to reduce cost and assure phone call quality. ISTQB = I Swear That&amp;#39;s Quite Boring&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/848280133999804416?ref_src=twsrc%5Etfw&#34;&gt;April 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Junior XXX: I want a job even it&amp;#39;s shitty&lt;br&gt;Senior XXX: I don&amp;#39;t want a shitty job, no!&lt;br&gt;Expert XXX: I want to do some shitty things as my job 😉&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/851867342976028673?ref_src=twsrc%5Etfw&#34;&gt;April 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Agility stops when HiPPO starts.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/852536634155335680?ref_src=twsrc%5Etfw&#34;&gt;April 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Certification is a decent purchase invoice. &lt;a href=&#34;https://t.co/QgXh9a6aaF&#34;&gt;https://t.co/QgXh9a6aaF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ🔮 ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/855715620377243649?ref_src=twsrc%5Etfw&#34;&gt;April 22, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+      <guid>https://krazycavin.github.io/2017/04/23/tweet-pinboard_01-042017/</guid>
+      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Bug &amp;lt;-&amp;gt; Debug&lt;br&gt;Test &amp;lt;-&amp;gt; Detest&lt;br&gt;&lt;br&gt;Is that a kind of coincidence?&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/814838322891804672?ref_src=twsrc%5Etfw&#34;&gt;December 30, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;und&#34; dir=&#34;ltr&#34;&gt;1. 🎥: 👯🐇💨🚶㊙🚪🐈🐛👒🍵👸👰👑♠♥♣♦😴&lt;br&gt;&lt;br&gt;2. 📺: 🐺🐯🐲💮🐙🐟... 👑❤💔🔞🔥💥🔪... 💀😱💀💀😱😱💀💀💀😶💀💀💀💀💀...&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/816692325833461760?ref_src=twsrc%5Etfw&#34;&gt;January 4, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Declare variables not war,&lt;br&gt;Get bugs fixed not mindset.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820378849225609218?ref_src=twsrc%5Etfw&#34;&gt;January 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A tool for work:&lt;br&gt;20 years ago, a tool is a tool.&lt;br&gt;10 years ago, a tool is a software.&lt;br&gt;5 years ago, a tool is a website.&lt;br&gt;Now a tool is an app.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/820702959260565509?ref_src=twsrc%5Etfw&#34;&gt;January 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Dear DEVils,&lt;br&gt;During my absence, you&amp;#39;re authorised to use my tool for testing purpose. Any abuses are welcome.&lt;br&gt;Happy testing!&lt;br&gt;Xoxo, TESTERia &lt;a href=&#34;https://t.co/yNht8lnPDG&#34;&gt;pic.twitter.com/yNht8lnPDG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/824309415851466752?ref_src=twsrc%5Etfw&#34;&gt;January 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;A good news without &amp;quot;but&amp;quot; is a perfect good news.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826085227512500224?ref_src=twsrc%5Etfw&#34;&gt;January 30, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;In theory there is no difference between theory and practice. In practice there is.&amp;quot; 😉&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/826429344088100865?ref_src=twsrc%5Etfw&#34;&gt;January 31, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Wisely and slowly; they stumble that run fast.&amp;quot;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/837361764492771329?ref_src=twsrc%5Etfw&#34;&gt;March 2, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Best practice only exists for someone at certain period of time. Not everyone, not always.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841716053046644737?ref_src=twsrc%5Etfw&#34;&gt;March 14, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤣 true &lt;a href=&#34;https://t.co/6S8jT0ZkX6&#34;&gt;https://t.co/6S8jT0ZkX6&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/841953703812861953?ref_src=twsrc%5Etfw&#34;&gt;March 15, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Oh I&amp;#39;m capable of suffering all small revertable changes &amp;amp; working on piece by piece, in order to make the world a better place🙏 &lt;a href=&#34;https://twitter.com/hashtag/AgilityGod?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#AgilityGod&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/842787425541865472?ref_src=twsrc%5Etfw&#34;&gt;March 17, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Testing is not about finding bugs. It&amp;#39;s about exploring unknown area, resolving ambiguity and leaning new things. 1/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843906547273097216?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a troch to light up the road in darkness, you could clearly see the way to go,  make a map,  and mark thorns and flowers. 2/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843911859287871490?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Checking is not about finding bugs. It&amp;#39;s about verifying expectation, feeling confidence of working things and killing time. 1/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843914267355217920?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Like holding a map in daylight, you&amp;#39;re guided to avoid known obstacles, confident of your ability and ready for the next journey, again. 2/2&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/843915943373930496?ref_src=twsrc%5Etfw&#34;&gt;March 20, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;🤷 let me guess it&amp;#39;s a part of How to reduce cost and assure phone call quality. ISTQB = I Swear That&amp;#39;s Quite Boring&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/848280133999804416?ref_src=twsrc%5Etfw&#34;&gt;April 1, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Junior XXX: I want a job even it&amp;#39;s shitty&lt;br&gt;Senior XXX: I don&amp;#39;t want a shitty job, no!&lt;br&gt;Expert XXX: I want to do some shitty things as my job 😉&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/851867342976028673?ref_src=twsrc%5Etfw&#34;&gt;April 11, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Agility stops when HiPPO starts.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/852536634155335680?ref_src=twsrc%5Etfw&#34;&gt;April 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Certification is a decent purchase invoice. &lt;a href=&#34;https://t.co/QgXh9a6aaF&#34;&gt;https://t.co/QgXh9a6aaF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/855715620377243649?ref_src=twsrc%5Etfw&#34;&gt;April 22, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Tester&amp;#39;s self-cultivation 3 Nb&amp;amp;b:&lt;br&gt;Not Become negative, Be motivated;&lt;br&gt;Not Block process, Be supportive;&lt;br&gt;Not Blame ppl, Be accountable.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/856896415649460224?ref_src=twsrc%5Etfw&#34;&gt;April 25, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;yolocity: the rate of &lt;a href=&#34;https://twitter.com/hashtag/yolo?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#yolo&lt;/a&gt; occurrence.&lt;/p&gt;&amp;mdash; Kevin ˗ˏˋ💡ˎˊ (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/857845189074989056?ref_src=twsrc%5Etfw&#34;&gt;April 28, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -1066,7 +1345,7 @@ What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
       <guid>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
       <description>
 
-&lt;p class=&#34;hidden&#34;&gt;
+&lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
     &lt;sup&gt;
@@ -1329,228 +1608,6 @@ Hugo: 29M
 &lt;li&gt;You already use hexo, and you want to learn new thing, and you&amp;rsquo;ve 1-2 days free time, then &lt;strong&gt;hugo&lt;/strong&gt; would be a good choice for you.&lt;/li&gt;
 &lt;li&gt;You already use hugo, then keep using &lt;strong&gt;hugo&lt;/strong&gt; and don&amp;rsquo;t look around 😉&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bye Firefox</title>
-      <link>https://krazycavin.github.io/2017/03/27/bye-firefox/</link>
-      <pubDate>Mon, 27 Mar 2017 23:02:13 CEST</pubDate>
-      
-      <guid>https://krazycavin.github.io/2017/03/27/bye-firefox/</guid>
-      <description>
-
-&lt;p class=&#34;hidden&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Tz47QFcn9AAdFIOI-LOPkw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-    &lt;sup&gt;
-        &lt;em&gt;
-            from &lt;a href=&#34;https://www.flickr.com/photos/garrett/280258600/in/photostream/&#34;&gt;Garrrett LeSage&lt;/a&gt;
-        &lt;/em&gt;
-    &lt;/sup&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;Love, without any reason. Leave, with a good reason.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Last week, I made my decision to switch from Firefox to Chromium. Although it&amp;rsquo;s not my first time trying to ditch Firefox, I&amp;rsquo;m quite sure this time it would be the last time. As I&amp;rsquo;m a reasonable person, therefore, I put my thoughts in this post with the reason why I made my decision.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-pressure-from-outside&#34;&gt;A pressure from outside&lt;/h3&gt;
-
-&lt;p&gt;I didn&amp;rsquo;t really remember since when I started to use Firefox, I always have it as my main browser. Back to the old good day, Firefox relies on its lightweight and fast speed amazing the world. No doubt it was the best browser. Nowadays, it is still one of the most popular browsers but definitely not top one. Many statics show it dramatically lost users &lt;a href=&#34;http://gs.statcounter.com/browser-market-share#monthly-201001-201702&#34;&gt;here&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; and &lt;a href=&#34;https://www.w3schools.com/browsers/default.asp&#34;&gt;here&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. It&amp;rsquo;s disappointed to see the number of Firefox users keep shrinking. During the decline in 2015, &lt;a href=&#34;https://arstechnica.com/business/2016/05/firefox-overtakes-microsoft-internet-explorer-edge-browsers-first-time-statcounter/&#34;&gt;Firefox tops IE &amp;amp; Edge browser market share for the first time&lt;/a&gt;. It was especially ironic.&lt;/p&gt;
-
-&lt;p&gt;Is Firefox not good enough? It&amp;rsquo;s probably good enough. But its competitors are better. I ran some performance tests, like &lt;a href=&#34;http://browserbench.org/JetStream/&#34;&gt;JetStream&lt;/a&gt;, &lt;a href=&#34;https://chromium.github.io/octane/&#34;&gt;Octane 2.0&lt;/a&gt;, &lt;a href=&#34;http://browserbench.org/Speedometer/&#34;&gt;Speedometer&lt;/a&gt; on Firefox v52 and Chromium v56 with my Linux desktop. Chromium wins them all and beats Firefox easily. Besides that, personally I prefer Chromium built-in devtool and &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt; is a huge +1.&lt;/p&gt;
-
-&lt;p&gt;These facts become a pressure from outside that weighs on Firefox. Once you run behind others, and you put all the effort to catch up. What people will see is that you&amp;rsquo;re following the same path, which others did already. It&amp;rsquo;s damn sad.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-reason-of-love&#34;&gt;A reason of love&lt;/h3&gt;
-
-&lt;p&gt;When one performs obviously better than another, why I should keep both? Yes I do have a reason, the only reason I feel comfortable to stay with Firefox. &lt;a href=&#34;https://github.com/vimperator/vimperator-labs&#34;&gt;Vimperator&lt;/a&gt; a Firefox-only add-on which completely changes Firefox interface and turns it to vim-like. It provides me an efficient way to use the browser. I&amp;rsquo;m totally fascinated by it.&lt;/p&gt;
-
-&lt;p&gt;As we all know, this year Firefox will face some big changes. One of them is e10s. Sadly, &lt;a href=&#34;https://github.com/vimperator/vimperator-labs/issues/211&#34;&gt;Vimperator seams won&amp;rsquo;t support e10s&lt;/a&gt; and the site &lt;a href=&#34;https://www.arewee10syet.com/&#34;&gt;Are we e10s yet?&lt;/a&gt; marks Vimperator as incompatible. It&amp;rsquo;s about time, sooner this November, anyway I will say goodbye to Vimperator, to Firefox. That&amp;rsquo;s it.&lt;/p&gt;
-
-&lt;p&gt;Now I live well with Chromium. There are lots of alternatives to try: &lt;a href=&#34;https://github.com/philc/vimium&#34;&gt;Vimium&lt;/a&gt;, &lt;a href=&#34;https://github.com/1995eaton/chromium-vim&#34;&gt;cVim&lt;/a&gt;, &lt;a href=&#34;https://github.com/jinzhu/vrome&#34;&gt;Vrome&lt;/a&gt; and this &lt;a href=&#34;https://brookhong.github.io/2015/09/15/surfingkeys.html&#34;&gt;interesting idea&lt;/a&gt;&amp;hellip; I know they are not as powerful as Vimperator. To fit my needs, they&amp;rsquo;re good enough.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-future-of-uncertainty&#34;&gt;A future of uncertainty&lt;/h3&gt;
-
-&lt;p&gt;Moz://a really pushes hard to fully rollout Electrolysis functionality this year. The main change like Multiprocess, it will boost performance certainly. But it&amp;rsquo;s a two-blade sword, Firefox will perhaps become another memory hog. Yes, it&amp;rsquo;s gonna be like Chrome. Regarding the recent changes, I feel Firefox is different, unfamiliar or lost: &lt;a href=&#34;http://www.omgubuntu.co.uk/2017/03/firefox-52-no-sound-pulseaudio-alsa-linux&#34;&gt;Firefox Goes PulseAudio Only, Leaves ALSA Users With No Sound&lt;/a&gt;, &lt;a href=&#34;http://www.theverge.com/2017/1/25/14376710/walt-mossberg-mozilla-firefox-browser-revived&#34;&gt;What’s up with Firefox, the browser that time forgot?&lt;/a&gt;, &lt;a href=&#34;http://www.ghacks.net/2017/02/17/firefox-add-ons-roadmap-for-2017/&#34;&gt;Firefox Add-ons Roadmap for 2017&lt;/a&gt;&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;To make Firefox a better browser, surely there are reasons behind all changes. Maybe it&amp;rsquo;s me who cannot clearly understand them, who think the future is uncertain, who still believe in Firefox this year would have a new beginning, not the end.&lt;/p&gt;
-
-&lt;p&gt;Firefox changed the world before, and now the world is changing Firefox. What does the Fox say?&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://gs.statcounter.com/browser-market-share#monthly-201001-201702&#34;&gt;Browser Market Share Jan 2010 - Feb 2017&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;https://www.w3schools.com/browsers/default.asp&#34;&gt;W3Schools&amp;rsquo; Famous Month-by-Month Browser Statistics&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My Toolbox</title>
-      <link>https://krazycavin.github.io/2017/03/08/my-toolbox/</link>
-      <pubDate>Wed, 08 Mar 2017 22:12:08 &#43;0200</pubDate>
-      
-      <guid>https://krazycavin.github.io/2017/03/08/my-toolbox/</guid>
-      <description>
-
-&lt;h3 id=&#34;software-testing&#34;&gt;Software Testing&lt;/h3&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://ctweb.abstracta.com.uy/&#34;&gt;Test case generator (pairwise)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📖👉 &lt;a href=&#34;http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf&#34;&gt;Test Heuristics Cheat Sheet&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📖👉 &lt;a href=&#34;https://medium.com/@userfocus/the-1-page-usability-test-plan-dbc8c3d7fb54#.e4fd2w21q&#34;&gt;1-page usability test plan&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/lestoni/faker-cli&#34;&gt;faker-cli&lt;/a&gt;: generate massive amounts of fake data&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/aoh/radamsa&#34;&gt;Radamsa&lt;/a&gt;: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/josephwilk/pairwise&#34;&gt;Ruby Pairwise&lt;/a&gt;: Ruby based tool for selecting a smaller number of test input combinations&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/&#34;&gt;Name&lt;/a&gt;: all about name&lt;/p&gt;
-
-&lt;p&gt;🌏:point_right: &lt;a href=&#34;https://github.com/minimaxir/big-list-of-naughty-strings&#34;&gt;Big List of Naughty Strings&lt;/a&gt;: list of strings which have a high probability of causing issues&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/jagracey/Awesome-Unicode&#34;&gt;Awesome Unicode&lt;/a&gt;: Unicode list&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/danielmiessler/SecLists&#34;&gt;SecLists&lt;/a&gt;: a collection of multiple types of lists used during security assessments&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://commons.wikimedia.org/wiki/Category:Large_images&#34;&gt;Large images&lt;/a&gt;: a list of very large images above 50 Megapixel&lt;/p&gt;
-
-&lt;h3 id=&#34;mobile-testing&#34;&gt;Mobile Testing&lt;/h3&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://tools.perfectomobile.com/test-coverage-optimizer/&#34;&gt;Test coverage optimizer&lt;/a&gt;: discover the optimal mix for maximizing your test coverage with the fewest devices possible&lt;/p&gt;
-
-&lt;p&gt;📦👉 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.glasswire.android&#34;&gt;GlassWire&lt;/a&gt;: monitor app data usage&lt;/p&gt;
-
-&lt;p&gt;📦👉 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.testerkey.testerkeyboard&#34;&gt;TesterKey&lt;/a&gt;: generate complex and randomised input values&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/selendroid/selendroid&#34;&gt;Selendroid&lt;/a&gt;: test automation framework which drives of the UI of Android native and hybrid applications apps&lt;/p&gt;
-
-&lt;h3 id=&#34;web-testing&#34;&gt;Web Testing&lt;/h3&gt;
-
-&lt;p&gt;📖👉 &lt;a href=&#34;https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html&#34;&gt;UTF-8 plain text test file&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📖👉 &lt;a href=&#34;https://github.com/dhamaniasad/HeadlessBrowsers&#34;&gt;Headless Browser list&lt;/a&gt;: a list of (almost) all headless web browsers in existence&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.performancebudget.io/&#34;&gt;Performance Budget Calculator&lt;/a&gt;: calculate a performance budget for your site&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/dhatanian/ticketmagpie&#34;&gt;TicketMagpie OWASP Top10 demo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://validator.w3.org/i18n-checker/&#34;&gt;i18n Validator&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/galenframework/galen&#34;&gt;Galen Framework&lt;/a&gt;: testing layout and responsive design of web applications&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/jan-molak/serenity-js&#34;&gt;Serenity/JS&lt;/a&gt;: a node.js library designed to make acceptance and regression testing of modern web applications faster&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/teamcapybara/capybara&#34;&gt;capybara&lt;/a&gt;: acceptance test framework for web applications&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://securityheaders.io&#34;&gt;SecurityHeaders.io&lt;/a&gt;: a quick and easy way to check http headers&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://cards-dev.twitter.com/validator&#34;&gt;Twitter Card Validator&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://developers.facebook.com/tools/debug/&#34;&gt;Facebook Debugger&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.jsontest.com&#34;&gt;JSON Test&lt;/a&gt;: JSON Testing Service&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://apitester.com&#34;&gt;API tester&lt;/a&gt;: test API&lt;/p&gt;
-
-&lt;h3 id=&#34;dev-tools&#34;&gt;Dev Tools&lt;/h3&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://putsreq.com/&#34;&gt;PutsReq&lt;/a&gt;: record HTTP requests and fake responses&lt;/p&gt;
-
-&lt;p&gt;📖👉 &lt;a href=&#34;http://www.stefankrause.net/js-frameworks-benchmark2/webdriver-java/table.html?utm_content=buffer615ad&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&#34;&gt;JS framework benchmark&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📖👉 &lt;a href=&#34;http://cdn2.hubspot.net/hubfs/208250/Blog_Images/devops11.png&#34;&gt;The Ultimate DevOps Tools Ecosystem&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://regex101.com/&#34;&gt;regex101&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://rubular.com/&#34;&gt;rubular&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📦👉 &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/dxa4481/truffleHog&#34;&gt;Truffle Dog&lt;/a&gt;: searches through git repositories for high entropy strings, digging deep into commit history and branches&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/jkbrzt/httpie&#34;&gt;HTTPie&lt;/a&gt;: a CLI, cURL-like tool for humans&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/lord/slate&#34;&gt;Slate&lt;/a&gt;: API doc generator&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/anvaka/git-also&#34;&gt;git-also&lt;/a&gt;: for a file in your git repository, prints other files that are most often committed together&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;mitmproxy&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/naptha/tesseract.js&#34;&gt;Tesseract.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;💻👉 &lt;a href=&#34;https://asciinema.org/&#34;&gt;asciinema&lt;/a&gt;: record and share terminal sessions&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://obfuscator.uo1.net/&#34;&gt;Online Text Obfuscator&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://webcode.tools&#34;&gt;Web Code Tools&lt;/a&gt;: code generator&lt;/p&gt;
-
-&lt;p&gt;🌏:point_right: &lt;a href=&#34;http://www.json-generator.com/&#34;&gt;JSON generator&lt;/a&gt;: JSON generator&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://foragoodstrftime.com/&#34;&gt;For a Good Strftime&lt;/a&gt;: easy date time formatting&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://pin.gy/cli/&#34;&gt;Pingy&lt;/a&gt;: the simple frontend build tool&lt;/p&gt;
-
-&lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
-
-&lt;p&gt;👉 &lt;a href=&#34;https://pbs.twimg.com/media/C3JNXUtWEAAW951.jpg&#34;&gt;Cynefin Framework for user story splitting&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;👉 &lt;a href=&#34;http://melissaperri.com/wp-content/uploads/2016/07/Product-Strategy-Canvas-1.png&#34;&gt;Product Strategy Canvas&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;👉 &lt;a href=&#34;https://natgeoeducationblog.files.wordpress.com/2017/01/ultimate-critical-thinking-worksheet.jpg&#34;&gt;The ultimate cheat sheet for critical thinking&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;👉 &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/co/thumb/6/68/Kano_model_showing_transition_over_time.png/737px-Kano_model_showing_transition_over_time.png&#34;&gt;Kano model&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;search&#34;&gt;Search&lt;/h3&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.shodan.io/&#34;&gt;Shodan&lt;/a&gt;: search engine for Internet-connected devices&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://foller.me/&#34;&gt;Twitter Analytics&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🌏:point_right: &lt;a href=&#34;https://www.pexels.com/&#34;&gt;Pexels&lt;/a&gt;: best free stock photos in one place&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://startup-videos.com/&#34;&gt;StartupVideos&lt;/a&gt;: showcasing The Best Startup Videos&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.landingfolio.com/&#34;&gt;Landingfolio&lt;/a&gt;: landing page design inspiration&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.videvo.net/&#34;&gt;videovo&lt;/a&gt;: free stock video footage&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.mankier.com/&#34;&gt;Mankier&lt;/a&gt;: collection of online man pages&lt;/p&gt;
-
-&lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/sferik/t&#34;&gt;Ruby Twitter CLI&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://google-webfonts-helper.herokuapp.com/fonts&#34;&gt;Google Webfont Helper&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://vimcolors.com/&#34;&gt;VIM color themes&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/mxstbr/sharingbuttons.io&#34;&gt;sharingbuttons.io&lt;/a&gt;: generate social sharing buttons&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/l0b0/xterm-color-count&#34;&gt;XTerm Color Count&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/WebpageFX/emoji-cheat-sheet.com&#34;&gt;emoji cheat sheet&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://excel2jira.bluurgh.com/&#34;&gt;Excel to Jira table&lt;/a&gt;: copy and paste a table from Excel, click the button, and in return you will get the table formatted for JIRA&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://colormind.io/&#34;&gt;Colormind&lt;/a&gt;: Colormind is a deep learning AI that knows color theory. It can generate color palettes from scratch, or it can take your input and intelligently fill in the blanks.&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.canva.com/color-palette/&#34;&gt;Color palette&lt;/a&gt;: get colors from photos&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://smartmockups.com/&#34;&gt;Smartmockups&lt;/a&gt;: create product screenshots with mocks&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://sproutsocial.com/landscape&#34;&gt;Landscape&lt;/a&gt;: streamlined image resizing for social media&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://coolors.co/&#34;&gt;Coolors&lt;/a&gt;: fast color schemes generator&lt;/p&gt;
-
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.archetypeapp.com/&#34;&gt;archetype&lt;/a&gt;: create consistent typography styling and spacing live&lt;/p&gt;
 </description>
     </item>
     
