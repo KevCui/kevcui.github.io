@@ -3,17 +3,14 @@ $(document).ready(function() {
   $('.singlepost').addClass('animated fadeIn');
   img = $('p img[alt="coverimage"]').attr('src');
   if (typeof img != 'undefined') {
-    /* make image ask bg
-    $('.panel-cover').css('background', 'transparent');
-    $('header').css('background-image', 'transparent');
-    $('.panel-cover--overlay').css("background", "transparent");
-    $('.fade-overlay').addClass("FadeAway");
-    $('.cover-image').css("background", "url(" + img + ") top left no-repeat white");
-    $('.cover-image').css("background-size", "cover");
-    $('.cover-image').css("width", "700px");
-    */
-    $('header').css("background-image", "url(" + img + ")");
-    $('p img[alt="coverimage"]').css('display', 'none').next('sup').css('display', 'none');
+    if (screen.width > 960) {
+      $('header').css("background-color", "#131313"); // shoud be #151515 weird
+      $('header').css("background-image", "");
+      $('.panel-cover--overlay').fadeOut(500);
+    } else {
+      $('header').css("background-image", "url(" + img + ")");
+      $('p img[alt="coverimage"]').css('display', 'none').next('sup').css('display', 'none')
+    }
   }
 
   if ((window.location.hash && window.location.hash == "#blog") || (window.location.pathname.substring(0, 5) == "/tag/") || (window.location.pathname.substring(0, 6) == "/page/") || (window.location.pathname.substring(0,8) == "/resume/")) {
@@ -39,18 +36,17 @@ $(document).ready(function() {
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn');
   });
 
-  $('a.blog-button, a.mobile-blog-button').click(function() {
+  $('a.blog-button').click(function() {
     animateSider();
   });
 
   function animateSider() {
-    currentWidth = $('.panel-cover').width();
-    if (currentWidth < 960) {
+    if (screen.width > 960) {
+      $('.panel-cover').addClass('panel-cover--collapsed animated fadeInLeft');
+    } else {
       $('.panel-cover').addClass('panel-cover--collapsed animated fadeInDown');
       $('.mobile-top-right-button').css('display', 'block');
       $('.mobile-top-right-button').addClass('animated fadeInDown');
-    } else {
-      $('.panel-cover').addClass('panel-cover--collapsed animated fadeInLeft');
     }
     $('article').addClass('animated fadeIn');
   }
