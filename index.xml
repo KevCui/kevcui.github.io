@@ -263,7 +263,7 @@
     
     &lt;sup&gt;
         &lt;em&gt;
-            from &lt;a href=&#34;https://unsplash.com/photos/GxnyOLTxCr8&#34;&gt;Jonathan Simcoe&lt;/a&gt;
+            from &lt;a href=&#34;https://unsplash.com/@jdsimcoe/&#34;&gt;Jonathan Simcoe&lt;/a&gt;
         &lt;/em&gt;
     &lt;/sup&gt;
     
@@ -584,7 +584,7 @@ avoid double negative
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://thetypingcat.com/typing-speed-test/&#34;&gt;TypingCAT&lt;/a&gt;: It&amp;rsquo;s an ordinary typing site. But its UI is super clean and comfortable. It will make you feel awesome when you are typing.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.ratatype.com/typing-test/test/&#34;&gt;Ratatype typing test&lt;/a&gt;: Instead of the usual time-box approach, this site requires you to finish the whole article and then shows your score. Their typing materials are really good. They normally have 50-100 words, with the mix of letters, numbers and punctuations.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://play.typeracer.com/&#34;&gt;typeracer&lt;/a&gt;: A typing competition is presented as a form of car racing game. It supports Multiplayer &amp;ldquo;racing&amp;rdquo; together. Its UI is okish and its material is so-so. But if you want to see how is your performance under stress, it&amp;rsquo;s a good game to play.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://play.typeracer.com/&#34;&gt;typeracer&lt;/a&gt;: A typing competition is presented as a form of car racing game. It supports Multiplayer &amp;ldquo;racing&amp;rdquo; together. Its UI is okish and its material is so-so. But if you want to see how is your performance under stress, it&amp;rsquo;s a good game to play.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;d-n-in-the-future&#34;&gt;D(n) - In the future&amp;hellip;&lt;/h3&gt;
@@ -638,7 +638,7 @@ avoid double negative
 &lt;/p&gt;
 
 
-&lt;p&gt;&lt;a href=&#34;https://colemak.com/FAQ&#34;&gt;Colemak&lt;/a&gt;, pronounced /&amp;lsquo;ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It&amp;rsquo;s developed by &lt;a href=&#34;https://ie.linkedin.com/in/shaicolema&#34;&gt;Shai Coleman&lt;/a&gt; and released in 2006. Colemak keyboard layout looks like:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://colemak.com/FAQ&#34;&gt;Colemak&lt;/a&gt;, pronounced /&amp;lsquo;ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It&amp;rsquo;s developed by &lt;a href=&#34;https://ie.linkedin.com/in/shaicoleman&#34;&gt;Shai Coleman&lt;/a&gt; and released in 2006. Colemak keyboard layout looks like:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  q w f p g j l u y ;
    a r s t d h n e i o
@@ -1007,7 +1007,7 @@ article:nth-child(4) {
 
 &lt;p&gt;To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for the forgetful people, like me.&lt;/p&gt;
 
-&lt;p&gt;Hugo has a good doc to explain &lt;a href=&#34;https://gohugo.io/tutorials/github-pa-blog/&#34;&gt;how to host on Github Pages&lt;/a&gt;. Based on it, my configuration is following:&lt;/p&gt;
+&lt;p&gt;Hugo has a good doc to explain &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;how to host on Github Pages&lt;/a&gt;. Based on it, my configuration is following:&lt;/p&gt;
 
 &lt;h3 id=&#34;add-worktree&#34;&gt;Add Worktree&lt;/h3&gt;
 
