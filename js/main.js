@@ -3,7 +3,7 @@ $(document).ready(function() {
   $('.singlepost').addClass('animated fadeIn');
   img = $('p img[alt="coverimage"]').attr('src');
   if (typeof img != 'undefined') {
-    if ($('.content-wrapper').width() >=960) {
+    if (screen.width > 960) {
       $('header').css("background-color", "#131313"); // shoud be #151515 weird
       $('header').css("background-image", "");
       $('.panel-cover--overlay').fadeOut(500);
@@ -41,13 +41,12 @@ $(document).ready(function() {
   });
 
   function animateSider() {
-    currentWidth = $('.content-wrapper').width();
-    if (currentWidth < 960) {
+    if (screen.width > 960) {
+      $('.panel-cover').addClass('panel-cover--collapsed animated fadeInLeft');
+    } else {
       $('.panel-cover').addClass('panel-cover--collapsed animated fadeInDown');
       $('.mobile-top-right-button').css('display', 'block');
       $('.mobile-top-right-button').addClass('animated fadeInDown');
-    } else {
-      $('.panel-cover').addClass('panel-cover--collapsed animated fadeInLeft');
     }
     $('article').addClass('animated fadeIn');
   }

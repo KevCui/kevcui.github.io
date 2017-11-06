@@ -21,7 +21,7 @@
 
 &lt;p&gt;To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for the forgetful people, like me.&lt;/p&gt;
 
-&lt;p&gt;Hugo has a good doc to explain &lt;a href=&#34;https://gohugo.io/tutorials/github-pa-blog/&#34;&gt;how to host on Github Pages&lt;/a&gt;. Based on it, my configuration is following:&lt;/p&gt;
+&lt;p&gt;Hugo has a good doc to explain &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;how to host on Github Pages&lt;/a&gt;. Based on it, my configuration is following:&lt;/p&gt;
 
 &lt;h3 id=&#34;add-worktree&#34;&gt;Add Worktree&lt;/h3&gt;
 

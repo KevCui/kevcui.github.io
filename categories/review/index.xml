@@ -46,11 +46,11 @@
 &lt;p&gt;Also, I managed to finish reading:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.kaner.com/pdfs/bugadvoc.pdf&#34;&gt;Bug Advocacy&lt;/a&gt; - Cem Kaner&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.kaner.com/pdfs/bugadvoc.pdf&#34;&gt;Bug Advocacy&lt;/a&gt; - Cem Kaner&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://books.google.de/books/about/How_Google_Tests_Software.html?id=vHlTOVTKHeUC&amp;amp;redir_esc=y&#34;&gt;How Google Tests Software&lt;/a&gt; - James A. Whittaker&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ministryoftesting.com/2010/12/mr-fails/&#34;&gt;Mr. Fails&lt;/a&gt; - Andy Glover&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.ministryoftesting.com/2010/12/mr-fails/&#34;&gt;Mr. Fails&lt;/a&gt; - Andy Glover&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://linuxcommand.org/tlcl.php&#34;&gt;The Linux Command Line&lt;/a&gt; - William Shotts&lt;/p&gt;&lt;/li&gt;
 
@@ -62,13 +62,13 @@
 &lt;p&gt;And I finished rereading:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://adventuresinqa.com/hands-on-mobile-app-testing/&#34;&gt;Hands-on Mobile App Testing&lt;/a&gt; - Daniel Knott&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://adventuresinqa.com/hands-on-mobile-app-testing/&#34;&gt;Hands-on Mobile App Testing&lt;/a&gt; - Daniel Knott&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;But I left some books which are not finished yet:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.briantracy.com/blog/tag/eat-that-frog/&#34;&gt;Eat That Frog&lt;/a&gt; - Brian Tracy&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.briantracy.com/blog/time-management/the-truth-about-frogs/&#34;&gt;Eat That Frog&lt;/a&gt; - Brian Tracy&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow&#34;&gt;Think, Fast and Slow&lt;/a&gt; - Daniel Kahneman&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -85,7 +85,7 @@
 
 &lt;p&gt;I started to program something for fun. Actually, what I did isn&amp;rsquo;t a big deal at all: some CLI geek-weird scripts and wrappers of some unpopular API&amp;hellip; But the most important thing is that I had a lot of fun. I enjoy the time when I do programming! Do I test my code? Nope, not now XD&lt;/p&gt;
 
-&lt;h4 id=&#34;18-nov-2016-a-new-blog-https-krazycavin-github-io-2016-hello-world&#34;&gt;&lt;strong&gt;18 Nov 2016: A new &lt;a href=&#34;https://krazycavin.github.io/2016/hello-world/&#34;&gt;blog&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;18-nov-2016-a-new-blog-2016-11-18-hello-world&#34;&gt;&lt;strong&gt;18 Nov 2016: A new &lt;a href=&#34;https://krazycavin.github.io/2016/11/18/hello-world/&#34;&gt;blog&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;A new blog 🎉 Yes, another one! What&amp;rsquo;s different? Totally different, this time it&amp;rsquo;s a &lt;a href=&#34;https://pages.github.com/&#34;&gt;cooler way&lt;/a&gt; to blog. I promise that I will continue to keep recording crazy things happen in my journey.&lt;/p&gt;
 
@@ -163,7 +163,7 @@
 
 &lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; ISO 9126 &lt;a href=&#34;http://www.sqa.net/iso9126.html&#34;&gt;Software Quality Characteristics&lt;/a&gt;
 &lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Gerald M. Weinberg: &lt;a href=&#34;http://secretsofconsulting.blogspot.de/2012/09/agile-and-definition-of-quality.html&#34;&gt;Agile and the Definition of Quality&lt;/a&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Gerald M. Weinberg: &lt;a href=&#34;https://secretsofconsulting.blogspot.de/2012/09/agile-and-definition-of-quality.html&#34;&gt;Agile and the Definition of Quality&lt;/a&gt;
 &lt;br/&gt;
 &lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Micheal Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2010/05/testers-get-out-of-the-quality-assurance-business/&#34;&gt;Blog: Testers: Get Out of the Quality Assurance Business&lt;/a&gt;
 &lt;br/&gt;
