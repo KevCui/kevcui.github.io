@@ -50,6 +50,22 @@ body {
   body:after {
     clear: both; }
 
+::-webkit-scrollbar
+{
+  width: 8px;  /* for vertical scrollbars */
+  height: 8px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: #151515;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(149, 134, 124, 0.5);
+}
+
 .cover-image {
   display: block;
   position: fixed;
