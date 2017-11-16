@@ -7,7 +7,49 @@
     <language>en-us</language>
     
     
-    <updated>Mon, 27 Mar 2017 23:02:13 CEST</updated>
+    <updated>Thu, 16 Nov 2017 18:04:57 CET</updated>
+    
+    <item>
+      <title>Hi Firefox!</title>
+      <link>https://krazycavin.github.io/2017/11/16/hi-firefox/</link>
+      <pubDate>Thu, 16 Nov 2017 18:04:57 CET</pubDate>
+      
+      <guid>https://krazycavin.github.io/2017/11/16/hi-firefox/</guid>
+      <description>
+
+&lt;p&gt;In case you are seeking for an answer of the question: &amp;ldquo;Do I need to switch from Chrome to Firefox now?&amp;rdquo; In my opinion, if you&amp;rsquo;re still happy with Chrome, then feel comfortable to stay with Chrome. Because there is no obvious game-changing reason for switching.&lt;/p&gt;
+
+&lt;p&gt;So, what&amp;rsquo;s new about Firefox?&lt;/p&gt;
+
+&lt;h3 id=&#34;new-name&#34;&gt;New Name&lt;/h3&gt;
+
+&lt;p&gt;Half year ago, you may (or may not) notice that I said &lt;a href=&#34;https://krazycavin.github.io/2017/03/27/bye-firefox/&#34;&gt;Goodbye to Firefox&lt;/a&gt;. However, with a mixed feeling of curiosity and nostalgia, several weeks ago I started to try out Firefox 57 nightly version. It&amp;rsquo;s the version officially released 2 days ago, which is so hyped that moz://a decided to put a name on it: Firefox Quantum.&lt;/p&gt;
+
+&lt;h3 id=&#34;new-feeling&#34;&gt;New Feeling&lt;/h3&gt;
+
+&lt;p&gt;Firefox Quantum feels fast. That&amp;rsquo;s right. This is the first impression that moz://a wants to express to everyone. Delivered with this feeling, a message is clearly announcing: Firefox is reborn.&lt;/p&gt;
+
+&lt;p&gt;As we all know, speed is always the main selling point of Chrome. Yes, you are probably thinking about this creative advertisement: &lt;a href=&#34;https://www.youtube.com/watch?v=nCgQDjiotG0&#34;&gt;Google Chrome Speed Tests&lt;/a&gt;. Now Firefox Quantum comes with another eye-catching phrase &amp;ldquo;Fast for good&amp;rdquo;. With similar speed, &lt;em&gt;30% less memory usage&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;, more privacy protection, doesn&amp;rsquo;t your heart beat faster for that, does it?&lt;/p&gt;
+
+&lt;h3 id=&#34;new-battle&#34;&gt;New Battle&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;It&amp;rsquo;s just the beginning of Firefox Quantum&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; aiming for the top web browser. It&amp;rsquo;s too early to tell if Firefox can beat its opponents or not. Not saying the ancient issues opened for decades, but &lt;a href=&#34;https://github.com/servo/servo/issues&#34;&gt;the new issues of Servo&lt;/a&gt; cause my concerns and worries.&lt;/p&gt;
+
+&lt;p&gt;However, releasing Firefox Quantum is undoubtedly the declaration of new browser battle. It&amp;rsquo;s a solid punch towards Chrome&amp;rsquo;s face. At least, after so many years being an underdog, Firefox finally stands up and shows its motivation to fight, making people reconsider Firefox as an option of the main browser.&lt;/p&gt;
+
+&lt;p&gt;I, as an end-user, don&amp;rsquo;t really care about the result of who is the winner, Chrome, Firefox or whatever dark horse. But I would be super excited to see more awesome features coming to current browsers, which make them better than yesterday.&lt;/p&gt;
+
+&lt;p&gt;We, acting like competition judges, are waiting to see the best performance of each browser showing to us. We will continuously have better options to choose.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s the bright future I&amp;rsquo;m waiting for. That&amp;rsquo;s the mission Firefox have to fulfill as a challenger. That&amp;rsquo;s why I&amp;rsquo;m back to Firefox and say again &amp;ldquo;Hi Firefox!&amp;rdquo;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;https://blog.mozilla.org/firefox/quantum-performance-test/&#34;&gt;Firefox Quantum is super fast, while still conserving memory&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;https://medium.com/mozilla-tech/a-quantum-achievement-d7aa759a0ccb&#34;&gt;A Quantum Achievement: But it’s Just the Beginning&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Bye Firefox</title>
