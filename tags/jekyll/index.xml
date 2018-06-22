@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Krazy Kevin</title>
+      <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/jekyll/</link>
+    <link>https://kevcui.github.io/tags/jekyll/</link>
     <language>en-us</language>
     
     
@@ -11,13 +11,13 @@
     
     <item>
       <title>Why Hexo Why Not Jekyll</title>
-      <link>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
+      <link>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
       <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
+      <guid>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
       <description>
 
-&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;https://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
+&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
 
 &lt;h3 id=&#34;a-net-name-is-half-success&#34;&gt;A net name is half-success&lt;/h3&gt;
 
@@ -64,10 +64,10 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
     
     <item>
       <title>Know How to Build github.io Blog in 3 min?</title>
-      <link>https://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</link>
+      <link>https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</link>
       <pubDate>Sat, 19 Nov 2016 13:00:00 &#43;0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
+      <guid>https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
       <description>
 
 &lt;p&gt;I write this tutorial with some notes about how to build a github.io blog, because I was struggling a bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could &lt;strong&gt;waste&lt;/strong&gt; some of your time on customizing your own awesome blog. 😉&lt;/p&gt;
@@ -102,7 +102,7 @@ hexo cl &amp;lt;=&amp;gt; hexo clean
 
 &lt;ul&gt;
 &lt;li&gt;Fork the theme repository to your &lt;strong&gt;&lt;em&gt;username&lt;/em&gt;.github.io&lt;/strong&gt;, where &lt;em&gt;username&lt;/em&gt; is your own username on GitHub.
-(&lt;em&gt;#Eg: my repository for this blog is &lt;strong&gt;krazycavin.github.io&lt;/strong&gt;&lt;/em&gt;)&lt;/li&gt;
+(&lt;em&gt;#Eg: my repository for this blog is &lt;strong&gt;kevcui.github.io&lt;/strong&gt;&lt;/em&gt;)&lt;/li&gt;
 &lt;li&gt;Clone it to your local&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -178,10 +178,10 @@ date:  2016-11-18 23:25:28 +0200
     
     <item>
       <title>Blogging!</title>
-      <link>https://krazycavin.github.io/2016/11/18/hello-world/</link>
+      <link>https://kevcui.github.io/2016/11/18/hello-world/</link>
       <pubDate>Fri, 18 Nov 2016 22:09:23 &#43;0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2016/11/18/hello-world/</guid>
+      <guid>https://kevcui.github.io/2016/11/18/hello-world/</guid>
       <description>&lt;p&gt;This is my f1rst bl0g. Yep, it&amp;rsquo;s als0 a test blog to check Jekyll theme&lt;/p&gt;
 
 &lt;p&gt;pןɹoʍ oןןǝɥ&lt;/p&gt;

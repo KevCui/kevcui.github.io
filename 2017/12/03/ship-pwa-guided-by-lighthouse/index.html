@@ -1,0 +1,561 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#000"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title> Kevin Cui </title>
+    
+    <link rel="manifest" href="/manifest.json">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kevcui.github.io/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kevcui.github.io/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kevcui.github.io/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kevcui.github.io/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kevcui.github.io/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kevcui.github.io/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kevcui.github.io/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kevcui.github.io/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kevcui.github.io/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kevcui.github.io/images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://kevcui.github.io/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://kevcui.github.io/images/favicons/mstile-144x144.png">
+    
+    <link href="https://kevcui.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Kevin Cui" />
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Ship PWA Guided by Lighthouse">
+	<meta property="og:url" content="https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/">
+	<meta property="og:site_name" content="Kevin Cui">
+    <meta name="twitter:site" content="Kevin Cui">
+	<meta itemprop="name" content="Ship PWA Guided by Lighthouse">
+	<meta name="twitter:title" content="Ship PWA Guided by Lighthouse">
+	<meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevcui">
+	
+		<meta name="description" content="Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&#39;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?...">
+		<meta name="og:description" content="Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&#39;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?...">
+		<meta name="twitter:description" content="Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&#39;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?...">
+		<meta itemprop="description" content="Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&#39;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?...">
+	
+	
+	   <meta property="og:image" content="https://cdn-images-1.medium.com/max/2000/1*c4LxfFXAUMhEzNiXsGXbQg.jpeg"/>
+	   <meta property="twitter:image" content="https://cdn-images-1.medium.com/max/2000/1*c4LxfFXAUMhEzNiXsGXbQg.jpeg"/>
+	   <meta itemprop="image" content="https://cdn-images-1.medium.com/max/2000/1*c4LxfFXAUMhEzNiXsGXbQg.jpeg">
+	
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/share.min.css" />
+    
+    <script src="https://kevcui.github.io/js/jquery.min.js"></script>
+    <script src="https://kevcui.github.io/js/main.min.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {  
+            navigator.serviceWorker.register('./sw.js')
+            .then(function(registration) {
+                console.log("Service Worker Registered", registration);
+            })
+            .catch(function(err) {
+                console.log("Service Worker Failed to Register", err);
+            })
+        }
+    </script>
+    
+        <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/monokai.min.css">
+        <script src="https://kevcui.github.io/js/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+    
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/sky.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://kevcui.github.io/" title="link to homepage for Kevin Cui"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="https://kevcui.github.io/"  title="link to homepage for Kevin Cui">Kevin Cui</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  crazy enough to be creative  </p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    
+    
+    <li>
+        <a href="http://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank" rel="noopener"><span class="soc soc-twitter"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://medium.com/@kevcui" title="Medium" target="_blank" rel="noopener"><span class="soc soc-medium"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="https://instagram.com/kev_cui" title="Instagram" target="_blank" rel="noopener"><span class="soc soc-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io/index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="soc soc-rss"></span></a>
+    </li>
+    
+        <p><a class="resume-button" href=/resume>résumé</a></p>
+    
+</ul>
+
+                    </nav>
+                </div>
+
+                <br/>
+                
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
+                
+                <p class=""><a title="resume" class="main-button" href="/resume">résumé</a></p>
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/sky.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://kevcui.github.io/" title="link to homepage for Kevin Cui"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="https://kevcui.github.io/"  title="link to homepage for Kevin Cui">Kevin Cui</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  crazy enough to be creative  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    
+    
+    <li>
+        <a href="http://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank" rel="noopener"><span class="soc soc-twitter"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://medium.com/@kevcui" title="Medium" target="_blank" rel="noopener"><span class="soc soc-medium"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="https://instagram.com/kev_cui" title="Instagram" target="_blank" rel="noopener"><span class="soc soc-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io/index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="soc soc-rss"></span></a>
+    </li>
+    
+        <p><a class="resume-button" href=/resume>résumé</a></p>
+    
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        <p><a class="main-button" href="/#blog">blog</a></p>
+                    
+                    <p class=""><a title="resume" class="main-button" href="/resume">résumé</a></p>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Dec 3, 2017</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/pwa">pwa,</a>
+					
+                
+					
+						<a href="/tags/lighthouse">lighthouse,</a>
+					
+                
+					
+						<a href="/tags/web-building">web building</a>
+					
+                
+              </span>
+              • 900 words 4 min. read
+          </div>
+          <h1>Ship PWA Guided by Lighthouse</h1>
+          <section id="post-content" class="article-content post">
+              
+
+<p class="coverimage">
+    <img src="https://cdn-images-1.medium.com/max/2000/1*c4LxfFXAUMhEzNiXsGXbQg.jpeg" alt="coverimage"/>
+    
+    <sup>
+        <em>
+            Photo by <a href="https://unsplash.com/photos/D5OzyJ71mLI">Robert Wiedemann</a>
+        </em>
+    </sup>
+    
+</p>
+
+
+<p>Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&rsquo;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?</p>
+
+<h3 id="what-is-actually-pwa">What is actually PWA?</h3>
+
+<p>According to Google, <em>Progressive Web Apps are user experiences that have the reach of the web, and are</em> <sup><a name="back1"><a href="#link1">[1]</a></a></sup>:</p>
+
+<ul>
+<li>Reliable: Load instantly and never show the downasaur, even in uncertain network conditions.</li>
+<li>Fast: Respond quickly to user interactions with silky smooth animations and no janky scrolling.</li>
+<li>Engaging: Feel like a natural app on the device, with an immersive user experience.</li>
+</ul>
+
+<p>Personally, I prefer another alternative version because it uses one word to represent PWA: <em>F.I.R.E 🔥 Fast, Integrated, Reliable and Engaging.</em> <sup><a name="back2"><a href="#link2">[2]</a></a></sup>:</p>
+
+<p>Many people are confused by the fancy term of PWA, like this: <em>Google&rsquo;s continued use of the term &ldquo;quality&rdquo; in describing things leaves me with a ton of confusion&hellip;</em> <sup><a name="back3"><a href="#link3">[3]</a></a></sup></p>
+
+<p>To be honest, PWA is not a new technology at all. It&rsquo;s <strong>a new web app quality standard for web experiences</strong> <sup><a name="back4"><a href="#link4">[4]</a></a></sup>.</p>
+
+<h3 id="how-to-get-my-app-on-f-i-r-e">How to get my app on F.I.R.E.?</h3>
+
+<p>Are you sold by the idea of PWA? I&rsquo;ll buy it. Because I would do whatever I could to improve the user experience. So, I decided to optimize my blog site for reaching PWA standard.</p>
+
+<h4 id="step-1-run-a-performance-audit">Step 1: Run a performance audit</h4>
+
+<p><a href="https://github.com/GoogleChrome/lighthouse">Lighthouse</a> is a must-have tool to audit web app performance. Lighthouse is already integrated in the recent versions of Chrome and Chromium, as a part of DevTools, which makes it super convenient to use:</p>
+
+<pre><code class="language-bash">Inspect -&gt; Audits -&gt; Perform an audit...
+</code></pre>
+
+<h4 id="step-2-read-audit-report-carefully">Step 2: Read audit report carefully</h4>
+
+<p>After running an audit in Lighthouse, it will provide a detailed report. First, it shows the overall scores:</p>
+
+<p><img src="/images/lighthouse-before-overview.jpg" alt="before-overview" /></p>
+
+<p><sup>Overview of the first Lighthouse audit result</sup></p>
+
+<p>I&rsquo;m not surprised by this result, not at all. These numbers are making people feel good when they have greens. Besides that, I would suggest to ignore them.</p>
+
+<p>When continuing reading the report, I find the interesting parts: failed audits. It&rsquo;s a nicely organized To-Do list, especially the <em>Learn more</em> links which open documents to explain why the audit is important and how to pass the audit.</p>
+
+<p><img src="/images/lighthouse-before-pwa.jpg" alt="before-pwa" /></p>
+
+<p><sup>Failed audits for PWA section</sup></p>
+
+<h4 id="step-3-get-hands-dirty">Step 3: Get hands dirty</h4>
+
+<p>It&rsquo;s time to handle all failed cases one by one. Most of them are rather easy to solve by following &ldquo;Learn more&rdquo; tutorials. Only &ldquo;Does not register a Service Worker&rdquo; and &ldquo;Does not respond with a 200 when offline&rdquo; are relatively tough. I&rsquo;d like to share some tips, which come from my Aha moments.</p>
+
+<p>A working service worker has 4 essential parts:</p>
+
+<ul>
+<li>manifest.json: It&rsquo;s a json file located in <em>/</em> <strong>web app root directory</strong>:</li>
+</ul>
+
+<pre><code class="language-json">{
+  &quot;short_name&quot;: &quot;Kevin&quot;,
+  &quot;name&quot;: &quot;Kevin Cui&quot;,
+  &quot;icons&quot;: [
+    {
+      &quot;src&quot;:&quot;/images/favicons/android-icon-192x192.png&quot;,
+      &quot;sizes&quot;: &quot;192x192&quot;,
+      &quot;type&quot;: &quot;image/png&quot;
+    }
+  ],
+  &quot;start_url&quot;: &quot;https://kevcui.github.io/#blog&quot;,
+  &quot;background_color&quot;: &quot;#000&quot;,
+  &quot;theme_color&quot;: &quot;#000&quot;,
+  &quot;display&quot;: &quot;standalone&quot;
+}
+</code></pre>
+
+<ul>
+<li>Link manifest.json in <em>index.html</em>:</li>
+</ul>
+
+<pre><code class="language-html">&lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&gt;
+</code></pre>
+
+<ul>
+<li>Service worker js: It must be created in <strong>web app root directory</strong>, alongside with <em>manifest.json</em>. Here is an example of the service worker called <em>sw.js</em>:</li>
+</ul>
+
+<pre><code>self.addEventListener('install', e =&gt; {
+  let timeStamp = Date.now();
+  e.waitUntil(
+    caches.open('kevin-blog').then(cache =&gt; {
+      return cache.addAll([
+        `/`,
+        `/#blog`,
+        `/css/uno.min.css`,
+        `/css/font.min.css`,
+        `/css/resume.min.css`,
+        `/js/jquery.min.js`,
+        `/js/main.min.js`,
+      ])
+      .then(() =&gt; self.skipWaiting());
+    })
+  )
+});
+
+self.addEventListener('activate',  event =&gt; {
+  event.waitUntil(self.clients.claim());
+});
+
+self.addEventListener('fetch', event =&gt; {
+  event.respondWith(
+    caches.match(event.request, {ignoreSearch:true}).then(response =&gt; {
+      return response || fetch(event.request);
+    })
+  );
+})
+</code></pre>
+
+<ul>
+<li>A piece of JavaScript code to register service worker in <em>index.html</em>:</li>
+</ul>
+
+<pre><code class="language-js">if ('serviceWorker' in navigator) {
+navigator.serviceWorker.register('./sw.js')
+  .then(function(registration) {
+    console.log(&quot;Service Worker Registered&quot;, registration);
+  })
+  .catch(function(err) {
+    console.log(&quot;Service Worker Failed to Register&quot;, err);
+  })
+}
+</code></pre>
+
+<p>For more details of all these parts above, there is a good tutorial to follow: <a href="https://codelabs.developers.google.com/codelabs/add-to-home-screen/#0">Add Your Web App to a User&rsquo;s Home Screen</a> and a good example of PWA app to check its source code: <a href="https://github.com/GoogleChromeLabs/airhorn">airhorn</a></p>
+
+<h3 id="my-app-is-on">My app is on 🔥!</h3>
+
+<p>Once the dirty jobs are well done, it&rsquo;s time to run another performance audit. Although I know all score numbers are meaningless without contexts, it still feels damn awesome when I see all greens, right?</p>
+
+<p><img src="/images/lighthouse-after-overview.jpg" alt="after-overview" /></p>
+
+<p><sup>Another overview of Lighthouse audit result</sup></p>
+
+<p>Surprisingly, Firefox now starts to support PWA as well:</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Wow Firefox 59 supports PWA &quot;add to home screen&quot;. Nice 🤭 <a href="https://t.co/HpSdKQX7fi">pic.twitter.com/HpSdKQX7fi</a></p>&mdash; 𝙠𝙚𝙫𝙞𝙣                    . (@KevCui) <a href="https://twitter.com/KevCui/status/937266992649834497?ref_src=twsrc%5Etfw">December 3, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h3 id="what-else">What else?</h3>
+
+<p>I have to admit that it&rsquo;s not hard to pass Lighthouse audit checks. However, I must keep in mind that it&rsquo;s just one step of improving web app performance towards the goal of &ldquo;better user experience&rdquo;. Many steps ahead I still need to move on.</p>
+
+<p>What&rsquo;s your opinion about PWA? Would you like to ship your app guided by Lighthouse? And join the cool kids club?</p>
+
+<hr />
+
+<p><a name="link1"><a href="#back1">[1]</a></a> Google: <a href="https://developers.google.com/web/progressive-web-apps/?hl=en">Progressive Web Apps</a>
+<br/>
+<a name="link2"><a href="#back2">[2]</a></a> Ewa Gasperowicz: <a href="https://www.youtube.com/watch?v=KRSTpo6gqqU">From Website to Progressive Web App</a>
+<br/>
+<a name="link3"><a href="#back3">[3]</a></a> Ben Halpern: <a href="https://dev.to/ben/what-the-heck-is-a-progressive-web-app-seriously-923">What the heck is a &ldquo;Progressive Web App&rdquo;? Seriously.</a>
+<br/>
+<a name="link4"><a href="#back4">[4]</a></a> Thao Tran and Chris Wilson: <a href="https://www.youtube.com/watch?v=PsgW-0M67TQ">The New Bar for Web Experiences</a></p>
+
+          </section>
+          
+          <br/>
+        </div>
+        <section class="share">
+    <p class="sharethis">Share this:</p>
+
+    
+    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkevcui.github.io%2f2017%2f12%2f03%2fship-pwa-guided-by-lighthouse%2f&title=Ship%20PWA%20Guided%20by%20Lighthouse&summary=Nowadays%2c%20PWA%20is%20so%20hyped.%20All%20the%20cool%20kids%20are%20implementing%20PWA%2c%20or%20on%20the%20way%20to%20implement%20it.%20It%27s%20like%20a%20magic%20box%2c%20they%20said%2c%20what%20contains%20ultimate%20happiness%20for%20users.%20Wow%20it%20sounds%20awesome%2c%20right%3f%20How%20is%20it%20possible%20that%20I%20could%20miss%20this%20opportunity%20to%20stay%20as%20a%20member%20of%20the%20cool%20kids%20club%3f..." target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Ship%20PWA%20Guided%20by%20Lighthouse&amp;url=https%3a%2f%2fkevcui.github.io%2f2017%2f12%2f03%2fship-pwa-guided-by-lighthouse%2f" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://plus.google.com/share?url=https%3a%2f%2fkevcui.github.io%2f2017%2f12%2f03%2fship-pwa-guided-by-lighthouse%2f" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--google resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.37 12.93c-.73-.52-1.4-1.27-1.4-1.5 0-.43.03-.63.98-1.37 1.23-.97 1.9-2.23 1.9-3.57 0-1.22-.36-2.3-1-3.05h.5c.1 0 .2-.04.28-.1l1.36-.98c.16-.12.23-.34.17-.54-.07-.2-.25-.33-.46-.33H7.6c-.66 0-1.34.12-2 .35-2.23.76-3.78 2.66-3.78 4.6 0 2.76 2.13 4.85 5 4.9-.07.23-.1.45-.1.66 0 .43.1.83.33 1.22h-.08c-2.72 0-5.17 1.34-6.1 3.32-.25.52-.37 1.04-.37 1.56 0 .5.13.98.38 1.44.6 1.04 1.84 1.86 3.55 2.28.87.23 1.82.34 2.8.34.88 0 1.7-.1 2.5-.34 2.4-.7 3.97-2.48 3.97-4.54 0-1.97-.63-3.15-2.33-4.35zm-7.7 4.5c0-1.42 1.8-2.68 3.9-2.68h.05c.45 0 .9.07 1.3.2l.42.28c.96.66 1.6 1.1 1.77 1.8.05.16.07.33.07.5 0 1.8-1.33 2.7-3.96 2.7-1.98 0-3.54-1.23-3.54-2.8zM5.54 3.9c.33-.38.75-.58 1.23-.58h.05c1.35.05 2.64 1.55 2.88 3.35.14 1.02-.08 1.97-.6 2.55-.32.37-.74.56-1.23.56h-.03c-1.32-.04-2.63-1.6-2.87-3.4-.13-1 .08-1.92.58-2.5zM23.5 9.5h-3v-3h-2v3h-3v2h3v3h2v-3h3"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fkevcui.github.io%2f2017%2f12%2f03%2fship-pwa-guided-by-lighthouse%2f&title=Ship%20PWA%20Guided%20by%20Lighthouse" target="_blank" aria-label="" rel="noopener">
+        <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.75-1.64-6.07-1.72.08-1.1.4-3.05 1.52-3.7.72-.4 1.73-.24 3 .5C17.2 6.3 18.46 7.5 20 7.5c1.65 0 3-1.35 3-3s-1.35-3-3-3c-1.38 0-2.54.94-2.88 2.22-1.43-.72-2.64-.8-3.6-.25-1.64.94-1.95 3.47-2 4.55-2.33.08-4.45.7-6.1 1.72C4.86 8.98 3.96 8.5 3 8.5c-1.65 0-3 1.35-3 3 0 1.32.84 2.44 2.05 2.84-.03.22-.05.44-.05.66 0 3.86 4.5 7 10 7s10-3.14 10-7c0-.22-.02-.44-.05-.66 1.2-.4 2.05-1.54 2.05-2.84zM2.3 13.37C1.5 13.07 1 12.35 1 11.5c0-1.1.9-2 2-2 .64 0 1.22.32 1.6.82-1.1.85-1.92 1.9-2.3 3.05zm3.7.13c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9.8 4.8c-1.08.63-2.42.96-3.8.96-1.4 0-2.74-.34-3.8-.95-.24-.13-.32-.44-.2-.68.15-.24.46-.32.7-.18 1.83 1.06 4.76 1.06 6.6 0 .23-.13.53-.05.67.2.14.23.06.54-.18.67zm.2-2.8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm5.7-2.13c-.38-1.16-1.2-2.2-2.3-3.05.38-.5.97-.82 1.6-.82 1.1 0 2 .9 2 2 0 .84-.53 1.57-1.3 1.87z"/></svg>
+            </div>
+        </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&canonicalUrl=https%3a%2f%2fkevcui.github.io%2f2017%2f12%2f03%2fship-pwa-guided-by-lighthouse%2f" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5.5v5h5v4h-5V15c0 5 3.5 4.4 6 2.8v4.4c-6.7 3.2-12 0-12-4.2V9.5h-3V6.7c1-.3 2.2-.7 3-1.3.5-.5 1-1.2 1.4-2 .3-.7.6-1.7.7-3h3.8z"/></svg>
+          </div>
+      </div>
+    </a>
+    
+    
+      
+        
+        
+      
+    
+
+    
+    <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fkevcui.github.io%2f2017%2f12%2f03%2fship-pwa-guided-by-lighthouse%2f&amp;title=Ship%20PWA%20Guided%20by%20Lighthouse&amp;summary=Nowadays%2c%20PWA%20is%20so%20hyped.%20All%20the%20cool%20kids%20are%20implementing%20PWA%2c%20or%20on%20the%20way%20to%20implement%20it.%20It%27s%20like%20a%20magic%20box%2c%20they%20said%2c%20what%20contains%20ultimate%20happiness%20for%20users.%20Wow%20it%20sounds%20awesome%2c%20right%3f%20How%20is%20it%20possible%20that%20I%20could%20miss%20this%20opportunity%20to%20stay%20as%20a%20member%20of%20the%20cool%20kids%20club%3f...&amp;source=nnn" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fkevcui.github.io%2f2017%2f12%2f03%2fship-pwa-guided-by-lighthouse%2f&title=Ship%20PWA%20Guided%20by%20Lighthouse" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.2 9.7l-3-5.4C7.2 4 7 4 6.8 4h-5c-.3 0-.4 0-.5.2v.5L4 10 .4 16v.5c0 .2.2.3.4.3h5c.3 0 .4 0 .5-.2l4-6.6v-.5zM24 .2l-.5-.2H18s-.2 0-.3.3l-8 14v.4l5.2 9c0 .2 0 .3.3.3h5.4s.3 0 .4-.2c.2-.2.2-.4 0-.5l-5-8.8L24 .7V.2z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    
+      
+        
+        
+      
+    
+
+</section>
+
+        
+
+        <footer class="footer">
+    <span class="footer__copyright">
+        &copy; 2018 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+    </span>
+</footer>
+
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+    title: "Index",
+    overlay: true,
+    contentId: "post-content",
+});
+</script>
+
+  
+
+</html>

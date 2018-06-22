@@ -1,20 +1,133 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Krazy Kevin</title>
+      <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/yearly-review/</link>
+    <link>https://kevcui.github.io/tags/yearly-review/</link>
     <language>en-us</language>
     
     
-    <updated>Fri, 23 Dec 2016 19:56:57 &#43;0200</updated>
+    <updated>Mon, 25 Dec 2017 20:40:32 CET</updated>
+    
+    <item>
+      <title>My Year 2017</title>
+      <link>https://kevcui.github.io/2017/12/25/my-year-2017/</link>
+      <pubDate>Mon, 25 Dec 2017 20:40:32 CET</pubDate>
+      
+      <guid>https://kevcui.github.io/2017/12/25/my-year-2017/</guid>
+      <description>
+
+&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://images.unsplash.com/photo-1514222197436-d1a586084abe?auto=format&amp;amp;fit=crop&amp;amp;w=1000&amp;amp;q=80&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Habit is habit, and not to be flung out of the window by any man, but coaxed down-stairs one step at a time.&amp;rdquo; ― Mark Twain&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When sitting comfortably in front of the chimney and holding a cup of warm Glühwein, along with the Christmas holiday melody, we all know by heart that 2018 is almost here.&lt;/p&gt;
+
+&lt;p&gt;At this moment, I feel warm, relax and a bit drunk. It&amp;rsquo;s the perfect timing for me to recap my year 2017. If considering &lt;a href=&#34;https://kevcui.github.io/2016/12/23/my-year-2016/&#34;&gt;my year 2016 as &amp;ldquo;beginning&amp;rdquo;&lt;/a&gt;, I would say that my year 2017 is a year of &amp;ldquo;iterating&amp;rdquo;: building the habit of learning, step by step; keeping learning, little by little.&lt;/p&gt;
+
+&lt;h2 id=&#34;keep-reading&#34;&gt;Keep reading&lt;/h2&gt;
+
+&lt;p&gt;Surprisingly, I managed to finish only 1 book this year:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gene Kim: &lt;a href=&#34;https://itrevolution.com/book/the-devops-handbook/&#34;&gt;The DevOps Handbook&lt;/a&gt;. Here is my humble &lt;a href=&#34;https://kevcui.github.io/2017/07/04/book-review-the-devops-handbook/&#34;&gt;book review&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2 interesting books I started to read and I&amp;rsquo;m still reading:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Katrina Clokie: &lt;a href=&#34;https://leanpub.com/testingindevops&#34;&gt;A Practical Guide to Testing in DevOps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Gojko Adzic: &lt;a href=&#34;https://leanpub.com/humansvscomputers&#34;&gt;Humans vs Computers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To be honest, I didn&amp;rsquo;t organize my time quite well focusing on reading books. However, I spent my most of time reading short articles, medium posts and tech news&amp;hellip; As the result, I read 3,657,021 words, which is 1.75x more than last year:&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Nice yearly review from &lt;a href=&#34;https://twitter.com/Pocket?ref_src=twsrc%5Etfw&#34;&gt;@Pocket&lt;/a&gt;&lt;br&gt;I&amp;#39;ll keep reading and learning. &lt;a href=&#34;https://t.co/fr1NYNUmAp&#34;&gt;pic.twitter.com/fr1NYNUmAp&lt;/a&gt;&lt;/p&gt;&amp;mdash; 𝙠𝙚𝙫𝙞𝙣                    . (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/939453113857200130?ref_src=twsrc%5Etfw&#34;&gt;December 9, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;h2 id=&#34;keep-blogging&#34;&gt;Keep blogging&lt;/h2&gt;
+
+&lt;!--
+# testing mindset
+Bugshido Classify Warrior Bugs
+Why I Failed to Use Calabash for Mobile Testing
+How I Do Exploratory Testing
+Refine Software Testing Types
+I&#39;m A Tester &amp; I&#39;m A Rubber Duck
+Bad Use of A Good Tool
+Asking Better Questions for 4 Different Purposes
+Ghost in the Shell - A Testing Horror Story
+Be prepared! Interruption is coming!
+
+# blog setup
+Why Hexo Why Not Jekyll
+Why Hugo Why Not Hexo
+Hugo x Github Pages
+2 CSS Effect Libraries for Creating Fancy Animations
+Ship PWA Guided by Lighthouse
+
+# others
+Bye Firefox
+Why I Switch to Colemak Keyboard Layout?
+One Week with Colemak
+Hi Firefox!
+
+# review
+Book Review: The DevOps Handbook
+--&gt;
+
+&lt;p&gt;20 blog posts (including this one) are written in 2017. Among them:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;9 posts about software &lt;a href=&#34;https://kevcui.github.io/tags/testing/&#34;&gt;testing&lt;/a&gt; and &lt;a href=&#34;https://kevcui.github.io/tags/tester/&#34;&gt;tester&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;5 posts about how to &lt;a href=&#34;https://kevcui.github.io/tags/web-building/&#34;&gt;set up a (better) blog site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;1 book review&lt;/li&gt;
+&lt;li&gt;5 others for others, like &lt;a href=&#34;https://kevcui.github.io/tags/firefox/&#34;&gt;Firefox&lt;/a&gt;, &lt;a href=&#34;https://kevcui.github.io/tags/colemak/&#34;&gt;Colemak&lt;/a&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I like blogging even no one is reading. Next year, I plan to blog small posts more frequently.&lt;/p&gt;
+
+&lt;h2 id=&#34;keep-listening&#34;&gt;Keep listening&lt;/h2&gt;
+
+&lt;p&gt;This year, I did listen to podcasts a lot: software testing, IoT, science, history&amp;hellip; My favorite must-listen software testing podcasts are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alan Pages &amp;amp; Brent Jensen: &lt;a href=&#34;http://www.angryweasel.com/ABTesting/&#34;&gt;AB Testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Keith Klain: &lt;a href=&#34;http://qualityremarks.com/qr-podcast/&#34;&gt;Quality Remarks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Neil Studd: &lt;a href=&#34;https://dojo.ministryoftesting.com/series/testers-island-discs-podcast&#34;&gt;Testers&amp;rsquo; Island&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;keep-testbash-in&#34;&gt;Keep TestBash-in&lt;/h2&gt;
+
+&lt;p&gt;Like other awesome testers, undoubtedly, I see &lt;a href=&#34;https://www.ministryoftesting.com/&#34;&gt;Ministry of Testing&lt;/a&gt; as an active community to share testing knowledge. This year, I got the  chance to be a part of &lt;a href=&#34;https://dojo.ministryoftesting.com/events/testbash-germany-2017&#34;&gt;TestBash&lt;/a&gt;, which was the first time &lt;a href=&#34;https://life.ministryoftesting.com/organizing-testbash-germany-e576bf256559&#34;&gt;hosted in Germany&lt;/a&gt;. With plenty of passionate testers, I enjoyed every minute of TestBash. I&amp;rsquo;m looking forward to the next meet.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;My 1st &lt;a href=&#34;https://twitter.com/hashtag/testbash?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#testbash&lt;/a&gt; experience was really amazing! Great talks, awesome testers, nice location, decent food... See u next time 😘👊 &lt;a href=&#34;https://twitter.com/hashtag/oktobertest?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#oktobertest&lt;/a&gt;&lt;/p&gt;&amp;mdash; 𝙠𝙚𝙫𝙞𝙣                    . (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/916407371500589056?ref_src=twsrc%5Etfw&#34;&gt;October 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;hr /&gt;
+
+&lt;p&gt;As I said in &lt;a href=&#34;https://kevcui.github.io/2016/12/23/my-year-2016/&#34;&gt;my 2016 yearly review&lt;/a&gt;, &lt;em&gt;&amp;ldquo;For the next year, I don&amp;rsquo;t expect a big change coming, but maybe some small changes. What I know is that my journey will continue, step by step.&amp;rdquo;&lt;/em&gt;, it will still stay true for the next year.&lt;/p&gt;
+
+&lt;p&gt;Happy Holiday &amp;amp; Happy New Year!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/g9582DNuQppxC/giphy.gif&#34; alt=&#34;cheers&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>My Year 2k16</title>
-      <link>https://krazycavin.github.io/2016/12/23/my-year-2016/</link>
+      <link>https://kevcui.github.io/2016/12/23/my-year-2016/</link>
       <pubDate>Fri, 23 Dec 2016 19:56:57 &#43;0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2016/12/23/my-year-2016/</guid>
+      <guid>https://kevcui.github.io/2016/12/23/my-year-2016/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -29,7 +142,7 @@
 
 &lt;p&gt;There is a tradition in Japan since 1995: Every year, one character will be chosen as &lt;a href=&#34;https://en.wikipedia.org/wiki/Kanji_of_the_year&#34;&gt;kanji of the year&lt;/a&gt; at Kiyomizu Temple, which represents the events of the entire year.&lt;/p&gt;
 
-&lt;p&gt;So I choose the character of my year 2016 is &lt;strong&gt;Shi&lt;/strong&gt; &lt;img src=&#34;https://raw.githubusercontent.com/KrazyCavin/krazycavin-jekyll-github-io/master/_source/beginning.png&#34; alt=&#34;beginning&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;So I choose the character of my year 2016 is &lt;strong&gt;Shi&lt;/strong&gt; &lt;img src=&#34;https://raw.githubusercontent.com/kevcui/krazycavin-jekyll-github-io/master/_source/beginning.png&#34; alt=&#34;beginning&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It means: to start, beginning.&lt;/p&gt;
 
@@ -81,11 +194,11 @@
 
 &lt;p&gt;Good or bad are two sides of the same coin. The point of view to an alive thing cannot be perfectly right or absolutely wrong. I started to question &amp;ldquo;What is quality?&amp;rdquo;, &amp;ldquo;What is my job as tester and QA?&amp;rdquo;, &amp;ldquo;What is testing?&amp;rdquo; and &amp;ldquo;What is wrong with them?&amp;rdquo;&amp;hellip; As far as I can see, software testing itself is evolving, for a new era.&lt;/p&gt;
 
-&lt;h4 id=&#34;07-aug-2016-the-first-repository-https-github-com-krazycavin-rio2016-medaltable&#34;&gt;&lt;strong&gt;07 Aug 2016: The first &lt;a href=&#34;https://github.com/KrazyCavin/rio2016-medaltable&#34;&gt;repository&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;07-aug-2016-the-first-repository-https-github-com-kevcui-rio2016-medaltable&#34;&gt;&lt;strong&gt;07 Aug 2016: The first &lt;a href=&#34;https://github.com/kevcui/rio2016-medaltable&#34;&gt;repository&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;I started to program something for fun. Actually, what I did isn&amp;rsquo;t a big deal at all: some CLI geek-weird scripts and wrappers of some unpopular API&amp;hellip; But the most important thing is that I had a lot of fun. I enjoy the time when I do programming! Do I test my code? Nope, not now XD&lt;/p&gt;
 
-&lt;h4 id=&#34;18-nov-2016-a-new-blog-2016-11-18-hello-world&#34;&gt;&lt;strong&gt;18 Nov 2016: A new &lt;a href=&#34;https://krazycavin.github.io/2016/11/18/hello-world/&#34;&gt;blog&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;18-nov-2016-a-new-blog-2016-11-18-hello-world&#34;&gt;&lt;strong&gt;18 Nov 2016: A new &lt;a href=&#34;https://kevcui.github.io/2016/11/18/hello-world/&#34;&gt;blog&lt;/a&gt;&lt;/strong&gt;&lt;/h4&gt;
 
 &lt;p&gt;A new blog 🎉 Yes, another one! What&amp;rsquo;s different? Totally different, this time it&amp;rsquo;s a &lt;a href=&#34;https://pages.github.com/&#34;&gt;cooler way&lt;/a&gt; to blog. I promise that I will continue to keep recording crazy things happen in my journey.&lt;/p&gt;
 
@@ -137,7 +250,7 @@
 
 &lt;h4 id=&#34;make-team-testing-great-with-lots-of-fun&#34;&gt;&lt;strong&gt;Make team testing great&lt;/strong&gt; with lots of fun&lt;/h4&gt;
 
-&lt;p&gt;I say goodbye to the boring team testing. It&amp;rsquo;s not my style to organize a traditional team testing. I urge to &lt;a href=&#34;https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;make it funny&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I say goodbye to the boring team testing. It&amp;rsquo;s not my style to organize a traditional team testing. I urge to &lt;a href=&#34;https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;make it funny&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&#34;jekyll-twitter-plugin&#34;&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/2 Testing should be full of fun, like a treasure hunting, an Easter egg search,  a Geocache... a game to enjoy to have fun, not to win it&lt;br/&gt;&lt;br/&gt;2/2 I&amp;#39;d like to make a Team Testing:&lt;br /&gt;New features over Whole product&lt;br /&gt;User nature act over Planned step&lt;br /&gt;Motivation driven over Result driven&lt;/p&gt;&amp;mdash;  @KevCui &lt;a href=&#34;https://twitter.com/KevCui/status/794439768041984000&#34;&gt;November 4, 2016&lt;/a&gt;&lt;/blockquote&gt;
@@ -153,7 +266,7 @@
 
 &lt;p&gt;&lt;img src=&#34;https://4.bp.blogspot.com/-979_W3SpM3k/WFeQrw_CxvI/AAAAAAAAAHo/1Iuf3oXcKs8xKllAWXvQ6bJWRPHrnAHuACLcB/s400/2.jpg&#34; alt=&#34;newyear&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;For the next year, I won&amp;rsquo;t expect a big change coming, but maybe some small changes. What I know is that my journey will continue, step by step.&lt;/p&gt;
+&lt;p&gt;For the next year, I don&amp;rsquo;t expect a big change coming, but maybe some small changes. What I know is that my journey will continue, step by step.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ll &lt;strong&gt;Fail friendly&lt;/strong&gt;, &lt;strong&gt;Learn fast&lt;/strong&gt; and &lt;strong&gt;Stay strong&lt;/strong&gt;!&lt;/p&gt;
 

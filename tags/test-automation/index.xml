@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Krazy Kevin</title>
+      <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/test-automation/</link>
+    <link>https://kevcui.github.io/tags/test-automation/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Why I Failed to Use Calabash for Mobile Testing</title>
-      <link>https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</link>
+      <link>https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</link>
       <pubDate>Sat, 21 Jan 2017 10:48:00 &#43;0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
+      <guid>https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;

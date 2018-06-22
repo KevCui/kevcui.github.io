@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Kevin Cui</title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>https://kevcui.github.io/tags/web-building/</link>
+    <language>en-us</language>
+    
+    
+    <updated>Sun, 03 Dec 2017 11:35:21 CET</updated>
+    
+    <item>
+      <title>Ship PWA Guided by Lighthouse</title>
+      <link>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</link>
+      <pubDate>Sun, 03 Dec 2017 11:35:21 CET</pubDate>
+      
+      <guid>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</guid>
+      <description>
+
+&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*c4LxfFXAUMhEzNiXsGXbQg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            Photo by &lt;a href=&#34;https://unsplash.com/photos/D5OzyJ71mLI&#34;&gt;Robert Wiedemann&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
+
+&lt;p&gt;Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&amp;rsquo;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?&lt;/p&gt;
+
+&lt;h3 id=&#34;what-is-actually-pwa&#34;&gt;What is actually PWA?&lt;/h3&gt;
+
+&lt;p&gt;According to Google, &lt;em&gt;Progressive Web Apps are user experiences that have the reach of the web, and are&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Reliable: Load instantly and never show the downasaur, even in uncertain network conditions.&lt;/li&gt;
+&lt;li&gt;Fast: Respond quickly to user interactions with silky smooth animations and no janky scrolling.&lt;/li&gt;
+&lt;li&gt;Engaging: Feel like a natural app on the device, with an immersive user experience.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Personally, I prefer another alternative version because it uses one word to represent PWA: &lt;em&gt;F.I.R.E 🔥 Fast, Integrated, Reliable and Engaging.&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+&lt;p&gt;Many people are confused by the fancy term of PWA, like this: &lt;em&gt;Google&amp;rsquo;s continued use of the term &amp;ldquo;quality&amp;rdquo; in describing things leaves me with a ton of confusion&amp;hellip;&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;To be honest, PWA is not a new technology at all. It&amp;rsquo;s &lt;strong&gt;a new web app quality standard for web experiences&lt;/strong&gt; &lt;sup&gt;&lt;a name=&#34;back4&#34;&gt;&lt;a href=&#34;#link4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-to-get-my-app-on-f-i-r-e&#34;&gt;How to get my app on F.I.R.E.?&lt;/h3&gt;
+
+&lt;p&gt;Are you sold by the idea of PWA? I&amp;rsquo;ll buy it. Because I would do whatever I could to improve the user experience. So, I decided to optimize my blog site for reaching PWA standard.&lt;/p&gt;
+
+&lt;h4 id=&#34;step-1-run-a-performance-audit&#34;&gt;Step 1: Run a performance audit&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/GoogleChrome/lighthouse&#34;&gt;Lighthouse&lt;/a&gt; is a must-have tool to audit web app performance. Lighthouse is already integrated in the recent versions of Chrome and Chromium, as a part of DevTools, which makes it super convenient to use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Inspect -&amp;gt; Audits -&amp;gt; Perform an audit...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;step-2-read-audit-report-carefully&#34;&gt;Step 2: Read audit report carefully&lt;/h4&gt;
+
+&lt;p&gt;After running an audit in Lighthouse, it will provide a detailed report. First, it shows the overall scores:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-before-overview.jpg&#34; alt=&#34;before-overview&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;Overview of the first Lighthouse audit result&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not surprised by this result, not at all. These numbers are making people feel good when they have greens. Besides that, I would suggest to ignore them.&lt;/p&gt;
+
+&lt;p&gt;When continuing reading the report, I find the interesting parts: failed audits. It&amp;rsquo;s a nicely organized To-Do list, especially the &lt;em&gt;Learn more&lt;/em&gt; links which open documents to explain why the audit is important and how to pass the audit.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-before-pwa.jpg&#34; alt=&#34;before-pwa&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;Failed audits for PWA section&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;step-3-get-hands-dirty&#34;&gt;Step 3: Get hands dirty&lt;/h4&gt;
+
+&lt;p&gt;It&amp;rsquo;s time to handle all failed cases one by one. Most of them are rather easy to solve by following &amp;ldquo;Learn more&amp;rdquo; tutorials. Only &amp;ldquo;Does not register a Service Worker&amp;rdquo; and &amp;ldquo;Does not respond with a 200 when offline&amp;rdquo; are relatively tough. I&amp;rsquo;d like to share some tips, which come from my Aha moments.&lt;/p&gt;
+
+&lt;p&gt;A working service worker has 4 essential parts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;manifest.json: It&amp;rsquo;s a json file located in &lt;em&gt;/&lt;/em&gt; &lt;strong&gt;web app root directory&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;short_name&amp;quot;: &amp;quot;Kevin&amp;quot;,
+  &amp;quot;name&amp;quot;: &amp;quot;Kevin Cui&amp;quot;,
+  &amp;quot;icons&amp;quot;: [
+    {
+      &amp;quot;src&amp;quot;:&amp;quot;/images/favicons/android-icon-192x192.png&amp;quot;,
+      &amp;quot;sizes&amp;quot;: &amp;quot;192x192&amp;quot;,
+      &amp;quot;type&amp;quot;: &amp;quot;image/png&amp;quot;
+    }
+  ],
+  &amp;quot;start_url&amp;quot;: &amp;quot;https://kevcui.github.io/#blog&amp;quot;,
+  &amp;quot;background_color&amp;quot;: &amp;quot;#000&amp;quot;,
+  &amp;quot;theme_color&amp;quot;: &amp;quot;#000&amp;quot;,
+  &amp;quot;display&amp;quot;: &amp;quot;standalone&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Link manifest.json in &lt;em&gt;index.html&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&amp;quot;manifest&amp;quot; href=&amp;quot;/manifest.json&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Service worker js: It must be created in &lt;strong&gt;web app root directory&lt;/strong&gt;, alongside with &lt;em&gt;manifest.json&lt;/em&gt;. Here is an example of the service worker called &lt;em&gt;sw.js&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;self.addEventListener(&#39;install&#39;, e =&amp;gt; {
+  let timeStamp = Date.now();
+  e.waitUntil(
+    caches.open(&#39;kevin-blog&#39;).then(cache =&amp;gt; {
+      return cache.addAll([
+        `/`,
+        `/#blog`,
+        `/css/uno.min.css`,
+        `/css/font.min.css`,
+        `/css/resume.min.css`,
+        `/js/jquery.min.js`,
+        `/js/main.min.js`,
+      ])
+      .then(() =&amp;gt; self.skipWaiting());
+    })
+  )
+});
+
+self.addEventListener(&#39;activate&#39;,  event =&amp;gt; {
+  event.waitUntil(self.clients.claim());
+});
+
+self.addEventListener(&#39;fetch&#39;, event =&amp;gt; {
+  event.respondWith(
+    caches.match(event.request, {ignoreSearch:true}).then(response =&amp;gt; {
+      return response || fetch(event.request);
+    })
+  );
+})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A piece of JavaScript code to register service worker in &lt;em&gt;index.html&lt;/em&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;if (&#39;serviceWorker&#39; in navigator) {
+navigator.serviceWorker.register(&#39;./sw.js&#39;)
+  .then(function(registration) {
+    console.log(&amp;quot;Service Worker Registered&amp;quot;, registration);
+  })
+  .catch(function(err) {
+    console.log(&amp;quot;Service Worker Failed to Register&amp;quot;, err);
+  })
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For more details of all these parts above, there is a good tutorial to follow: &lt;a href=&#34;https://codelabs.developers.google.com/codelabs/add-to-home-screen/#0&#34;&gt;Add Your Web App to a User&amp;rsquo;s Home Screen&lt;/a&gt; and a good example of PWA app to check its source code: &lt;a href=&#34;https://github.com/GoogleChromeLabs/airhorn&#34;&gt;airhorn&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;my-app-is-on&#34;&gt;My app is on 🔥!&lt;/h3&gt;
+
+&lt;p&gt;Once the dirty jobs are well done, it&amp;rsquo;s time to run another performance audit. Although I know all score numbers are meaningless without contexts, it still feels damn awesome when I see all greens, right?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-after-overview.jpg&#34; alt=&#34;after-overview&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;Another overview of Lighthouse audit result&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Surprisingly, Firefox now starts to support PWA as well:&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Wow Firefox 59 supports PWA &amp;quot;add to home screen&amp;quot;. Nice 🤭 &lt;a href=&#34;https://t.co/HpSdKQX7fi&#34;&gt;pic.twitter.com/HpSdKQX7fi&lt;/a&gt;&lt;/p&gt;&amp;mdash; 𝙠𝙚𝙫𝙞𝙣                    . (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/937266992649834497?ref_src=twsrc%5Etfw&#34;&gt;December 3, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;h3 id=&#34;what-else&#34;&gt;What else?&lt;/h3&gt;
+
+&lt;p&gt;I have to admit that it&amp;rsquo;s not hard to pass Lighthouse audit checks. However, I must keep in mind that it&amp;rsquo;s just one step of improving web app performance towards the goal of &amp;ldquo;better user experience&amp;rdquo;. Many steps ahead I still need to move on.&lt;/p&gt;
+
+&lt;p&gt;What&amp;rsquo;s your opinion about PWA? Would you like to ship your app guided by Lighthouse? And join the cool kids club?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Google: &lt;a href=&#34;https://developers.google.com/web/progressive-web-apps/?hl=en&#34;&gt;Progressive Web Apps&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Ewa Gasperowicz: &lt;a href=&#34;https://www.youtube.com/watch?v=KRSTpo6gqqU&#34;&gt;From Website to Progressive Web App&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Ben Halpern: &lt;a href=&#34;https://dev.to/ben/what-the-heck-is-a-progressive-web-app-seriously-923&#34;&gt;What the heck is a &amp;ldquo;Progressive Web App&amp;rdquo;? Seriously.&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link4&#34;&gt;&lt;a href=&#34;#back4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt; Thao Tran and Chris Wilson: &lt;a href=&#34;https://www.youtube.com/watch?v=PsgW-0M67TQ&#34;&gt;The New Bar for Web Experiences&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2 CSS Effect Libraries for Creating Fancy Animations</title>
+      <link>https://kevcui.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</link>
+      <pubDate>Tue, 11 Jul 2017 20:57:53 CEST</pubDate>
+      
+      <guid>https://kevcui.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</guid>
+      <description>
+
+&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*fXBo56b0tanSCNHo4O2eWw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            Photo by &lt;a href=&#34;https://unsplash.com/photos/5Ntkpxqt54Y&#34;&gt;Sai Kiran Anagani Vijayawada&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
+
+&lt;p&gt;Animation is fun. It makes everything look vivid. A good animation is that you won&amp;rsquo;t notice its existence but it pleases your eyes and makes you feel good!&lt;/p&gt;
+
+&lt;p&gt;To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results. Fortunately, there are many interesting CSS effect libraries could support me to fulfill the mission. I would like to recommend 2 useful CSS libraries, which helped me to create &amp;ldquo;fancy&amp;rdquo; animations efficiently. All the codes below can be found in my &lt;a href=&#34;https://github.com/kevcui/hugo-uno-dark&#34;&gt;hugo-uno-dark&lt;/a&gt; theme repository.&lt;/p&gt;
+
+&lt;h3 id=&#34;hover-css&#34;&gt;hover.css&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ianlunn.github.io/Hover/&#34;&gt;Hover.css&lt;/a&gt; is a great CSS library. It contains almost all hover effects. On the demo site, all possible animations are well presented. Once you got your favorite one, the implication is easy. You could either go straight forward to include the whole library and add the class name in the HTML tags. Or you could search for the effect inside the raw CSS file and then copy that part into your CSS file. The last step is to add animation class name in HTML tag. It&amp;rsquo;s a piece of cake. These are stylish animations I picked and what they look like:&lt;/p&gt;
+
+&lt;h4 id=&#34;bubble-left-right&#34;&gt;&lt;strong&gt;Bubble left &amp;amp; right&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/prev_next.gif&#34; alt=&#34;prev-next&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;underline-from-left&#34;&gt;&lt;strong&gt;Underline from left&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/hover.gif&#34; alt=&#34;hover&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;bounce-to-right&#34;&gt;&lt;strong&gt;Bounce to right&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/title_animation.gif&#34; alt=&#34;bounce&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t mock me because of my bad animation taste. Once you know how to do it, then you would apply it everywhere. It&amp;rsquo;s never too fancy, right?&lt;/p&gt;
+
+&lt;h3 id=&#34;animate-css&#34;&gt;animate.css&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://daneden.github.io/animate.css/&#34;&gt;animate.css&lt;/a&gt; is a super-star CSS library for creating page transitions. Almost all basic (PowerPoint style?) page transitions can be found in this library. The usage is simple. First of all, it needs to include animate.css in your project, file or hosted link as you prefer. Then you only need to add class name animated and effect name in HTML tag.&lt;/p&gt;
+
+&lt;p&gt;But I didn&amp;rsquo;t use this fixed way. I want to add animation dynamically with jQuery. For example, I did for of articles fade-in appearing on post summary page:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;$(&#39;article&#39;).addClass(&#39;animated fadeIn&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/fadein.gif&#34; alt=&#34;article&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You may notice that there is a delay of fade-in effect. It&amp;rsquo;s a CSS trick. Actually, I set a 0.2s interval between the presences of 2 articles:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;article:nth-child(2) {
+  animation-delay: 0.2s;
+}
+article:nth-child(3) {
+  animation-delay: 0.4s;
+}
+article:nth-child(4) {
+  animation-delay: 0.6s;
+}
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Et voilà, 2 powerful CSS libraries get fancymation job done. During my small &amp;ldquo;weekend project&amp;rdquo;, I added other animations for my blog. I had a fun time playing around CSS for animations. Furthermore, I&amp;rsquo;m happy that I learned how to use 2 awesome CSS libraries, which I could share with you here. #AnimateAlltheThings!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hugo x Github Pages</title>
+      <link>https://kevcui.github.io/2017/06/18/hugo-github-pages/</link>
+      <pubDate>Sun, 18 Jun 2017 15:55:09 CEST</pubDate>
+      
+      <guid>https://kevcui.github.io/2017/06/18/hugo-github-pages/</guid>
+      <description>
+
+&lt;p&gt;It has been 2 months since I switched &lt;a href=&#34;https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/&#34;&gt;from Hexo to Hugo&lt;/a&gt;. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog Git repository, then I have to reconfigure the part of deploying Hugo website to Github Pages&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for the forgetful people, like me.&lt;/p&gt;
+
+&lt;p&gt;Hugo has a good doc to explain &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;how to host on Github Pages&lt;/a&gt;. Based on it, my configuration is following:&lt;/p&gt;
+
+&lt;h3 id=&#34;add-worktree&#34;&gt;Add Worktree&lt;/h3&gt;
+
+&lt;p&gt;Basally, I created 2 repositories for my blog. One is the theme I used, it&amp;rsquo;s called &lt;a href=&#34;https://github.com/kevcui/uno&#34;&gt;uno&lt;/a&gt;. The other one is for both posts and generated static files. Its name is &lt;a href=&#34;https://github.com/kevcui/kevcui.github.io&#34;&gt;kevcui.github.io&lt;/a&gt;, a name predefined by Github Pages. I decide the put them in one repository because it&amp;rsquo;s easy to maintenance. I separated them into 2 different branches:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Branch &lt;strong&gt;hugo&lt;/strong&gt;: posts, assets&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Branch &lt;strong&gt;master&lt;/strong&gt;: public/ folder with all the generated static files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then I need to link the &lt;strong&gt;public/&lt;/strong&gt; to &lt;strong&gt;master&lt;/strong&gt; branch:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;rm -rf public
+rm -rf ./worktrees
+git worktree add -B master public origin/master
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;create-deploy-script&#34;&gt;Create deploy script&lt;/h3&gt;
+
+&lt;p&gt;Here is my deploy script &lt;a href=&#34;https://github.com/kevcui/kevcui.github.io/blob/hugo/deploy.sh&#34;&gt;deploy.sh&lt;/a&gt;. The theme I&amp;rsquo;m using is &lt;a href=&#34;https://github.com/kevcui/uno&#34;&gt;uno&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;
+#!/bin/sh
+
+# Create worktree
+# git worktree add -B master public origin/master
+
+# Build the project.
+hugo -t uno
+
+# Go To Public folder
+cd public
+
+# Add changes to git.
+git add -A
+
+# Remove original js files
+cd js
+ls -1 --color=none | grep -v &amp;quot;min.js&amp;quot; | xargs rm -f
+
+# Remove original css files
+cd ../css
+ls -1 --color=none | grep -v &amp;quot;min.css&amp;quot; | xargs rm -f
+cd ..
+
+# Commit changes.
+msg=&amp;quot;rebuilding site `date`&amp;quot;
+if [ $# -eq 1 ]
+    then msg=&amp;quot;$1&amp;quot;
+fi
+git commit -m &amp;quot;$msg&amp;quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come back
+cd ..
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Every time after running the script deploy.sh, it will generate new static files and push them to master branch. The changes will be published immediately by Github Pages.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s all, a piece of 🍰&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why Hugo Why Not Hexo</title>
+      <link>https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/</link>
+      <pubDate>Wed, 12 Apr 2017 22:47:26 CEST</pubDate>
+      
+      <guid>https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/</guid>
+      <description>
+
+&lt;p&gt;As you probably remember that I just about &lt;a href=&#34;https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/&#34;&gt;switched from jekyll to hexo&lt;/a&gt; 2 months ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&lt;/p&gt;
+
+&lt;h3 id=&#34;why-hexo-was-chosen&#34;&gt;Why hexo was chosen?&lt;/h3&gt;
+
+&lt;p&gt;Let&amp;rsquo;s start from the reasons why I ditched jekyll without any regrets:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Hexo has a good name&lt;/li&gt;
+&lt;li&gt;Hexo is powered by Node.js&lt;/li&gt;
+&lt;li&gt;Hexo is easy to deploy&lt;/li&gt;
+&lt;li&gt;Hexo supports theme change&lt;/li&gt;
+&lt;li&gt;Hexo is pretty fast&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Honestly hexo is quite good and I&amp;rsquo;m pretty happy living with it. I have &lt;a href=&#34;https://github.com/kevcui/krazycavin-hexo-github-io&#34;&gt;a &amp;ldquo;clever&amp;rdquo; repository setup of hexo in GitHub&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Branch &lt;strong&gt;hexo&lt;/strong&gt;: to keep source code, posts and theme&lt;/li&gt;
+&lt;li&gt;Branch &lt;strong&gt;master&lt;/strong&gt;: to store all generated static files&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I found &lt;a href=&#34;https://github.com/hexojs/hexo-deployer-git&#34;&gt;a useful deploy plugin&lt;/a&gt;, which allows me to write posts and backup them in hexo branch, to publish final static files easily to master branch. I&amp;rsquo;ve to say I got nothing to complain. Hexo works as expected, all 👌&lt;/p&gt;
+
+&lt;h3 id=&#34;why-i-choose-hugo-then&#34;&gt;Why I choose hugo then?&lt;/h3&gt;
+
+&lt;p&gt;You know I&amp;rsquo;m a guy who crave clean &amp;amp; fast thingy and I never settle down. I cannot control myself not touching cool thing. &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, another popular static web generator engine, is mentioned a lot as &amp;ldquo;an alternative&amp;rdquo; of jekyll and recommended by some cool guys. When I&amp;rsquo;m motivated, I won&amp;rsquo;t give up the chance to try hugo, would I?&lt;/p&gt;
+
+&lt;h4 id=&#34;1-even-better-on-theme-changing&#34;&gt;1. Even better on theme changing&lt;/h4&gt;
+
+&lt;p&gt;Hexo supports theme change flexibly:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download a new theme&lt;/li&gt;
+&lt;li&gt;Update &lt;code&gt;_config.yaml&lt;/code&gt; to use it&lt;/li&gt;
+&lt;li&gt;Run server&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Hugo is even better:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download a new theme&lt;/li&gt;
+&lt;li&gt;Run server with theme name as a parameter, done!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;2-zero-dependency&#34;&gt;2. Zero dependency&lt;/h4&gt;
+
+&lt;p&gt;Hugo is built using Go, free, &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;open source&lt;/a&gt;. If I only want to use hugo without building from source, I could just download executable &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;release binary&lt;/a&gt;. Literally it has zero dependency, one binary that&amp;rsquo;s all, so clean. On the other hand, hexo requests much more. First npm, then install around 10 dependencies during initializing. Now I&amp;rsquo;ve only basic functionalities of hexo. If I want to generate emoji, 👌 add a &lt;a href=&#34;https://github.com/crimx/hexo-filter-github-emojis&#34;&gt;plugin&lt;/a&gt;; if I want deploy code automatically, 👌 add another &lt;a href=&#34;https://github.com/hexojs/hexo-deployer-git&#34;&gt;plugin&lt;/a&gt;; if I want backup code automatically, 👌 add another &lt;a href=&#34;https://github.com/coneycode/hexo-git-backup&#34;&gt;plugin&lt;/a&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h4 id=&#34;3-lightweight-file-structure&#34;&gt;3. Lightweight file structure&lt;/h4&gt;
+
+&lt;p&gt;Not to say if &lt;code&gt;node_modules&lt;/code&gt; is a design flaw of npm, the fact is that &lt;code&gt;node_modules&lt;/code&gt; is bloated heavily, interesting post &lt;a href=&#34;https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558&#34;&gt;here&lt;/a&gt; and interesting discussion &lt;a href=&#34;https://www.reddit.com/r/webdev/comments/42cpjy/why_is_my_node_modules_directory_140mb_is_this/&#34;&gt;here&lt;/a&gt;. Hexo is powered by Node.js and naturally bloated by it. That&amp;rsquo;s why &lt;code&gt;node_modules&lt;/code&gt; is that place where I really don&amp;rsquo;t want to look deep inside. To have a better understanding, I roughly checked the size of folders including the same theme and the result is kind as expected:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Hexo w/ node_modules: 18M
+Hexo w/o node_modules: 69M
+Hugo: 29M
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;4-little-surprises&#34;&gt;4. Little surprises&lt;/h4&gt;
+
+&lt;p&gt;After I know more about hugo, I get more little surprises:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/livereload/&#34;&gt;LiveReload&lt;/a&gt;: it instantly reloads browser after any changes. Based on hugo&amp;rsquo;s build speed, it&amp;rsquo;s super continent for developing theme and checking post&amp;rsquo;s looking, easy and fun. I like its speedy &lt;strong&gt;live&lt;/strong&gt; reload. ⚡️&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/aliases/&#34;&gt;Aliases&lt;/a&gt;: I call it  page redirect. Once I put alias URL in a post and then visiting this alias URL from browser, hugo will redirect alias URL to post URL. It easily solves the problem of URL changes caused by migration from other frameworks.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+
+&lt;p&gt;To sum up, hugo is definitely my new favorite. But hexo is actually good enough to suit my needs. It seems hard to pick one, so my suggestion is following. Imagine you would like to build your own static web pages:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You start from fresh new, I will recommend you give &lt;strong&gt;hugo&lt;/strong&gt; a try first.&lt;/li&gt;
+&lt;li&gt;You already use hexo, and you are a fan of JavaScript, then &lt;strong&gt;hexo&lt;/strong&gt; is the one to stick with.&lt;/li&gt;
+&lt;li&gt;You already use hexo, and your plan is to spend time on writing, then &lt;strong&gt;hexo&lt;/strong&gt; is good enough.&lt;/li&gt;
+&lt;li&gt;You already use hexo, and you want to learn new thing, and you&amp;rsquo;ve 1-2 days free time, then &lt;strong&gt;hugo&lt;/strong&gt; would be a good choice for you.&lt;/li&gt;
+&lt;li&gt;You already use hugo, then keep using &lt;strong&gt;hugo&lt;/strong&gt; and don&amp;rsquo;t look around 😉&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why Hexo Why Not Jekyll</title>
+      <link>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
+      <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
+      
+      <guid>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
+      <description>
+
+&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
+
+&lt;h3 id=&#34;a-net-name-is-half-success&#34;&gt;A net name is half-success&lt;/h3&gt;
+
+&lt;p&gt;Everyone has his own taste on naming. Hexo vs. Jekyll which one is cooler? I cannot tell. But which one is net and easy to write. I vote for hexo.&lt;/p&gt;
+
+&lt;p&gt;You probably are not a clumsy-handed person, but unfortunately sometimes I am. I admit that many times I&amp;rsquo;m stupid (or drunken) to write jekyll as jeykll, jekyl, jekeyll&amp;hellip; How about hexo? I think I still need drink more 🍷 in order to make a spelling mistake of hexo.&lt;/p&gt;
+
+&lt;h3 id=&#34;node-js-home-lovely-home&#34;&gt;Node.js home lovely home&lt;/h3&gt;
+
+&lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to set up project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable . At the end, the only ting I want is just to set up something in 3 min and spend my time on writing more posts.&lt;/p&gt;
+
+&lt;h3 id=&#34;deployment-it-s-a-magic&#34;&gt;Deployment? It&amp;rsquo;s a magic!&lt;/h3&gt;
+
+&lt;p&gt;The deployment of hexo is amazing. I add my git repo info in _config.xml then run a simple command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;~$ hexo d
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Done! What a magic! No need git add, git commit, git push&amp;hellip; It&amp;rsquo;s really continent to write and publish a post.&lt;/p&gt;
+
+&lt;p&gt;Another good thing is that hexo organizes git repo nicely. It contains only the final static html, js and css files. Other setup related file like _config.xml or themes or plugins can be stored separately in different repositories. It&amp;rsquo;s wonderful for person who has OCD.&lt;/p&gt;
+
+&lt;h3 id=&#34;setup-theme-dynamically&#34;&gt;Setup theme dynamically&lt;/h3&gt;
+
+&lt;p&gt;With hexo, there will be no more feeling of frustrated at changing theme. Hexo has an interesting structure to organize &lt;a href=&#34;https://hexo.io/docs/themes.html&#34;&gt;&lt;em&gt;themes&lt;/em&gt;&lt;/a&gt; in a separate folder. Choosing a theme is like switching a cloth. And it&amp;rsquo;s possible to have collect different themes 👗 in your armoire.&lt;/p&gt;
+
+&lt;h3 id=&#34;fast&#34;&gt;Fast&lt;/h3&gt;
+
+&lt;p&gt;Overall, hexo gives me an impression &lt;em&gt;fast&lt;/em&gt;, starting from the command execution with one letter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hexo s &amp;lt;=&amp;gt; hexo server
+hexo g &amp;lt;=&amp;gt; hexo generate
+hexo d &amp;lt;=&amp;gt; hexo deploy
+hexo cl &amp;lt;=&amp;gt; hexo clean
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;According to my needs, compared to Jekyll hexo has a net name, no learning curve, magic deployment, variable themes, and it runs faster. I&amp;rsquo;m quite satisfied with hexo so far. Maybe I will give &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; a try soon. But who knows when I will switch to the &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;next generator&lt;/a&gt;? 😬&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
