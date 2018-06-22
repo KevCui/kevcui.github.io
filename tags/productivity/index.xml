@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Krazy Kevin</title>
+      <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/productivity/</link>
+    <link>https://kevcui.github.io/tags/productivity/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Be prepared! Interruption is coming!</title>
-      <link>https://krazycavin.github.io/2017/04/29/be-prepared-interruption-is-coming/</link>
+      <link>https://kevcui.github.io/2017/04/29/be-prepared-interruption-is-coming/</link>
       <pubDate>Sat, 29 Apr 2017 21:25:25 CEST</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/04/29/be-prepared-interruption-is-coming/</guid>
+      <guid>https://kevcui.github.io/2017/04/29/be-prepared-interruption-is-coming/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -22,7 +22,7 @@
     
     &lt;sup&gt;
         &lt;em&gt;
-            from &lt;a href=&#34;https://www.flickr.com/photos/toolstop/4546017269/in/photolist-7VHwy6-7T3sBx-pvPtJf-nywY2v-9qrj88-f6gPjy-9J1BdE-8eB9zK-eTJxN4-fvp6xs-697QaY-kQEJ5Z-8j199M-2ar2Sb-8j1944-nRvec8-5oDgFr-nC1Kzp-ANtt56-nZ9Y9G-7a4QsY-miwiuT-qLGJw2-Sg25Nb-6bUidP-frHAzg-nzWYLx-rFgD9r-7pNK4V-drfRNk-5se7vP-pGvU4T-a7Wjjq-s6nuVQ-8oVLCo-9DvfFb-5NLEtK-oJAqmx-q7mtBs-4ViWX-guzccR-6bMfa9-6bUiut-8Rw2LS-5PhERM-9YfCgz-8RvU6t-obqmkU-9tntU6-kQJtL1&#34;&gt;Mark Hunter&lt;/a&gt;
+            Photo by &lt;a href=&#34;https://www.flickr.com/photos/toolstop/4546017269/in/photolist-7VHwy6-7T3sBx-pvPtJf-nywY2v-9qrj88-f6gPjy-9J1BdE-8eB9zK-eTJxN4-fvp6xs-697QaY-kQEJ5Z-8j199M-2ar2Sb-8j1944-nRvec8-5oDgFr-nC1Kzp-ANtt56-nZ9Y9G-7a4QsY-miwiuT-qLGJw2-Sg25Nb-6bUidP-frHAzg-nzWYLx-rFgD9r-7pNK4V-drfRNk-5se7vP-pGvU4T-a7Wjjq-s6nuVQ-8oVLCo-9DvfFb-5NLEtK-oJAqmx-q7mtBs-4ViWX-guzccR-6bMfa9-6bUiut-8Rw2LS-5PhERM-9YfCgz-8RvU6t-obqmkU-9tntU6-kQJtL1&#34;&gt;Mark Hunter&lt;/a&gt;
         &lt;/em&gt;
     &lt;/sup&gt;
     
@@ -30,7 +30,7 @@
 
 
 &lt;blockquote&gt;
-&lt;p&gt;By failing to prepare, you are preparing to fail.&lt;/p&gt;
+&lt;p&gt;By failing to prepare, you are preparing to fail. - Benjamin Franklin&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Recently I read an interesting article about &lt;a href=&#34;https://dev.to/andrewlucker/why-do-programmers-wear-headphones-for-the-same-reason-that-you-cantjuggle&#34;&gt;Why do programmers wear headphones?&lt;/a&gt;. The truth is that &lt;em&gt;&amp;ldquo;programmers are easily distracted, headphones eliminate some distractions, thus headphones make programmers.&amp;rdquo;&lt;/em&gt; To reduce losing attention by distractions, I could improve my attention span and control the working environment around myself. But on the other hand, I could lose my attention as well by interruptions, which are usually unexpected. What can I do to deal with them?&lt;/p&gt;
@@ -47,11 +47,11 @@
 
 &lt;h3 id=&#34;prevent-interruptions&#34;&gt;Prevent interruptions?&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.nairaland.com/attachments/2890469_dnd_jpeg06641fdcae1a92def0a73687ba3231bb&#34; alt=&#34;disturb&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/800/0*iW2FqA-q-j0zeg9U.&#34; alt=&#34;disturb&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;&lt;em&gt;image from &lt;a href=&#34;http://www.nairaland.com/2621018/not-disturb-programmer&#34;&gt;₦airaland Forum&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;Why not we just prevent interruptions like preventing distractions? Lock ourself in a room and hang &amp;ldquo;Do Not Disturb!&amp;rdquo; sign outside the door? Well, we can isolate ourself by being inside our ideal bubble. But as we know, interruptions are made on purpose, sometimes they provide useful information that we need to adapt the changes:&lt;/p&gt;
+&lt;p&gt;Why don&amp;rsquo;t we just prevent interruptions like preventing distractions? Lock ourself in a room and hang &amp;ldquo;Do Not Disturb!&amp;rdquo; sign outside the door? Well, we can isolate ourself by being inside our ideal bubble. But as we know, interruptions are made on purpose, sometimes they provide useful information that we need to adapt the changes:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;An urgent business decision is made, it needs me to discuss and change requirements now.&lt;/li&gt;
@@ -98,7 +98,7 @@
 
 &lt;h3 id=&#34;interruption-is-coming&#34;&gt;Interruption is coming!&lt;/h3&gt;
 
-&lt;p&gt;Talk of the devil and he is sure to appear. Before you finished reading this post, I guess you&amp;rsquo;ve probably been distracted or interrupted at least once. Take it easy, it&amp;rsquo;s totally normal. Remember interruption brings changes and challenges on purpose; Remember continuous focus and defocus makes you have more than ease for interruptions; Remember improving refocus time makes you feel comfortable to embrace interruptions.&lt;/p&gt;
+&lt;p&gt;Speak of the devil and he is sure to appear. Before you finished reading this post, I guess you&amp;rsquo;ve probably been distracted or interrupted at least once. Take it easy, it&amp;rsquo;s totally normal. Remember interruption brings changes and challenges on purpose; Remember continuous focus and defocus makes you have more than ease for interruptions; Remember improving refocus time makes you feel comfortable to embrace interruptions.&lt;/p&gt;
 
 &lt;p&gt;Brace yourself, interruption is coming!&lt;/p&gt;
 

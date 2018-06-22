@@ -1,20 +1,132 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Krazy Kevin</title>
+      <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/tester/</link>
+    <link>https://kevcui.github.io/tags/tester/</link>
     <language>en-us</language>
     
     
-    <updated>Tue, 03 Oct 2017 17:50:00 CEST</updated>
+    <updated>Sun, 29 Oct 2017 15:11:23 CET</updated>
+    
+    <item>
+      <title>Ghost in the Shell - A Testing Horror Story</title>
+      <link>https://kevcui.github.io/2017/10/29/ghost-in-the-shell/</link>
+      <pubDate>Sun, 29 Oct 2017 15:11:23 CET</pubDate>
+      
+      <guid>https://kevcui.github.io/2017/10/29/ghost-in-the-shell/</guid>
+      <description>
+
+&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*-3tBMgj6n1bSgjgDHaHP7A.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            Photo by &lt;a href=&#34;https://unsplash.com/photos/V9keLsAtxyA&#34;&gt;Scott Walsh&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;em&gt;Disclaimer: This story may never happen in my life. However, it may happen in yours.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;rick&#34;&gt;Rick&lt;/h3&gt;
+
+&lt;p&gt;&amp;ldquo;So, you are Rick? Nice to meet you.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m shaking hands with a middle-aged woman in her office. She is talking to me. She is Madame Q, the QA manager of Y Bank.&lt;/p&gt;
+
+&lt;p&gt;My name is Rick, 30 years old single male. I&amp;rsquo;m a test automation specialist. I&amp;rsquo;m working as a software consultant in banking. I&amp;rsquo;m universally recognized in my consultant company as the top talent. People say, &amp;ldquo;With Rick, Without Risk!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;My business is to help my client solve their technical problems in software testing. I have a motto &amp;ldquo;Automate all the things!&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Today is my first day in Y Bank. I have a 3-month project here to provide them a test automation solution.&lt;/p&gt;
+
+&lt;h3 id=&#34;y-bank&#34;&gt;Y Bank&lt;/h3&gt;
+
+&lt;p&gt;Y Bank is one of the top banks in the world. As a Fortune 500 company, Y Bank provides tons of financial services in the worldwide. In this department, there are around 50 developers and 10 testers. All of them are consultants from different IT consultant companies. They are developing an online banking tool, which provides financial services to other companies.&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-team&#34;&gt;QA team&lt;/h3&gt;
+
+&lt;p&gt;Madame Q is showing me my working place. It&amp;rsquo;s an open space with around 10 desks.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Welcome to our QA team. Currently, we have 5 manual testers and 3 automation testers.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Everyone in the office suddenly stands up and comes closer to me. They tell me their names and shake hands with me.&lt;/p&gt;
+
+&lt;p&gt;She points to the corner where my desk is.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;In case, you wonder where are developers. There is another open office for them. We are in building A. They are in building B.&amp;rdquo;&lt;/p&gt;
+
+&lt;h3 id=&#34;plan&#34;&gt;Plan&lt;/h3&gt;
+
+&lt;p&gt;In 3 months, they are going to launch a final product. There will be a 1-week quality gate in 2 months. As QA team, we have to catch all bugs during the quality gate. Then developers will use 1 month to fix all bugs. After that, QA team will have another 1-week regression testing session to validate the whole product. Then hopefully, it&amp;rsquo;s a happy ending.&lt;/p&gt;
+
+&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;
+
+&lt;p&gt;QA team doesn&amp;rsquo;t have enough manpower to verify all requirements of products in just 1 week. Madame Q came up with a suggestion: automatizing as many as possible requirements in order to reduce manual work. After calculated investments and benefits, the higher managers approved Madame Q&amp;rsquo;s suggestion. That&amp;rsquo;s why now I&amp;rsquo;m involved in her plan. Madame Q starts to present her ambitious goal: In 2 months, we are going to automatize 1000 test cases, from scratch.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-one&#34;&gt;The One&lt;/h3&gt;
+
+&lt;p&gt;Although I don&amp;rsquo;t know how good other 3 automation testers are, I trust absolutely my technical skills.&lt;/p&gt;
+
+&lt;p&gt;After several days, I find out other 3 automation testers are quite junior-ish. They didn&amp;rsquo;t say anything about how to proceed this project, but you can see the worries from their faces.&lt;/p&gt;
+
+&lt;p&gt;After several meetings with other testers and developers, I know more or less how the product works.&lt;/p&gt;
+
+&lt;p&gt;I know that I&amp;rsquo;m the One who can save the plan. Then, I organize a meeting with Lead Developer, Head of Developers and Madame Q. I propose them a test automation framework and show them what we are going to do. Everything I planned looks reasonable. I see they are knocking their heads. They didn&amp;rsquo;t say anything about how to proceed this plan, but you can see the satisfaction from their faces.&lt;/p&gt;
+
+&lt;p&gt;Next day, Madame Q dispatches tasks to automation team. Now I&amp;rsquo;m alone in charge of implementing the test automation framework. Others are working on creating test cases from automatizing requirements.&lt;/p&gt;
+
+&lt;h3 id=&#34;ghosts&#34;&gt;Ghosts&lt;/h3&gt;
+
+&lt;p&gt;Finally, after 1 month, I finished the whole setup of automation framework: Test cases can be executed automatically; Test reports will be sent to managers&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;The whole test automation looks really shining, as the same stuff I did in my last projects. Everyone, no matter he or she understands what I did or not, gives me their thumbs-up. I&amp;rsquo;m gaining my reputation very fast. Even testers on other sites in Y Bank, they invite me to their meetings to discuss their test automation.&lt;/p&gt;
+
+&lt;p&gt;Below the surface, things get chill.&lt;/p&gt;
+
+&lt;p&gt;Several test cases are not handled perfectly in the framework. Sometimes they pass, sometimes they fail. They are like ghosts haunting in the system. These strange creatures will cause people being worried. Therefore, people will start to lose the confidences on my automation framework setup.&lt;/p&gt;
+
+&lt;p&gt;Gladly, I blocked all these test cases running in the system. No one else knows this secret, except the guy Jack who created these test cases. I required him to fix these tests, although I know that he did create all tests correctly.&lt;/p&gt;
+
+&lt;p&gt;Next day, Madame Q asks for the number of test cases in an email. In order to make the number reaching 1000, I decide to add these ghost tests in official execution suite. They will be executed as the first time in the quality gate. Jack shows his worry about my decision. I tell him to keep calm because I have already the idea how to fix ghost tests. Besides, we don&amp;rsquo;t need to worry about the initial goal anymore.&lt;/p&gt;
+
+&lt;h3 id=&#34;judgment-day&#34;&gt;Judgment Day&lt;/h3&gt;
+
+&lt;p&gt;Today is the day when quality gate starts, as known as Judgment Day. For us, automation testers, we are quite relaxed. All the test cases will be triggered automatically to check target release build. It will take a roughly half-day to get the final green-red style test report.&lt;/p&gt;
+
+&lt;p&gt;When I open the final test report in my mailbox, surprisingly, all ghost tests are marked as green color. It&amp;rsquo;s the color with full of hope. I breathe a sigh of relief.&lt;/p&gt;
+
+&lt;h3 id=&#34;ending&#34;&gt;Ending&lt;/h3&gt;
+
+&lt;p&gt;Weeks later, when I come to the office, there is an envelope on my desk. My name &amp;ldquo;Rick&amp;rdquo; is writing on the envelope. I know that it&amp;rsquo;s an outcome of my last talk with Madame Q, before she flies to another country for the product launch. I know, inside this envelop, it&amp;rsquo;s a job offer. Y Bank wants me to become an official employee, with a higher position.&lt;/p&gt;
+
+&lt;p&gt;Today is also my last day of the 3-month project. I need to decide now whether to accept this offer or not. I&amp;rsquo;m sitting in my chair and thinking whole day long.&lt;/p&gt;
+
+&lt;p&gt;Everyone in the office starts to go home. Staring at the envelope, I still don&amp;rsquo;t have a clue.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s time that the nightly test execution starts running. My computer screen turns on, showing me the monitoring of each execution. The first test is green, now it runs the second one&amp;hellip; green, green and green&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;I stand up and take my bag. I walk to the door and turn off the lights of the office. I look back in the office, only my computer screen is bright in the darkness. It shows green, green and green&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Suddenly, everything on the screen stops moving. It turns a full-screen warning in red. The red color is expanding and eating all the darkness. There is a name on the envelope reflected by the red light. It is a bloody red &amp;ldquo;Rick&amp;rdquo;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Happy Halloween! 🎃&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://media.riffsy.com/images/1b75507a048bbedb7b7c3bc27a3f21d1/tenor.gif&#34; alt=&#34;pumpkin-dance&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Asking Better Questions for 4 Different Purposes</title>
-      <link>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</link>
+      <link>https://kevcui.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</link>
       <pubDate>Tue, 03 Oct 2017 17:50:00 CEST</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
+      <guid>https://kevcui.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -22,7 +134,7 @@
     
     &lt;sup&gt;
         &lt;em&gt;
-            from &lt;a href=&#34;https://unsplash.com/@jdsimcoe/&#34;&gt;Jonathan Simcoe&lt;/a&gt;
+            Photo by &lt;a href=&#34;https://unsplash.com/@jdsimcoe/&#34;&gt;Jonathan Simcoe&lt;/a&gt;
         &lt;/em&gt;
     &lt;/sup&gt;
     
@@ -214,10 +326,10 @@ avoid double negative
     
     <item>
       <title>I&#39;m A Tester &amp; I&#39;m A Rubber Duck</title>
-      <link>https://krazycavin.github.io/2017/06/20/i-am-a-rubber-duck/</link>
+      <link>https://kevcui.github.io/2017/06/20/i-am-a-rubber-duck/</link>
       <pubDate>Tue, 20 Jun 2017 21:28:30 CEST</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/06/20/i-am-a-rubber-duck/</guid>
+      <guid>https://kevcui.github.io/2017/06/20/i-am-a-rubber-duck/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -225,7 +337,7 @@ avoid double negative
     
     &lt;sup&gt;
         &lt;em&gt;
-            from &lt;a href=&#34;https://www.flickr.com/photos/silvia-m/34764790472/in/photolist-UY3D2b-9zw2em-hSV-8XAvVA&#34;&gt;Silvia Maggi&lt;/a&gt;
+            Photo by &lt;a href=&#34;https://www.flickr.com/photos/silvia-m/34764790472/in/photolist-UY3D2b-9zw2em-hSV-8XAvVA&#34;&gt;Silvia Maggi&lt;/a&gt;
         &lt;/em&gt;
     &lt;/sup&gt;
     
@@ -285,6 +397,107 @@ avoid double negative
 &lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Jeff Atwood: &lt;a href=&#34;https://blog.codinghorror.com/rubber-duck-problem-solving/&#34;&gt;Rubber Duck Problem Solving&lt;/a&gt;
 &lt;br/&gt;
 &lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Matt Briggs: &lt;a href=&#34;http://mattbriggs.net/blog/2015/06/01/the-role-of-a-senior-developer/&#34;&gt;The Role of a Senior Developer&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Be prepared! Interruption is coming!</title>
+      <link>https://kevcui.github.io/2017/04/29/be-prepared-interruption-is-coming/</link>
+      <pubDate>Sat, 29 Apr 2017 21:25:25 CEST</pubDate>
+      
+      <guid>https://kevcui.github.io/2017/04/29/be-prepared-interruption-is-coming/</guid>
+      <description>
+
+&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*A4g-4mSEERgcCJAU9aoiBQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;sup&gt;
+        &lt;em&gt;
+            Photo by &lt;a href=&#34;https://www.flickr.com/photos/toolstop/4546017269/in/photolist-7VHwy6-7T3sBx-pvPtJf-nywY2v-9qrj88-f6gPjy-9J1BdE-8eB9zK-eTJxN4-fvp6xs-697QaY-kQEJ5Z-8j199M-2ar2Sb-8j1944-nRvec8-5oDgFr-nC1Kzp-ANtt56-nZ9Y9G-7a4QsY-miwiuT-qLGJw2-Sg25Nb-6bUidP-frHAzg-nzWYLx-rFgD9r-7pNK4V-drfRNk-5se7vP-pGvU4T-a7Wjjq-s6nuVQ-8oVLCo-9DvfFb-5NLEtK-oJAqmx-q7mtBs-4ViWX-guzccR-6bMfa9-6bUiut-8Rw2LS-5PhERM-9YfCgz-8RvU6t-obqmkU-9tntU6-kQJtL1&#34;&gt;Mark Hunter&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
+
+&lt;blockquote&gt;
+&lt;p&gt;By failing to prepare, you are preparing to fail. - Benjamin Franklin&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Recently I read an interesting article about &lt;a href=&#34;https://dev.to/andrewlucker/why-do-programmers-wear-headphones-for-the-same-reason-that-you-cantjuggle&#34;&gt;Why do programmers wear headphones?&lt;/a&gt;. The truth is that &lt;em&gt;&amp;ldquo;programmers are easily distracted, headphones eliminate some distractions, thus headphones make programmers.&amp;rdquo;&lt;/em&gt; To reduce losing attention by distractions, I could improve my attention span and control the working environment around myself. But on the other hand, I could lose my attention as well by interruptions, which are usually unexpected. What can I do to deal with them?&lt;/p&gt;
+
+&lt;h3 id=&#34;distraction-or-interruption&#34;&gt;Distraction or Interruption?&lt;/h3&gt;
+
+&lt;p&gt;First of all, what is the difference between distraction and interruption?&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;distraction&lt;/strong&gt; is something that draws one’s attention away from what they are supposed to be paying attention to, &lt;strong&gt;entirely unintentionally&lt;/strong&gt;.&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; For example, when you&amp;rsquo;re coding, a beautiful/handsome visitor passes by the office, you&amp;rsquo;re distracted by her/his charm&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;An &lt;strong&gt;interruption&lt;/strong&gt; is something that draws one’s attention away from what they are supposed to be paying attention to, &lt;strong&gt;entirely on purpose&lt;/strong&gt;.&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; For example, when you&amp;rsquo;re coding, a beautiful/handsome visitor comes to your desk and asks you out for a coffee, you&amp;rsquo;re interrupted by her/his question&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Unintentionally or on purpose, although they all result to draws your attention away, distraction is initiative and interruption is passive.&lt;/p&gt;
+
+&lt;h3 id=&#34;prevent-interruptions&#34;&gt;Prevent interruptions?&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/800/0*iW2FqA-q-j0zeg9U.&#34; alt=&#34;disturb&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;&lt;em&gt;image from &lt;a href=&#34;http://www.nairaland.com/2621018/not-disturb-programmer&#34;&gt;₦airaland Forum&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Why don&amp;rsquo;t we just prevent interruptions like preventing distractions? Lock ourself in a room and hang &amp;ldquo;Do Not Disturb!&amp;rdquo; sign outside the door? Well, we can isolate ourself by being inside our ideal bubble. But as we know, interruptions are made on purpose, sometimes they provide useful information that we need to adapt the changes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;An urgent business decision is made, it needs me to discuss and change requirements now.&lt;/li&gt;
+&lt;li&gt;An abnormal app crash rate happens in production, it needs me to analyze root cause now.&lt;/li&gt;
+&lt;li&gt;A new feature is testable, it needs me to pair testing with developers now.&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In these cases, I cannot just simply avoid them, I have to pay attention to handle with them. &amp;ldquo;Do Not Disturb&amp;rdquo; could surely gain my focus but I will definitely lose my agility.&lt;/p&gt;
+
+&lt;h3 id=&#34;be-prepared-to-embrace-interruptions&#34;&gt;Be prepared to embrace interruptions&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://c1.staticflickr.com/3/2039/2721654446_2baea3ef82.jpg&#34; alt=&#34;open&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;&lt;em&gt;image from &lt;a href=&#34;https://www.flickr.com/photos/thebirdwells/2721654446/in/photostream/&#34;&gt;bryan birdwell&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Instead of preventing interruptions, why not be prepared to embrace interruptions? It sounds interesting, right? But how? &lt;a href=&#34;https://hearthstone.gamepedia.com/Violet_Teacher&#34;&gt;Pay attention, class! Instruction begins!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;1-continuous-focus-and-defocus&#34;&gt;1. Continuous Focus and Defocus&lt;/h4&gt;
+
+&lt;p&gt;Focus makes me efficient, productive. Defocus makes me relax and creative.&lt;/p&gt;
+
+&lt;p&gt;Due to human&amp;rsquo;s natural, we have an &lt;a href=&#34;https://en.wikipedia.org/wiki/Attention_span&#34;&gt;attention span&lt;/a&gt;: the amount of concentrated time one can spend on a task without becoming distracted. I know my attention span is 30 minutes. It means that I have to switch to defocus state after maximum 30 minutes focus. Even I can force myself focusing. The result will turn into inefficiency and tiredness.&lt;/p&gt;
+
+&lt;p&gt;Based on my attention span, similar to &lt;a href=&#34;https://en.wikipedia.org/wiki/Pomodoro_Technique&#34;&gt;Pomodoro technique&lt;/a&gt;, I use 25 minutes to focus on one of my tasks and then I give myself 5 minutes break as a reward. After a break, I restart again 25 minutes focusing on a task and then again a 5 minutes defocus&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Imagine if I work for 8 hours, in theory, I have 16 break time. These 16 break time are perfectly prepared for interruptions.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re only short tasks, there is an ultimate version for you, it&amp;rsquo;s called &lt;a href=&#34;http://www.43folders.com/2005/10/11/procrastination-hack-1025&#34;&gt;procrastination hack&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. Basically, a loop of focus and defocus is shirking to 10+2, then you&amp;rsquo;ll perform 5 loops in one hour (10+2)*5. So in 8 hours, 40 break time in total!&lt;/p&gt;
+
+&lt;p&gt;When interruption comes during my defocus time, without the impact of interruption, I can easily engage myself in other high priority tasks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Continuous focus and defocus reduce the impact of interruptions.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;2-short-refocus-time&#34;&gt;2. Short Refocus Time&lt;/h4&gt;
+
+&lt;p&gt;No one can plan his life perfectly. Sometimes when the interruption comes, I&amp;rsquo;m still focusing on my task! 💩 happens. The reason why people hate interruption so much is not only that interruption draws attention away, but also that it takes a long time to go back to flow. If you could get back to flow in seconds, probably you will feel that interruption is only a kind of annoying, but not really hateful. Therefore, a short refocus time is rather important.&lt;/p&gt;
+
+&lt;p&gt;I find a way to gain refocus easily and it works quite well for me. First I will take one deep breath, and then I will cast a magical spell: &amp;ldquo;What am I doing now?&amp;rdquo;. By taking a deep breath, I can control my emotion and empty my mind. By questioning myself as a psychological hint, it helps me to focus on the question first, then the focus will be moving back to the task.&lt;/p&gt;
+
+&lt;p&gt;By the way, recently I discovered another spell which does the same psychological trick, &amp;ldquo;I Am One With the Focus and the Focus Is With Me&amp;rdquo;. But I cannot use that because I cannot resist 😆&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A short refocus time reduces the hatred of interruptions.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;interruption-is-coming&#34;&gt;Interruption is coming!&lt;/h3&gt;
+
+&lt;p&gt;Speak of the devil and he is sure to appear. Before you finished reading this post, I guess you&amp;rsquo;ve probably been distracted or interrupted at least once. Take it easy, it&amp;rsquo;s totally normal. Remember interruption brings changes and challenges on purpose; Remember continuous focus and defocus makes you have more than ease for interruptions; Remember improving refocus time makes you feel comfortable to embrace interruptions.&lt;/p&gt;
+
+&lt;p&gt;Brace yourself, interruption is coming!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://www.samatters.com/distractions-and-interruptions-whats-the-difference/&#34;&gt;Distractions and Interruptions&amp;hellip; What’s the Difference?&lt;/a&gt;
+&lt;br/&gt;
+&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Zeger Van Hese: &lt;a href=&#34;https://youtu.be/Fcf2iVY1eA0?t=24m33s&#34;&gt;Testing in the Age of Distraction&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

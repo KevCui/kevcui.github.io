@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Krazy Kevin</title>
+      <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/tool/</link>
+    <link>https://kevcui.github.io/tags/tool/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Bad Use of A Good Tool</title>
-      <link>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
+      <link>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
       <pubDate>Tue, 27 Jun 2017 21:43:23 CEST</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
+      <guid>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -22,7 +22,7 @@
     
     &lt;sup&gt;
         &lt;em&gt;
-            from &lt;a href=&#34;https://www.flickr.com/photos/clumsyjim/1907979770/&#34;&gt;Jim&lt;/a&gt;
+            Photo by &lt;a href=&#34;https://www.flickr.com/photos/clumsyjim/1907979770/&#34;&gt;Jim&lt;/a&gt;
         &lt;/em&gt;
     &lt;/sup&gt;
     
@@ -33,7 +33,7 @@
 &lt;p&gt;If all you have is a hammer, everything looks like a nail.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to &lt;a href=&#34;https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;organize this testing party&lt;/a&gt;. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well. I feel shame for it. I ask myself why it happened? After I think again and again, one thing I could tell is because of &lt;strong&gt;my bad use of a good tool&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to &lt;a href=&#34;https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;organize this testing party&lt;/a&gt;. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well. I feel shame for it. I ask myself why it happened? After I think again and again, one thing I could tell is because of &lt;strong&gt;my bad use of a good tool&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;a-good-tool&#34;&gt;A good tool&lt;/h3&gt;
 
@@ -55,7 +55,7 @@
 
 &lt;p&gt;Charles proxy is not a snake oil for manipulating http requests. It has its pros and cons. In my case, I need a proxy tool to mock response data heavily and to change mock data easily, meanwhile it should also provide stable connections of massive mobile devices for testing. Charles is a good tool for sure, but in this case, it&amp;rsquo;s not the right tool for my need.&lt;/p&gt;
 
-&lt;p&gt;I have to search for a proper solution. I find that &lt;a href=&#34;https://mitmproxy.org/&#34;&gt;mitmproxy&lt;/a&gt; could be a candidate to try out. Because of open-source and the support of customized python script, it would be flexible to adapt all kinds of situations. All I need to do is to make scripts to fulfill my need. I like making my hands dirty. Luckily, mitmproxy provides a good &lt;a href=&#34;http://docs.mitmproxy.org/en/stable/&#34;&gt;documentation&lt;/a&gt; and nice &lt;a href=&#34;https://discourse.mitmproxy.org/&#34;&gt;forums&lt;/a&gt;. At the end, it&amp;rsquo;s not too hard to write &lt;a href=&#34;https://github.com/KrazyCavin/mitm-rewrite-script&#34;&gt;mitm-rewrite-script&lt;/a&gt;, which provides me the function I need.&lt;/p&gt;
+&lt;p&gt;I have to search for a proper solution. I find that &lt;a href=&#34;https://mitmproxy.org/&#34;&gt;mitmproxy&lt;/a&gt; could be a candidate to try out. Because of open-source and the support of customized python script, it would be flexible to adapt all kinds of situations. All I need to do is to make scripts to fulfill my need. I like making my hands dirty. Luckily, mitmproxy provides a good &lt;a href=&#34;http://docs.mitmproxy.org/en/stable/&#34;&gt;documentation&lt;/a&gt; and nice &lt;a href=&#34;https://discourse.mitmproxy.org/&#34;&gt;forums&lt;/a&gt;. At the end, it&amp;rsquo;s not too hard to write &lt;a href=&#34;https://github.com/kevcui/mitm-rewrite-script&#34;&gt;mitm-rewrite-script&lt;/a&gt;, which provides me the function I need.&lt;/p&gt;
 
 &lt;hr /&gt;
 
