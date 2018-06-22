@@ -3,7 +3,7 @@
   <channel>
       <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://kevcui.github.io/tags/exploratory/</link>
+    <link>https://krazycavin.github.io/tags/exploratory/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>How I Do Exploratory Testing</title>
-      <link>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</link>
+      <link>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</link>
       <pubDate>Mon, 17 Apr 2017 22:30:00 CEST</pubDate>
       
-      <guid>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
+      <guid>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -43,7 +43,7 @@
 
 &lt;h3 id=&#34;what-is-my-practice-of-et&#34;&gt;What is my practice of ET?&lt;/h3&gt;
 
-&lt;p&gt;Since the beginning of last year when &lt;a href=&#34;https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/&#34;&gt;I failed to use Calabash for mobile testing&lt;/a&gt;, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: &lt;strong&gt;To have a concrete structure of ET and to adapt change easily based on it.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Since the beginning of last year when &lt;a href=&#34;https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/&#34;&gt;I failed to use Calabash for mobile testing&lt;/a&gt;, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: &lt;strong&gt;To have a concrete structure of ET and to adapt change easily based on it.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Combining the purpose and my understanding, I tried some practices and made some changes. It becomes the current one I&amp;rsquo;m satisfied with. First of all, please remember it&amp;rsquo;s definitely &lt;strong&gt;not&lt;/strong&gt; the &amp;ldquo;best practice&amp;rdquo;. I still keep striving for a better practice, your feedback could help me as well 😉&lt;/p&gt;
 
@@ -197,10 +197,10 @@ Issue 1: crash on iOS 7
     
     <item>
       <title>Let&#39;s Have Some Fun! Team Testing</title>
-      <link>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
+      <link>https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
       <pubDate>Thu, 01 Dec 2016 21:37:35 &#43;0200</pubDate>
       
-      <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
+      <guid>https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;

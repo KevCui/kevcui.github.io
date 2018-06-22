@@ -3,7 +3,7 @@
   <channel>
       <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://kevcui.github.io/tags/pwa/</link>
+    <link>https://krazycavin.github.io/tags/pwa/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Ship PWA Guided by Lighthouse</title>
-      <link>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</link>
+      <link>https://krazycavin.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</link>
       <pubDate>Sun, 03 Dec 2017 11:35:21 CET</pubDate>
       
-      <guid>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</guid>
+      <guid>https://krazycavin.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -62,7 +62,7 @@
 
 &lt;p&gt;After running an audit in Lighthouse, it will provide a detailed report. First, it shows the overall scores:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-before-overview.jpg&#34; alt=&#34;before-overview&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/lighthouse-before-overview.jpg&#34; alt=&#34;before-overview&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Overview of the first Lighthouse audit result&lt;/sup&gt;&lt;/p&gt;
 
@@ -70,7 +70,7 @@
 
 &lt;p&gt;When continuing reading the report, I find the interesting parts: failed audits. It&amp;rsquo;s a nicely organized To-Do list, especially the &lt;em&gt;Learn more&lt;/em&gt; links which open documents to explain why the audit is important and how to pass the audit.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-before-pwa.jpg&#34; alt=&#34;before-pwa&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/lighthouse-before-pwa.jpg&#34; alt=&#34;before-pwa&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Failed audits for PWA section&lt;/sup&gt;&lt;/p&gt;
 
@@ -164,7 +164,7 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
 
 &lt;p&gt;Once the dirty jobs are well done, it&amp;rsquo;s time to run another performance audit. Although I know all score numbers are meaningless without contexts, it still feels damn awesome when I see all greens, right?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-after-overview.jpg&#34; alt=&#34;after-overview&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/lighthouse-after-overview.jpg&#34; alt=&#34;after-overview&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Another overview of Lighthouse audit result&lt;/sup&gt;&lt;/p&gt;
 

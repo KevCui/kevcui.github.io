@@ -3,7 +3,7 @@
   <channel>
       <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://kevcui.github.io/tags/hexo/</link>
+    <link>https://krazycavin.github.io/tags/hexo/</link>
     <language>en-us</language>
     
     
@@ -11,13 +11,13 @@
     
     <item>
       <title>Why Hugo Why Not Hexo</title>
-      <link>https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/</link>
+      <link>https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/</link>
       <pubDate>Wed, 12 Apr 2017 22:47:26 CEST</pubDate>
       
-      <guid>https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/</guid>
+      <guid>https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/</guid>
       <description>
 
-&lt;p&gt;As you probably remember that I just about &lt;a href=&#34;https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/&#34;&gt;switched from jekyll to hexo&lt;/a&gt; 2 months ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&lt;/p&gt;
+&lt;p&gt;As you probably remember that I just about &lt;a href=&#34;https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/&#34;&gt;switched from jekyll to hexo&lt;/a&gt; 2 months ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&lt;/p&gt;
 
 &lt;h3 id=&#34;why-hexo-was-chosen&#34;&gt;Why hexo was chosen?&lt;/h3&gt;
 
@@ -99,13 +99,13 @@ Hugo: 29M
     
     <item>
       <title>Why Hexo Why Not Jekyll</title>
-      <link>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
+      <link>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
       <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
       
-      <guid>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
+      <guid>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
       <description>
 
-&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
+&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;https://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
 
 &lt;h3 id=&#34;a-net-name-is-half-success&#34;&gt;A net name is half-success&lt;/h3&gt;
 
