@@ -3,7 +3,7 @@
   <channel>
       <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://kevcui.github.io/tags/testing/</link>
+    <link>https://krazycavin.github.io/tags/testing/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Bad Use of A Good Tool</title>
-      <link>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
+      <link>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
       <pubDate>Tue, 27 Jun 2017 21:43:23 CEST</pubDate>
       
-      <guid>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
+      <guid>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -33,7 +33,7 @@
 &lt;p&gt;If all you have is a hammer, everything looks like a nail.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to &lt;a href=&#34;https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;organize this testing party&lt;/a&gt;. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well. I feel shame for it. I ask myself why it happened? After I think again and again, one thing I could tell is because of &lt;strong&gt;my bad use of a good tool&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to &lt;a href=&#34;https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;organize this testing party&lt;/a&gt;. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well. I feel shame for it. I ask myself why it happened? After I think again and again, one thing I could tell is because of &lt;strong&gt;my bad use of a good tool&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;a-good-tool&#34;&gt;A good tool&lt;/h3&gt;
 
@@ -65,12 +65,12 @@
     
     <item>
       <title>Refine Software Testing Types</title>
-      <link>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</link>
+      <link>https://krazycavin.github.io/2017/05/02/refine-software-testing-types/</link>
       <pubDate>Tue, 02 May 2017 20:35:50 CEST</pubDate>
       
-      <guid>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</guid>
+      <guid>https://krazycavin.github.io/2017/05/02/refine-software-testing-types/</guid>
       <description>&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://kevcui.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;coverimage&#34;/&gt;
+    &lt;img src=&#34;https://krazycavin.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;coverimage&#34;/&gt;
     
 &lt;/p&gt;
 
@@ -156,10 +156,10 @@ What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
     
     <item>
       <title>How I Do Exploratory Testing</title>
-      <link>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</link>
+      <link>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</link>
       <pubDate>Mon, 17 Apr 2017 22:30:00 CEST</pubDate>
       
-      <guid>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
+      <guid>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -188,7 +188,7 @@ What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
 
 &lt;h3 id=&#34;what-is-my-practice-of-et&#34;&gt;What is my practice of ET?&lt;/h3&gt;
 
-&lt;p&gt;Since the beginning of last year when &lt;a href=&#34;https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/&#34;&gt;I failed to use Calabash for mobile testing&lt;/a&gt;, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: &lt;strong&gt;To have a concrete structure of ET and to adapt change easily based on it.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Since the beginning of last year when &lt;a href=&#34;https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/&#34;&gt;I failed to use Calabash for mobile testing&lt;/a&gt;, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: &lt;strong&gt;To have a concrete structure of ET and to adapt change easily based on it.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Combining the purpose and my understanding, I tried some practices and made some changes. It becomes the current one I&amp;rsquo;m satisfied with. First of all, please remember it&amp;rsquo;s definitely &lt;strong&gt;not&lt;/strong&gt; the &amp;ldquo;best practice&amp;rdquo;. I still keep striving for a better practice, your feedback could help me as well 😉&lt;/p&gt;
 
@@ -342,10 +342,10 @@ Issue 1: crash on iOS 7
     
     <item>
       <title>Why I Failed to Use Calabash for Mobile Testing</title>
-      <link>https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</link>
+      <link>https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</link>
       <pubDate>Sat, 21 Jan 2017 10:48:00 &#43;0200</pubDate>
       
-      <guid>https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
+      <guid>https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -482,10 +482,10 @@ Issue 1: crash on iOS 7
     
     <item>
       <title>Bugshido: Classify Warrior Bugs</title>
-      <link>https://kevcui.github.io/2017/01/08/bugshido/</link>
+      <link>https://krazycavin.github.io/2017/01/08/bugshido/</link>
       <pubDate>Sun, 08 Jan 2017 12:31:43 &#43;0200</pubDate>
       
-      <guid>https://kevcui.github.io/2017/01/08/bugshido/</guid>
+      <guid>https://krazycavin.github.io/2017/01/08/bugshido/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -596,10 +596,10 @@ Issue 1: crash on iOS 7
     
     <item>
       <title>Let&#39;s Have Some Fun! Team Testing</title>
-      <link>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
+      <link>https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
       <pubDate>Thu, 01 Dec 2016 21:37:35 &#43;0200</pubDate>
       
-      <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
+      <guid>https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;

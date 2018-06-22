@@ -3,7 +3,7 @@
   <channel>
       <title>Kevin Cui</title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://kevcui.github.io/tags/web-building/</link>
+    <link>https://krazycavin.github.io/tags/web-building/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Ship PWA Guided by Lighthouse</title>
-      <link>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</link>
+      <link>https://krazycavin.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</link>
       <pubDate>Sun, 03 Dec 2017 11:35:21 CET</pubDate>
       
-      <guid>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</guid>
+      <guid>https://krazycavin.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -62,7 +62,7 @@
 
 &lt;p&gt;After running an audit in Lighthouse, it will provide a detailed report. First, it shows the overall scores:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-before-overview.jpg&#34; alt=&#34;before-overview&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/lighthouse-before-overview.jpg&#34; alt=&#34;before-overview&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Overview of the first Lighthouse audit result&lt;/sup&gt;&lt;/p&gt;
 
@@ -70,7 +70,7 @@
 
 &lt;p&gt;When continuing reading the report, I find the interesting parts: failed audits. It&amp;rsquo;s a nicely organized To-Do list, especially the &lt;em&gt;Learn more&lt;/em&gt; links which open documents to explain why the audit is important and how to pass the audit.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-before-pwa.jpg&#34; alt=&#34;before-pwa&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/lighthouse-before-pwa.jpg&#34; alt=&#34;before-pwa&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Failed audits for PWA section&lt;/sup&gt;&lt;/p&gt;
 
@@ -164,7 +164,7 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
 
 &lt;p&gt;Once the dirty jobs are well done, it&amp;rsquo;s time to run another performance audit. Although I know all score numbers are meaningless without contexts, it still feels damn awesome when I see all greens, right?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-after-overview.jpg&#34; alt=&#34;after-overview&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/lighthouse-after-overview.jpg&#34; alt=&#34;after-overview&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;sup&gt;Another overview of Lighthouse audit result&lt;/sup&gt;&lt;/p&gt;
 
@@ -194,10 +194,10 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
     
     <item>
       <title>2 CSS Effect Libraries for Creating Fancy Animations</title>
-      <link>https://kevcui.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</link>
+      <link>https://krazycavin.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</link>
       <pubDate>Tue, 11 Jul 2017 20:57:53 CEST</pubDate>
       
-      <guid>https://kevcui.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</guid>
+      <guid>https://krazycavin.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</guid>
       <description>
 
 &lt;p class=&#34;coverimage&#34;&gt;
@@ -222,15 +222,15 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
 
 &lt;h4 id=&#34;bubble-left-right&#34;&gt;&lt;strong&gt;Bubble left &amp;amp; right&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/prev_next.gif&#34; alt=&#34;prev-next&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/prev_next.gif&#34; alt=&#34;prev-next&#34; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;underline-from-left&#34;&gt;&lt;strong&gt;Underline from left&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/hover.gif&#34; alt=&#34;hover&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/hover.gif&#34; alt=&#34;hover&#34; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;bounce-to-right&#34;&gt;&lt;strong&gt;Bounce to right&lt;/strong&gt;&lt;/h4&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/title_animation.gif&#34; alt=&#34;bounce&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/title_animation.gif&#34; alt=&#34;bounce&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Don&amp;rsquo;t mock me because of my bad animation taste. Once you know how to do it, then you would apply it everywhere. It&amp;rsquo;s never too fancy, right?&lt;/p&gt;
 
@@ -243,7 +243,7 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;$(&#39;article&#39;).addClass(&#39;animated fadeIn&#39;)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/fadein.gif&#34; alt=&#34;article&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/fadein.gif&#34; alt=&#34;article&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You may notice that there is a delay of fade-in effect. It&amp;rsquo;s a CSS trick. Actually, I set a 0.2s interval between the presences of 2 articles:&lt;/p&gt;
 
@@ -267,13 +267,13 @@ article:nth-child(4) {
     
     <item>
       <title>Hugo x Github Pages</title>
-      <link>https://kevcui.github.io/2017/06/18/hugo-github-pages/</link>
+      <link>https://krazycavin.github.io/2017/06/18/hugo-github-pages/</link>
       <pubDate>Sun, 18 Jun 2017 15:55:09 CEST</pubDate>
       
-      <guid>https://kevcui.github.io/2017/06/18/hugo-github-pages/</guid>
+      <guid>https://krazycavin.github.io/2017/06/18/hugo-github-pages/</guid>
       <description>
 
-&lt;p&gt;It has been 2 months since I switched &lt;a href=&#34;https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/&#34;&gt;from Hexo to Hugo&lt;/a&gt;. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog Git repository, then I have to reconfigure the part of deploying Hugo website to Github Pages&amp;hellip;&lt;/p&gt;
+&lt;p&gt;It has been 2 months since I switched &lt;a href=&#34;https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/&#34;&gt;from Hexo to Hugo&lt;/a&gt;. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog Git repository, then I have to reconfigure the part of deploying Hugo website to Github Pages&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for the forgetful people, like me.&lt;/p&gt;
 
@@ -345,13 +345,13 @@ cd ..
     
     <item>
       <title>Why Hugo Why Not Hexo</title>
-      <link>https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/</link>
+      <link>https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/</link>
       <pubDate>Wed, 12 Apr 2017 22:47:26 CEST</pubDate>
       
-      <guid>https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/</guid>
+      <guid>https://krazycavin.github.io/2017/04/12/why-hugo-why-not-hexo/</guid>
       <description>
 
-&lt;p&gt;As you probably remember that I just about &lt;a href=&#34;https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/&#34;&gt;switched from jekyll to hexo&lt;/a&gt; 2 months ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&lt;/p&gt;
+&lt;p&gt;As you probably remember that I just about &lt;a href=&#34;https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/&#34;&gt;switched from jekyll to hexo&lt;/a&gt; 2 months ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&lt;/p&gt;
 
 &lt;h3 id=&#34;why-hexo-was-chosen&#34;&gt;Why hexo was chosen?&lt;/h3&gt;
 
@@ -433,13 +433,13 @@ Hugo: 29M
     
     <item>
       <title>Why Hexo Why Not Jekyll</title>
-      <link>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
+      <link>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
       <pubDate>Sun, 26 Feb 2017 16:40:26 &#43;0200</pubDate>
       
-      <guid>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
+      <guid>https://krazycavin.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
       <description>
 
-&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
+&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;https://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
 
 &lt;h3 id=&#34;a-net-name-is-half-success&#34;&gt;A net name is half-success&lt;/h3&gt;
 
