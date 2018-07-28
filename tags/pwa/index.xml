@@ -1,195 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Kevin Cui</title>
-      <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/pwa/</link>
+    <title>Pwa on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/pwa/</link>
+    <description>Recent content in Pwa on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 03 Dec 2017 11:35:21 +0100</lastBuildDate>
     
+	<atom:link href="https://kevcui.github.io/tags/pwa/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Sun, 03 Dec 2017 11:35:21 CET</updated>
     
     <item>
       <title>Ship PWA Guided by Lighthouse</title>
-      <link>https://krazycavin.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</link>
-      <pubDate>Sun, 03 Dec 2017 11:35:21 CET</pubDate>
+      <link>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</link>
+      <pubDate>Sun, 03 Dec 2017 11:35:21 +0100</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*c4LxfFXAUMhEzNiXsGXbQg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-    &lt;sup&gt;
-        &lt;em&gt;
-            Photo by &lt;a href=&#34;https://unsplash.com/photos/D5OzyJ71mLI&#34;&gt;Robert Wiedemann&lt;/a&gt;
-        &lt;/em&gt;
-    &lt;/sup&gt;
-    
-&lt;/p&gt;
-
-
-&lt;p&gt;Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&amp;rsquo;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?&lt;/p&gt;
-
-&lt;h3 id=&#34;what-is-actually-pwa&#34;&gt;What is actually PWA?&lt;/h3&gt;
-
-&lt;p&gt;According to Google, &lt;em&gt;Progressive Web Apps are user experiences that have the reach of the web, and are&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Reliable: Load instantly and never show the downasaur, even in uncertain network conditions.&lt;/li&gt;
-&lt;li&gt;Fast: Respond quickly to user interactions with silky smooth animations and no janky scrolling.&lt;/li&gt;
-&lt;li&gt;Engaging: Feel like a natural app on the device, with an immersive user experience.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Personally, I prefer another alternative version because it uses one word to represent PWA: &lt;em&gt;F.I.R.E 🔥 Fast, Integrated, Reliable and Engaging.&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-
-&lt;p&gt;Many people are confused by the fancy term of PWA, like this: &lt;em&gt;Google&amp;rsquo;s continued use of the term &amp;ldquo;quality&amp;rdquo; in describing things leaves me with a ton of confusion&amp;hellip;&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;To be honest, PWA is not a new technology at all. It&amp;rsquo;s &lt;strong&gt;a new web app quality standard for web experiences&lt;/strong&gt; &lt;sup&gt;&lt;a name=&#34;back4&#34;&gt;&lt;a href=&#34;#link4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;how-to-get-my-app-on-f-i-r-e&#34;&gt;How to get my app on F.I.R.E.?&lt;/h3&gt;
-
-&lt;p&gt;Are you sold by the idea of PWA? I&amp;rsquo;ll buy it. Because I would do whatever I could to improve the user experience. So, I decided to optimize my blog site for reaching PWA standard.&lt;/p&gt;
-
-&lt;h4 id=&#34;step-1-run-a-performance-audit&#34;&gt;Step 1: Run a performance audit&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/GoogleChrome/lighthouse&#34;&gt;Lighthouse&lt;/a&gt; is a must-have tool to audit web app performance. Lighthouse is already integrated in the recent versions of Chrome and Chromium, as a part of DevTools, which makes it super convenient to use:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Inspect -&amp;gt; Audits -&amp;gt; Perform an audit...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;step-2-read-audit-report-carefully&#34;&gt;Step 2: Read audit report carefully&lt;/h4&gt;
-
-&lt;p&gt;After running an audit in Lighthouse, it will provide a detailed report. First, it shows the overall scores:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/lighthouse-before-overview.jpg&#34; alt=&#34;before-overview&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;Overview of the first Lighthouse audit result&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m not surprised by this result, not at all. These numbers are making people feel good when they have greens. Besides that, I would suggest to ignore them.&lt;/p&gt;
-
-&lt;p&gt;When continuing reading the report, I find the interesting parts: failed audits. It&amp;rsquo;s a nicely organized To-Do list, especially the &lt;em&gt;Learn more&lt;/em&gt; links which open documents to explain why the audit is important and how to pass the audit.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/lighthouse-before-pwa.jpg&#34; alt=&#34;before-pwa&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;Failed audits for PWA section&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;step-3-get-hands-dirty&#34;&gt;Step 3: Get hands dirty&lt;/h4&gt;
-
-&lt;p&gt;It&amp;rsquo;s time to handle all failed cases one by one. Most of them are rather easy to solve by following &amp;ldquo;Learn more&amp;rdquo; tutorials. Only &amp;ldquo;Does not register a Service Worker&amp;rdquo; and &amp;ldquo;Does not respond with a 200 when offline&amp;rdquo; are relatively tough. I&amp;rsquo;d like to share some tips, which come from my Aha moments.&lt;/p&gt;
-
-&lt;p&gt;A working service worker has 4 essential parts:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;manifest.json: It&amp;rsquo;s a json file located in &lt;em&gt;/&lt;/em&gt; &lt;strong&gt;web app root directory&lt;/strong&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
-  &amp;quot;short_name&amp;quot;: &amp;quot;Kevin&amp;quot;,
-  &amp;quot;name&amp;quot;: &amp;quot;Kevin Cui&amp;quot;,
-  &amp;quot;icons&amp;quot;: [
-    {
-      &amp;quot;src&amp;quot;:&amp;quot;/images/favicons/android-icon-192x192.png&amp;quot;,
-      &amp;quot;sizes&amp;quot;: &amp;quot;192x192&amp;quot;,
-      &amp;quot;type&amp;quot;: &amp;quot;image/png&amp;quot;
-    }
-  ],
-  &amp;quot;start_url&amp;quot;: &amp;quot;https://kevcui.github.io/#blog&amp;quot;,
-  &amp;quot;background_color&amp;quot;: &amp;quot;#000&amp;quot;,
-  &amp;quot;theme_color&amp;quot;: &amp;quot;#000&amp;quot;,
-  &amp;quot;display&amp;quot;: &amp;quot;standalone&amp;quot;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Link manifest.json in &lt;em&gt;index.html&lt;/em&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&amp;quot;manifest&amp;quot; href=&amp;quot;/manifest.json&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Service worker js: It must be created in &lt;strong&gt;web app root directory&lt;/strong&gt;, alongside with &lt;em&gt;manifest.json&lt;/em&gt;. Here is an example of the service worker called &lt;em&gt;sw.js&lt;/em&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;self.addEventListener(&#39;install&#39;, e =&amp;gt; {
-  let timeStamp = Date.now();
-  e.waitUntil(
-    caches.open(&#39;kevin-blog&#39;).then(cache =&amp;gt; {
-      return cache.addAll([
-        `/`,
-        `/#blog`,
-        `/css/uno.min.css`,
-        `/css/font.min.css`,
-        `/css/resume.min.css`,
-        `/js/jquery.min.js`,
-        `/js/main.min.js`,
-      ])
-      .then(() =&amp;gt; self.skipWaiting());
-    })
-  )
-});
-
-self.addEventListener(&#39;activate&#39;,  event =&amp;gt; {
-  event.waitUntil(self.clients.claim());
-});
-
-self.addEventListener(&#39;fetch&#39;, event =&amp;gt; {
-  event.respondWith(
-    caches.match(event.request, {ignoreSearch:true}).then(response =&amp;gt; {
-      return response || fetch(event.request);
-    })
-  );
-})
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A piece of JavaScript code to register service worker in &lt;em&gt;index.html&lt;/em&gt;:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;if (&#39;serviceWorker&#39; in navigator) {
-navigator.serviceWorker.register(&#39;./sw.js&#39;)
-  .then(function(registration) {
-    console.log(&amp;quot;Service Worker Registered&amp;quot;, registration);
-  })
-  .catch(function(err) {
-    console.log(&amp;quot;Service Worker Failed to Register&amp;quot;, err);
-  })
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;For more details of all these parts above, there is a good tutorial to follow: &lt;a href=&#34;https://codelabs.developers.google.com/codelabs/add-to-home-screen/#0&#34;&gt;Add Your Web App to a User&amp;rsquo;s Home Screen&lt;/a&gt; and a good example of PWA app to check its source code: &lt;a href=&#34;https://github.com/GoogleChromeLabs/airhorn&#34;&gt;airhorn&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;my-app-is-on&#34;&gt;My app is on 🔥!&lt;/h3&gt;
-
-&lt;p&gt;Once the dirty jobs are well done, it&amp;rsquo;s time to run another performance audit. Although I know all score numbers are meaningless without contexts, it still feels damn awesome when I see all greens, right?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://krazycavin.github.io/images/lighthouse-after-overview.jpg&#34; alt=&#34;after-overview&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;Another overview of Lighthouse audit result&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Surprisingly, Firefox now starts to support PWA as well:&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Wow Firefox 59 supports PWA &amp;quot;add to home screen&amp;quot;. Nice 🤭 &lt;a href=&#34;https://t.co/HpSdKQX7fi&#34;&gt;pic.twitter.com/HpSdKQX7fi&lt;/a&gt;&lt;/p&gt;&amp;mdash; 𝙠𝙚𝙫𝙞𝙣                    . (@KevCui) &lt;a href=&#34;https://twitter.com/KevCui/status/937266992649834497?ref_src=twsrc%5Etfw&#34;&gt;December 3, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-
-&lt;h3 id=&#34;what-else&#34;&gt;What else?&lt;/h3&gt;
-
-&lt;p&gt;I have to admit that it&amp;rsquo;s not hard to pass Lighthouse audit checks. However, I must keep in mind that it&amp;rsquo;s just one step of improving web app performance towards the goal of &amp;ldquo;better user experience&amp;rdquo;. Many steps ahead I still need to move on.&lt;/p&gt;
-
-&lt;p&gt;What&amp;rsquo;s your opinion about PWA? Would you like to ship your app guided by Lighthouse? And join the cool kids club?&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Google: &lt;a href=&#34;https://developers.google.com/web/progressive-web-apps/?hl=en&#34;&gt;Progressive Web Apps&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Ewa Gasperowicz: &lt;a href=&#34;https://www.youtube.com/watch?v=KRSTpo6gqqU&#34;&gt;From Website to Progressive Web App&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Ben Halpern: &lt;a href=&#34;https://dev.to/ben/what-the-heck-is-a-progressive-web-app-seriously-923&#34;&gt;What the heck is a &amp;ldquo;Progressive Web App&amp;rdquo;? Seriously.&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link4&#34;&gt;&lt;a href=&#34;#back4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt; Thao Tran and Chris Wilson: &lt;a href=&#34;https://www.youtube.com/watch?v=PsgW-0M67TQ&#34;&gt;The New Bar for Web Experiences&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</guid>
+      <description>Photo by Robert Wiedemann   Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&amp;rsquo;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?
+What is actually PWA? According to Google, Progressive Web Apps are user experiences that have the reach of the web, and are [1]:</description>
     </item>
     
   </channel>

@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Kevin Cui</title>
-      <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/categories/jekyll/</link>
+    <title>Jekyll on Kevin Cui</title>
+    <link>https://kevcui.github.io/categories/jekyll/</link>
+    <description>Recent content in Jekyll on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 18 Nov 2016 22:09:23 +0200</lastBuildDate>
     
+	<atom:link href="https://kevcui.github.io/categories/jekyll/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Fri, 18 Nov 2016 22:09:23 &#43;0200</updated>
     
     <item>
       <title>Blogging!</title>
-      <link>https://krazycavin.github.io/2016/11/18/hello-world/</link>
-      <pubDate>Fri, 18 Nov 2016 22:09:23 &#43;0200</pubDate>
+      <link>https://kevcui.github.io/2016/11/18/hello-world/</link>
+      <pubDate>Fri, 18 Nov 2016 22:09:23 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2016/11/18/hello-world/</guid>
-      <description>&lt;p&gt;This is my f1rst bl0g. Yep, it&amp;rsquo;s als0 a test blog to check Jekyll theme&lt;/p&gt;
-
-&lt;p&gt;pןɹoʍ oןןǝɥ&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i.giphy.com/2f7RQiiWMJc40.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2016/11/18/hello-world/</guid>
+      <description>This is my f1rst bl0g. Yep, it&amp;rsquo;s als0 a test blog to check Jekyll theme
+pןɹoʍ oןןǝɥ</description>
     </item>
     
   </channel>

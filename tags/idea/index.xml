@@ -1,103 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Kevin Cui</title>
-      <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/idea/</link>
+    <title>Idea on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/idea/</link>
+    <description>Recent content in Idea on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 02 May 2017 20:35:50 +0200</lastBuildDate>
     
+	<atom:link href="https://kevcui.github.io/tags/idea/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Tue, 02 May 2017 20:35:50 CEST</updated>
     
     <item>
       <title>Refine Software Testing Types</title>
-      <link>https://krazycavin.github.io/2017/05/02/refine-software-testing-types/</link>
-      <pubDate>Tue, 02 May 2017 20:35:50 CEST</pubDate>
+      <link>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</link>
+      <pubDate>Tue, 02 May 2017 20:35:50 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/05/02/refine-software-testing-types/</guid>
-      <description>&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://krazycavin.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;coverimage&#34;/&gt;
-    
-&lt;/p&gt;
-
-
-&lt;p&gt;Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;When I say &amp;ldquo;Integration Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Actually we are more or less talking about the same thing. We misunderstand each other because we think from different perspectives.&lt;/p&gt;
-
-&lt;p&gt;In order to make less confusion, I try to refine software testing types by using 5 different categories. Each categories represent one perspective. In other words, they are independent of each other. These categories are &lt;strong&gt;How&lt;/strong&gt;, &lt;strong&gt;When&lt;/strong&gt;, &lt;strong&gt;Who&lt;/strong&gt;, &lt;strong&gt;What&lt;/strong&gt; and &lt;strong&gt;Which&lt;/strong&gt;. Then I put testing types one by one into each category, E.g:&lt;/p&gt;
-
-&lt;p&gt;1.1) &lt;strong&gt;How&lt;/strong&gt; does structure look like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;White/Glass box/Structural Testing,
-Black box/Functional Testing,
-Gray box Testing.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;1.2) &lt;strong&gt;How&lt;/strong&gt; does system perform:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Non-functional Testing
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-2) &lt;strong&gt;When&lt;/strong&gt; in software development life cycle (SDLC):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Unit Testing, Component Testing,
-Integration/Integrated Testing, System Testing,
-Acceptance Testing, Alpha Testing, Beta Testing.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-3) &lt;strong&gt;Who&lt;/strong&gt; is involved in:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Manual Testing, Automated Testing, Pair Testing,
-Mob Testing, Team Testing, Dogfooding,
-Crowdsourced Testing.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-4) &lt;strong&gt;What&lt;/strong&gt; is to test:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;E2E/Workflow Testing, Usability Testing, Security Testing,
-Performance Testing, Accessibility Testing...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-5) &lt;strong&gt;Which&lt;/strong&gt; approach is using:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Exploratory Testing, Fuzz Testing,
-Boundary Value Testing, Sanity Testing, Smoke Testing,
-(Non-)Regression Testing, Monkey Testing...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-
-&lt;p&gt;Now let&amp;rsquo;s back to the beginning when I say &amp;ldquo;Integration Testing&amp;rdquo;&amp;hellip; and see if it makes things clear.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;1) How: Functional
-2) When: Integration
-3) Who: Automated
-4) What: Accessibility
-5) Whch: Regression
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-Finally we have a buzz word&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Functional Integration Automated Accessbility Regression Testing
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</guid>
+      <description>Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:
+ When I say &amp;ldquo;Integration Testing&amp;rdquo;, You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;, Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;, Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;, Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;.  Actually we are more or less talking about the same thing.</description>
     </item>
     
   </channel>

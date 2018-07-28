@@ -1,274 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Kevin Cui</title>
-      <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/keyboard/</link>
+    <title>Keyboard on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/keyboard/</link>
+    <description>Recent content in Keyboard on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 27 Aug 2017 10:07:30 +0200</lastBuildDate>
     
+	<atom:link href="https://kevcui.github.io/tags/keyboard/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Sun, 27 Aug 2017 10:07:30 CEST</updated>
     
     <item>
       <title>One Week with Colemak</title>
-      <link>https://krazycavin.github.io/2017/08/27/one-week-with-colemak/</link>
-      <pubDate>Sun, 27 Aug 2017 10:07:30 CEST</pubDate>
+      <link>https://kevcui.github.io/2017/08/27/one-week-with-colemak/</link>
+      <pubDate>Sun, 27 Aug 2017 10:07:30 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/08/27/one-week-with-colemak/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*f9faYiSaK7qnUoXfSSn5YA.png&#34; alt=&#34;coverimage&#34;/&gt;
-    
-&lt;/p&gt;
-
-
-&lt;p&gt;Last weekend, I decided to &lt;a href=&#34;https://krazycavin.github.io/2017/08/19/why-i-switch-to-colemak/&#34;&gt;switch from QWERTY to Colemak keyboard layout&lt;/a&gt;. Did I suffer a lot since then? Of course no, well, maybe a little bit. After &amp;ldquo;one-week intensive typing training&amp;rdquo;, actually I quite enjoy the fresh feeling of typing with Colemak. I&amp;rsquo;m pretty happy that now I am able to type on Colemak keyboard layout with the average speed &lt;strong&gt;50 WPM&lt;/strong&gt;. I would say that it&amp;rsquo;s good enough for daily life. If you happen to be interested in switching to Colemak, here are my short notes for every day of last week and how my &amp;ldquo;intensive&amp;rdquo; training looks like.&lt;/p&gt;
-
-&lt;h3 id=&#34;d1-saturday&#34;&gt;D1 - Saturday&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Time Spent: 1 hour&lt;/li&gt;
-&lt;li&gt;Typing Speed: 15 WPM&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/has1WKhoorwLS/giphy.gif&#34; alt=&#34;Jon knows&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;plan-just-do-it&#34;&gt;Plan? Just do it!&lt;/h4&gt;
-
-&lt;p&gt;There are some different approaches to help people switching to Colemak progressively. One interesting approach is called &lt;a href=&#34;https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/&#34;&gt;Tarmak&lt;/a&gt; (Transitional Colemak) learning layouts. Tarmak has 4 layouts in total, &lt;em&gt;each of the 4 Tarmak layouts changes 3–4 new keys from the previous step until you&amp;rsquo;ve made the full transition to Colemak.&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;In deed, it sounds like a good plan. But I didn&amp;rsquo;t go that way, I chose a crazy approach: go &lt;a href=&#34;https://www.phrases.org.uk/meanings/cold-turkey.html&#34;&gt;cold turkey&lt;/a&gt;. I get rid of QWERTY and use Colemak immediately. Because I believe that I could handle the change to Colemak completely at once. At the end, it&amp;rsquo;s all about training &lt;strong&gt;muscle memory&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;remember-the-layout&#34;&gt;Remember the layout&lt;/h4&gt;
-
-&lt;p&gt;First things first, remember &lt;a href=&#34;https://colemak.com/wiki/images/8/80/Colemak_layout_2.png&#34;&gt;the layout&lt;/a&gt;. To be familiar with Colemak layout, I spent 30 minutes on typing alphabet &amp;ldquo;abcdefgh&amp;hellip;&amp;rdquo; repeatedly, until I am 100% sure that all 26 letters are in their correct positions.&lt;/p&gt;
-
-&lt;h3 id=&#34;d2-sunday&#34;&gt;D2 - Sunday&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Time spent: 3 hours (3 1-hour sessions)&lt;/li&gt;
-&lt;li&gt;Typing speed: 25 WPM&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://3.bp.blogspot.com/-vORSs1Agga4/UrbyY7kXPPI/AAAAAAAAPd0/bnmMeUBEL5U/s1600/little-finger-nod.gif&#34; alt=&#34;little finger&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;brain-takes-full-control&#34;&gt;Brain takes full control&lt;/h4&gt;
-
-&lt;p&gt;After I memorized the layout, the real &amp;ldquo;intensive&amp;rdquo; training began. The main site I used is &lt;a href=&#34;https://www.speedtypingonline.com/typing-test&#34;&gt;Speed Typing Online&lt;/a&gt;. One article after another, I keep typing. Meanwhile, I have to let my brain know exactly what I need to do and then my fingers would be forced to do it. This process of erasing muscle memory is slow. My brain needs to be highly focused in order to control each single movement of my fingers, and to prevent these movements initialized by old muscle memory.&lt;/p&gt;
-
-&lt;h4 id=&#34;pinky-is-weaky&#34;&gt;Pinky is weaky&lt;/h4&gt;
-
-&lt;p&gt;One difficulty I did realize is that my right little finger is weaker than my other fingers. Before with QWERTY, it takes control of letter &amp;ldquo;P&amp;rdquo;, which appearance frequency is way more lower than the letter &amp;ldquo;O&amp;rdquo;. Now with Colemak, it has to take care of letter &amp;ldquo;O&amp;rdquo;. This sudden increase of heavy work load on the shoulder of right pinky finger makes it clumsy. I can really feel the &amp;ldquo;stop&amp;rdquo; moment when letter &amp;ldquo;O&amp;rdquo; is needed. So I have to focus on training pinky finger, even more.&lt;/p&gt;
-
-&lt;h3 id=&#34;d3-monday&#34;&gt;D3 - Monday&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Time spent: 1 hour training + 8 hours working&lt;/li&gt;
-&lt;li&gt;Typing speed: 28 WPM&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/m6tmCnGCNvTby/giphy.gif&#34; alt=&#34;shame&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;productivity&#34;&gt;Productivity?&lt;/h4&gt;
-
-&lt;p&gt;As I decided to go cold turkey and I don&amp;rsquo;t want a detour, I changed the keyboard layout on my working laptop to Colemak as well. I remember my first and second login attempts were failed, after that, nothing was really struggling. To be honest, the typing speed around 25 WPM is enough for daily work, but the efficiency is&amp;hellip; meh&amp;hellip; Especially, when replying someone&amp;rsquo;s questions in chat app, I feel sorry to let people on another side waiting a bit longer than usual. Besides that, when I was coding/scripting, I felt that I have more time for thinking, which might be a good thing.&lt;/p&gt;
-
-&lt;h4 id=&#34;smartphone-out&#34;&gt;Smartphone out!&lt;/h4&gt;
-
-&lt;p&gt;As the inventor of Colemak mentioned, &lt;em&gt;Colemak isn&amp;rsquo;t recommended for smartphones as it increases finger travel and error rate compared to QWERTY. On smartphones I would recommend gesture typing on a QWERTY layout&lt;/em&gt;. &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; Furthermore, the muscle memory of typing on smartphone keyboard is not the same. Therefore, I will still keep using QWERTY layout in smartphone until one day another &amp;ldquo;advanced&amp;rdquo; keyboard layout invented for smartphone.&lt;/p&gt;
-
-&lt;h3 id=&#34;d4-tuesday&#34;&gt;D4 - Tuesday&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Time spent: 1 hour training + N hours working + N hours imagining&lt;/li&gt;
-&lt;li&gt;Typing speed: 30 WPM&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/1qyXr3Dtl7pRe/giphy.gif&#34; alt=&#34;imagining&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;use-imagination&#34;&gt;Use imagination&lt;/h4&gt;
-
-&lt;p&gt;I found a magic way to perform typing training without a physical keyboard: using my imaginations. For instance, when I am in public transport, I&amp;rsquo;d like to listen to podcasts. From the earphones I heard the words, then I put my hands in the air and move fingers to type these words. Others who were watching at me may think that I could be a pianist, or probably a madman.&lt;/p&gt;
-
-&lt;h3 id=&#34;d5-wednesday&#34;&gt;D5 - Wednesday&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Time spent: 1 hour training + N hours working + N hours imagining&lt;/li&gt;
-&lt;li&gt;Typing speed: 40 WPM&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/TkWeMtX2N9z2M/giphy.gif&#34; alt=&#34;aiming&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;targeted-training&#34;&gt;Targeted training&lt;/h4&gt;
-
-&lt;p&gt;It&amp;rsquo;s time to have more targeted training of some common suffixes. In theory, if I could type them unconsciously as a reflection, my typing speed would increase a lot. So I made a list of suffixes to focus on:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;-ly, -ing, -ion, -er, -or, -ment, -ous, -ful, -able
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;On the other hand, I found that I made many mistakes on top row letters &amp;ldquo;f&amp;rdquo;, &amp;ldquo;g&amp;rdquo;, &amp;ldquo;l&amp;rdquo; and &amp;ldquo;y&amp;rdquo;. I keep in my mind to pay attention to them: be accurate first, then speed up.&lt;/p&gt;
-
-&lt;p&gt;Moreover, I started to learn typing systematically by following the lessons on &lt;a href=&#34;https://www.typing.com/student&#34;&gt;typing.com&lt;/a&gt;. I skipped the entire beginner lessons and some lessons designed for QWERTY only.&lt;/p&gt;
-
-&lt;h3 id=&#34;d6-thursday&#34;&gt;D6 - Thursday&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Time spent: 1 hour training + N hours working + N hours imagining&lt;/li&gt;
-&lt;li&gt;Typing speed: 50 WPM&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/rE9hjAG.gif&#34; alt=&#34;repeat&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;repetition-repetition-repetition&#34;&gt;Repetition, Repetition, Repetition&amp;hellip;&lt;/h4&gt;
-
-&lt;p&gt;Every day, I am better at typing than yesterday. I felt my muscle memory is improved little by little: now I don&amp;rsquo;t need to think about the layout ahead! It means that I can think other stuff in my mind while typing letters on the keyboard. It&amp;rsquo;s definitely a good sign, which tastes so sweet. It&amp;rsquo;s the power of repetition and the outcome of never-give-up.&lt;/p&gt;
-
-&lt;h3 id=&#34;d7-friday&#34;&gt;D7 - Friday&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Time spent: 1 hour training + N hours working + N hours imagining&lt;/li&gt;
-&lt;li&gt;Typing speed: 52 WPM&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/6ffREbfXxiTnO/giphy.gif&#34; alt=&#34;fun&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;time-to-have-fun&#34;&gt;Time to have fun&lt;/h4&gt;
-
-&lt;p&gt;After these days&amp;rsquo; practices, I know I am on the right track to achieve the success. Although it&amp;rsquo;s important as my daily routine to keep using &lt;a href=&#34;https://www.speedtypingonline.com/typing-test&#34;&gt;Speed Typing Online&lt;/a&gt; and following basic lesson on &lt;a href=&#34;https://www.typing.com/student&#34;&gt;typing.com&lt;/a&gt;, learning typing can also be full of fun, without the boredness of repetition. It&amp;rsquo;s time to discover something new and have some fun:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://thetypingcat.com/typing-speed-test/&#34;&gt;TypingCAT&lt;/a&gt;: It&amp;rsquo;s an ordinary typing site. But its UI is super clean and comfortable. It will make you feel awesome when you are typing.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ratatype.com/typing-test/test/&#34;&gt;Ratatype typing test&lt;/a&gt;: Instead of the usual time-box approach, this site requires you to finish the whole article and then shows your score. Their typing materials are really good. They normally have 50-100 words, with the mix of letters, numbers and punctuations.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://play.typeracer.com/&#34;&gt;typeracer&lt;/a&gt;: A typing competition is presented as a form of car racing game. It supports Multiplayer &amp;ldquo;racing&amp;rdquo; together. Its UI is okish and its material is so-so. But if you want to see how is your performance under stress, it&amp;rsquo;s a good game to play.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;d-n-in-the-future&#34;&gt;D(n) - In the future&amp;hellip;&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/ySplUIE.png&#34; alt=&#34;success kid&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;1-use-caps-lock-as&#34;&gt;1. Use Caps Lock as&amp;hellip;?&lt;/h4&gt;
-
-&lt;p&gt;Colemak maps Caps Lock key to Backspace. It makes sense to have another Backspace on the left hand to balance its usage in two hands. But so far I don&amp;rsquo;t use it at all. Maybe I will map it to Esc, which is useful in Vim.&lt;/p&gt;
-
-&lt;h4 id=&#34;2-get-rid-of-bad-habits&#34;&gt;2. Get rid of bad habits&lt;/h4&gt;
-
-&lt;p&gt;I still need to get rid of some bad habits of using QWERTY:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Always use left thumb to tap Space bar&lt;/li&gt;
-&lt;li&gt;Always use left pinky to tap Shift&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I know how to do it correctly, but&amp;hellip; Fine, I will do it correctly in the future.&lt;/p&gt;
-
-&lt;h4 id=&#34;3-colemak-x-vim&#34;&gt;3. Colemak x Vim&lt;/h4&gt;
-
-&lt;p&gt;New layout for Vim is a tough challenge. I had several oops-moment which are caused by &amp;ldquo;gg&amp;rdquo; vs. &amp;ldquo;dd&amp;rdquo;. But I don&amp;rsquo;t think I will remap keys to make the original Vim style alike. I prefer to relearn it with Colemak from scratch. Here is the &lt;a href=&#34;https://c1.staticflickr.com/6/5060/5421396271_68f3d12c9e_b.jpg&#34;&gt;Colemak/vim cheat sheet&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. I know it will take a while to fully operate Vim with Colemak.&lt;/p&gt;
-
-&lt;h4 id=&#34;4-get-qwerty-mode-back&#34;&gt;4. Get &amp;ldquo;QWERTY mode&amp;rdquo; back?&lt;/h4&gt;
-
-&lt;p&gt;As a side effect, the muscle memory of QWERTY is completely lost. I cannot type with QWERTY layout anymore. Should I train myself to get QWERTY mode back in the future? I guess no ¯\_(ツ)_/¯&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Øystein Bech Gadmar: &lt;a href=&#34;https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/&#34;&gt;How does Tarmak work?&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Shai Coleman: &lt;a href=&#34;https://colemak.com/FAQ#Is_Colemak_suitable_for_smartphones.3F&#34;&gt;Is Colemak suitable for smartphones?&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Aimee Rivers: &lt;a href=&#34;https://sermoa.wordpress.com/2011/12/16/colemak-and-vim-but-what-about-hjkl/&#34;&gt;&amp;ldquo;Colemak and vim&amp;rdquo;: But what about h/j/k/l?&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2017/08/27/one-week-with-colemak/</guid>
+      <description>Last weekend, I decided to switch from QWERTY to Colemak keyboard layout. Did I suffer a lot since then? Of course no, well, maybe a little bit. After &amp;ldquo;one-week intensive typing training&amp;rdquo;, actually I quite enjoy the fresh feeling of typing with Colemak. I&amp;rsquo;m pretty happy that now I am able to type on Colemak keyboard layout with the average speed 50 WPM. I would say that it&amp;rsquo;s good enough for daily life.</description>
     </item>
     
     <item>
       <title>Why I Switch to Colemak Keyboard Layout?</title>
-      <link>https://krazycavin.github.io/2017/08/19/why-i-switch-to-colemak/</link>
-      <pubDate>Sat, 19 Aug 2017 20:48:03 CEST</pubDate>
+      <link>https://kevcui.github.io/2017/08/19/why-i-switch-to-colemak/</link>
+      <pubDate>Sat, 19 Aug 2017 20:48:03 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/08/19/why-i-switch-to-colemak/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://colemak.com/wiki/images/e/ef/Colemak_fingers.png&#34; alt=&#34;coverimage&#34;/&gt;
-    
-&lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href=&#34;https://colemak.com/FAQ&#34;&gt;Colemak&lt;/a&gt;, pronounced /&amp;lsquo;ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It&amp;rsquo;s developed by &lt;a href=&#34;https://ie.linkedin.com/in/shaicoleman&#34;&gt;Shai Coleman&lt;/a&gt; and released in 2006. Colemak keyboard layout looks like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;  q w f p g j l u y ;
-   a r s t d h n e i o
-    z x c v b k m , . /
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;What&amp;rsquo;s special about Colemak?  Why do I decide to switch from QWERTY to Colemak?&lt;/p&gt;
-
-&lt;h3 id=&#34;reason-1-discard-qwerty&#34;&gt;Reason 1: Discard QWERTY&lt;/h3&gt;
-
-&lt;p&gt;As we all known, QWERTY was originally designed for the typewriter to solve the problem of the type bars colliding with each other and jamming. The idea behind is &lt;em&gt;to arrange the keys with the most common letters in hard to reach spots, to slow typists down and try to avoid typewriter jams&lt;/em&gt;. &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re interested in more stories of QWERTY, &lt;a href=&#34;http://discovermagazine.com/1997/apr/thecurseofqwerty1099&#34;&gt;The Curse of QWERTY&lt;/a&gt; is a nice article to read.&lt;/p&gt;
-
-&lt;p&gt;Since the mechanical typewriters vanished from historical stage and all the modern computers don&amp;rsquo;t have &amp;ldquo;mechanical sticking&amp;rdquo; problem, why we still need to bear the pain of the inefficiency of QWERTY? It&amp;rsquo;s time to let QWERTY be retired with honor. Let it go!&lt;/p&gt;
-
-&lt;h3 id=&#34;reason-2-i-want-a-challenge&#34;&gt;Reason 2: I want a challenge&lt;/h3&gt;
-
-&lt;p&gt;When I was 14 years old, I started to learn to type on a typewriter in school. Yes, a real typewriter and it&amp;rsquo;s amazing! I can still recall the comment when type bars hit on paper, the sound and the feeling are so satisfying. At the end of the semester, I successfully passed typing exam with the speed of 70 WPM. Now it has been 15 years, my speed stays around 75 WPM. For me, it&amp;rsquo;s obviously not improved at all&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;As a guy who is eager for something new and obsessed with efficiency, I don&amp;rsquo;t believe that 75 WPM is my limit. I&amp;rsquo;m afraid that QWERTY itself is the obstacle. Maybe an alternative keyboard would unchain my ability. That&amp;rsquo;s why I want a challenge to see how fast I&amp;rsquo;m able to type.&lt;/p&gt;
-
-&lt;h3 id=&#34;reason-3-efficiency-is-the-key&#34;&gt;Reason 3: Efficiency is the key&lt;/h3&gt;
-
-&lt;p&gt;Colemak is designed to be &lt;em&gt;ergonomic, comfortable and fast.&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;According to &lt;a href=&#34;http://mkweb.bcgsc.ca/carpalx/?popular_alternatives&#34;&gt;carpalx analysis&lt;/a&gt;, Colemak has a quite low typing effort among 10 keyboard layouts. The carpalx detailed analysis &lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; shows:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Colemak has a great home row usage 74%, compared to QWERTY 34% and Dvorak 71%&lt;/li&gt;
-&lt;li&gt;Colemak bottom row usage is low at 9%, the same as Dvorak, which is better than QWERTY 15%&lt;/li&gt;
-&lt;li&gt;Colemak is more balanced in hand use, with a 6% preference for the right hand. Dvorak has 14% for the right and QWERTY 15% for the left&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;There is an app to analyze the different keyboard layouts. It&amp;rsquo;s called &lt;a href=&#34;http://patorjk.com/keyboard-layout-analyzer/#/main&#34;&gt;Keyboard Layout Analyzer&lt;/a&gt;. I&amp;rsquo;m curious how the result would be. So I tried to input:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;A recent &lt;a href=&#34;http://www.bbc.com/news/world-europe-40990927&#34;&gt;BBC article&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;George R. R. Martin &lt;a href=&#34;https://www.biography.com/people/george-r-r-martin-20786615?_escaped_fragment_=&#34;&gt;Biography&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;One of my &lt;a href=&#34;https://github.com/kevcui/hearthstone-cards-searcher/blob/master/hsSearch.py&#34;&gt;python script&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;My blog &lt;a href=&#34;https://raw.githubusercontent.com/kevcui/kevcui.github.io/master/index.html&#34;&gt;index.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;One of my blog &lt;a href=&#34;https://krazycavin.github.io/2016/12/23/my-year-2016/&#34;&gt;post&lt;/a&gt; plain text&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The result of these 5 rounds: Colemak scores the highest in each round.&lt;/p&gt;
-
-&lt;p&gt;High home row usage, less finger travel distance, and balanced left-right hands&amp;hellip; These advantages of Colemak make it as one of the best keyboard layouts for improving efficiency and ergonomics.&lt;/p&gt;
-
-&lt;h3 id=&#34;reason-4-easy-to-learn&#34;&gt;Reason 4: Easy to learn&lt;/h3&gt;
-
-&lt;p&gt;I remember 5 years ago, I planned to switch to Dvorak. But I was totally failed after 1-week struggling. Because the transition phrase from QWERTY to Dvorak is really hard, I was not good enough to use only Dvorak at work. Therefore, it required me to memorize 2 different keyboard layouts at the same time, which was possible for my brain but impossible for my muscles. I was kidding at that time: I need at least a 2-months vacation to train Dvorak without any productivity.&lt;/p&gt;
-
-&lt;p&gt;To learn Colemak, I feel it would be a different story. Colemak is based on QWERTY layout, which means it&amp;rsquo;s built without the terrifying prospect of changing everything. &lt;em&gt;The Colemak layout is reasonably similar to QWERTY with just 17 different keys as opposed to Dvorak&amp;rsquo;s 33, and only two letters P and E that move from one hand to the other, whereas with Dvorak it&amp;rsquo;s 22.&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back4&#34;&gt;&lt;a href=&#34;#link4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Colemak is rather easy to learn. It took me only 30 min to memorize Colemak keyboard layout without any frustration. After 1 day training, now I&amp;rsquo;m already used to it. I estimate that a 2-days weekend should be enough for me to have a reasonable typing speed. It wouldn&amp;rsquo;t cause my huge headache to use Colemak at work next Monday.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;These tantalizing reasons give me the motivation to switch to Colemak. I guess I have to face this challenge and I will be busy with training next week. Challenge is on and change is now.&lt;/p&gt;
-
-&lt;p&gt;Happy typing Colemak!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://media0.giphy.com/media/toXKzaJP3WIgM/giphy.gif&#34; alt=&#34;typing&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; HowStuffWorks: &lt;a href=&#34;https://computer.howstuffworks.com/question458.htm&#34;&gt;Why are the keys arranged the way they are on a QWERTY keyboard?&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Shai Coleman: &lt;a href=&#34;https://colemak.com/&#34;&gt;Colemak advantages&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Carpalx: &lt;a href=&#34;http://mkweb.bcgsc.ca/carpalx/?colemak&#34;&gt;Colemak typing effort&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link4&#34;&gt;&lt;a href=&#34;#back4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt; Eric Limer: &lt;a href=&#34;http://www.popularmechanics.com/technology/a20524/learning-to-type-again-colemak&#34;&gt;Why I&amp;rsquo;m Learning To Type All Over Again&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2017/08/19/why-i-switch-to-colemak/</guid>
+      <description>Colemak, pronounced /&amp;lsquo;ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It&amp;rsquo;s developed by Shai Coleman and released in 2006. Colemak keyboard layout looks like:
+q w f p g j l u y ; a r s t d h n e i o z x c v b k m , . /  What&amp;rsquo;s special about Colemak? Why do I decide to switch from QWERTY to Colemak?</description>
     </item>
     
   </channel>

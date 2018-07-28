@@ -1,0 +1,485 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#000"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title> Kevin Cui </title>
+    
+    <link rel="manifest" href="/manifest.json">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kevcui.github.io/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kevcui.github.io/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kevcui.github.io/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kevcui.github.io/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kevcui.github.io/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kevcui.github.io/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kevcui.github.io/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kevcui.github.io/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kevcui.github.io/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kevcui.github.io/images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://kevcui.github.io/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://kevcui.github.io/images/favicons/mstile-144x144.png">
+    
+    <link href="https://kevcui.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Kevin Cui" />
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="3 mitmproxy Tips You Might Not Know About">
+	<meta property="og:url" content="https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/">
+	<meta property="og:site_name" content="Kevin Cui">
+    <meta name="twitter:site" content="Kevin Cui">
+	<meta itemprop="name" content="3 mitmproxy Tips You Might Not Know About">
+	<meta name="twitter:title" content="3 mitmproxy Tips You Might Not Know About">
+	<meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevcui">
+	
+		<meta name="description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
+		<meta name="og:description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
+		<meta name="twitter:description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
+		<meta itemprop="description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
+	
+	
+	   <meta property="og:image" content="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg"/>
+	   <meta property="twitter:image" content="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg"/>
+	   <meta itemprop="image" content="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg">
+	
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/share.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
+    
+    <script src="https://kevcui.github.io/js/jquery.min.js"></script>
+    <script src="https://kevcui.github.io/js/main.min.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {  
+            navigator.serviceWorker.register('./sw.js')
+            .then(function(registration) {
+                console.log("Service Worker Registered", registration);
+            })
+            .catch(function(err) {
+                console.log("Service Worker Failed to Register", err);
+            })
+        }
+    </script>
+    
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/sky.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://kevcui.github.io/" title="link to homepage for Kevin Cui"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="https://kevcui.github.io/"  title="link to homepage for Kevin Cui">Kevin Cui</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  crazy enough to be creative  </p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    
+    
+    <li>
+        <a href="http://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank" rel="noopener"><span class="soc soc-twitter"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://medium.com/@kevcui" title="Medium" target="_blank" rel="noopener"><span class="soc soc-medium"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="https://instagram.com/kev_cui" title="Instagram" target="_blank" rel="noopener"><span class="soc soc-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io/index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="soc soc-rss"></span></a>
+    </li>
+    
+        <p><a class="resume-button" href=/resume>résumé</a></p>
+    
+</ul>
+
+                    </nav>
+                </div>
+
+                <br/>
+                
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
+                
+                <p class=""><a title="resume" class="main-button" href="/resume">résumé</a></p>
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/sky.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://kevcui.github.io/" title="link to homepage for Kevin Cui"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="https://kevcui.github.io/"  title="link to homepage for Kevin Cui">Kevin Cui</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  crazy enough to be creative  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    
+    
+    <li>
+        <a href="http://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank" rel="noopener"><span class="soc soc-twitter"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://medium.com/@kevcui" title="Medium" target="_blank" rel="noopener"><span class="soc soc-medium"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="https://instagram.com/kev_cui" title="Instagram" target="_blank" rel="noopener"><span class="soc soc-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io/index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="soc soc-rss"></span></a>
+    </li>
+    
+        <p><a class="resume-button" href=/resume>résumé</a></p>
+    
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        <p><a class="main-button" href="/#blog">blog</a></p>
+                    
+                    <p class=""><a title="resume" class="main-button" href="/resume">résumé</a></p>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Jul 28, 2018</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/mitmproxy">mitmproxy,</a>
+					
+                
+					
+						<a href="/tags/proxy">proxy,</a>
+					
+                
+					
+						<a href="/tags/tool">tool,</a>
+					
+                
+					
+						<a href="/tags/mock">mock,</a>
+					
+                
+					
+						<a href="/tags/debug">debug,</a>
+					
+                
+					
+						<a href="/tags/tips">tips</a>
+					
+                
+              </span>
+              • 600 words 3 min. read
+          </div>
+          <h1>3 mitmproxy Tips You Might Not Know About</h1>
+          <section id="post-content" class="article-content post">
+              
+
+<p class="coverimage">
+    <img src="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg" alt="coverimage"/>
+    
+    <sup>
+        <em>
+            Photo by <a href="https://unsplash.com/photos/betmVWGYcLY">Ashley Batz</a>
+        </em>
+    </sup>
+    
+</p>
+
+
+<p><a href="https://mitmproxy.org/">mitmproxy</a> is a powerful proxy tool for debugging network requests and responses. It&rsquo;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about.</p>
+
+<p>First things first, a small checklist:</p>
+
+<ul>
+<li><a href="https://docs.mitmproxy.org/stable/concepts-modes/">Do you know how mitmproxy works?</a></li>
+<li><a href="https://docs.mitmproxy.org/stable/overview-installation/">Do you know how to install mitmproxy?</a></li>
+<li><a href="https://docs.mitmproxy.org/stable/concepts-certificates/">Do you know how to install CA cert on a client side?</a></li>
+</ul>
+
+<p>If these questions are way too easy for you and your answers are <em>&ldquo;Yes! Yes! Yes!&rdquo;</em>, then continue reading. Otherwise, please click and read the links above, and see you here later.</p>
+
+<h3 id="tips-1-custom-configuration-and-key-binding">Tips 1: Custom configuration and key binding</h3>
+
+<p>One of the advantages of mitmproxy is highly customizable. It&rsquo;s very continent to set up once configurations that every time mitmproxy loads them automatically when it starts. All the available handy <strong>options</strong> are in the <a href="https://docs.mitmproxy.org/stable/concepts-options/">mitmproxy document</a>. Here is my <code>~/.mitmproxy/config.yaml</code>:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md">console_palette: &#34;dark&#34;<span class="err">
+</span><span class="err"></span>console_palette_transparent: True<span class="err">
+</span><span class="err"></span>console_mouse: False<span class="err">
+</span><span class="err"></span>console_focus_follow: True<span class="err">
+</span><span class="err"></span>ignore_hosts: []</code></pre></div>
+
+<p>As I&rsquo;m using <a href="/2017/08/27/one-week-with-colemak/">colemak keyboard layout</a>, <em>j</em> and <em>k</em> keys are opposite for the navigation of up and down in mitmproxy. I have to change these 2 keys to make navigation smooth. Before, to change key bindings in old versions, I have to hack around code in <code>defaultkeys.py</code>. Since <a href="https://mitmproxy.org/posts/releases/mitmproxy4/">mitmproxy v4.0</a>, custom key binding is finally officially supported! Here are my key bindings in <code>~/.mitmproxy/keys.yaml</code>:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">-<span class="w">
+</span><span class="w">  </span>key<span class="p">:</span><span class="w"> </span>j<span class="w">
+</span><span class="w">  </span>ctx<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
+</span><span class="w">  </span>cmd<span class="p">:</span><span class="w"> </span>console.nav.up<span class="w">
+</span><span class="w"></span>-<span class="w">
+</span><span class="w">  </span>key<span class="p">:</span><span class="w"> </span>k<span class="w">
+</span><span class="w">  </span>ctx<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
+</span><span class="w">  </span>cmd<span class="p">:</span><span class="w"> </span>console.nav.down<span class="w">
+</span><span class="w"></span>-<span class="w">
+</span><span class="w">  </span>key<span class="p">:</span><span class="w"> </span>l<span class="w">
+</span><span class="w">  </span>ctx<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;flowlist&#34;</span><span class="p">]</span><span class="w">
+</span><span class="w">  </span>cmd<span class="p">:</span><span class="w"> </span>console.nav.select</code></pre></div>
+
+<p>To know more about which <strong>command</strong> to use in <strong>cmd</strong> field, type <code>K</code> (shift + k) in mitmproxy. A list of current key bindings will show up. More information about key binging configuration is in the <a href="https://docs.mitmproxy.org/stable/tools-mitmproxy/">mitmproxy document</a>.</p>
+
+<h3 id="tips-2-knowing-client-connection-status-when-a-filter-is-applied">Tips 2: Knowing client connection status when a filter is applied</h3>
+
+<p>It happens quite often to me: when I applied all filters in advance and then tried to connect a client to mitmproxy. However, there is nothing show up in the flow list. How do I know if it&rsquo;s because <em>the client is not connected to the proxy successfully</em> or <em>no requests are matching the filter</em>?</p>
+
+<p>A usual but not good way: Well, I have to remove the filter to see all requests. If I can see requests from the client, then I will again apply the filter&hellip;</p>
+
+<p>An easy way is to add <code>| .*</code> in the filter, which will reveal all incoming requests. Yep, regex magic:</p>
+
+<p><img src="/videos/mitmproxy-filter-on.svg" alt="mitmproxy filter video" /></p>
+
+<p>Another easy way is to simply type <code>E</code> (shift+e), which will open events logs. It shows the client connection status. Use <code>q</code> to quit events view:</p>
+
+<p><img src="/videos/mitmproxy-events-view.svg" alt="mitmproxy events view video" /></p>
+
+<h3 id="tips-3-using-mitmproxy-as-a-mock-sever">Tips 3: Using mitmproxy as a mock sever</h3>
+
+<p>The killer feature of mitmproxy is scripting. Using python scripts, all requests and responses are fully controlled and changeable <strong>on the fly</strong>. Besides that, mitmproxy is super robust to handle multiple clients simultaneously connected to one host. These features make mitmproxy a decent mock server. Therefore, I use mitmproxy a lot as <a href="https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/">a mock server</a>.</p>
+
+<p>For example, a script for the purpose of rewriting and mocking response body, <a href="https://github.com/KevCui/mitm-scripts/tree/master/mitm-rewrite">mitm-rewrite</a>:</p>
+
+<ul>
+<li>Map <code>http://example.com/pass</code> to <code>test_pass.json</code> <em>(terminal on the bottom left)</em></li>
+<li>Create mock response data in <code>test_pass.json</code> <em>(terminal on the bottom right)</em></li>
+<li>Visit <code>http://example.com/pass</code> on the client side</li>
+<li>The initial response is now replaced by the one in <code>test_pass.json</code> <em>(terminal on top)</em></li>
+</ul>
+
+<p><img src="https://raw.githubusercontent.com/KevCui/mitm-scripts/master/screenshot/mitm-rewrite-example.jpg" alt="mitmproxy mock server picture" /></p>
+
+<p>If you want to know more useful scripts, I have a <a href="https://github.com/KevCui/mitm-scripts">mitm-scripts collection</a> to check out. If you want to make your own scripts, there are <a href="https://github.com/mitmproxy/mitmproxy/tree/master/examples/simple">some examples</a>.</p>
+
+<hr />
+
+<p>Didn&rsquo;t try mitmproxy yet? Get it a try. 😉</p>
+
+<p>Know other mitmproxy tricks? Tell me more. 😍</p>
+
+          </section>
+          
+          <br/>
+        </div>
+        <section class="share">
+    <p class="sharethis">Share this:</p>
+
+    
+    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkevcui.github.io%2f2018%2f07%2f28%2f3-mitmproxy-tips-you-might-not-know-about%2f&title=3%20mitmproxy%20Tips%20You%20Might%20Not%20Know%20About&summary=mitmproxy%20is%20a%20powerful%20proxy%20tool%20for%20debugging%20network%20requests%20and%20responses.%20It%27s%20my%20favorite%20proxy%20tool%20and%20becoming%20one%20of%20my%20daily%20essential%20tools%20for%20working.%20I%20would%20like%20to%20share%20with%20you%203%20mitmproxy%20tips%20you%20might%20not%20know%20about..." target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=3%20mitmproxy%20Tips%20You%20Might%20Not%20Know%20About&amp;url=https%3a%2f%2fkevcui.github.io%2f2018%2f07%2f28%2f3-mitmproxy-tips-you-might-not-know-about%2f" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://plus.google.com/share?url=https%3a%2f%2fkevcui.github.io%2f2018%2f07%2f28%2f3-mitmproxy-tips-you-might-not-know-about%2f" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--google resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.37 12.93c-.73-.52-1.4-1.27-1.4-1.5 0-.43.03-.63.98-1.37 1.23-.97 1.9-2.23 1.9-3.57 0-1.22-.36-2.3-1-3.05h.5c.1 0 .2-.04.28-.1l1.36-.98c.16-.12.23-.34.17-.54-.07-.2-.25-.33-.46-.33H7.6c-.66 0-1.34.12-2 .35-2.23.76-3.78 2.66-3.78 4.6 0 2.76 2.13 4.85 5 4.9-.07.23-.1.45-.1.66 0 .43.1.83.33 1.22h-.08c-2.72 0-5.17 1.34-6.1 3.32-.25.52-.37 1.04-.37 1.56 0 .5.13.98.38 1.44.6 1.04 1.84 1.86 3.55 2.28.87.23 1.82.34 2.8.34.88 0 1.7-.1 2.5-.34 2.4-.7 3.97-2.48 3.97-4.54 0-1.97-.63-3.15-2.33-4.35zm-7.7 4.5c0-1.42 1.8-2.68 3.9-2.68h.05c.45 0 .9.07 1.3.2l.42.28c.96.66 1.6 1.1 1.77 1.8.05.16.07.33.07.5 0 1.8-1.33 2.7-3.96 2.7-1.98 0-3.54-1.23-3.54-2.8zM5.54 3.9c.33-.38.75-.58 1.23-.58h.05c1.35.05 2.64 1.55 2.88 3.35.14 1.02-.08 1.97-.6 2.55-.32.37-.74.56-1.23.56h-.03c-1.32-.04-2.63-1.6-2.87-3.4-.13-1 .08-1.92.58-2.5zM23.5 9.5h-3v-3h-2v3h-3v2h3v3h2v-3h3"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fkevcui.github.io%2f2018%2f07%2f28%2f3-mitmproxy-tips-you-might-not-know-about%2f&title=3%20mitmproxy%20Tips%20You%20Might%20Not%20Know%20About" target="_blank" aria-label="" rel="noopener">
+        <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.75-1.64-6.07-1.72.08-1.1.4-3.05 1.52-3.7.72-.4 1.73-.24 3 .5C17.2 6.3 18.46 7.5 20 7.5c1.65 0 3-1.35 3-3s-1.35-3-3-3c-1.38 0-2.54.94-2.88 2.22-1.43-.72-2.64-.8-3.6-.25-1.64.94-1.95 3.47-2 4.55-2.33.08-4.45.7-6.1 1.72C4.86 8.98 3.96 8.5 3 8.5c-1.65 0-3 1.35-3 3 0 1.32.84 2.44 2.05 2.84-.03.22-.05.44-.05.66 0 3.86 4.5 7 10 7s10-3.14 10-7c0-.22-.02-.44-.05-.66 1.2-.4 2.05-1.54 2.05-2.84zM2.3 13.37C1.5 13.07 1 12.35 1 11.5c0-1.1.9-2 2-2 .64 0 1.22.32 1.6.82-1.1.85-1.92 1.9-2.3 3.05zm3.7.13c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9.8 4.8c-1.08.63-2.42.96-3.8.96-1.4 0-2.74-.34-3.8-.95-.24-.13-.32-.44-.2-.68.15-.24.46-.32.7-.18 1.83 1.06 4.76 1.06 6.6 0 .23-.13.53-.05.67.2.14.23.06.54-.18.67zm.2-2.8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm5.7-2.13c-.38-1.16-1.2-2.2-2.3-3.05.38-.5.97-.82 1.6-.82 1.1 0 2 .9 2 2 0 .84-.53 1.57-1.3 1.87z"/></svg>
+            </div>
+        </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&canonicalUrl=https%3a%2f%2fkevcui.github.io%2f2018%2f07%2f28%2f3-mitmproxy-tips-you-might-not-know-about%2f" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5.5v5h5v4h-5V15c0 5 3.5 4.4 6 2.8v4.4c-6.7 3.2-12 0-12-4.2V9.5h-3V6.7c1-.3 2.2-.7 3-1.3.5-.5 1-1.2 1.4-2 .3-.7.6-1.7.7-3h3.8z"/></svg>
+          </div>
+      </div>
+    </a>
+    
+    
+      
+        
+        
+      
+    
+
+    
+    <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fkevcui.github.io%2f2018%2f07%2f28%2f3-mitmproxy-tips-you-might-not-know-about%2f&amp;title=3%20mitmproxy%20Tips%20You%20Might%20Not%20Know%20About&amp;summary=mitmproxy%20is%20a%20powerful%20proxy%20tool%20for%20debugging%20network%20requests%20and%20responses.%20It%27s%20my%20favorite%20proxy%20tool%20and%20becoming%20one%20of%20my%20daily%20essential%20tools%20for%20working.%20I%20would%20like%20to%20share%20with%20you%203%20mitmproxy%20tips%20you%20might%20not%20know%20about...&amp;source=nnn" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fkevcui.github.io%2f2018%2f07%2f28%2f3-mitmproxy-tips-you-might-not-know-about%2f&title=3%20mitmproxy%20Tips%20You%20Might%20Not%20Know%20About" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.2 9.7l-3-5.4C7.2 4 7 4 6.8 4h-5c-.3 0-.4 0-.5.2v.5L4 10 .4 16v.5c0 .2.2.3.4.3h5c.3 0 .4 0 .5-.2l4-6.6v-.5zM24 .2l-.5-.2H18s-.2 0-.3.3l-8 14v.4l5.2 9c0 .2 0 .3.3.3h5.4s.3 0 .4-.2c.2-.2.2-.4 0-.5l-5-8.8L24 .7V.2z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    
+      
+        
+        
+      
+    
+
+</section>
+
+        
+
+        <footer class="footer">
+    <span class="footer__copyright">
+        &copy; 2018 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+    </span>
+</footer>
+
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+    title: "Index",
+    overlay: true,
+    contentId: "post-content",
+});
+</script>
+
+  
+
+</html>

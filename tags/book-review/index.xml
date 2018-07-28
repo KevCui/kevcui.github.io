@@ -1,89 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Kevin Cui</title>
-      <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/book-review/</link>
+    <title>Book Review on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/book-review/</link>
+    <description>Recent content in Book Review on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jul 2017 19:35:28 +0200</lastBuildDate>
     
+	<atom:link href="https://kevcui.github.io/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Tue, 04 Jul 2017 19:35:28 CEST</updated>
     
     <item>
       <title>Book Review: The DevOps Handbook</title>
-      <link>https://krazycavin.github.io/2017/07/04/book-review-the-devops-handbook/</link>
-      <pubDate>Tue, 04 Jul 2017 19:35:28 CEST</pubDate>
+      <link>https://kevcui.github.io/2017/07/04/book-review-the-devops-handbook/</link>
+      <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/07/04/book-review-the-devops-handbook/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*aQ6VuapHdv713A677HYPkw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-&lt;/p&gt;
-
-
-&lt;h3 id=&#34;something-interesting&#34;&gt;😀 Something interesting&lt;/h3&gt;
-
-&lt;h4 id=&#34;deployment-lead-time&#34;&gt;Deployment Lead Time&lt;/h4&gt;
-
-&lt;p&gt;DevOps focuses on optimizing &amp;ldquo;deployment lead time&amp;rdquo;. The definition of &amp;ldquo;deployment lead time&amp;rdquo; is not explained clearly in this book. As my understanding, a lead time is a latency between the initiation and execution of a process, then &amp;ldquo;deployment lead time&amp;rdquo; should be the time between deployment initiation is required and the product in production.&lt;/p&gt;
-
-&lt;h4 id=&#34;the-three-ways&#34;&gt;The Three Ways&lt;/h4&gt;
-
-&lt;p&gt;As described in the book, The Phoenix Project presents &lt;a href=&#34;https://itrevolution.com/the-three-ways-principles-underpinning-devops/&#34;&gt;the Three Ways&lt;/a&gt; as the principles underpinning DevOps:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;The technical practices of flow&lt;/strong&gt;: it enables fast left-to-right flow of work from Devs to Ops, so that value can be quickly and safely delivered to customers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The technical practices of feedback&lt;/strong&gt;: it enables the fast and constant flow of feedback from right to left at all stages of the value stream.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The technical practices of continual learning and experimentation&lt;/strong&gt;: it enables the creation of a culture of learning and experimentation.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I see the 3 ways as 3 focuses in different phases:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Initialization&lt;/strong&gt;: Build a right pipeline&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Improvement&lt;/strong&gt;: Get quick feedback to adjust pipeline to a right direction&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Interaction&lt;/strong&gt;: Create a culture to learn from experimentation, to increase safety&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;appendices&#34;&gt;Appendices&lt;/h4&gt;
-
-&lt;p&gt;I found the appendices in this book are quite interesting. Appendices contain copious additional materials with short descriptions. Some of them are worth to know more. Then I search for some additional information and list them here:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://setandbma.wordpress.com/2012/03/23/agile-history/&#34;&gt;History of movements&lt;/a&gt;: the Lean movement, the Agile movement, the Agile infrastructure and velocity movement, the Continues Delivery movement, the Toyota Kata movement, the Lean Startup movement, the Lean UX movement&amp;hellip;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.iploca.com/platform/content/element/24312/ErikHollnagel-SafetyMyths.pdf&#34;&gt;Some myths of industrial safety&lt;/a&gt;: by revealing 5 common myths about safety, it guides people to think different types of outcomes: adverse outcomes and successful outcomes. Furthermore, it introduces 2 types of safety defined by 2 different perspectives: &amp;ldquo;no lack of safety&amp;rdquo; or &amp;ldquo;resilient safety management&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://itrevolution.com/kata/&#34;&gt;The Toyota Andon Cord&lt;/a&gt;: it&amp;rsquo;s one of the quality control method invented by Toyota. Andon Cord is a notify system with signal lights hanging on the cord. When a defect was suspected in the production line, the worker should light up the signal and the whole system will be stopped. By stopping the system, you will get an immediate opportunity for improvement, or solving the root cause.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://medium.com/netflix-techblog/the-netflix-simian-army-16e57fbab116&#34;&gt;The Netflix Simian Army&lt;/a&gt;: based on the idea of &lt;a href=&#34;https://en.wikipedia.org/wiki/Monkey_testing&#34;&gt;monkey testing&lt;/a&gt;, Netflix built an army of &amp;ldquo;skilled monkeys&amp;rdquo;. Once these monkeys are unleashed, they will start to randomly disable the service and destroy the system. It&amp;rsquo;s an interesting way to test the robustness of service and system. One day, these monkeys cannot cause any noticeable troubles, you will trust that your system is fail-safe.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;something-boring&#34;&gt;🙈 Something boring&lt;/h3&gt;
-
-&lt;h4 id=&#34;lack-of-depth&#34;&gt;Lack of depth&lt;/h4&gt;
-
-&lt;p&gt;After finishing this book, my first feeling is &amp;ldquo;This book could go deeper&amp;rdquo;. The true ideas and thoughts are heavily covered by quotes and stories. Actually, stories are good and interesting, but they are used in the book so often like the case study, instead of being used to explain a conception. Some chapters are based on one shallow story. After reading one chapter, I could only roughly tell the story. What about the idea behind it? It was not expressed clearly. At the end, I feel more like &amp;ldquo;emh.. ok&amp;hellip;&amp;rdquo;. The surprise, which I expected from this book at the beginning, is missing.&lt;/p&gt;
-
-&lt;p&gt;Maybe it&amp;rsquo;s the purpose to go breadth by throwing conceptions without deeper explanations, in order to cover more readers.&lt;/p&gt;
-
-&lt;h4 id=&#34;repeated-terms&#34;&gt;Repeated Terms&lt;/h4&gt;
-
-&lt;p&gt;This is maybe only my personal OCD. Some terms appearing repeatedly make me feel annoyed. It happens at the very beginning of the book. For example, &amp;ldquo;Product owners, development, QA, IT Operation and Infosec&amp;hellip;&amp;rdquo; This chain of terms appears at least twice on some pages. Once I noticed it, I totally faint out&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;something-for-future&#34;&gt;🔮 Something for future&lt;/h3&gt;
-
-&lt;p&gt;For me, this book is an introduction to DevOps world. I think there are many valuable things to learn in DevOps. Therefore, I will continue to take a look at other interesting DevOps books. Perhaps I would pick first another book from the same author. It&amp;rsquo;s called &lt;a href=&#34;https://www.amazon.de/Phoenix-Project-DevOps-Helping-Business/dp/0988262509/ref=sr_1_1?ie=UTF8&amp;amp;qid=1499117368&amp;amp;sr=8-1&amp;amp;keywords=the+phoenix+project&#34;&gt;&amp;ldquo;The Phoenix Project&amp;rdquo;&lt;/a&gt;. It&amp;rsquo;s an interesting novel and I trust the author&amp;rsquo;s storytelling skill.&lt;/p&gt;
-
-&lt;h3 id=&#34;recommendation&#34;&gt;👉 Recommendation&lt;/h3&gt;
-
-&lt;p&gt;Who do I recommend to read &amp;ldquo;The DevOps Handbook&amp;rdquo;?&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Someone knows nothing about DevOps, like Jon Snow&lt;/li&gt;
-&lt;li&gt;Someone has huge resource to manage and wants to create a great company culture&lt;/li&gt;
-&lt;li&gt;Someone is doing DevOps but blocked and needs some decent ideas&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://kevcui.github.io/2017/07/04/book-review-the-devops-handbook/</guid>
+      <description>😀 Something interesting Deployment Lead Time DevOps focuses on optimizing &amp;ldquo;deployment lead time&amp;rdquo;. The definition of &amp;ldquo;deployment lead time&amp;rdquo; is not explained clearly in this book. As my understanding, a lead time is a latency between the initiation and execution of a process, then &amp;ldquo;deployment lead time&amp;rdquo; should be the time between deployment initiation is required and the product in production.
+The Three Ways As described in the book, The Phoenix Project presents the Three Ways as the principles underpinning DevOps:</description>
     </item>
     
   </channel>

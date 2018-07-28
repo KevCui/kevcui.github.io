@@ -1,126 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Kevin Cui</title>
-      <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/categories/tutorial/</link>
+    <title>Tutorial on Kevin Cui</title>
+    <link>https://kevcui.github.io/categories/tutorial/</link>
+    <description>Recent content in Tutorial on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 19 Nov 2016 13:00:00 +0200</lastBuildDate>
     
+	<atom:link href="https://kevcui.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Sat, 19 Nov 2016 13:00:00 &#43;0200</updated>
     
     <item>
       <title>Know How to Build github.io Blog in 3 min?</title>
-      <link>https://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</link>
-      <pubDate>Sat, 19 Nov 2016 13:00:00 &#43;0200</pubDate>
+      <link>https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</link>
+      <pubDate>Sat, 19 Nov 2016 13:00:00 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
-      <description>
-
-&lt;p&gt;I write this tutorial with some notes about how to build a github.io blog, because I was struggling a bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could &lt;strong&gt;waste&lt;/strong&gt; some of your time on customizing your own awesome blog. 😉&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(What about 3 min? It&amp;rsquo;s the time to read this post&amp;hellip;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;br-step-0-know-things-first&#34;&gt;&lt;br/&gt;STEP 0: Know &lt;em&gt;things&lt;/em&gt; first&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/join/&#34;&gt;GitHub account&lt;/a&gt;: If you don&amp;rsquo;t have one, what are you waiting for? Just get one ;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;: It&amp;rsquo;s designed to host your personal, organization, or project pages directly from a GitHub repository.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jeykll&lt;/a&gt;: It transfers plain text into static websites and blogs.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;br-step-1-why&#34;&gt;&lt;br/&gt;STEP 1: Why?&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;It&amp;rsquo;s really simple, compared to WordPress&lt;/li&gt;
-&lt;li&gt;It&amp;rsquo;s interesting to write post with Markdown ^^&lt;/li&gt;
-&lt;li&gt;You will tell me&amp;hellip; 😄&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;br-step-2-pick-theme&#34;&gt;&lt;br/&gt;STEP 2: Pick theme&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;A list of some nice jekyll &lt;a href=&#34;https://github.com/jekyll/jekyll/wiki/Themes&#34;&gt;themes&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Check theme demos and pick favorite one&lt;/li&gt;
-&lt;li&gt;Open GitHub and check source page ☕️&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;br-step-3-fork-it&#34;&gt;&lt;br/&gt;STEP 3: Fork-it&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fork the theme repository to your &lt;strong&gt;&lt;em&gt;username&lt;/em&gt;.github.io&lt;/strong&gt;, where &lt;em&gt;username&lt;/em&gt; is your own username on GitHub.
-(&lt;em&gt;#Eg: my repository for this blog is &lt;strong&gt;kevcui.github.io&lt;/strong&gt;&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;Clone it to your local&lt;br/&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;~ $ git clone https://github.com/username/username.github.io my-blog
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;br-step-4-configure-it&#34;&gt;&lt;br/&gt;STEP 4: Configure-it&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Go to my-blog&lt;br/&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;~ $ cd my-blog
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Open &lt;strong&gt;_config.yml&lt;/strong&gt; and modify&lt;br/&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;title: &#39;your-blog-title&#39;
-description: &#39;your-blog-description&#39;
-url: &#39;https://username.github.io&#39;
-baseurl: &#39;/&#39;
-...
-gems : [&#39;jekyull-paginate&#39;, &#39;jemoji&#39;]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;⚠️ Empty &lt;strong&gt;baseurl&lt;/strong&gt; or change it to &lt;strong&gt;/&lt;/strong&gt; depends on theme. Otherwise, some themes may not work correctly.&lt;br&gt;
-👊 jemoji!&lt;/p&gt;
-
-&lt;h3 id=&#34;br-step-5-test-it&#34;&gt;&lt;br/&gt;STEP 5: Test-it&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Run locally&lt;br/&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-Bash&#34;&gt;~ $ cd my-blog
-~ $ jekyll serve
-# =&amp;gt; Now browse to http://localhost:4000/
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;br-step-6-post-it&#34;&gt;&lt;br/&gt;STEP 6: Post-it&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Create a post in &lt;strong&gt;_post&lt;/strong&gt;, name it &lt;strong&gt;YEAR-MONTH-DAY-title.md&lt;/strong&gt;&lt;br/&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;title: &amp;quot;How to build github.io blog in 3 min?&amp;quot;
-date:  2016-11-18 23:25:28 +0200
-...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;⚠️ Be careful of date format &lt;strong&gt;YYYY-MM-DD HH:MM:SS +/-TTTT&lt;/strong&gt;, TTTT is timezone offset&lt;/p&gt;
-
-&lt;h3 id=&#34;br-step-7-publish-it&#34;&gt;&lt;br/&gt;STEP 7: Publish-it&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;git add, git commit, git push&lt;/li&gt;
-&lt;li&gt;Browse your new blog &lt;strong&gt;&lt;a href=&#34;https://username.github.io&#34;&gt;https://username.github.io&lt;/a&gt;&lt;/strong&gt;  👯&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;br-helpful-links&#34;&gt;&lt;br/&gt;Helpful links:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Basic syntax help for &lt;a href=&#34;https://daringfireball.net/projects/markdown/basics&#34;&gt;Markdown&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;GitHub basic formatting &lt;a href=&#34;https://help.github.com/articles/basic-writing-and-formatting-syntax/&#34;&gt;syntax&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Emoji &lt;a href=&#34;https://www.webpagefx.com/tools/emoji-cheat-sheet/&#34;&gt;Cheatsheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Jekyll &lt;a href=&#34;https://jekyllrb.com/docs/usage/&#34;&gt;usage&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Jekyll Uno &lt;a href=&#34;https://github.com/joshgerdes/jekyll-uno&#34;&gt;theme&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
+      <description>I write this tutorial with some notes about how to build a github.io blog, because I was struggling a bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could waste some of your time on customizing your own awesome blog. 😉
+(What about 3 min? It&amp;rsquo;s the time to read this post&amp;hellip;)</description>
     </item>
     
   </channel>
