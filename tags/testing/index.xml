@@ -1,717 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Kevin Cui</title>
-      <generator uri="https://gohugo.io">Hugo</generator>
-    <link>https://krazycavin.github.io/tags/testing/</link>
+    <title>Testing on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/testing/</link>
+    <description>Recent content in Testing on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jun 2017 21:43:23 +0200</lastBuildDate>
     
+	<atom:link href="https://kevcui.github.io/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     
-    <updated>Tue, 27 Jun 2017 21:43:23 CEST</updated>
     
     <item>
       <title>Bad Use of A Good Tool</title>
-      <link>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
-      <pubDate>Tue, 27 Jun 2017 21:43:23 CEST</pubDate>
+      <link>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
+      <pubDate>Tue, 27 Jun 2017 21:43:23 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Y7unAywBRkUxr51nVx_kvg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-    &lt;sup&gt;
-        &lt;em&gt;
-            Photo by &lt;a href=&#34;https://www.flickr.com/photos/clumsyjim/1907979770/&#34;&gt;Jim&lt;/a&gt;
-        &lt;/em&gt;
-    &lt;/sup&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;If all you have is a hammer, everything looks like a nail.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to &lt;a href=&#34;https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;organize this testing party&lt;/a&gt;. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well. I feel shame for it. I ask myself why it happened? After I think again and again, one thing I could tell is because of &lt;strong&gt;my bad use of a good tool&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-good-tool&#34;&gt;A good tool&lt;/h3&gt;
-
-&lt;p&gt;Undeniably, &lt;a href=&#34;https://www.charlesproxy.com/&#34;&gt;Charles&lt;/a&gt; is an excellent debugging proxy. It&amp;rsquo;s powerful and handy. With a clean UI and easy setup, it becomes my daily tool. I rely on it to inspect HTTP/HTTPS requests and response, set breakpoints, simulate response status, mock response, bandwidth throttling, etc&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Naturally, more I use it, more I like it; More I will use it, then I will like it more&amp;hellip;.&lt;/p&gt;
-
-&lt;h3 id=&#34;bad-use&#34;&gt;Bad use&lt;/h3&gt;
-
-&lt;p&gt;One day, I tried &lt;a href=&#34;https://www.charlesproxy.com/documentation/tools/rewrite/&#34;&gt;rewrite tool&lt;/a&gt; in Charles to replace a simple JSON API response by some mock data. I found surprisingly that it worked very well. Since that, I started to add more and more rewriting rules for this and that&amp;hellip; Nowadays the set of rewriting rules becomes really complex. The mock data I used to replace response which started from the beginning as 4 lines, until now the entire content of a 4K file!&lt;/p&gt;
-
-&lt;p&gt;Sometimes I complain &amp;ldquo;Why Charles gives users only 1-line input filed for replacing stuff. It&amp;rsquo;s not possible to edit long text. How bad design it is!&amp;rdquo; Now I think it again and I have to admit that Charles is not designed for that. I use it wrongly. I should use it as a simple match-replace function for some strings, that&amp;rsquo;s it.&lt;/p&gt;
-
-&lt;p&gt;Another mistake I made is to treat it as a proxy server. Usually, I connect 1 Android and 1 iOS device to Charles proxy. But the craziest time, like last team testing, I ran Charles with heavy mock data and planned to setup the connection of 10+ mobile devices. The connection was not stable at all. The half of devices were disconnected frequently.&lt;/p&gt;
-
-&lt;p&gt;As it&amp;rsquo;s named as &amp;ldquo;debugging proxy&amp;rdquo;, it&amp;rsquo;s unfair for it to support 10+ devices &amp;ldquo;debugging&amp;rdquo; at the same time.&lt;/p&gt;
-
-&lt;h3 id=&#34;right-tool-for-the-job&#34;&gt;Right tool for the job&lt;/h3&gt;
-
-&lt;p&gt;Charles proxy is not a snake oil for manipulating http requests. It has its pros and cons. In my case, I need a proxy tool to mock response data heavily and to change mock data easily, meanwhile it should also provide stable connections of massive mobile devices for testing. Charles is a good tool for sure, but in this case, it&amp;rsquo;s not the right tool for my need.&lt;/p&gt;
-
-&lt;p&gt;I have to search for a proper solution. I find that &lt;a href=&#34;https://mitmproxy.org/&#34;&gt;mitmproxy&lt;/a&gt; could be a candidate to try out. Because of open-source and the support of customized python script, it would be flexible to adapt all kinds of situations. All I need to do is to make scripts to fulfill my need. I like making my hands dirty. Luckily, mitmproxy provides a good &lt;a href=&#34;http://docs.mitmproxy.org/en/stable/&#34;&gt;documentation&lt;/a&gt; and nice &lt;a href=&#34;https://discourse.mitmproxy.org/&#34;&gt;forums&lt;/a&gt;. At the end, it&amp;rsquo;s not too hard to write &lt;a href=&#34;https://github.com/kevcui/mitm-rewrite-script&#34;&gt;mitm-rewrite-script&lt;/a&gt;, which provides me the function I need.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Tools are designed to help us to deal with the problems. Depends on the different situations and the strength &amp;amp; weakness of tools, I have to think carefully and decide which one to use. Probably mitmproxy is my new proxy-hammer, but I won&amp;rsquo;t see everything like a nail. Once I decided that it is a good time to use Charles properly, I would say loudly and confidently &amp;ldquo;&lt;strong&gt;I choose you, Charles!&lt;/strong&gt;&amp;ldquo;&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
+      <description>Photo by Jim    If all you have is a hammer, everything looks like a nail.
+ Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
     </item>
     
     <item>
       <title>Refine Software Testing Types</title>
-      <link>https://krazycavin.github.io/2017/05/02/refine-software-testing-types/</link>
-      <pubDate>Tue, 02 May 2017 20:35:50 CEST</pubDate>
+      <link>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</link>
+      <pubDate>Tue, 02 May 2017 20:35:50 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/05/02/refine-software-testing-types/</guid>
-      <description>&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://krazycavin.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;coverimage&#34;/&gt;
-    
-&lt;/p&gt;
-
-
-&lt;p&gt;Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;When I say &amp;ldquo;Integration Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Actually we are more or less talking about the same thing. We misunderstand each other because we think from different perspectives.&lt;/p&gt;
-
-&lt;p&gt;In order to make less confusion, I try to refine software testing types by using 5 different categories. Each categories represent one perspective. In other words, they are independent of each other. These categories are &lt;strong&gt;How&lt;/strong&gt;, &lt;strong&gt;When&lt;/strong&gt;, &lt;strong&gt;Who&lt;/strong&gt;, &lt;strong&gt;What&lt;/strong&gt; and &lt;strong&gt;Which&lt;/strong&gt;. Then I put testing types one by one into each category, E.g:&lt;/p&gt;
-
-&lt;p&gt;1.1) &lt;strong&gt;How&lt;/strong&gt; does structure look like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;White/Glass box/Structural Testing,
-Black box/Functional Testing,
-Gray box Testing.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;1.2) &lt;strong&gt;How&lt;/strong&gt; does system perform:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Non-functional Testing
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-2) &lt;strong&gt;When&lt;/strong&gt; in software development life cycle (SDLC):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Unit Testing, Component Testing,
-Integration/Integrated Testing, System Testing,
-Acceptance Testing, Alpha Testing, Beta Testing.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-3) &lt;strong&gt;Who&lt;/strong&gt; is involved in:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Manual Testing, Automated Testing, Pair Testing,
-Mob Testing, Team Testing, Dogfooding,
-Crowdsourced Testing.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-4) &lt;strong&gt;What&lt;/strong&gt; is to test:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;E2E/Workflow Testing, Usability Testing, Security Testing,
-Performance Testing, Accessibility Testing...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-5) &lt;strong&gt;Which&lt;/strong&gt; approach is using:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Exploratory Testing, Fuzz Testing,
-Boundary Value Testing, Sanity Testing, Smoke Testing,
-(Non-)Regression Testing, Monkey Testing...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-
-&lt;p&gt;Now let&amp;rsquo;s back to the beginning when I say &amp;ldquo;Integration Testing&amp;rdquo;&amp;hellip; and see if it makes things clear.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;1) How: Functional
-2) When: Integration
-3) Who: Automated
-4) What: Accessibility
-5) Whch: Regression
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-Finally we have a buzz word&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Functional Integration Automated Accessbility Regression Testing
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</guid>
+      <description>Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:
+ When I say &amp;ldquo;Integration Testing&amp;rdquo;, You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;, Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;, Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;, Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;.  Actually we are more or less talking about the same thing.</description>
     </item>
     
     <item>
       <title>How I Do Exploratory Testing</title>
-      <link>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</link>
-      <pubDate>Mon, 17 Apr 2017 22:30:00 CEST</pubDate>
+      <link>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</link>
+      <pubDate>Mon, 17 Apr 2017 22:30:00 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-    &lt;sup&gt;
-        &lt;em&gt;
-            Photo by &lt;a href=&#34;https://www.flickr.com/photos/kwl/3573458354/in/photostream/&#34;&gt;Kenny Louie&lt;/a&gt;
-        &lt;/em&gt;
-    &lt;/sup&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;what-is-et&#34;&gt;What is ET?&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;E&lt;/strong&gt;xploratory &lt;strong&gt;T&lt;/strong&gt;esting is the nature of testing&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same time. It&amp;rsquo;s the true symphony of efficiency!&lt;/p&gt;
-
-&lt;h3 id=&#34;what-is-my-understanding-of-et&#34;&gt;What is my understanding of ET?&lt;/h3&gt;
-
-&lt;p&gt;For me, ET is an elegant testing approach with a &lt;strong&gt;free spirit&lt;/strong&gt;, to &lt;strong&gt;think&lt;/strong&gt; about different possibilities, to &lt;strong&gt;discover&lt;/strong&gt; the unknown, to &lt;strong&gt;collect&lt;/strong&gt; effective information and to &lt;strong&gt;share&lt;/strong&gt; new knowledge efficiently.&lt;/p&gt;
-
-&lt;h3 id=&#34;what-is-my-practice-of-et&#34;&gt;What is my practice of ET?&lt;/h3&gt;
-
-&lt;p&gt;Since the beginning of last year when &lt;a href=&#34;https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/&#34;&gt;I failed to use Calabash for mobile testing&lt;/a&gt;, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: &lt;strong&gt;To have a concrete structure of ET and to adapt change easily based on it.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Combining the purpose and my understanding, I tried some practices and made some changes. It becomes the current one I&amp;rsquo;m satisfied with. First of all, please remember it&amp;rsquo;s definitely &lt;strong&gt;not&lt;/strong&gt; the &amp;ldquo;best practice&amp;rdquo;. I still keep striving for a better practice, your feedback could help me as well 😉&lt;/p&gt;
-
-&lt;p&gt;Back to my practice of ET, each time I proceed with 3 important stages (a.k.a. 3G stages): &lt;strong&gt;Get context&lt;/strong&gt;, &lt;strong&gt;Go explore&lt;/strong&gt; and &lt;strong&gt;Give feedback&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;stage-1-get-context&#34;&gt;Stage 1: Get context&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Time estimation&lt;/strong&gt;: 15 min&lt;/p&gt;
-
-&lt;p&gt;On this stage, the key is to &lt;strong&gt;think different&lt;/strong&gt;. By asking PO, stakeholder, designer, developer, etc&amp;hellip; who already have the information of context. For instance, if the testing target is a new feature:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;To understand the &lt;strong&gt;problem&lt;/strong&gt; behind: What&amp;rsquo;s the problem to solve?&lt;/li&gt;
-&lt;li&gt;To understand the &lt;strong&gt;request&lt;/strong&gt; of developing this feature: What&amp;rsquo;s the acceptable result look like?&lt;/li&gt;
-&lt;li&gt;To understand the detail of &lt;strong&gt;implementation&lt;/strong&gt;: Which kind of user cases are considered and checked already?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;With this information in mind, I will &lt;strong&gt;think&lt;/strong&gt; about that the implementation does not only meet the request but also provide the functionality to solve the problem:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Implementation versus Request: What are the misunderstandings and ambiguities?&lt;/li&gt;
-&lt;li&gt;Implementation versus Problem: What are the blind spots and missing checks, could potentially cause the risk of malfunction?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Normally I prefer to take some factors and put them in the questions, in order to generate some testing ideas. Some factors could be considered:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Environment: region, timezone, language&amp;hellip;&lt;/li&gt;
-&lt;li&gt;Hardware: device, platform, OS, screen size&amp;hellip;&lt;/li&gt;
-&lt;li&gt;Aspect: usability, security, performance&amp;hellip;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
-OS x Implementation versus Problem: Does this feature work on iOS 7 devices?
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-Then I will put the ideas or assumptions shortly on a to-do list:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;Testing ideas:
-[ ] Support all regions?
-[ ] iOS 7
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;stage-2-go-explore&#34;&gt;Stage 2: Go explore&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Timebox&lt;/strong&gt;: 30 min&lt;/p&gt;
-
-&lt;p&gt;This stage is the most exciting one. The key is to &lt;strong&gt;discover&lt;/strong&gt; and to &lt;strong&gt;collect&lt;/strong&gt;. Before starting exploring, a time box is rather important, which forces me to proceed with the next steps. Otherwise, I could probably explore forever far around and way deeper.&lt;/p&gt;
-
-&lt;p&gt;Remember the to-do list earlier I got in the first stage? Now it&amp;rsquo;s time to make hands dirty using the ideas, I call them seeds, as initial starting points to discover the unknown. Following and focusing on one seed to perform some checks, I will start to collect new seeds:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Relate to current seed, add it as a child seed&lt;/li&gt;
-&lt;li&gt;Not relate to current seed, add it as a new seed&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Once I got a finding or a question, I will make a quick note with the necessary screenshot and video record.&lt;/p&gt;
-
-&lt;p&gt;After one seed is finished, I will continue to explore anther seed. One seed at a time, seed by seed until timeout. You probably have a question in your mind &amp;ldquo;When one seed is done, what to pick as the next seed?&amp;rdquo; I have a rule of thumb for priority: seed on top of the list has higher priority to explore.&lt;/p&gt;
-
-&lt;p&gt;After 30 min, my to-do list looks like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-Shell&#34;&gt;Testing ideas:
-[?] Support all regions?
-    [x] Europe
-    [?] Asia: no response from API
-        =&amp;gt; Question 1
-[-] iOS 7
-    =&amp;gt; Issue 1
-[-] No interent
-    [x] Error message
-    [x] retry when internet is back
-    [x] app restart when no internet
-[?] Animation
-    =&amp;gt; Question 2
-[ ] Performace of new API request?
-
-Question 1: need API response for Asia?
-Need check with backend team: this feature is not available for Asia users?
-&amp;lt;Screenshot of API request and response&amp;gt;
-
-Question 2: Refresh animation feels laggy
-Need check with designer and developer: make a nicer animation
-
-Issue 1: crash on iOS 7
-&amp;lt;device info&amp;gt;
-- &amp;lt;step 1&amp;gt;
-- &amp;lt;step 2&amp;gt;
-- &amp;lt;step 3&amp;gt;
-&amp;lt;crash stack traces&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;stage-3-give-feedback&#34;&gt;Stage 3: Give feedback&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;Time estimation&lt;/strong&gt;: 15 min&lt;/p&gt;
-
-&lt;p&gt;The key to this stage is to &lt;strong&gt;share knowledge&lt;/strong&gt;. I&amp;rsquo;ve some questions and issues on my list collected from the previous stage and I know who I need to contact. Can I just throw my feedback on their face directly? I hope I can but apparently nope.&lt;/p&gt;
-
-&lt;p&gt;Regarding the questions, it needs to have a proper conversation to remove misunderstandings and ambiguities:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What&amp;rsquo;s my opinion and suggestion?&lt;/li&gt;
-&lt;li&gt;What&amp;rsquo;s your opinion and suggestion?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Regarding the issues, it needs to have a proper discussion to evaluate the risk:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What can be fixed?&lt;/li&gt;
-&lt;li&gt;What is out of scope?&lt;/li&gt;
-&lt;li&gt;What needs to be improved in the future?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;what-else&#34;&gt;What else?&lt;/h3&gt;
-
-&lt;p&gt;Basically, it&amp;rsquo;s the core part of my lovely ET practice:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;3G stages: Get context, Go explore and Give feedback&lt;/li&gt;
-&lt;li&gt;4 actions: Think, Discover, Collect and Share&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Although there are still a lot of topics I&amp;rsquo;d like to expand, I don&amp;rsquo;t want to make one post too long too boring. I will probably write &lt;strong&gt;a series of ET topics&lt;/strong&gt; in the future, like:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;How to think different and some factors to consider?&lt;/li&gt;
-&lt;li&gt;How to collect and share findings efficiently?&lt;/li&gt;
-&lt;li&gt;How to shorten feedback loop in development?&lt;/li&gt;
-&lt;li&gt;How to train myself be always ready to be interrupted?&lt;/li&gt;
-&lt;li&gt;How to pair with developers?&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/3o6Zthv4W72jUHRCUg/giphy.gif&#34; alt=&#34;out&#34; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Testing is like holding a torch to light up the road in darkness. You could clearly see the way to go, make a map, and mark thorns and flowers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;https://anshome.org/ans-preschool/&#34;&gt;The Audubon Nature Preschool&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;https://www.kaner.com/pdfs/QAIExploring.pdf&#34;&gt;Cem Kaner: A Tutorial in Exploratory Testing&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
+      <description>Photo by Kenny Louie    &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1]
+ What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution.</description>
     </item>
     
     <item>
       <title>Why I Failed to Use Calabash for Mobile Testing</title>
-      <link>https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</link>
-      <pubDate>Sat, 21 Jan 2017 10:48:00 &#43;0200</pubDate>
+      <link>https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</link>
+      <pubDate>Sat, 21 Jan 2017 10:48:00 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*61zMYo0AKZw7F_-UTBgULQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;When I give up, I write it down. Someday I will pick myself up from the fall.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;preface&#34;&gt;Preface&lt;/h3&gt;
-
-&lt;p&gt;I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it &lt;em&gt;reckless passion&lt;/em&gt;. Although I learned a lot from it, I&amp;rsquo;ve never shared what I learned in public. After that, I changed my focus and gave up on traditional UI automation.&lt;/p&gt;
-
-&lt;p&gt;This week, I had some small talks with our awesome developers about test automation. The idea was to implement special UI automated tests, in order to check new product release automatically instead of sanity checking manually by the whole team. I suddenly remembered that I forgot to share my failure with them. I&amp;rsquo;d like to write down in this post, my recklessness and something I learned. In case the team would like to move further on test automation, we could proceed with caution.&lt;/p&gt;
-
-&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
-
-&lt;p&gt;My story begins back in September 2015, a sunny day. At that moment, I was so confident that our mobile apps are fully mature for automating tests. That day I started a draft plan of test automation. In the following week, I planned everything, I finished my research to find a suitable framework, I started my experiment and even I announced my plan to the team in a non-meeting Tuesday&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;chapter-i-huge-ambitions-but-no-skills&#34;&gt;Chapter I: huge ambitions but no skills&lt;/h3&gt;
-
-&lt;p&gt;I successfully sold my big picture of test automation future too without any oppositions. With UI test automation, I had my dreams:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;A dream of brilliant and efficient release process&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;A dream of full user behavior coverage&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;A dream of no painful manual regression testing&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My initial plan is to follow the steps below:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Step 1: Build the main structure of test automation framework and create general functions&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Step 2: Create test scenarios to replace all manual sanity checks of app core features&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Step 3: Add new test scenarios to check acceptance criteria of user stories, to verify bug fixes&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To start the first step, I choose Calabash&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; as the framework. The reasons why I pick it because it is:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Cross-platform: Android and iOS&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;BDD friendly&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Pure UI level, no need to dive deep into the code&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;For me it looks really promising, even I had little knowledge of this tool and scripting using Ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&amp;hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.&lt;/p&gt;
-
-&lt;p&gt;Now it&amp;rsquo;s time to move to the 2nd step, but soon in reality, I found it&amp;rsquo;s hard to simulate user&amp;rsquo;s general actions, for example: a simple action like scroll down on a list. How many times? How far can it scroll, stop at the end or somewhere randomly?&lt;/p&gt;
-
-&lt;p&gt;Then I have to go back and forth between step 1 and step 2, when creating new test scenarios, meanwhile updating general action functions&amp;hellip; I felt troublesome.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next time I will ask myself first&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;During planning, &lt;strong&gt;&amp;ldquo;What&amp;rsquo;s the purpose of automation?&amp;rdquo;&lt;/strong&gt;, &lt;strong&gt;&amp;ldquo;What&amp;rsquo;s the limitation of automation?&amp;rdquo;&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Where to start to automate checks?&amp;rdquo;&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;When choosing a tool or framework, &lt;strong&gt;&amp;ldquo;What are the pros and the cons of the tool?&amp;rdquo;&lt;/strong&gt;, &lt;strong&gt;&amp;ldquo;Does the tool fit all my needs?&amp;rdquo;&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Do I have the knowledge to master the tool?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Before starting implementation, &lt;strong&gt;What&amp;rsquo;s the testability of the product?&lt;/strong&gt; and &lt;strong&gt;&amp;ldquo;Do I have a clear architecture and design of test automation?&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-ii-unstable-execution-and-unreliable-result&#34;&gt;Chapter II: unstable execution and unreliable result&lt;/h3&gt;
-
-&lt;p&gt;Finally, I replaced almost all sanity checks by automated checks. I planned to announce the results to the team proudly but actually I didn&amp;rsquo;t. Because after I tried to run tests several times, I found that test executions are not stable and test results are not reliable.&lt;/p&gt;
-
-&lt;h4 id=&#34;unstable-test-execution&#34;&gt;Unstable test execution&lt;/h4&gt;
-
-&lt;p&gt;I created some Android emulators where I launch tests, but the emulator is usually laggy. The frequent timeout of some test steps often destroyed the whole test execution. Then I have to launch tests on the real devices. Timeout issues got fewer. But after one snapshot version, executions were blocked by some small UI changes. After adapted all UI changes, I thought the execution should be smooth but I got the opposite. Due to the differences of the test environment, some test cases are only executable in a production environment, I have to add the mechanism to detect and switch environments.&lt;/p&gt;
-
-&lt;h4 id=&#34;unreliable-test-result&#34;&gt;Unreliable test result&lt;/h4&gt;
-
-&lt;p&gt;The worst thing in test automation is Schrödinger test, aka flaky test. Like ghosts haunting around, it&amp;rsquo;s never sure that the result is failing or passing after a running. I got some flaky tests due to the timing of actions, too many preconditions to fulfill, the changeable input data in production environment, the bugs in framework&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;A huge test case will also cause unreliable test results. Imagine a 20-step test case, if it&amp;rsquo;s failed in the 5th step, the hidden failure in the rest part is not able to be detected without continuing the execution. On the surface, it&amp;rsquo;s only one failure. But it&amp;rsquo;s possible that the failures of next 15 steps are covered underneath. I separated some huge test cases to small test cases. But in some cases, one step dependents on the app state created by another step. It took the effort to remove dependencies.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next time I will ask myself first&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do I have a controllable and stable test environment?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Which test environment for which test case?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do I have a process to handle flaky tests? Retry, quarantine or remove?&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Is a failed test case clear enough to identify bugs?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;chapter-iii-one-man-show-and-demotivated-maintenance&#34;&gt;Chapter III: one-man show and demotivated maintenance&lt;/h3&gt;
-
-&lt;p&gt;3 months later, I didn&amp;rsquo;t go further in the 3rd step. Because my confidence was torn apart by unreliable results and my passion was extinguished by daily maintenance tasks. I told myself that it&amp;rsquo;s time to give up. Silently I stopped putting my effort to write new tests and maintain test suite.&lt;/p&gt;
-
-&lt;p&gt;2 sprints after, I came back from my vacation. I doubted whether tests were still executable. Then I accessed to the old Calabash repository carefully and executed scripts curiously, as expected, not a single test can start to run.&lt;/p&gt;
-
-&lt;p&gt;Since then, no one, including me, ever mentioned about Calabash test automation. I realized my biggest mistake: I should let the team involve in the entire automation project. So it wouldn&amp;rsquo;t end up now as a ridiculous one-man show.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Next time I will ask myself first&amp;hellip;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Am I the only one who maintain the whole automation project?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Do I manage to update test suite immediately after code changes?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;How do I measure the test automation whether it&amp;rsquo;s helpful or not?&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;fin&#34;&gt;Fin&lt;/h3&gt;
-
-&lt;p&gt;The sad story is over. It triggers the change of test automation definition in my mind. Now I see test automation as a tool&lt;sup&gt;&lt;a name=&#34;back4&#34;&gt;&lt;a href=&#34;#link4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; and a tester augmentation&lt;sup&gt;&lt;a name=&#34;back5&#34;&gt;&lt;a href=&#34;#link5&#34;&gt;[5]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. Following this definition, I made a lot of scripts to help me explore products efficiently.&lt;/p&gt;
-
-&lt;p&gt;But somewhere in my mind, I still have my assent of the traditional definition of test automation; Somewhere in my heart, I still have my passion for creating a perfect UI automation for mobile testing. Next time when I restart, I will ask myself the above questions, to explore another path towards the successful &amp;ldquo;UI automation&amp;rdquo;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Calabash &lt;a href=&#34;http://calaba.sh/&#34;&gt;homepage&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Oleksii Burdin: &lt;a href=&#34;https://lazytesterua.blogspot.de/2016/02/where-to-start-automation.html&#34;&gt;Where to start to automate your checks?&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Walmyr Filho: &lt;a href=&#34;https://medium.com/the-making-of-appear-in/the-importance-of-dealing-with-flaky-tests-1b69145dee0f#.q5fgedjx0&#34;&gt;The importance of dealing with flaky tests&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link4&#34;&gt;&lt;a href=&#34;#back4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt; Micheal Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2016/01/a-context-driven-approach-to-automation-in-testing/&#34;&gt;A Context-Driven Approach to Automation in Testing&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link5&#34;&gt;&lt;a href=&#34;#back5&#34;&gt;[5]&lt;/a&gt;&lt;/a&gt; Josh Meieter: &lt;a href=&#34;https://medium.com/salesforce-engineering/tester-augmentation-not-test-automation-1de28269c9a4#.cdq1utnu3&#34;&gt;Tester Augmentation, Not Test Automation&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
+      <description>&amp;ldquo;When I give up, I write it down. Someday I will pick myself up from the fall.&amp;rdquo;
+ Preface I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it reckless passion. Although I learned a lot from it, I&amp;rsquo;ve never shared what I learned in public. After that, I changed my focus and gave up on traditional UI automation.</description>
     </item>
     
     <item>
       <title>Bugshido: Classify Warrior Bugs</title>
-      <link>https://krazycavin.github.io/2017/01/08/bugshido/</link>
-      <pubDate>Sun, 08 Jan 2017 12:31:43 &#43;0200</pubDate>
+      <link>https://kevcui.github.io/2017/01/08/bugshido/</link>
+      <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2017/01/08/bugshido/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*En26YWwPSATot5n4bBjLrw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Warriors are born to die. Warriors live to be remembered.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called &lt;strong&gt;Bugshido&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;As we all know, &lt;a href=&#34;https://en.wikipedia.org/wiki/Bushido&#34;&gt;Bushido&lt;/a&gt;: 武士道 the &lt;strong&gt;way&lt;/strong&gt; (Dō or Tao) of the &lt;strong&gt;warrior&lt;/strong&gt; (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors. Inspired by Bushido, Bugshido is the way symbolically to determine the existence of different bugs. The idea of Bugshido is based on the way which combines &lt;strong&gt;priority&lt;/strong&gt; and &lt;strong&gt;severity&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; by&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Priority: High, Medium, Low&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Severity: Critical, Major, Minor, Trivial&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Besides the name Bugshido, technically, it&amp;rsquo;s just a metaphor and there is nothing really new about it. Well, maybe itself is funny.&lt;/p&gt;
-
-&lt;p&gt;Now, imagine you are the emperor (developer/PO) rules a country (code base/product). Due to some changes here or there, the evil forces will raise against you. They are gathering warriors to break your country. As your Emperor&amp;rsquo;s adviser (tester), I&amp;rsquo;d like to explain to you how to identify your enemies and the tactic to handle them.&lt;/p&gt;
-
-&lt;h3 id=&#34;geisha&#34;&gt;Geisha&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=79215&amp;amp;type=card&#34; alt=&#34;geisha&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Priority: Low&lt;br/&gt;Severity: Minor&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Geisha&#34;&gt;Geisha&lt;/a&gt; barely knows how to fight. All Geisha&amp;rsquo;s skills related to performing arts like music, dance&amp;hellip; Therefore, Geisha is not harmful and sometimes very entertaining. But in some edge cases, when the art a Geisha trained is the martial art, she could become a dangerous assassin.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice: Go to visit them time to time when you&amp;rsquo;re bored.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;sōhei&#34;&gt;Sōhei&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=78684&amp;amp;type=card&#34; alt=&#34;sohei&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Priority: Low&lt;br/&gt;Severity: Major&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Sōhei&#34;&gt;Sōhei&lt;/a&gt; is known as the warrior monk. Although warrior monk is the master of martial arts, his initial purpose to fight is to protect people, temple, Buddha&amp;hellip; Monk warriors are usually humble and peaceful. They won&amp;rsquo;t attack unless they&amp;rsquo;re attacked. Even they gonna fight, they will fight defensively. In general, warrior monks stay in their territory quietly. They appear because of the broke environment, which is caused by some small or big changes.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice: Find out the trigger is important. Normally they&amp;rsquo;re tough but there is no need for a long battle. A promise of reform should pacify them. If you choose to collect information and do nothing first, just don&amp;rsquo;t forget to add improvement later by refactoring.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;rōnin&#34;&gt;Rōnin&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=74199&amp;amp;type=card&#34; alt=&#34;Ronin&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Priority: High&lt;br/&gt;Severity: Minor&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Rōnin&#34;&gt;Rōnin&lt;/a&gt; was a samurai who becomes masterless. Their skills were highly developed but without the purpose of life, their mind could become weak. They are wandering everywhere in the country and looking for a way to make a living with their sword, no matter good or evil.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice: Seize the opportunity When they&amp;rsquo;re still weak and eliminate them as soon as possible before they are caught by the evil force.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;samurai&#34;&gt;Samurai&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=50408&amp;amp;type=card&#34; alt=&#34;samurai&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Priority: High&lt;br/&gt;Severity: Major&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Samurai&#34;&gt;Samurai&lt;/a&gt; is the highest rank of warriors. The mastery of the sword is one of Samurai&amp;rsquo;s traits. Another one is the loyalty: they believe that the death to serve their Lord is a great honor. They will fight to die in the battle, without blinking an eye. Send shivers down spine, right?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice: Brace yourself, you know a tough fight is impossible to avoid. If you&amp;rsquo;re not sure Samurai&amp;rsquo;s capability, better to ask team members for support.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;ninja&#34;&gt;Ninja&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=423530&amp;amp;type=card&#34; alt=&#34;ninja&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Priority: High&lt;br/&gt;Severity: Critical&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Ninja&#34;&gt;Ninja&lt;/a&gt; exists as a mystery, rather than a warrior. A typical Ninja will hide in the shadow, waiting for a moment to kill the target with one fatal hit. The danger begins when the negligence of Ninja&amp;rsquo;s existence. Even sometimes there is a feeling to tell you that Ninja might be hidden in certain areas, but Ninja performs ninjutsu to keep them &lt;strong&gt;unpredictable&lt;/strong&gt; in the first place.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Advice: Unfortunately, most of time Ninja is only found after serious damages are made. The key point is fast-react in order to minimize the losses. Once a Ninja is defeated, take a lesson and learn not to be fooled by the same ninjutsu next time.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;warrior-triage&#34;&gt;Warrior Triage&lt;/h3&gt;
-
-&lt;p&gt;After warrior-showoff is over, let&amp;rsquo;s take a closer look to the triage process. This part describes the battle tactic, it might be a bit boring.&lt;/p&gt;
-
-&lt;h4 id=&#34;ninja-definitely-triggers-a-hotfix&#34;&gt;Ninja definitely triggers a hotfix&lt;/h4&gt;
-
-&lt;p&gt;A Ninja bug needs an urgent fix because it&amp;rsquo;s destructing the core functionality of the product. Everyone in the team, who can contribute efforts, should focus on the fix immediately. Seriously it&amp;rsquo;s the last step before a final checkmate.&lt;/p&gt;
-
-&lt;h4 id=&#34;samurai-blocks-new-product-release&#34;&gt;Samurai blocks new product release&lt;/h4&gt;
-
-&lt;p&gt;A Samurai bug or Ronin bug are considered as high potential dangers. No matter a huge effort is taken to fix Samurai bug or a small effort taken to fix Ronin bug, they have to be fixed before release. In brief, Samurai bug is the release blocker.&lt;/p&gt;
-
-&lt;h4 id=&#34;sohei-geisha-are-about-time&#34;&gt;Sohei &amp;amp; Geisha are about time&lt;/h4&gt;
-
-&lt;p&gt;A Sohei bug or a Geisha bug could exist in product for a long time. Some of them never bother customers once. Their existence proves that nothing is perfect. Rather than keeping them in tracking tools, it&amp;rsquo;s justified to give them a Euthanasia after a specific time by closing them in tracking tool. It&amp;rsquo;s a decision made to balance allocated effort and added value.&lt;/p&gt;
-
-&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;I hope you had a fun of reading. Besides that, now you know &lt;strong&gt;Bugshidao&lt;/strong&gt; to identify a warrior, like Ninja, Samurai, Ronin, Sohei and Geisha. You&amp;rsquo;ve also the basic tactic to deal with them. Last advice I have to give you, my friend, as I always keep it in my mind to warn myself:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Wake up! Evil warriors are killing your customers!&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Defect &lt;a href=&#34;http://softwaretestingfundamentals.com/defect/&#34;&gt;Classification&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Dan Ashby: &lt;a href=&#34;https://danashby.co.uk/2013/05/07/what-about-priority-and-severity/&#34;&gt;What about Priority and Severity&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2017/01/08/bugshido/</guid>
+      <description>&amp;ldquo;Warriors are born to die. Warriors live to be remembered.&amp;rdquo;
+ The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase[1] &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called Bugshido.
+As we all know, Bushido: 武士道 the way (Dō or Tao) of the warrior (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors.</description>
     </item>
     
     <item>
       <title>Let&#39;s Have Some Fun! Team Testing</title>
-      <link>https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
-      <pubDate>Thu, 01 Dec 2016 21:37:35 &#43;0200</pubDate>
+      <link>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
+      <pubDate>Thu, 01 Dec 2016 21:37:35 +0200</pubDate>
       
-      <guid>https://krazycavin.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sonAggQw-dsCFHGrcozMfg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;damn-old-picture-of-team-testing&#34;&gt;&lt;strong&gt;Damn old picture of team testing&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;When we talk about team testing, I guess many of you will image a picture in your mind:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;People are sitting around a table.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;When testing starts, people follow same test cases on the paper, step by step &amp;ldquo;testing&amp;rdquo; product.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Soon, People look like a robot: they look at paper and write down the answer &amp;ldquo;yes&amp;rdquo;, &amp;ldquo;expected result&amp;rdquo;, &amp;ldquo;pass&amp;rdquo;, &amp;ldquo;no&amp;rdquo;&amp;hellip; Someone will collect paper and check pass/fail&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Well, pretty like:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://www.qalogictesting.com/wp-content/uploads/2015/06/dtest.jpg&#34; alt=&#34;&#34; /&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m always asking myself. If I&amp;rsquo;m one of these guys participating this the kind of team testing, would I be bored to die? What&amp;rsquo;s the problem here?&lt;/p&gt;
-
-&lt;p&gt;Why not make team testing like taking a challenge, playing a game, exploring around?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://oscarandpatch.co.uk/image_uploads_mce/testing-team.jpg&#34; alt=&#34;&#34; /&gt;&lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;let-s-have-some-fun&#34;&gt;&lt;strong&gt;Let&amp;rsquo;s have some fun!&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;h4 id=&#34;people-are-sitting-around-a-table-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;People are sitting around a table.&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;Instead of limiting people to focus on his own stuff, I really like to make people pair together and let them share a &amp;ldquo;test challenge&amp;rdquo;. They can do testing together no matter where they want. Pairing together in team testing is a good test strategy for:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Making comparison&lt;/strong&gt;: when it needs to know if different platforms, different versions have different behaviors&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Exchanging idea&lt;/strong&gt;: when someone comes to an idea, (s)he can immediately try with her/his testing partner&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Remembering findings&lt;/strong&gt;: when something found, (s)he can show to her/his partner how to reproduce&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Training newcomer&lt;/strong&gt;: when a new team member is joining, (s)he is not quite familiar with product&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&#34;everyone-gets-a-paper-in-front-of-them-this-paper-could-be-a-checklist-full-of-test-steps-could-be-a-sheet-full-of-test-scenarios-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;In my team testing, there is no checklist, no test scenarios. I call them &lt;strong&gt;mission&lt;/strong&gt; and &lt;strong&gt;challenge&lt;/strong&gt;. My thought here: Do exploring, not checking, because exploring is more exciting. I prefer to describe simply a challenge in one sentence using &lt;strong&gt;CAR&lt;/strong&gt; model (it&amp;rsquo;s the first name comes to my mind&amp;hellip;). CAR stands for &lt;strong&gt;C&lt;/strong&gt;ondition,  &lt;strong&gt;A&lt;/strong&gt;ction and &lt;strong&gt;R&lt;/strong&gt;esult. A simple example:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;ondition: GPS on&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;ction:  open app&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;esult: my current location was shown&lt;/p&gt;
-
-&lt;p&gt;Then the challenge is: When phone GPS turned on, I open app, should I see my current location shown correctly?&lt;/p&gt;
-
-&lt;p&gt;For a 30min testing session, in a mission, 10-15 challenges are recommended. Above 15 is too much, because when people are getting tired, no fun :(&lt;/p&gt;
-
-&lt;h4 id=&#34;when-testing-starts-people-follow-same-test-cases-on-the-paper-step-by-step-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing starts, people follow same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;Using CAR model, it&amp;rsquo;s easy to remove useless test steps and to modify them dynamically according to tests.&lt;/p&gt;
-
-&lt;p&gt;For example, we&amp;rsquo;re focusing on a new feature to reserve vehicle from vehicle list. Then the challenge is: &lt;strong&gt;When my test account is logged in, I pick a vehicle in list, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If next time, we want to test general reservation function. Then the challenge is: &lt;strong&gt;When my test account is logged in, I pick a vehicle in list or on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Or it can be separated into 2 challenges:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle in list, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;And I will put them to the different &lt;strong&gt;missions&lt;/strong&gt; for different participants.&lt;/p&gt;
-
-&lt;h4 id=&#34;soon-people-look-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-pass-fail-nope&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People look like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅&lt;/strong&gt;&lt;/h4&gt;
-
-&lt;p&gt;Usually I set up a simple finding-wall, like blow:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;             iOS     |    Android
-Major                |
-Minor                |
-?                    |
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Column: platform&lt;/p&gt;
-
-&lt;p&gt;Row: major findings, minor findings and unclear findings (needs to discuss)&lt;/p&gt;
-
-&lt;p&gt;All participants will put findings on the wall during team testing. After testing, they will be taken down one by one and fixed one by one.&lt;/p&gt;
-
-&lt;p&gt;If you ask me how about that mission-paper? I will destroy them immediately after testing and let it be a secret mission.&lt;/p&gt;
-
-&lt;h3 id=&#34;expected-result&#34;&gt;&lt;strong&gt;Expected result&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;After participating this team exploratory testing, you will probably think &amp;ldquo;I&amp;rsquo;d like to test more next time!&amp;rdquo;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; Michael Bolton: &lt;a href=&#34;http://www.developsense.com/blog/2009/08/testing-vs-checking/&#34;&gt;Testing vs. Checking&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://www.qalogictesting.com/wp-content/uploads/2015/06/dtest.jpg&#34;&gt;Damn round table team testing&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://oscarandpatch.co.uk/image_uploads_mce/testing-team.jpg&#34;&gt;Children play around&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
+      <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1]
+ Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
+ People are sitting around a table.
+ Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
     </item>
     
   </channel>
