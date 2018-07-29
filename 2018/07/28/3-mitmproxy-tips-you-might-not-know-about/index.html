@@ -316,15 +316,42 @@
 
 <p>One of the advantages of mitmproxy is highly customizable. It&rsquo;s very continent to set up once configurations that every time mitmproxy loads them automatically when it starts. All the available handy <strong>options</strong> are in the <a href="https://docs.mitmproxy.org/stable/concepts-options/">mitmproxy document</a>. Here is my <code>~/.mitmproxy/config.yaml</code>:</p>
 
-<div class="highlight"><pre class="chroma"><code class="language-md" data-lang="md">console_palette: &#34;dark&#34;<span class="err">
-</span><span class="err"></span>console_palette_transparent: True<span class="err">
-</span><span class="err"></span>console_mouse: False<span class="err">
-</span><span class="err"></span>console_focus_follow: True<span class="err">
-</span><span class="err"></span>ignore_hosts: []</code></pre></div>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml">console_palette<span class="p">:</span><span class="w"> </span><span class="s2">&#34;dark&#34;</span><span class="w">
+</span><span class="w"></span>console_palette_transparent<span class="p">:</span><span class="w"> </span>True<span class="w">
+</span><span class="w"></span>console_mouse<span class="p">:</span><span class="w"> </span>False<span class="w">
+</span><span class="w"></span>console_focus_follow<span class="p">:</span><span class="w"> </span>True<span class="w">
+</span><span class="w"></span>ignore_hosts<span class="p">:</span><span class="w"> </span><span class="p">[]</span></code></pre></td></tr></table>
+</div>
+</div>
 
 <p>As I&rsquo;m using <a href="/2017/08/27/one-week-with-colemak/">colemak keyboard layout</a>, <em>j</em> and <em>k</em> keys are opposite for the navigation of up and down in mitmproxy. I have to change these 2 keys to make navigation smooth. Before, to change key bindings in old versions, I have to hack around code in <code>defaultkeys.py</code>. Since <a href="https://mitmproxy.org/posts/releases/mitmproxy4/">mitmproxy v4.0</a>, custom key binding is finally officially supported! Here are my key bindings in <code>~/.mitmproxy/keys.yaml</code>:</p>
 
-<div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml">-<span class="w">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml">-<span class="w">
 </span><span class="w">  </span>key<span class="p">:</span><span class="w"> </span>j<span class="w">
 </span><span class="w">  </span>ctx<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
 </span><span class="w">  </span>cmd<span class="p">:</span><span class="w"> </span>console.nav.up<span class="w">
@@ -335,7 +362,9 @@
 </span><span class="w"></span>-<span class="w">
 </span><span class="w">  </span>key<span class="p">:</span><span class="w"> </span>l<span class="w">
 </span><span class="w">  </span>ctx<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;flowlist&#34;</span><span class="p">]</span><span class="w">
-</span><span class="w">  </span>cmd<span class="p">:</span><span class="w"> </span>console.nav.select</code></pre></div>
+</span><span class="w">  </span>cmd<span class="p">:</span><span class="w"> </span>console.nav.select</code></pre></td></tr></table>
+</div>
+</div>
 
 <p>To know more about which <strong>command</strong> to use in <strong>cmd</strong> field, type <code>K</code> (shift + k) in mitmproxy. A list of current key bindings will show up. More information about key binging configuration is in the <a href="https://docs.mitmproxy.org/stable/tools-mitmproxy/">mitmproxy document</a>.</p>
 
