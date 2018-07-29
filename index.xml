@@ -111,7 +111,7 @@
 
 &lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/videos/mitmproxy-events-view.svg&#34; alt=&#34;mitmproxy events view video&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;tips-3-using-mitmproxy-as-a-mock-sever&#34;&gt;Tips 3: Using mitmproxy as a mock sever&lt;/h3&gt;
+&lt;h3 id=&#34;tips-3-using-mitmproxy-as-a-mock-server&#34;&gt;Tips 3: Using mitmproxy as a mock server&lt;/h3&gt;
 
 &lt;p&gt;The killer feature of mitmproxy is scripting. Using python scripts, all requests and responses are fully controlled and changeable &lt;strong&gt;on the fly&lt;/strong&gt;. Besides that, mitmproxy is super robust to handle multiple clients simultaneously connected to one host. These features make mitmproxy a decent mock server. Therefore, I use mitmproxy a lot as &lt;a href=&#34;https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/&#34;&gt;a mock server&lt;/a&gt;.&lt;/p&gt;
 
