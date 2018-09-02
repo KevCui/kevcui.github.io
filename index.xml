@@ -7,15 +7,27 @@
     <language>en-us</language>
     
     
-    <updated>Tue, 28 Aug 2018 21:21:08 CEST</updated>
+    <updated>Sun, 02 Sep 2018 17:21:08 CEST</updated>
     
     <item>
-      <title>Improvements for 8 Frequently Used Linux Commands</title>
-      <link>https://kevcui.github.io/2018/08/28/improvements-for-8-frequently-used-linux-commands/</link>
-      <pubDate>Tue, 28 Aug 2018 21:21:08 CEST</pubDate>
+      <title>Replace 8 Frequently Used Linux Commands!?</title>
+      <link>https://kevcui.github.io/2018/09/02/replace-8-frequently-used-linux-commands/</link>
+      <pubDate>Sun, 02 Sep 2018 17:21:08 CEST</pubDate>
       
-      <guid>https://kevcui.github.io/2018/08/28/improvements-for-8-frequently-used-linux-commands/</guid>
+      <guid>https://kevcui.github.io/2018/09/02/replace-8-frequently-used-linux-commands/</guid>
       <description>
+
+&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*hcY3Bk8YY_1keCJW_b70Vw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
+
+&lt;style&gt;
+.lnt {
+    display: none 
+} 
+&lt;/style&gt;
 
 &lt;p&gt;Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.&lt;/p&gt;
 
@@ -25,11 +37,29 @@
 
 &lt;h4 id=&#34;z&#34;&gt;z&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/rupa/z&#34;&gt;z&lt;/a&gt; is a very popular alternative command for jumping around. &lt;code&gt;z&lt;/code&gt; doesn&amp;rsquo;t require any additional configurations. It works out of the box. But you need just a little bit of patience. Because &lt;code&gt;z&lt;/code&gt; has a &amp;ldquo;magic&amp;rdquo; algorithm based on &amp;ldquo;frequency&amp;rdquo; which can learn from the frequent vested directories after your &lt;code&gt;cd&lt;/code&gt; around for a while.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/rupa/z&#34;&gt;z&lt;/a&gt; is a very popular alternative command for jumping around. &lt;code&gt;z&lt;/code&gt; doesn&amp;rsquo;t require any additional configurations. Although it works out of the box, you need just a little bit of patience. Because &lt;code&gt;z&lt;/code&gt; has a &amp;ldquo;magic&amp;rdquo; algorithm based on &amp;ldquo;frequency&amp;rdquo; which can learn from the frequent vested directories after your &lt;code&gt;cd&lt;/code&gt; around for a while.&lt;/p&gt;
 
 &lt;p&gt;An easy and quick example how to &lt;code&gt;z&lt;/code&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;~$ pwd
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;~$ pwd
 /home/foo/bar/one/two/three
 
 ~$ z tw
@@ -42,8 +72,9 @@
 
 ~$ z th
 ~$ pwd
-/home/foo/bar/one/two/three
-&lt;/code&gt;&lt;/pre&gt;
+/home/foo/bar/one/two/three&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Want to know how &amp;ldquo;frequency&amp;rdquo; score looks like for all directories? Simply run command &lt;code&gt;z -l&lt;/code&gt; will give you a list.&lt;/p&gt;
 
@@ -53,7 +84,25 @@
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/shannonmoeller/up&#34;&gt;up&lt;/a&gt; is an interesting command to replace &lt;code&gt;cd ..&lt;/code&gt; and this ridicules one &lt;code&gt;cd ../../../../&lt;/code&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;~$ pwd
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;~$ pwd
 /home/foo/bar/one/two/three
 
 ~$ up
@@ -66,12 +115,13 @@
 
 ~$ up h
 ~$ pwd
-/home
-&lt;/code&gt;&lt;/pre&gt;
+/home&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;h4 id=&#34;fzf&#34;&gt;fzf&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/junegunn/fzf&#34;&gt;fzf&lt;/a&gt; is a versatile command, which can be combined in other commands. With the help of its amazing finding ability, it can be used to &lt;a href=&#34;https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh&#34;&gt;&amp;ldquo;cd into the selected directory&amp;rdquo;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/junegunn/fzf&#34;&gt;fzf&lt;/a&gt; is a versatile command, which can be combined in other commands. With the help of its amazing searchability, it can be used to &lt;a href=&#34;https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh&#34;&gt;&amp;ldquo;cd into the selected directory&amp;rdquo;&lt;/a&gt;:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/videos/fzf-example.svg&#34; alt=&#34;fzf-example&#34; /&gt;&lt;/p&gt;
 
@@ -83,15 +133,22 @@
 
 &lt;p&gt;Here are my aliases:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;alias ls=&#39;exa -s mod --git&#39;
-alias ll=&#39;exa -l -s mod --git --time-style=long-iso&#39;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ls&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;exa -s mod --git&amp;#39;&lt;/span&gt;
+&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ll&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;exa -l -s mod --git --time-style=long-iso&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;More options to tweak exa: &lt;a href=&#34;https://the.exa.website/docs/command-line-options&#34;&gt;https://the.exa.website/docs/command-line-options&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;cat-bat&#34;&gt;cat? bat!&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/sharkdp/bat&#34;&gt;bat&lt;/a&gt; is a &lt;code&gt;cat&lt;/code&gt; clone with syntax highlighting, line numbers and automatic paging (&lt;code&gt;less&lt;/code&gt; is the default pager). To display the contents of a file using &lt;code&gt;bat&lt;/code&gt; looks like:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/sharkdp/bat&#34;&gt;bat&lt;/a&gt; is a &lt;code&gt;cat&lt;/code&gt; clone with syntax highlighting, line numbers and automatic paging (using &lt;code&gt;less&lt;/code&gt; as the default pager). To display the contents of a file using &lt;code&gt;bat&lt;/code&gt; looks like:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/bat-example.jpg&#34; alt=&#34;bat-example&#34; /&gt;&lt;/p&gt;
 
@@ -101,7 +158,7 @@ alias ll=&#39;exa -l -s mod --git --time-style=long-iso&#39;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/BurntSushi/ripgrep&#34;&gt;rg&lt;/a&gt;, ripgrep, is fast &amp;amp; furious. It has almost the same parameters of &lt;code&gt;grep&lt;/code&gt; command, with improved output style and speed.&lt;/p&gt;
 
-&lt;p&gt;One main usage of &lt;code&gt;grep&lt;/code&gt; for me is to find out which files contain some specific contents. An example here to compare &lt;code&gt;grep&lt;/code&gt; and &lt;code&gt;ripgrep&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;One main usage of &lt;code&gt;grep&lt;/code&gt; for me is to find out which files contain some specific contents. An example to compare &lt;code&gt;grep&lt;/code&gt; and &lt;code&gt;ripgrep&lt;/code&gt;:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/grep-example.jpg&#34; alt=&#34;grep-example&#34; /&gt;&lt;/p&gt;
 
@@ -113,37 +170,70 @@ alias ll=&#39;exa -l -s mod --git --time-style=long-iso&#39;
 
 &lt;h4 id=&#34;fd&#34;&gt;fd&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/sharkdp/fd&#34;&gt;fd&lt;/a&gt; is a replacement for &lt;code&gt;find&lt;/code&gt; focusing on user-friendly, with simplifying options of &lt;code&gt;find&lt;/code&gt;. For example, I want to edit a file but I don&amp;rsquo;t remember what&amp;rsquo;s its full path actually is. Usually, I need to find its full path and then edit it:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/sharkdp/fd&#34;&gt;fd&lt;/a&gt; is a replacement for &lt;code&gt;find&lt;/code&gt; focusing on user-friendly, with simplifying options of &lt;code&gt;find&lt;/code&gt;. For example, I want to edit a file but I don&amp;rsquo;t remember what&amp;rsquo;s its full path actually is. Usually, I need to find its full path first and then edit it:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;~$ find . -ipath &amp;quot;*how*exp*&amp;quot; -name &amp;quot;index.html&amp;quot;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;~$ find . -ipath &amp;#34;*how*exp*&amp;#34; -name &amp;#34;index.html&amp;#34;
 ./2017/04/17/how-i-do-exploratory-testing/index.html
-~$ vi ./2017/04/17/how-i-do-exploratory-testing/index.html
-&lt;/code&gt;&lt;/pre&gt;
+~$ vi ./2017/04/17/how-i-do-exploratory-testing/index.html&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Since I know the result will be only one file found, I can combine &lt;code&gt;vi&lt;/code&gt; inside &lt;code&gt;find&lt;/code&gt; command as well:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;~$ find . -ipath &amp;quot;*how*exp*&amp;quot; -name &amp;quot;index.html&amp;quot; -exec vi {} \;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;~$ find . -ipath &amp;#34;*how*exp*&amp;#34; -name &amp;#34;index.html&amp;#34; -exec vi {} \;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;With &lt;code&gt;fd&lt;/code&gt;, the command is more readable:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;~$ fd -p &#39;how.*exp.*/index&#39;
-2017/04/17/how-i-do-exploratory-testing/index.html
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;~$ fd -p &amp;#39;how.*exp.*/index&amp;#39;
+2017/04/17/how-i-do-exploratory-testing/index.html&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;h4 id=&#34;fzf-1&#34;&gt;fzf&lt;/h4&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/junegunn/fzf&#34;&gt;fzf&lt;/a&gt; has an extremely powerful fuzzy searchability. It can nest finding steps directly with another command. I bind the key &lt;a href=&#34;https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh&#34;&gt;&lt;code&gt;ctrl-t&lt;/code&gt; to enable fzf&lt;/a&gt;. As the same example as above, but with &lt;code&gt;fzf&lt;/code&gt;, it&amp;rsquo;s a completely different story:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;~$ vi (press ctrl-t)
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;~$ vi &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;press ctrl-t&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/videos/fzf-example2.svg&#34; alt=&#34;fzf-example2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;An alias to combine &lt;code&gt;vim&lt;/code&gt; and &lt;code&gt;fzf&lt;/code&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;alias vif=&#39;vim $(fzf)&#39;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zsh&#34; data-lang=&#34;zsh&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;vif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;vim $(fzf)&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&#34;kill-fkill&#34;&gt;kill? fkill!&lt;/h3&gt;
 
@@ -153,44 +243,85 @@ alias ll=&#39;exa -l -s mod --git --time-style=long-iso&#39;
 
 &lt;h3 id=&#34;watch-loop&#34;&gt;watch? loop!&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;&amp;ldquo;UNIX&amp;rsquo;s missing loop command.&amp;rdquo;&lt;/em&gt; &lt;a href=&#34;https://github.com/Miserlou/Loop&#34;&gt;loop&lt;/a&gt; is designed to full the gap. It works well to replace &lt;code&gt;watch&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;UNIX&amp;rsquo;s missing loop command.&amp;rdquo;&lt;/em&gt; &lt;a href=&#34;https://github.com/Miserlou/Loop&#34;&gt;loop&lt;/a&gt; is designed to fill the gap. It works well to replace &lt;code&gt;watch&lt;/code&gt;:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# monitor current directory and print file list every 6 seconds
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;# monitor current directory and print file list every 6 seconds
 
 # watch
 ~$ watch -n 6 ls -l
 
 # loop
-~$ loop -e 6s &#39;ls -l&#39;
-&lt;/code&gt;&lt;/pre&gt;
+~$ loop -e 6s &amp;#39;ls -l&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Moreover, &lt;code&gt;loop&lt;/code&gt; has some awesome options to determine when to stop watching:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;...
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;...
 -c, --until-contains &amp;lt;until_contains&amp;gt;    Keep going until the output contains this string
 -r, --until-error &amp;lt;until_error&amp;gt;          Keep going until the command exit status is non-zero, or the value given
 -m, --until-match &amp;lt;until_match&amp;gt;          Keep going until the output matches this regular expression
--t, --until-time &amp;lt;until_time&amp;gt;            Keep going until a future time, ex. &amp;quot;2018-04-20 04:20:00&amp;quot; (Times in UTC.)
-...
-&lt;/code&gt;&lt;/pre&gt;
+-t, --until-time &amp;lt;until_time&amp;gt;            Keep going until a future time, ex. &amp;#34;2018-04-20 04:20:00&amp;#34; (Times in UTC.)
+...&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Example: stop watching when &lt;code&gt;stop-now&lt;/code&gt; file is created and then open it in vim:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;loop -e 6s &#39;clear;date;ls -l&#39; -c &#39;stop-now&#39;; vi stop-now
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;~$ loop -e 6s &amp;#39;clear;date;ls -l&amp;#39; -c &amp;#39;stop-now&amp;#39;; vi stop-now&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/videos/loop-example.svg&#34; alt=&#34;loop-example&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Actually, using &lt;code&gt;loop&lt;/code&gt; to replace &lt;code&gt;for&lt;/code&gt; command is also promising and full of pleasure:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;# create 10 markdown files: 0.md, 1.md ... 9.md
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;# create 10 markdown files: 0.md, 1.md ... 9.md
 
 # for
 ~$ for ((i=0; i &amp;lt; 10; i++)); do touch ${i}.md; done
 
 # loop
-~$ loop -n 10 &#39;touch ${COUNT}.md&#39;
-&lt;/code&gt;&lt;/pre&gt;
+~$ loop -n 10 &amp;#39;touch ${COUNT}.md&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&#34;man-tldr-pet-and-how2&#34;&gt;man? tldr, pet and how2!&lt;/h3&gt;
 
@@ -210,7 +341,7 @@ alias ll=&#39;exa -l -s mod --git --time-style=long-iso&#39;
 
 &lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/videos/how2-example.svg&#34; alt=&#34;how2-example&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In case the displayed answer is not what exactly you want, &lt;code&gt;how2&lt;/code&gt; supports &lt;a href=&#34;https://github.com/santinic/how2#usage&#34;&gt;the interactive mode&lt;/a&gt; to provide a list of all relative questions and answers.&lt;/p&gt;
+&lt;p&gt;In case the displayed answer is not what exactly you want, &lt;code&gt;how2&lt;/code&gt; provides &lt;a href=&#34;https://github.com/santinic/how2#usage&#34;&gt;the interactive mode&lt;/a&gt; to select in a list of all relative questions and answers.&lt;/p&gt;
 
 &lt;p&gt;From now on, we can get confident to &amp;ldquo;save the world&amp;rdquo;!&lt;/p&gt;
 
@@ -218,7 +349,7 @@ alias ll=&#39;exa -l -s mod --git --time-style=long-iso&#39;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Share this list if you think it&amp;rsquo;s a good read for other CLI nerds.&lt;/p&gt;
+&lt;p&gt;Share this list if you think it&amp;rsquo;s a good read for other CLI nerds. 💝&lt;/p&gt;
 
 &lt;p&gt;Drop me a message if you have other commands to recommend. ❤️&lt;/p&gt;
 </description>
