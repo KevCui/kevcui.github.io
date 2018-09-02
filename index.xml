@@ -25,8 +25,8 @@
 
 &lt;style&gt;
 .lnt {
-    display: none 
-} 
+    display: none
+}
 &lt;/style&gt;
 
 &lt;p&gt;Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.&lt;/p&gt;
