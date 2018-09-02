@@ -1,0 +1,596 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#000"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title> Kevin Cui </title>
+    
+    <link rel="manifest" href="/manifest.json">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kevcui.github.io/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kevcui.github.io/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kevcui.github.io/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kevcui.github.io/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kevcui.github.io/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kevcui.github.io/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kevcui.github.io/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kevcui.github.io/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kevcui.github.io/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kevcui.github.io/images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://kevcui.github.io/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://kevcui.github.io/images/favicons/mstile-144x144.png">
+    
+    <link href="https://kevcui.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Kevin Cui" />
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Improvements for 8 Frequently Used Linux Commands">
+	<meta property="og:url" content="https://kevcui.github.io/2018/08/28/improvements-for-8-frequently-used-linux-commands/">
+	<meta property="og:site_name" content="Kevin Cui">
+    <meta name="twitter:site" content="Kevin Cui">
+	<meta itemprop="name" content="Improvements for 8 Frequently Used Linux Commands">
+	<meta name="twitter:title" content="Improvements for 8 Frequently Used Linux Commands">
+	<meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevcui">
+	
+    <meta name="description" content="Almost a decade ago, I started to touch the command-line interface (CLI). I&#39;m now a nerdy CLI lover and I&#39;m so obsessed by its efficiency. Therefore, I&#39;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&#39;s worth to find better alternatives...">
+    <meta name="og:description" content="Almost a decade ago, I started to touch the command-line interface (CLI). I&#39;m now a nerdy CLI lover and I&#39;m so obsessed by its efficiency. Therefore, I&#39;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&#39;s worth to find better alternatives...">
+    <meta name="twitter:description" content="Almost a decade ago, I started to touch the command-line interface (CLI). I&#39;m now a nerdy CLI lover and I&#39;m so obsessed by its efficiency. Therefore, I&#39;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&#39;s worth to find better alternatives...">
+    <meta itemprop="description" content="Almost a decade ago, I started to touch the command-line interface (CLI). I&#39;m now a nerdy CLI lover and I&#39;m so obsessed by its efficiency. Therefore, I&#39;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&#39;s worth to find better alternatives...">
+	
+	
+		
+	<meta property="og:image" content="https://kevcui.github.io//images/profile.jpg"/>
+	<meta property="twitter:image" content="https://kevcui.github.io//images/profile.jpg"/>
+	<meta itemprop="image" content="https://kevcui.github.io//images/profile.jpg">
+		
+	
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/share.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
+    
+    <script src="https://kevcui.github.io/js/jquery.min.js"></script>
+    <script src="https://kevcui.github.io/js/main.min.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {  
+            navigator.serviceWorker.register('./sw.js')
+            .then(function(registration) {
+                console.log("Service Worker Registered", registration);
+            })
+            .catch(function(err) {
+                console.log("Service Worker Failed to Register", err);
+            })
+        }
+    </script>
+    
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/sky.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://kevcui.github.io/" title="link to homepage for Kevin Cui"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="https://kevcui.github.io/"  title="link to homepage for Kevin Cui">Kevin Cui</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  crazy enough to be creative  </p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    
+    
+    <li>
+        <a href="http://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank" rel="noopener"><span class="soc soc-twitter"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://medium.com/@kevcui" title="Medium" target="_blank" rel="noopener"><span class="soc soc-medium"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="https://instagram.com/kev_cui" title="Instagram" target="_blank" rel="noopener"><span class="soc soc-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io/index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="soc soc-rss"></span></a>
+    </li>
+    
+        <p><a class="resume-button" href=/resume>résumé</a></p>
+    
+</ul>
+
+                    </nav>
+                </div>
+
+                <br/>
+                
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
+                
+                <p class=""><a title="resume" class="main-button" href="/resume">résumé</a></p>
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/sky.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://kevcui.github.io/" title="link to homepage for Kevin Cui"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="https://kevcui.github.io/"  title="link to homepage for Kevin Cui">Kevin Cui</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  crazy enough to be creative  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    
+    
+    <li>
+        <a href="http://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank" rel="noopener"><span class="soc soc-twitter"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://medium.com/@kevcui" title="Medium" target="_blank" rel="noopener"><span class="soc soc-medium"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="https://instagram.com/kev_cui" title="Instagram" target="_blank" rel="noopener"><span class="soc soc-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io/index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="soc soc-rss"></span></a>
+    </li>
+    
+        <p><a class="resume-button" href=/resume>résumé</a></p>
+    
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        <p><a class="main-button" href="/#blog">blog</a></p>
+                    
+                    <p class=""><a title="resume" class="main-button" href="/resume">résumé</a></p>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Aug 28, 2018</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/cli">CLI,</a>
+					
+                
+					
+						<a href="/tags/linux">linux,</a>
+					
+                
+					
+						<a href="/tags/commands">commands,</a>
+					
+                
+					
+						<a href="/tags/list">list</a>
+					
+                
+              </span>
+              • 1000 words 5 min. read
+          </div>
+          <h1>Improvements for 8 Frequently Used Linux Commands</h1>
+          <section id="post-content" class="article-content post">
+              
+
+<p>Almost a decade ago, I started to touch the command-line interface (CLI). I&rsquo;m now a nerdy CLI lover and I&rsquo;m so obsessed by its efficiency. Therefore, I&rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&rsquo;s worth to find better alternatives.</p>
+
+<p>Here is a list of improved commands I&rsquo;d like to share with you:</p>
+
+<h3 id="cd-z-up-and-fzf">cd? z, up and fzf!</h3>
+
+<h4 id="z">z</h4>
+
+<p><a href="https://github.com/rupa/z">z</a> is a very popular alternative command for jumping around. <code>z</code> doesn&rsquo;t require any additional configurations. It works out of the box. But you need just a little bit of patience. Because <code>z</code> has a &ldquo;magic&rdquo; algorithm based on &ldquo;frequency&rdquo; which can learn from the frequent vested directories after your <code>cd</code> around for a while.</p>
+
+<p>An easy and quick example how to <code>z</code>:</p>
+
+<pre><code>~$ pwd
+/home/foo/bar/one/two/three
+
+~$ z tw
+~$ pwd
+/home/foo/bar/one/two
+
+~$ z foo
+~$ pwd
+/home/foo
+
+~$ z th
+~$ pwd
+/home/foo/bar/one/two/three
+</code></pre>
+
+<p>Want to know how &ldquo;frequency&rdquo; score looks like for all directories? Simply run command <code>z -l</code> will give you a list.</p>
+
+<p>Want to clean some/all saved directories? Simply modify <code>$HOME/.z</code>.</p>
+
+<h4 id="up">up</h4>
+
+<p><a href="https://github.com/shannonmoeller/up">up</a> is an interesting command to replace <code>cd ..</code> and this ridicules one <code>cd ../../../../</code></p>
+
+<pre><code>~$ pwd
+/home/foo/bar/one/two/three
+
+~$ up
+~$ pwd
+/home/foo/bar/one/two
+
+~$ up 2
+~$ pwd
+/home/foo/bar
+
+~$ up h
+~$ pwd
+/home
+</code></pre>
+
+<h4 id="fzf">fzf</h4>
+
+<p><a href="https://github.com/junegunn/fzf">fzf</a> is a versatile command, which can be combined in other commands. With the help of its amazing finding ability, it can be used to <a href="https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh">&ldquo;cd into the selected directory&rdquo;</a>:</p>
+
+<p><img src="/videos/fzf-example.svg" alt="fzf-example" /></p>
+
+<h3 id="ls-exa">ls? exa!</h3>
+
+<p><a href="https://github.com/ogham/exa">exa</a> aims to be the modem replacement for <code>ls</code>. In my opinion, it did it. exa is really easy to use. Its options are straightforward:</p>
+
+<p><img src="/images/exa-example.jpg" alt="exa-example" /></p>
+
+<p>Here are my aliases:</p>
+
+<pre><code>alias ls='exa -s mod --git'
+alias ll='exa -l -s mod --git --time-style=long-iso'
+</code></pre>
+
+<p>More options to tweak exa: <a href="https://the.exa.website/docs/command-line-options">https://the.exa.website/docs/command-line-options</a></p>
+
+<h3 id="cat-bat">cat? bat!</h3>
+
+<p><a href="https://github.com/sharkdp/bat">bat</a> is a <code>cat</code> clone with syntax highlighting, line numbers and automatic paging (<code>less</code> is the default pager). To display the contents of a file using <code>bat</code> looks like:</p>
+
+<p><img src="/images/bat-example.jpg" alt="bat-example" /></p>
+
+<p>It&rsquo;s possible to customize the theme of syntax highlighting. It supports Sublime Text syntax format. Check these default themes to have some inspirations: <a href="https://github.com/sharkdp/bat/tree/master/assets/themes">https://github.com/sharkdp/bat/tree/master/assets/themes</a></p>
+
+<h3 id="grep-rg">grep? rg!</h3>
+
+<p><a href="https://github.com/BurntSushi/ripgrep">rg</a>, ripgrep, is fast &amp; furious. It has almost the same parameters of <code>grep</code> command, with improved output style and speed.</p>
+
+<p>One main usage of <code>grep</code> for me is to find out which files contain some specific contents. An example here to compare <code>grep</code> and <code>ripgrep</code>:</p>
+
+<p><img src="/images/grep-example.jpg" alt="grep-example" /></p>
+
+<p><img src="/images/ripgrep-example.jpg" alt="ripgrep-example" /></p>
+
+<p>If you&rsquo;re interested in how fast <code>rg</code> can be? Check this comparison: <a href="https://github.com/BurntSushi/ripgrep#quick-examples-comparing-tools">https://github.com/BurntSushi/ripgrep#quick-examples-comparing-tools</a> Not sure if it&rsquo;s still the case now. But overall, ripgrep is fast enough for my daily use.</p>
+
+<h3 id="find-fd-and-fzf">find? fd and fzf!</h3>
+
+<h4 id="fd">fd</h4>
+
+<p><a href="https://github.com/sharkdp/fd">fd</a> is a replacement for <code>find</code> focusing on user-friendly, with simplifying options of <code>find</code>. For example, I want to edit a file but I don&rsquo;t remember what&rsquo;s its full path actually is. Usually, I need to find its full path and then edit it:</p>
+
+<pre><code>~$ find . -ipath &quot;*how*exp*&quot; -name &quot;index.html&quot;
+./2017/04/17/how-i-do-exploratory-testing/index.html
+~$ vi ./2017/04/17/how-i-do-exploratory-testing/index.html
+</code></pre>
+
+<p>Since I know the result will be only one file found, I can combine <code>vi</code> inside <code>find</code> command as well:</p>
+
+<pre><code>~$ find . -ipath &quot;*how*exp*&quot; -name &quot;index.html&quot; -exec vi {} \;
+</code></pre>
+
+<p>With <code>fd</code>, the command is more readable:</p>
+
+<pre><code>~$ fd -p 'how.*exp.*/index'
+2017/04/17/how-i-do-exploratory-testing/index.html
+</code></pre>
+
+<h4 id="fzf-1">fzf</h4>
+
+<p><a href="https://github.com/junegunn/fzf">fzf</a> has an extremely powerful fuzzy searchability. It can nest finding steps directly with another command. I bind the key <a href="https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh"><code>ctrl-t</code> to enable fzf</a>. As the same example as above, but with <code>fzf</code>, it&rsquo;s a completely different story:</p>
+
+<pre><code>~$ vi (press ctrl-t)
+</code></pre>
+
+<p><img src="/videos/fzf-example2.svg" alt="fzf-example2" /></p>
+
+<p>An alias to combine <code>vim</code> and <code>fzf</code>:</p>
+
+<pre><code>alias vif='vim $(fzf)'
+</code></pre>
+
+<h3 id="kill-fkill">kill? fkill!</h3>
+
+<p><a href="https://github.com/sindresorhus/fkill">fkill</a>, its <strong>f</strong> stands for &ldquo;fabulously&rdquo; (It&rsquo;s definitely not the word I&rsquo;m thinking in my mind 😉). Sometimes, <code>kill</code> some zombie processes is necessary. <code>fkill</code> can search a process and kill it interactively. It makes killing stylish:</p>
+
+<p><img src="/videos/fkill-example.svg" alt="fkill-example" /></p>
+
+<h3 id="watch-loop">watch? loop!</h3>
+
+<p><em>&ldquo;UNIX&rsquo;s missing loop command.&rdquo;</em> <a href="https://github.com/Miserlou/Loop">loop</a> is designed to full the gap. It works well to replace <code>watch</code>:</p>
+
+<pre><code># monitor current directory and print file list every 6 seconds
+
+# watch
+~$ watch -n 6 ls -l
+
+# loop
+~$ loop -e 6s 'ls -l'
+</code></pre>
+
+<p>Moreover, <code>loop</code> has some awesome options to determine when to stop watching:</p>
+
+<pre><code>...
+-c, --until-contains &lt;until_contains&gt;    Keep going until the output contains this string
+-r, --until-error &lt;until_error&gt;          Keep going until the command exit status is non-zero, or the value given
+-m, --until-match &lt;until_match&gt;          Keep going until the output matches this regular expression
+-t, --until-time &lt;until_time&gt;            Keep going until a future time, ex. &quot;2018-04-20 04:20:00&quot; (Times in UTC.)
+...
+</code></pre>
+
+<p>Example: stop watching when <code>stop-now</code> file is created and then open it in vim:</p>
+
+<pre><code>loop -e 6s 'clear;date;ls -l' -c 'stop-now'; vi stop-now
+</code></pre>
+
+<p><img src="/videos/loop-example.svg" alt="loop-example" /></p>
+
+<p>Actually, using <code>loop</code> to replace <code>for</code> command is also promising and full of pleasure:</p>
+
+<pre><code># create 10 markdown files: 0.md, 1.md ... 9.md
+
+# for
+~$ for ((i=0; i &lt; 10; i++)); do touch ${i}.md; done
+
+# loop
+~$ loop -n 10 'touch ${COUNT}.md'
+</code></pre>
+
+<h3 id="man-tldr-pet-and-how2">man? tldr, pet and how2!</h3>
+
+<h4 id="tldr">tldr</h4>
+
+<p><a href="https://github.com/tldr-pages/tldr">tldr</a> is a simplified collection of man pages. It returns some command snippets with practical examples:</p>
+
+<p><img src="/images/tldr-example.jpg" alt="tldr-example" /></p>
+
+<h4 id="pet">pet</h4>
+
+<p><a href="https://github.com/knqyf263/pet">pet</a> is a CLI snippet manager. It&rsquo;s a handy tool to save some commands snippets which are easily forgotten. The idea is to use <code>pet</code> building own reference manuals.</p>
+
+<h4 id="how2">how2</h4>
+
+<p><a href="https://github.com/santinic/how2">how2</a> takes another approach to search for the right command: it queries questions and answers from stackoverflow!</p>
+
+<p><img src="/videos/how2-example.svg" alt="how2-example" /></p>
+
+<p>In case the displayed answer is not what exactly you want, <code>how2</code> supports <a href="https://github.com/santinic/how2#usage">the interactive mode</a> to provide a list of all relative questions and answers.</p>
+
+<p>From now on, we can get confident to &ldquo;save the world&rdquo;!</p>
+
+<p><img src="https://imgs.xkcd.com/comics/tar.png" alt="xkcd-tar" /></p>
+
+<hr />
+
+<p>Share this list if you think it&rsquo;s a good read for other CLI nerds.</p>
+
+<p>Drop me a message if you have other commands to recommend. ❤️</p>
+
+          </section>
+          
+          <br/>
+        </div>
+        <section class="share">
+    <p class="sharethis">Share this:</p>
+
+    
+    <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fkevcui.github.io%2f2018%2f08%2f28%2fimprovements-for-8-frequently-used-linux-commands%2f&title=Improvements%20for%208%20Frequently%20Used%20Linux%20Commands&summary=Almost%20a%20decade%20ago%2c%20I%20started%20to%20touch%20the%20command-line%20interface%20%28CLI%29.%20I%27m%20now%20a%20nerdy%20CLI%20lover%20and%20I%27m%20so%20obsessed%20by%20its%20efficiency.%20Therefore%2c%20I%27m%20always%20trying%20out%20new%20command-line%20commands.%20From%20time%20to%20time%2c%20some%20commands%20are%20replaced%20by%20other%20improved%20ones%20in%20my%20daily%20workflow.%20Especially%20for%20some%20frequently%20used%20commands%2c%20it%27s%20worth%20to%20find%20better%20alternatives..." target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Improvements%20for%208%20Frequently%20Used%20Linux%20Commands&amp;url=https%3a%2f%2fkevcui.github.io%2f2018%2f08%2f28%2fimprovements-for-8-frequently-used-linux-commands%2f" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://plus.google.com/share?url=https%3a%2f%2fkevcui.github.io%2f2018%2f08%2f28%2fimprovements-for-8-frequently-used-linux-commands%2f" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--google resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.37 12.93c-.73-.52-1.4-1.27-1.4-1.5 0-.43.03-.63.98-1.37 1.23-.97 1.9-2.23 1.9-3.57 0-1.22-.36-2.3-1-3.05h.5c.1 0 .2-.04.28-.1l1.36-.98c.16-.12.23-.34.17-.54-.07-.2-.25-.33-.46-.33H7.6c-.66 0-1.34.12-2 .35-2.23.76-3.78 2.66-3.78 4.6 0 2.76 2.13 4.85 5 4.9-.07.23-.1.45-.1.66 0 .43.1.83.33 1.22h-.08c-2.72 0-5.17 1.34-6.1 3.32-.25.52-.37 1.04-.37 1.56 0 .5.13.98.38 1.44.6 1.04 1.84 1.86 3.55 2.28.87.23 1.82.34 2.8.34.88 0 1.7-.1 2.5-.34 2.4-.7 3.97-2.48 3.97-4.54 0-1.97-.63-3.15-2.33-4.35zm-7.7 4.5c0-1.42 1.8-2.68 3.9-2.68h.05c.45 0 .9.07 1.3.2l.42.28c.96.66 1.6 1.1 1.77 1.8.05.16.07.33.07.5 0 1.8-1.33 2.7-3.96 2.7-1.98 0-3.54-1.23-3.54-2.8zM5.54 3.9c.33-.38.75-.58 1.23-.58h.05c1.35.05 2.64 1.55 2.88 3.35.14 1.02-.08 1.97-.6 2.55-.32.37-.74.56-1.23.56h-.03c-1.32-.04-2.63-1.6-2.87-3.4-.13-1 .08-1.92.58-2.5zM23.5 9.5h-3v-3h-2v3h-3v2h3v3h2v-3h3"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fkevcui.github.io%2f2018%2f08%2f28%2fimprovements-for-8-frequently-used-linux-commands%2f&title=Improvements%20for%208%20Frequently%20Used%20Linux%20Commands" target="_blank" aria-label="" rel="noopener">
+        <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 11.5c0-1.65-1.35-3-3-3-.96 0-1.86.48-2.42 1.24-1.64-1-3.75-1.64-6.07-1.72.08-1.1.4-3.05 1.52-3.7.72-.4 1.73-.24 3 .5C17.2 6.3 18.46 7.5 20 7.5c1.65 0 3-1.35 3-3s-1.35-3-3-3c-1.38 0-2.54.94-2.88 2.22-1.43-.72-2.64-.8-3.6-.25-1.64.94-1.95 3.47-2 4.55-2.33.08-4.45.7-6.1 1.72C4.86 8.98 3.96 8.5 3 8.5c-1.65 0-3 1.35-3 3 0 1.32.84 2.44 2.05 2.84-.03.22-.05.44-.05.66 0 3.86 4.5 7 10 7s10-3.14 10-7c0-.22-.02-.44-.05-.66 1.2-.4 2.05-1.54 2.05-2.84zM2.3 13.37C1.5 13.07 1 12.35 1 11.5c0-1.1.9-2 2-2 .64 0 1.22.32 1.6.82-1.1.85-1.92 1.9-2.3 3.05zm3.7.13c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9.8 4.8c-1.08.63-2.42.96-3.8.96-1.4 0-2.74-.34-3.8-.95-.24-.13-.32-.44-.2-.68.15-.24.46-.32.7-.18 1.83 1.06 4.76 1.06 6.6 0 .23-.13.53-.05.67.2.14.23.06.54-.18.67zm.2-2.8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm5.7-2.13c-.38-1.16-1.2-2.2-2.3-3.05.38-.5.97-.82 1.6-.82 1.1 0 2 .9 2 2 0 .84-.53 1.57-1.3 1.87z"/></svg>
+            </div>
+        </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&canonicalUrl=https%3a%2f%2fkevcui.github.io%2f2018%2f08%2f28%2fimprovements-for-8-frequently-used-linux-commands%2f" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.5.5v5h5v4h-5V15c0 5 3.5 4.4 6 2.8v4.4c-6.7 3.2-12 0-12-4.2V9.5h-3V6.7c1-.3 2.2-.7 3-1.3.5-.5 1-1.2 1.4-2 .3-.7.6-1.7.7-3h3.8z"/></svg>
+          </div>
+      </div>
+    </a>
+    
+    
+      
+        
+        
+      
+    
+
+    
+    <a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fkevcui.github.io%2f2018%2f08%2f28%2fimprovements-for-8-frequently-used-linux-commands%2f&amp;title=Improvements%20for%208%20Frequently%20Used%20Linux%20Commands&amp;summary=Almost%20a%20decade%20ago%2c%20I%20started%20to%20touch%20the%20command-line%20interface%20%28CLI%29.%20I%27m%20now%20a%20nerdy%20CLI%20lover%20and%20I%27m%20so%20obsessed%20by%20its%20efficiency.%20Therefore%2c%20I%27m%20always%20trying%20out%20new%20command-line%20commands.%20From%20time%20to%20time%2c%20some%20commands%20are%20replaced%20by%20other%20improved%20ones%20in%20my%20daily%20workflow.%20Especially%20for%20some%20frequently%20used%20commands%2c%20it%27s%20worth%20to%20find%20better%20alternatives...&amp;source=nnn" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    <a class="resp-sharing-button__link" href="https://www.xing.com/spi/shares/new?url=https%3a%2f%2fkevcui.github.io%2f2018%2f08%2f28%2fimprovements-for-8-frequently-used-linux-commands%2f&title=Improvements%20for%208%20Frequently%20Used%20Linux%20Commands" target="_blank" aria-label="" rel="noopener">
+      <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.2 9.7l-3-5.4C7.2 4 7 4 6.8 4h-5c-.3 0-.4 0-.5.2v.5L4 10 .4 16v.5c0 .2.2.3.4.3h5c.3 0 .4 0 .5-.2l4-6.6v-.5zM24 .2l-.5-.2H18s-.2 0-.3.3l-8 14v.4l5.2 9c0 .2 0 .3.3.3h5.4s.3 0 .4-.2c.2-.2.2-.4 0-.5l-5-8.8L24 .7V.2z"/></svg>
+        </div>
+      </div>
+    </a>
+
+    
+    
+      
+        
+        
+      
+    
+
+</section>
+
+        
+
+        <footer class="footer">
+    <span class="footer__copyright">
+        &copy; 2018 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+    </span>
+</footer>
+
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+    title: "Index",
+    overlay: true,
+    contentId: "post-content",
+});
+</script>
+
+  
+
+</html>

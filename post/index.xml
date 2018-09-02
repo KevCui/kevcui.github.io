@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Jul 2018 15:13:04 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 28 Aug 2018 21:21:08 +0200</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Improvements for 8 Frequently Used Linux Commands</title>
+      <link>https://kevcui.github.io/2018/08/28/improvements-for-8-frequently-used-linux-commands/</link>
+      <pubDate>Tue, 28 Aug 2018 21:21:08 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/2018/08/28/improvements-for-8-frequently-used-linux-commands/</guid>
+      <description>Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.
+Here is a list of improved commands I&amp;rsquo;d like to share with you:</description>
+    </item>
     
     <item>
       <title>3 mitmproxy Tips You Might Not Know About</title>

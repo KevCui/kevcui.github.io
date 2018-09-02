@@ -7,7 +7,222 @@
     <language>en-us</language>
     
     
-    <updated>Sat, 28 Jul 2018 15:13:04 CEST</updated>
+    <updated>Tue, 28 Aug 2018 21:21:08 CEST</updated>
+    
+    <item>
+      <title>Improvements for 8 Frequently Used Linux Commands</title>
+      <link>https://kevcui.github.io/2018/08/28/improvements-for-8-frequently-used-linux-commands/</link>
+      <pubDate>Tue, 28 Aug 2018 21:21:08 CEST</pubDate>
+      
+      <guid>https://kevcui.github.io/2018/08/28/improvements-for-8-frequently-used-linux-commands/</guid>
+      <description>
+
+&lt;p&gt;Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.&lt;/p&gt;
+
+&lt;p&gt;Here is a list of improved commands I&amp;rsquo;d like to share with you:&lt;/p&gt;
+
+&lt;h3 id=&#34;cd-z-up-and-fzf&#34;&gt;cd? z, up and fzf!&lt;/h3&gt;
+
+&lt;h4 id=&#34;z&#34;&gt;z&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/rupa/z&#34;&gt;z&lt;/a&gt; is a very popular alternative command for jumping around. &lt;code&gt;z&lt;/code&gt; doesn&amp;rsquo;t require any additional configurations. It works out of the box. But you need just a little bit of patience. Because &lt;code&gt;z&lt;/code&gt; has a &amp;ldquo;magic&amp;rdquo; algorithm based on &amp;ldquo;frequency&amp;rdquo; which can learn from the frequent vested directories after your &lt;code&gt;cd&lt;/code&gt; around for a while.&lt;/p&gt;
+
+&lt;p&gt;An easy and quick example how to &lt;code&gt;z&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~$ pwd
+/home/foo/bar/one/two/three
+
+~$ z tw
+~$ pwd
+/home/foo/bar/one/two
+
+~$ z foo
+~$ pwd
+/home/foo
+
+~$ z th
+~$ pwd
+/home/foo/bar/one/two/three
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Want to know how &amp;ldquo;frequency&amp;rdquo; score looks like for all directories? Simply run command &lt;code&gt;z -l&lt;/code&gt; will give you a list.&lt;/p&gt;
+
+&lt;p&gt;Want to clean some/all saved directories? Simply modify &lt;code&gt;$HOME/.z&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;up&#34;&gt;up&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/shannonmoeller/up&#34;&gt;up&lt;/a&gt; is an interesting command to replace &lt;code&gt;cd ..&lt;/code&gt; and this ridicules one &lt;code&gt;cd ../../../../&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~$ pwd
+/home/foo/bar/one/two/three
+
+~$ up
+~$ pwd
+/home/foo/bar/one/two
+
+~$ up 2
+~$ pwd
+/home/foo/bar
+
+~$ up h
+~$ pwd
+/home
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;fzf&#34;&gt;fzf&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/junegunn/fzf&#34;&gt;fzf&lt;/a&gt; is a versatile command, which can be combined in other commands. With the help of its amazing finding ability, it can be used to &lt;a href=&#34;https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh&#34;&gt;&amp;ldquo;cd into the selected directory&amp;rdquo;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/videos/fzf-example.svg&#34; alt=&#34;fzf-example&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;ls-exa&#34;&gt;ls? exa!&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ogham/exa&#34;&gt;exa&lt;/a&gt; aims to be the modem replacement for &lt;code&gt;ls&lt;/code&gt;. In my opinion, it did it. exa is really easy to use. Its options are straightforward:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/exa-example.jpg&#34; alt=&#34;exa-example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are my aliases:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;alias ls=&#39;exa -s mod --git&#39;
+alias ll=&#39;exa -l -s mod --git --time-style=long-iso&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;More options to tweak exa: &lt;a href=&#34;https://the.exa.website/docs/command-line-options&#34;&gt;https://the.exa.website/docs/command-line-options&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;cat-bat&#34;&gt;cat? bat!&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sharkdp/bat&#34;&gt;bat&lt;/a&gt; is a &lt;code&gt;cat&lt;/code&gt; clone with syntax highlighting, line numbers and automatic paging (&lt;code&gt;less&lt;/code&gt; is the default pager). To display the contents of a file using &lt;code&gt;bat&lt;/code&gt; looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/bat-example.jpg&#34; alt=&#34;bat-example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s possible to customize the theme of syntax highlighting. It supports Sublime Text syntax format. Check these default themes to have some inspirations: &lt;a href=&#34;https://github.com/sharkdp/bat/tree/master/assets/themes&#34;&gt;https://github.com/sharkdp/bat/tree/master/assets/themes&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;grep-rg&#34;&gt;grep? rg!&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/BurntSushi/ripgrep&#34;&gt;rg&lt;/a&gt;, ripgrep, is fast &amp;amp; furious. It has almost the same parameters of &lt;code&gt;grep&lt;/code&gt; command, with improved output style and speed.&lt;/p&gt;
+
+&lt;p&gt;One main usage of &lt;code&gt;grep&lt;/code&gt; for me is to find out which files contain some specific contents. An example here to compare &lt;code&gt;grep&lt;/code&gt; and &lt;code&gt;ripgrep&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/grep-example.jpg&#34; alt=&#34;grep-example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/ripgrep-example.jpg&#34; alt=&#34;ripgrep-example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re interested in how fast &lt;code&gt;rg&lt;/code&gt; can be? Check this comparison: &lt;a href=&#34;https://github.com/BurntSushi/ripgrep#quick-examples-comparing-tools&#34;&gt;https://github.com/BurntSushi/ripgrep#quick-examples-comparing-tools&lt;/a&gt; Not sure if it&amp;rsquo;s still the case now. But overall, ripgrep is fast enough for my daily use.&lt;/p&gt;
+
+&lt;h3 id=&#34;find-fd-and-fzf&#34;&gt;find? fd and fzf!&lt;/h3&gt;
+
+&lt;h4 id=&#34;fd&#34;&gt;fd&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sharkdp/fd&#34;&gt;fd&lt;/a&gt; is a replacement for &lt;code&gt;find&lt;/code&gt; focusing on user-friendly, with simplifying options of &lt;code&gt;find&lt;/code&gt;. For example, I want to edit a file but I don&amp;rsquo;t remember what&amp;rsquo;s its full path actually is. Usually, I need to find its full path and then edit it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~$ find . -ipath &amp;quot;*how*exp*&amp;quot; -name &amp;quot;index.html&amp;quot;
+./2017/04/17/how-i-do-exploratory-testing/index.html
+~$ vi ./2017/04/17/how-i-do-exploratory-testing/index.html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since I know the result will be only one file found, I can combine &lt;code&gt;vi&lt;/code&gt; inside &lt;code&gt;find&lt;/code&gt; command as well:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~$ find . -ipath &amp;quot;*how*exp*&amp;quot; -name &amp;quot;index.html&amp;quot; -exec vi {} \;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With &lt;code&gt;fd&lt;/code&gt;, the command is more readable:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~$ fd -p &#39;how.*exp.*/index&#39;
+2017/04/17/how-i-do-exploratory-testing/index.html
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;fzf-1&#34;&gt;fzf&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/junegunn/fzf&#34;&gt;fzf&lt;/a&gt; has an extremely powerful fuzzy searchability. It can nest finding steps directly with another command. I bind the key &lt;a href=&#34;https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh&#34;&gt;&lt;code&gt;ctrl-t&lt;/code&gt; to enable fzf&lt;/a&gt;. As the same example as above, but with &lt;code&gt;fzf&lt;/code&gt;, it&amp;rsquo;s a completely different story:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;~$ vi (press ctrl-t)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/videos/fzf-example2.svg&#34; alt=&#34;fzf-example2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;An alias to combine &lt;code&gt;vim&lt;/code&gt; and &lt;code&gt;fzf&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;alias vif=&#39;vim $(fzf)&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;kill-fkill&#34;&gt;kill? fkill!&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/sindresorhus/fkill&#34;&gt;fkill&lt;/a&gt;, its &lt;strong&gt;f&lt;/strong&gt; stands for &amp;ldquo;fabulously&amp;rdquo; (It&amp;rsquo;s definitely not the word I&amp;rsquo;m thinking in my mind 😉). Sometimes, &lt;code&gt;kill&lt;/code&gt; some zombie processes is necessary. &lt;code&gt;fkill&lt;/code&gt; can search a process and kill it interactively. It makes killing stylish:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/videos/fkill-example.svg&#34; alt=&#34;fkill-example&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;watch-loop&#34;&gt;watch? loop!&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&amp;ldquo;UNIX&amp;rsquo;s missing loop command.&amp;rdquo;&lt;/em&gt; &lt;a href=&#34;https://github.com/Miserlou/Loop&#34;&gt;loop&lt;/a&gt; is designed to full the gap. It works well to replace &lt;code&gt;watch&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# monitor current directory and print file list every 6 seconds
+
+# watch
+~$ watch -n 6 ls -l
+
+# loop
+~$ loop -e 6s &#39;ls -l&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Moreover, &lt;code&gt;loop&lt;/code&gt; has some awesome options to determine when to stop watching:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;...
+-c, --until-contains &amp;lt;until_contains&amp;gt;    Keep going until the output contains this string
+-r, --until-error &amp;lt;until_error&amp;gt;          Keep going until the command exit status is non-zero, or the value given
+-m, --until-match &amp;lt;until_match&amp;gt;          Keep going until the output matches this regular expression
+-t, --until-time &amp;lt;until_time&amp;gt;            Keep going until a future time, ex. &amp;quot;2018-04-20 04:20:00&amp;quot; (Times in UTC.)
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Example: stop watching when &lt;code&gt;stop-now&lt;/code&gt; file is created and then open it in vim:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;loop -e 6s &#39;clear;date;ls -l&#39; -c &#39;stop-now&#39;; vi stop-now
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/videos/loop-example.svg&#34; alt=&#34;loop-example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Actually, using &lt;code&gt;loop&lt;/code&gt; to replace &lt;code&gt;for&lt;/code&gt; command is also promising and full of pleasure:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# create 10 markdown files: 0.md, 1.md ... 9.md
+
+# for
+~$ for ((i=0; i &amp;lt; 10; i++)); do touch ${i}.md; done
+
+# loop
+~$ loop -n 10 &#39;touch ${COUNT}.md&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;man-tldr-pet-and-how2&#34;&gt;man? tldr, pet and how2!&lt;/h3&gt;
+
+&lt;h4 id=&#34;tldr&#34;&gt;tldr&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tldr-pages/tldr&#34;&gt;tldr&lt;/a&gt; is a simplified collection of man pages. It returns some command snippets with practical examples:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/tldr-example.jpg&#34; alt=&#34;tldr-example&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;pet&#34;&gt;pet&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/knqyf263/pet&#34;&gt;pet&lt;/a&gt; is a CLI snippet manager. It&amp;rsquo;s a handy tool to save some commands snippets which are easily forgotten. The idea is to use &lt;code&gt;pet&lt;/code&gt; building own reference manuals.&lt;/p&gt;
+
+&lt;h4 id=&#34;how2&#34;&gt;how2&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/santinic/how2&#34;&gt;how2&lt;/a&gt; takes another approach to search for the right command: it queries questions and answers from stackoverflow!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/videos/how2-example.svg&#34; alt=&#34;how2-example&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In case the displayed answer is not what exactly you want, &lt;code&gt;how2&lt;/code&gt; supports &lt;a href=&#34;https://github.com/santinic/how2#usage&#34;&gt;the interactive mode&lt;/a&gt; to provide a list of all relative questions and answers.&lt;/p&gt;
+
+&lt;p&gt;From now on, we can get confident to &amp;ldquo;save the world&amp;rdquo;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/tar.png&#34; alt=&#34;xkcd-tar&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Share this list if you think it&amp;rsquo;s a good read for other CLI nerds.&lt;/p&gt;
+
+&lt;p&gt;Drop me a message if you have other commands to recommend. ❤️&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>3 mitmproxy Tips You Might Not Know About</title>
@@ -1509,107 +1724,6 @@ Finally we have a buzz word&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;
 What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Be prepared! Interruption is coming!</title>
-      <link>https://kevcui.github.io/2017/04/29/be-prepared-interruption-is-coming/</link>
-      <pubDate>Sat, 29 Apr 2017 21:25:25 CEST</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/04/29/be-prepared-interruption-is-coming/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*A4g-4mSEERgcCJAU9aoiBQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-    &lt;sup&gt;
-        &lt;em&gt;
-            Photo by &lt;a href=&#34;https://www.flickr.com/photos/toolstop/4546017269/in/photolist-7VHwy6-7T3sBx-pvPtJf-nywY2v-9qrj88-f6gPjy-9J1BdE-8eB9zK-eTJxN4-fvp6xs-697QaY-kQEJ5Z-8j199M-2ar2Sb-8j1944-nRvec8-5oDgFr-nC1Kzp-ANtt56-nZ9Y9G-7a4QsY-miwiuT-qLGJw2-Sg25Nb-6bUidP-frHAzg-nzWYLx-rFgD9r-7pNK4V-drfRNk-5se7vP-pGvU4T-a7Wjjq-s6nuVQ-8oVLCo-9DvfFb-5NLEtK-oJAqmx-q7mtBs-4ViWX-guzccR-6bMfa9-6bUiut-8Rw2LS-5PhERM-9YfCgz-8RvU6t-obqmkU-9tntU6-kQJtL1&#34;&gt;Mark Hunter&lt;/a&gt;
-        &lt;/em&gt;
-    &lt;/sup&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;By failing to prepare, you are preparing to fail. - Benjamin Franklin&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Recently I read an interesting article about &lt;a href=&#34;https://dev.to/andrewlucker/why-do-programmers-wear-headphones-for-the-same-reason-that-you-cantjuggle&#34;&gt;Why do programmers wear headphones?&lt;/a&gt;. The truth is that &lt;em&gt;&amp;ldquo;programmers are easily distracted, headphones eliminate some distractions, thus headphones make programmers.&amp;rdquo;&lt;/em&gt; To reduce losing attention by distractions, I could improve my attention span and control the working environment around myself. But on the other hand, I could lose my attention as well by interruptions, which are usually unexpected. What can I do to deal with them?&lt;/p&gt;
-
-&lt;h3 id=&#34;distraction-or-interruption&#34;&gt;Distraction or Interruption?&lt;/h3&gt;
-
-&lt;p&gt;First of all, what is the difference between distraction and interruption?&lt;/p&gt;
-
-&lt;p&gt;A &lt;strong&gt;distraction&lt;/strong&gt; is something that draws one’s attention away from what they are supposed to be paying attention to, &lt;strong&gt;entirely unintentionally&lt;/strong&gt;.&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; For example, when you&amp;rsquo;re coding, a beautiful/handsome visitor passes by the office, you&amp;rsquo;re distracted by her/his charm&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;An &lt;strong&gt;interruption&lt;/strong&gt; is something that draws one’s attention away from what they are supposed to be paying attention to, &lt;strong&gt;entirely on purpose&lt;/strong&gt;.&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; For example, when you&amp;rsquo;re coding, a beautiful/handsome visitor comes to your desk and asks you out for a coffee, you&amp;rsquo;re interrupted by her/his question&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Unintentionally or on purpose, although they all result to draws your attention away, distraction is initiative and interruption is passive.&lt;/p&gt;
-
-&lt;h3 id=&#34;prevent-interruptions&#34;&gt;Prevent interruptions?&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://cdn-images-1.medium.com/max/800/0*iW2FqA-q-j0zeg9U.&#34; alt=&#34;disturb&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;&lt;em&gt;image from &lt;a href=&#34;http://www.nairaland.com/2621018/not-disturb-programmer&#34;&gt;₦airaland Forum&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Why don&amp;rsquo;t we just prevent interruptions like preventing distractions? Lock ourself in a room and hang &amp;ldquo;Do Not Disturb!&amp;rdquo; sign outside the door? Well, we can isolate ourself by being inside our ideal bubble. But as we know, interruptions are made on purpose, sometimes they provide useful information that we need to adapt the changes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;An urgent business decision is made, it needs me to discuss and change requirements now.&lt;/li&gt;
-&lt;li&gt;An abnormal app crash rate happens in production, it needs me to analyze root cause now.&lt;/li&gt;
-&lt;li&gt;A new feature is testable, it needs me to pair testing with developers now.&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In these cases, I cannot just simply avoid them, I have to pay attention to handle with them. &amp;ldquo;Do Not Disturb&amp;rdquo; could surely gain my focus but I will definitely lose my agility.&lt;/p&gt;
-
-&lt;h3 id=&#34;be-prepared-to-embrace-interruptions&#34;&gt;Be prepared to embrace interruptions&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://c1.staticflickr.com/3/2039/2721654446_2baea3ef82.jpg&#34; alt=&#34;open&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;&lt;em&gt;image from &lt;a href=&#34;https://www.flickr.com/photos/thebirdwells/2721654446/in/photostream/&#34;&gt;bryan birdwell&lt;/a&gt;&lt;/em&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;Instead of preventing interruptions, why not be prepared to embrace interruptions? It sounds interesting, right? But how? &lt;a href=&#34;https://hearthstone.gamepedia.com/Violet_Teacher&#34;&gt;Pay attention, class! Instruction begins!&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;1-continuous-focus-and-defocus&#34;&gt;1. Continuous Focus and Defocus&lt;/h4&gt;
-
-&lt;p&gt;Focus makes me efficient, productive. Defocus makes me relax and creative.&lt;/p&gt;
-
-&lt;p&gt;Due to human&amp;rsquo;s natural, we have an &lt;a href=&#34;https://en.wikipedia.org/wiki/Attention_span&#34;&gt;attention span&lt;/a&gt;: the amount of concentrated time one can spend on a task without becoming distracted. I know my attention span is 30 minutes. It means that I have to switch to defocus state after maximum 30 minutes focus. Even I can force myself focusing. The result will turn into inefficiency and tiredness.&lt;/p&gt;
-
-&lt;p&gt;Based on my attention span, similar to &lt;a href=&#34;https://en.wikipedia.org/wiki/Pomodoro_Technique&#34;&gt;Pomodoro technique&lt;/a&gt;, I use 25 minutes to focus on one of my tasks and then I give myself 5 minutes break as a reward. After a break, I restart again 25 minutes focusing on a task and then again a 5 minutes defocus&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Imagine if I work for 8 hours, in theory, I have 16 break time. These 16 break time are perfectly prepared for interruptions.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;re only short tasks, there is an ultimate version for you, it&amp;rsquo;s called &lt;a href=&#34;http://www.43folders.com/2005/10/11/procrastination-hack-1025&#34;&gt;procrastination hack&lt;/a&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;. Basically, a loop of focus and defocus is shirking to 10+2, then you&amp;rsquo;ll perform 5 loops in one hour (10+2)*5. So in 8 hours, 40 break time in total!&lt;/p&gt;
-
-&lt;p&gt;When interruption comes during my defocus time, without the impact of interruption, I can easily engage myself in other high priority tasks.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Continuous focus and defocus reduce the impact of interruptions.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;2-short-refocus-time&#34;&gt;2. Short Refocus Time&lt;/h4&gt;
-
-&lt;p&gt;No one can plan his life perfectly. Sometimes when the interruption comes, I&amp;rsquo;m still focusing on my task! 💩 happens. The reason why people hate interruption so much is not only that interruption draws attention away, but also that it takes a long time to go back to flow. If you could get back to flow in seconds, probably you will feel that interruption is only a kind of annoying, but not really hateful. Therefore, a short refocus time is rather important.&lt;/p&gt;
-
-&lt;p&gt;I find a way to gain refocus easily and it works quite well for me. First I will take one deep breath, and then I will cast a magical spell: &amp;ldquo;What am I doing now?&amp;rdquo;. By taking a deep breath, I can control my emotion and empty my mind. By questioning myself as a psychological hint, it helps me to focus on the question first, then the focus will be moving back to the task.&lt;/p&gt;
-
-&lt;p&gt;By the way, recently I discovered another spell which does the same psychological trick, &amp;ldquo;I Am One With the Focus and the Focus Is With Me&amp;rdquo;. But I cannot use that because I cannot resist 😆&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A short refocus time reduces the hatred of interruptions.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;interruption-is-coming&#34;&gt;Interruption is coming!&lt;/h3&gt;
-
-&lt;p&gt;Speak of the devil and he is sure to appear. Before you finished reading this post, I guess you&amp;rsquo;ve probably been distracted or interrupted at least once. Take it easy, it&amp;rsquo;s totally normal. Remember interruption brings changes and challenges on purpose; Remember continuous focus and defocus makes you have more than ease for interruptions; Remember improving refocus time makes you feel comfortable to embrace interruptions.&lt;/p&gt;
-
-&lt;p&gt;Brace yourself, interruption is coming!&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; &lt;a href=&#34;http://www.samatters.com/distractions-and-interruptions-whats-the-difference/&#34;&gt;Distractions and Interruptions&amp;hellip; What’s the Difference?&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Zeger Van Hese: &lt;a href=&#34;https://youtu.be/Fcf2iVY1eA0?t=24m33s&#34;&gt;Testing in the Age of Distraction&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
