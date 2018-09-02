@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kevcui.github.io/2018/08/28/improvements-for-8-frequently-used-linux-commands/</loc>
+    <lastmod>2018-08-28T21:21:08+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/</loc>
     <lastmod>2018-07-28T15:13:04+02:00</lastmod>
   </url>
@@ -208,8 +213,20 @@
   </url>
   
   <url>
+    <loc>https://kevcui.github.io/tags/cli/</loc>
+    <lastmod>2018-08-28T21:21:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kevcui.github.io/tags/colemak/</loc>
     <lastmod>2017-08-27T10:07:30+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/tags/commands/</loc>
+    <lastmod>2018-08-28T21:21:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -299,7 +316,7 @@
   
   <url>
     <loc>https://kevcui.github.io/</loc>
-    <lastmod>2018-07-28T15:13:04+02:00</lastmod>
+    <lastmod>2018-08-28T21:21:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -316,8 +333,14 @@
   </url>
   
   <url>
+    <loc>https://kevcui.github.io/tags/linux/</loc>
+    <lastmod>2018-08-28T21:21:08+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kevcui.github.io/tags/list/</loc>
-    <lastmod>2017-03-08T22:12:08+02:00</lastmod>
+    <lastmod>2018-08-28T21:21:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -335,7 +358,7 @@
   
   <url>
     <loc>https://kevcui.github.io/post/</loc>
-    <lastmod>2018-07-28T15:13:04+02:00</lastmod>
+    <lastmod>2018-08-28T21:21:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
