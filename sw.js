@@ -5,11 +5,8 @@ self.addEventListener('install', e => {
       return cache.addAll([
         `/`,
         `/#blog`,
-        `/css/uno.min.css`,
         `/css/font.min.css`,
-        `/css/resume.min.css`,
-        `/js/jquery.min.js`,
-        `/js/main.min.js`,
+        `/js/jquery.min.js`
       ])
       .then(() => self.skipWaiting());
     })
