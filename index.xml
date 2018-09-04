@@ -152,7 +152,7 @@
 
 &lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/bat-example.jpg&#34; alt=&#34;bat-example&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;It&amp;rsquo;s possible to customize the theme of syntax highlighting. It supports Sublime Text syntax format. Check these default themes to have some inspirations: &lt;a href=&#34;https://github.com/sharkdp/bat/tree/master/assets/themes&#34;&gt;https://github.com/sharkdp/bat/tree/master/assets/themes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s possible to customize the theme of syntax highlighting. It supports Sublime Text syntax format. Check these default themes to have some inspirations: &lt;a href=&#34;https://github.com/sharkdp/bat/tree/master/assets/themes&#34;&gt;bat themes&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;grep-rg&#34;&gt;grep? rg!&lt;/h3&gt;
 
@@ -164,7 +164,7 @@
 
 &lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/ripgrep-example.jpg&#34; alt=&#34;ripgrep-example&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you&amp;rsquo;re interested in how fast &lt;code&gt;rg&lt;/code&gt; can be? Check this comparison: &lt;a href=&#34;https://github.com/BurntSushi/ripgrep#quick-examples-comparing-tools&#34;&gt;https://github.com/BurntSushi/ripgrep#quick-examples-comparing-tools&lt;/a&gt; Not sure if it&amp;rsquo;s still the case now. But overall, ripgrep is fast enough for my daily use.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in how fast &lt;code&gt;rg&lt;/code&gt; can be? Check this comparison: &lt;a href=&#34;https://github.com/BurntSushi/ripgrep#quick-examples-comparing-tools&#34;&gt;rg vs. grep vs. ag. vs. ack&amp;hellip;&lt;/a&gt; Not sure if it&amp;rsquo;s still the case now. But overall, ripgrep is fast enough for my daily use.&lt;/p&gt;
 
 &lt;h3 id=&#34;find-fd-and-fzf&#34;&gt;find? fd and fzf!&lt;/h3&gt;
 
