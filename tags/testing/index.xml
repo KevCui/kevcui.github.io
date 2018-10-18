@@ -6,10 +6,20 @@
     <description>Recent content in Testing on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jun 2017 21:43:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 18 Oct 2018 23:20:30 +0200</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Observe as A Photographer, as A Tester</title>
+      <link>https://kevcui.github.io/2018/10/18/observe-as-a-photographer-as-a-tester/</link>
+      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/2018/10/18/observe-as-a-photographer-as-a-tester/</guid>
+      <description>--  &amp;ldquo;Photography is an art of observation. It&amp;rsquo;s about finding something interesting in an ordinary place&amp;hellip; I&amp;rsquo;ve found it has little to do with the things you see and everything to do with the way you see them.&amp;rdquo; &amp;ndash; Elliott Erwitt
+ Since the beginning of this year, I took photography as a &amp;ldquo;serious&amp;rdquo; hobby. The interesting thing I found is that the more I have learned about photography, the more I can feel the similarities between photography and software testing.</description>
+    </item>
     
     <item>
       <title>Bad Use of A Good Tool</title>

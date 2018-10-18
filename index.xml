@@ -7,7 +7,106 @@
     <language>en-us</language>
     
     
-    <updated>Sun, 02 Sep 2018 17:21:08 CEST</updated>
+    <updated>Thu, 18 Oct 2018 23:20:30 CEST</updated>
+    
+    <item>
+      <title>Observe as A Photographer, as A Tester</title>
+      <link>https://kevcui.github.io/2018/10/18/observe-as-a-photographer-as-a-tester/</link>
+      <pubDate>Thu, 18 Oct 2018 23:20:30 CEST</pubDate>
+      
+      <guid>https://kevcui.github.io/2018/10/18/observe-as-a-photographer-as-a-tester/</guid>
+      <description>
+
+&lt;!-- &lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+ --&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Photography is an art of observation. It&amp;rsquo;s about finding something interesting in an ordinary place&amp;hellip; I&amp;rsquo;ve found it has little to do with the things you see and everything to do with the way you see them.&amp;rdquo; &amp;ndash; Elliott Erwitt&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Since the beginning of this year, I took photography as a &amp;ldquo;serious&amp;rdquo; hobby. The interesting thing I found is that the more I have learned about photography, the more I can feel the similarities between photography and software testing.&lt;/p&gt;
+
+&lt;p&gt;The importance of observation is one example. Observation is a crucial skill for gaining and collecting information. For a photographer, observation is an essential part of taking every great photo; For a software tester, observation is the search key to finding the problems and risks. Therefore, things I learned to sharpen observation skill as a photographer can also be applied to a tester.&lt;/p&gt;
+
+&lt;h3 id=&#34;observe-from-different-perspectives-and-angles&#34;&gt;Observe from different perspectives and angles&lt;/h3&gt;
+
+&lt;p&gt;Sometimes a beginner photographer gets a glimpse of a scene, then a final conclusion is quickly made without thinking: &amp;ldquo;There is nothing to photograph.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Really nothing to photograph? Mostly not. The lack of perception often leads to the result of &amp;ldquo;nothing to photograph&amp;rdquo;. Even shooting the same ordinary subject for several times already, a photographer needs to train not only to observe a subject from different perspectives: color, shape, texture, background, light, shadow, etc&amp;hellip; But also to observe a subject from the different angles: lie down on the grand, stand up on a chair, frame using a window, shoot through other objects&amp;hellip; There is always something new which can be found from different perspectives and different angles.&lt;/p&gt;
+
+&lt;p&gt;The same thing applies to the tester.&lt;/p&gt;
+
+&lt;p&gt;If you are a tester following the requirements and testing processes, sooner or later, everything of the product becomes too familiar and too obvious to you. You start to build up an attitude of &amp;ldquo;everything is known&amp;rdquo; and &amp;ldquo;everything is fine&amp;rdquo;: &amp;ldquo;It works as expected!&amp;rdquo;, &amp;ldquo;All automated checks pass, what could possibly go wrong?&amp;rdquo;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a good timing to observe the product from different perspectives:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From user perspective: How this feature can solve user&amp;rsquo;s real problem?&amp;hellip;&lt;/li&gt;
+&lt;li&gt;From business perspective: How can we measure and analyze if this feature makes sense to achieve our goal?&amp;hellip;&lt;/li&gt;
+&lt;li&gt;From programmer perspective: How does the business logic impact the complicity of implementation?&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It&amp;rsquo;s also a good timing to observe the product from different angles:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From user&amp;rsquo;s feedback: Does the user understand how to use this function as we thought?&lt;/li&gt;
+&lt;li&gt;From app log: Does the app log contain enough information for debugging?&amp;hellip;&lt;/li&gt;
+&lt;li&gt;From codebase: Are errors handled correctly for some special data?&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After those observations, you are able to look for that which others would never see. Some hidden requirements and new risks might be clearly revealed.&lt;/p&gt;
+
+&lt;h3 id=&#34;observe-with-a-focus&#34;&gt;Observe with a focus&lt;/h3&gt;
+
+&lt;p&gt;Sometimes a beginner photographer enjoys a lot the moment of pressing camera shutter button, so it&amp;rsquo;s easy to fall into the trap of taking photos of everything without paying attention to anything.&lt;/p&gt;
+
+&lt;p&gt;Really need to shoot everything? Mostly not. Photographing everything leads to the lack of focus. Especially in a fast-changing scene with tons of subjects, a photographer needs to train to observe with a focus on the most important subject in the current moment, in order to reach a core purpose: What is the story you are going to tell with this photo you want to photograph now?&lt;/p&gt;
+
+&lt;p&gt;The same thing applies to the tester.&lt;/p&gt;
+
+&lt;p&gt;If you are a tester who has to &amp;ldquo;check everything&amp;rdquo;, probably you get quite exhausted in repeating endless test steps&amp;hellip; If you are a tester who believes in &amp;ldquo;automate everything&amp;rdquo;, probably you get quite busy with writing and maintain automated checks all day long&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a good timing to observe with a focus:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Are all these automated checks equally valuable to keep maintaining?&lt;/li&gt;
+&lt;li&gt;What would be the worst situation that happens to the product in the next release?&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Take a breath from busy daily work and think about the focus on the most important thing: What is the information you are going to get with this test you want to perform now?&lt;/p&gt;
+
+&lt;h3 id=&#34;observe-emotions&#34;&gt;Observe emotions&lt;/h3&gt;
+
+&lt;p&gt;Sometimes a beginner photographer likes digging deep inside technical theories and following the rules: wide-angle lenses for landscapes, telephoto lenses for portraits&amp;hellip; Using the &amp;ldquo;right&amp;rdquo; gear setup with the &amp;ldquo;right&amp;rdquo; technique, taking a great photo sounds promising, right? Not really. Gears and skills are admittedly important in theory. However, a great photo should be able to convey emotions. In order to capture and understand emotions, the photography needs to train to observe emotions through the cold viewfinder: gesture, body language, feeling, expressions, mood&amp;hellip; Observation is more than seeing.&lt;/p&gt;
+
+&lt;p&gt;The same thing applies to the tester.&lt;/p&gt;
+
+&lt;p&gt;If you are a tester taking KPI measurement seriously, probably you have built some technical KPIs like code coverage, the number of defects, passed tests, covered requirements&amp;hellip; These KPIs are not good enough to simply tell you what could go wrong before that things actually happen.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a good timing to free yourself from those numbers on the paper and observe emotions from people around you:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Does the product owner feel confused and lose in the differences between real implementations and expected features?&lt;/li&gt;
+&lt;li&gt;Does the programmer feel unsure about merging this code refactoring?&lt;/li&gt;
+&lt;li&gt;Does the team have a bad mood about current works?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The feeling of confusion, the fear of uncertainty, or other negative emotions can be the signs that some potential crises are hidden in communication, in the process, in codebase&amp;hellip; Capture and understand emotions, pull out the problems and handle them with the team before it&amp;rsquo;s too late.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+
+
+&lt;blockquote class=&#34;instagram-media&#34; data-instgrm-permalink=&#34;https://www.instagram.com/p/BmlZ_8IlFCE/?utm_source=ig_embed&amp;amp;utm_medium=loading&#34; data-instgrm-version=&#34;12&#34; style=&#34; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&#34;&gt;&lt;div style=&#34;padding:16px;&#34;&gt; &lt;a href=&#34;https://www.instagram.com/p/BmlZ_8IlFCE/?utm_source=ig_embed&amp;amp;utm_medium=loading&#34; style=&#34; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&#34; target=&#34;_blank&#34;&gt; &lt;div style=&#34; display: flex; flex-direction: row; align-items: center;&#34;&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;padding: 19% 0;&#34;&gt;&lt;/div&gt;&lt;div style=&#34;display:block; height:50px; margin:0 auto 12px; width:50px;&#34;&gt;&lt;svg width=&#34;50px&#34; height=&#34;50px&#34; viewBox=&#34;0 0 60 60&#34; version=&#34;1.1&#34; xmlns=&#34;https://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;https://www.w3.org/1999/xlink&#34;&gt;&lt;g stroke=&#34;none&#34; stroke-width=&#34;1&#34; fill=&#34;none&#34; fill-rule=&#34;evenodd&#34;&gt;&lt;g transform=&#34;translate(-511.000000, -20.000000)&#34; fill=&#34;#000000&#34;&gt;&lt;g&gt;&lt;path d=&#34;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&#34;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&#34;padding-top: 8px;&#34;&gt; &lt;div style=&#34; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&#34;&gt; View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;padding: 12.5% 0;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&#34;&gt;&lt;div&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;margin-left: 8px;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&#34;margin-left: auto;&#34;&gt; &lt;div style=&#34; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&#34;&gt;&lt;/div&gt; &lt;div style=&#34; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&#34;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&#34;&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&#34;&gt;&lt;/div&gt; &lt;div style=&#34; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&#34;&gt;&lt;a href=&#34;https://www.instagram.com/p/BmlZ_8IlFCE/?utm_source=ig_embed&amp;amp;utm_medium=loading&#34; style=&#34; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&#34; target=&#34;_blank&#34;&gt;A post shared by Kevin Cui (@kev_cui)&lt;/a&gt; on &lt;time style=&#34; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&#34; datetime=&#34;2018-08-17T15:08:18+00:00&#34;&gt;Aug 17, 2018 at 8:08am PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//www.instagram.com/embed.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Replace 8 Frequently Used Linux Commands!?</title>
@@ -1785,97 +1884,6 @@ cd ..
 &lt;p&gt;Every time after running the script deploy.sh, it will generate new static files and push them to master branch. The changes will be published immediately by Github Pages.&lt;/p&gt;
 
 &lt;p&gt;That&amp;rsquo;s all, a piece of 🍰&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Refine Software Testing Types</title>
-      <link>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</link>
-      <pubDate>Tue, 02 May 2017 20:35:50 CEST</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</guid>
-      <description>&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://kevcui.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;coverimage&#34;/&gt;
-    
-&lt;/p&gt;
-
-
-&lt;p&gt;Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;When I say &amp;ldquo;Integration Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;,&lt;/li&gt;
-&lt;li&gt;Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Actually we are more or less talking about the same thing. We misunderstand each other because we think from different perspectives.&lt;/p&gt;
-
-&lt;p&gt;In order to make less confusion, I try to refine software testing types by using 5 different categories. Each categories represent one perspective. In other words, they are independent of each other. These categories are &lt;strong&gt;How&lt;/strong&gt;, &lt;strong&gt;When&lt;/strong&gt;, &lt;strong&gt;Who&lt;/strong&gt;, &lt;strong&gt;What&lt;/strong&gt; and &lt;strong&gt;Which&lt;/strong&gt;. Then I put testing types one by one into each category, E.g:&lt;/p&gt;
-
-&lt;p&gt;1.1) &lt;strong&gt;How&lt;/strong&gt; does structure look like:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;White/Glass box/Structural Testing,
-Black box/Functional Testing,
-Gray box Testing.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;1.2) &lt;strong&gt;How&lt;/strong&gt; does system perform:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Non-functional Testing
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-2) &lt;strong&gt;When&lt;/strong&gt; in software development life cycle (SDLC):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Unit Testing, Component Testing,
-Integration/Integrated Testing, System Testing,
-Acceptance Testing, Alpha Testing, Beta Testing.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-3) &lt;strong&gt;Who&lt;/strong&gt; is involved in:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Manual Testing, Automated Testing, Pair Testing,
-Mob Testing, Team Testing, Dogfooding,
-Crowdsourced Testing.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-4) &lt;strong&gt;What&lt;/strong&gt; is to test:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;E2E/Workflow Testing, Usability Testing, Security Testing,
-Performance Testing, Accessibility Testing...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-5) &lt;strong&gt;Which&lt;/strong&gt; approach is using:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Exploratory Testing, Fuzz Testing,
-Boundary Value Testing, Sanity Testing, Smoke Testing,
-(Non-)Regression Testing, Monkey Testing...
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-
-&lt;p&gt;Now let&amp;rsquo;s back to the beginning when I say &amp;ldquo;Integration Testing&amp;rdquo;&amp;hellip; and see if it makes things clear.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;1) How: Functional
-2) When: Integration
-3) Who: Automated
-4) What: Accessibility
-5) Whch: Regression
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-Finally we have a buzz word&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Functional Integration Automated Accessbility Regression Testing
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;br/&gt;
-What do you think? 💡❗️ or 🐮💩?&lt;/p&gt;
 </description>
     </item>
     
