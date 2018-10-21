@@ -1085,9 +1085,7 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
 
 
 &lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;You should not ask questions without knowledge.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&amp;ndash; W. Edwards Deming&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;You should not ask questions without knowledge.&amp;rdquo; &amp;ndash; W. Edwards Deming&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, asking questions is not always easy. We all know sometimes a bad question may cause some communication troubles:&lt;/p&gt;
