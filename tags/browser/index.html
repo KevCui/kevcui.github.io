@@ -60,22 +60,6 @@
     
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/animate.min.css" />
-    
-    <script src="https://kevcui.github.io/js/jquery.min.js"></script>
-    
-    <script src="https://kevcui.github.io/js/main.min.js">></script>
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./sw.js')
-            .then(function(registration) {
-                console.log("Service Worker Registered", registration);
-            })
-            .catch(function(err) {
-                console.log("Service Worker Failed to Register", err);
-            })
-        }
-    </script>
-    
 </head>
 
     <body>
@@ -296,6 +280,23 @@
             </div>
         </div>
     </body>
-    
+    <script src="https://kevcui.github.io/js/jquery.min.js"></script>
+
+<script src="https://kevcui.github.io/js/main.min.js">></script>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js')
+        .then(function(registration) {
+            console.log("Service Worker Registered", registration);
+        })
+        .catch(function(err) {
+            console.log("Service Worker Failed to Register", err);
+        })
+    }
+</script>
+
+
+
+
 
 </html>
