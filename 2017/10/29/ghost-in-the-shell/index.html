@@ -51,16 +51,19 @@
 	<meta itemprop="image" content="https://cdn-images-1.medium.com/max/2000/1*-3tBMgj6n1bSgjgDHaHP7A.jpeg">
 	
     
+    
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/animate.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/share.min.css" />
+    
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/animate.min.css" />
     
     <script src="https://kevcui.github.io/js/jquery.min.js"></script>
-    <script src="https://kevcui.github.io/js/main.min.js"></script>
+    
+    <script src="https://kevcui.github.io/js/main.min.js">></script>
     <script>
-        if ('serviceWorker' in navigator) {  
+        if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./sw.js')
             .then(function(registration) {
                 console.log("Service Worker Registered", registration);
@@ -394,9 +397,11 @@
       </div>
     </div>
   </body>
-  <script type="text/javascript" src="/js/awesome-toc.min.js"></script>
+  
+<script type="text/javascript" src="https://kevcui.github.io/js/awesome-toc.min.js"></script>
+
 <script type="text/javascript">
-$.awesome_toc({        
+$.awesome_toc({
     title: "Index",
     overlay: true,
     contentId: "post-content",
