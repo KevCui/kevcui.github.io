@@ -51,16 +51,19 @@
 	<meta itemprop="image" content="https://images.unsplash.com/photo-1514222197436-d1a586084abe?auto=format&amp;fit=crop&amp;w=1000&amp;q=80">
 	
     
+    
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/animate.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/share.min.css" />
+    
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/animate.min.css" />
     
     <script src="https://kevcui.github.io/js/jquery.min.js"></script>
-    <script src="https://kevcui.github.io/js/main.min.js"></script>
+    
+    <script src="https://kevcui.github.io/js/main.min.js">></script>
     <script>
-        if ('serviceWorker' in navigator) {  
+        if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./sw.js')
             .then(function(registration) {
                 console.log("Service Worker Registered", registration);
@@ -391,9 +394,11 @@ Book Review: The DevOps Handbook
       </div>
     </div>
   </body>
-  <script type="text/javascript" src="/js/awesome-toc.min.js"></script>
+  
+<script type="text/javascript" src="https://kevcui.github.io/js/awesome-toc.min.js"></script>
+
 <script type="text/javascript">
-$.awesome_toc({        
+$.awesome_toc({
     title: "Index",
     overlay: true,
     contentId: "post-content",
