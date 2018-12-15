@@ -4,9 +4,6 @@ self.addEventListener('install', e => {
     caches.open('kevin-blog').then(cache => {
       return cache.addAll([
         `/`,
-        `/fonts/`,
-        `/videos/`,
-        `/images/`,
         `/#blog`,
         `/css/font.min.css`,
         `/js/jquery.min.js`
