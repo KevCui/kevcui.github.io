@@ -400,7 +400,7 @@
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js')
+        navigator.serviceWorker.register('/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
