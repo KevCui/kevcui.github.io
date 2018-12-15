@@ -365,7 +365,7 @@
       </div>
     </div>
   </body>
-  <script src="https://kevcui.github.io/js/jquery.min.js"></script>
+  <script src="https://kevcui.github.io/js/umbrella.min.js"></script>
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
@@ -383,15 +383,23 @@
 
 
 
-  
-<script type="text/javascript" src="https://kevcui.github.io/js/awesome-toc.min.js"></script>
-
+  <span class="toTopBtn" onclick="scrollToTop(1000)">&#9650;</span>
 <script type="text/javascript">
-$.awesome_toc({
-    title: "Index",
-    overlay: true,
-    contentId: "post-content",
-});
+function scrollToTop(scrollDuration) {
+    const   scrollHeight = window.scrollY,
+            scrollStep = Math.PI / ( scrollDuration / 15 ),
+            cosParameter = scrollHeight / 2;
+    var     scrollCount = 0,
+            scrollMargin,
+    scrollInterval = setInterval( function() {
+        if ( window.scrollY != 0 ) {
+            scrollCount = scrollCount + 1;
+            scrollMargin = cosParameter - cosParameter * Math.cos( scrollCount * scrollStep );
+            window.scrollTo( 0, ( scrollHeight - scrollMargin ) );
+        }
+        else clearInterval(scrollInterval);
+    }, 15 );
+}
 </script>
 
 </html>
