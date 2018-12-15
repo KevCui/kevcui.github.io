@@ -6,7 +6,10 @@ self.addEventListener('install', e => {
         `/`,
         `/#blog`,
         `/css/font.min.css`,
-        `/js/jquery.min.js`
+        `/css/animate.min.css`,
+        `/css/monokai.min.css`,
+        `/js/umbrella.min.js`,
+        `/js/hightlight.min.js`
       ])
       .then(() => self.skipWaiting());
     })
