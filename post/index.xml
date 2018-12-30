@@ -231,7 +231,7 @@ Why hexo was chosen? Let&amp;rsquo;s start from the reasons why I ditched jekyll
 📀👉 Radamsa: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer
 📀👉 Ruby Pairwise: Ruby based tool for selecting a smaller number of test input combinations
 🌏👉 Name: all about name
-🌏:point_right: Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
+🌏👉 Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
     </item>
     
     <item>
