@@ -795,12 +795,12 @@ Book Review: The DevOps Handbook
   &amp;quot;name&amp;quot;: &amp;quot;Kevin Cui&amp;quot;,
   &amp;quot;icons&amp;quot;: [
     {
-      &amp;quot;src&amp;quot;:&amp;quot;/images/favicons/android-icon-192x192.png&amp;quot;,
-      &amp;quot;sizes&amp;quot;: &amp;quot;192x192&amp;quot;,
+      &amp;quot;src&amp;quot;:&amp;quot;/images/kc.png&amp;quot;,
+      &amp;quot;sizes&amp;quot;: &amp;quot;512x512&amp;quot;,
       &amp;quot;type&amp;quot;: &amp;quot;image/png&amp;quot;
     }
   ],
-  &amp;quot;start_url&amp;quot;: &amp;quot;https://kevcui.github.io/#blog&amp;quot;,
+  &amp;quot;start_url&amp;quot;: &amp;quot;/&amp;quot;,
   &amp;quot;background_color&amp;quot;: &amp;quot;#000&amp;quot;,
   &amp;quot;theme_color&amp;quot;: &amp;quot;#000&amp;quot;,
   &amp;quot;display&amp;quot;: &amp;quot;standalone&amp;quot;
@@ -818,35 +818,57 @@ Book Review: The DevOps Handbook
 &lt;li&gt;Service worker js: It must be created in &lt;strong&gt;web app root directory&lt;/strong&gt;, alongside with &lt;em&gt;manifest.json&lt;/em&gt;. Here is an example of the service worker called &lt;em&gt;sw.js&lt;/em&gt;:&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;pre&gt;&lt;code&gt;self.addEventListener(&#39;install&#39;, e =&amp;gt; {
-  let timeStamp = Date.now();
-  e.waitUntil(
-    caches.open(&#39;kevin-blog&#39;).then(cache =&amp;gt; {
-      return cache.addAll([
-        `/`,
-        `/#blog`,
-        `/css/uno.min.css`,
-        `/css/font.min.css`,
-        `/css/resume.min.css`,
-        `/js/jquery.min.js`,
-        `/js/main.min.js`,
-      ])
-      .then(() =&amp;gt; self.skipWaiting());
-    })
-  )
-});
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;var CACHE_NAME = &#39;kevin-site&#39;;
+var urlsToCache = [
+    &#39;/&#39;,
+    &#39;/#blog&#39;,
+    &#39;/css/font.min.css&#39;,
+    &#39;/css/animate.min.css&#39;,
+    &#39;/css/monokai.min.css&#39;,
+    &#39;/js/umbrella.min.js&#39;,
+    &#39;/js/highlight.min.js&#39;
+];
 
-self.addEventListener(&#39;activate&#39;,  event =&amp;gt; {
-  event.waitUntil(self.clients.claim());
-});
-
-self.addEventListener(&#39;fetch&#39;, event =&amp;gt; {
-  event.respondWith(
-    caches.match(event.request, {ignoreSearch:true}).then(response =&amp;gt; {
-      return response || fetch(event.request);
-    })
+self.addEventListener(&#39;install&#39;, function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log(&#39;Opened cache&#39;);
+        return cache.addAll(urlsToCache);
+      })
   );
-})
+});
+
+self.addEventListener(&#39;fetch&#39;, function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        if (response) {
+          return response;
+        }
+
+        var fetchRequest = event.request.clone();
+
+        return fetch(fetchRequest).then(
+          function(response) {
+            if(!response || response.status !== 200 || response.type !== &#39;basic&#39;) {
+              return response;
+            }
+
+            var responseToCache = response.clone();
+
+            caches.open(CACHE_NAME)
+              .then(function(cache) {
+                cache.put(event.request, responseToCache);
+              });
+
+            return response;
+          }
+        );
+      })
+    );
+});
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
