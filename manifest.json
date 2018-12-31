@@ -3,8 +3,8 @@
   "name": "Kevin Cui",
   "icons": [
     {
-      "src":"/images/favicons/android-icon-192x192.png",
-      "sizes": "192x192",
+      "src":"/images/kc.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ],
