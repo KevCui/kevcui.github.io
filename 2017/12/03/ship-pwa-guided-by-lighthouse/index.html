@@ -283,7 +283,7 @@
 					
                 
               </span>
-              • 900 words 4 min. read
+              • 900 words 5 min. read
           </div>
           <h1>Ship PWA Guided by Lighthouse</h1>
           <section id="post-content" class="article-content post">
@@ -361,12 +361,12 @@
   &quot;name&quot;: &quot;Kevin Cui&quot;,
   &quot;icons&quot;: [
     {
-      &quot;src&quot;:&quot;/images/favicons/android-icon-192x192.png&quot;,
-      &quot;sizes&quot;: &quot;192x192&quot;,
+      &quot;src&quot;:&quot;/images/kc.png&quot;,
+      &quot;sizes&quot;: &quot;512x512&quot;,
       &quot;type&quot;: &quot;image/png&quot;
     }
   ],
-  &quot;start_url&quot;: &quot;https://kevcui.github.io/#blog&quot;,
+  &quot;start_url&quot;: &quot;/&quot;,
   &quot;background_color&quot;: &quot;#000&quot;,
   &quot;theme_color&quot;: &quot;#000&quot;,
   &quot;display&quot;: &quot;standalone&quot;
@@ -384,35 +384,57 @@
 <li>Service worker js: It must be created in <strong>web app root directory</strong>, alongside with <em>manifest.json</em>. Here is an example of the service worker called <em>sw.js</em>:</li>
 </ul>
 
-<pre><code>self.addEventListener('install', e =&gt; {
-  let timeStamp = Date.now();
-  e.waitUntil(
-    caches.open('kevin-blog').then(cache =&gt; {
-      return cache.addAll([
-        `/`,
-        `/#blog`,
-        `/css/uno.min.css`,
-        `/css/font.min.css`,
-        `/css/resume.min.css`,
-        `/js/jquery.min.js`,
-        `/js/main.min.js`,
-      ])
-      .then(() =&gt; self.skipWaiting());
-    })
-  )
-});
+<pre><code class="language-js">var CACHE_NAME = 'kevin-site';
+var urlsToCache = [
+    '/',
+    '/#blog',
+    '/css/font.min.css',
+    '/css/animate.min.css',
+    '/css/monokai.min.css',
+    '/js/umbrella.min.js',
+    '/js/highlight.min.js'
+];
 
-self.addEventListener('activate',  event =&gt; {
-  event.waitUntil(self.clients.claim());
-});
-
-self.addEventListener('fetch', event =&gt; {
-  event.respondWith(
-    caches.match(event.request, {ignoreSearch:true}).then(response =&gt; {
-      return response || fetch(event.request);
-    })
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
   );
-})
+});
+
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        if (response) {
+          return response;
+        }
+
+        var fetchRequest = event.request.clone();
+
+        return fetch(fetchRequest).then(
+          function(response) {
+            if(!response || response.status !== 200 || response.type !== 'basic') {
+              return response;
+            }
+
+            var responseToCache = response.clone();
+
+            caches.open(CACHE_NAME)
+              .then(function(cache) {
+                cache.put(event.request, responseToCache);
+              });
+
+            return response;
+          }
+        );
+      })
+    );
+});
 </code></pre>
 
 <ul>
