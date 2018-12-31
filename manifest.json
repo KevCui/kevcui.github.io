@@ -1,6 +1,6 @@
 {
   "short_name": "Kevin",
-  "name": "Krazy Kevin",
+  "name": "Kevin Cui",
   "icons": [
     {
       "src":"/images/favicons/android-icon-192x192.png",
@@ -8,7 +8,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "https://kevcui.github.io/#blog",
+  "start_url": "/#blog",
   "background_color": "#000",
   "theme_color": "#000",
   "display": "standalone"
