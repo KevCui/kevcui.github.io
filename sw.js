@@ -1,19 +1,23 @@
-self.addEventListener('install', e => {
-  let timeStamp = Date.now();
-  e.waitUntil(
-    caches.open('kevin-blog').then(cache => {
-      return cache.addAll([
-        `/`,
-        `/#blog`,
-        `/css/font.min.css`,
-        `/css/animate.min.css`,
-        `/css/monokai.min.css`,
-        `/js/umbrella.min.js`,
-        `/js/highlight.min.js`
-      ])
-      .then(() => self.skipWaiting());
-    })
-  )
+var CACHE_NAME = 'kevin-site';
+var urlsToCache = [
+    '/',
+    '/#blog',
+    '/css/font.min.css',
+    '/css/animate.min.css',
+    '/css/monokai.min.css',
+    '/js/umbrella.min.js',
+    '/js/highlight.min.js'
+];
+
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
+  );
 });
 
 self.addEventListener('activate',  event => {
