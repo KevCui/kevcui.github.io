@@ -307,7 +307,7 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"><span class="lnt"> 1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -323,19 +323,19 @@
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">~$ pwd
+<pre class="chroma"><code class="language-bash" data-lang="bash">~$ <span class="nb">pwd</span>
 /home/foo/bar/one/two/three
 
 ~$ z tw
-~$ pwd
+~$ <span class="nb">pwd</span>
 /home/foo/bar/one/two
 
 ~$ z foo
-~$ pwd
+~$ <span class="nb">pwd</span>
 /home/foo
 
 ~$ z th
-~$ pwd
+~$ <span class="nb">pwd</span>
 /home/foo/bar/one/two/three</code></pre></td></tr></table>
 </div>
 </div>
@@ -350,7 +350,7 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"><span class="lnt"> 1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -366,19 +366,19 @@
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">~$ pwd
+<pre class="chroma"><code class="language-bash" data-lang="bash">~$ <span class="nb">pwd</span>
 /home/foo/bar/one/two/three
 
 ~$ up
-~$ pwd
+~$ <span class="nb">pwd</span>
 /home/foo/bar/one/two
 
-~$ up 2
-~$ pwd
+~$ up <span class="m">2</span>
+~$ <span class="nb">pwd</span>
 /home/foo/bar
 
 ~$ up h
-~$ pwd
+~$ <span class="nb">pwd</span>
 /home</code></pre></td></tr></table>
 </div>
 </div>
@@ -402,11 +402,11 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">alias</span> <span class="nv">ls</span><span class="o">=</span><span class="s1">&#39;exa -s mod --git&#39;</span>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">alias</span> <span class="nv">ls</span><span class="o">=</span><span class="s1">&#39;exa -s mod --git&#39;</span>
 <span class="nb">alias</span> <span class="nv">ll</span><span class="o">=</span><span class="s1">&#39;exa -l -s mod --git --time-style=long-iso&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
@@ -441,12 +441,12 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">~$ find . -ipath &#34;*how*exp*&#34; -name &#34;index.html&#34;
+<pre class="chroma"><code class="language-bash" data-lang="bash">~$ find . -ipath <span class="s2">&#34;*how*exp*&#34;</span> -name <span class="s2">&#34;index.html&#34;</span>
 ./2017/04/17/how-i-do-exploratory-testing/index.html
 ~$ vi ./2017/04/17/how-i-do-exploratory-testing/index.html</code></pre></td></tr></table>
 </div>
@@ -456,10 +456,10 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">~$ find . -ipath &#34;*how*exp*&#34; -name &#34;index.html&#34; -exec vi {} \;</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">~$ find . -ipath <span class="s2">&#34;*how*exp*&#34;</span> -name <span class="s2">&#34;index.html&#34;</span> -exec vi <span class="o">{}</span> <span class="se">\;</span></code></pre></td></tr></table>
 </div>
 </div>
 
@@ -467,12 +467,12 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">~$ fd -p &#39;how.*exp.*/index&#39;
-2017/04/17/how-i-do-exploratory-testing/index.html</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">~$ fd -p <span class="s1">&#39;how.*exp.*/index&#39;</span>
+<span class="m">2017</span>/04/17/how-i-do-exploratory-testing/index.html</code></pre></td></tr></table>
 </div>
 </div>
 
@@ -482,10 +482,10 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh"><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-sh" data-lang="sh">~$ vi <span class="o">(</span>press ctrl-t<span class="o">)</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">~$ vi <span class="o">(</span>press ctrl-t<span class="o">)</span></code></pre></td></tr></table>
 </div>
 </div>
 
@@ -498,10 +498,10 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-zsh" data-lang="zsh"><span class="nb">alias</span> <span class="nv">vif</span><span class="o">=</span><span class="s1">&#39;vim $(fzf)&#39;</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">alias</span> <span class="nv">vif</span><span class="o">=</span><span class="s1">&#39;vim $(fzf)&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
 
@@ -520,7 +520,7 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -529,13 +529,13 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"># monitor current directory and print file list every 6 seconds
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># monitor current directory and print file list every 6 seconds</span>
 
-# watch
-~$ watch -n 6 ls -l
+<span class="c1"># watch</span>
+~$ watch -n <span class="m">6</span> ls -l
 
-# loop
-~$ loop -e 6s &#39;ls -l&#39;</code></pre></td></tr></table>
+<span class="c1"># loop</span>
+~$ loop -e 6s <span class="s1">&#39;ls -l&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
 
@@ -564,10 +564,10 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">~$ loop -e 6s &#39;clear;date;ls -l&#39; -c &#39;stop-now&#39;; vi stop-now</code></pre></td></tr></table>
+<pre class="chroma"><code class="language-bash" data-lang="bash">~$ loop -e 6s <span class="s1">&#39;clear;date;ls -l&#39;</span> -c <span class="s1">&#39;stop-now&#39;</span><span class="p">;</span> vi stop-now</code></pre></td></tr></table>
 </div>
 </div>
 
@@ -580,7 +580,7 @@
 
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"><span class="lnt">1
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -589,13 +589,13 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"># create 10 markdown files: 0.md, 1.md ... 9.md
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># create 10 markdown files: 0.md, 1.md ... 9.md</span>
 
-# for
-~$ for ((i=0; i &lt; 10; i++)); do touch ${i}.md; done
+<span class="c1"># for</span>
+~$ <span class="k">for</span> <span class="o">((</span><span class="nv">i</span><span class="o">=</span><span class="m">0</span><span class="p">;</span> i &lt; <span class="m">10</span><span class="p">;</span> i++<span class="o">))</span><span class="p">;</span> <span class="k">do</span> touch <span class="si">${</span><span class="nv">i</span><span class="si">}</span>.md<span class="p">;</span> <span class="k">done</span>
 
-# loop
-~$ loop -n 10 &#39;touch ${COUNT}.md&#39;</code></pre></td></tr></table>
+<span class="c1"># loop</span>
+~$ loop -n <span class="m">10</span> <span class="s1">&#39;touch ${COUNT}.md&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
 

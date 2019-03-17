@@ -4,7 +4,7 @@ var urlsToCache = [
     '/#blog',
     '/css/font.min.css',
     '/css/animate.min.css',
-    '/css/monokai.min.css',
+    '/css/dracula.min.css',
     '/js/umbrella.min.js',
     '/js/highlight.min.js'
 ];
