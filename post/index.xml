@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Oct 2018 23:20:30 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2019 10:29:29 +0200</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Build A Killer Note-taking System</title>
+      <link>https://kevcui.github.io/2019/04/06/build-a-killer-note-taking-system/</link>
+      <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/2019/04/06/build-a-killer-note-taking-system/</guid>
+      <description>The proverb says, &amp;ldquo;The palest ink is better than the best memory&amp;rdquo;. Note-taking is certainly an essential part of knowledge learning, collecting and retaining information. In the fast-changing digital era, pen, ink and paper may not be able to fulfill the important job of note-taking anymore. So, what&amp;rsquo;s a killer note-taking system nowadays?
+My requirements? My dream system must be Easy, Efficient and Flexible:
+ Know where &amp;amp; how to write notes easily without hesitations Find right notes &amp;amp; roll back to old changes efficiently without hassles Convert notes to other formats and share them flexibly without troubles  Build it!</description>
+    </item>
     
     <item>
       <title>Observe as A Photographer, as A Tester</title>
