@@ -342,6 +342,8 @@ notesync <span class="s2">&#34;&lt;another_folder_path&gt;&#34;</span>
 
 <p><strong>fswatch part</strong> is to monitor file changes, filter out correct file change events and send the signal:</p>
 
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">fswatch -r -0 -d <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> -e <span class="s1">&#39;\.git&#39;</span> -m <span class="s2">&#34;inotify_monitor&#34;</span> --event<span class="o">=</span>Created --event<span class="o">=</span>Updated --event<span class="o">=</span>Removed <span class="p">|</span> ... <span class="p">&amp;</span></code></pre></div>
+
 <ul>
 <li>-r: watch subdirectories recursively</li>
 <li>-0: pass NUL as delimiter (no idea why it&rsquo;s need&hellip;..)</li>
@@ -354,6 +356,8 @@ notesync <span class="s2">&#34;&lt;another_folder_path&gt;&#34;</span>
 
 <p><strong>xargs part</strong> is to get signal from fswatch and execute specific commands:</p>
 
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">... <span class="p">|</span> xargs -0 -n <span class="m">1</span> ...</code></pre></div>
+
 <ul>
 <li>-0: input items are terminated by null, not whitespace (no idea why it&rsquo;s needed&hellip;)</li>
 <li>-n: maximum argument, <code>1</code> it is</li>
@@ -361,10 +365,12 @@ notesync <span class="s2">&#34;&lt;another_folder_path&gt;&#34;</span>
 
 <p><strong>zsh command part</strong> is to run Git commands:</p>
 
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">... zsh -c <span class="s2">&#34;source ~/.zshrc; cd </span><span class="nv">$1</span><span class="s2">; git add -A; git commit -m &#39;Update file&#39;; git push&#34;</span> ...</code></pre></div>
+
 <ul>
 <li>zsh -c: execute following commands in <code>zsh</code></li>
 <li>source ~/.zshrc: all my SSH keys are declared in <code>.zshrc</code> file, this command will load configurations from <code>.zshrc</code> file. Otherwise, push to remove Git repository may get permission denied</li>
-<li>git add -A&hellip;: Git commands to add changes and push to remote repository. Some optimization ideas: 1) <code>git pull</code> first, in case it&rsquo;s a shared repository; 2) Put some specific texts in commit messages, maybe also including file names</li>
+<li>git add -A &hellip; : Git commands to add changes and push to remote repository. Some optimization ideas: 1) <code>git pull</code> first, in case it&rsquo;s a shared repository; 2) Put some specific texts in commit messages, maybe also including file names</li>
 </ul>
 
 <h4 id="sumup">Sumup</h4>
