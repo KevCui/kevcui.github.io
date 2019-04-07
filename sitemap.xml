@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kevcui.github.io/2019/04/06/build-a-killer-note-taking-system/</loc>
+    <lastmod>2019-04-06T10:29:29+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kevcui.github.io/2018/10/18/observe-as-a-photographer-as-a-tester/</loc>
     <lastmod>2018-10-18T23:20:30+02:00</lastmod>
   </url>
@@ -176,13 +181,13 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/bug/</loc>
+    <loc>https://kevcui.github.io/categories/bug/</loc>
     <lastmod>2017-01-08T12:31:43+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/categories/bug/</loc>
+    <loc>https://kevcui.github.io/tags/bug/</loc>
     <lastmod>2017-01-08T12:31:43+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -219,7 +224,7 @@
   
   <url>
     <loc>https://kevcui.github.io/tags/cli/</loc>
-    <lastmod>2018-09-02T17:21:08+02:00</lastmod>
+    <lastmod>2019-04-06T10:29:29+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -308,20 +313,20 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/jekyll/</loc>
-    <lastmod>2017-02-26T16:40:26+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://kevcui.github.io/categories/jekyll/</loc>
     <lastmod>2016-11-18T22:09:23+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://kevcui.github.io/tags/jekyll/</loc>
+    <lastmod>2017-02-26T16:40:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kevcui.github.io/</loc>
-    <lastmod>2018-10-18T23:20:30+02:00</lastmod>
+    <lastmod>2019-04-06T10:29:29+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -362,6 +367,12 @@
   </url>
   
   <url>
+    <loc>https://kevcui.github.io/tags/notetaking/</loc>
+    <lastmod>2019-04-06T10:29:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kevcui.github.io/tags/observation/</loc>
     <lastmod>2018-10-18T23:20:30+02:00</lastmod>
     <priority>0</priority>
@@ -375,7 +386,7 @@
   
   <url>
     <loc>https://kevcui.github.io/post/</loc>
-    <lastmod>2018-10-18T23:20:30+02:00</lastmod>
+    <lastmod>2019-04-06T10:29:29+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -422,6 +433,12 @@
   </url>
   
   <url>
+    <loc>https://kevcui.github.io/tags/script/</loc>
+    <lastmod>2019-04-06T10:29:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kevcui.github.io/tags/story/</loc>
     <lastmod>2017-10-29T15:11:23+01:00</lastmod>
     <priority>0</priority>
@@ -446,14 +463,14 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/testing/</loc>
-    <lastmod>2018-10-18T23:20:30+02:00</lastmod>
+    <loc>https://kevcui.github.io/categories/testing/</loc>
+    <lastmod>2016-12-01T21:37:35+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/categories/testing/</loc>
-    <lastmod>2016-12-01T21:37:35+02:00</lastmod>
+    <loc>https://kevcui.github.io/tags/testing/</loc>
+    <lastmod>2018-10-18T23:20:30+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -476,13 +493,13 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/twitter/</loc>
+    <loc>https://kevcui.github.io/categories/twitter/</loc>
     <lastmod>2016-12-11T22:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/categories/twitter/</loc>
+    <loc>https://kevcui.github.io/tags/twitter/</loc>
     <lastmod>2016-12-11T22:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>

@@ -7,7 +7,110 @@
     <language>en-us</language>
     
     
-    <updated>Thu, 18 Oct 2018 23:20:30 CEST</updated>
+    <updated>Sat, 06 Apr 2019 10:29:29 CEST</updated>
+    
+    <item>
+      <title>Build A Killer Note-taking System</title>
+      <link>https://kevcui.github.io/2019/04/06/build-a-killer-note-taking-system/</link>
+      <pubDate>Sat, 06 Apr 2019 10:29:29 CEST</pubDate>
+      
+      <guid>https://kevcui.github.io/2019/04/06/build-a-killer-note-taking-system/</guid>
+      <description>
+
+&lt;p&gt;The proverb says, &amp;ldquo;The palest ink is better than the best memory&amp;rdquo;.  Note-taking is certainly an essential part of knowledge learning, collecting and retaining information. In the fast-changing digital era, pen, ink and paper may not be able to fulfill the important job of note-taking anymore. So, what&amp;rsquo;s a killer note-taking system nowadays?&lt;/p&gt;
+
+&lt;h3 id=&#34;my-requirements&#34;&gt;My requirements?&lt;/h3&gt;
+
+&lt;p&gt;My dream system must be &lt;em&gt;Easy&lt;/em&gt;, &lt;em&gt;Efficient&lt;/em&gt; and &lt;em&gt;Flexible&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Know where &amp;amp; how to write notes easily without hesitations&lt;/li&gt;
+&lt;li&gt;Find right notes &amp;amp; roll back to old changes efficiently without hassles&lt;/li&gt;
+&lt;li&gt;Convert notes to other formats and share them flexibly without troubles&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;build-it&#34;&gt;Build it!&lt;/h3&gt;
+
+&lt;h4 id=&#34;note-format&#34;&gt;Note format&lt;/h4&gt;
+
+&lt;p&gt;I love taking notes with markdown. Why markdown?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It&amp;rsquo;s clean for writing and reading&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s efficient, almost like writing plain texts&lt;/li&gt;
+&lt;li&gt;It&amp;rsquo;s flexible to convert to any other formats&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;note-taking-organization-app&#34;&gt;Note taking &amp;amp; organization app&lt;/h4&gt;
+
+&lt;p&gt;I like doing everything in the terminal, so naturally, Vim is the best note-taking editor for me.&lt;/p&gt;
+
+&lt;p&gt;For organizing notes, in the beginning, I set up different folders for different notes. But it&amp;rsquo;s not quite close to what I want. Especially, searching note is not a straightforward task, it needs to &lt;code&gt;find&lt;/code&gt; or &lt;code&gt;grep&lt;/code&gt; for a while. Then I wrote a handy script &lt;a href=&#34;https://github.com/KevCui/pynote&#34;&gt;pynote&lt;/a&gt; for helping note organization, it worked and only at &amp;ldquo;it works&amp;rdquo; level&amp;hellip; Recently, I switched to the amazing &lt;a href=&#34;https://github.com/alok/notational-fzf-vim&#34;&gt;Notational Velocity for Vim&lt;/a&gt;, a plugin to port famous &lt;a href=&#34;http://notational.net/&#34;&gt;Notational Velocity&lt;/a&gt; into Vim. The whole note-taking experience never becomes so smooth! 💆&lt;/p&gt;
+
+&lt;h4 id=&#34;note-version-control-system&#34;&gt;Note version-control system&lt;/h4&gt;
+
+&lt;p&gt;It&amp;rsquo;s easy. Git is the only reasonable option I can think of. &lt;code&gt;¯\_(ツ)_/¯&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git init&lt;/code&gt;, make note changes, &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt; or &lt;code&gt;git revert&lt;/code&gt;&amp;hellip; All the fancy version control things are already familiar under my hands.&lt;/p&gt;
+
+&lt;h4 id=&#34;note-auto-backup-system&#34;&gt;Note auto backup system&lt;/h4&gt;
+
+&lt;p&gt;Google Drive? OneDrive? Dropbox? Nah, they are not really Git-compatible by default. However, I got inspired by &lt;a href=&#34;https://github.com/hbons/SparkleShare&#34;&gt;SparkleShare&lt;/a&gt;, an open-source file sync app powered by Git, it adds file changes and pushes them to Github or GitLab automatically.&lt;/p&gt;
+
+&lt;p&gt;I may achieve the same functionality by using a simple script. The idea is to run &lt;a href=&#34;https://github.com/emcrisostomo/fswatch&#34;&gt;fswatch&lt;/a&gt; in the background and keep monitoring file changes. When file changes are happing, fswatch will trigger Git commands to add and push changes automatically.&lt;/p&gt;
+
+&lt;p&gt;Here is a snippet of Bash script:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/env bash
+&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;...
+&lt;span class=&#34;k&#34;&gt;function&lt;/span&gt; notesync&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
+  fswatch -r -0 -d &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;\.git&amp;#39;&lt;/span&gt; -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;inotify_monitor&amp;#34;&lt;/span&gt; --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Created --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Updated --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Removed &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xargs -0 -n &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; zsh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;source ~/.zshrc; cd &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;; git add -A; git commit -m &amp;#39;Update file&amp;#39;; git push&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;
+&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;folder_path&amp;gt;&amp;#34;&lt;/span&gt;
+notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp;gt;&amp;#34;&lt;/span&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;fswatch part&lt;/strong&gt; is to monitor file changes, filter out correct file change events and send the signal:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;-r: watch subdirectories recursively&lt;/li&gt;
+&lt;li&gt;-0: pass NUL as delimiter (no idea why it&amp;rsquo;s need&amp;hellip;..)&lt;/li&gt;
+&lt;li&gt;-d: directory to monitor, the target folder full of notes&lt;/li&gt;
+&lt;li&gt;-e: exude paths matching regex, here I don&amp;rsquo;t want to trigger Git commands when any changes are happing in &lt;code&gt;.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;-m: monitor, type &lt;code&gt;fswatch -M&lt;/code&gt; to see available monitors, more details of all available monitors: &lt;a href=&#34;https://emcrisostomo.github.io/fswatch/doc/1.14.0/fswatch.html/Monitors.html#Available-Monitors&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ndash;event: filter event by event flag, mainly using events related to file changes, all available events: &lt;a href=&#34;https://emcrisostomo.github.io/fswatch/doc/1.14.0/fswatch.html/Invoking-fswatch.html#Event-Flags-1&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;amp;: last but not least, don&amp;rsquo;t forget it at the end, because it provides the ability to run fswatch command in background and detach the process&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;xargs part&lt;/strong&gt; is to get signal from fswatch and execute specific commands:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;-0: input items are terminated by null, not whitespace (no idea why it&amp;rsquo;s needed&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;-n: maximum argument, &lt;code&gt;1&lt;/code&gt; it is&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;zsh command part&lt;/strong&gt; is to run Git commands:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;zsh -c: execute following commands in &lt;code&gt;zsh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;source ~/.zshrc: all my SSH keys are decalred in &lt;code&gt;.zshrc&lt;/code&gt; file, this command will load configurations from &lt;code&gt;.zshrc&lt;/code&gt; file. Otherwise, push to remove Git repository may get permission denied&lt;/li&gt;
+&lt;li&gt;git add -A&amp;hellip;: Git commands to add changes and push to remote repository. Some optimization ideas: 1) &lt;code&gt;git pull&lt;/code&gt; first, in case it&amp;rsquo;s a shared repository; 2) Put some specific texts in commit messages, maybe also including file names&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;sumup&#34;&gt;Sumup&lt;/h4&gt;
+
+&lt;p&gt;This is my killer note-taking system. It&amp;rsquo;s easy, efficient and flexible:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;Note format: Markdown
+Note taking &amp;amp; organization app: Vim + Notational Velocity for Vim
+Note version-control system: Git
+Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;So far I&amp;rsquo;m quite happy with this system. I enjoy using it not only for taking some private notes with my dirty secrets, but also for sharing notes with colleagues in my day-to-day work, like notes for &lt;a href=&#34;https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/&#34;&gt;exploratory testing&lt;/a&gt;. Oh, I almost forget, guess what I&amp;rsquo;m using now for wring this blog post?&lt;/p&gt;
+
+&lt;p&gt;How does your note-taking system look like? Share with me your awesome ideas?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Observe as A Photographer, as A Tester</title>
@@ -1826,84 +1929,6 @@ article:nth-child(4) {
 &lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Jeff Atwood: &lt;a href=&#34;https://blog.codinghorror.com/rubber-duck-problem-solving/&#34;&gt;Rubber Duck Problem Solving&lt;/a&gt;
 &lt;br/&gt;
 &lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Matt Briggs: &lt;a href=&#34;http://mattbriggs.net/blog/2015/06/01/the-role-of-a-senior-developer/&#34;&gt;The Role of a Senior Developer&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hugo x Github Pages</title>
-      <link>https://kevcui.github.io/2017/06/18/hugo-github-pages/</link>
-      <pubDate>Sun, 18 Jun 2017 15:55:09 CEST</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/06/18/hugo-github-pages/</guid>
-      <description>
-
-&lt;p&gt;It has been 2 months since I switched &lt;a href=&#34;https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/&#34;&gt;from Hexo to Hugo&lt;/a&gt;. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog Git repository, then I have to reconfigure the part of deploying Hugo website to Github Pages&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for the forgetful people, like me.&lt;/p&gt;
-
-&lt;p&gt;Hugo has a good doc to explain &lt;a href=&#34;https://gohugo.io/hosting-and-deployment/hosting-on-github/&#34;&gt;how to host on Github Pages&lt;/a&gt;. Based on it, my configuration is following:&lt;/p&gt;
-
-&lt;h3 id=&#34;add-worktree&#34;&gt;Add Worktree&lt;/h3&gt;
-
-&lt;p&gt;Basally, I created 2 repositories for my blog. One is the theme I used, it&amp;rsquo;s called &lt;a href=&#34;https://github.com/kevcui/uno&#34;&gt;uno&lt;/a&gt;. The other one is for both posts and generated static files. Its name is &lt;a href=&#34;https://github.com/kevcui/kevcui.github.io&#34;&gt;kevcui.github.io&lt;/a&gt;, a name predefined by Github Pages. I decide the put them in one repository because it&amp;rsquo;s easy to maintenance. I separated them into 2 different branches:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Branch &lt;strong&gt;hugo&lt;/strong&gt;: posts, assets&amp;hellip;&lt;/li&gt;
-&lt;li&gt;Branch &lt;strong&gt;master&lt;/strong&gt;: public/ folder with all the generated static files&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Then I need to link the &lt;strong&gt;public/&lt;/strong&gt; to &lt;strong&gt;master&lt;/strong&gt; branch:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;rm -rf public
-rm -rf ./worktrees
-git worktree add -B master public origin/master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;create-deploy-script&#34;&gt;Create deploy script&lt;/h3&gt;
-
-&lt;p&gt;Here is my deploy script &lt;a href=&#34;https://github.com/kevcui/kevcui.github.io/blob/hugo/deploy.sh&#34;&gt;deploy.sh&lt;/a&gt;. The theme I&amp;rsquo;m using is &lt;a href=&#34;https://github.com/kevcui/uno&#34;&gt;uno&lt;/a&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;
-#!/bin/sh
-
-# Create worktree
-# git worktree add -B master public origin/master
-
-# Build the project.
-hugo -t uno
-
-# Go To Public folder
-cd public
-
-# Add changes to git.
-git add -A
-
-# Remove original js files
-cd js
-ls -1 --color=none | grep -v &amp;quot;min.js&amp;quot; | xargs rm -f
-
-# Remove original css files
-cd ../css
-ls -1 --color=none | grep -v &amp;quot;min.css&amp;quot; | xargs rm -f
-cd ..
-
-# Commit changes.
-msg=&amp;quot;rebuilding site `date`&amp;quot;
-if [ $# -eq 1 ]
-    then msg=&amp;quot;$1&amp;quot;
-fi
-git commit -m &amp;quot;$msg&amp;quot;
-
-# Push source and build repos.
-git push origin master
-
-# Come back
-cd ..
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Every time after running the script deploy.sh, it will generate new static files and push them to master branch. The changes will be published immediately by Github Pages.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s all, a piece of 🍰&lt;/p&gt;
 </description>
     </item>
     
