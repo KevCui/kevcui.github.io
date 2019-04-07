@@ -17,6 +17,12 @@
       <guid>https://kevcui.github.io/2019/04/06/build-a-killer-note-taking-system/</guid>
       <description>
 
+&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*zsmrN549VmJc13l4ViuFvA.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
+
 &lt;p&gt;The proverb says, &amp;ldquo;The palest ink is better than the best memory&amp;rdquo;.  Note-taking is certainly an essential part of knowledge learning, collecting and retaining information. In the fast-changing digital era, pen, ink and paper may not be able to fulfill the important job of note-taking anymore. So, what&amp;rsquo;s a killer note-taking system nowadays?&lt;/p&gt;
 
 &lt;h3 id=&#34;my-requirements&#34;&gt;My requirements?&lt;/h3&gt;
@@ -57,7 +63,7 @@
 
 &lt;p&gt;Google Drive? OneDrive? Dropbox? Nah, they are not really Git-compatible by default. However, I got inspired by &lt;a href=&#34;https://github.com/hbons/SparkleShare&#34;&gt;SparkleShare&lt;/a&gt;, an open-source file sync app powered by Git, it adds file changes and pushes them to Github or GitLab automatically.&lt;/p&gt;
 
-&lt;p&gt;I may achieve the same functionality by using a simple script. The idea is to run &lt;a href=&#34;https://github.com/emcrisostomo/fswatch&#34;&gt;fswatch&lt;/a&gt; in the background and keep monitoring file changes. When file changes are happing, fswatch will trigger Git commands to add and push changes automatically.&lt;/p&gt;
+&lt;p&gt;I may achieve the same functionality by using a simple script. The idea is to run &lt;a href=&#34;https://github.com/emcrisostomo/fswatch&#34;&gt;fswatch&lt;/a&gt; in the background and keep monitoring file changes. When file changes are happening, fswatch will trigger Git commands to add and push changes automatically.&lt;/p&gt;
 
 &lt;p&gt;Here is a snippet of Bash script:&lt;/p&gt;
 
@@ -76,7 +82,7 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 &lt;li&gt;-r: watch subdirectories recursively&lt;/li&gt;
 &lt;li&gt;-0: pass NUL as delimiter (no idea why it&amp;rsquo;s need&amp;hellip;..)&lt;/li&gt;
 &lt;li&gt;-d: directory to monitor, the target folder full of notes&lt;/li&gt;
-&lt;li&gt;-e: exude paths matching regex, here I don&amp;rsquo;t want to trigger Git commands when any changes are happing in &lt;code&gt;.git&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;-e: exude paths matching regex, here I don&amp;rsquo;t want to trigger Git commands when any changes are happening in &lt;code&gt;.git&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;-m: monitor, type &lt;code&gt;fswatch -M&lt;/code&gt; to see available monitors, more details of all available monitors: &lt;a href=&#34;https://emcrisostomo.github.io/fswatch/doc/1.14.0/fswatch.html/Monitors.html#Available-Monitors&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;ndash;event: filter event by event flag, mainly using events related to file changes, all available events: &lt;a href=&#34;https://emcrisostomo.github.io/fswatch/doc/1.14.0/fswatch.html/Invoking-fswatch.html#Event-Flags-1&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;amp;: last but not least, don&amp;rsquo;t forget it at the end, because it provides the ability to run fswatch command in background and detach the process&lt;/li&gt;
@@ -93,7 +99,7 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 
 &lt;ul&gt;
 &lt;li&gt;zsh -c: execute following commands in &lt;code&gt;zsh&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;source ~/.zshrc: all my SSH keys are decalred in &lt;code&gt;.zshrc&lt;/code&gt; file, this command will load configurations from &lt;code&gt;.zshrc&lt;/code&gt; file. Otherwise, push to remove Git repository may get permission denied&lt;/li&gt;
+&lt;li&gt;source ~/.zshrc: all my SSH keys are declared in &lt;code&gt;.zshrc&lt;/code&gt; file, this command will load configurations from &lt;code&gt;.zshrc&lt;/code&gt; file. Otherwise, push to remove Git repository may get permission denied&lt;/li&gt;
 &lt;li&gt;git add -A&amp;hellip;: Git commands to add changes and push to remote repository. Some optimization ideas: 1) &lt;code&gt;git pull&lt;/code&gt; first, in case it&amp;rsquo;s a shared repository; 2) Put some specific texts in commit messages, maybe also including file names&lt;/li&gt;
 &lt;/ul&gt;
 
