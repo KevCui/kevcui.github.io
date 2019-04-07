@@ -78,6 +78,8 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 
 &lt;p&gt;&lt;strong&gt;fswatch part&lt;/strong&gt; is to monitor file changes, filter out correct file change events and send the signal:&lt;/p&gt;
 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;fswatch -r -0 -d &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;\.git&amp;#39;&lt;/span&gt; -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;inotify_monitor&amp;#34;&lt;/span&gt; --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Created --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Updated --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Removed &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; ... &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;ul&gt;
 &lt;li&gt;-r: watch subdirectories recursively&lt;/li&gt;
 &lt;li&gt;-0: pass NUL as delimiter (no idea why it&amp;rsquo;s need&amp;hellip;..)&lt;/li&gt;
@@ -90,6 +92,8 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 
 &lt;p&gt;&lt;strong&gt;xargs part&lt;/strong&gt; is to get signal from fswatch and execute specific commands:&lt;/p&gt;
 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;... &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xargs -0 -n &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;ul&gt;
 &lt;li&gt;-0: input items are terminated by null, not whitespace (no idea why it&amp;rsquo;s needed&amp;hellip;)&lt;/li&gt;
 &lt;li&gt;-n: maximum argument, &lt;code&gt;1&lt;/code&gt; it is&lt;/li&gt;
@@ -97,10 +101,12 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 
 &lt;p&gt;&lt;strong&gt;zsh command part&lt;/strong&gt; is to run Git commands:&lt;/p&gt;
 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;... zsh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;source ~/.zshrc; cd &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;; git add -A; git commit -m &amp;#39;Update file&amp;#39;; git push&amp;#34;&lt;/span&gt; ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
 &lt;ul&gt;
 &lt;li&gt;zsh -c: execute following commands in &lt;code&gt;zsh&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;source ~/.zshrc: all my SSH keys are declared in &lt;code&gt;.zshrc&lt;/code&gt; file, this command will load configurations from &lt;code&gt;.zshrc&lt;/code&gt; file. Otherwise, push to remove Git repository may get permission denied&lt;/li&gt;
-&lt;li&gt;git add -A&amp;hellip;: Git commands to add changes and push to remote repository. Some optimization ideas: 1) &lt;code&gt;git pull&lt;/code&gt; first, in case it&amp;rsquo;s a shared repository; 2) Put some specific texts in commit messages, maybe also including file names&lt;/li&gt;
+&lt;li&gt;git add -A &amp;hellip; : Git commands to add changes and push to remote repository. Some optimization ideas: 1) &lt;code&gt;git pull&lt;/code&gt; first, in case it&amp;rsquo;s a shared repository; 2) Put some specific texts in commit messages, maybe also including file names&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&#34;sumup&#34;&gt;Sumup&lt;/h4&gt;
