@@ -7,7 +7,78 @@
     <language>en-us</language>
     
     
-    <updated>Sat, 06 Apr 2019 10:29:29 CEST</updated>
+    <updated>Thu, 18 Apr 2019 10:55:55 CEST</updated>
+    
+    <item>
+      <title>Twenty Months With Colemak</title>
+      <link>https://kevcui.github.io/2019/04/18/twenty-months-with-colemak/</link>
+      <pubDate>Thu, 18 Apr 2019 10:55:55 CEST</pubDate>
+      
+      <guid>https://kevcui.github.io/2019/04/18/twenty-months-with-colemak/</guid>
+      <description>
+
+&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*hcY3Bk8YY_1keCJW_b70Vw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
+
+&lt;p&gt;Time truly flies. It has been 20 months since &lt;a href=&#34;2017/08/19/why-i-switch-to-colemak/&#34;&gt;I switched from QWERTY to Colemak keyboard layout&lt;/a&gt;. Am I now able to type on the Colemak keyboard as fast as the time flies? Certainly not. My typing speed 20 months ago was 75 WPM on average, now it&amp;rsquo;s 85 WPM on average. I can feel the improvement and that&amp;rsquo;s why I never look back to QWERTY again.&lt;/p&gt;
+
+&lt;p&gt;Besides things mentioned in &lt;a href=&#34;https://kevcui.github.io/2017/08/27/one-week-with-colemak/&#34;&gt;One Week with Colemak&lt;/a&gt;, are there somethings special happened during these 20 months?&lt;/p&gt;
+
+&lt;h3 id=&#34;remap-caps-lock-as&#34;&gt;Remap Caps Lock as&amp;hellip;?&lt;/h3&gt;
+
+&lt;p&gt;Caps Lock key is a huge waste on the standard keyboard. It locates in such important position but with less functional benefit. Some remap it as Escape key; some remap it as BackSpace key&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;My favorite remapping solution is: Press Caps Lock once, it sends &amp;ldquo;Escape&amp;rdquo; key event; Hold Caps Lock, it sends &amp;ldquo;Control&amp;rdquo; key event. So, one Caps Lock key can act as Escape and Control combined together.&lt;/p&gt;
+
+&lt;h4 id=&#34;how-to-archieve-this-key-binding-on-linux&#34;&gt;How to archieve this key binding on Linux?&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Act as &lt;strong&gt;Control&lt;/strong&gt; when press and hold: HHKB keyboard by default puts Control key on the usual Caps Lock position, which is great for me, so no tweak is needed. For other keyboards, I usually use &lt;code&gt;xmodmap&lt;/code&gt; to map Caps Lock key as Left Control key.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Act as &lt;strong&gt;Escape&lt;/strong&gt; when single press: &lt;a href=&#34;https://github.com/alols/xcape&#34;&gt;xcape&lt;/a&gt; can configure one key to act as other key when pressed and released:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;xcape -t &lt;span class=&#34;m&#34;&gt;300&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;Control_L=Escape&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4 id=&#34;how-to-archieve-this-key-binding-on-macos&#34;&gt;How to archieve this key binding on macOS?&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/tekezo/Karabiner-Elements&#34;&gt;Karabiner&lt;/a&gt; is a great tool to archive the same key binding conception on macOS. Karabiner supports customized json configuration file. Here is &lt;a href=&#34;https://github.com/KevCui/dotfiles/blob/master/karabiner/capslock.json&#34;&gt;my configuration file&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;from&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;#34;key_code&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;caps_lock&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;#34;modifiers&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+        &lt;span class=&#34;nt&#34;&gt;&amp;#34;optional&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;any&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;to&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[{&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;#34;key_code&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;right_control&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}]&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;s2&#34;&gt;&amp;#34;to_if_alone&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[{&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;#34;key_code&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;escape&amp;#34;&lt;/span&gt;
+&lt;span class=&#34;p&#34;&gt;}]&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;,&lt;/span&gt;
+&lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&#34;some-small-troubles-in-the-real-world&#34;&gt;Some small troubles in the real world&lt;/h3&gt;
+
+&lt;p&gt;When you use some uncommon tools in the real world, you know you have to prepare some small troubles that may come to you every day:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;QWERTY is literally everywhere: Accept the reality and enforce the muscle memory of QWERTY layout as well. Otherwise, like me, I&amp;rsquo;m extremely clumsy when typing on QWERTY.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Pair programming or testing on my machine: Remember to switch keyboard and key binding settings on the fly, depending on the person.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ldquo;This guy is a weirdo.&amp;rdquo;: So what?&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Overall, I&amp;rsquo;m super happy with Colemak for now. I have no plan to learn another keyboard layout. I guess I will stick with Colemak for years. Maybe after some years, I&amp;rsquo;ll write another recap post about Colemak. I shall call it &amp;ldquo;Twenty Years With Colemak&amp;rdquo;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Build A Killer Note-taking System</title>
@@ -1865,82 +1936,6 @@ article:nth-child(4) {
 &lt;hr /&gt;
 
 &lt;p&gt;Tools are designed to help us to deal with the problems. Depends on the different situations and the strength &amp;amp; weakness of tools, I have to think carefully and decide which one to use. Probably mitmproxy is my new proxy-hammer, but I won&amp;rsquo;t see everything like a nail. Once I decided that it is a good time to use Charles properly, I would say loudly and confidently &amp;ldquo;&lt;strong&gt;I choose you, Charles!&lt;/strong&gt;&amp;ldquo;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>I&#39;m A Tester &amp; I&#39;m A Rubber Duck</title>
-      <link>https://kevcui.github.io/2017/06/20/i-am-a-rubber-duck/</link>
-      <pubDate>Tue, 20 Jun 2017 21:28:30 CEST</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/06/20/i-am-a-rubber-duck/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*EbZDvsozz270lIhuAibaCg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-    &lt;sup&gt;
-        &lt;em&gt;
-            Photo by &lt;a href=&#34;https://www.flickr.com/photos/silvia-m/34764790472/in/photolist-UY3D2b-9zw2em-hSV-8XAvVA&#34;&gt;Silvia Maggi&lt;/a&gt;
-        &lt;/em&gt;
-    &lt;/sup&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;I&amp;rsquo;ll be there for you, like I&amp;rsquo;ve been there before; I&amp;rsquo;ll be there for you, &amp;lsquo;Cause you&amp;rsquo;re there for me too.&amp;rdquo; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I&amp;rsquo;m a tester. When a developer talks to me, I see myself as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Rubber_duck_debugging&#34;&gt;rubber duck&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;A rubber duck? Why not Winnie-the-Pooh, Pikachu or Minion? Because the color doesn&amp;rsquo;t matter 😉 But other things do matter.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m a tester, a rubber duck, you are a developer.&lt;/p&gt;
-
-&lt;h3 id=&#34;be-close-to-you&#34;&gt;Be close to you&lt;/h3&gt;
-
-&lt;p&gt;I&amp;rsquo;m a rubber duck, not an occasional bath toy. I will be bored to float in the water with soap bubbles, meanwhile showing my duck face to who is singing in the tub.&lt;/p&gt;
-
-&lt;p&gt;I choose to stay close to you. You can easily reach me whenever you need me, no matter when you are happy, excited, bored, confused, dispirited&amp;hellip; And I&amp;rsquo;m always prepared for any talks. I keep calm and be ready to support you to solve any problems.&lt;/p&gt;
-
-&lt;h3 id=&#34;listen-to-you&#34;&gt;Listen to you&lt;/h3&gt;
-
-&lt;p&gt;I&amp;rsquo;m a rubber duck, not a noisy quak-quak. I&amp;rsquo;m patient to listen before I talk. I&amp;rsquo;ll stay silent and become a decent listener, like the initial method of &lt;em&gt;&amp;ldquo;rubber duck problem solving&amp;rdquo;&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;For me as a tester, I feel good to understand the context and background of the solution.&lt;/p&gt;
-
-&lt;p&gt;For you as a developer, you feel good to speak out loudly what you are now debugging, how you plan to resolve the problem, why thing didn&amp;rsquo;t work at the first place&amp;hellip; All I want to do is listening to you and waiting for your Aha! moment. I like this magic moment, which comes suddenly during talking.&lt;/p&gt;
-
-&lt;h3 id=&#34;probe-your-thinking&#34;&gt;Probe your thinking&lt;/h3&gt;
-
-&lt;p&gt;I&amp;rsquo;m a rubber duck, not a piece of rubber-like plastic. I&amp;rsquo;m better than a rubber duck cause I&amp;rsquo;m able to ask questions.&lt;/p&gt;
-
-&lt;p&gt;I learned to be good at questioning. But I never question your qualification. Because I know that a good developer is a problem-solving genius. And I believe &lt;em&gt;&amp;ldquo;a junior developer is code focused; a senior developer provides solutions to problems&amp;rdquo;&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-&lt;p&gt;Sometimes when you are facing pretty complicated problems, you wracked your brain but all the ideas are towards to the dead end. I&amp;rsquo;ll ask you questions &lt;strong&gt;to encourage further thought&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Sometimes when you are facing really easy problems, they can immediately offer solutions 1, 2 and 3&amp;hellip; without a second thought. I&amp;rsquo;ll ask you questions &lt;strong&gt;to clarify the real problem&lt;/strong&gt; and &lt;strong&gt;to guide you to a proper solution&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;I&amp;rsquo;m a tester &amp;amp; a rubber duck, you are a developer.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m staying with you, you can use me as your reliable coding buddy.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m listening to you, you can show me your professional skill.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m encouraging you to think, you can tell me your awesome thought.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m there for you, you get my full support. 👊&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; The Rembrandts: &lt;a href=&#34;https://www.youtube.com/watch?v=q-9kPks0IfE&#34;&gt;I&amp;rsquo;ll be there for you&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Jeff Atwood: &lt;a href=&#34;https://blog.codinghorror.com/rubber-duck-problem-solving/&#34;&gt;Rubber Duck Problem Solving&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Matt Briggs: &lt;a href=&#34;http://mattbriggs.net/blog/2015/06/01/the-role-of-a-senior-developer/&#34;&gt;The Role of a Senior Developer&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
