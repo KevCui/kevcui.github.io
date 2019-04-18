@@ -1,10 +1,15 @@
-var CACHE_NAME = 'kevin-site-572db03';
+var CACHE_NAME = 'kevin-site-e494c09';
 var urlsToCache = [
     '/',
     '/#blog',
     '/css/font.min.css',
     '/css/animate.min.css',
     '/css/dracula.min.css',
+    '/css/inter-ui.min.css',
+    '/css/syntax.min.css',
+    '/css/resume.min.css',
+    '/css/uno.min.css',
+    '/js/main.min.js',
     '/js/umbrella.min.js',
     '/js/highlight.min.js'
 ];
