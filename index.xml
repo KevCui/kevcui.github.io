@@ -33,7 +33,7 @@
 
 &lt;p&gt;My favorite remapping solution is: Press Caps Lock once, it sends &amp;ldquo;Escape&amp;rdquo; key event; Hold Caps Lock, it sends &amp;ldquo;Control&amp;rdquo; key event. So, one Caps Lock key can act as Escape and Control combined together.&lt;/p&gt;
 
-&lt;h4 id=&#34;how-to-archieve-this-key-binding-on-linux&#34;&gt;How to archieve this key binding on Linux?&lt;/h4&gt;
+&lt;h4 id=&#34;how-to-achieve-this-key-binding-on-linux&#34;&gt;How to achieve this key binding on Linux?&lt;/h4&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Act as &lt;strong&gt;Control&lt;/strong&gt; when press and hold: HHKB keyboard by default puts Control key on the usual Caps Lock position, which is great for me, so no tweak is needed. For other keyboards, I usually use &lt;code&gt;xmodmap&lt;/code&gt; to map Caps Lock key as Left Control key.&lt;/p&gt;&lt;/li&gt;
@@ -43,9 +43,9 @@
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;xcape -t &lt;span class=&#34;m&#34;&gt;300&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;Control_L=Escape&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h4 id=&#34;how-to-archieve-this-key-binding-on-macos&#34;&gt;How to archieve this key binding on macOS?&lt;/h4&gt;
+&lt;h4 id=&#34;how-to-achieve-this-key-binding-on-macos&#34;&gt;How to achieve this key binding on macOS?&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/tekezo/Karabiner-Elements&#34;&gt;Karabiner&lt;/a&gt; is a great tool to archive the same key binding conception on macOS. Karabiner supports customized json configuration file. Here is &lt;a href=&#34;https://github.com/KevCui/dotfiles/blob/master/karabiner/capslock.json&#34;&gt;my configuration file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/tekezo/Karabiner-Elements&#34;&gt;Karabiner&lt;/a&gt; is a great tool to achieve the same key binding conception on macOS. Karabiner supports customized json configuration file. Here is &lt;a href=&#34;https://github.com/KevCui/dotfiles/blob/master/karabiner/capslock.json&#34;&gt;my configuration file&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;
 &lt;span class=&#34;s2&#34;&gt;&amp;#34;from&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
