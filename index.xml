@@ -409,7 +409,7 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 &lt;p&gt;&lt;a href=&#34;https://github.com/junegunn/fzf&#34;&gt;fzf&lt;/a&gt; is a versatile command, which can be combined in other commands. With the help of its amazing searchability, it can be used to &lt;a href=&#34;https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh&#34;&gt;&amp;ldquo;cd into the selected directory&amp;rdquo;&lt;/a&gt;:&lt;/p&gt;
 
 &lt;p class=&#34;embed&#34;&gt;
-    &lt;embed src=&#34;https://kevcui.github.io/videos/fzf-example.svg&#34;/&gt;
+&lt;embed src=&#34;https://kevcui.github.io/videos/fzf-example.svg&#34; style=&#34;height:px&#34;/&gt;
 &lt;/p&gt;
 
 
@@ -511,7 +511,7 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 &lt;/div&gt;
 
 &lt;p class=&#34;embed&#34;&gt;
-    &lt;embed src=&#34;https://kevcui.github.io/videos/fzf-example2.svg&#34;/&gt;
+&lt;embed src=&#34;https://kevcui.github.io/videos/fzf-example2.svg&#34; style=&#34;height:px&#34;/&gt;
 &lt;/p&gt;
 
 
@@ -531,7 +531,7 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 &lt;p&gt;&lt;a href=&#34;https://github.com/sindresorhus/fkill&#34;&gt;fkill&lt;/a&gt;, its &lt;strong&gt;f&lt;/strong&gt; stands for &amp;ldquo;fabulously&amp;rdquo; (It&amp;rsquo;s definitely not the word I&amp;rsquo;m thinking in my mind 😉). Sometimes, &lt;code&gt;kill&lt;/code&gt; some zombie processes is necessary. &lt;code&gt;fkill&lt;/code&gt; can search a process and kill it interactively. It makes killing stylish:&lt;/p&gt;
 
 &lt;p class=&#34;embed&#34;&gt;
-    &lt;embed src=&#34;https://kevcui.github.io/videos/fkill-example.svg&#34;/&gt;
+&lt;embed src=&#34;https://kevcui.github.io/videos/fkill-example.svg&#34; style=&#34;height:px&#34;/&gt;
 &lt;/p&gt;
 
 
@@ -593,7 +593,7 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 &lt;/div&gt;
 
 &lt;p class=&#34;embed&#34;&gt;
-    &lt;embed src=&#34;https://kevcui.github.io/videos/loop-example.svg&#34;/&gt;
+&lt;embed src=&#34;https://kevcui.github.io/videos/loop-example.svg&#34; style=&#34;height:px&#34;/&gt;
 &lt;/p&gt;
 
 
@@ -637,7 +637,7 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 &lt;p&gt;&lt;a href=&#34;https://github.com/santinic/how2&#34;&gt;how2&lt;/a&gt; takes another approach to search for the right command: it queries questions and answers from stackoverflow!&lt;/p&gt;
 
 &lt;p class=&#34;embed&#34;&gt;
-    &lt;embed src=&#34;https://kevcui.github.io/videos/how2-example.svg&#34;/&gt;
+&lt;embed src=&#34;https://kevcui.github.io/videos/how2-example.svg&#34; style=&#34;height:px&#34;/&gt;
 &lt;/p&gt;
 
 
@@ -752,14 +752,14 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 &lt;p&gt;An easy way is to add &lt;code&gt;| .*&lt;/code&gt; in the filter, which will reveal all incoming requests. Yep, regex magic:&lt;/p&gt;
 
 &lt;p class=&#34;embed&#34;&gt;
-    &lt;embed src=&#34;https://kevcui.github.io/videos/mitmproxy-filter-on.svg&#34;/&gt;
+&lt;embed src=&#34;https://kevcui.github.io/videos/mitmproxy-filter-on.svg&#34; style=&#34;height:600px&#34;/&gt;
 &lt;/p&gt;
 
 
 &lt;p&gt;Another easy way is to simply type &lt;code&gt;E&lt;/code&gt; (shift+e), which will open events logs. It shows the client connection status. Use &lt;code&gt;q&lt;/code&gt; to quit events view:&lt;/p&gt;
 
 &lt;p class=&#34;embed&#34;&gt;
-    &lt;embed src=&#34;https://kevcui.github.io/videos/mitmproxy-events-view.svg&#34;/&gt;
+&lt;embed src=&#34;https://kevcui.github.io/videos/mitmproxy-events-view.svg&#34; style=&#34;height:600px&#34;/&gt;
 &lt;/p&gt;
 
 
