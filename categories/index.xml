@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Bug</title>
+      <title>bug</title>
       <link>https://kevcui.github.io/categories/bug/</link>
       <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
       
@@ -30,16 +30,7 @@
     </item>
     
     <item>
-      <title>Jekyll</title>
-      <link>https://kevcui.github.io/categories/jekyll/</link>
-      <pubDate>Fri, 18 Nov 2016 22:09:23 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/categories/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Review</title>
+      <title>review</title>
       <link>https://kevcui.github.io/categories/review/</link>
       <pubDate>Fri, 23 Dec 2016 19:56:57 +0200</pubDate>
       
@@ -48,7 +39,16 @@
     </item>
     
     <item>
-      <title>Testing</title>
+      <title>twitter</title>
+      <link>https://kevcui.github.io/categories/twitter/</link>
+      <pubDate>Sun, 11 Dec 2016 22:00:00 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/categories/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
       <link>https://kevcui.github.io/categories/testing/</link>
       <pubDate>Thu, 01 Dec 2016 21:37:35 +0200</pubDate>
       
@@ -57,7 +57,7 @@
     </item>
     
     <item>
-      <title>Tutorial</title>
+      <title>tutorial</title>
       <link>https://kevcui.github.io/categories/tutorial/</link>
       <pubDate>Sat, 19 Nov 2016 13:00:00 +0200</pubDate>
       
@@ -66,11 +66,11 @@
     </item>
     
     <item>
-      <title>Twitter</title>
-      <link>https://kevcui.github.io/categories/twitter/</link>
-      <pubDate>Sun, 11 Dec 2016 22:00:00 +0200</pubDate>
+      <title>jekyll</title>
+      <link>https://kevcui.github.io/categories/jekyll/</link>
+      <pubDate>Fri, 18 Nov 2016 22:09:23 +0200</pubDate>
       
-      <guid>https://kevcui.github.io/categories/twitter/</guid>
+      <guid>https://kevcui.github.io/categories/jekyll/</guid>
       <description></description>
     </item>
     

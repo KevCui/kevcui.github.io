@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devops on Kevin Cui</title>
+    <title>DevOps on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/devops/</link>
-    <description>Recent content in Devops on Kevin Cui</description>
+    <description>Recent content in DevOps on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 04 Jul 2017 19:35:28 +0200</lastBuildDate>

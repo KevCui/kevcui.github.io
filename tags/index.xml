@@ -6,94 +6,13 @@
     <description>Recent content in Tags on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2017 20:57:53 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 18 Apr 2019 10:55:55 +0200</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Animation</title>
-      <link>https://kevcui.github.io/tags/animation/</link>
-      <pubDate>Tue, 11 Jul 2017 20:57:53 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/animation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Book Review</title>
-      <link>https://kevcui.github.io/tags/book-review/</link>
-      <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/book-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Browser</title>
-      <link>https://kevcui.github.io/tags/browser/</link>
-      <pubDate>Thu, 16 Nov 2017 18:04:57 +0100</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/browser/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bug</title>
-      <link>https://kevcui.github.io/tags/bug/</link>
-      <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/bug/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bugshido</title>
-      <link>https://kevcui.github.io/tags/bugshido/</link>
-      <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/bugshido/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Calabash</title>
-      <link>https://kevcui.github.io/tags/calabash/</link>
-      <pubDate>Sat, 21 Jan 2017 10:48:00 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/calabash/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Charles</title>
-      <link>https://kevcui.github.io/tags/charles/</link>
-      <pubDate>Tue, 27 Jun 2017 21:43:23 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/charles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chromium</title>
-      <link>https://kevcui.github.io/tags/chromium/</link>
-      <pubDate>Mon, 27 Mar 2017 23:02:13 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/chromium/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cli</title>
-      <link>https://kevcui.github.io/tags/cli/</link>
-      <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/cli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Colemak</title>
+      <title>colemak</title>
       <link>https://kevcui.github.io/tags/colemak/</link>
       <pubDate>Thu, 18 Apr 2019 10:55:55 +0200</pubDate>
       
@@ -102,133 +21,7 @@
     </item>
     
     <item>
-      <title>Commands</title>
-      <link>https://kevcui.github.io/tags/commands/</link>
-      <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/commands/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Css</title>
-      <link>https://kevcui.github.io/tags/css/</link>
-      <pubDate>Tue, 11 Jul 2017 20:57:53 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deploy</title>
-      <link>https://kevcui.github.io/tags/deploy/</link>
-      <pubDate>Sun, 18 Jun 2017 15:55:09 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/deploy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developer</title>
-      <link>https://kevcui.github.io/tags/developer/</link>
-      <pubDate>Tue, 20 Jun 2017 21:28:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/developer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Devops</title>
-      <link>https://kevcui.github.io/tags/devops/</link>
-      <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Experience</title>
-      <link>https://kevcui.github.io/tags/experience/</link>
-      <pubDate>Tue, 03 Oct 2017 17:50:00 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/experience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exploratory</title>
-      <link>https://kevcui.github.io/tags/exploratory/</link>
-      <pubDate>Mon, 17 Apr 2017 22:30:00 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/exploratory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Firefox</title>
-      <link>https://kevcui.github.io/tags/firefox/</link>
-      <pubDate>Thu, 16 Nov 2017 18:04:57 +0100</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/firefox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fun</title>
-      <link>https://kevcui.github.io/tags/fun/</link>
-      <pubDate>Thu, 01 Dec 2016 21:37:35 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/fun/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Github</title>
-      <link>https://kevcui.github.io/tags/github/</link>
-      <pubDate>Sun, 18 Jun 2017 15:55:09 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hexo</title>
-      <link>https://kevcui.github.io/tags/hexo/</link>
-      <pubDate>Wed, 12 Apr 2017 22:47:26 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/hexo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://kevcui.github.io/tags/hugo/</link>
-      <pubDate>Sun, 18 Jun 2017 15:55:09 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Idea</title>
-      <link>https://kevcui.github.io/tags/idea/</link>
-      <pubDate>Tue, 02 May 2017 20:35:50 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/idea/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jekyll</title>
-      <link>https://kevcui.github.io/tags/jekyll/</link>
-      <pubDate>Sun, 26 Feb 2017 16:40:26 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/jekyll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Keyboard</title>
+      <title>keyboard</title>
       <link>https://kevcui.github.io/tags/keyboard/</link>
       <pubDate>Thu, 18 Apr 2019 10:55:55 +0200</pubDate>
       
@@ -237,79 +30,7 @@
     </item>
     
     <item>
-      <title>Lighthouse</title>
-      <link>https://kevcui.github.io/tags/lighthouse/</link>
-      <pubDate>Sun, 03 Dec 2017 11:35:21 +0100</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/lighthouse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://kevcui.github.io/tags/linux/</link>
-      <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>List</title>
-      <link>https://kevcui.github.io/tags/list/</link>
-      <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/list/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mitmproxy</title>
-      <link>https://kevcui.github.io/tags/mitmproxy/</link>
-      <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/mitmproxy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mock</title>
-      <link>https://kevcui.github.io/tags/mock/</link>
-      <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/mock/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Notetaking</title>
-      <link>https://kevcui.github.io/tags/notetaking/</link>
-      <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/notetaking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Observation</title>
-      <link>https://kevcui.github.io/tags/observation/</link>
-      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/observation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Photography</title>
-      <link>https://kevcui.github.io/tags/photography/</link>
-      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Productivity</title>
+      <title>productivity</title>
       <link>https://kevcui.github.io/tags/productivity/</link>
       <pubDate>Thu, 18 Apr 2019 10:55:55 +0200</pubDate>
       
@@ -318,52 +39,25 @@
     </item>
     
     <item>
-      <title>Proxy</title>
-      <link>https://kevcui.github.io/tags/proxy/</link>
-      <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
+      <title>CLI</title>
+      <link>https://kevcui.github.io/tags/cli/</link>
+      <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
       
-      <guid>https://kevcui.github.io/tags/proxy/</guid>
+      <guid>https://kevcui.github.io/tags/cli/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Pwa</title>
-      <link>https://kevcui.github.io/tags/pwa/</link>
-      <pubDate>Sun, 03 Dec 2017 11:35:21 +0100</pubDate>
+      <title>notetaking</title>
+      <link>https://kevcui.github.io/tags/notetaking/</link>
+      <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
       
-      <guid>https://kevcui.github.io/tags/pwa/</guid>
+      <guid>https://kevcui.github.io/tags/notetaking/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Question</title>
-      <link>https://kevcui.github.io/tags/question/</link>
-      <pubDate>Tue, 03 Oct 2017 17:50:00 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/question/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Qwerty</title>
-      <link>https://kevcui.github.io/tags/qwerty/</link>
-      <pubDate>Sat, 19 Aug 2017 20:48:03 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/qwerty/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rubber Duck</title>
-      <link>https://kevcui.github.io/tags/rubber-duck/</link>
-      <pubDate>Tue, 20 Jun 2017 21:28:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/rubber-duck/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Script</title>
+      <title>script</title>
       <link>https://kevcui.github.io/tags/script/</link>
       <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
       
@@ -372,25 +66,25 @@
     </item>
     
     <item>
-      <title>Story</title>
-      <link>https://kevcui.github.io/tags/story/</link>
-      <pubDate>Sun, 29 Oct 2017 15:11:23 +0100</pubDate>
+      <title>observation</title>
+      <link>https://kevcui.github.io/tags/observation/</link>
+      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
       
-      <guid>https://kevcui.github.io/tags/story/</guid>
+      <guid>https://kevcui.github.io/tags/observation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Test Automation</title>
-      <link>https://kevcui.github.io/tags/test-automation/</link>
-      <pubDate>Sat, 21 Jan 2017 10:48:00 +0200</pubDate>
+      <title>photography</title>
+      <link>https://kevcui.github.io/tags/photography/</link>
+      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
       
-      <guid>https://kevcui.github.io/tags/test-automation/</guid>
+      <guid>https://kevcui.github.io/tags/photography/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Tester</title>
+      <title>tester</title>
       <link>https://kevcui.github.io/tags/tester/</link>
       <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
       
@@ -399,7 +93,7 @@
     </item>
     
     <item>
-      <title>Testing</title>
+      <title>testing</title>
       <link>https://kevcui.github.io/tags/testing/</link>
       <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
       
@@ -408,7 +102,61 @@
     </item>
     
     <item>
-      <title>Tips</title>
+      <title>commands</title>
+      <link>https://kevcui.github.io/tags/commands/</link>
+      <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/commands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://kevcui.github.io/tags/linux/</link>
+      <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>list</title>
+      <link>https://kevcui.github.io/tags/list/</link>
+      <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mitmproxy</title>
+      <link>https://kevcui.github.io/tags/mitmproxy/</link>
+      <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/mitmproxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mock</title>
+      <link>https://kevcui.github.io/tags/mock/</link>
+      <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/mock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>proxy</title>
+      <link>https://kevcui.github.io/tags/proxy/</link>
+      <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/proxy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips</title>
       <link>https://kevcui.github.io/tags/tips/</link>
       <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
       
@@ -417,7 +165,7 @@
     </item>
     
     <item>
-      <title>Tool</title>
+      <title>tool</title>
       <link>https://kevcui.github.io/tags/tool/</link>
       <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
       
@@ -426,25 +174,34 @@
     </item>
     
     <item>
-      <title>Twitter</title>
-      <link>https://kevcui.github.io/tags/twitter/</link>
-      <pubDate>Sun, 11 Dec 2016 22:00:00 +0200</pubDate>
+      <title>yearly review</title>
+      <link>https://kevcui.github.io/tags/yearly-review/</link>
+      <pubDate>Mon, 25 Dec 2017 20:40:32 +0100</pubDate>
       
-      <guid>https://kevcui.github.io/tags/twitter/</guid>
+      <guid>https://kevcui.github.io/tags/yearly-review/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Warrior</title>
-      <link>https://kevcui.github.io/tags/warrior/</link>
-      <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
+      <title>lighthouse</title>
+      <link>https://kevcui.github.io/tags/lighthouse/</link>
+      <pubDate>Sun, 03 Dec 2017 11:35:21 +0100</pubDate>
       
-      <guid>https://kevcui.github.io/tags/warrior/</guid>
+      <guid>https://kevcui.github.io/tags/lighthouse/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Web Building</title>
+      <title>pwa</title>
+      <link>https://kevcui.github.io/tags/pwa/</link>
+      <pubDate>Sun, 03 Dec 2017 11:35:21 +0100</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/pwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web building</title>
       <link>https://kevcui.github.io/tags/web-building/</link>
       <pubDate>Sun, 03 Dec 2017 11:35:21 +0100</pubDate>
       
@@ -453,11 +210,254 @@
     </item>
     
     <item>
-      <title>Yearly Review</title>
-      <link>https://kevcui.github.io/tags/yearly-review/</link>
-      <pubDate>Mon, 25 Dec 2017 20:40:32 +0100</pubDate>
+      <title>browser</title>
+      <link>https://kevcui.github.io/tags/browser/</link>
+      <pubDate>Thu, 16 Nov 2017 18:04:57 +0100</pubDate>
       
-      <guid>https://kevcui.github.io/tags/yearly-review/</guid>
+      <guid>https://kevcui.github.io/tags/browser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firefox</title>
+      <link>https://kevcui.github.io/tags/firefox/</link>
+      <pubDate>Thu, 16 Nov 2017 18:04:57 +0100</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/firefox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>story</title>
+      <link>https://kevcui.github.io/tags/story/</link>
+      <pubDate>Sun, 29 Oct 2017 15:11:23 +0100</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/story/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experience</title>
+      <link>https://kevcui.github.io/tags/experience/</link>
+      <pubDate>Tue, 03 Oct 2017 17:50:00 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>question</title>
+      <link>https://kevcui.github.io/tags/question/</link>
+      <pubDate>Tue, 03 Oct 2017 17:50:00 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/question/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qwerty</title>
+      <link>https://kevcui.github.io/tags/qwerty/</link>
+      <pubDate>Sat, 19 Aug 2017 20:48:03 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/qwerty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>animation</title>
+      <link>https://kevcui.github.io/tags/animation/</link>
+      <pubDate>Tue, 11 Jul 2017 20:57:53 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/animation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>css</title>
+      <link>https://kevcui.github.io/tags/css/</link>
+      <pubDate>Tue, 11 Jul 2017 20:57:53 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://kevcui.github.io/tags/devops/</link>
+      <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book review</title>
+      <link>https://kevcui.github.io/tags/book-review/</link>
+      <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/book-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>charles</title>
+      <link>https://kevcui.github.io/tags/charles/</link>
+      <pubDate>Tue, 27 Jun 2017 21:43:23 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/charles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>developer</title>
+      <link>https://kevcui.github.io/tags/developer/</link>
+      <pubDate>Tue, 20 Jun 2017 21:28:30 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/developer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rubber duck</title>
+      <link>https://kevcui.github.io/tags/rubber-duck/</link>
+      <pubDate>Tue, 20 Jun 2017 21:28:30 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/rubber-duck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deploy</title>
+      <link>https://kevcui.github.io/tags/deploy/</link>
+      <pubDate>Sun, 18 Jun 2017 15:55:09 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/deploy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://kevcui.github.io/tags/github/</link>
+      <pubDate>Sun, 18 Jun 2017 15:55:09 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://kevcui.github.io/tags/hugo/</link>
+      <pubDate>Sun, 18 Jun 2017 15:55:09 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>idea</title>
+      <link>https://kevcui.github.io/tags/idea/</link>
+      <pubDate>Tue, 02 May 2017 20:35:50 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/idea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exploratory</title>
+      <link>https://kevcui.github.io/tags/exploratory/</link>
+      <pubDate>Mon, 17 Apr 2017 22:30:00 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/exploratory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hexo</title>
+      <link>https://kevcui.github.io/tags/hexo/</link>
+      <pubDate>Wed, 12 Apr 2017 22:47:26 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/hexo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chromium</title>
+      <link>https://kevcui.github.io/tags/chromium/</link>
+      <pubDate>Mon, 27 Mar 2017 23:02:13 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/chromium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>https://kevcui.github.io/tags/jekyll/</link>
+      <pubDate>Sun, 26 Feb 2017 16:40:26 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>calabash</title>
+      <link>https://kevcui.github.io/tags/calabash/</link>
+      <pubDate>Sat, 21 Jan 2017 10:48:00 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/calabash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test automation</title>
+      <link>https://kevcui.github.io/tags/test-automation/</link>
+      <pubDate>Sat, 21 Jan 2017 10:48:00 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/test-automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bug</title>
+      <link>https://kevcui.github.io/tags/bug/</link>
+      <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/bug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bugshido</title>
+      <link>https://kevcui.github.io/tags/bugshido/</link>
+      <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/bugshido/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>warrior</title>
+      <link>https://kevcui.github.io/tags/warrior/</link>
+      <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/warrior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>twitter</title>
+      <link>https://kevcui.github.io/tags/twitter/</link>
+      <pubDate>Sun, 11 Dec 2016 22:00:00 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/twitter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fun</title>
+      <link>https://kevcui.github.io/tags/fun/</link>
+      <pubDate>Thu, 01 Dec 2016 21:37:35 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/fun/</guid>
       <description></description>
     </item>
     
