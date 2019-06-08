@@ -35,9 +35,8 @@
 &lt;h4 id=&#34;how-to-achieve-this-key-binding-on-linux&#34;&gt;How to achieve this key binding on Linux?&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Act as &lt;strong&gt;Control&lt;/strong&gt; when press and hold: HHKB keyboard by default puts Control key on the usual Caps Lock position, which is great for me, so no tweak is needed. For other keyboards, I usually use &lt;code&gt;xmodmap&lt;/code&gt; to map Caps Lock key as Left Control key.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Act as &lt;strong&gt;Escape&lt;/strong&gt; when single press: &lt;a href=&#34;https://github.com/alols/xcape&#34;&gt;xcape&lt;/a&gt; can configure one key to act as other key when pressed and released:&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Act as &lt;strong&gt;Control&lt;/strong&gt; when press and hold: HHKB keyboard by default puts Control key on the usual Caps Lock position, which is great for me, so no tweak is needed. For other keyboards, I usually use &lt;code&gt;xmodmap&lt;/code&gt; to map Caps Lock key as Left Control key.&lt;/li&gt;
+&lt;li&gt;Act as &lt;strong&gt;Escape&lt;/strong&gt; when single press: &lt;a href=&#34;https://github.com/alols/xcape&#34;&gt;xcape&lt;/a&gt; can configure one key to act as other key when pressed and released:&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;xcape -t &lt;span class=&#34;m&#34;&gt;300&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;Control_L=Escape&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -66,11 +65,9 @@
 &lt;p&gt;When you use some uncommon tools in the real world, you know you have to prepare some small troubles that may come to you every day:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;QWERTY is literally everywhere: Accept the reality and enforce the muscle memory of QWERTY layout as well. Otherwise, like me, I&amp;rsquo;m extremely clumsy when typing on QWERTY.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Pair programming or testing on my machine: Remember to switch keyboard and key binding settings on the fly, depending on the person.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&amp;ldquo;This guy is a weirdo.&amp;rdquo;: So what?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;QWERTY is literally everywhere: Accept the reality and enforce the muscle memory of QWERTY layout as well. Otherwise, like me, I&amp;rsquo;m extremely clumsy when typing on QWERTY.&lt;/li&gt;
+&lt;li&gt;Pair programming or testing on my machine: Remember to switch keyboard and key binding settings on the fly, depending on the person.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;This guy is a weirdo.&amp;rdquo;: So what?&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -665,6 +662,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
+    &lt;br/&gt;
     &lt;sup&gt;
         &lt;em&gt;
             Photo by &lt;a href=&#34;https://unsplash.com/photos/betmVWGYcLY&#34;&gt;Ashley Batz&lt;/a&gt;
@@ -911,6 +909,7 @@ Book Review: The DevOps Handbook
 &lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*c4LxfFXAUMhEzNiXsGXbQg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
+    &lt;br/&gt;
     &lt;sup&gt;
         &lt;em&gt;
             Photo by &lt;a href=&#34;https://unsplash.com/photos/D5OzyJ71mLI&#34;&gt;Robert Wiedemann&lt;/a&gt;
@@ -953,17 +952,29 @@ Book Review: The DevOps Handbook
 
 &lt;p&gt;After running an audit in Lighthouse, it will provide a detailed report. First, it shows the overall scores:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-before-overview.jpg&#34; alt=&#34;before-overview&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;imagsup&#34;&gt;
+    &lt;img src=&#34;https://kevcui.github.io/images/lighthouse-before-overview.jpg&#34; alt=&#34;before-overview&#34;/&gt;
+    &lt;br/&gt;
+    &lt;sup&gt;
+        &lt;em&gt; Overview of the first Lighthouse audit result &lt;/em&gt;
+        
+    &lt;/sup&gt;
+&lt;/p&gt;
 
-&lt;p&gt;&lt;sup&gt;Overview of the first Lighthouse audit result&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m not surprised by this result, not at all. These numbers are making people feel good when they have greens. Besides that, I would suggest to ignore them.&lt;/p&gt;
 
 &lt;p&gt;When continuing reading the report, I find the interesting parts: failed audits. It&amp;rsquo;s a nicely organized To-Do list, especially the &lt;em&gt;Learn more&lt;/em&gt; links which open documents to explain why the audit is important and how to pass the audit.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-before-pwa.jpg&#34; alt=&#34;before-pwa&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;imagsup&#34;&gt;
+    &lt;img src=&#34;https://kevcui.github.io/images/lighthouse-before-pwa.jpg&#34; alt=&#34;before-pwa&#34;/&gt;
+    &lt;br/&gt;
+    &lt;sup&gt;
+        &lt;em&gt; Failed audits for PWA section &lt;/em&gt;
+        
+    &lt;/sup&gt;
+&lt;/p&gt;
 
-&lt;p&gt;&lt;sup&gt;Failed audits for PWA section&lt;/sup&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;step-3-get-hands-dirty&#34;&gt;Step 3: Get hands dirty&lt;/h4&gt;
 
@@ -1077,9 +1088,15 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
 
 &lt;p&gt;Once the dirty jobs are well done, it&amp;rsquo;s time to run another performance audit. Although I know all score numbers are meaningless without contexts, it still feels damn awesome when I see all greens, right?&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/lighthouse-after-overview.jpg&#34; alt=&#34;after-overview&#34; /&gt;&lt;/p&gt;
+&lt;p class=&#34;imagsup&#34;&gt;
+    &lt;img src=&#34;https://kevcui.github.io/images/lighthouse-after-overview.jpg&#34; alt=&#34;after-overview&#34;/&gt;
+    &lt;br/&gt;
+    &lt;sup&gt;
+        &lt;em&gt; Another overview of Lighthouse audit result &lt;/em&gt;
+        
+    &lt;/sup&gt;
+&lt;/p&gt;
 
-&lt;p&gt;&lt;sup&gt;Another overview of Lighthouse audit result&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Surprisingly, Firefox now starts to support PWA as well:&lt;/p&gt;
 
@@ -1116,6 +1133,7 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
 &lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*9mBvw14zpiMV-7GOrNVJ_w.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
+    &lt;br/&gt;
     &lt;sup&gt;
         &lt;em&gt;
             Photo by &lt;a href=&#34;https://www.flickr.com/photos/garrett/280258600/in/photostream/&#34;&gt;Garrett LeSage&lt;/a&gt;
@@ -1170,6 +1188,7 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
 &lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*-3tBMgj6n1bSgjgDHaHP7A.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
+    &lt;br/&gt;
     &lt;sup&gt;
         &lt;em&gt;
             Photo by &lt;a href=&#34;https://unsplash.com/photos/V9keLsAtxyA&#34;&gt;Scott Walsh&lt;/a&gt;
@@ -1282,6 +1301,7 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
 &lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*_7gaDlQJMxk0nz5w3CSklQ.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
+    &lt;br/&gt;
     &lt;sup&gt;
         &lt;em&gt;
             Photo by &lt;a href=&#34;https://unsplash.com/@jdsimcoe/&#34;&gt;Jonathan Simcoe&lt;/a&gt;
@@ -1745,6 +1765,7 @@ avoid double negative
 &lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*fXBo56b0tanSCNHo4O2eWw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
+    &lt;br/&gt;
     &lt;sup&gt;
         &lt;em&gt;
             Photo by &lt;a href=&#34;https://unsplash.com/photos/5Ntkpxqt54Y&#34;&gt;Sai Kiran Anagani Vijayawada&lt;/a&gt;
@@ -1895,6 +1916,7 @@ article:nth-child(4) {
 &lt;p class=&#34;coverimage&#34;&gt;
     &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Y7unAywBRkUxr51nVx_kvg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
     
+    &lt;br/&gt;
     &lt;sup&gt;
         &lt;em&gt;
             Photo by &lt;a href=&#34;https://www.flickr.com/photos/clumsyjim/1907979770/&#34;&gt;Jim&lt;/a&gt;

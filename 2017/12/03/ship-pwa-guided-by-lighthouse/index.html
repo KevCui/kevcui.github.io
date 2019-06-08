@@ -280,6 +280,7 @@
 <p class="coverimage">
     <img src="https://cdn-images-1.medium.com/max/2000/1*c4LxfFXAUMhEzNiXsGXbQg.jpeg" alt="coverimage"/>
     
+    <br/>
     <sup>
         <em>
             Photo by <a href="https://unsplash.com/photos/D5OzyJ71mLI">Robert Wiedemann</a>
@@ -322,17 +323,29 @@
 
 <p>After running an audit in Lighthouse, it will provide a detailed report. First, it shows the overall scores:</p>
 
-<p><img src="/images/lighthouse-before-overview.jpg" alt="before-overview" /></p>
+<p class="imagsup">
+    <img src="/images/lighthouse-before-overview.jpg" alt="before-overview"/>
+    <br/>
+    <sup>
+        <em> Overview of the first Lighthouse audit result </em>
+        
+    </sup>
+</p>
 
-<p><sup>Overview of the first Lighthouse audit result</sup></p>
 
 <p>I&rsquo;m not surprised by this result, not at all. These numbers are making people feel good when they have greens. Besides that, I would suggest to ignore them.</p>
 
 <p>When continuing reading the report, I find the interesting parts: failed audits. It&rsquo;s a nicely organized To-Do list, especially the <em>Learn more</em> links which open documents to explain why the audit is important and how to pass the audit.</p>
 
-<p><img src="/images/lighthouse-before-pwa.jpg" alt="before-pwa" /></p>
+<p class="imagsup">
+    <img src="/images/lighthouse-before-pwa.jpg" alt="before-pwa"/>
+    <br/>
+    <sup>
+        <em> Failed audits for PWA section </em>
+        
+    </sup>
+</p>
 
-<p><sup>Failed audits for PWA section</sup></p>
 
 <h4 id="step-3-get-hands-dirty">Step 3: Get hands dirty</h4>
 
@@ -446,9 +459,15 @@ navigator.serviceWorker.register('./sw.js')
 
 <p>Once the dirty jobs are well done, it&rsquo;s time to run another performance audit. Although I know all score numbers are meaningless without contexts, it still feels damn awesome when I see all greens, right?</p>
 
-<p><img src="/images/lighthouse-after-overview.jpg" alt="after-overview" /></p>
+<p class="imagsup">
+    <img src="/images/lighthouse-after-overview.jpg" alt="after-overview"/>
+    <br/>
+    <sup>
+        <em> Another overview of Lighthouse audit result </em>
+        
+    </sup>
+</p>
 
-<p><sup>Another overview of Lighthouse audit result</sup></p>
 
 <p>Surprisingly, Firefox now starts to support PWA as well:</p>
 
