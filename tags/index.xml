@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Apr 2019 10:55:55 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jul 2019 22:05:04 +0200</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>self-awareness</title>
+      <link>https://kevcui.github.io/tags/self-awareness/</link>
+      <pubDate>Fri, 12 Jul 2019 22:05:04 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/self-awareness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tester</title>
+      <link>https://kevcui.github.io/tags/tester/</link>
+      <pubDate>Fri, 12 Jul 2019 22:05:04 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/tester/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>colemak</title>
@@ -80,15 +98,6 @@
       <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
       
       <guid>https://kevcui.github.io/tags/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tester</title>
-      <link>https://kevcui.github.io/tags/tester/</link>
-      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/tester/</guid>
       <description></description>
     </item>
     
