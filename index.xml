@@ -6,7 +6,114 @@
     <language>en-us</language>
     
     
-    <updated>Thu, 18 Apr 2019 10:55:55 CEST</updated>
+    <updated>Fri, 12 Jul 2019 22:05:04 CEST</updated>
+    
+    <item>
+      <title>Please Don&#39;t Call Me QA</title>
+      <link>https://kevcui.github.io/2019/07/12/please-dont-call-me-qa/</link>
+      <pubDate>Fri, 12 Jul 2019 22:05:04 CEST</pubDate>
+      
+      <guid>https://kevcui.github.io/2019/07/12/please-dont-call-me-qa/</guid>
+      <description>
+
+&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://images.unsplash.com/photo-1533175069760-268143ce2e51?ixlib=rb-1.2.1&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1950&amp;amp;q=80&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;br/&gt;
+    &lt;sup&gt;
+        &lt;em&gt;
+            Photo by &lt;a href=&#34;https://unsplash.com/photos/E-b_VNmtGJY&#34;&gt;Gabriel&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
+
+&lt;p&gt;Before we dive deep into something serious, relax, let&amp;rsquo;s start with a joke first. If it&amp;rsquo;s funny to you, then it&amp;rsquo;s true.&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;How many QA does it take to change a light bulb? None, we just report the darkness.&lt;/p&gt;&amp;mdash; RoboCoonie™ | Fluffo™ (@RoboCoonie) &lt;a href=&#34;https://twitter.com/RoboCoonie/status/1076847356?ref_src=twsrc%5Etfw&#34;&gt;December 24, 2008&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Now let me tell you a truth from the darkness: I don&amp;rsquo;t like people calling me QA, especially those who know me.&lt;/p&gt;
+
+&lt;p&gt;I have strong opinions on it, that&amp;rsquo;s why I&amp;rsquo;d like to share my opinions and to express my feeling in this post.&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-is-a-confusing-job-title&#34;&gt;QA is a confusing job title&lt;/h3&gt;
+
+&lt;p&gt;QA as a profession, its job title is never clear. Open any job search website, we will see &amp;ldquo;QA&amp;rdquo; jobs, like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;QA Engineer
+QA Tester
+QA Test Engineer
+QA Automation Engineer
+QA Automation Specialist
+Manual QA Tester
+Manual QA Test Engineer
+Automated QA Engineer
+Automated QA Test Engineer
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you have the time to read all the different job descriptions, the same job title is not necessarily doing a similar job. Moreover, different job titles can mean the same job. For those jobs, there is no need to put &amp;ldquo;QA&amp;rdquo; word in the title and it gets confusing anyway.&lt;/p&gt;
+
+&lt;p&gt;Ok, you may call me QA, what do you expect my job is?&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-is-an-obsolete-practice&#34;&gt;QA is an obsolete practice&lt;/h3&gt;
+
+&lt;p&gt;Quality assurance per se is a quality management practice brought from the manufacturing industry.&lt;/p&gt;
+
+&lt;p&gt;Adopting this concept in software development, it starts with QA, then QA team, then Quality Gate&amp;hellip; Indeed, this practice can still make sense nowadays in some industries which need strict risk management and serious quality management due to the regulations and laws.&lt;/p&gt;
+
+&lt;p&gt;However, speaking of myself, I don&amp;rsquo;t see myself willing to work in those companies and industries. Looking at the big picture from now to the future, more and more IT companies practice towards to customer-focused and fast-paced software development. In those companies, I barely can see where Quality Gates can fit? Where the QA team can fit? Where a QA can fit? For me, QA is an obsolete practice in software development.&lt;/p&gt;
+
+&lt;p&gt;Ok, you may call me QA, what do you expect my day-to-day work looks like?&lt;/p&gt;
+
+&lt;h3 id=&#34;qa-is-an-unhealthy-mindset&#34;&gt;QA is an unhealthy mindset&lt;/h3&gt;
+
+&lt;p&gt;In a typical working scenario, what developers think of QA?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;QA is responsible for quality.
+QA is responsible for testing.
+QA is nitpicking.
+QA is the blocker.
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What QAs think of developers?&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Developer cannot build quality product.
+Developer cannot test properly.
+Developer is careless.
+Developer is the troublemaker.
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This mindset causes frustrations. Others see QA as the crow, which brings bad news. QAs see themselves as underdogs, which usually loses arguments against developers&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;This mindset causes prejudgments. You are a QA, so why you didn&amp;rsquo;t catch this bug before it went into production?&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;This mindset causes selfishness. My role is to report this issue and it&amp;rsquo;s not my responsibility to help developers to fix it&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Ok, you may call me QA, what do you expect my mindset is?&lt;/p&gt;
+
+&lt;h3 id=&#34;alright-what-should-i-call-you-then&#34;&gt;Alright, what should I call you then?&lt;/h3&gt;
+
+&lt;p&gt;Please simply call me &amp;ldquo;tester&amp;rdquo;, because I value:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Product quality is build-in, and it cannot be test-out. Therefore, the whole team is responsible for product quality.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Testability is much more important than quality management. Therefore, each team member is obliged to think about testing.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Testing happens in any time in everywhere of the software development life cycle. Therefore, everyone is accountable for testing.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I do see myself in a position of supporting and coaching team members on software testing. My career goal is to remove the necessity of QA role in the team. Overall, I don&amp;rsquo;t like QA, it&amp;rsquo;s not my style.&lt;/p&gt;
+
+&lt;p&gt;Ok, after reading this post if you still want to call me QA, please do so.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Twenty Months With Colemak</title>
@@ -1902,61 +2009,6 @@ article:nth-child(4) {
 &lt;li&gt;Someone has huge resource to manage and wants to create a great company culture&lt;/li&gt;
 &lt;li&gt;Someone is doing DevOps but blocked and needs some decent ideas&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Bad Use of A Good Tool</title>
-      <link>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
-      <pubDate>Tue, 27 Jun 2017 21:43:23 CEST</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
-      <description>
-
-&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Y7unAywBRkUxr51nVx_kvg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-    &lt;br/&gt;
-    &lt;sup&gt;
-        &lt;em&gt;
-            Photo by &lt;a href=&#34;https://www.flickr.com/photos/clumsyjim/1907979770/&#34;&gt;Jim&lt;/a&gt;
-        &lt;/em&gt;
-    &lt;/sup&gt;
-    
-&lt;/p&gt;
-
-
-&lt;blockquote&gt;
-&lt;p&gt;If all you have is a hammer, everything looks like a nail.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to &lt;a href=&#34;https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;organize this testing party&lt;/a&gt;. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well. I feel shame for it. I ask myself why it happened? After I think again and again, one thing I could tell is because of &lt;strong&gt;my bad use of a good tool&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-good-tool&#34;&gt;A good tool&lt;/h3&gt;
-
-&lt;p&gt;Undeniably, &lt;a href=&#34;https://www.charlesproxy.com/&#34;&gt;Charles&lt;/a&gt; is an excellent debugging proxy. It&amp;rsquo;s powerful and handy. With a clean UI and easy setup, it becomes my daily tool. I rely on it to inspect HTTP/HTTPS requests and response, set breakpoints, simulate response status, mock response, bandwidth throttling, etc&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Naturally, more I use it, more I like it; More I will use it, then I will like it more&amp;hellip;.&lt;/p&gt;
-
-&lt;h3 id=&#34;bad-use&#34;&gt;Bad use&lt;/h3&gt;
-
-&lt;p&gt;One day, I tried &lt;a href=&#34;https://www.charlesproxy.com/documentation/tools/rewrite/&#34;&gt;rewrite tool&lt;/a&gt; in Charles to replace a simple JSON API response by some mock data. I found surprisingly that it worked very well. Since that, I started to add more and more rewriting rules for this and that&amp;hellip; Nowadays the set of rewriting rules becomes really complex. The mock data I used to replace response which started from the beginning as 4 lines, until now the entire content of a 4K file!&lt;/p&gt;
-
-&lt;p&gt;Sometimes I complain &amp;ldquo;Why Charles gives users only 1-line input filed for replacing stuff. It&amp;rsquo;s not possible to edit long text. How bad design it is!&amp;rdquo; Now I think it again and I have to admit that Charles is not designed for that. I use it wrongly. I should use it as a simple match-replace function for some strings, that&amp;rsquo;s it.&lt;/p&gt;
-
-&lt;p&gt;Another mistake I made is to treat it as a proxy server. Usually, I connect 1 Android and 1 iOS device to Charles proxy. But the craziest time, like last team testing, I ran Charles with heavy mock data and planned to setup the connection of 10+ mobile devices. The connection was not stable at all. The half of devices were disconnected frequently.&lt;/p&gt;
-
-&lt;p&gt;As it&amp;rsquo;s named as &amp;ldquo;debugging proxy&amp;rdquo;, it&amp;rsquo;s unfair for it to support 10+ devices &amp;ldquo;debugging&amp;rdquo; at the same time.&lt;/p&gt;
-
-&lt;h3 id=&#34;right-tool-for-the-job&#34;&gt;Right tool for the job&lt;/h3&gt;
-
-&lt;p&gt;Charles proxy is not a snake oil for manipulating http requests. It has its pros and cons. In my case, I need a proxy tool to mock response data heavily and to change mock data easily, meanwhile it should also provide stable connections of massive mobile devices for testing. Charles is a good tool for sure, but in this case, it&amp;rsquo;s not the right tool for my need.&lt;/p&gt;
-
-&lt;p&gt;I have to search for a proper solution. I find that &lt;a href=&#34;https://mitmproxy.org/&#34;&gt;mitmproxy&lt;/a&gt; could be a candidate to try out. Because of open-source and the support of customized python script, it would be flexible to adapt all kinds of situations. All I need to do is to make scripts to fulfill my need. I like making my hands dirty. Luckily, mitmproxy provides a good &lt;a href=&#34;http://docs.mitmproxy.org/en/stable/&#34;&gt;documentation&lt;/a&gt; and nice &lt;a href=&#34;https://discourse.mitmproxy.org/&#34;&gt;forums&lt;/a&gt;. At the end, it&amp;rsquo;s not too hard to write &lt;a href=&#34;https://github.com/kevcui/mitm-rewrite-script&#34;&gt;mitm-rewrite-script&lt;/a&gt;, which provides me the function I need.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Tools are designed to help us to deal with the problems. Depends on the different situations and the strength &amp;amp; weakness of tools, I have to think carefully and decide which one to use. Probably mitmproxy is my new proxy-hammer, but I won&amp;rsquo;t see everything like a nail. Once I decided that it is a good time to use Charles properly, I would say loudly and confidently &amp;ldquo;&lt;strong&gt;I choose you, Charles!&lt;/strong&gt;&amp;ldquo;&lt;/p&gt;
 </description>
     </item>
     

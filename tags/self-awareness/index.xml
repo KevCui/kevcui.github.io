@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>self-awareness on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/self-awareness/</link>
+    <description>Recent content in self-awareness on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jul 2019 22:05:04 +0200</lastBuildDate>
+    
+	<atom:link href="https://kevcui.github.io/tags/self-awareness/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Please Don&#39;t Call Me QA</title>
+      <link>https://kevcui.github.io/2019/07/12/please-dont-call-me-qa/</link>
+      <pubDate>Fri, 12 Jul 2019 22:05:04 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/2019/07/12/please-dont-call-me-qa/</guid>
+      <description>Photo by Gabriel   Before we dive deep into something serious, relax, let&amp;rsquo;s start with a joke first. If it&amp;rsquo;s funny to you, then it&amp;rsquo;s true.
+How many QA does it take to change a light bulb? None, we just report the darkness.
+&amp;mdash; RoboCoonie™ | Fluffo™ (@RoboCoonie) December 24, 2008  Now let me tell you a truth from the darkness: I don&amp;rsquo;t like people calling me QA, especially those who know me.</description>
+    </item>
+    
+  </channel>
+</rss>

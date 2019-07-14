@@ -4,19 +4,36 @@
   
   <url>
     <loc>https://kevcui.github.io/</loc>
-    <lastmod>2019-04-18T10:55:55+02:00</lastmod>
+    <lastmod>2019-07-12T22:05:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://kevcui.github.io/2019/07/12/please-dont-call-me-qa/</loc>
+    <lastmod>2019-07-12T22:05:04+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kevcui.github.io/post/</loc>
-    <lastmod>2019-04-18T10:55:55+02:00</lastmod>
+    <lastmod>2019-07-12T22:05:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kevcui.github.io/tags/</loc>
-    <lastmod>2019-04-18T10:55:55+02:00</lastmod>
+    <lastmod>2019-07-12T22:05:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/tags/self-awareness/</loc>
+    <lastmod>2019-07-12T22:05:04+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/tags/tester/</loc>
+    <lastmod>2019-07-12T22:05:04+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -79,12 +96,6 @@
   
   <url>
     <loc>https://kevcui.github.io/tags/photography/</loc>
-    <lastmod>2018-10-18T23:20:30+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/tags/tester/</loc>
     <lastmod>2018-10-18T23:20:30+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -433,13 +444,13 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/categories/bug/</loc>
+    <loc>https://kevcui.github.io/tags/bug/</loc>
     <lastmod>2017-01-08T12:31:43+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/bug/</loc>
+    <loc>https://kevcui.github.io/categories/bug/</loc>
     <lastmod>2017-01-08T12:31:43+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -473,13 +484,13 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/categories/twitter/</loc>
+    <loc>https://kevcui.github.io/tags/twitter/</loc>
     <lastmod>2016-12-11T22:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/twitter/</loc>
+    <loc>https://kevcui.github.io/categories/twitter/</loc>
     <lastmod>2016-12-11T22:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
