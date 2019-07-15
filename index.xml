@@ -29,19 +29,19 @@
 &lt;/p&gt;
 
 
-&lt;p&gt;Before we dive deep into something serious, relax, let&amp;rsquo;s start with a joke first. If it&amp;rsquo;s funny to you, then it&amp;rsquo;s true.&lt;/p&gt;
+&lt;p&gt;Before we dive deep into something serious, relax, let&amp;rsquo;s start with a joke:&lt;/p&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;How many QA does it take to change a light bulb? None, we just report the darkness.&lt;/p&gt;&amp;mdash; RoboCoonie™ | Fluffo™ (@RoboCoonie) &lt;a href=&#34;https://twitter.com/RoboCoonie/status/1076847356?ref_src=twsrc%5Etfw&#34;&gt;December 24, 2008&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;Now let me tell you a truth from the darkness: I don&amp;rsquo;t like people calling me QA, especially those who know me.&lt;/p&gt;
+&lt;p&gt;Funny? True? Now, let me tell you a truth from the darkness: I don&amp;rsquo;t like people calling me QA, especially those who know me.&lt;/p&gt;
 
-&lt;p&gt;I have strong opinions on it, that&amp;rsquo;s why I&amp;rsquo;d like to share my opinions and to express my feeling in this post.&lt;/p&gt;
+&lt;p&gt;I have my strong opinions on it, that&amp;rsquo;s why I&amp;rsquo;d like to share my opinions and to express my feeling in this post.&lt;/p&gt;
 
 &lt;h3 id=&#34;qa-is-a-confusing-job-title&#34;&gt;QA is a confusing job title&lt;/h3&gt;
 
-&lt;p&gt;QA as a profession, its job title is never clear. Open any job search website, we will see &amp;ldquo;QA&amp;rdquo; jobs, like:&lt;/p&gt;
+&lt;p&gt;QA as a profession, its job title is never clear. Open any job search website, you will see &amp;ldquo;QA&amp;rdquo; jobs, like:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;QA Engineer
 QA Tester
@@ -55,23 +55,21 @@ Automated QA Test Engineer
 ...
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you have the time to read all the different job descriptions, the same job title is not necessarily doing a similar job. Moreover, different job titles can mean the same job. For those jobs, there is no need to put &amp;ldquo;QA&amp;rdquo; word in the title and it gets confusing anyway.&lt;/p&gt;
+&lt;p&gt;If you have the time to read all those different job descriptions, the same job title is not necessarily doing a similar job. Moreover, different job titles can mean the same job. For those jobs, there is no need to put &amp;ldquo;QA&amp;rdquo; word in the title and they get confusing anyway.&lt;/p&gt;
 
 &lt;p&gt;Ok, you may call me QA, what do you expect my job is?&lt;/p&gt;
 
 &lt;h3 id=&#34;qa-is-an-obsolete-practice&#34;&gt;QA is an obsolete practice&lt;/h3&gt;
 
-&lt;p&gt;Quality assurance per se is a quality management practice brought from the manufacturing industry.&lt;/p&gt;
+&lt;p&gt;Quality assurance per se is a quality management practice brought from the manufacturing industry. Adopting this concept in software development, it starts with QA, then QA team, then Quality Gate&amp;hellip; Indeed, this practice can still make sense in some industries which need strict risk management and serious quality management due to the regulations and laws.&lt;/p&gt;
 
-&lt;p&gt;Adopting this concept in software development, it starts with QA, then QA team, then Quality Gate&amp;hellip; Indeed, this practice can still make sense nowadays in some industries which need strict risk management and serious quality management due to the regulations and laws.&lt;/p&gt;
-
-&lt;p&gt;However, speaking of myself, I don&amp;rsquo;t see myself willing to work in those companies and industries. Looking at the big picture from now to the future, more and more IT companies practice towards to customer-focused and fast-paced software development. In those companies, I barely can see where Quality Gates can fit? Where the QA team can fit? Where a QA can fit? For me, QA is an obsolete practice in software development.&lt;/p&gt;
+&lt;p&gt;However, speaking of myself, I can&amp;rsquo;t see myself willing to work in those companies and industries in the future. Looking at the big picture from now to the future, more and more IT companies practice towards to customer-focused and fast-paced software development. In those companies, I barely can see where Quality Gates can fit, where the QA team can fit, where a QA can fit. For me, QA is an obsolete practice in software development.&lt;/p&gt;
 
 &lt;p&gt;Ok, you may call me QA, what do you expect my day-to-day work looks like?&lt;/p&gt;
 
 &lt;h3 id=&#34;qa-is-an-unhealthy-mindset&#34;&gt;QA is an unhealthy mindset&lt;/h3&gt;
 
-&lt;p&gt;In a typical working scenario, what developers think of QA?&lt;/p&gt;
+&lt;p&gt;In a typical work environment, what developers think of QA?&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;QA is responsible for quality.
 QA is responsible for testing.
@@ -89,11 +87,11 @@ Developer is the troublemaker.
 ...
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;This mindset causes frustrations. Others see QA as the crow, which brings bad news. QAs see themselves as underdogs, which usually loses arguments against developers&amp;hellip;&lt;/p&gt;
+&lt;p&gt;This mindset causes frustrations: Others see QA as the crow, which brings bad news. QAs see themselves as underdogs, which usually loses arguments against developers&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;This mindset causes prejudgments. You are a QA, so why you didn&amp;rsquo;t catch this bug before it went into production?&amp;hellip;&lt;/p&gt;
+&lt;p&gt;This mindset causes prejudgments: &amp;ldquo;You are a QA, so why you didn&amp;rsquo;t catch this bug before it went into production?&amp;hellip;&amp;rdquo;&lt;/p&gt;
 
-&lt;p&gt;This mindset causes selfishness. My role is to report this issue and it&amp;rsquo;s not my responsibility to help developers to fix it&amp;hellip;&lt;/p&gt;
+&lt;p&gt;This mindset causes selfishness: &amp;ldquo;I don&amp;rsquo;t test, QA will test.&amp;rdquo; &amp;ldquo;My role is to report this issue and it&amp;rsquo;s not my responsibility to help developers to fix it&amp;hellip;&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;Ok, you may call me QA, what do you expect my mindset is?&lt;/p&gt;
 
