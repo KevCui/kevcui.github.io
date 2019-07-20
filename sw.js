@@ -1,4 +1,4 @@
-var CACHE_NAME = 'kevin-site-1563217965';
+var CACHE_NAME = 'kevin-site-1563624369';
 var urlsToCache = [
     '/',
     '/#blog',
