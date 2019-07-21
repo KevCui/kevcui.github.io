@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>list on Kevin Cui</title>
-    <link>https://kevcui.github.io/tags/list/</link>
-    <description>Recent content in list on Kevin Cui</description>
+    <title>timezone on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/timezone/</link>
+    <description>Recent content in timezone on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Sep 2018 17:21:08 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 09 May 2017 10:38:38 +0200</lastBuildDate>
     
-	<atom:link href="https://kevcui.github.io/tags/list/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kevcui.github.io/tags/timezone/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Replace 8 Frequently Used Linux Commands!?</title>
-      <link>https://kevcui.github.io/2018/09/02/replace-8-frequently-used-linux-commands/</link>
-      <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2018/09/02/replace-8-frequently-used-linux-commands/</guid>
-      <description>.lnt { display: none }  Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.
-Here is a list of improved commands I&amp;rsquo;d like to share with you:</description>
-    </item>
     
     <item>
       <title>City Timezone Data</title>
@@ -29,33 +19,6 @@ Here is a list of improved commands I&amp;rsquo;d like to share with you:</descr
       <guid>https://kevcui.github.io/2017/05/09/city-timezone/</guid>
       <description>Data imported from igor-makarov/timezones
 Malishevë,Kosovo,Europe/Belgrade Prizren,Kosovo,Europe/Belgrade Zubin Potok,Kosovo,Europe/Belgrade Kamenicë,Kosovo,Europe/Belgrade Viti,Kosovo,Europe/Belgrade Shtërpcë,Kosovo,Europe/Belgrade Shtime,Kosovo,Europe/Belgrade Vushtrri,Kosovo,Europe/Belgrade Dragash,Kosovo,Europe/Belgrade Podujevë,Kosovo,Europe/Belgrade Fushë Kosovë,Kosovo,Europe/Belgrade Kaçanik,Kosovo,Europe/Belgrade Klinë,Kosovo,Europe/Belgrade Leposaviq,Kosovo,Europe/Belgrade Pejë,Kosovo,Europe/Belgrade Rahovec,Kosovo,Europe/Belgrade Gjilan,Kosovo,Europe/Belgrade Lipjan,Kosovo,Europe/Belgrade Obiliq,Kosovo,Europe/Belgrade Gjakovë,Kosovo,Europe/Belgrade Pristina,Kosovo,Europe/Belgrade Deçan,Kosovo,Europe/Belgrade Istog,Kosovo,Europe/Belgrade Hani i Elezit,Kosovo,Europe/Belgrade Junik,Kosovo,Europe/Belgrade Kllokot,Kosovo,Europe/Belgrade Mamushë,Kosovo,Europe/Belgrade Partesh,Kosovo,Europe/Belgrade Ranillug,Kosovo,Europe/Belgrade Ferizaj,Kosovo,Europe/Belgrade Zveçan,Kosovo,Europe/Belgrade Suharekë,Kosovo,Europe/Belgrade Gllogovc,Kosovo,Europe/Belgrade Mitrovicë,Kosovo,Europe/Belgrade Skenderaj,Kosovo,Europe/Belgrade Novobërdë,Kosovo,Europe/Belgrade Graçanicë,Kosovo,Europe/Belgrade Longyearbyen,Svalbard,Arctic/Longyearbyen Al Quds,West Bank,Asia/Hebron Sanaa,Yemen,Asia/Aden Marib,Yemen,Asia/Aden Al Jabīn,Yemen,Asia/Aden Hajjah,Yemen,Asia/Aden Ibb,Yemen,Asia/Aden Al Hudaydah,Yemen,Asia/Aden Lahij,Yemen,Asia/Aden Al Maḩwīt,Yemen,Asia/Aden Taizz,Yemen,Asia/Aden Sadah,Yemen,Asia/Aden Dhamar,Yemen,Asia/Aden ‘Amrān,Yemen,Asia/Aden Aḑ Ḑāli‘,Yemen,Asia/Aden Saywun,Yemen,Asia/Aden Al Bayda,Yemen,Asia/Aden Zinjibār,Yemen,Asia/Aden Rida,Yemen,Asia/Aden &#39;Ataq,Yemen,Asia/Aden Al Ghaydah,Yemen,Asia/Aden Sayhut,Yemen,Asia/Aden Al Mukalla,Yemen,Asia/Aden Al Ḩazm,Yemen,Asia/Aden Zabīd,Yemen,Asia/Aden Aden,Yemen,Asia/Aden Hadiboh,Yemen,Asia/Aden Ash Shihr,Yemen,Asia/Aden Dzaoudzi,Mayotte,Indian/Mayotte Lebowakgomo,South Africa,Africa/Johannesburg Potchefstroom,South Africa,Africa/Johannesburg Graaff Reinet,South Africa,Africa/Johannesburg Rustenburg,South Africa,Africa/Johannesburg Brandfort,South Africa,Africa/Johannesburg Vryheid,South Africa,Africa/Johannesburg Vereeniging,South Africa,Africa/Johannesburg Brits,South Africa,Africa/Johannesburg Bethlehem,South Africa,Africa/Johannesburg Ubomba,South Africa,Africa/Johannesburg Polokwane,South Africa,Africa/Johannesburg Springbok,South Africa,Africa/Johannesburg Thohoyandou,South Africa,Africa/Johannesburg Pietermaritzburg,South Africa,Africa/Johannesburg Poffader,South Africa,Africa/Johannesburg Carnarvon,South Africa,Africa/Johannesburg Kroonstad,South Africa,Africa/Johannesburg Alexander Bay,South Africa,Africa/Johannesburg Bloemhof,South Africa,Africa/Johannesburg Hermanus,South Africa,Africa/Johannesburg Bethal,South Africa,Africa/Johannesburg Upington,South Africa,Africa/Johannesburg Tzaneen,South Africa,Africa/Johannesburg Vanhynsdorp,South Africa,Africa/Johannesburg Kimberley,South Africa,Africa/Johannesburg Durban,South Africa,Africa/Johannesburg Klerksdorp,South Africa,Africa/Johannesburg Welkom,South Africa,Africa/Johannesburg De Aar,South Africa,Africa/Johannesburg Prieska,South Africa,Africa/Johannesburg Saldanha,South Africa,Africa/Johannesburg Middelburg,South Africa,Africa/Johannesburg Port St.</description>
-    </item>
-    
-    <item>
-      <title>My Toolbox</title>
-      <link>https://kevcui.github.io/2017/03/08/my-toolbox/</link>
-      <pubDate>Wed, 08 Mar 2017 22:12:08 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/03/08/my-toolbox/</guid>
-      <description>Software Testing 🌏👉 Test case generator (pairwise)
-📖👉 Test Heuristics Cheat Sheet
-📖👉 1-page usability test plan
-📀👉 faker-cli: generate massive amounts of fake data
-📀👉 Radamsa: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer
-📀👉 Ruby Pairwise: Ruby based tool for selecting a smaller number of test input combinations
-🌏👉 Name: all about name
-🌏👉 Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
-    </item>
-    
-    <item>
-      <title>Tweet Pinboard: June 2016 - December 2016</title>
-      <link>https://kevcui.github.io/2016/12/11/tweet-pinboard_06-122016/</link>
-      <pubDate>Sun, 11 Dec 2016 22:00:00 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2016/12/11/tweet-pinboard_06-122016/</guid>
-      <description>1/4 How does #QA prevent defects? My opinion is &amp;quot;Not really&amp;quot;. Similar to how to prevent sickness?
-&amp;mdash; @KevCui June 8, 2016  2/4 Right release &amp;amp; #QA processes, like good habits, are necessary but not sufficient. Some unexpected virus can still break immune system.
-&amp;mdash; @KevCui June 8, 2016  3/4 Instead of preventing deflects, #QA should be able to point out issues as early as possible and figure out the risks as well.</description>
     </item>
     
   </channel>

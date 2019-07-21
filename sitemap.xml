@@ -345,6 +345,17 @@
   </url>
   
   <url>
+    <loc>https://kevcui.github.io/2017/05/09/city-timezone/</loc>
+    <lastmod>2017-05-09T10:38:38+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/tags/timezone/</loc>
+    <lastmod>2017-05-09T10:38:38+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</loc>
     <lastmod>2017-05-02T20:35:50+02:00</lastmod>
   </url>
@@ -444,13 +455,13 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/categories/bug/</loc>
+    <loc>https://kevcui.github.io/tags/bug/</loc>
     <lastmod>2017-01-08T12:31:43+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/bug/</loc>
+    <loc>https://kevcui.github.io/categories/bug/</loc>
     <lastmod>2017-01-08T12:31:43+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -484,13 +495,13 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/categories/twitter/</loc>
+    <loc>https://kevcui.github.io/tags/twitter/</loc>
     <lastmod>2016-12-11T22:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/twitter/</loc>
+    <loc>https://kevcui.github.io/categories/twitter/</loc>
     <lastmod>2016-12-11T22:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
