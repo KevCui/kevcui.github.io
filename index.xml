@@ -1056,8 +1056,6 @@ Book Review: The DevOps Handbook
 
 &lt;p&gt;Like other awesome testers, undoubtedly, I see &lt;a href=&#34;https://www.ministryoftesting.com/&#34;&gt;Ministry of Testing&lt;/a&gt; as an active community to share testing knowledge. This year, I got the  chance to be a part of &lt;a href=&#34;https://dojo.ministryoftesting.com/events/testbash-germany-2017&#34;&gt;TestBash&lt;/a&gt;, which was the first time &lt;a href=&#34;https://life.ministryoftesting.com/organizing-testbash-germany-e576bf256559&#34;&gt;hosted in Germany&lt;/a&gt;. With plenty of passionate testers, I enjoyed every minute of TestBash. I&amp;rsquo;m looking forward to the next meet.&lt;/p&gt;
 
-
-
 &lt;hr /&gt;
 
 &lt;p&gt;As I said in &lt;a href=&#34;https://kevcui.github.io/2016/12/23/my-year-2016/&#34;&gt;my 2016 yearly review&lt;/a&gt;, &lt;em&gt;&amp;ldquo;For the next year, I don&amp;rsquo;t expect a big change coming, but maybe some small changes. What I know is that my journey will continue, step by step.&amp;rdquo;&lt;/em&gt;, it will still stay true for the next year.&lt;/p&gt;
@@ -1268,9 +1266,7 @@ navigator.serviceWorker.register(&#39;./sw.js&#39;)
 &lt;/p&gt;
 
 
-&lt;p&gt;Surprisingly, Firefox now starts to support PWA as well:&lt;/p&gt;
-
-
+&lt;p&gt;Surprisingly, Firefox now starts to support PWA as well.&lt;/p&gt;
 
 &lt;h3 id=&#34;what-else&#34;&gt;What else?&lt;/h3&gt;
 
