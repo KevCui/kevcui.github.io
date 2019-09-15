@@ -47,16 +47,5 @@ Malishevë,Kosovo,Europe/Belgrade Prizren,Kosovo,Europe/Belgrade Zubin Potok,Kos
 🌏👉 Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
     </item>
     
-    <item>
-      <title>Tweet Pinboard: June 2016 - December 2016</title>
-      <link>https://kevcui.github.io/2016/12/11/tweet-pinboard_06-122016/</link>
-      <pubDate>Sun, 11 Dec 2016 22:00:00 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2016/12/11/tweet-pinboard_06-122016/</guid>
-      <description>1/4 How does #QA prevent defects? My opinion is &amp;quot;Not really&amp;quot;. Similar to how to prevent sickness?
-&amp;mdash; @KevCui June 8, 2016  2/4 Right release &amp;amp; #QA processes, like good habits, are necessary but not sufficient. Some unexpected virus can still break immune system.
-&amp;mdash; @KevCui June 8, 2016  3/4 Instead of preventing deflects, #QA should be able to point out issues as early as possible and figure out the risks as well.</description>
-    </item>
-    
   </channel>
 </rss>

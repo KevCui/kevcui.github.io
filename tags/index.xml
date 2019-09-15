@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jul 2019 10:05:24 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2019 10:01:24 +0200</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>mental</title>
+      <link>https://kevcui.github.io/tags/mental/</link>
+      <pubDate>Sun, 15 Sep 2019 10:01:24 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/mental/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-awareness</title>
+      <link>https://kevcui.github.io/tags/self-awareness/</link>
+      <pubDate>Sun, 15 Sep 2019 10:01:24 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/self-awareness/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>life</title>
@@ -17,15 +35,6 @@
       <pubDate>Sat, 27 Jul 2019 10:05:24 +0200</pubDate>
       
       <guid>https://kevcui.github.io/tags/life/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>self-awareness</title>
-      <link>https://kevcui.github.io/tags/self-awareness/</link>
-      <pubDate>Sat, 27 Jul 2019 10:05:24 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/self-awareness/</guid>
       <description></description>
     </item>
     
@@ -66,7 +75,7 @@
     </item>
     
     <item>
-      <title>CLI</title>
+      <title>cli</title>
       <link>https://kevcui.github.io/tags/cli/</link>
       <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
       
@@ -300,20 +309,20 @@
     </item>
     
     <item>
-      <title>DevOps</title>
-      <link>https://kevcui.github.io/tags/devops/</link>
-      <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>book review</title>
       <link>https://kevcui.github.io/tags/book-review/</link>
       <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
       
       <guid>https://kevcui.github.io/tags/book-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://kevcui.github.io/tags/devops/</link>
+      <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/devops/</guid>
       <description></description>
     </item>
     
@@ -467,15 +476,6 @@
       <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
       
       <guid>https://kevcui.github.io/tags/warrior/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>twitter</title>
-      <link>https://kevcui.github.io/tags/twitter/</link>
-      <pubDate>Sun, 11 Dec 2016 22:00:00 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/twitter/</guid>
       <description></description>
     </item>
     

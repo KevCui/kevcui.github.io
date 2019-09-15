@@ -346,104 +346,98 @@
 <p>A working service worker has 4 essential parts:</p>
 
 <ul>
-<li>manifest.json: It&rsquo;s a json file located in <em>/</em> <strong>web app root directory</strong>:</li>
-</ul>
+<li><p>manifest.json: It&rsquo;s a json file located in <em>/</em> <strong>web app root directory</strong>:</p>
 
 <pre><code class="language-json">{
-  &quot;short_name&quot;: &quot;Kevin&quot;,
-  &quot;name&quot;: &quot;Kevin Cui&quot;,
-  &quot;icons&quot;: [
-    {
-      &quot;src&quot;:&quot;/images/kc.png&quot;,
-      &quot;sizes&quot;: &quot;512x512&quot;,
-      &quot;type&quot;: &quot;image/png&quot;
-    }
-  ],
-  &quot;start_url&quot;: &quot;/&quot;,
-  &quot;background_color&quot;: &quot;#000&quot;,
-  &quot;theme_color&quot;: &quot;#000&quot;,
-  &quot;display&quot;: &quot;standalone&quot;
+&quot;short_name&quot;: &quot;Kevin&quot;,
+&quot;name&quot;: &quot;Kevin Cui&quot;,
+&quot;icons&quot;: [
+{
+  &quot;src&quot;:&quot;/images/kc.png&quot;,
+  &quot;sizes&quot;: &quot;512x512&quot;,
+  &quot;type&quot;: &quot;image/png&quot;
 }
-</code></pre>
+],
+&quot;start_url&quot;: &quot;/&quot;,
+&quot;background_color&quot;: &quot;#000&quot;,
+&quot;theme_color&quot;: &quot;#000&quot;,
+&quot;display&quot;: &quot;standalone&quot;
+}
+</code></pre></li>
 
-<ul>
-<li>Link manifest.json in <em>index.html</em>:</li>
-</ul>
+<li><p>Link manifest.json in <em>index.html</em>:</p>
 
 <pre><code class="language-html">&lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&gt;
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>Service worker js: It must be created in <strong>web app root directory</strong>, alongside with <em>manifest.json</em>. Here is an example of the service worker called <em>sw.js</em>:</li>
-</ul>
+<li><p>Service worker js: It must be created in <strong>web app root directory</strong>, alongside with <em>manifest.json</em>. Here is an example of the service worker called <em>sw.js</em>:</p>
 
 <pre><code class="language-js">var CACHE_NAME = 'kevin-site';
 var urlsToCache = [
-    '/',
-    '/#blog',
-    '/css/font.min.css',
-    '/css/animate.min.css',
-    '/css/monokai.min.css',
-    '/js/umbrella.min.js',
-    '/js/highlight.min.js'
+'/',
+'/#blog',
+'/css/font.min.css',
+'/css/animate.min.css',
+'/css/monokai.min.css',
+'/js/umbrella.min.js',
+'/js/highlight.min.js'
 ];
 
 self.addEventListener('install', function(event) {
-  // Perform install steps
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(function(cache) {
-        console.log('Opened cache');
-        return cache.addAll(urlsToCache);
-      })
-  );
+// Perform install steps
+event.waitUntil(
+caches.open(CACHE_NAME)
+  .then(function(cache) {
+    console.log('Opened cache');
+    return cache.addAll(urlsToCache);
+  })
+);
 });
 
 self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    caches.match(event.request)
-      .then(function(response) {
-        if (response) {
+event.respondWith(
+caches.match(event.request)
+  .then(function(response) {
+    if (response) {
+      return response;
+    }
+
+    var fetchRequest = event.request.clone();
+
+    return fetch(fetchRequest).then(
+      function(response) {
+        if(!response || response.status !== 200 || response.type !== 'basic') {
           return response;
         }
 
-        var fetchRequest = event.request.clone();
+        var responseToCache = response.clone();
 
-        return fetch(fetchRequest).then(
-          function(response) {
-            if(!response || response.status !== 200 || response.type !== 'basic') {
-              return response;
-            }
+        caches.open(CACHE_NAME)
+          .then(function(cache) {
+            cache.put(event.request, responseToCache);
+          });
 
-            var responseToCache = response.clone();
-
-            caches.open(CACHE_NAME)
-              .then(function(cache) {
-                cache.put(event.request, responseToCache);
-              });
-
-            return response;
-          }
-        );
-      })
+        return response;
+      }
     );
+  })
+);
 });
-</code></pre>
+</code></pre></li>
 
-<ul>
-<li>A piece of JavaScript code to register service worker in <em>index.html</em>:</li>
-</ul>
+<li><p>A piece of JavaScript code to register service worker in <em>index.html</em>:</p>
 
 <pre><code class="language-js">if ('serviceWorker' in navigator) {
 navigator.serviceWorker.register('./sw.js')
-  .then(function(registration) {
-    console.log(&quot;Service Worker Registered&quot;, registration);
-  })
-  .catch(function(err) {
-    console.log(&quot;Service Worker Failed to Register&quot;, err);
-  })
+.then(function(registration) {
+console.log(&quot;Service Worker Registered&quot;, registration);
+})
+.catch(function(err) {
+console.log(&quot;Service Worker Failed to Register&quot;, err);
+})
 }
-</code></pre>
+</code></pre></li>
+</ul>
 
 <p>For more details of all these parts above, there is a good tutorial to follow: <a href="https://codelabs.developers.google.com/codelabs/add-to-home-screen/#0">Add Your Web App to a User&rsquo;s Home Screen</a> and a good example of PWA app to check its source code: <a href="https://github.com/GoogleChromeLabs/airhorn">airhorn</a></p>
 
