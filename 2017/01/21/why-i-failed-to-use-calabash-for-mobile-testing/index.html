@@ -267,137 +267,122 @@
           </div>
           <h1>Why I Failed to Use Calabash for Mobile Testing</h1>
           <section id="post-content" class="article-content post">
-              
-
-<p class="coverimage">
+              <p class="coverimage">
     <img src="https://cdn-images-1.medium.com/max/1000/1*61zMYo0AKZw7F_-UTBgULQ.jpeg" alt="coverimage"/>
     
 </p>
 
-
 <blockquote>
 <p>&ldquo;When I give up, I write it down. Someday I will pick myself up from the fall.&rdquo;</p>
 </blockquote>
-
 <h3 id="preface">Preface</h3>
-
 <p>I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it <em>reckless passion</em>. Although I learned a lot from it, I&rsquo;ve never shared what I learned in public. After that, I changed my focus and gave up on traditional UI automation.</p>
-
 <p>This week, I had some small talks with our awesome developers about test automation. The idea was to implement special UI automated tests, in order to check new product release automatically instead of sanity checking manually by the whole team. I suddenly remembered that I forgot to share my failure with them. I&rsquo;d like to write down in this post, my recklessness and something I learned. In case the team would like to move further on test automation, we could proceed with caution.</p>
-
 <h3 id="introduction">Introduction</h3>
-
 <p>My story begins back in September 2015, a sunny day. At that moment, I was so confident that our mobile apps are fully mature for automating tests. That day I started a draft plan of test automation. In the following week, I planned everything, I finished my research to find a suitable framework, I started my experiment and even I announced my plan to the team in a non-meeting Tuesday&hellip;</p>
-
 <h3 id="chapter-i-huge-ambitions-but-no-skills">Chapter I: huge ambitions but no skills</h3>
-
 <p>I successfully sold my big picture of test automation future too without any oppositions. With UI test automation, I had my dreams:</p>
-
 <ul>
-<li><p>A dream of brilliant and efficient release process</p></li>
-
-<li><p>A dream of full user behavior coverage</p></li>
-
-<li><p>A dream of no painful manual regression testing</p></li>
+<li>
+<p>A dream of brilliant and efficient release process</p>
+</li>
+<li>
+<p>A dream of full user behavior coverage</p>
+</li>
+<li>
+<p>A dream of no painful manual regression testing</p>
+</li>
 </ul>
-
 <p>My initial plan is to follow the steps below:</p>
-
 <ul>
-<li><p>Step 1: Build the main structure of test automation framework and create general functions</p></li>
-
-<li><p>Step 2: Create test scenarios to replace all manual sanity checks of app core features</p></li>
-
-<li><p>Step 3: Add new test scenarios to check acceptance criteria of user stories, to verify bug fixes</p></li>
+<li>
+<p>Step 1: Build the main structure of test automation framework and create general functions</p>
+</li>
+<li>
+<p>Step 2: Create test scenarios to replace all manual sanity checks of app core features</p>
+</li>
+<li>
+<p>Step 3: Add new test scenarios to check acceptance criteria of user stories, to verify bug fixes</p>
+</li>
 </ul>
-
-<p>To start the first step, I choose Calabash<sup><a name="back1"><a href="#link1">[1]</a></a></sup> as the framework. The reasons why I pick it because it is:</p>
-
+<p>To start the first step, I choose Calabash<!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link1">[1]</a><!-- raw HTML omitted --><!-- raw HTML omitted --> as the framework. The reasons why I pick it because it is:</p>
 <ul>
-<li><p>Cross-platform: Android and iOS</p></li>
-
-<li><p>BDD friendly</p></li>
-
-<li><p>Pure UI level, no need to dive deep into the code</p></li>
+<li>
+<p>Cross-platform: Android and iOS</p>
+</li>
+<li>
+<p>BDD friendly</p>
+</li>
+<li>
+<p>Pure UI level, no need to dive deep into the code</p>
+</li>
 </ul>
-
 <p>For me it looks really promising, even I had little knowledge of this tool and scripting using Ruby. My strong passion supports me to start the implementation of Calabash on Android side. It took me at least 2 sprints to make my hands very dirty. I did my best to script, debug, hack&hellip; As the final outputs, I created tons of functions to bind general actions with Gherkin syntax.</p>
-
 <p>Now it&rsquo;s time to move to the 2nd step, but soon in reality, I found it&rsquo;s hard to simulate user&rsquo;s general actions, for example: a simple action like scroll down on a list. How many times? How far can it scroll, stop at the end or somewhere randomly?</p>
-
 <p>Then I have to go back and forth between step 1 and step 2, when creating new test scenarios, meanwhile updating general action functions&hellip; I felt troublesome.</p>
-
 <p><strong>Next time I will ask myself first&hellip;</strong></p>
-
 <ul>
-<li><p>During planning, <strong>&ldquo;What&rsquo;s the purpose of automation?&rdquo;</strong>, <strong>&ldquo;What&rsquo;s the limitation of automation?&rdquo;</strong> and <strong>&ldquo;Where to start to automate checks?&rdquo;</strong><sup><a name="back2"><a href="#link2">[2]</a></a></sup></p></li>
-
-<li><p>When choosing a tool or framework, <strong>&ldquo;What are the pros and the cons of the tool?&rdquo;</strong>, <strong>&ldquo;Does the tool fit all my needs?&rdquo;</strong> and <strong>&ldquo;Do I have the knowledge to master the tool?&rdquo;</strong></p></li>
-
-<li><p>Before starting implementation, <strong>What&rsquo;s the testability of the product?</strong> and <strong>&ldquo;Do I have a clear architecture and design of test automation?&rdquo;</strong></p></li>
+<li>
+<p>During planning, <strong>&ldquo;What&rsquo;s the purpose of automation?&quot;</strong>, <strong>&ldquo;What&rsquo;s the limitation of automation?&quot;</strong> and **&ldquo;Where to start to automate checks?&quot;**<!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link2">[2]</a><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</li>
+<li>
+<p>When choosing a tool or framework, <strong>&ldquo;What are the pros and the cons of the tool?&quot;</strong>, <strong>&ldquo;Does the tool fit all my needs?&quot;</strong> and <strong>&ldquo;Do I have the knowledge to master the tool?&quot;</strong></p>
+</li>
+<li>
+<p>Before starting implementation, <strong>What&rsquo;s the testability of the product?</strong> and <strong>&ldquo;Do I have a clear architecture and design of test automation?&quot;</strong></p>
+</li>
 </ul>
-
 <h3 id="chapter-ii-unstable-execution-and-unreliable-result">Chapter II: unstable execution and unreliable result</h3>
-
 <p>Finally, I replaced almost all sanity checks by automated checks. I planned to announce the results to the team proudly but actually I didn&rsquo;t. Because after I tried to run tests several times, I found that test executions are not stable and test results are not reliable.</p>
-
 <h4 id="unstable-test-execution">Unstable test execution</h4>
-
 <p>I created some Android emulators where I launch tests, but the emulator is usually laggy. The frequent timeout of some test steps often destroyed the whole test execution. Then I have to launch tests on the real devices. Timeout issues got fewer. But after one snapshot version, executions were blocked by some small UI changes. After adapted all UI changes, I thought the execution should be smooth but I got the opposite. Due to the differences of the test environment, some test cases are only executable in a production environment, I have to add the mechanism to detect and switch environments.</p>
-
 <h4 id="unreliable-test-result">Unreliable test result</h4>
-
 <p>The worst thing in test automation is Schrödinger test, aka flaky test. Like ghosts haunting around, it&rsquo;s never sure that the result is failing or passing after a running. I got some flaky tests due to the timing of actions, too many preconditions to fulfill, the changeable input data in production environment, the bugs in framework&hellip;</p>
-
 <p>A huge test case will also cause unreliable test results. Imagine a 20-step test case, if it&rsquo;s failed in the 5th step, the hidden failure in the rest part is not able to be detected without continuing the execution. On the surface, it&rsquo;s only one failure. But it&rsquo;s possible that the failures of next 15 steps are covered underneath. I separated some huge test cases to small test cases. But in some cases, one step dependents on the app state created by another step. It took the effort to remove dependencies.</p>
-
 <p><strong>Next time I will ask myself first&hellip;</strong></p>
-
 <ul>
-<li><p><strong>Do I have a controllable and stable test environment?</strong></p></li>
-
-<li><p><strong>Which test environment for which test case?</strong></p></li>
-
-<li><p><strong>Do I have a process to handle flaky tests? Retry, quarantine or remove?</strong><sup><a name="back3"><a href="#link3">[3]</a></a></sup></p></li>
-
-<li><p><strong>Is a failed test case clear enough to identify bugs?</strong></p></li>
+<li>
+<p><strong>Do I have a controllable and stable test environment?</strong></p>
+</li>
+<li>
+<p><strong>Which test environment for which test case?</strong></p>
+</li>
+<li>
+<p>**Do I have a process to handle flaky tests? Retry, quarantine or remove?**<!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link3">[3]</a><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</li>
+<li>
+<p><strong>Is a failed test case clear enough to identify bugs?</strong></p>
+</li>
 </ul>
-
 <h3 id="chapter-iii-one-man-show-and-demotivated-maintenance">Chapter III: one-man show and demotivated maintenance</h3>
-
 <p>3 months later, I didn&rsquo;t go further in the 3rd step. Because my confidence was torn apart by unreliable results and my passion was extinguished by daily maintenance tasks. I told myself that it&rsquo;s time to give up. Silently I stopped putting my effort to write new tests and maintain test suite.</p>
-
 <p>2 sprints after, I came back from my vacation. I doubted whether tests were still executable. Then I accessed to the old Calabash repository carefully and executed scripts curiously, as expected, not a single test can start to run.</p>
-
 <p>Since then, no one, including me, ever mentioned about Calabash test automation. I realized my biggest mistake: I should let the team involve in the entire automation project. So it wouldn&rsquo;t end up now as a ridiculous one-man show.</p>
-
 <p><strong>Next time I will ask myself first&hellip;</strong></p>
-
 <ul>
-<li><p><strong>Am I the only one who maintain the whole automation project?</strong></p></li>
-
-<li><p><strong>Do I manage to update test suite immediately after code changes?</strong></p></li>
-
-<li><p><strong>How do I measure the test automation whether it&rsquo;s helpful or not?</strong></p></li>
+<li>
+<p><strong>Am I the only one who maintain the whole automation project?</strong></p>
+</li>
+<li>
+<p><strong>Do I manage to update test suite immediately after code changes?</strong></p>
+</li>
+<li>
+<p><strong>How do I measure the test automation whether it&rsquo;s helpful or not?</strong></p>
+</li>
 </ul>
-
 <h3 id="fin">Fin</h3>
-
-<p>The sad story is over. It triggers the change of test automation definition in my mind. Now I see test automation as a tool<sup><a name="back4"><a href="#link4">[4]</a></a></sup> and a tester augmentation<sup><a name="back5"><a href="#link5">[5]</a></a></sup>. Following this definition, I made a lot of scripts to help me explore products efficiently.</p>
-
+<p>The sad story is over. It triggers the change of test automation definition in my mind. Now I see test automation as a tool<!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link4">[4]</a><!-- raw HTML omitted --><!-- raw HTML omitted --> and a tester augmentation<!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link5">[5]</a><!-- raw HTML omitted --><!-- raw HTML omitted -->. Following this definition, I made a lot of scripts to help me explore products efficiently.</p>
 <p>But somewhere in my mind, I still have my assent of the traditional definition of test automation; Somewhere in my heart, I still have my passion for creating a perfect UI automation for mobile testing. Next time when I restart, I will ask myself the above questions, to explore another path towards the successful &ldquo;UI automation&rdquo;.</p>
-
-<hr />
-
-<p><a name="link1"><a href="#back1">[1]</a></a> Calabash <a href="http://calaba.sh/">homepage</a>
-<br/>
-<a name="link2"><a href="#back2">[2]</a></a> Oleksii Burdin: <a href="https://lazytesterua.blogspot.de/2016/02/where-to-start-automation.html">Where to start to automate your checks?</a>
-<br/>
-<a name="link3"><a href="#back3">[3]</a></a> Walmyr Filho: <a href="https://medium.com/the-making-of-appear-in/the-importance-of-dealing-with-flaky-tests-1b69145dee0f#.q5fgedjx0">The importance of dealing with flaky tests</a>
-<br/>
-<a name="link4"><a href="#back4">[4]</a></a> Micheal Bolton: <a href="http://www.developsense.com/blog/2016/01/a-context-driven-approach-to-automation-in-testing/">A Context-Driven Approach to Automation in Testing</a>
-<br/>
-<a name="link5"><a href="#back5">[5]</a></a> Josh Meieter: <a href="https://medium.com/salesforce-engineering/tester-augmentation-not-test-automation-1de28269c9a4#.cdq1utnu3">Tester Augmentation, Not Test Automation</a></p>
+<hr>
+<p><!-- raw HTML omitted --><a href="#back1">[1]</a><!-- raw HTML omitted --> Calabash <a href="http://calaba.sh/">homepage</a>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --><a href="#back2">[2]</a><!-- raw HTML omitted --> Oleksii Burdin: <a href="https://lazytesterua.blogspot.de/2016/02/where-to-start-automation.html">Where to start to automate your checks?</a>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --><a href="#back3">[3]</a><!-- raw HTML omitted --> Walmyr Filho: <a href="https://medium.com/the-making-of-appear-in/the-importance-of-dealing-with-flaky-tests-1b69145dee0f#.q5fgedjx0">The importance of dealing with flaky tests</a>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --><a href="#back4">[4]</a><!-- raw HTML omitted --> Micheal Bolton: <a href="http://www.developsense.com/blog/2016/01/a-context-driven-approach-to-automation-in-testing/">A Context-Driven Approach to Automation in Testing</a>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --><a href="#back5">[5]</a><!-- raw HTML omitted --> Josh Meieter: <a href="https://medium.com/salesforce-engineering/tester-augmentation-not-test-automation-1de28269c9a4#.cdq1utnu3">Tester Augmentation, Not Test Automation</a></p>
 
           </section>
           
@@ -408,7 +393,7 @@
 
         <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2019 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+        &copy; 2020 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
     </span>
 </footer>
 

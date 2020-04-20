@@ -263,9 +263,7 @@
           </div>
           <h1>How I Do Exploratory Testing</h1>
           <section id="post-content" class="article-content post">
-              
-
-<p class="coverimage">
+              <p class="coverimage">
     <img src="https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg" alt="coverimage"/>
     
     <br/>
@@ -277,150 +275,104 @@
     
 </p>
 
-
 <blockquote>
-<p>&ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&rdquo; <sup><a name="back1"><a href="#link1">[1]</a></a></sup></p>
+<p>&ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&rdquo; <!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link1">[1]</a><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 </blockquote>
-
 <h3 id="what-is-et">What is ET?</h3>
-
-<p><strong>E</strong>xploratory <strong>T</strong>esting is the nature of testing<sup><a name="back2"><a href="#link2">[2]</a></a></sup>. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same time. It&rsquo;s the true symphony of efficiency!</p>
-
+<p><strong>E</strong>xploratory <strong>T</strong>esting is the nature of testing<!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link2">[2]</a><!-- raw HTML omitted --><!-- raw HTML omitted -->. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same time. It&rsquo;s the true symphony of efficiency!</p>
 <h3 id="what-is-my-understanding-of-et">What is my understanding of ET?</h3>
-
 <p>For me, ET is an elegant testing approach with a <strong>free spirit</strong>, to <strong>think</strong> about different possibilities, to <strong>discover</strong> the unknown, to <strong>collect</strong> effective information and to <strong>share</strong> new knowledge efficiently.</p>
-
 <h3 id="what-is-my-practice-of-et">What is my practice of ET?</h3>
-
 <p>Since the beginning of last year when <a href="/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/">I failed to use Calabash for mobile testing</a>, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: <strong>To have a concrete structure of ET and to adapt change easily based on it.</strong></p>
-
 <p>Combining the purpose and my understanding, I tried some practices and made some changes. It becomes the current one I&rsquo;m satisfied with. First of all, please remember it&rsquo;s definitely <strong>not</strong> the &ldquo;best practice&rdquo;. I still keep striving for a better practice, your feedback could help me as well 😉</p>
-
 <p>Back to my practice of ET, each time I proceed with 3 important stages (a.k.a. 3G stages): <strong>Get context</strong>, <strong>Go explore</strong> and <strong>Give feedback</strong>.</p>
-
 <h4 id="stage-1-get-context">Stage 1: Get context</h4>
-
 <p><strong>Time estimation</strong>: 15 min</p>
-
 <p>On this stage, the key is to <strong>think different</strong>. By asking PO, stakeholder, designer, developer, etc&hellip; who already have the information of context. For instance, if the testing target is a new feature:</p>
-
 <ul>
 <li>To understand the <strong>problem</strong> behind: What&rsquo;s the problem to solve?</li>
 <li>To understand the <strong>request</strong> of developing this feature: What&rsquo;s the acceptable result look like?</li>
 <li>To understand the detail of <strong>implementation</strong>: Which kind of user cases are considered and checked already?</li>
 </ul>
-
 <p>With this information in mind, I will <strong>think</strong> about that the implementation does not only meet the request but also provide the functionality to solve the problem:</p>
-
 <ul>
 <li>Implementation versus Request: What are the misunderstandings and ambiguities?</li>
 <li>Implementation versus Problem: What are the blind spots and missing checks, could potentially cause the risk of malfunction?</li>
 </ul>
-
 <p>Normally I prefer to take some factors and put them in the questions, in order to generate some testing ideas. Some factors could be considered:</p>
-
 <ul>
 <li>Environment: region, timezone, language&hellip;</li>
 <li>Hardware: device, platform, OS, screen size&hellip;</li>
 <li>Aspect: usability, security, performance&hellip;</li>
 <li>&hellip;</li>
 </ul>
-
 <p>For example:</p>
-
-<pre><code class="language-shell">Region x Implementation versus Request: Does this feature need to be available for all customers or only for a specific region?
-OS x Implementation versus Problem: Does this feature work on iOS 7 devices?
-</code></pre>
-
-<p><br/>
-Then I will put the ideas or assumptions shortly on a to-do list:</p>
-
-<pre><code class="language-shell">Testing ideas:
-[ ] Support all regions?
-[ ] iOS 7
-</code></pre>
-
-<h4 id="stage-2-go-explore">Stage 2: Go explore</h4>
-
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">Region x Implementation versus Request: Does this feature need to be available <span class="k">for</span> all customers or only <span class="k">for</span> a specific region?
+OS x Implementation versus Problem: Does this feature work on iOS <span class="m">7</span> devices?
+</code></pre></div><!-- raw HTML omitted -->
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">Testing ideas:
+<span class="o">[</span> <span class="o">]</span> Support all regions?
+<span class="o">[</span> <span class="o">]</span> iOS <span class="m">7</span>
+</code></pre></div><h4 id="stage-2-go-explore">Stage 2: Go explore</h4>
 <p><strong>Timebox</strong>: 30 min</p>
-
 <p>This stage is the most exciting one. The key is to <strong>discover</strong> and to <strong>collect</strong>. Before starting exploring, a time box is rather important, which forces me to proceed with the next steps. Otherwise, I could probably explore forever far around and way deeper.</p>
-
 <p>Remember the to-do list earlier I got in the first stage? Now it&rsquo;s time to make hands dirty using the ideas, I call them seeds, as initial starting points to discover the unknown. Following and focusing on one seed to perform some checks, I will start to collect new seeds:</p>
-
 <ul>
 <li>Relate to current seed, add it as a child seed</li>
 <li>Not relate to current seed, add it as a new seed</li>
 </ul>
-
 <p>Once I got a finding or a question, I will make a quick note with the necessary screenshot and video record.</p>
-
 <p>After one seed is finished, I will continue to explore anther seed. One seed at a time, seed by seed until timeout. You probably have a question in your mind &ldquo;When one seed is done, what to pick as the next seed?&rdquo; I have a rule of thumb for priority: seed on top of the list has higher priority to explore.</p>
-
 <p>After 30 min, my to-do list looks like:</p>
+<div class="highlight"><pre class="chroma"><code class="language-Shell" data-lang="Shell">Testing ideas:
+<span class="o">[</span>?<span class="o">]</span> Support all regions?
+    <span class="o">[</span>x<span class="o">]</span> Europe
+    <span class="o">[</span>?<span class="o">]</span> Asia: no response from <span class="nv">API</span>
+        <span class="o">=</span>&gt; Question <span class="m">1</span>
+<span class="o">[</span>-<span class="o">]</span> iOS <span class="nv">7</span>
+    <span class="o">=</span>&gt; Issue <span class="m">1</span>
+<span class="o">[</span>-<span class="o">]</span> No interent
+    <span class="o">[</span>x<span class="o">]</span> Error message
+    <span class="o">[</span>x<span class="o">]</span> retry when internet is back
+    <span class="o">[</span>x<span class="o">]</span> app restart when no internet
+<span class="o">[</span>?<span class="o">]</span> <span class="nv">Animation</span>
+    <span class="o">=</span>&gt; Question <span class="m">2</span>
+<span class="o">[</span> <span class="o">]</span> Performace of new API request?
 
-<pre><code class="language-Shell">Testing ideas:
-[?] Support all regions?
-    [x] Europe
-    [?] Asia: no response from API
-        =&gt; Question 1
-[-] iOS 7
-    =&gt; Issue 1
-[-] No interent
-    [x] Error message
-    [x] retry when internet is back
-    [x] app restart when no internet
-[?] Animation
-    =&gt; Question 2
-[ ] Performace of new API request?
-
-Question 1: need API response for Asia?
-Need check with backend team: this feature is not available for Asia users?
+Question 1: need API response <span class="k">for</span> Asia?
+Need check with backend team: this feature is not available <span class="k">for</span> Asia users?
 &lt;Screenshot of API request and response&gt;
 
 Question 2: Refresh animation feels laggy
 Need check with designer and developer: make a nicer animation
 
-Issue 1: crash on iOS 7
+Issue 1: crash on iOS <span class="m">7</span>
 &lt;device info&gt;
 - &lt;step 1&gt;
 - &lt;step 2&gt;
 - &lt;step 3&gt;
 &lt;crash stack traces&gt;
-</code></pre>
-
-<h4 id="stage-3-give-feedback">Stage 3: Give feedback</h4>
-
+</code></pre></div><h4 id="stage-3-give-feedback">Stage 3: Give feedback</h4>
 <p><strong>Time estimation</strong>: 15 min</p>
-
 <p>The key to this stage is to <strong>share knowledge</strong>. I&rsquo;ve some questions and issues on my list collected from the previous stage and I know who I need to contact. Can I just throw my feedback on their face directly? I hope I can but apparently nope.</p>
-
 <p>Regarding the questions, it needs to have a proper conversation to remove misunderstandings and ambiguities:</p>
-
 <ul>
 <li>What&rsquo;s my opinion and suggestion?</li>
 <li>What&rsquo;s your opinion and suggestion?</li>
 </ul>
-
 <p>Regarding the issues, it needs to have a proper discussion to evaluate the risk:</p>
-
 <ul>
 <li>What can be fixed?</li>
 <li>What is out of scope?</li>
 <li>What needs to be improved in the future?</li>
 </ul>
-
 <h3 id="what-else">What else?</h3>
-
 <p>Basically, it&rsquo;s the core part of my lovely ET practice:</p>
-
 <ul>
 <li>3G stages: Get context, Go explore and Give feedback</li>
 <li>4 actions: Think, Discover, Collect and Share</li>
 </ul>
-
 <p>Although there are still a lot of topics I&rsquo;d like to expand, I don&rsquo;t want to make one post too long too boring. I will probably write <strong>a series of ET topics</strong> in the future, like:</p>
-
 <ul>
 <li>How to think different and some factors to consider?</li>
 <li>How to collect and share findings efficiently?</li>
@@ -429,18 +381,14 @@ Issue 1: crash on iOS 7
 <li>How to pair with developers?</li>
 <li>&hellip;</li>
 </ul>
-
-<p><img src="https://media.giphy.com/media/3o6Zthv4W72jUHRCUg/giphy.gif" alt="out" /></p>
-
+<p><img src="https://media.giphy.com/media/3o6Zthv4W72jUHRCUg/giphy.gif" alt="out"></p>
 <blockquote>
 <p>Testing is like holding a torch to light up the road in darkness. You could clearly see the way to go, make a map, and mark thorns and flowers.</p>
 </blockquote>
-
-<hr />
-
-<p><a name="link1"><a href="#back1">[1]</a></a> <a href="https://anshome.org/ans-preschool/">The Audubon Nature Preschool</a>
-<br/>
-<a name="link2"><a href="#back2">[2]</a></a> <a href="https://www.kaner.com/pdfs/QAIExploring.pdf">Cem Kaner: A Tutorial in Exploratory Testing</a></p>
+<hr>
+<p><!-- raw HTML omitted --><a href="#back1">[1]</a><!-- raw HTML omitted --> <a href="https://anshome.org/ans-preschool/">The Audubon Nature Preschool</a>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --><a href="#back2">[2]</a><!-- raw HTML omitted --> <a href="https://www.kaner.com/pdfs/QAIExploring.pdf">Cem Kaner: A Tutorial in Exploratory Testing</a></p>
 
           </section>
           
@@ -451,7 +399,7 @@ Issue 1: crash on iOS 7
 
         <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2019 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+        &copy; 2020 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
     </span>
 </footer>
 

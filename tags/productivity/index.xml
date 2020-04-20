@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>productivity on Kevin Cui</title>
@@ -38,7 +38,8 @@ My requirements? My dream system must be Easy, Efficient and Flexible:
       
       <guid>https://kevcui.github.io/2017/08/19/why-i-switch-to-colemak/</guid>
       <description>Colemak, pronounced /&amp;lsquo;ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It&amp;rsquo;s developed by Shai Coleman and released in 2006. Colemak keyboard layout looks like:
-q w f p g j l u y ; a r s t d h n e i o z x c v b k m , . /  What&amp;rsquo;s special about Colemak? Why do I decide to switch from QWERTY to Colemak?</description>
+q w f p g j l u y ; a r s t d h n e i o z x c v b k m , . / What&amp;rsquo;s special about Colemak? Why do I decide to switch from QWERTY to Colemak?
+Reason 1: Discard QWERTY As we all known, QWERTY was originally designed for the typewriter to solve the problem of the type bars colliding with each other and jamming.</description>
     </item>
     
     <item>
@@ -48,7 +49,7 @@ q w f p g j l u y ; a r s t d h n e i o z x c v b k m , . /  What&amp;rsquo;s sp
       
       <guid>https://kevcui.github.io/2017/04/29/be-prepared-interruption-is-coming/</guid>
       <description>Photo by Mark Hunter    By failing to prepare, you are preparing to fail. - Benjamin Franklin
- Recently I read an interesting article about Why do programmers wear headphones?. The truth is that &amp;ldquo;programmers are easily distracted, headphones eliminate some distractions, thus headphones make programmers.&amp;rdquo; To reduce losing attention by distractions, I could improve my attention span and control the working environment around myself.</description>
+ Recently I read an interesting article about Why do programmers wear headphones?. The truth is that &amp;ldquo;programmers are easily distracted, headphones eliminate some distractions, thus headphones make programmers.&amp;quot; To reduce losing attention by distractions, I could improve my attention span and control the working environment around myself. But on the other hand, I could lose my attention as well by interruptions, which are usually unexpected.</description>
     </item>
     
   </channel>

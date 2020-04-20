@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Kevin Cui</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Mar 2017 23:02:13 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 08 Jan 2017 12:31:43 +0200</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,15 +17,6 @@
       <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
       
       <guid>https://kevcui.github.io/categories/bug/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>review</title>
-      <link>https://kevcui.github.io/categories/review/</link>
-      <pubDate>Fri, 23 Dec 2016 19:56:57 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/categories/review/</guid>
       <description></description>
     </item>
     

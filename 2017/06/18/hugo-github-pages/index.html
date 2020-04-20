@@ -271,74 +271,58 @@
           </div>
           <h1>Hugo x Github Pages</h1>
           <section id="post-content" class="article-content post">
-              
-
-<p>It has been 2 months since I switched <a href="/2017/04/12/why-hugo-why-not-hexo/">from Hexo to Hugo</a>. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog Git repository, then I have to reconfigure the part of deploying Hugo website to Github Pages&hellip;</p>
-
+              <p>It has been 2 months since I switched <a href="/2017/04/12/why-hugo-why-not-hexo/">from Hexo to Hugo</a>. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog Git repository, then I have to reconfigure the part of deploying Hugo website to Github Pages&hellip;</p>
 <p>To be honest, the initial configuration is simple but I cannot recall it at all. That&rsquo;s why I finally decide to write down this quick note, for the forgetful people, like me.</p>
-
 <p>Hugo has a good doc to explain <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">how to host on Github Pages</a>. Based on it, my configuration is following:</p>
-
 <h3 id="add-worktree">Add Worktree</h3>
-
 <p>Basally, I created 2 repositories for my blog. One is the theme I used, it&rsquo;s called <a href="https://github.com/kevcui/uno">uno</a>. The other one is for both posts and generated static files. Its name is <a href="https://github.com/kevcui/kevcui.github.io">kevcui.github.io</a>, a name predefined by Github Pages. I decide the put them in one repository because it&rsquo;s easy to maintenance. I separated them into 2 different branches:</p>
-
 <ul>
 <li>Branch <strong>hugo</strong>: posts, assets&hellip;</li>
 <li>Branch <strong>master</strong>: public/ folder with all the generated static files</li>
 </ul>
-
 <p>Then I need to link the <strong>public/</strong> to <strong>master</strong> branch:</p>
-
-<pre><code class="language-sh">rm -rf public
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">rm -rf public
 rm -rf ./worktrees
 git worktree add -B master public origin/master
-</code></pre>
-
-<h3 id="create-deploy-script">Create deploy script</h3>
-
+</code></pre></div><h3 id="create-deploy-script">Create deploy script</h3>
 <p>Here is my deploy script <a href="https://github.com/kevcui/kevcui.github.io/blob/hugo/deploy.sh">deploy.sh</a>. The theme I&rsquo;m using is <a href="https://github.com/kevcui/uno">uno</a>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">
+<span class="c1">#!/bin/sh</span>
 
-<pre><code class="language-sh">
-#!/bin/sh
+<span class="c1"># Create worktree</span>
+<span class="c1"># git worktree add -B master public origin/master</span>
 
-# Create worktree
-# git worktree add -B master public origin/master
-
-# Build the project.
+<span class="c1"># Build the project.</span>
 hugo -t uno
 
-# Go To Public folder
-cd public
+<span class="c1"># Go To Public folder</span>
+<span class="nb">cd</span> public
 
-# Add changes to git.
+<span class="c1"># Add changes to git.</span>
 git add -A
 
-# Remove original js files
-cd js
-ls -1 --color=none | grep -v &quot;min.js&quot; | xargs rm -f
+<span class="c1"># Remove original js files</span>
+<span class="nb">cd</span> js
+ls -1 --color<span class="o">=</span>none <span class="p">|</span> grep -v <span class="s2">&#34;min.js&#34;</span> <span class="p">|</span> xargs rm -f
 
-# Remove original css files
-cd ../css
-ls -1 --color=none | grep -v &quot;min.css&quot; | xargs rm -f
-cd ..
+<span class="c1"># Remove original css files</span>
+<span class="nb">cd</span> ../css
+ls -1 --color<span class="o">=</span>none <span class="p">|</span> grep -v <span class="s2">&#34;min.css&#34;</span> <span class="p">|</span> xargs rm -f
+<span class="nb">cd</span> ..
 
-# Commit changes.
-msg=&quot;rebuilding site `date`&quot;
-if [ $# -eq 1 ]
-    then msg=&quot;$1&quot;
-fi
-git commit -m &quot;$msg&quot;
+<span class="c1"># Commit changes.</span>
+<span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;rebuilding site `date`&#34;</span>
+<span class="k">if</span> <span class="o">[</span> <span class="nv">$#</span> -eq <span class="m">1</span> <span class="o">]</span>
+    <span class="k">then</span> <span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>
+<span class="k">fi</span>
+git commit -m <span class="s2">&#34;</span><span class="nv">$msg</span><span class="s2">&#34;</span>
 
-# Push source and build repos.
+<span class="c1"># Push source and build repos.</span>
 git push origin master
 
-# Come back
-cd ..
-</code></pre>
-
-<p>Every time after running the script deploy.sh, it will generate new static files and push them to master branch. The changes will be published immediately by Github Pages.</p>
-
+<span class="c1"># Come back</span>
+<span class="nb">cd</span> ..
+</code></pre></div><p>Every time after running the script deploy.sh, it will generate new static files and push them to master branch. The changes will be published immediately by Github Pages.</p>
 <p>That&rsquo;s all, a piece of 🍰</p>
 
           </section>
@@ -350,7 +334,7 @@ cd ..
 
         <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2019 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+        &copy; 2020 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
     </span>
 </footer>
 

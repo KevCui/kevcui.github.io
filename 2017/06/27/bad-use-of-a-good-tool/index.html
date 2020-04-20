@@ -271,9 +271,7 @@
           </div>
           <h1>Bad Use of A Good Tool</h1>
           <section id="post-content" class="article-content post">
-              
-
-<p class="coverimage">
+              <p class="coverimage">
     <img src="https://cdn-images-1.medium.com/max/1000/1*Y7unAywBRkUxr51nVx_kvg.jpeg" alt="coverimage"/>
     
     <br/>
@@ -285,38 +283,23 @@
     
 </p>
 
-
 <blockquote>
 <p>If all you have is a hammer, everything looks like a nail.</p>
 </blockquote>
-
 <p>Every sprint, we have a team testing session with one hour fixed time slot. It&rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to <a href="/2016/12/01/lets-have-some-fun-team-exploratory-testing/">organize this testing party</a>. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&rsquo;t end very well. I feel shame for it. I ask myself why it happened? After I think again and again, one thing I could tell is because of <strong>my bad use of a good tool</strong>.</p>
-
 <h3 id="a-good-tool">A good tool</h3>
-
 <p>Undeniably, <a href="https://www.charlesproxy.com/">Charles</a> is an excellent debugging proxy. It&rsquo;s powerful and handy. With a clean UI and easy setup, it becomes my daily tool. I rely on it to inspect HTTP/HTTPS requests and response, set breakpoints, simulate response status, mock response, bandwidth throttling, etc&hellip;</p>
-
 <p>Naturally, more I use it, more I like it; More I will use it, then I will like it more&hellip;.</p>
-
 <h3 id="bad-use">Bad use</h3>
-
 <p>One day, I tried <a href="https://www.charlesproxy.com/documentation/tools/rewrite/">rewrite tool</a> in Charles to replace a simple JSON API response by some mock data. I found surprisingly that it worked very well. Since that, I started to add more and more rewriting rules for this and that&hellip; Nowadays the set of rewriting rules becomes really complex. The mock data I used to replace response which started from the beginning as 4 lines, until now the entire content of a 4K file!</p>
-
 <p>Sometimes I complain &ldquo;Why Charles gives users only 1-line input filed for replacing stuff. It&rsquo;s not possible to edit long text. How bad design it is!&rdquo; Now I think it again and I have to admit that Charles is not designed for that. I use it wrongly. I should use it as a simple match-replace function for some strings, that&rsquo;s it.</p>
-
 <p>Another mistake I made is to treat it as a proxy server. Usually, I connect 1 Android and 1 iOS device to Charles proxy. But the craziest time, like last team testing, I ran Charles with heavy mock data and planned to setup the connection of 10+ mobile devices. The connection was not stable at all. The half of devices were disconnected frequently.</p>
-
 <p>As it&rsquo;s named as &ldquo;debugging proxy&rdquo;, it&rsquo;s unfair for it to support 10+ devices &ldquo;debugging&rdquo; at the same time.</p>
-
 <h3 id="right-tool-for-the-job">Right tool for the job</h3>
-
 <p>Charles proxy is not a snake oil for manipulating http requests. It has its pros and cons. In my case, I need a proxy tool to mock response data heavily and to change mock data easily, meanwhile it should also provide stable connections of massive mobile devices for testing. Charles is a good tool for sure, but in this case, it&rsquo;s not the right tool for my need.</p>
-
 <p>I have to search for a proper solution. I find that <a href="https://mitmproxy.org/">mitmproxy</a> could be a candidate to try out. Because of open-source and the support of customized python script, it would be flexible to adapt all kinds of situations. All I need to do is to make scripts to fulfill my need. I like making my hands dirty. Luckily, mitmproxy provides a good <a href="http://docs.mitmproxy.org/en/stable/">documentation</a> and nice <a href="https://discourse.mitmproxy.org/">forums</a>. At the end, it&rsquo;s not too hard to write <a href="https://github.com/kevcui/mitm-rewrite-script">mitm-rewrite-script</a>, which provides me the function I need.</p>
-
-<hr />
-
-<p>Tools are designed to help us to deal with the problems. Depends on the different situations and the strength &amp; weakness of tools, I have to think carefully and decide which one to use. Probably mitmproxy is my new proxy-hammer, but I won&rsquo;t see everything like a nail. Once I decided that it is a good time to use Charles properly, I would say loudly and confidently &ldquo;<strong>I choose you, Charles!</strong>&ldquo;</p>
+<hr>
+<p>Tools are designed to help us to deal with the problems. Depends on the different situations and the strength &amp; weakness of tools, I have to think carefully and decide which one to use. Probably mitmproxy is my new proxy-hammer, but I won&rsquo;t see everything like a nail. Once I decided that it is a good time to use Charles properly, I would say loudly and confidently &ldquo;<strong>I choose you, Charles!</strong>&rdquo;</p>
 
           </section>
           
@@ -327,7 +310,7 @@
 
         <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2019 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+        &copy; 2020 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
     </span>
 </footer>
 
