@@ -267,9 +267,7 @@
           </div>
           <h1>Ship PWA Guided by Lighthouse</h1>
           <section id="post-content" class="article-content post">
-              
-
-<p class="coverimage">
+              <p class="coverimage">
     <img src="https://cdn-images-1.medium.com/max/2000/1*c4LxfFXAUMhEzNiXsGXbQg.jpeg" alt="coverimage"/>
     
     <br/>
@@ -281,40 +279,24 @@
     
 </p>
 
-
 <p>Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&rsquo;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?</p>
-
 <h3 id="what-is-actually-pwa">What is actually PWA?</h3>
-
-<p>According to Google, <em>Progressive Web Apps are user experiences that have the reach of the web, and are</em> <sup><a name="back1"><a href="#link1">[1]</a></a></sup>:</p>
-
+<p>According to Google, <em>Progressive Web Apps are user experiences that have the reach of the web, and are</em> <!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link1">[1]</a><!-- raw HTML omitted --><!-- raw HTML omitted -->:</p>
 <ul>
 <li>Reliable: Load instantly and never show the downasaur, even in uncertain network conditions.</li>
 <li>Fast: Respond quickly to user interactions with silky smooth animations and no janky scrolling.</li>
 <li>Engaging: Feel like a natural app on the device, with an immersive user experience.</li>
 </ul>
-
-<p>Personally, I prefer another alternative version because it uses one word to represent PWA: <em>F.I.R.E 🔥 Fast, Integrated, Reliable and Engaging.</em> <sup><a name="back2"><a href="#link2">[2]</a></a></sup>:</p>
-
-<p>Many people are confused by the fancy term of PWA, like this: <em>Google&rsquo;s continued use of the term &ldquo;quality&rdquo; in describing things leaves me with a ton of confusion&hellip;</em> <sup><a name="back3"><a href="#link3">[3]</a></a></sup></p>
-
-<p>To be honest, PWA is not a new technology at all. It&rsquo;s <strong>a new web app quality standard for web experiences</strong> <sup><a name="back4"><a href="#link4">[4]</a></a></sup>.</p>
-
-<h3 id="how-to-get-my-app-on-f-i-r-e">How to get my app on F.I.R.E.?</h3>
-
+<p>Personally, I prefer another alternative version because it uses one word to represent PWA: <em>F.I.R.E 🔥 Fast, Integrated, Reliable and Engaging.</em> <!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link2">[2]</a><!-- raw HTML omitted --><!-- raw HTML omitted -->:</p>
+<p>Many people are confused by the fancy term of PWA, like this: <em>Google&rsquo;s continued use of the term &ldquo;quality&rdquo; in describing things leaves me with a ton of confusion&hellip;</em> <!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link3">[3]</a><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>To be honest, PWA is not a new technology at all. It&rsquo;s <strong>a new web app quality standard for web experiences</strong> <!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link4">[4]</a><!-- raw HTML omitted --><!-- raw HTML omitted -->.</p>
+<h3 id="how-to-get-my-app-on-fire">How to get my app on F.I.R.E.?</h3>
 <p>Are you sold by the idea of PWA? I&rsquo;ll buy it. Because I would do whatever I could to improve the user experience. So, I decided to optimize my blog site for reaching PWA standard.</p>
-
 <h4 id="step-1-run-a-performance-audit">Step 1: Run a performance audit</h4>
-
 <p><a href="https://github.com/GoogleChrome/lighthouse">Lighthouse</a> is a must-have tool to audit web app performance. Lighthouse is already integrated in the recent versions of Chrome and Chromium, as a part of DevTools, which makes it super convenient to use:</p>
-
-<pre><code class="language-bash">Inspect -&gt; Audits -&gt; Perform an audit...
-</code></pre>
-
-<h4 id="step-2-read-audit-report-carefully">Step 2: Read audit report carefully</h4>
-
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">Inspect -&gt; Audits -&gt; Perform an audit...
+</code></pre></div><h4 id="step-2-read-audit-report-carefully">Step 2: Read audit report carefully</h4>
 <p>After running an audit in Lighthouse, it will provide a detailed report. First, it shows the overall scores:</p>
-
 <p class="imagsup">
     <img src="/images/lighthouse-before-overview.jpg" alt="before-overview"/>
     <br/>
@@ -324,11 +306,8 @@
     </sup>
 </p>
 
-
 <p>I&rsquo;m not surprised by this result, not at all. These numbers are making people feel good when they have greens. Besides that, I would suggest to ignore them.</p>
-
 <p>When continuing reading the report, I find the interesting parts: failed audits. It&rsquo;s a nicely organized To-Do list, especially the <em>Learn more</em> links which open documents to explain why the audit is important and how to pass the audit.</p>
-
 <p class="imagsup">
     <img src="/images/lighthouse-before-pwa.jpg" alt="before-pwa"/>
     <br/>
@@ -338,113 +317,100 @@
     </sup>
 </p>
 
-
 <h4 id="step-3-get-hands-dirty">Step 3: Get hands dirty</h4>
-
 <p>It&rsquo;s time to handle all failed cases one by one. Most of them are rather easy to solve by following &ldquo;Learn more&rdquo; tutorials. Only &ldquo;Does not register a Service Worker&rdquo; and &ldquo;Does not respond with a 200 when offline&rdquo; are relatively tough. I&rsquo;d like to share some tips, which come from my Aha moments.</p>
-
 <p>A working service worker has 4 essential parts:</p>
-
 <ul>
-<li><p>manifest.json: It&rsquo;s a json file located in <em>/</em> <strong>web app root directory</strong>:</p>
-
-<pre><code class="language-json">{
-&quot;short_name&quot;: &quot;Kevin&quot;,
-&quot;name&quot;: &quot;Kevin Cui&quot;,
-&quot;icons&quot;: [
-{
-  &quot;src&quot;:&quot;/images/kc.png&quot;,
-  &quot;sizes&quot;: &quot;512x512&quot;,
-  &quot;type&quot;: &quot;image/png&quot;
-}
-],
-&quot;start_url&quot;: &quot;/&quot;,
-&quot;background_color&quot;: &quot;#000&quot;,
-&quot;theme_color&quot;: &quot;#000&quot;,
-&quot;display&quot;: &quot;standalone&quot;
-}
-</code></pre></li>
-
-<li><p>Link manifest.json in <em>index.html</em>:</p>
-
-<pre><code class="language-html">&lt;link rel=&quot;manifest&quot; href=&quot;/manifest.json&quot;&gt;
-</code></pre></li>
-
-<li><p>Service worker js: It must be created in <strong>web app root directory</strong>, alongside with <em>manifest.json</em>. Here is an example of the service worker called <em>sw.js</em>:</p>
-
-<pre><code class="language-js">var CACHE_NAME = 'kevin-site';
-var urlsToCache = [
-'/',
-'/#blog',
-'/css/font.min.css',
-'/css/animate.min.css',
-'/css/monokai.min.css',
-'/js/umbrella.min.js',
-'/js/highlight.min.js'
-];
-
-self.addEventListener('install', function(event) {
-// Perform install steps
-event.waitUntil(
-caches.open(CACHE_NAME)
-  .then(function(cache) {
-    console.log('Opened cache');
-    return cache.addAll(urlsToCache);
-  })
-);
-});
-
-self.addEventListener('fetch', function(event) {
-event.respondWith(
-caches.match(event.request)
-  .then(function(response) {
-    if (response) {
-      return response;
-    }
-
-    var fetchRequest = event.request.clone();
-
-    return fetch(fetchRequest).then(
-      function(response) {
-        if(!response || response.status !== 200 || response.type !== 'basic') {
-          return response;
-        }
-
-        var responseToCache = response.clone();
-
-        caches.open(CACHE_NAME)
-          .then(function(cache) {
-            cache.put(event.request, responseToCache);
-          });
-
-        return response;
-      }
-    );
-  })
-);
-});
-</code></pre></li>
-
-<li><p>A piece of JavaScript code to register service worker in <em>index.html</em>:</p>
-
-<pre><code class="language-js">if ('serviceWorker' in navigator) {
-navigator.serviceWorker.register('./sw.js')
-.then(function(registration) {
-console.log(&quot;Service Worker Registered&quot;, registration);
-})
-.catch(function(err) {
-console.log(&quot;Service Worker Failed to Register&quot;, err);
-})
-}
-</code></pre></li>
+<li>manifest.json: It&rsquo;s a json file located in <em>/</em> <strong>web app root directory</strong>:</li>
 </ul>
+<div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+  <span class="nt">&#34;short_name&#34;</span><span class="p">:</span> <span class="s2">&#34;Kevin&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Kevin Cui&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;icons&#34;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="nt">&#34;src&#34;</span><span class="p">:</span><span class="s2">&#34;/images/kc.png&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;sizes&#34;</span><span class="p">:</span> <span class="s2">&#34;512x512&#34;</span><span class="p">,</span>
+      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;image/png&#34;</span>
+    <span class="p">}</span>
+  <span class="p">],</span>
+  <span class="nt">&#34;start_url&#34;</span><span class="p">:</span> <span class="s2">&#34;/&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;background_color&#34;</span><span class="p">:</span> <span class="s2">&#34;#000&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;theme_color&#34;</span><span class="p">:</span> <span class="s2">&#34;#000&#34;</span><span class="p">,</span>
+  <span class="nt">&#34;display&#34;</span><span class="p">:</span> <span class="s2">&#34;standalone&#34;</span>
+<span class="p">}</span>
+</code></pre></div><ul>
+<li>Link manifest.json in <em>index.html</em>:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;manifest&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/manifest.json&#34;</span><span class="p">&gt;</span>
+</code></pre></div><ul>
+<li>Service worker js: It must be created in <strong>web app root directory</strong>, alongside with <em>manifest.json</em>. Here is an example of the service worker called <em>sw.js</em>:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">CACHE_NAME</span> <span class="o">=</span> <span class="s1">&#39;kevin-site&#39;</span><span class="p">;</span>
+<span class="kd">var</span> <span class="nx">urlsToCache</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s1">&#39;/&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;/#blog&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;/css/font.min.css&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;/css/animate.min.css&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;/css/monokai.min.css&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;/js/umbrella.min.js&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;/js/highlight.min.js&#39;</span>
+<span class="p">];</span>
 
-<p>For more details of all these parts above, there is a good tutorial to follow: <a href="https://codelabs.developers.google.com/codelabs/add-to-home-screen/#0">Add Your Web App to a User&rsquo;s Home Screen</a> and a good example of PWA app to check its source code: <a href="https://github.com/GoogleChromeLabs/airhorn">airhorn</a></p>
+<span class="nx">self</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;install&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+  <span class="c1">// Perform install steps
+</span><span class="c1"></span>  <span class="nx">event</span><span class="p">.</span><span class="nx">waitUntil</span><span class="p">(</span>
+    <span class="nx">caches</span><span class="p">.</span><span class="nx">open</span><span class="p">(</span><span class="nx">CACHE_NAME</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">cache</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Opened cache&#39;</span><span class="p">);</span>
+        <span class="k">return</span> <span class="nx">cache</span><span class="p">.</span><span class="nx">addAll</span><span class="p">(</span><span class="nx">urlsToCache</span><span class="p">);</span>
+      <span class="p">})</span>
+  <span class="p">);</span>
+<span class="p">});</span>
 
-<h3 id="my-app-is-on">My app is on 🔥!</h3>
+<span class="nx">self</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s1">&#39;fetch&#39;</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">event</span><span class="p">.</span><span class="nx">respondWith</span><span class="p">(</span>
+    <span class="nx">caches</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">request</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">{</span>
+          <span class="k">return</span> <span class="nx">response</span><span class="p">;</span>
+        <span class="p">}</span>
 
+        <span class="kd">var</span> <span class="nx">fetchRequest</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">request</span><span class="p">.</span><span class="nx">clone</span><span class="p">();</span>
+
+        <span class="k">return</span> <span class="nx">fetch</span><span class="p">(</span><span class="nx">fetchRequest</span><span class="p">).</span><span class="nx">then</span><span class="p">(</span>
+          <span class="kd">function</span><span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nx">response</span> <span class="o">||</span> <span class="nx">response</span><span class="p">.</span><span class="nx">status</span> <span class="o">!==</span> <span class="mi">200</span> <span class="o">||</span> <span class="nx">response</span><span class="p">.</span><span class="nx">type</span> <span class="o">!==</span> <span class="s1">&#39;basic&#39;</span><span class="p">)</span> <span class="p">{</span>
+              <span class="k">return</span> <span class="nx">response</span><span class="p">;</span>
+            <span class="p">}</span>
+
+            <span class="kd">var</span> <span class="nx">responseToCache</span> <span class="o">=</span> <span class="nx">response</span><span class="p">.</span><span class="nx">clone</span><span class="p">();</span>
+
+            <span class="nx">caches</span><span class="p">.</span><span class="nx">open</span><span class="p">(</span><span class="nx">CACHE_NAME</span><span class="p">)</span>
+              <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">cache</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">cache</span><span class="p">.</span><span class="nx">put</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">request</span><span class="p">,</span> <span class="nx">responseToCache</span><span class="p">);</span>
+              <span class="p">});</span>
+
+            <span class="k">return</span> <span class="nx">response</span><span class="p">;</span>
+          <span class="p">}</span>
+        <span class="p">);</span>
+      <span class="p">})</span>
+    <span class="p">);</span>
+<span class="p">});</span>
+</code></pre></div><ul>
+<li>A piece of JavaScript code to register service worker in <em>index.html</em>:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="k">if</span> <span class="p">(</span><span class="s1">&#39;serviceWorker&#39;</span> <span class="k">in</span> <span class="nx">navigator</span><span class="p">)</span> <span class="p">{</span>
+<span class="nx">navigator</span><span class="p">.</span><span class="nx">serviceWorker</span><span class="p">.</span><span class="nx">register</span><span class="p">(</span><span class="s1">&#39;./sw.js&#39;</span><span class="p">)</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">registration</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Service Worker Registered&#34;</span><span class="p">,</span> <span class="nx">registration</span><span class="p">);</span>
+  <span class="p">})</span>
+  <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">err</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Service Worker Failed to Register&#34;</span><span class="p">,</span> <span class="nx">err</span><span class="p">);</span>
+  <span class="p">})</span>
+<span class="p">}</span>
+</code></pre></div><p>For more details of all these parts above, there is a good tutorial to follow: <a href="https://codelabs.developers.google.com/codelabs/add-to-home-screen/#0">Add Your Web App to a User&rsquo;s Home Screen</a> and a good example of PWA app to check its source code: <a href="https://github.com/GoogleChromeLabs/airhorn">airhorn</a></p>
+<h3 id="my-app-is-on-">My app is on 🔥!</h3>
 <p>Once the dirty jobs are well done, it&rsquo;s time to run another performance audit. Although I know all score numbers are meaningless without contexts, it still feels damn awesome when I see all greens, right?</p>
-
 <p class="imagsup">
     <img src="/images/lighthouse-after-overview.jpg" alt="after-overview"/>
     <br/>
@@ -454,24 +420,18 @@ console.log(&quot;Service Worker Failed to Register&quot;, err);
     </sup>
 </p>
 
-
 <p>Surprisingly, Firefox now starts to support PWA as well.</p>
-
 <h3 id="what-else">What else?</h3>
-
 <p>I have to admit that it&rsquo;s not hard to pass Lighthouse audit checks. However, I must keep in mind that it&rsquo;s just one step of improving web app performance towards the goal of &ldquo;better user experience&rdquo;. Many steps ahead I still need to move on.</p>
-
 <p>What&rsquo;s your opinion about PWA? Would you like to ship your app guided by Lighthouse? And join the cool kids club?</p>
-
-<hr />
-
-<p><a name="link1"><a href="#back1">[1]</a></a> Google: <a href="https://developers.google.com/web/progressive-web-apps/?hl=en">Progressive Web Apps</a>
-<br/>
-<a name="link2"><a href="#back2">[2]</a></a> Ewa Gasperowicz: <a href="https://www.youtube.com/watch?v=KRSTpo6gqqU">From Website to Progressive Web App</a>
-<br/>
-<a name="link3"><a href="#back3">[3]</a></a> Ben Halpern: <a href="https://dev.to/ben/what-the-heck-is-a-progressive-web-app-seriously-923">What the heck is a &ldquo;Progressive Web App&rdquo;? Seriously.</a>
-<br/>
-<a name="link4"><a href="#back4">[4]</a></a> Thao Tran and Chris Wilson: <a href="https://www.youtube.com/watch?v=PsgW-0M67TQ">The New Bar for Web Experiences</a></p>
+<hr>
+<p><!-- raw HTML omitted --><a href="#back1">[1]</a><!-- raw HTML omitted --> Google: <a href="https://developers.google.com/web/progressive-web-apps/?hl=en">Progressive Web Apps</a>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --><a href="#back2">[2]</a><!-- raw HTML omitted --> Ewa Gasperowicz: <a href="https://www.youtube.com/watch?v=KRSTpo6gqqU">From Website to Progressive Web App</a>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --><a href="#back3">[3]</a><!-- raw HTML omitted --> Ben Halpern: <a href="https://dev.to/ben/what-the-heck-is-a-progressive-web-app-seriously-923">What the heck is a &ldquo;Progressive Web App&rdquo;? Seriously.</a>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --><a href="#back4">[4]</a><!-- raw HTML omitted --> Thao Tran and Chris Wilson: <a href="https://www.youtube.com/watch?v=PsgW-0M67TQ">The New Bar for Web Experiences</a></p>
 
           </section>
           
@@ -482,7 +442,7 @@ console.log(&quot;Service Worker Failed to Register&quot;, err);
 
         <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2019 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+        &copy; 2020 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
     </span>
 </footer>
 

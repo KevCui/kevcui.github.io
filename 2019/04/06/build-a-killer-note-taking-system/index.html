@@ -271,58 +271,37 @@
           </div>
           <h1>Build A Killer Note-taking System</h1>
           <section id="post-content" class="article-content post">
-              
-
-<p class="coverimage">
+              <p class="coverimage">
     <img src="https://cdn-images-1.medium.com/max/1440/1*zsmrN549VmJc13l4ViuFvA.jpeg" alt="coverimage"/>
     
 </p>
 
-
 <p>The proverb says, &ldquo;The palest ink is better than the best memory&rdquo;. Note-taking is certainly an essential part of knowledge learning, information collecting and retaining. In the fast-changing digital era, pen, ink and paper may not be able to fulfill the important job of note-taking anymore. So, what&rsquo;s a killer note-taking system nowadays?</p>
-
 <h3 id="my-requirements">My requirements?</h3>
-
 <p>My dream system must be <em>Easy</em>, <em>Efficient</em> and <em>Flexible</em>:</p>
-
 <ul>
 <li>Know where &amp; how to write notes easily without hesitations</li>
 <li>Find right notes &amp; roll back to old changes efficiently without hassles</li>
 <li>Convert notes to other formats and share them flexibly without troubles</li>
 </ul>
-
 <h3 id="build-it">Build it!</h3>
-
 <h4 id="note-format">Note format</h4>
-
 <p>I love taking notes with markdown. Why markdown?</p>
-
 <ul>
 <li>It&rsquo;s clean for writing and reading</li>
 <li>It&rsquo;s efficient, almost like writing plain texts</li>
 <li>It&rsquo;s flexible to convert to any other formats</li>
 </ul>
-
-<h4 id="note-taking-organization-app">Note taking &amp; organization app</h4>
-
+<h4 id="note-taking--organization-app">Note taking &amp; organization app</h4>
 <p>I like doing everything in the terminal, so naturally, Vim is the best note-taking editor for me.</p>
-
 <p>For organizing notes, in the beginning, I set up different folders for different notes. But it&rsquo;s not quite close to what I want. Especially, searching note is not a straightforward task, it needs to <code>find</code> or <code>grep</code> for a while. Then I wrote a handy script <a href="https://github.com/KevCui/pynote">pynote</a> for helping note organization, it worked and only at &ldquo;it works&rdquo; level&hellip; Recently, I switched to the amazing <a href="https://github.com/alok/notational-fzf-vim">Notational Velocity for Vim</a>, a plugin to port famous <a href="http://notational.net/">Notational Velocity</a> into Vim. The whole note-taking experience never becomes so smooth! 💆</p>
-
 <h4 id="note-version-control-system">Note version-control system</h4>
-
 <p>It&rsquo;s easy. Git is the only reasonable option I can think of. <code>¯\_(ツ)_/¯</code></p>
-
 <p><code>git init</code>, make note changes, <code>git add</code>, <code>git commit</code> or <code>git revert</code>&hellip; All the fancy version control things are already familiar under my hands.</p>
-
 <h4 id="note-auto-backup-system">Note auto backup system</h4>
-
 <p>Google Drive? OneDrive? Dropbox? Nah, they are not really Git-compatible by default. However, I got inspired by <a href="https://github.com/hbons/SparkleShare">SparkleShare</a>, an open-source file sync app powered by Git, it adds file changes and pushes them to Github or GitLab automatically.</p>
-
 <p>I may achieve the same functionality by using a simple script. The idea is to run <a href="https://github.com/emcrisostomo/fswatch">fswatch</a> in the background and keep monitoring file changes. When file changes are happening, fswatch will trigger Git commands to add and push changes automatically.</p>
-
 <p>Here is a snippet of Bash script:</p>
-
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/usr/bin/env bash
 </span><span class="cp"></span>...
 <span class="k">function</span> notesync<span class="o">()</span> <span class="o">{</span>
@@ -331,11 +310,8 @@
 notesync <span class="s2">&#34;&lt;folder_path&gt;&#34;</span>
 notesync <span class="s2">&#34;&lt;another_folder_path&gt;&#34;</span>
 ...</code></pre></div>
-
 <p><strong>fswatch part</strong> is to monitor file changes, filter out correct file change events and send the signal:</p>
-
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">fswatch -r -0 -d <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> -e <span class="s1">&#39;\.git&#39;</span> -m <span class="s2">&#34;inotify_monitor&#34;</span> --event<span class="o">=</span>Created --event<span class="o">=</span>Updated --event<span class="o">=</span>Removed <span class="p">|</span> ... <span class="p">&amp;</span></code></pre></div>
-
 <ul>
 <li>-r: watch subdirectories recursively</li>
 <li>-0: pass NUL as delimiter (no idea why it&rsquo;s need&hellip;..)</li>
@@ -345,37 +321,26 @@ notesync <span class="s2">&#34;&lt;another_folder_path&gt;&#34;</span>
 <li>&ndash;event: filter event by event flag, mainly using events related to file changes, all available events: <a href="https://emcrisostomo.github.io/fswatch/doc/1.14.0/fswatch.html/Invoking-fswatch.html#Event-Flags-1">here</a></li>
 <li>&amp;: last but not least, don&rsquo;t forget it at the end, because it provides the ability to run fswatch command in background and detach the process</li>
 </ul>
-
 <p><strong>xargs part</strong> is to get signal from fswatch and execute specific commands:</p>
-
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">... <span class="p">|</span> xargs -0 -n <span class="m">1</span> ...</code></pre></div>
-
 <ul>
 <li>-0: input items are terminated by null, not whitespace (no idea why it&rsquo;s needed&hellip;)</li>
 <li>-n: maximum argument, <code>1</code> it is</li>
 </ul>
-
 <p><strong>zsh command part</strong> is to run Git commands:</p>
-
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">... zsh -c <span class="s2">&#34;source ~/.zshrc; cd </span><span class="nv">$1</span><span class="s2">; git add -A; git commit -m &#39;Update file&#39;; git push&#34;</span> ...</code></pre></div>
-
 <ul>
 <li>zsh -c: execute following commands in <code>zsh</code></li>
 <li>source ~/.zshrc: all my SSH keys are declared in <code>.zshrc</code> file, this command will load configurations from <code>.zshrc</code> file. Otherwise, push to remove Git repository may get permission denied</li>
 <li>git add -A &hellip; : Git commands to add changes and push to remote repository. Some optimization ideas: 1) <code>git pull</code> first, in case it&rsquo;s a shared repository; 2) Put some specific texts in commit messages, maybe also including file names</li>
 </ul>
-
 <h4 id="sumup">Sumup</h4>
-
 <p>This is my killer note-taking system. It&rsquo;s easy, efficient and flexible:</p>
-
 <div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">Note format: Markdown
 Note taking &amp; organization app: Vim + Notational Velocity for Vim
 Note version-control system: Git
 Note auto backup system: fswatch + GitHub</code></pre></div>
-
 <p>So far I&rsquo;m quite happy with this system. I enjoy using it not only for taking some private notes with my dirty secrets, but also for sharing notes with colleagues in my day-to-day work, like notes for <a href="/2017/04/17/how-i-do-exploratory-testing/">exploratory testing</a>. Oh, I almost forget, guess what I&rsquo;m using now for wring this blog post?</p>
-
 <p>How does your note-taking system look like? Share with me your awesome ideas?</p>
 
           </section>
@@ -387,7 +352,7 @@ Note auto backup system: fswatch + GitHub</code></pre></div>
 
         <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2019 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+        &copy; 2020 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
     </span>
 </footer>
 

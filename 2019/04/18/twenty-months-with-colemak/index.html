@@ -267,37 +267,24 @@
           </div>
           <h1>Twenty Months With Colemak</h1>
           <section id="post-content" class="article-content post">
-              
-
-<p class="coverimage">
+              <p class="coverimage">
     <img src="https://cdn-images-1.medium.com/max/1000/1*hcY3Bk8YY_1keCJW_b70Vw.jpeg" alt="coverimage"/>
     
 </p>
 
-
 <p>Time truly flies. It has been 20 months since <a href="/2017/08/19/why-i-switch-to-colemak/">I switched from QWERTY to Colemak keyboard layout</a>. Am I now able to type on the Colemak keyboard as fast as the time flies? Certainly not. My typing speed 20 months ago was 75 WPM on average with QWERTY, now it&rsquo;s 85 WPM on average with Colemak. I can feel the improvement and that&rsquo;s why I never look back to QWERTY again.</p>
-
 <p>Besides things mentioned in <a href="/2017/08/27/one-week-with-colemak/">One Week with Colemak</a>, are there somethings special happened during these 20 months?</p>
-
 <h3 id="remap-caps-lock-as">Remap Caps Lock as&hellip;?</h3>
-
 <p>Caps Lock key is a huge waste on the standard keyboard. It locates in such important position but with less functional benefit. Some remap it as Escape key; some remap it as BackSpace key&hellip;</p>
-
 <p>My favorite remapping solution is: Press Caps Lock once, it sends &ldquo;Escape&rdquo; key event; Hold Caps Lock, it sends &ldquo;Control&rdquo; key event. So, one Caps Lock key can act as Escape and Control combined together.</p>
-
 <h4 id="how-to-achieve-this-key-binding-on-linux">How to achieve this key binding on Linux?</h4>
-
 <ul>
 <li>Act as <strong>Control</strong> when press and hold: HHKB keyboard by default puts Control key on the usual Caps Lock position, which is great for me, so no tweak is needed. For other keyboards, I usually use <code>xmodmap</code> to map Caps Lock key as Left Control key.</li>
 <li>Act as <strong>Escape</strong> when single press: <a href="https://github.com/alols/xcape">xcape</a> can configure one key to act as other key when pressed and released:</li>
 </ul>
-
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">xcape -t <span class="m">300</span> -e <span class="s1">&#39;Control_L=Escape&#39;</span></code></pre></div>
-
 <h4 id="how-to-achieve-this-key-binding-on-macos">How to achieve this key binding on macOS?</h4>
-
 <p><a href="https://github.com/tekezo/Karabiner-Elements">Karabiner</a> is a great tool to achieve the same key binding conception on macOS. Karabiner supports customized json configuration file. Here is <a href="https://github.com/KevCui/dotfiles/blob/master/karabiner/capslock.json">my configuration file</a>.</p>
-
 <div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="err">...</span>
 <span class="s2">&#34;from&#34;</span><span class="err">:</span> <span class="p">{</span>
     <span class="nt">&#34;key_code&#34;</span><span class="p">:</span> <span class="s2">&#34;caps_lock&#34;</span><span class="p">,</span>
@@ -312,19 +299,14 @@
     <span class="nt">&#34;key_code&#34;</span><span class="p">:</span> <span class="s2">&#34;escape&#34;</span>
 <span class="p">}]</span><span class="err">,</span>
 <span class="err">...</span></code></pre></div>
-
 <h3 id="some-small-troubles-in-the-real-world">Some small troubles in the real world</h3>
-
 <p>When you use some uncommon tools in the real world, you know you have to prepare some small troubles that may come to you every day:</p>
-
 <ul>
 <li>QWERTY is literally everywhere: Accept the reality and enforce the muscle memory of QWERTY layout as well. Otherwise, like me, I&rsquo;m extremely clumsy when typing on QWERTY.</li>
 <li>Pair programming or testing on my machine: Remember to switch keyboard and key binding settings on the fly, depending on the person.</li>
-<li>&ldquo;This guy is a weirdo.&rdquo;: So what?</li>
+<li>&ldquo;This guy is a weirdo.&quot;: So what?</li>
 </ul>
-
-<hr />
-
+<hr>
 <p>Overall, I&rsquo;m super happy with Colemak for now. I have no plan to learn another keyboard layout. I guess I will stick with Colemak for years. Maybe after some years, I&rsquo;ll write another recap post about Colemak. I shall call it &ldquo;Twenty Years With Colemak&rdquo;. 😉</p>
 
           </section>
@@ -336,7 +318,7 @@
 
         <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2019 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+        &copy; 2020 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
     </span>
 </footer>
 

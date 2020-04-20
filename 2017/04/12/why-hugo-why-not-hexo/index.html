@@ -267,78 +267,53 @@
           </div>
           <h1>Why Hugo Why Not Hexo</h1>
           <section id="post-content" class="article-content post">
-              
-
-<p>As you probably remember that I just about <a href="/2017/02/26/why-hexo-why-not-jekyll/">switched from jekyll to hexo</a> 2 months ago, now I&rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.</p>
-
+              <p>As you probably remember that I just about <a href="/2017/02/26/why-hexo-why-not-jekyll/">switched from jekyll to hexo</a> 2 months ago, now I&rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.</p>
 <h3 id="why-hexo-was-chosen">Why hexo was chosen?</h3>
-
 <p>Let&rsquo;s start from the reasons why I ditched jekyll without any regrets:</p>
-
 <ol>
 <li>Hexo has a good name</li>
+</ol>
+<ul>
 <li>Hexo is powered by Node.js</li>
 <li>Hexo is easy to deploy</li>
 <li>Hexo supports theme change</li>
 <li>Hexo is pretty fast</li>
-</ol>
-
+</ul>
 <p>Honestly hexo is quite good and I&rsquo;m pretty happy living with it. I have <a href="https://github.com/kevcui/krazycavin-hexo-github-io">a &ldquo;clever&rdquo; repository setup of hexo in GitHub</a>:</p>
-
 <ul>
 <li>Branch <strong>hexo</strong>: to keep source code, posts and theme</li>
 <li>Branch <strong>master</strong>: to store all generated static files</li>
 </ul>
-
 <p>I found <a href="https://github.com/hexojs/hexo-deployer-git">a useful deploy plugin</a>, which allows me to write posts and backup them in hexo branch, to publish final static files easily to master branch. I&rsquo;ve to say I got nothing to complain. Hexo works as expected, all 👌</p>
-
 <h3 id="why-i-choose-hugo-then">Why I choose hugo then?</h3>
-
 <p>You know I&rsquo;m a guy who crave clean &amp; fast thingy and I never settle down. I cannot control myself not touching cool thing. <a href="https://gohugo.io/">Hugo</a>, another popular static web generator engine, is mentioned a lot as &ldquo;an alternative&rdquo; of jekyll and recommended by some cool guys. When I&rsquo;m motivated, I won&rsquo;t give up the chance to try hugo, would I?</p>
-
 <h4 id="1-even-better-on-theme-changing">1. Even better on theme changing</h4>
-
 <p>Hexo supports theme change flexibly:</p>
-
 <ol>
 <li>Download a new theme</li>
 <li>Update <code>_config.yaml</code> to use it</li>
 <li>Run server</li>
 </ol>
-
 <p>Hugo is even better:</p>
-
 <ol>
 <li>Download a new theme</li>
 <li>Run server with theme name as a parameter, done!</li>
 </ol>
-
 <h4 id="2-zero-dependency">2. Zero dependency</h4>
-
 <p>Hugo is built using Go, free, <a href="https://github.com/spf13/hugo">open source</a>. If I only want to use hugo without building from source, I could just download executable <a href="https://github.com/spf13/hugo/releases">release binary</a>. Literally it has zero dependency, one binary that&rsquo;s all, so clean. On the other hand, hexo requests much more. First npm, then install around 10 dependencies during initializing. Now I&rsquo;ve only basic functionalities of hexo. If I want to generate emoji, 👌 add a <a href="https://github.com/crimx/hexo-filter-github-emojis">plugin</a>; if I want deploy code automatically, 👌 add another <a href="https://github.com/hexojs/hexo-deployer-git">plugin</a>; if I want backup code automatically, 👌 add another <a href="https://github.com/coneycode/hexo-git-backup">plugin</a>&hellip;</p>
-
 <h4 id="3-lightweight-file-structure">3. Lightweight file structure</h4>
-
 <p>Not to say if <code>node_modules</code> is a design flaw of npm, the fact is that <code>node_modules</code> is bloated heavily, interesting post <a href="https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558">here</a> and interesting discussion <a href="https://www.reddit.com/r/webdev/comments/42cpjy/why_is_my_node_modules_directory_140mb_is_this/">here</a>. Hexo is powered by Node.js and naturally bloated by it. That&rsquo;s why <code>node_modules</code> is that place where I really don&rsquo;t want to look deep inside. To have a better understanding, I roughly checked the size of folders including the same theme and the result is kind as expected:</p>
-
-<pre><code class="language-markdown">Hexo w/ node_modules: 18M
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">Hexo w/ node_modules: 18M
 Hexo w/o node_modules: 69M
 Hugo: 29M
-</code></pre>
-
-<h4 id="4-little-surprises">4. Little surprises</h4>
-
+</code></pre></div><h4 id="4-little-surprises">4. Little surprises</h4>
 <p>After I know more about hugo, I get more little surprises:</p>
-
 <ul>
-<li><a href="https://gohugo.io/extras/livereload/">LiveReload</a>: it instantly reloads browser after any changes. Based on hugo&rsquo;s build speed, it&rsquo;s super continent for developing theme and checking post&rsquo;s looking, easy and fun. I like its speedy <strong>live</strong> reload. ⚡️</li>
+<li><a href="https://gohugo.io/extras/livereload/">LiveReload</a>: it instantly reloads browser after any changes. Based on hugo&rsquo;s build speed, it&rsquo;s super continent for developing theme and checking post&rsquo;s looking, easy and fun. I like its speedy <strong>live</strong> reload. ⚡</li>
 <li><a href="https://gohugo.io/extras/aliases/">Aliases</a>: I call it  page redirect. Once I put alias URL in a post and then visiting this alias URL from browser, hugo will redirect alias URL to post URL. It easily solves the problem of URL changes caused by migration from other frameworks.</li>
 </ul>
-
 <h3 id="summary">Summary</h3>
-
 <p>To sum up, hugo is definitely my new favorite. But hexo is actually good enough to suit my needs. It seems hard to pick one, so my suggestion is following. Imagine you would like to build your own static web pages:</p>
-
 <ul>
 <li>You start from fresh new, I will recommend you give <strong>hugo</strong> a try first.</li>
 <li>You already use hexo, and you are a fan of JavaScript, then <strong>hexo</strong> is the one to stick with.</li>
@@ -356,7 +331,7 @@ Hugo: 29M
 
         <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2019 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+        &copy; 2020 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
     </span>
 </footer>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>fun on Kevin Cui</title>
@@ -17,10 +17,9 @@
       <pubDate>Thu, 01 Dec 2016 21:37:35 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
-      <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1]
- Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
- People are sitting around a table.
- Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
+      <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1] Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
+  People are sitting around a table.
+  Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
     </item>
     
   </channel>

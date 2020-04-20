@@ -275,9 +275,7 @@
           </div>
           <h1>3 mitmproxy Tips You Might Not Know About</h1>
           <section id="post-content" class="article-content post">
-              
-
-<p class="coverimage">
+              <p class="coverimage">
     <img src="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg" alt="coverimage"/>
     
     <br/>
@@ -289,45 +287,36 @@
     
 </p>
 
-
 <p><a href="https://mitmproxy.org/">mitmproxy</a> is a powerful proxy tool for debugging network requests and responses. It&rsquo;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about.</p>
-
 <p>First things first, a small checklist:</p>
-
 <ul>
 <li><a href="https://docs.mitmproxy.org/stable/concepts-modes/">Do you know how mitmproxy works?</a></li>
 <li><a href="https://docs.mitmproxy.org/stable/overview-installation/">Do you know how to install mitmproxy?</a></li>
 <li><a href="https://docs.mitmproxy.org/stable/concepts-certificates/">Do you know how to install CA cert on a client side?</a></li>
 </ul>
-
-<p>If these questions are way too easy for you and your answers are <em>&ldquo;Yes! Yes! Yes!&rdquo;</em>, then continue reading. Otherwise, please click and read the links above, and see you here later.</p>
-
+<p>If these questions are way too easy for you and your answers are <em>&ldquo;Yes! Yes! Yes!&quot;</em>, then continue reading. Otherwise, please click and read the links above, and see you here later.</p>
 <h3 id="tips-1-custom-configuration-and-key-binding">Tips 1: Custom configuration and key binding</h3>
-
 <p>One of the advantages of mitmproxy is highly customizable. It&rsquo;s convenient to set up once configurations that every time mitmproxy loads them automatically when it starts. All the available handy <strong>options</strong> are in the <a href="https://docs.mitmproxy.org/stable/concepts-options/">mitmproxy document</a>. Here is my <code>~/.mitmproxy/config.yaml</code>:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml">console_palette<span class="p">:</span><span class="w"> </span><span class="s2">&#34;dark&#34;</span><span class="w">
-</span><span class="w"></span>console_palette_transparent<span class="p">:</span><span class="w"> </span>True<span class="w">
-</span><span class="w"></span>console_mouse<span class="p">:</span><span class="w"> </span>False<span class="w">
-</span><span class="w"></span>console_focus_follow<span class="p">:</span><span class="w"> </span>True<span class="w">
-</span><span class="w"></span>ignore_hosts<span class="p">:</span><span class="w"> </span><span class="p">[]</span></code></pre></td></tr></table>
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="k">console_palette</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;dark&#34;</span><span class="w">
+</span><span class="w"></span><span class="k">console_palette_transparent</span><span class="p">:</span><span class="w"> </span>True<span class="w">
+</span><span class="w"></span><span class="k">console_mouse</span><span class="p">:</span><span class="w"> </span>False<span class="w">
+</span><span class="w"></span><span class="k">console_focus_follow</span><span class="p">:</span><span class="w"> </span>True<span class="w">
+</span><span class="w"></span><span class="k">ignore_hosts</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span></code></pre></td></tr></table>
 </div>
 </div>
-
 <p>As I&rsquo;m using <a href="/2017/08/27/one-week-with-colemak/">colemak keyboard layout</a>, <em>j</em> and <em>k</em> keys are opposite for the navigation of up and down in mitmproxy. I have to change these 2 keys to make navigation smooth. Before, to change key bindings in old versions, I have to hack around code in <code>defaultkeys.py</code>. Since <a href="https://mitmproxy.org/posts/releases/mitmproxy4/">mitmproxy v4.0</a>, custom key binding is finally officially supported! Here are my key bindings in <code>~/.mitmproxy/keys.yaml</code>:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -343,62 +332,45 @@
 <td class="lntd">
 <pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="sd">-
 </span><span class="sd">  key: j</span><span class="w">
-</span><span class="w">  </span>ctx<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
-</span><span class="w">  </span>cmd<span class="p">:</span><span class="w"> </span>console.nav.up<span class="w">
+</span><span class="w">  </span><span class="k">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
+</span><span class="w">  </span><span class="k">cmd</span><span class="p">:</span><span class="w"> </span>console.nav.up<span class="w">
 </span><span class="w"></span><span class="sd">-
 </span><span class="sd">  key: k</span><span class="w">
-</span><span class="w">  </span>ctx<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
-</span><span class="w">  </span>cmd<span class="p">:</span><span class="w"> </span>console.nav.down<span class="w">
+</span><span class="w">  </span><span class="k">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
+</span><span class="w">  </span><span class="k">cmd</span><span class="p">:</span><span class="w"> </span>console.nav.down<span class="w">
 </span><span class="w"></span><span class="sd">-
 </span><span class="sd">  key: l</span><span class="w">
-</span><span class="w">  </span>ctx<span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;flowlist&#34;</span><span class="p">]</span><span class="w">
-</span><span class="w">  </span>cmd<span class="p">:</span><span class="w"> </span>console.nav.select</code></pre></td></tr></table>
+</span><span class="w">  </span><span class="k">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;flowlist&#34;</span><span class="p">]</span><span class="w">
+</span><span class="w">  </span><span class="k">cmd</span><span class="p">:</span><span class="w"> </span>console.nav.select</code></pre></td></tr></table>
 </div>
 </div>
-
 <p>To know more about which <strong>command</strong> to use in <strong>cmd</strong> field, type <code>K</code> (shift + k) in mitmproxy. A list of current key bindings will show up. More information about key binging configuration is in the <a href="https://docs.mitmproxy.org/stable/tools-mitmproxy/">mitmproxy document</a>.</p>
-
 <h3 id="tips-2-knowing-client-connection-status-when-a-filter-is-applied">Tips 2: Knowing client connection status when a filter is applied</h3>
-
 <p>It happens quite often to me: when I applied all filters in advance and then tried to connect a client to mitmproxy. However, there is nothing show up in the flow list. How do I know if it&rsquo;s because <em>the client is not connected to the proxy successfully</em> or <em>no requests are matching the filter</em>?</p>
-
 <p>A usual but not good way: Well, I have to remove the filter to see all requests. If I can see requests from the client, then I will again apply the filter&hellip;</p>
-
 <p>An easy way is to add <code>| .*</code> in the filter, which will reveal all incoming requests. Yep, regex magic:</p>
-
 <p class="embed">
 <embed src="/videos/mitmproxy-filter-on.svg" style="height:600px"/>
 </p>
 
-
 <p>Another easy way is to simply type <code>E</code> (shift+e), which will open events logs. It shows the client connection status. Use <code>q</code> to quit events view:</p>
-
 <p class="embed">
 <embed src="/videos/mitmproxy-events-view.svg" style="height:600px"/>
 </p>
 
-
 <h3 id="tips-3-using-mitmproxy-as-a-mock-server">Tips 3: Using mitmproxy as a mock server</h3>
-
 <p>The killer feature of mitmproxy is scripting. Using python scripts, all requests and responses are fully controlled and changeable <strong>on the fly</strong>. Besides that, mitmproxy is super robust to handle multiple clients simultaneously connected to one host. These features make mitmproxy a decent mock server. Therefore, I use mitmproxy a lot as <a href="https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/">a mock server</a>.</p>
-
 <p>For example, a script for the purpose of rewriting and mocking response body, <a href="https://github.com/KevCui/mitm-scripts/tree/master/mitm-rewrite">mitm-rewrite</a>:</p>
-
 <ul>
 <li>Map <code>http://example.com/pass</code> to <code>test_pass.json</code> <em>(terminal on the bottom left)</em></li>
 <li>Create mock response data in <code>test_pass.json</code> <em>(terminal on the bottom right)</em></li>
 <li>Visit <code>http://example.com/pass</code> on the client side</li>
 <li>The initial response is now replaced by the one in <code>test_pass.json</code> <em>(terminal on top)</em></li>
 </ul>
-
-<p><img src="https://raw.githubusercontent.com/KevCui/mitm-scripts/master/screenshot/mitm-rewrite-example.jpg" alt="mitmproxy mock server picture" /></p>
-
+<p><img src="https://raw.githubusercontent.com/KevCui/mitm-scripts/master/screenshot/mitm-rewrite-example.jpg" alt="mitmproxy mock server picture"></p>
 <p>If you want to know more useful scripts, I have a <a href="https://github.com/KevCui/mitm-scripts">mitm-scripts collection</a> to check out. If you want to make your own scripts, there are <a href="https://github.com/mitmproxy/mitmproxy/tree/master/examples/simple">some examples</a>.</p>
-
-<hr />
-
+<hr>
 <p>Didn&rsquo;t try mitmproxy yet? Get it a try. 😉</p>
-
 <p>Know other mitmproxy tricks? Tell me more. 😍</p>
 
           </section>
@@ -410,7 +382,7 @@
 
         <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2019 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+        &copy; 2020 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
     </span>
 </footer>
 

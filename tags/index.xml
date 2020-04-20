@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kevin Cui</title>
@@ -201,15 +201,6 @@
     </item>
     
     <item>
-      <title>yearly review</title>
-      <link>https://kevcui.github.io/tags/yearly-review/</link>
-      <pubDate>Mon, 25 Dec 2017 20:40:32 +0100</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/yearly-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>lighthouse</title>
       <link>https://kevcui.github.io/tags/lighthouse/</link>
       <pubDate>Sun, 03 Dec 2017 11:35:21 +0100</pubDate>
@@ -377,15 +368,6 @@
       <pubDate>Sun, 18 Jun 2017 15:55:09 +0200</pubDate>
       
       <guid>https://kevcui.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>timezone</title>
-      <link>https://kevcui.github.io/tags/timezone/</link>
-      <pubDate>Tue, 09 May 2017 10:38:38 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/timezone/</guid>
       <description></description>
     </item>
     

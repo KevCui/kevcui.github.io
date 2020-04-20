@@ -271,35 +271,22 @@
           </div>
           <h1>Replace 8 Frequently Used Linux Commands!?</h1>
           <section id="post-content" class="article-content post">
-              
-
-<p class="coverimage">
+              <p class="coverimage">
     <img src="https://cdn-images-1.medium.com/max/1000/1*hcY3Bk8YY_1keCJW_b70Vw.jpeg" alt="coverimage"/>
     
 </p>
 
-
-<style>
-.lnt {
-    display: none
-}
-</style>
-
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 <p>Almost a decade ago, I started to touch the command-line interface (CLI). I&rsquo;m now a nerdy CLI lover and I&rsquo;m so obsessed by its efficiency. Therefore, I&rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&rsquo;s worth to find better alternatives.</p>
-
 <p>Here is a list of improved commands I&rsquo;d like to share with you:</p>
-
 <h3 id="cd-z-up-and-fzf">cd? z, up and fzf!</h3>
-
 <h4 id="z">z</h4>
-
 <p><a href="https://github.com/rupa/z">z</a> is a very popular alternative command for jumping around. <code>z</code> doesn&rsquo;t require any additional configurations. Although it works out of the box, you need just a little bit of patience. Because <code>z</code> has a &ldquo;magic&rdquo; algorithm based on &ldquo;frequency&rdquo; which can learn from the frequent vested directories after your <code>cd</code> around for a while.</p>
-
 <p>An easy and quick example how to <code>z</code>:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -331,18 +318,13 @@
 /home/foo/bar/one/two/three</code></pre></td></tr></table>
 </div>
 </div>
-
 <p>Want to know how &ldquo;frequency&rdquo; score looks like for all directories? Simply run command <code>z -l</code> will give you a list.</p>
-
 <p>Want to clean some/all saved directories? Simply modify <code>$HOME/.z</code>.</p>
-
 <h4 id="up">up</h4>
-
 <p><a href="https://github.com/shannonmoeller/up">up</a> is an interesting command to replace <code>cd ..</code> and this ridicules one <code>cd ../../../../</code></p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -374,27 +356,19 @@
 /home</code></pre></td></tr></table>
 </div>
 </div>
-
 <h4 id="fzf">fzf</h4>
-
 <p><a href="https://github.com/junegunn/fzf">fzf</a> is a versatile command, which can be combined in other commands. With the help of its amazing searchability, it can be used to <a href="https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh">&ldquo;cd into the selected directory&rdquo;</a>:</p>
-
 <p class="embed">
 <embed src="/videos/fzf-example.svg" style="height:300px"/>
 </p>
 
-
 <h3 id="ls-exa">ls? exa!</h3>
-
 <p><a href="https://github.com/ogham/exa">exa</a> aims to be the modem replacement for <code>ls</code>. In my opinion, it did it. exa is really easy to use. Its options are straightforward:</p>
-
-<p><img src="/images/exa-example.jpg" alt="exa-example" /></p>
-
+<p><img src="/images/exa-example.jpg" alt="exa-example"></p>
 <p>Here are my aliases:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
@@ -402,38 +376,23 @@
 <span class="nb">alias</span> <span class="nv">ll</span><span class="o">=</span><span class="s1">&#39;exa -l -s mod --git --time-style=long-iso&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
-
 <p>More options to tweak exa: <a href="https://the.exa.website/docs/command-line-options">exa options</a></p>
-
 <h3 id="cat-bat">cat? bat!</h3>
-
 <p><a href="https://github.com/sharkdp/bat">bat</a> is a <code>cat</code> clone with syntax highlighting, line numbers and automatic paging (using <code>less</code> as the default pager). To display the contents of a file using <code>bat</code> looks like:</p>
-
-<p><img src="/images/bat-example.jpg" alt="bat-example" /></p>
-
+<p><img src="/images/bat-example.jpg" alt="bat-example"></p>
 <p>It&rsquo;s possible to customize the theme of syntax highlighting. It supports Sublime Text syntax format. Check these default themes to have some inspirations: <a href="https://github.com/sharkdp/bat/tree/master/assets/themes">bat themes</a></p>
-
 <h3 id="grep-rg">grep? rg!</h3>
-
 <p><a href="https://github.com/BurntSushi/ripgrep">rg</a>, ripgrep, is fast &amp; furious. It has almost the same parameters of <code>grep</code> command, with improved output style and speed.</p>
-
 <p>One main usage of <code>grep</code> for me is to find out which files contain some specific contents. An example to compare <code>grep</code> and <code>ripgrep</code>:</p>
-
-<p><img src="/images/grep-example.jpg" alt="grep-example" /></p>
-
-<p><img src="/images/ripgrep-example.jpg" alt="ripgrep-example" /></p>
-
+<p><img src="/images/grep-example.jpg" alt="grep-example"></p>
+<p><img src="/images/ripgrep-example.jpg" alt="ripgrep-example"></p>
 <p>If you&rsquo;re interested in how fast <code>rg</code> can be? Check this comparison: <a href="https://github.com/BurntSushi/ripgrep#quick-examples-comparing-tools">rg vs. grep vs. ag. vs. ack&hellip;</a> Not sure if it&rsquo;s still the case now. But overall, ripgrep is fast enough for my daily use.</p>
-
 <h3 id="find-fd-and-fzf">find? fd and fzf!</h3>
-
 <h4 id="fd">fd</h4>
-
 <p><a href="https://github.com/sharkdp/fd">fd</a> is a replacement for <code>find</code> focusing on user-friendly, with simplifying options of <code>find</code>. For example, I want to edit a file but I don&rsquo;t remember what&rsquo;s its full path actually is. Usually, I need to find its full path first and then edit it:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
@@ -443,76 +402,60 @@
 ~$ vi ./2017/04/17/how-i-do-exploratory-testing/index.html</code></pre></td></tr></table>
 </div>
 </div>
-
 <p>Since I know the result will be only one file found, I can combine <code>vi</code> inside <code>find</code> command as well:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">~$ find . -ipath <span class="s2">&#34;*how*exp*&#34;</span> -name <span class="s2">&#34;index.html&#34;</span> -exec vi <span class="o">{}</span> <span class="se">\;</span></code></pre></td></tr></table>
 </div>
 </div>
-
 <p>With <code>fd</code>, the command is more readable:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">~$ fd -p <span class="s1">&#39;how.*exp.*/index&#39;</span>
-<span class="m">2017</span>/04/17/how-i-do-exploratory-testing/index.html</code></pre></td></tr></table>
+2017/04/17/how-i-do-exploratory-testing/index.html</code></pre></td></tr></table>
 </div>
 </div>
-
 <h4 id="fzf-1">fzf</h4>
-
 <p><a href="https://github.com/junegunn/fzf">fzf</a> has an extremely powerful fuzzy searchability. It can nest finding steps directly with another command. I bind the key <a href="https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh"><code>ctrl-t</code> to enable fzf</a>. As the same example as above, but with <code>fzf</code>, it&rsquo;s a completely different story:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">~$ vi <span class="o">(</span>press ctrl-t<span class="o">)</span></code></pre></td></tr></table>
 </div>
 </div>
-
 <p class="embed">
 <embed src="/videos/fzf-example2.svg" style="height:300px"/>
 </p>
 
-
 <p>An alias to combine <code>vim</code> and <code>fzf</code>:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">alias</span> <span class="nv">vif</span><span class="o">=</span><span class="s1">&#39;vim $(fzf)&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
-
 <h3 id="kill-fkill">kill? fkill!</h3>
-
 <p><a href="https://github.com/sindresorhus/fkill">fkill</a>, its <strong>f</strong> stands for &ldquo;fabulously&rdquo; (It&rsquo;s definitely not the word I&rsquo;m thinking in my mind 😉). Sometimes, <code>kill</code> some zombie processes is necessary. <code>fkill</code> can search a process and kill it interactively. It makes killing stylish:</p>
-
 <p class="embed">
 <embed src="/videos/fkill-example.svg" style="height:300px"/>
 </p>
 
-
 <h3 id="watch-loop">watch? loop!</h3>
-
-<p><em>&ldquo;UNIX&rsquo;s missing loop command.&rdquo;</em> <a href="https://github.com/Miserlou/Loop">loop</a> is designed to fill the gap. It works well to replace <code>watch</code>:</p>
-
+<p><em>&ldquo;UNIX&rsquo;s missing loop command.&quot;</em> <a href="https://github.com/Miserlou/Loop">loop</a> is designed to fill the gap. It works well to replace <code>watch</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -530,12 +473,10 @@
 ~$ loop -e 6s <span class="s1">&#39;ls -l&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
-
 <p>Moreover, <code>loop</code> has some awesome options to determine when to stop watching:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -547,32 +488,27 @@
 -c, --until-contains &lt;until_contains&gt;    Keep going until the output contains this string
 -r, --until-error &lt;until_error&gt;          Keep going until the command exit status is non-zero, or the value given
 -m, --until-match &lt;until_match&gt;          Keep going until the output matches this regular expression
--t, --until-time &lt;until_time&gt;            Keep going until a future time, ex. &#34;2018-04-20 0400&#34; (Times in UTC.)
+-t, --until-time &lt;until_time&gt;            Keep going until a future time, ex. &#34;2018-04-20 04:20:00&#34; (Times in UTC.)
 ...</code></pre></td></tr></table>
 </div>
 </div>
-
 <p>Example: stop watching when <code>stop-now</code> file is created and then open it in vim:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-bash" data-lang="bash">~$ loop -e 6s <span class="s1">&#39;clear;date;ls -l&#39;</span> -c <span class="s1">&#39;stop-now&#39;</span><span class="p">;</span> vi stop-now</code></pre></td></tr></table>
 </div>
 </div>
-
 <p class="embed">
 <embed src="/videos/loop-example.svg" style="height:350px"/>
 </p>
 
-
 <p>Actually, using <code>loop</code> to replace <code>for</code> command is also promising and full of pleasure:</p>
-
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -584,45 +520,30 @@
 <pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># create 10 markdown files: 0.md, 1.md ... 9.md</span>
 
 <span class="c1"># for</span>
-~$ <span class="k">for</span> <span class="o">((</span><span class="nv">i</span><span class="o">=</span><span class="m">0</span><span class="p">;</span> i &lt; <span class="m">10</span><span class="p">;</span> i++<span class="o">))</span><span class="p">;</span> <span class="k">do</span> touch <span class="si">${</span><span class="nv">i</span><span class="si">}</span>.md<span class="p">;</span> <span class="k">done</span>
+~$ <span class="k">for</span> <span class="o">((</span><span class="nv">i</span><span class="o">=</span>0<span class="p">;</span> i &lt; 10<span class="p">;</span> i++<span class="o">))</span><span class="p">;</span> <span class="k">do</span> touch <span class="si">${</span><span class="nv">i</span><span class="si">}</span>.md<span class="p">;</span> <span class="k">done</span>
 
 <span class="c1"># loop</span>
 ~$ loop -n <span class="m">10</span> <span class="s1">&#39;touch ${COUNT}.md&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
-
 <h3 id="man-tldr-pet-and-how2">man? tldr, pet and how2!</h3>
-
 <h4 id="tldr">tldr</h4>
-
 <p><a href="https://github.com/tldr-pages/tldr">tldr</a> is a simplified collection of man pages. It returns some command snippets with practical examples:</p>
-
-<p><img src="/images/tldr-example.jpg" alt="tldr-example" /></p>
-
+<p><img src="/images/tldr-example.jpg" alt="tldr-example"></p>
 <h4 id="pet">pet</h4>
-
 <p><a href="https://github.com/knqyf263/pet">pet</a> is a CLI snippet manager. It&rsquo;s a handy tool to save some commands snippets which are easily forgotten. The idea is to use <code>pet</code> building own reference manuals.</p>
-
 <h4 id="how2">how2</h4>
-
 <p><a href="https://github.com/santinic/how2">how2</a> takes another approach to search for the right command: it queries questions and answers from stackoverflow!</p>
-
 <p class="embed">
 <embed src="/videos/how2-example.svg" style="height:300px"/>
 </p>
 
-
 <p>In case the displayed answer is not what exactly you want, <code>how2</code> provides <a href="https://github.com/santinic/how2#usage">the interactive mode</a> to select in a list of all relative questions and answers.</p>
-
 <p>From now on, we can get confident to &ldquo;save the world&rdquo;!</p>
-
-<p><img src="https://imgs.xkcd.com/comics/tar.png" alt="xkcd-tar" /></p>
-
-<hr />
-
+<p><img src="https://imgs.xkcd.com/comics/tar.png" alt="xkcd-tar"></p>
+<hr>
 <p>Share this list if you think it&rsquo;s a good read for other CLI nerds. 💝</p>
-
-<p>Drop me a message if you have other commands to recommend. ❤️</p>
+<p>Drop me a message if you have other commands to recommend. ❤</p>
 
           </section>
           
@@ -633,7 +554,7 @@
 
         <footer class="footer">
     <span class="footer__copyright">
-        &copy; 2019 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
+        &copy; 2020 Kevin Cui ♥ Powered by <a href="https://gohugo.io/">Hugo</a>
     </span>
 </footer>
 
