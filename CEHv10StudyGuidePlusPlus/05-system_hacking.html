@@ -1,0 +1,866 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>05-System Hacking · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="06-web_server_and_web_application_hacking.html" />
+    
+    
+    <link rel="prev" href="04-sniffing_and_evasion.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    CEHv10 Study Guide++
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01-essential_knowledge.html">
+            
+                <a href="01-essential_knowledge.html">
+            
+                    
+                    01-Essential Knowledge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="02-reconnaissance_and_footprinting.html">
+            
+                <a href="02-reconnaissance_and_footprinting.html">
+            
+                    
+                    02-Reconnaissance and Footprinting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="03-scanning_and_enumeration.html">
+            
+                <a href="03-scanning_and_enumeration.html">
+            
+                    
+                    03-Scanning and Enumeration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="04-sniffing_and_evasion.html">
+            
+                <a href="04-sniffing_and_evasion.html">
+            
+                    
+                    04-Sniffing and Evasion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="05-system_hacking.html">
+            
+                <a href="05-system_hacking.html">
+            
+                    
+                    05-System Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="06-web_server_and_web_application_hacking.html">
+            
+                <a href="06-web_server_and_web_application_hacking.html">
+            
+                    
+                    06-Web Server and Web Application Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="07-wireless_network_hacking.html">
+            
+                <a href="07-wireless_network_hacking.html">
+            
+                    
+                    07-Wireless Network Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="08-mobile_and_iot_hacking.html">
+            
+                <a href="08-mobile_and_iot_hacking.html">
+            
+                    
+                    08-Mobile and IoT Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="09-security_in_cloud_computing.html">
+            
+                <a href="09-security_in_cloud_computing.html">
+            
+                    
+                    09-Security in Cloud Computing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="10-malware_and_other_attacks.html">
+            
+                <a href="10-malware_and_other_attacks.html">
+            
+                    
+                    10-Malware and Other Attacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="11-cryptography.html">
+            
+                <a href="11-cryptography.html">
+            
+                    
+                    11-Cryptography
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="12-social_engineering.html">
+            
+                <a href="12-social_engineering.html">
+            
+                    
+                    12-Social Engineering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="13-pen_testing.html">
+            
+                <a href="13-pen_testing.html">
+            
+                    
+                    13-Pen Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >05-System Hacking</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="05-system-hacking">05-System Hacking</h1>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="05-system_hacking.html#system-hacking">System Hacking</a><ul>
+<li><a href="05-system_hacking.html#windows-security-architecture">Windows Security Architecture</a><ul>
+<li><a href="05-system_hacking.html#lm-hashing">LM Hashing</a></li>
+<li><a href="05-system_hacking.html#ntdsdit">Ntds.dit</a></li>
+<li><a href="05-system_hacking.html#kerberos">Kerberos</a></li>
+<li><a href="05-system_hacking.html#registry">Registry</a><ul>
+<li><a href="05-system_hacking.html#root-level-keys">Root Level Keys</a></li>
+<li><a href="05-system_hacking.html#type-of-registry-values">Type of Registry Values</a></li>
+<li><a href="05-system_hacking.html#important-locations">Important Locations</a></li>
+<li><a href="05-system_hacking.html#executables">Executables</a></li>
+</ul>
+</li>
+<li><a href="05-system_hacking.html#mmc-microsoft-management-console">MMC (Microsoft Management Console)</a></li>
+<li><a href="05-system_hacking.html#null-session">Null session</a></li>
+</ul>
+</li>
+<li><a href="05-system_hacking.html#linux-security-architecture">Linux Security Architecture</a><ul>
+<li><a href="05-system_hacking.html#important-locations">Important locations</a></li>
+<li><a href="05-system_hacking.html#important-linux-commands">Important Linux Commands</a></li>
+</ul>
+</li>
+<li><a href="05-system_hacking.html#system-hacking-goals">System Hacking Goals</a></li>
+<li><a href="05-system_hacking.html#authentication-and-password">Authentication and Password</a><ul>
+<li><a href="05-system_hacking.html#three-types-of-authentication">Three Types of Authentication</a></li>
+<li><a href="05-system_hacking.html#types-of-password-attacks">Types of Password Attacks</a><ul>
+<li><a href="05-system_hacking.html#non-electronic">Non-electronic</a></li>
+<li><a href="05-system_hacking.html#active-online">Active online</a></li>
+<li><a href="05-system_hacking.html#passive-online">Passive online</a></li>
+<li><a href="05-system_hacking.html#offline">Offline</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="05-system_hacking.html#privilege-escalation">Privilege Escalation</a><ul>
+<li><a href="05-system_hacking.html#types-of-privilege-escalation">Types of Privilege Escalation</a></li>
+<li><a href="05-system_hacking.html#four-methods">Four Methods</a></li>
+</ul>
+</li>
+<li><a href="05-system_hacking.html#executing-applications">Executing Applications</a></li>
+<li><a href="05-system_hacking.html#hiding-files">Hiding Files</a><ul>
+<li><a href="05-system_hacking.html#ads-alternate-data-stream">ADS (Alternate Data Stream)</a></li>
+<li><a href="05-system_hacking.html#attribute">Attribute</a></li>
+<li><a href="05-system_hacking.html#steganography">Steganography</a></li>
+<li><a href="05-system_hacking.html#rootkit">Rootkit</a><ul>
+<li><a href="05-system_hacking.html#types-of-rootkits">Types of Rootkits</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="05-system_hacking.html#covering-tracks">Covering Tracks</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="system-hacking">System Hacking</h2>
+<h3 id="windows-security-architecture">Windows Security Architecture</h3>
+<ul>
+<li>Authentication credentials stored in SAM file</li>
+<li>Older systems use LM hashing. Current uses NTLM v2 (MD5)</li>
+<li>Windows network authentication uses Kerberos</li>
+<li><strong>Security Context</strong>: user identity and authentication information</li>
+<li><strong>Security Identifier</strong> (SID) - identifies a user, group or computer account</li>
+<li><strong>Resource Identifier</strong> (RID) - portion of the SID identifies a specific user, group or computer</li>
+<li>The end of the SID indicates the user number<ul>
+<li>Example SID: S-1-5-21-3874928736-367528774-1298337465-<strong>500</strong></li>
+<li><strong>Administrator Account</strong>: SID of 500</li>
+<li><strong>Regular Accounts</strong>: start with a SID of 1000</li>
+</ul>
+</li>
+<li><strong>SAM Database</strong> (Security Account Manager)<ul>
+<li>File stores encrypted local passwords</li>
+<li>Location: C:\Windows\System32\Config</li>
+</ul>
+</li>
+</ul>
+<h4 id="lm-hashing">LM Hashing</h4>
+<ul>
+<li>Password is restricted to a maximum of 14 characters, converted to uppercase</li>
+<li>The &#x201C;fixed-length&#x201D; password is split into two 7-byte halves</li>
+<li>These values are used to create two DES keys, one from each 7-byte half, by converting the seven bytes into a bit stream with the most significant bit first, and inserting a null bit after every seven bits (so 1010100 becomes 10101000). This generates the 64 bits needed for a DES key</li>
+<li>Each of the two keys is used to DES-encrypt the constant ASCII string <code>KGS!@#$%</code>, resulting in two 8-byte ciphertext values</li>
+<li>Blank section hash: <code>AAD3B435B51404EE</code></li>
+<li>SAM file presents as <code>UserName:SID:LM_Hash:NTLM_Hash:::</code></li>
+</ul>
+<h4 id="ntdsdit">Ntds.dit</h4>
+<ul>
+<li>Database file on a domain controller that stores passwords</li>
+<li>Including the entire Active Directory</li>
+<li>Location: <code>%SystemRoot%\NTDS\Ntds.dit</code> or <code>%SystemRoot%System32\Ntds.dit</code></li>
+</ul>
+<h4 id="kerberos">Kerberos</h4>
+<ul>
+<li>Using both symmetric and asymmetric encryption</li>
+<li>Steps of exchange:<ol>
+<li>Client asks <strong>Key Distribution Center</strong> (KDC) for a ticket. Sent in cleartext of user ID to <strong>Authentication Server</strong> (AS) (Neither the secret key nor the password is sent to the AS)</li>
+<li>Server responds with <strong>Ticket Granting Ticket</strong> (TGT). This is a secret key which is hashed by the password copy stored on the server</li>
+<li>If client can decrypt it, the TGT is sent back to the server requesting a <strong>Ticket Granting Service</strong> (TGS) service ticket</li>
+<li>Server sends TGS service ticket which client uses to access resources</li>
+</ol>
+</li>
+<li>Tools: both take a long time to crack<ul>
+<li>KerbSniff</li>
+<li>KerbCrack</li>
+</ul>
+</li>
+</ul>
+<h4 id="registry">Registry</h4>
+<ul>
+<li>Collection of all settings and configurations make the system run</li>
+<li>Made up of keys and values</li>
+</ul>
+<p><strong>Root Level Keys</strong></p>
+<ul>
+<li><strong>HKEY_LOCAL_MACHINE</strong> (HKLM): information on hardware and software</li>
+<li><strong>HKEY_CLASSES_ROOT</strong> (HKCR): information on file associates and OLE classes</li>
+<li><strong>HKEY_CURRENT_USER</strong> (HKCU): profile information for the current user including preferences</li>
+<li><strong>HKEY_USERS</strong> (HKU): specific user configuration information for all currently active users</li>
+<li><strong>HKEY_CURRENT_CONFIG</strong> (HKCC): pointer to HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Hardware Profiles\Current</li>
+</ul>
+<p><strong>Type of Registry Values</strong></p>
+<ul>
+<li><strong>REG_SZ</strong>: character string</li>
+<li><strong>REG_EXPAND_SZ</strong>: expandable string value</li>
+<li><strong>REG_BINARY</strong>: a binary value</li>
+<li><strong>REG_DWORD</strong>: 32-bit unsigned integer</li>
+<li><strong>REG_LINK</strong>: symbolic link to another key</li>
+</ul>
+<p><strong>Important Locations</strong></p>
+<ul>
+<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce</li>
+<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices</li>
+<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce</li>
+<li>HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run (run app as soon as user logs in)</li>
+</ul>
+<p><strong>Executables</strong></p>
+<ul>
+<li>regedit.exe</li>
+<li>regedt32.exe (preferred by Microsoft)</li>
+</ul>
+<h4 id="mmc-microsoft-management-console">MMC (Microsoft Management Console)</h4>
+<ul>
+<li>Used by Windows to administer system</li>
+<li>&quot;snap-ins&quot; that allow you to modify sets, such as Group Policy Editor</li>
+</ul>
+<h4 id="null-session">Null session</h4>
+<ul>
+<li>Anonymous connection to an inter-process communication (IPC) network service</li>
+<li>NetBIOS is vulnerable to it</li>
+<li><strong>Countermeasure</strong>: create restrict anonymous registry key</li>
+</ul>
+<h3 id="linux-security-architecture">Linux Security Architecture</h3>
+<ul>
+<li>Linux Systems use User IDs (UID) and Group IDs (GID), found in <code>/etc/passwd</code></li>
+<li>Root has UID and GID of 0</li>
+<li>First user has UID and GID of 500</li>
+<li>Password are stored in <code>/etc/shadow</code> for most current systems</li>
+<li><code>/etc/password</code> stores passwords in hashes</li>
+<li><code>/etc/shadow</code> stores passwords encrypted (hashed and salted) and is only accessible by root</li>
+</ul>
+<h4 id="important-locations">Important locations</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Directory</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">/</td>
+<td style="text-align:left">Root directory</td>
+</tr>
+<tr>
+<td style="text-align:left">/home</td>
+<td style="text-align:left">Holds the user home directories</td>
+</tr>
+<tr>
+<td style="text-align:left">/etc</td>
+<td style="text-align:left">All administration files and passwords. Both password and shadow files are here</td>
+</tr>
+<tr>
+<td style="text-align:left">/usr</td>
+<td style="text-align:left">Holds almost all the information, commands and files unique to the users</td>
+</tr>
+<tr>
+<td style="text-align:left">/mnt</td>
+<td style="text-align:left">Holds the access locations you&apos;ve mounted</td>
+</tr>
+<tr>
+<td style="text-align:left">/bin</td>
+<td style="text-align:left">Basic Linux commands</td>
+</tr>
+<tr>
+<td style="text-align:left">/sbin</td>
+<td style="text-align:left">Yystem binaries folder which holds more administrative commands</td>
+</tr>
+<tr>
+<td style="text-align:left">/dev</td>
+<td style="text-align:left">Contains pointer locations to various storage and input/output systems</td>
+</tr>
+</tbody>
+</table>
+<h4 id="important-linux-commands">Important Linux Commands</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Command</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">adduser</td>
+<td style="text-align:left">Add a user to the system</td>
+</tr>
+<tr>
+<td style="text-align:left">cat</td>
+<td style="text-align:left">Display contents of file</td>
+</tr>
+<tr>
+<td style="text-align:left">cp</td>
+<td style="text-align:left">Copy</td>
+</tr>
+<tr>
+<td style="text-align:left">ifconfig</td>
+<td style="text-align:left">Display network configuration information</td>
+</tr>
+<tr>
+<td style="text-align:left">kill</td>
+<td style="text-align:left">Kill a running process</td>
+</tr>
+<tr>
+<td style="text-align:left">ls</td>
+<td style="text-align:left">Display the contents of a folder. -l option provides most information.</td>
+</tr>
+<tr>
+<td style="text-align:left">man</td>
+<td style="text-align:left">Display the manual page for a command</td>
+</tr>
+<tr>
+<td style="text-align:left">passwd</td>
+<td style="text-align:left">Used to change password</td>
+</tr>
+<tr>
+<td style="text-align:left">ps</td>
+<td style="text-align:left">Process status. -ef option shows all processes</td>
+</tr>
+<tr>
+<td style="text-align:left">rm</td>
+<td style="text-align:left">Remove files. -r option recursively removes all subdirectories</td>
+</tr>
+<tr>
+<td style="text-align:left">su</td>
+<td style="text-align:left">Allow you to perform functions as another user (super user)</td>
+</tr>
+<tr>
+<td style="text-align:left">pwd</td>
+<td style="text-align:left">Display current directory</td>
+</tr>
+<tr>
+<td style="text-align:left">chmod</td>
+<td style="text-align:left">Change permissions of a folder or file</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><code>Read</code> 4 (100), <code>Write</code> 2 (010), <code>Execute</code> 1 (001)</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left"><code>777</code>: Three 7s in order stand for <code>user</code>, <code>group</code>, and <code>others</code>, result is <code>rwxrwxrwx</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Adding an ampersand <code>&amp;</code> after a process name indicates it should run in the background</li>
+<li>Linux Enumeration Commands<ul>
+<li><strong>finger</strong>: info on user and host machine</li>
+<li><strong>rpcinfo and rpcclient</strong>: info on RPC in the environment</li>
+<li><strong>showmount</strong>: displays all shared directories on the machine</li>
+</ul>
+</li>
+</ul>
+<h3 id="system-hacking-goals">System Hacking Goals</h3>
+<ul>
+<li><strong>Gaining Access</strong>: using information gathered to exploit the system</li>
+<li><strong>Escalating Privileges</strong>: granting hacked account as admin or pivots to an admin account</li>
+<li><strong>Executing Applications</strong>: putting back doors into the system to maintain access</li>
+<li><strong>Hiding Files</strong>: making sure the files left behind are not discoverable</li>
+<li><strong>Covering Tracks</strong>: cleaning up everything else (log files, etc.)</li>
+</ul>
+<h3 id="authentication-and-password">Authentication and Password</h3>
+<ul>
+<li><strong>Strength of passwords</strong><ul>
+<li>Determined by length and complexity</li>
+<li>Complexity is defined by number of character sets used (lower case, upper case, numbers, symbols, etc.)</li>
+</ul>
+</li>
+<li><strong>Default passwords</strong><ul>
+<li>Always should be changed and never leave what they came with</li>
+<li>Databases such as cirt.net, default-password.info and open-sez.me all have databases of these</li>
+</ul>
+</li>
+</ul>
+<h4 id="three-types-of-authentication">Three Types of Authentication</h4>
+<ul>
+<li><strong>Something You Are</strong><ul>
+<li><strong>Active</strong>: interaction required (retina scan or fingerprint scanner)</li>
+<li><strong>Passive</strong>: no interaction required (iris scan)</li>
+<li>uses biometrics to validate identity (retina, fingerprint, etc.), downside: a lot of false negatives</li>
+<li><strong>False acceptance rate</strong> (FAR) - rate that a system accepts access for people that shouldn&apos;t have it</li>
+<li><strong>False rejection rate</strong> (FRR) - rate that a system rejects access for someone who should have it</li>
+<li><strong>Crossover error rate</strong> (CER) - combination of the two; the lower the CER, the better the system</li>
+</ul>
+</li>
+<li><strong>Something You Have</strong><ul>
+<li>Usually consists of a token of some kind (swipe badge, ATM card, etc.)</li>
+<li>This type usually requires something alongside it (such as a PIN for an ATM card)</li>
+<li>Some tokens are single-factor (such as a plug-and-play authentication)</li>
+</ul>
+</li>
+<li><strong>Something You Know</strong>: better known as a password</li>
+<li><strong>2FA</strong> (Two-Factor Authentication): when you have two types of authentication such as something you know (password) and something you have (access card)</li>
+</ul>
+<h4 id="types-of-password-attacks">Types of Password Attacks</h4>
+<p><strong>Non-electronic</strong></p>
+<ul>
+<li>Social engineering attacks, most effective</li>
+</ul>
+<p><strong>Active online</strong></p>
+<ul>
+<li>Done by directly communicating with the victim&apos;s machine</li>
+<li>Active online attacks are easier to detect and take a longer time</li>
+<li>Including dictionary and brute-force attacks, hash injections, phishing, Trojans, spyware, keyloggers and password guessing</li>
+<li><strong>Keylogging</strong>: process of using a hardware device or software application to capture keystrokes of a user</li>
+<li><strong>LLMNR/NBT-NS</strong><ul>
+<li>Attack based off Windows technologies that caches DNS locally</li>
+<li>Responding to these poisoned local cache, sends over an NTLM v2 hash, it can be sniffed out and then cracked</li>
+<li>Tools<ul>
+<li>NBNSpoof</li>
+<li>Metasploit</li>
+<li>Responder</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Can combine <code>net</code> commands with a tool such as <strong>NetBIOS Auditing tool</strong> or <strong>Legion</strong> to automate the testing of user IDs and passwords</li>
+<li>Tools<ul>
+<li>Hydra</li>
+<li>Metasploit</li>
+</ul>
+</li>
+</ul>
+<p><strong>Passive online</strong></p>
+<ul>
+<li>Sniffing the wire in hopes of intercepting a password in clear text or attempting a replay attack or man-in-the-middle attack</li>
+<li>Tools<ul>
+<li>Cain and Abel: can poison ARP and then monitor the victim&apos;s traffic</li>
+<li>Ettercap: works very similar to Cain and Abel. However, can also help against SSL encryption</li>
+</ul>
+</li>
+</ul>
+<p><strong>Offline</strong></p>
+<ul>
+<li>When the hacker steals a copy of the password file and does the cracking on a separate system</li>
+<li><strong>Dictionary Attack</strong>: using a word list to attack the password, the fastest method of attacking</li>
+<li><strong>Brute force Attack</strong><ul>
+<li>Tries every combination of characters to crack a password</li>
+<li>Can be faster if you know parameters (such as at least 7 characters, should have a special character, etc.)</li>
+</ul>
+</li>
+<li><strong>Rule-based Attack</strong>: attacker obtains some information about the password<ul>
+<li><strong>Hybrid Attack</strong>: taking a dictionary attack and replaces characters (such as a 0 for an o) or adds numbers to the end</li>
+<li><strong>Syllable Attack</strong>: when passwords are not known words, attackers use the dictionary and other methods to crash them, as well as all possible dominations of them</li>
+</ul>
+</li>
+<li><strong>Rainbow tables</strong>: using pre-hashed passwords to compare against a password hash. Is faster because the hashes are already computed</li>
+<li><strong>Distributed Network Attack</strong> (DNA): recovering password protected files that uses unused processing power of machines across the network to decrypt passwords</li>
+<li>Tools<ul>
+<li>Cain</li>
+<li>John the Ripper</li>
+</ul>
+</li>
+</ul>
+<h3 id="privilege-escalation">Privilege Escalation</h3>
+<h4 id="types-of-privilege-escalation">Types of Privilege Escalation</h4>
+<ul>
+<li><strong>Vertical</strong>: lower-level user executes code at a higher privilege level</li>
+<li><strong>Horizontal</strong>: executing code at the same user level but from a location that would be protected from that access</li>
+</ul>
+<h4 id="four-methods">Four Methods</h4>
+<ol>
+<li>Crack the password of an admin, primary aim</li>
+<li>Take advantage of an OS vulnerability<ul>
+<li><strong>DLL Hijacking</strong>: replacing a DLL in the application directory with your own version which gives you the access you need</li>
+</ul>
+</li>
+<li>Use a tool that will provide you the access such as Metasploit</li>
+<li>Social engineering a user to run an application</li>
+</ol>
+<h3 id="executing-applications">Executing Applications</h3>
+<ul>
+<li>Executing things such as keyloggers, spyware, back doors and crackers</li>
+<li>ECC refers executing applications as owning a system</li>
+</ul>
+<h3 id="hiding-files">Hiding Files</h3>
+<h4 id="ads-alternate-data-stream">ADS (Alternate Data Stream)</h4>
+<ul>
+<li>Works only on Windows</li>
+<li>Hides a file from directory listing on an NTFS file system</li>
+<li>Can be run by <code>start readme.txt:badfile.exe</code></li>
+<li>Can also create a link to this and make it look real: <code>mklink innocent.exe readme.txt:badfile.exe</code></li>
+<li><strong>Countermeasures</strong><ul>
+<li>Show ADS: <code>dir /r</code></li>
+<li>Blow away all ADS by copying files to a FAT partition</li>
+<li>Every forensic kit looks for this</li>
+</ul>
+</li>
+</ul>
+<h4 id="attribute">Attribute</h4>
+<ul>
+<li>In Windows: <code>attrib +h filename</code></li>
+<li>In Linux: simply add a dot <code>.</code> to the beginning of the filename</li>
+</ul>
+<h4 id="steganography">Steganography</h4>
+<ul>
+<li>Steganography can hide data and files, more details in <code>./11-Cryptography.md</code></li>
+</ul>
+<h4 id="rootkit">Rootkit</h4>
+<ul>
+<li>Software puts in place by attacker to obscure system compromise</li>
+<li>Hiding processes and files</li>
+<li>Also allowing for future access</li>
+<li>Examples:<ul>
+<li>Horsepill: Linus kernel rootkit inside initrd</li>
+<li>Grayfish: Windows rootkit that injects in boot record</li>
+<li>Azazel</li>
+<li>Avatar</li>
+<li>Necurs</li>
+<li>ZeroAccess</li>
+</ul>
+</li>
+<li>One way to detect rootkits is to map all the files on a system and then boot a system from a clean CD version and compare the two file systems</li>
+</ul>
+<p><strong>Types of Rootkits</strong></p>
+<ul>
+<li><strong>Hypervisor level</strong>: rootkits that modify the boot sequence of a host system to load a VM as the host OS</li>
+<li><strong>Hardware level</strong>: hiding malware in devices or firmware</li>
+<li><strong>Boot loader level</strong>: replacing boot loader with one controlled by hacker</li>
+<li><strong>Application level</strong>: directed to replace valid application files with Trojans</li>
+<li><strong>Kernel level</strong>: attacking boot sectors (MBR: Master Boot Record) and kernel level replacing kernel code with back-door code; most dangerous</li>
+<li><strong>Library level</strong>: using system-level calls to hide themselves</li>
+</ul>
+<h3 id="covering-tracks">Covering Tracks</h3>
+<ul>
+<li>Don&apos;t just delete, key sign that an attack has happened. Option is to corrupt a log file, because this can happen all the time.</li>
+<li>Best option is to be selective and delete the entries pertaining to your actions</li>
+<li>Also disabling auditing ahead of time to prevent logs from being captured</li>
+<li>In Windows: need to clear application, system and security logs; Tool Elsave can clear Windows logs</li>
+<li>In Windows: clear MRU (Most Recent Used) list</li>
+<li><strong>clearev</strong>: meterpreter shell command to clear log files</li>
+<li><strong>Time stomping</strong>: manipulating time stamps on files, used to set file times which to throw off investigations or identify intrusions</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="04-sniffing_and_evasion.html" class="navigation navigation-prev " aria-label="Previous page: 04-Sniffing and Evasion">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="06-web_server_and_web_application_hacking.html" class="navigation navigation-next " aria-label="Next page: 06-Web Server and Web Application Hacking">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"05-System Hacking","level":"1.6","depth":1,"next":{"title":"06-Web Server and Web Application Hacking","level":"1.7","depth":1,"path":"06-web_server_and_web_application_hacking.md","ref":"06-web_server_and_web_application_hacking.md","articles":[]},"previous":{"title":"04-Sniffing and Evasion","level":"1.5","depth":1,"path":"04-sniffing_and_evasion.md","ref":"04-sniffing_and_evasion.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["advanced-emoji"],"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"05-system_hacking.md","mtime":"2020-06-27T08:19:41.665Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-27T10:41:21.931Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
