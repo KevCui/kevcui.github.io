@@ -1,0 +1,996 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>11-Cryptography · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="12-social_engineering.html" />
+    
+    
+    <link rel="prev" href="10-malware_and_other_attacks.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    CEHv10 Study Guide++
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01-essential_knowledge.html">
+            
+                <a href="01-essential_knowledge.html">
+            
+                    
+                    01-Essential Knowledge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="02-reconnaissance_and_footprinting.html">
+            
+                <a href="02-reconnaissance_and_footprinting.html">
+            
+                    
+                    02-Reconnaissance and Footprinting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="03-scanning_and_enumeration.html">
+            
+                <a href="03-scanning_and_enumeration.html">
+            
+                    
+                    03-Scanning and Enumeration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="04-sniffing_and_evasion.html">
+            
+                <a href="04-sniffing_and_evasion.html">
+            
+                    
+                    04-Sniffing and Evasion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="05-system_hacking.html">
+            
+                <a href="05-system_hacking.html">
+            
+                    
+                    05-System Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="06-web_server_and_web_application_hacking.html">
+            
+                <a href="06-web_server_and_web_application_hacking.html">
+            
+                    
+                    06-Web Server and Web Application Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="07-wireless_network_hacking.html">
+            
+                <a href="07-wireless_network_hacking.html">
+            
+                    
+                    07-Wireless Network Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="08-mobile_and_iot_hacking.html">
+            
+                <a href="08-mobile_and_iot_hacking.html">
+            
+                    
+                    08-Mobile and IoT Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="09-security_in_cloud_computing.html">
+            
+                <a href="09-security_in_cloud_computing.html">
+            
+                    
+                    09-Security in Cloud Computing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="10-malware_and_other_attacks.html">
+            
+                <a href="10-malware_and_other_attacks.html">
+            
+                    
+                    10-Malware and Other Attacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.12" data-path="11-cryptography.html">
+            
+                <a href="11-cryptography.html">
+            
+                    
+                    11-Cryptography
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="12-social_engineering.html">
+            
+                <a href="12-social_engineering.html">
+            
+                    
+                    12-Social Engineering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="13-pen_testing.html">
+            
+                <a href="13-pen_testing.html">
+            
+                    
+                    13-Pen Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >11-Cryptography</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="11-cryptography">11-Cryptography</h1>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="11-cryptography.html#cryptography">Cryptography</a><ul>
+<li><a href="11-cryptography.html#cryptography-basics">Cryptography Basics</a><ul>
+<li><a href="11-cryptography.html#classical-ciphers">Classical Ciphers</a></li>
+<li><a href="11-cryptography.html#modern-ciphers">Modern Ciphers</a><ul>
+<li><a href="11-cryptography.html#based-on-type-of-key-used">Based on type of key used</a></li>
+<li><a href="11-cryptography.html#based-on-type-of-input-data">Based on type of input data</a></li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#cryptanalysis-methods">Cryptanalysis Methods</a></li>
+<li><a href="11-cryptography.html#code-breaking-methodologies">Code Breaking Methodologies</a></li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#encryption-algorithms-and-techniques">Encryption Algorithms and Techniques</a><ul>
+<li><a href="11-cryptography.html#encryption-types-in-osi">Encryption types in OSI</a></li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#symmetric-encryption">Symmetric Encryption</a><ul>
+<li><a href="11-cryptography.html#des-data-encryption-standard">DES (Data Encryption Standard)</a></li>
+<li><a href="11-cryptography.html#3des-triple-data-encryption-standard">3DES (Triple Data Encryption Standard)</a></li>
+<li><a href="11-cryptography.html#aes-advanced-encryption-standard">AES (Advanced Encryption Standard)</a></li>
+<li><a href="11-cryptography.html#rc-rivest-cipher">RC (Rivest Cipher)</a></li>
+<li><a href="11-cryptography.html#blowfish">Blowfish</a></li>
+<li><a href="11-cryptography.html#twofish">Twofish</a></li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#asymmetric-encryption">Asymmetric Encryption</a><ul>
+<li><a href="11-cryptography.html#rsa-rivestshamiradleman">RSA (Rivest&#x2013;Shamir&#x2013;Adleman)</a></li>
+<li><a href="11-cryptography.html#diffie-hellman">Diffie-Hellman</a></li>
+<li><a href="11-cryptography.html#ecc-elliptic-curve-cryptosystem">ECC (Elliptic Curve Cryptosystem)</a></li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#public-key-infrastructure-pki">Public Key Infrastructure (PKI)</a><ul>
+<li><a href="11-cryptography.html#components-of-pki">Components of PKI</a></li>
+<li><a href="11-cryptography.html#pki-process-flow">PKI Process Flow</a></li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#digital-certificates">Digital Certificates</a></li>
+<li><a href="11-cryptography.html#digital-signatures">Digital Signatures</a><ul>
+<li><a href="11-cryptography.html#digital-signature-workflow">Digital Signature workflow</a></li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#full-disk-encryption-fde">Full Disk Encryption (FDE)</a></li>
+<li><a href="11-cryptography.html#encrypted-communication">Encrypted Communication</a><ul>
+<li><a href="11-cryptography.html#secure-sockets-layer-ssl">Secure Sockets Layer (SSL)</a><ul>
+<li><a href="11-cryptography.html#channelsecurity">Channelsecurity</a></li>
+<li><a href="11-cryptography.html#ssltls-handshake-process">SSL/TLS handshake process</a></li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#transport-layer-security-tls">Transport Layer Security (TLS)</a><ul>
+<li><a href="11-cryptography.html#two-layers">Two Layers</a></li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#pgp-pretty-good-privacy">PGP (Pretty Good Privacy)</a><ul>
+<li><a href="11-cryptography.html#pgp-encryption-and-decryption-workflow">PGP Encryption and Decryption Workflow</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#cryptography-attacks">Cryptography Attacks</a></li>
+<li><a href="11-cryptography.html#hash-algorithms">Hash Algorithms</a><ul>
+<li><a href="11-cryptography.html#md5-message-digest-algorithm">MD5 (Message Digest algorithm)</a></li>
+<li><a href="11-cryptography.html#sha-secure-hash-algorithms">SHA (Secure Hash Algorithms)</a></li>
+<li><a href="11-cryptography.html#ripemd-race-integrity-primitives-evaluation-message-digest"><strong>RIPEMD</strong> (RACE Integrity Primitives Evaluation Message Digest)</a></li>
+<li><a href="11-cryptography.html#attacks">Attacks</a></li>
+</ul>
+</li>
+<li><a href="11-cryptography.html#steganography">Steganography</a><ul>
+<li><a href="11-cryptography.html#methods">Methods</a></li>
+<li><a href="11-cryptography.html#ways-to-identify">Ways to Identify</a></li>
+<li><a href="11-cryptography.html#tools">Tools</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="cryptography">Cryptography</h2>
+<h3 id="cryptography-basics">Cryptography Basics</h3>
+<ul>
+<li>Science or study of protecting information whether in transit or at rest</li>
+<li>Rendering the information unusable to anyone who can&apos;t decrypt it</li>
+<li>Taking plain text, applies cryptographic method, turn it into cipher text</li>
+<li><strong>Cipher</strong>: an algorithm performing encryption and decryption</li>
+</ul>
+<h4 id="classical-ciphers">Classical Ciphers</h4>
+<ul>
+<li><strong>Substitution</strong>: bits are replaced by other bits</li>
+<li><strong>Transposition</strong>: not replacing, simply changes order</li>
+</ul>
+<h4 id="modern-ciphers">Modern Ciphers</h4>
+<p><strong>Based on type of key used</strong></p>
+<ul>
+<li><strong>Private Key</strong>: same key used for encryption and decryption</li>
+<li><strong>Public Key</strong>: 2 different keys used for encryption and decryption</li>
+</ul>
+<p><strong>Based on type of input data</strong></p>
+<ul>
+<li><strong>Block Cipher</strong><ul>
+<li>Data bits are split up into blocks and fed into the cipher</li>
+<li>Each block of data (usually 64 bits) is encrypted with key and algorithm</li>
+<li>Simpler and slower than stream ciphers</li>
+<li>Key chosen for cipher must have a length larger than the data, if not, it is vulnerable to frequency attacks</li>
+</ul>
+</li>
+<li><p><strong>Stream Cipher</strong></p>
+<ul>
+<li>Readable bits are encrypted one at a time in a continuous stream</li>
+<li>Working at a high rate of speed</li>
+<li><p>Usually done by an XOR operation (exclusive or)</p>
+<pre><code class="lang-text">0 XOR 0 = 0
+1 XOR 1 = 0
+0 XOR 1 = 1
+1 XOR 0 = 1
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="cryptanalysis-methods">Cryptanalysis Methods</h4>
+<ul>
+<li>Study and methods used to crack cipher text</li>
+<li><strong>Linear Cryptanalysis</strong><ul>
+<li>Working best on block ciphers</li>
+<li>Given enough pairs of plaintext and corresponding ciphertext, key can be obtained</li>
+</ul>
+</li>
+<li><strong>Differential Cryptanalysis</strong><ul>
+<li>Applying to symmetric key algorithms</li>
+<li>Comparing differences in the inputs to how each one affects the outcome</li>
+<li>Working with <strong>chosen plaintext</strong> originally, also works with <strong>known plaintext and ciphertext</strong></li>
+</ul>
+</li>
+<li><strong>Integral Cryptanalysis</strong><ul>
+<li>Useful against block ciphers</li>
+<li>Input vs Output comparison same as differential, however, runs multiple computations of the same block size input</li>
+</ul>
+</li>
+</ul>
+<h4 id="code-breaking-methodologies">Code Breaking Methodologies</h4>
+<ul>
+<li><strong>Brute Force</strong>: exhaustive search, keys are determined by trying every possible combination of characters</li>
+<li><strong>Frequency Analysis</strong>: study of the frequency of letters or groups of letters in a ciphertext, can be used to crack a substitution cipher, like rotation cipher ROT13</li>
+<li><strong>Trickery and Deceit</strong><ul>
+<li>Requiring a high level of mathematical and cryptographic skills</li>
+<li>Using social engineering techniques to trick someone to encrypt and send a known message</li>
+</ul>
+</li>
+<li><strong>One-time Pad</strong><ul>
+<li>Assuming to be unbreakable</li>
+<li>A shared random key that has to be the same length or longer than the cipher text</li>
+<li>Each individual bit or character of plaintext is encrypted by combining it with the corresponding bit or character from the pad using modular addition</li>
+<li><strong>Drawback</strong>: key length is same as that of message, impossible to encrypt and send large messages</li>
+</ul>
+</li>
+</ul>
+<h3 id="encryption-algorithms-and-techniques">Encryption Algorithms and Techniques</h3>
+<ul>
+<li><strong>Algorithm</strong>: step-by-step method of solving a problem</li>
+<li><strong>Encryption Algorithms</strong>: mathematical formulas used to encrypt and decrypt data</li>
+<li>Keys should still change on a regular basis even though they may be &quot;unhackable&quot;</li>
+<li>Per U.S. Government, an algorithm using at least a 256-bit key cannot be cracked</li>
+</ul>
+<h4 id="encryption-types-in-osi">Encryption types in OSI</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Encryption type</th>
+<th style="text-align:left">OSI layer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Link encryption</td>
+<td style="text-align:left">2, everything including original headers is encrypted</td>
+</tr>
+<tr>
+<td style="text-align:left">Network encryption</td>
+<td style="text-align:left">3, everything in the packet is encrypted</td>
+</tr>
+<tr>
+<td style="text-align:left">Protocol encryption</td>
+<td style="text-align:left">4, specific protocols are entirely encrypted eg. SSL</td>
+</tr>
+<tr>
+<td style="text-align:left">Service based encryption</td>
+<td style="text-align:left">5, encryption for specific services on specific hosts</td>
+</tr>
+<tr>
+<td style="text-align:left">Data encryption</td>
+<td style="text-align:left">6</td>
+</tr>
+<tr>
+<td style="text-align:left">Application based information encryption</td>
+<td style="text-align:left">7</td>
+</tr>
+</tbody>
+</table>
+<h3 id="symmetric-encryption">Symmetric Encryption</h3>
+<ul>
+<li>One key is used to encrypt and decrypt the data, known as single key or shared key</li>
+<li>Problems include key distribution and management</li>
+<li>Suitable for large amounts of data</li>
+<li>Harder for groups of people because more keys are needed as group increases</li>
+<li>Doing nothing for non-repudiation, only performs confidentiality</li>
+</ul>
+<h4 id="des-data-encryption-standard">DES (Data Encryption Standard)</h4>
+<ul>
+<li>Block cipher, 56-bit key, 64-bit block size</li>
+<li>Quickly outdated and now considered not very secure</li>
+<li>Kerberos 1-4 used DES</li>
+</ul>
+<h4 id="3des-triple-data-encryption-standard">3DES (Triple Data Encryption Standard)</h4>
+<ul>
+<li>Block cipher, 168-bit key</li>
+<li>More effective than DES but much slower</li>
+<li>3 keys are used:<ul>
+<li>1st key is used to encrypt the plain text</li>
+<li>2nd key is used to decrypt ciphertext resulting from the first round of encryption</li>
+<li>3rd key is used to encrypt the ciphertext that resulted from the decryption with the 2nd key</li>
+</ul>
+</li>
+</ul>
+<h4 id="aes-advanced-encryption-standard">AES (Advanced Encryption Standard)</h4>
+<ul>
+<li>Iterated block cipher, 128, 192 or 256 bit key, 128-bit block size</li>
+<li>Symmetric key algorithm</li>
+<li>Working by repeating same operation multiple times</li>
+<li>Replacing DES, much faster than DES and 3DES</li>
+<li>Original name is Rijndael</li>
+</ul>
+<h4 id="rc-rivest-cipher">RC (Rivest Cipher)</h4>
+<ul>
+<li>RC4 is a symmetric key <strong>stream</strong> cipher</li>
+<li>RC5 is a parameterized algorithm with variable block size, 128-bit key, 2-bit working registers</li>
+<li>RC6 is a symmetric key block cipher, uses integer multiplication and 4-bit working registers</li>
+</ul>
+<h4 id="blowfish">Blowfish</h4>
+<ul>
+<li>Fast symmetric block cipher, 64-bit block size, 32 to 448 bits key</li>
+<li>Replaced by AES</li>
+<li>Considered public domain</li>
+</ul>
+<h4 id="twofish">Twofish</h4>
+<ul>
+<li>Block cipher, 128-bit block, up to 256 bit key</li>
+</ul>
+<h3 id="asymmetric-encryption">Asymmetric Encryption</h3>
+<ul>
+<li>Using two types of keys for encryption and decryption</li>
+<li>One key encrypts, the other decrypts</li>
+<li>The private key is used to digitally sign a message</li>
+</ul>
+<h4 id="rsa-rivest&#x2013;shamir&#x2013;adleman">RSA (Rivest&#x2013;Shamir&#x2013;Adleman)</h4>
+<ul>
+<li>Achieving strong encryption through the use of two large prime numbers</li>
+<li>Factoring two prime numbers to create key sizes up to 4096 bits</li>
+<li>Modern de-facto encryption standard</li>
+<li><strong>Downside</strong>: slower than symmetric especially on bulk encryption and processing power</li>
+</ul>
+<h4 id="diffie-hellman">Diffie-Hellman</h4>
+<ul>
+<li>Developed as a key exchange protocol</li>
+<li>Used in SSL and IPsec</li>
+<li>If digital signatures are waived, vulnerable to MITM attacks</li>
+</ul>
+<h4 id="ecc-elliptic-curve-cryptosystem">ECC (Elliptic Curve Cryptosystem)</h4>
+<ul>
+<li>Using points on elliptical curve along with logarithmic problems</li>
+<li>Using less processing power, smaller keys, good for mobile devices</li>
+</ul>
+<h3 id="public-key-infrastructure-pki">Public Key Infrastructure (PKI)</h3>
+<ul>
+<li>Structure designed to verify and authenticate the identity of individuals</li>
+<li><strong>Cross-Certification</strong><ul>
+<li>Allowing a CA to trust another CS in a completely different PKI</li>
+<li>Allowing both CAs to validate certificates from either side</li>
+</ul>
+</li>
+<li><strong>Single-authority system</strong>: CA at the top that creates and issues certificates</li>
+<li><strong>Hierarchical trust system</strong><ul>
+<li>CA at the top (root CA)</li>
+<li>Making use of one or more RAs (subordinate CAs) underneath it to issue and manage certificates</li>
+</ul>
+</li>
+</ul>
+<h4 id="components-of-pki">Components of PKI</h4>
+<ul>
+<li><strong>Certificate Management System</strong>: generates, distributes, stores, and verifies certificates</li>
+<li><strong>Validation Authority</strong>: (VA) used to validate certificates, stores certificates with their public keys</li>
+<li><strong>Certificate Authority</strong>: (CA) third party to issue and verify digital certificates<ul>
+<li>Comodo</li>
+<li>IdentTrust</li>
+<li>Symantec</li>
+<li>GoDaddy</li>
+</ul>
+</li>
+<li><strong>End user</strong>: requests, manages, and uses certificates</li>
+<li><strong>Registration Authority</strong>: (RA) acts as verifier for the certificate authority</li>
+</ul>
+<h4 id="pki-process-flow">PKI Process Flow</h4>
+<p>A user applies for a certificate with his public key at a RA. RA confirms the user&apos;s identity to CA which in turn issues the certificate. The user can then digitally sign a contract using his new certificate. His identity is then checked by the contracting party with a VA which again receives information about issued certificates by the CA.</p>
+<pre><code class="lang-text">                     Cert. info
+  --------&gt; CA --------------------------&gt; VA
+  |         |                              |^
+  |OK       |                              ||
+  |         |                              ||
+  RA        |Cert.                      OK || Cert.
+  ^         |                              ||
+  |Pub. K   |                              ||
+  |         v    Sign with Cert.           v|
+  --------- User ---------------&gt; Contracing Party
+</code></pre>
+<h3 id="digital-certificates">Digital Certificates</h3>
+<ul>
+<li><strong>Certificate</strong>: electronic file that is used to verify a user&apos;s identity, provides non-repudiation<ul>
+<li><strong>Non-repudiation</strong>: a recipient can ensure the identity of the sender and neither party can deny sending</li>
+</ul>
+</li>
+<li><strong>X.509</strong>: standard used for digital certificates, public key encryption</li>
+<li><strong>Self-Signed Certificates</strong><ul>
+<li>Not signed by a CA</li>
+<li>Signed by the same entity it certifies</li>
+<li>Generally not used for public, used for development purposes</li>
+<li>The certificate verification rarely occurs due to necessity of disclosing the private key</li>
+</ul>
+</li>
+</ul>
+<h3 id="digital-signatures">Digital Signatures</h3>
+<ul>
+<li>Unforgeable and authentic</li>
+<li>When signing a message, you sign it with your <strong>private</strong> key and the recipient decrypts the hash with your <strong>public</strong> key</li>
+<li><strong>Digital Signature Algorithm</strong> (DSA): used in generation and verification of digital signatures per FIPS 186-2</li>
+</ul>
+<h4 id="digital-signature-workflow">Digital Signature workflow</h4>
+<pre><code class="lang-text">- Sign
+        Hashing Algo.                     Digital Sign
+Message --------------&gt;   Message    -------------------------&gt;    Message
+                       + hash value  using sender&apos;s PRIVATE key  + singed hash
+
+- Seal
+   Encrypt                                    Seal
+----------------&gt; Encrypted message --------------------------&gt; Sealed message
+using one-time    + sysmmetric key    Encrypt sysmmetric key
+sysmmetric key                      using recipient&apos;s PUBLIC key
+
+- Open
+                       Decrypt                                        Decrypt
+Sealed message ---------------------------&gt;   Encrypted message  --------------------&gt;    Message
+               with recipient&apos;s PRIVATE key  + sysmmetric key     with sysmmetric key   + signed hash
+
+- Verify
+  Unlock signed hash                    Rehash message &amp; Compare
+-----------------------&gt;    Message     -------------------------&gt; Verified message
+with sender&apos;s PUBLIC key  + Hash value
+</code></pre>
+<h3 id="full-disk-encryption-fde">Full Disk Encryption (FDE)</h3>
+<ul>
+<li>Encrypting every bit of data stored on a disk or a disk volume</li>
+<li>Working similar to text-message encryption and protects data even OS is not active</li>
+<li>Preventing real-time exchange of information from compromising threats</li>
+<li>Ensuring security of the system</li>
+<li>Tools<ul>
+<li>VeraCrypt</li>
+<li>Symantec Drive Encryption</li>
+<li>BitLocker Drive Encryption</li>
+</ul>
+</li>
+</ul>
+<h3 id="encrypted-communication">Encrypted Communication</h3>
+<h4 id="secure-sockets-layer-ssl">Secure Sockets Layer (SSL)</h4>
+<ul>
+<li>Using both asymmetric and symmetric authentication mechanisms</li>
+<li>Encrypting data at Transport Layer and above</li>
+<li>Using RSA asymmetric encryption and digital certificates</li>
+<li>Having largely been replaced by TLS</li>
+</ul>
+<p><strong>Channelsecurity</strong></p>
+<ul>
+<li><strong>Private channel</strong>:: encrypted messages, a simple handshake defines secret key</li>
+<li><strong>Authenticated channel</strong>: encrypted server endpoint, client endpoint is optionally authenticated</li>
+<li><strong>Reliable channel</strong>: message transfer has an integrity check</li>
+</ul>
+<p><strong>SSL/TLS handshake process</strong></p>
+<pre><code class="lang-text">--------                                       --------
+&#x2502;Client&#x2502;                                       &#x2502;Server&#x2502;
+--------                                       --------
+   &#x2502;                                              &#x2502;
+   &#x2502;                Cipher Suite                  &#x2502;
+   &#x2502;---------------------------------------------&gt;&#x2502;
+   &#x2502;                                              &#x2502;
+   &#x2502;           SSL Cert. (Public Key)             &#x2502;
+   &#x2502;&lt;---------------------------------------------&#x2502;
+   &#x2502;                                              &#x2502;
+Public Key                                        &#x2502;
+Verified                                          &#x2502;
+   &#x2502;            Encrypted Session Key             &#x2502;
+   &#x2502;      (generated using server Public Key)     &#x2502;
+   &#x2502;---------------------------------------------&gt;&#x2502;
+   &#x2502;                                         Session Key
+   &#x2502;                                          decrypted
+   &#x2502;            Session Key is in place           &#x2502;
+   &#x2502;&lt;--------------------------------------------&gt;&#x2502;
+   &#x2502;                                              &#x2502;
+   &#x2502; Session Key used for encryption &amp; decryption &#x2502;
+   &#x2502;&lt;--------------------------------------------&gt;&#x2502;
+--------                                       --------
+&#x2502;Client&#x2502;                                       &#x2502;Server&#x2502;
+--------                                       --------
+</code></pre>
+<h4 id="transport-layer-security-tls">Transport Layer Security (TLS)</h4>
+<ul>
+<li>Using RSA 1024 and 2048 bits, successor to SSL</li>
+<li>Allowing both client and server to authenticate to each other</li>
+<li>TLS Record Protocol provides secured communication channel</li>
+</ul>
+<p><strong>Two Layers</strong></p>
+<ul>
+<li><strong>TLS Record Protocol</strong><ul>
+<li>Connection is private: using symmetric cryptography for data encryption</li>
+<li>Connection is reliable: providing message integrity check</li>
+</ul>
+</li>
+<li><strong>TLS Handshake Protocol</strong><ul>
+<li>Providing connection security that has three basic properties:<ul>
+<li>The peer&apos;s identity can be authenticated using asymmetric cryptography</li>
+<li>The negotiation of a shared secret is secure</li>
+<li>The negotiation is reliable</li>
+</ul>
+</li>
+<li>TLS Handshake Protocol operates on top of TLS record layer</li>
+</ul>
+</li>
+</ul>
+<h4 id="pgp-pretty-good-privacy">PGP (Pretty Good Privacy)</h4>
+<ul>
+<li>Features conventional and public key cryptography</li>
+<li>The file format uses asymmetric encryption to encrypt a symmetric encryption key</li>
+<li>The symmetric encryption key encrypts the data</li>
+<li>Both symmetric and asymmetric keys are used, known as hybrid cryptosystem</li>
+<li>Used for signing, compress and encryption of emails, files and directories</li>
+<li>Using a decentralized model, called web of trust, where individual users sign keys that belong to other people to validate that key are who they say they are</li>
+</ul>
+<p><strong>PGP Encryption and Decryption Workflow</strong></p>
+<pre><code class="lang-text">- Encryption
+        Compress                 Encrypt
+Data ----------------&gt; -----------------------------&gt; Cipher text
+     reduce patterns   with Random key as secret key
+
+                    Encrypt
+Random key --------------------------&gt; Encrypted Random key
+           with recipient&apos;s PUBLIC key
+
+- Decryption
+                              Decrypt
+Encrypted Random key ---------------------------&gt; Random key
+                     with recipient&apos;s PRIVATE key
+
+               Decrypt
+Cipher text ---------------&gt; Data
+            with Random key
+</code></pre>
+<h3 id="cryptography-attacks">Cryptography Attacks</h3>
+<ul>
+<li><strong>Known-plaintext Attack</strong> (KPA)<ul>
+<li>Obtaining some plaintext blocks along with corresponding ciphertext and cipher</li>
+<li>Working on block ciphers, linear cryptanalysis</li>
+</ul>
+</li>
+<li><strong>Ciphertext-only Attack</strong>: (COA)<ul>
+<li>Gaining copies of several ciphertexts with the same algorithm</li>
+<li>Recovering encryption key from ciphertext</li>
+</ul>
+</li>
+<li><strong>Chosen-plaintext Attack</strong> (CPA)<ul>
+<li>Obtaining ciphertexts corresponding to a set of plaintexts of attacker&apos;s own choosing</li>
+<li>Attempting to derive the key used</li>
+<li><strong>Adaptive Chosen-plaintext Attack</strong><ul>
+<li>Modifying content of message by making a series of interactive queries, choosing subsequent plaintexts based on the information from the previous encryptions</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Chosen-Ciphertext Attack</strong> (CCA)<ul>
+<li>Obtaining plaintexts corresponding to a set of ciphertexts of attacker&apos;s own choosing</li>
+<li>Must have access to communication channel between sender and receiver<ul>
+<li><strong>Lunchtime Attack</strong> or <strong>Midnight Attack</strong>: attacker can have access to system for only a limited amount of time, can access only few plaintext-ciphertext pairs</li>
+<li><strong>Adaptive Chosen-ciphertext</strong> (CCA2): selecting a series of ciphertexts and then observes the resulting plaintext blocks</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Related-key Attack</strong>: obtaining ciphertexts encrypted under two different keys, useful if attacker can obtain plaintext and matching ciphertext</li>
+<li><strong>Dictionary Attack</strong>: constructing a dictionary of plaintext along with its corresponding ciphertext</li>
+<li><strong>Chosen-key Attack</strong>: breaking an n bit key cipher into 2^n/2 numbers of operations</li>
+<li><strong>Timing Attack</strong>: repeatedly measuring exact execution times of modular exponentiation operations</li>
+<li><strong>Meet-in-the-middle Attack</strong><ul>
+<li>Using some sort of time-space trade-off to drastically reduce the effort to perform a brute-force attack (e.g., transforming an attack that requires 2exp128 time into one that takes 2exp64 time and 2exp64 space)</li>
+<li>May also refer to a type of attack over certain block ciphers, where the attacker decompose the problem in two halves and proceeds on each part separately</li>
+</ul>
+</li>
+<li><strong>Side-Channel Attack</strong>: monitoring environmental factors such as power consumption, timing and delay</li>
+<li><strong>DUHK Attack</strong> (Don&apos;t Use Hard-Coded Keys)<ul>
+<li>Allowing attackers to access keys in certain VPN implementations</li>
+<li>Affecting devices using ANSI X9.31 with a hard-coded seed key</li>
+</ul>
+</li>
+<li><strong>Escrow key</strong><ul>
+<li>Stored in a safe place by a trusted third party</li>
+<li>Enabling companies to remain compliant with government mandates regarding its ability to gain access when necessary</li>
+<li>Government Access to Keys (GAK) allowing the government to gain access to encrypted communications without interference from the company being investigated</li>
+</ul>
+</li>
+<li>Tools<ul>
+<li>L0phtcrack: used mainly against Windows SAM files</li>
+<li>John the Ripper: UNIX/Linux tool for the same purpose</li>
+<li>CrypTool</li>
+<li>Cryptobench</li>
+</ul>
+</li>
+</ul>
+<h3 id="hash-algorithms">Hash Algorithms</h3>
+<ul>
+<li>One-way mathematical function that produces a fix-length string (hash) based on the arrangement of data bits in the input</li>
+<li>Used for integrity</li>
+<li><strong>Salt</strong>: used with a hash to obscure the hash, collection of random bits</li>
+</ul>
+<h4 id="md5-message-digest-algorithm">MD5 (Message Digest algorithm)</h4>
+<ul>
+<li>Produces 128 bit hash expressed as 32 digit hexadecimal number</li>
+<li>Having serious flaws</li>
+<li>Still used for file download verification</li>
+</ul>
+<h4 id="sha-secure-hash-algorithms">SHA (Secure Hash Algorithms)</h4>
+<ul>
+<li><strong>SHA-1</strong>: 160 bits, developed by NSA</li>
+<li><strong>SHA-2</strong><ul>
+<li>Four separate hash functions</li>
+<li>Outputs of 224, 256, 384 and 512 bits</li>
+<li>SHA-256 uses 32-bit block words</li>
+<li>SHA-512 uses 64-bit block words</li>
+</ul>
+</li>
+<li><strong>SHA-3</strong>: using sponge construction</li>
+</ul>
+<h4 id="ripemd-race-integrity-primitives-evaluation-message-digest"><strong>RIPEMD</strong> (RACE Integrity Primitives Evaluation Message Digest)</h4>
+<ul>
+<li>160-bit hash algorithm</li>
+<li>Working through 80 stages made up of 6 blocks that executes 16 times each</li>
+<li>Using modulo 32 addition</li>
+</ul>
+<h4 id="attacks">Attacks</h4>
+<ul>
+<li><strong>Collision</strong><ul>
+<li>Occurring when two or more files create the same hash output</li>
+<li>Rare but can happen and can be used an attack</li>
+</ul>
+</li>
+<li><strong>Birthday attack</strong>: attack that depends on the higher likelihood of collisions found between random attack attempts and a fixed degree of permutations</li>
+<li><strong>Rainbow Tables</strong>: containing precomputed hashes to try and find out passwords</li>
+<li>Tools<ul>
+<li>HashCalc</li>
+<li>MD5 Calculator</li>
+</ul>
+</li>
+</ul>
+<h3 id="steganography">Steganography</h3>
+<ul>
+<li>Practicing of concealing a message inside another medium so that only the sender and recipient know of its existence</li>
+<li><strong>Steganalysis</strong>: the process of discovering the existence of the hidden information in a medium, the reverse process of steganography</li>
+</ul>
+<h4 id="methods">Methods</h4>
+<ul>
+<li>Least significant bit insertion: changes least meaningful bit</li>
+<li>Makes and filters (grayscale images): like watermarking</li>
+<li>Algorithmic transformation: hides in mathematical functions used in image compression</li>
+<li><strong>Noisy areas</strong>: noisy areas are those that draw less attention, like areas with a great deal of natural color variation in the image</li>
+<li><strong>Transform domain technique</strong>: Steganography hides the information in significant parts of the cover image such as cropping, compression, and some other image processing areas</li>
+</ul>
+<h4 id="ways-to-identify">Ways to Identify</h4>
+<ul>
+<li>Text: character positions are key; blank spaces, text patterns</li>
+<li>Image: file larger in size; some may have color palette faults</li>
+<li>Audio &amp; Video: require statistical analysis</li>
+</ul>
+<h4 id="tools">Tools</h4>
+<ul>
+<li>QuickStego</li>
+<li>gifshuffle</li>
+<li>MP3Stego</li>
+<li>SNOW</li>
+<li>OpenStego</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="10-malware_and_other_attacks.html" class="navigation navigation-prev " aria-label="Previous page: 10-Malware and Other Attacks">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="12-social_engineering.html" class="navigation navigation-next " aria-label="Next page: 12-Social Engineering">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"11-Cryptography","level":"1.12","depth":1,"next":{"title":"12-Social Engineering","level":"1.13","depth":1,"path":"12-social_engineering.md","ref":"12-social_engineering.md","articles":[]},"previous":{"title":"10-Malware and Other Attacks","level":"1.11","depth":1,"path":"10-malware_and_other_attacks.md","ref":"10-malware_and_other_attacks.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["advanced-emoji"],"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"11-cryptography.md","mtime":"2020-06-27T08:19:41.668Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-27T10:41:21.931Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
