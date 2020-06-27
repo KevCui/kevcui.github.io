@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>13-Pen Testing · GitBook</title>
+        <title>CEHv10 Study Guide++ · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -61,8 +61,8 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="01-essential_knowledge.html" />
     
-    <link rel="prev" href="12-social_engineering.html" />
     
 
     </head>
@@ -91,7 +91,7 @@
         
         
     
-        <li class="chapter " data-level="1.1" data-path="./">
+        <li class="chapter active" data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -260,7 +260,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.14" data-path="13-pen_testing.html">
+        <li class="chapter " data-level="1.14" data-path="13-pen_testing.html">
             
                 <a href="13-pen_testing.html">
             
@@ -303,7 +303,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >13-Pen Testing</a>
+        <a href="." >CEHv10 Study Guide++</a>
     </h1>
 </div>
 
@@ -318,113 +318,90 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="13-pen-testing">13-Pen Testing</h1>
-<h2 id="table-of-contents">Table of Contents</h2>
-<ul>
-<li><a href="13-pen_testing.html#pen-testing">Pen Testing</a><ul>
-<li><a href="13-pen_testing.html#security-audit">Security Audit</a></li>
-<li><a href="13-pen_testing.html#vulnerability-assessment">Vulnerability Assessment</a><ul>
-<li><a href="13-pen_testing.html#product-based-solutions">Product-Based Solutions</a></li>
-<li><a href="13-pen_testing.html#service-based-solutions">Service-Based Solutions</a></li>
-<li><a href="13-pen_testing.html#tree-based-assessment">Tree-Based Assessment</a></li>
-<li><a href="13-pen_testing.html#inference-based-assessment">Inference-Based Assessment</a></li>
-</ul>
-</li>
-<li><a href="13-pen_testing.html#penetration-testing">Penetration Testing</a><ul>
-<li><a href="13-pen_testing.html#phases-of-pen-testing">Phases of Pen Testing</a></li>
-<li><a href="13-pen_testing.html#types-of-pen-testing">Types of Pen Testing</a></li>
-<li><a href="13-pen_testing.html#teams">Teams</a></li>
-<li><a href="13-pen_testing.html#automated-testing-tools">Automated Testing Tools</a></li>
-</ul>
-</li>
-<li><a href="13-pen_testing.html#security-testing-methodology">Security Testing Methodology</a><ul>
-<li><a href="13-pen_testing.html#proprietary-methodologies">Proprietary Methodologies</a></li>
-<li><a href="13-pen_testing.html#open-source-and-public-methodologies">Open-Source and Public Methodologies</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h2 id="pen-testing">Pen Testing</h2>
-<h3 id="security-audit">Security Audit</h3>
-<ul>
-<li>Policy and procedure focused</li>
-<li>Tests whether organization is following specific standards and policies</li>
-</ul>
-<h3 id="vulnerability-assessment">Vulnerability Assessment</h3>
-<ul>
-<li>Scans and tests for vulnerabilities but does <strong>not intentionally exploit them</strong></li>
-</ul>
-<h4 id="product-based-solutions">Product-Based Solutions</h4>
-<p>Product-based solutions are installed in the organization&apos;s internal network. They are installed in a private or non-routable space, or the Internet-addressable portion of an organization&apos;s network. If they are installed in the private network or, in other words, behind the firewall, they cannot always detect outside attacks.</p>
-<h4 id="service-based-solutions">Service-Based Solutions</h4>
-<p>Service-based solutions are offered by third parties, such as auditing or security consulting firms. Some solutions are hosted inside the network; others are hosted outside the network. A drawback of this solution is that attackers can audit the network from outside.</p>
-<h4 id="tree-based-assessment">Tree-Based Assessment</h4>
-<p>In a tree-based assessment, the auditor selects different strategies for each machine or component of the information system. This approach relies on the administrator to provide a starting shot of intelligence, and then to start scanning continuously without incorporating any information found at the time of scanning.</p>
-<h4 id="inference-based-assessment">Inference-Based Assessment</h4>
-<p>In an inference-based assessment, scanning starts by building an inventory of protocols found on the machine. After finding a protocol, the scanning process starts to detect which ports are attached to services. After finding services, it selects vulnerabilities on each machine and starts to execute only those relevant tests.</p>
-<h3 id="penetration-testing">Penetration Testing</h3>
-<ul>
-<li>Looking for vulnerabilities and <strong>actively seeking to exploit them</strong></li>
-<li>Need to make sure you have a great contract in place to protect you from liability</li>
-<li>Clearly defined, full scale test of security controls</li>
-</ul>
-<h4 id="phases-of-pen-testing">Phases of Pen Testing</h4>
-<ul>
-<li><strong>Pre-Attack Phase</strong>: reconnaissance and data-gathering<ul>
-<li>Planning and preparation: Rule of Engagement (RoE)</li>
-<li>Methodology design</li>
-<li>Network information gathering</li>
-</ul>
-</li>
-<li><strong>Attack Phase</strong>: attempts to penetrate the network and execute attacks<ul>
-<li>Penetrating perimeter</li>
-<li>Acquiring target</li>
-<li>Escalating privileges</li>
-<li>Execution, implantation, retracting</li>
-</ul>
-</li>
-<li><strong>Post-Attack Phase</strong>: cleanup to return a system to the pre-attack condition and deliver reports<ul>
-<li>Reporting</li>
-<li>Clean-up</li>
-<li>Artifact destruction</li>
-</ul>
-</li>
-</ul>
-<h4 id="types-of-pen-testing">Types of Pen Testing</h4>
-<ul>
-<li><strong>Black Box</strong>: without any knowledge of the system or network</li>
-<li><strong>White Box</strong>: complete knowledge of the system</li>
-<li><strong>Gray Box</strong>: some knowledge of the system and/or network</li>
-<li><strong>External Assessment</strong>: analyzing publicly available information; conducting network scanning, enumeration and testing from the network perimeter</li>
-<li><strong>Internal Assessment</strong>: performed from within the organization, from various network access points</li>
-</ul>
-<h4 id="teams">Teams</h4>
-<ul>
-<li><strong>Red Team</strong>: attacking</li>
-<li><strong>Blue Team</strong>: defending</li>
-<li><strong>Purple Team</strong>: doing both attacking and defending</li>
-</ul>
-<h4 id="automated-testing-tools">Automated Testing Tools</h4>
-<ul>
-<li><strong>Metasploit</strong>: framework for developing and executing code against a remote target machine</li>
-<li><strong>Core Impact Pro</strong>: best known, all-inclusive automated testing framework, tests everything from web applications and individual systems to network devices and wireless</li>
-<li><strong>CANVAS</strong>: hundreds of exploits, automated exploitation system and extensive exploit development framework</li>
-</ul>
-<h3 id="security-testing-methodology">Security Testing Methodology</h3>
-<h4 id="proprietary-methodologies">Proprietary Methodologies</h4>
-<ul>
-<li>IBM</li>
-<li>McAfee Foundstone</li>
-<li>EC-Council LPT: Licensed Penetration Tester</li>
-</ul>
-<h4 id="open-source-and-public-methodologies">Open-Source and Public Methodologies</h4>
-<ul>
-<li>OWASP: Open Web Application Security Project</li>
-<li>OSSTMM: Open-Source Security Testing Methodology Manual</li>
-<li>ISSAF: Information System Security Assessment Framework</li>
-<li>NIST: National Institute of Standards and Technology</li>
-</ul>
+                                <h1 id="cehv10-study-guide">CEHv10 Study Guide++</h1>
+<p><img align="absmiddle" alt=":notebook:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/notebook.png" title=":notebook:"> Forked <a href="https://github.com/scottymcraig/CEHv10StudyGuide" target="_blank">CEHv10StudyGuide</a></p>
+<p><img align="absmiddle" alt=":heavy_plus_sign:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/heavy_plus_sign.png" title=":heavy_plus_sign:"> Many updates corresponding to CEHv10 courseware</p>
+<p><img align="absmiddle" alt=":heavy_plus_sign:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/heavy_plus_sign.png" title=":heavy_plus_sign:"> My personal study notes</p>
+<p>= CEHv10 Study Guide <img align="absmiddle" alt=":heavy_plus_sign:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/heavy_plus_sign.png" title=":heavy_plus_sign:"><img align="absmiddle" alt=":heavy_plus_sign:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/heavy_plus_sign.png" title=":heavy_plus_sign:"></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">CHAPTER</th>
+<th style="text-align:left">NAME</th>
+<th style="text-align:left">LINK</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">01</td>
+<td style="text-align:left">Essential Knowledge</td>
+<td style="text-align:left"><a href="01-essential_knowledge.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">02</td>
+<td style="text-align:left">Reconnaissance and footprinting</td>
+<td style="text-align:left"><a href="02-reconnaissance_and_footprinting.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">03</td>
+<td style="text-align:left">Scanning and Enumeration</td>
+<td style="text-align:left"><a href="03-scanning_and_enumeration.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">04</td>
+<td style="text-align:left">Sniffing and Evasion</td>
+<td style="text-align:left"><a href="04-sniffing_and_evasion.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">05</td>
+<td style="text-align:left">System Hacking</td>
+<td style="text-align:left"><a href="05-system_hacking.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">06</td>
+<td style="text-align:left">Web Server and Web Application Hacking</td>
+<td style="text-align:left"><a href="06-web_server_and_web_application_hacking.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">07</td>
+<td style="text-align:left">Wireless Network Hacking</td>
+<td style="text-align:left"><a href="07-wireless_network_hacking.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">08</td>
+<td style="text-align:left">Mobile and IoT Hacking</td>
+<td style="text-align:left"><a href="08-mobile_and_iot_hacking.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">09</td>
+<td style="text-align:left">Security in Cloud Computing</td>
+<td style="text-align:left"><a href="09-security_in_cloud_computing.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">10</td>
+<td style="text-align:left">Malware and Other Attacks</td>
+<td style="text-align:left"><a href="10-malware_and_other_attacks.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">11</td>
+<td style="text-align:left">Cryptography</td>
+<td style="text-align:left"><a href="11-cryptography.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">12</td>
+<td style="text-align:left">Social Engineering</td>
+<td style="text-align:left"><a href="12-social_engineering.html">:link:</a></td>
+</tr>
+<tr>
+<td style="text-align:left">13</td>
+<td style="text-align:left">Pen Testing</td>
+<td style="text-align:left"><a href="13-pen_testing.html">:link:</a></td>
+</tr>
+</tbody>
+</table>
+<p>Read it on GitBook: <a href="https://kevcui.gitbook.io/cehv10studyguideplusplus" target="_blank">https://kevcui.gitbook.io/cehv10studyguideplusplus</a></p>
+<hr>
+<p>Enjoy your studies! <img align="absmiddle" alt=":tada:" class="emoji" src="gitbook/gitbook-plugin-advanced-emoji/emojis/tada.png" title=":tada:"></p>
 
                                 
                                 </section>
@@ -452,10 +429,10 @@
 
             
                 
-                <a href="12-social_engineering.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 12-Social Engineering">
-                    <i class="fa fa-angle-left"></i>
-                </a>
                 
+                <a href="01-essential_knowledge.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 01-Essential Knowledge">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -464,7 +441,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"13-Pen Testing","level":"1.14","depth":1,"previous":{"title":"12-Social Engineering","level":"1.13","depth":1,"path":"12-social_engineering.md","ref":"12-social_engineering.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["advanced-emoji"],"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"13-pen_testing.md","mtime":"2020-06-27T08:19:41.668Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-27T10:49:21.369Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"CEHv10 Study Guide++","level":"1.1","depth":1,"next":{"title":"01-Essential Knowledge","level":"1.2","depth":1,"path":"01-essential_knowledge.md","ref":"01-essential_knowledge.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["advanced-emoji"],"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2020-06-27T10:45:26.954Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-27T10:49:54.079Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
