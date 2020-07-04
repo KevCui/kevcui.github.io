@@ -1,0 +1,584 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#000"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title> Kevin Cui </title>
+    
+    <link rel="manifest" href="/manifest.json">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kevcui.github.io/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kevcui.github.io/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kevcui.github.io/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kevcui.github.io/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kevcui.github.io/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kevcui.github.io/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kevcui.github.io/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kevcui.github.io/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kevcui.github.io/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kevcui.github.io/images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://kevcui.github.io/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://kevcui.github.io/images/favicons/mstile-144x144.png">
+    
+    <link href="https://kevcui.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Kevin Cui" />
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Git Alias -- Did You Git It?">
+	<meta property="og:url" content="https://kevcui.github.io/2020/07/04/git-alias-did-you-git-it/">
+	<meta property="og:site_name" content="Kevin Cui">
+    <meta name="twitter:site" content="Kevin Cui">
+	<meta itemprop="name" content="Git Alias -- Did You Git It?">
+	<meta name="twitter:title" content="Git Alias -- Did You Git It?">
+	<meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevcui">
+    <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
+	
+    <meta name="description" content="Git alias is powerful, yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
+    <meta name="og:description" content="Git alias is powerful, yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
+    <meta name="twitter:description" content="Git alias is powerful, yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
+    <meta itemprop="description" content="Git alias is powerful, yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
+	
+	
+		
+	<meta property="og:image" content="https://kevcui.github.io//images/profile.jpg"/>
+	<meta property="twitter:image" content="https://kevcui.github.io//images/profile.jpg"/>
+	<meta itemprop="image" content="https://kevcui.github.io//images/profile.jpg">
+		
+	
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/inter-ui.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/animate.min.css" />
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://kevcui.github.io/" title="Kevin Cui homepage"> <img src="/images/profile.jpg" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a class="blog-title" href="https://kevcui.github.io/"  title="Kevin Cui homepage">Kevin Cui</a>
+                </h1>
+                <br/>
+                
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    
+    
+    <li>
+        <a href="https://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank" rel="noopener"><span class="soc soc-twitter"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="soc soc-stackoverflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="soc soc-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io/index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="soc soc-rss"></span></a>
+    </li>
+</ul>
+
+                    </nav>
+                </div>
+
+                
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
+                
+                
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://kevcui.github.io/" title="Kevin Cui homepage"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a class="blog-title" href="https://kevcui.github.io/"  title="Kevin Cui homepage">Kevin Cui</a>
+                    </h1>
+                    
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    
+    
+    <li>
+        <a href="https://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank" rel="noopener"><span class="soc soc-twitter"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="soc soc-stackoverflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="soc soc-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io/index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="soc soc-rss"></span></a>
+    </li>
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        <p><a class="main-button" href="/#blog">blog</a></p>
+                    
+                    
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Jul 4, 2020</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/git">git,</a>
+					
+                
+					
+						<a href="/tags/cli">CLI,</a>
+					
+                
+					
+						<a href="/tags/script">script,</a>
+					
+                
+					
+						<a href="/tags/productivity">productivity</a>
+					
+                
+              </span>
+              • 1500 words 7 min. read
+          </div>
+          <h1>Git Alias -- Did You Git It?</h1>
+          <section id="post-content" class="article-content post">
+              <p>Git alias is powerful, yet simple to set up. I&rsquo;d like to share my journey in configuring git alias for my personal use. Now let&rsquo;s dig it and git it!</p>
+<h3 id="day-1-why-git-alias">Day 1: Why git alias?</h3>
+<p>I was using <a href="https://github.com/jonas/tig">Tig</a> for some time. It&rsquo;s good but not great. The problems I got during the time:</p>
+<ol>
+<li>It takes time to memorize <a href="https://jonas.github.io/tig/doc/manual.html">the default key bindings</a>. Since I&rsquo;m using <a href="/2019/04/18/twenty-months-with-colemak/">Colemak</a> keyboard layout, obviously, the default navigation key bindings need to be adjusted accordingly. Therefore, it takes me more time to customize them.</li>
+<li>Tig doesn&rsquo;t support customized diff formatter, like my current favorite <a href="https://github.com/dandavison/delta">delta</a>. <a href="https://github.com/jonas/tig/issues/542">An open issue from 2016</a> gives me the fearful feeling that Tig wouldn&rsquo;t officially support this feature in the foreseeable future.</li>
+<li>Switching between different views in Tig makes the workflow complex and slow. For example, to add an untracked file: open tig, press <code>s</code> to switch to status view, move up and down to select an untracked file, press <code>u</code> to add it. Well, in this case, why using Tig instaed of simply typing <code>git add &lt;untracked_file&gt;</code>?</li>
+</ol>
+<p>At some point, I decided to drop Tig and tried to search for other tools to assist my git workflow. Don&rsquo;t get me wrong, Tig is a decent tool, however, my needs are just picky and I&rsquo;m just too lazy 🤷.</p>
+<p>After trying <a href="https://git-scm.com/downloads/guis/">this and that</a>, surprisingly, I find out that git alias is one ideal solution:</p>
+<ol>
+<li>Git alias is supported by default, no need to install any 3rd-party dependencies.</li>
+<li>Git alias is relatively easy to customize. Knowing git command and put an alias for it, that&rsquo;s all about.</li>
+<li>Git alias is illegally powerful once you know how to use <code>!</code> to run the external command! Yes, its existence is a crime.</li>
+</ol>
+<h3 id="day-2-start-with-alias">Day 2: start with [alias]</h3>
+<p>The official way to add git alias is to edit <code>~/.gitconfig</code> file:</p>
+<ul>
+<li>Open <code>~/.gitconfig</code></li>
+<li>Add <code>[alias]</code> section</li>
+<li>Put a bunch of aliases</li>
+<li>Save and close file, done!</li>
+</ul>
+<p>After this change, my alias setup looks like this:</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-txt" data-lang="txt">[alias]
+  a = add
+  c = commit
+  ca = commit --amend
+  ci = commit -m
+  cm = commit -m
+  co = checkout
+  di = diff
+  p = push origin
+  pl = pull
+  rsthrd = reset --hard origin/master
+  s = status</code></pre></td></tr></table>
+</div>
+</div>
+<!-- raw HTML omitted -->
+<p>My basic needs of git workflow is covered by those aliases. For example, to add an untracked file, now I can type: <code>git a &lt;untracked_file&gt;</code>.</p>
+<p>By using 1 letter alias for most commonly used git commands saves my time and gives me pleasures. Yeah, you know that typing fewer letters feels great!</p>
+<h3 id="day-3-go-external-">Day 3: go external !</h3>
+<p>As you may know, <a href="https://github.com/junegunn/fzf">fzf</a> is an extremely powerful tool (yep, it should be illegal as well). Imagine that git alias x fzf, what a dream team-up!</p>
+<p>By using <code>!</code> symbol can make this dream come true. <code>!</code> allows running external commands with alias, including <code>git</code> command itself. So many possibilities can be achieved by combining external commands.</p>
+<p>For example, I add an alias <code>ac</code>, known as <code>add modified files</code>, in order to add modified file:</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-txt" data-lang="txt">[alias]
+  ...
+  ac = ! git add $(git diff --name-only --diff-filter=M | fzf -m --bind &#34;ctrl-a:select-all&#34;)</code></pre></td></tr></table>
+</div>
+</div>
+<!-- raw HTML omitted -->
+<p class="video">
+<video controls src="/videos/git-alias-ac.mp4" width="760"></video>
+</p>
+
+<p>The steps in this video are:</p>
+<ul>
+<li><code>git s</code> to show unstaged changes</li>
+<li><code>git ac</code> to list modified files in fzf, <code>ctrl-a</code> to select all and <code>enter</code> to add them</li>
+<li><code>git s</code> to show the result that all modified files are added and staged</li>
+</ul>
+<h3 id="day-4-go-smooth">Day 4: go smooth</h3>
+<p>To smooth git workflow, I tweak fzf key binding to configure command execution when selection is made in fzf.</p>
+<p>For example, I create an alias <code>ds</code>, known as <code>diff staged files</code>, in order to show changes in staged files and after pressing <code>enter</code>, it goes to commit process directly:</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-txt" data-lang="txt">[alias]
+  ...
+  ds = ! git diff --name-only --cached | fzf --preview &#34;git diff --cached -- {} | delta&#34; --bind &#34;enter:abort+execute(git commit)&#34;</code></pre></td></tr></table>
+</div>
+</div>
+<!-- raw HTML omitted -->
+<p class="video">
+<video controls src="/videos/git-alias-ds.mp4" width="760"></video>
+</p>
+
+<p>The steps in this video are:</p>
+<ul>
+<li><code>git ds</code> to show all staged files</li>
+<li>Check changes by switching files listed in fzf preview screen</li>
+<li>Press <code>enter</code> to go to commit</li>
+<li>Type commit message and save it</li>
+</ul>
+<p>As you may also notice in the <code>ds</code> alias, I&rsquo;m now able to use <code>delta</code> to format git diff in fzf preview screen, by piping diff to it.</p>
+<p>Until now, all the main problems I have with Tig are solved by git alias. I&rsquo;d be happier than ever.</p>
+<h3 id="day-5-go-dynamic">Day 5: go dynamic</h3>
+<p>For some reason, I&rsquo;d like to pass the file name as an argument to a git command binded with an alias.</p>
+<p>For example, I&rsquo;d like to see certain change in a file, when and who made it, and all related changes in the same commit. It involves <code>git blame</code> command with the file name as an argument. Without doubt, it&rsquo;s possible to accomplish it with git alias by using <code>sh -c</code> to pass arguments:</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-txt" data-lang="txt">[alias]
+  ...
+  b = ! sh -c \&#34;git blame $1 | fzf --bind &#39;enter:abort+execute(git diff-tree -p {1} | delta)&#39;\&#34;</code></pre></td></tr></table>
+</div>
+</div>
+<!-- raw HTML omitted -->
+<p class="video">
+<video controls src="/videos/git-alias-b.mp4" width="760"></video>
+</p>
+
+<p>⚠️ Pay attention to escape single quotes <code>'</code> or/and double quotes <code>&quot;</code> inside <code>sh -c</code> if needed.</p>
+<h3 id="day-5-go-flexible">Day 5: go flexible</h3>
+<p>Pursuing the ambition of customizing as many aliases as possible to perfectly suit my needs, the aliases are getting complicated with many duplicated and redundant codes. It&rsquo;s hard to maintain in configuration file like this:</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-txt" data-lang="txt">[alias]
+  ac = ! git add $(git diff --name-only --diff-filter=M | fzf -0 -m --reverse --height=40% --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --cycle)
+  b = ! sh -c \&#34;git blame $1 | fzf -0 --ansi --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --bind &#39;enter:abort+execute(git diff-tree -p {1} | delta --theme=iceberg)&#39; --cycle\&#34;
+  ds = ! git diff --name-only --cached | fzf -0 --ansi --preview-window=right:80:wrap --preview &#39;git diff --cached -- {} | delta --theme=iceberg&#39; --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --bind alt-k:preview-down,alt-j:preview-up,alt-h:preview-page-down,alt-l:preview-page-up --bind &#39;enter:abort+execute(git commit)&#39; --cycle</code></pre></td></tr></table>
+</div>
+</div>
+<!-- raw HTML omitted -->
+<p>For instant, if I want to update fzf preview screen key bindings for all aliases, I have to edit all aliases one by one. It&rsquo;s a bummer.</p>
+<p>Luckily, git alias can be edited via command line:</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">~$ git config --global alias.&lt;alias_name&gt; &lt;command&gt;</code></pre></div>
+<!-- raw HTML omitted -->
+<p>This creates the possibility to let Bash srcipt handle flexibly the alias modifications. I can define some variables for the common parts in the aliases, which permits that the modifications in one location will affect all aliases at once.</p>
+<p>Here is a sample of Bash script:</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/usr/bin/env bash
+</span><span class="cp"></span><span class="c1"># remove all aliases</span>
+git config --global --remove-section <span class="nb">alias</span>
+
+<span class="c1"># set variables</span>
+<span class="nv">FZF_KEYBINDING</span><span class="o">=</span><span class="s2">&#34;tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all&#34;</span>
+<span class="nv">FZF_PREVIEW_KEYBINDING</span><span class="o">=</span><span class="s2">&#34;alt-k:preview-down,alt-j:preview-up,alt-h:preview-page-down,alt-l:preview-page-up&#34;</span>
+<span class="nv">DIFF_CMD</span><span class="o">=</span><span class="s2">&#34;delta --theme=iceberg&#34;</span>
+<span class="nv">GIT_DIFF_NAME</span><span class="o">=</span><span class="s2">&#34;git diff --name-only&#34;</span>
+<span class="nv">GIT_DIFF_NAME_CACHED</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$GIT_DIFF_NAME</span><span class="s2"> --cached&#34;</span>
+<span class="nv">GIT_DIFF_TREE</span><span class="o">=</span><span class="s2">&#34;git diff-tree -p {1}&#34;</span>
+
+<span class="c1"># define alias</span>
+git config --global alias.ac <span class="s2">&#34;! git add \$(</span><span class="nv">$GIT_DIFF_NAME</span><span class="s2"> --diff-filter=M | fzf -0 -m --reverse --height=40% --bind </span><span class="nv">$FZF_KEYBINDING</span><span class="s2"> --cycle)&#34;</span>
+git config --global alias.b <span class="s1">&#39;! sh -c &#34;git blame $1 | fzf -0 --ansi --bind &#39;</span><span class="s2">&#34;</span><span class="nv">$FZF_KEYBINDING</span><span class="s2">&#34;</span><span class="s1">&#39; --bind &#39;</span><span class="se">\&#39;</span><span class="s1">&#39;enter:abort+execute(&#39;</span><span class="s2">&#34;</span><span class="nv">$GIT_DIFF_TREE</span><span class="s2">&#34;</span><span class="s1">&#39; | &#39;</span><span class="s2">&#34;</span><span class="nv">$DIFF_CMD</span><span class="s2">&#34;</span><span class="s1">&#39;)&#39;</span><span class="se">\&#39;</span><span class="s1">&#39; --cycle&#34;&#39;</span>
+git config --global alias.ds <span class="s2">&#34;! </span><span class="nv">$GIT_DIFF_NAME_CACHED</span><span class="s2"> | fzf -0 --ansi --preview-window=right:80:wrap --preview &#39;git diff --cached -- {} | </span><span class="nv">$DIFF_CMD</span><span class="s2">&#39; --bind </span><span class="nv">$FZF_KEYBINDING</span><span class="s2"> --bind </span><span class="nv">$FZF_PREVIEW_KEYBINDING</span><span class="s2"> --bind &#39;enter:abort+execute(git commit)&#39; --cycle&#34;</span></code></pre></td></tr></table>
+</div>
+</div>
+<!-- raw HTML omitted -->
+<p>⚠️ Pay attention to escape <code>$</code> symbol by <code>\$</code>, in case <code>$</code> symbol indicates the variable used in alias.</p>
+<p>In the example above, if I want to add more key bindings for fzf preview screen, I&rsquo;ll modify <code>FZF_PREVIEW_KEYBINDING</code> then run the Bash script. All aliases will be updated accordingly and beautifully.</p>
+<p>For more details and examples, go checkout <a href="https://github.com/KevCui/dotfiles/blob/master/git/addalias.sh">addalias.sh</a>.</p>
+<h3 id="day-7-go-extreme">Day 7: go extreme</h3>
+<p>After 6 days hands-on of git alias configuration, it&rsquo;s time to lay down holding a beer and enjoy the efficiency brought by git alias? Wait a minute here, I still have some small problems with current setup:</p>
+<ol>
+<li>Certain alias is conflicted with default git command. For example <code>git am</code> is already used by <a href="https://git-scm.com/docs/git-am">git-am</a>, and <a href="https://stackoverflow.com/a/3538791">it&rsquo;s impossible to overwrite git command by git alias</a>.</li>
+<li>Typing 3-letter <code>git</code> to initial git command every time is fatigue.</li>
+</ol>
+<p>It&rsquo;s time to push the limit and go extreme. To solve those problems, the idea is to create a function in <code>~/.zshrc</code>, like:</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-zshrc" data-lang="zshrc">...
+g <span class="o">()</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">==</span> <span class="s2">&#34;am&#34;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+        git ac
+    <span class="k">else</span>
+        git <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span>
+    <span class="k">fi</span>
+<span class="o">}</span>
+...</code></pre></td></tr></table>
+</div>
+</div>
+<!-- raw HTML omitted -->
+<p>Now I&rsquo;m able to use <code>am</code> as <code>add modified files</code>, way easier to remember than <code>ac</code>. If in a rare occasion I want to use <code>git-am</code>, I&rsquo;ll just simply type <code>git am</code>.</p>
+<p>Meanwhile, using <code>g</code> instead of <code>git</code> reduces the time of typing 2 letters. What a pleasure for lazy person like me!</p>
+<h3 id="sum-up">Sum-up</h3>
+<ul>
+<li>
+<p>Git alias is amazing.</p>
+</li>
+<li>
+<p>Git alias with <code>!</code> to execute external command is powerful.</p>
+</li>
+<li>
+<p>Git alias combined with other commands like <code>fzf</code> and <code>sh -c</code> is matchless.</p>
+</li>
+<li>
+<p>Git alias created by Bash script is flexible.</p>
+</li>
+<li>
+<p>Shell alias/function gives wings to git alias.</p>
+</li>
+</ul>
+<hr>
+<p>Did you git alais as well? What&rsquo;s your favorite git alias? Share it to me and let me learn from you.</p>
+
+          </section>
+          <br/>
+        </div>
+        
+        
+
+      </div>
+    </div>
+  </body>
+  <script src="https://kevcui.github.io/js/umbrella.min.js"></script>
+
+<script src="https://kevcui.github.io/js/main.min.js">></script>
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+        .then(function(registration) {
+            console.log("Service Worker Registered", registration);
+        })
+        .catch(function(err) {
+            console.log("Service Worker Failed to Register", err);
+        })
+    }
+</script>
+
+
+
+
+  <span class="toTopBtn" onclick="scrollToTop(750)">&#9650;</span>
+<script type="text/javascript">
+function scrollToTop(scrollDuration) {
+    const   scrollHeight = window.scrollY,
+            scrollStep = Math.PI / ( scrollDuration / 15 ),
+            cosParameter = scrollHeight / 2;
+    var     scrollCount = 0,
+            scrollMargin,
+    scrollInterval = setInterval( function() {
+        if ( window.scrollY != 0 ) {
+            scrollCount = scrollCount + 1;
+            scrollMargin = cosParameter - cosParameter * Math.cos( scrollCount * scrollStep );
+            window.scrollTo( 0, ( scrollHeight - scrollMargin ) );
+        }
+        else clearInterval(scrollInterval);
+    }, 15 );
+}
+</script>
+
+</html>

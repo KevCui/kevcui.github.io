@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cli on Kevin Cui</title>
+    <title>CLI on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/cli/</link>
-    <description>Recent content in cli on Kevin Cui</description>
+    <description>Recent content in CLI on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Apr 2019 10:29:29 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2020 09:02:36 +0200</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git Alias -- Did You Git It?</title>
+      <link>https://kevcui.github.io/2020/07/04/git-alias-did-you-git-it/</link>
+      <pubDate>Sat, 04 Jul 2020 09:02:36 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/2020/07/04/git-alias-did-you-git-it/</guid>
+      <description>Git alias is powerful, yet simple to set up. I&amp;rsquo;d like to share my journey in configuring git alias for my personal use. Now let&amp;rsquo;s dig it and git it!
+Day 1: Why git alias? I was using Tig for some time. It&amp;rsquo;s good but not great. The problems I got during the time:
+ It takes time to memorize the default key bindings. Since I&amp;rsquo;m using Colemak keyboard layout, obviously, the default navigation key bindings need to be adjusted accordingly.</description>
+    </item>
     
     <item>
       <title>Build A Killer Note-taking System</title>
