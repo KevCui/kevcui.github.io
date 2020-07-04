@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2019 10:01:24 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2020 09:02:36 +0200</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CLI</title>
+      <link>https://kevcui.github.io/tags/cli/</link>
+      <pubDate>Sat, 04 Jul 2020 09:02:36 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/cli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://kevcui.github.io/tags/git/</link>
+      <pubDate>Sat, 04 Jul 2020 09:02:36 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>https://kevcui.github.io/tags/productivity/</link>
+      <pubDate>Sat, 04 Jul 2020 09:02:36 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>script</title>
+      <link>https://kevcui.github.io/tags/script/</link>
+      <pubDate>Sat, 04 Jul 2020 09:02:36 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/script/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>mental</title>
@@ -66,38 +102,11 @@
     </item>
     
     <item>
-      <title>productivity</title>
-      <link>https://kevcui.github.io/tags/productivity/</link>
-      <pubDate>Thu, 18 Apr 2019 10:55:55 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cli</title>
-      <link>https://kevcui.github.io/tags/cli/</link>
-      <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/cli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>notetaking</title>
       <link>https://kevcui.github.io/tags/notetaking/</link>
       <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
       
       <guid>https://kevcui.github.io/tags/notetaking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>script</title>
-      <link>https://kevcui.github.io/tags/script/</link>
-      <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/script/</guid>
       <description></description>
     </item>
     

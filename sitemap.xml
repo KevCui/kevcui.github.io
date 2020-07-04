@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://kevcui.github.io/2019/09/15/i-do-care/</loc>
-    <lastmod>2019-09-15T10:01:24+02:00</lastmod>
+    <loc>https://kevcui.github.io/tags/cli/</loc>
+    <lastmod>2020-07-04T09:02:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/tags/git/</loc>
+    <lastmod>2020-07-04T09:02:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/2020/07/04/git-alias-did-you-git-it/</loc>
+    <lastmod>2020-07-04T09:02:36+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://kevcui.github.io/</loc>
+    <lastmod>2020-07-04T09:02:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/post/</loc>
+    <lastmod>2020-07-04T09:02:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/tags/productivity/</loc>
+    <lastmod>2020-07-04T09:02:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/tags/script/</loc>
+    <lastmod>2020-07-04T09:02:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/tags/</loc>
+    <lastmod>2020-07-04T09:02:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/2019/09/15/i-do-care/</loc>
     <lastmod>2019-09-15T10:01:24+02:00</lastmod>
   </url>
   
@@ -18,17 +53,7 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/post/</loc>
-    <lastmod>2019-09-15T10:01:24+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kevcui.github.io/tags/self-awareness/</loc>
-    <lastmod>2019-09-15T10:01:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/tags/</loc>
     <lastmod>2019-09-15T10:01:24+02:00</lastmod>
   </url>
   
@@ -63,11 +88,6 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/productivity/</loc>
-    <lastmod>2019-04-18T10:55:55+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kevcui.github.io/2019/04/18/twenty-months-with-colemak/</loc>
     <lastmod>2019-04-18T10:55:55+02:00</lastmod>
   </url>
@@ -78,17 +98,7 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/cli/</loc>
-    <lastmod>2019-04-06T10:29:29+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kevcui.github.io/tags/notetaking/</loc>
-    <lastmod>2019-04-06T10:29:29+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/tags/script/</loc>
     <lastmod>2019-04-06T10:29:29+02:00</lastmod>
   </url>
   
