@@ -41,10 +41,10 @@
     <meta name="twitter:creator" content="@kevcui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
-    <meta name="description" content="Git alias is powerful, yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
-    <meta name="og:description" content="Git alias is powerful, yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
-    <meta name="twitter:description" content="Git alias is powerful, yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
-    <meta itemprop="description" content="Git alias is powerful, yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
+    <meta name="description" content="Git alias is powerful and yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
+    <meta name="og:description" content="Git alias is powerful and yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
+    <meta name="twitter:description" content="Git alias is powerful and yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
+    <meta itemprop="description" content="Git alias is powerful and yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
 	
 	
 		
@@ -273,15 +273,16 @@
           </div>
           <h1>Git Alias -- Did You Git It?</h1>
           <section id="post-content" class="article-content post">
-              <p>Git alias is powerful, yet simple to set up. I&rsquo;d like to share my journey in configuring git alias for my personal use. Now let&rsquo;s dig it and git it!</p>
+              <p>Git alias is powerful and yet simple to set up. I&rsquo;d like to share my journey in configuring git alias for my personal use. Now let&rsquo;s dig it and git it!</p>
 <h3 id="day-1-why-git-alias">Day 1: Why git alias?</h3>
 <p>I was using <a href="https://github.com/jonas/tig">Tig</a> for some time. It&rsquo;s good but not great. The problems I got during the time:</p>
 <ol>
 <li>It takes time to memorize <a href="https://jonas.github.io/tig/doc/manual.html">the default key bindings</a>. Since I&rsquo;m using <a href="/2019/04/18/twenty-months-with-colemak/">Colemak</a> keyboard layout, obviously, the default navigation key bindings need to be adjusted accordingly. Therefore, it takes me more time to customize them.</li>
 <li>Tig doesn&rsquo;t support customized diff formatter, like my current favorite <a href="https://github.com/dandavison/delta">delta</a>. <a href="https://github.com/jonas/tig/issues/542">An open issue from 2016</a> gives me the fearful feeling that Tig wouldn&rsquo;t officially support this feature in the foreseeable future.</li>
-<li>Switching between different views in Tig makes the workflow complex and slow. For example, to add an untracked file: open tig, press <code>s</code> to switch to status view, move up and down to select an untracked file, press <code>u</code> to add it. Well, in this case, why using Tig instaed of simply typing <code>git add &lt;untracked_file&gt;</code>?</li>
+<li>Switching between different views in Tig makes the workflow complex and slow. For example, to add an untracked file: open tig, press <code>s</code> to switch to status view, move up and down to select an untracked file, press <code>u</code> to add it. Well, in this case, why using Tig instead of simply typing <code>git add &lt;untracked_file&gt;</code>?</li>
 </ol>
-<p>At some point, I decided to drop Tig and tried to search for other tools to assist my git workflow. Don&rsquo;t get me wrong, Tig is a decent tool, however, my needs are just picky and I&rsquo;m just too lazy 🤷.</p>
+<p>At some point, I decided to drop Tig and tried to search for other tools to assist my git workflow.</p>
+<p>Don&rsquo;t get me wrong. Tig is a decent tool. However, my needs are just picky and I&rsquo;m just too lazy 🤷.</p>
 <p>After trying <a href="https://git-scm.com/downloads/guis/">this and that</a>, surprisingly, I find out that git alias is one ideal solution:</p>
 <ol>
 <li>Git alias is supported by default, no need to install any 3rd-party dependencies.</li>
@@ -329,12 +330,12 @@
 </div>
 </div>
 <!-- raw HTML omitted -->
-<p>My basic needs of git workflow is covered by those aliases. For example, to add an untracked file, now I can type: <code>git a &lt;untracked_file&gt;</code>.</p>
-<p>By using 1 letter alias for most commonly used git commands saves my time and gives me pleasures. Yeah, you know that typing fewer letters feels great!</p>
+<p>Those aliases cover all my basic needs of git workflow. For example, to add an untracked file, now I can type: <code>git a &lt;untracked_file&gt;</code>.</p>
+<p>By using one letter alias for most commonly used git commands saves my time and gives me pleasures. Yeah, you know that typing fewer letters feels amazing!</p>
 <h3 id="day-3-go-external-">Day 3: go external !</h3>
 <p>As you may know, <a href="https://github.com/junegunn/fzf">fzf</a> is an extremely powerful tool (yep, it should be illegal as well). Imagine that git alias x fzf, what a dream team-up!</p>
-<p>By using <code>!</code> symbol can make this dream come true. <code>!</code> allows running external commands with alias, including <code>git</code> command itself. So many possibilities can be achieved by combining external commands.</p>
-<p>For example, I add an alias <code>ac</code>, known as <code>add modified files</code>, in order to add modified file:</p>
+<p>By using <code>!</code> symbol can make this dream come true. <code>!</code> allows running external commands with the alias, including <code>git</code> command itself. So many possibilities can be achieved by combining external commands.</p>
+<p>For example, I add an alias <code>ac</code>, known as <code>add modified files</code>, to add modified file:</p>
 <!-- raw HTML omitted -->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -361,7 +362,7 @@
 </ul>
 <h3 id="day-4-go-smooth">Day 4: go smooth</h3>
 <p>To smooth git workflow, I tweak fzf key binding to configure command execution when selection is made in fzf.</p>
-<p>For example, I create an alias <code>ds</code>, known as <code>diff staged files</code>, in order to show changes in staged files and after pressing <code>enter</code>, it goes to commit process directly:</p>
+<p>For example, I create an alias <code>ds</code>, known as <code>diff staged files</code>, to show changes in staged files and after pressing <code>enter</code>, it goes to commit process directly:</p>
 <!-- raw HTML omitted -->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -412,7 +413,7 @@
 
 <p>⚠️ Pay attention to escape single quotes <code>'</code> or/and double quotes <code>&quot;</code> inside <code>sh -c</code> if needed.</p>
 <h3 id="day-5-go-flexible">Day 5: go flexible</h3>
-<p>Pursuing the ambition of customizing as many aliases as possible to perfectly suit my needs, the aliases are getting complicated with many duplicated and redundant codes. It&rsquo;s hard to maintain in configuration file like this:</p>
+<p>Pursuing the ambition of customizing as many aliases as possible to perfectly suit my needs, the aliases are getting complicated with many duplicated and redundant codes. It&rsquo;s hard to maintain in the configuration file like this:</p>
 <!-- raw HTML omitted -->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -429,12 +430,12 @@
 </div>
 </div>
 <!-- raw HTML omitted -->
-<p>For instant, if I want to update fzf preview screen key bindings for all aliases, I have to edit all aliases one by one. It&rsquo;s a bummer.</p>
+<p>For instance, if I want to update fzf preview screen key bindings for all aliases, I have to edit all aliases one by one. It&rsquo;s a bummer.</p>
 <p>Luckily, git alias can be edited via command line:</p>
 <!-- raw HTML omitted -->
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">~$ git config --global alias.&lt;alias_name&gt; &lt;command&gt;</code></pre></div>
 <!-- raw HTML omitted -->
-<p>This creates the possibility to let Bash srcipt handle flexibly the alias modifications. I can define some variables for the common parts in the aliases, which permits that the modifications in one location will affect all aliases at once.</p>
+<p>This creates the possibility to let Bash script handle flexibly the alias modifications. I can define some variables for the common parts in the aliases, which permits that the modifications in one location will affect all aliases at once.</p>
 <p>Here is a sample of Bash script:</p>
 <!-- raw HTML omitted -->
 <div class="highlight"><div class="chroma">
@@ -480,9 +481,9 @@ git config --global alias.ds <span class="s2">&#34;! </span><span class="nv">$GI
 <p>In the example above, if I want to add more key bindings for fzf preview screen, I&rsquo;ll modify <code>FZF_PREVIEW_KEYBINDING</code> then run the Bash script. All aliases will be updated accordingly and beautifully.</p>
 <p>For more details and examples, go checkout <a href="https://github.com/KevCui/dotfiles/blob/master/git/addalias.sh">addalias.sh</a>.</p>
 <h3 id="day-7-go-extreme">Day 7: go extreme</h3>
-<p>After 6 days hands-on of git alias configuration, it&rsquo;s time to lay down holding a beer and enjoy the efficiency brought by git alias? Wait a minute here, I still have some small problems with current setup:</p>
+<p>After 6 days hands-on of git alias configuration, it&rsquo;s time to lay down holding a beer and enjoy the efficiency brought by git alias? Wait a minute here, I still have some small problems with the current setup:</p>
 <ol>
-<li>Certain alias is conflicted with default git command. For example <code>git am</code> is already used by <a href="https://git-scm.com/docs/git-am">git-am</a>, and <a href="https://stackoverflow.com/a/3538791">it&rsquo;s impossible to overwrite git command by git alias</a>.</li>
+<li>Certain alias is conflicted with default git command. For example, <code>git am</code> is already used by <a href="https://git-scm.com/docs/git-am">git-am</a>, and <a href="https://stackoverflow.com/a/3538791">it&rsquo;s impossible to overwrite git command by git alias</a>.</li>
 <li>Typing 3-letter <code>git</code> to initial git command every time is fatigue.</li>
 </ol>
 <p>It&rsquo;s time to push the limit and go extreme. To solve those problems, the idea is to create a function in <code>~/.zshrc</code>, like:</p>
@@ -512,8 +513,8 @@ g <span class="o">()</span> <span class="o">{</span>
 </div>
 </div>
 <!-- raw HTML omitted -->
-<p>Now I&rsquo;m able to use <code>am</code> as <code>add modified files</code>, way easier to remember than <code>ac</code>. If in a rare occasion I want to use <code>git-am</code>, I&rsquo;ll just simply type <code>git am</code>.</p>
-<p>Meanwhile, using <code>g</code> instead of <code>git</code> reduces the time of typing 2 letters. What a pleasure for lazy person like me!</p>
+<p>Now I&rsquo;m able to use <code>am</code> as <code>add modified files</code>, way easier to remember than <code>ac</code>. If on a rare occasion I want to use <code>git-am</code>, I&rsquo;ll just simply type <code>git am</code>.</p>
+<p>Meanwhile, using <code>g</code> instead of <code>git</code> reduces the time of typing 2 letters. What a pleasure for a lazy person like me!</p>
 <h3 id="sum-up">Sum-up</h3>
 <ul>
 <li>
@@ -533,7 +534,7 @@ g <span class="o">()</span> <span class="o">{</span>
 </li>
 </ul>
 <hr>
-<p>Did you git alais as well? What&rsquo;s your favorite git alias? Share it to me and let me learn from you.</p>
+<p>Did you git alais as well? What&rsquo;s your favorite git alias? Share it with me and let me learn from you.</p>
 
           </section>
           <br/>
