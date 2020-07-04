@@ -47,11 +47,9 @@
     <meta itemprop="description" content="Git alias is powerful and yet simple to set up. I&#39;d like to share my journey in configuring git alias for my personal use. Now let&#39;s dig it and git it!...">
 	
 	
-		
-	<meta property="og:image" content="https://kevcui.github.io//images/profile.jpg"/>
-	<meta property="twitter:image" content="https://kevcui.github.io//images/profile.jpg"/>
-	<meta itemprop="image" content="https://kevcui.github.io//images/profile.jpg">
-		
+	<meta property="og:image" content="https://miro.medium.com/max/1000/1*3FdoxRpyTvSD4-bqAaiV2w.png"/>
+	<meta property="twitter:image" content="https://miro.medium.com/max/1000/1*3FdoxRpyTvSD4-bqAaiV2w.png"/>
+	<meta itemprop="image" content="https://miro.medium.com/max/1000/1*3FdoxRpyTvSD4-bqAaiV2w.png">
 	
     
     
@@ -269,17 +267,22 @@
 					
                 
               </span>
-              • 1500 words 7 min. read
+              • 1600 words 8 min. read
           </div>
           <h1>Git Alias -- Did You Git It?</h1>
           <section id="post-content" class="article-content post">
-              <p>Git alias is powerful and yet simple to set up. I&rsquo;d like to share my journey in configuring git alias for my personal use. Now let&rsquo;s dig it and git it!</p>
+              <p class="coverimage">
+    <img src="https://miro.medium.com/max/1000/1*3FdoxRpyTvSD4-bqAaiV2w.png" alt="coverimage"/>
+    
+</p>
+
+<p>Git alias is powerful and yet simple to set up. I&rsquo;d like to share my journey in configuring git alias for my personal use. Now let&rsquo;s dig it and git it!</p>
 <h3 id="day-1-why-git-alias">Day 1: Why git alias?</h3>
 <p>I was using <a href="https://github.com/jonas/tig">Tig</a> for some time. It&rsquo;s good but not great. The problems I got during the time:</p>
 <ol>
 <li>It takes time to memorize <a href="https://jonas.github.io/tig/doc/manual.html">the default key bindings</a>. Since I&rsquo;m using <a href="/2019/04/18/twenty-months-with-colemak/">Colemak</a> keyboard layout, obviously, the default navigation key bindings need to be adjusted accordingly. Therefore, it takes me more time to customize them.</li>
 <li>Tig doesn&rsquo;t support customized diff formatter, like my current favorite <a href="https://github.com/dandavison/delta">delta</a>. <a href="https://github.com/jonas/tig/issues/542">An open issue from 2016</a> gives me the fearful feeling that Tig wouldn&rsquo;t officially support this feature in the foreseeable future.</li>
-<li>Switching between different views in Tig makes the workflow complex and slow. For example, to add an untracked file: open tig, press <code>s</code> to switch to status view, move up and down to select an untracked file, press <code>u</code> to add it. Well, in this case, why using Tig instead of simply typing <code>git add &lt;untracked_file&gt;</code>?</li>
+<li>Switching between different views in Tig makes the workflow complex and slow. For example, to add an untracked file: run tig, press <code>s</code> to switch to status view, move up and down to select an untracked file, press <code>u</code> to add it. Well, in this case, why using Tig instead of simply typing <code>git add &lt;untracked_file&gt;</code>?</li>
 </ol>
 <p>At some point, I decided to drop Tig and tried to search for other tools to assist my git workflow.</p>
 <p>Don&rsquo;t get me wrong. Tig is a decent tool. However, my needs are just picky and I&rsquo;m just too lazy 🤷.</p>
@@ -391,7 +394,7 @@
 <p>As you may also notice in the <code>ds</code> alias, I&rsquo;m now able to use <code>delta</code> to format git diff in fzf preview screen, by piping diff to it.</p>
 <p>Until now, all the main problems I have with Tig are solved by git alias. I&rsquo;d be happier than ever.</p>
 <h3 id="day-5-go-dynamic">Day 5: go dynamic</h3>
-<p>For some reason, I&rsquo;d like to pass the file name as an argument to a git command binded with an alias.</p>
+<p>For some reason, I&rsquo;d like to pass the file name as an argument to a git command bound with an alias.</p>
 <p>For example, I&rsquo;d like to see certain change in a file, when and who made it, and all related changes in the same commit. It involves <code>git blame</code> command with the file name as an argument. Without doubt, it&rsquo;s possible to accomplish it with git alias by using <code>sh -c</code> to pass arguments:</p>
 <!-- raw HTML omitted -->
 <div class="highlight"><div class="chroma">
@@ -412,7 +415,8 @@
 </p>
 
 <p>⚠️ Pay attention to escape single quotes <code>'</code> or/and double quotes <code>&quot;</code> inside <code>sh -c</code> if needed.</p>
-<h3 id="day-5-go-flexible">Day 5: go flexible</h3>
+<p>An alternative and more complex method is to bind a function, like <code>! f() {...}; f</code>. Once you dig deeper in this way, you will certainly find the answers for all your needs.</p>
+<h3 id="day-6-go-flexible">Day 6: go flexible</h3>
 <p>Pursuing the ambition of customizing as many aliases as possible to perfectly suit my needs, the aliases are getting complicated with many duplicated and redundant codes. It&rsquo;s hard to maintain in the configuration file like this:</p>
 <!-- raw HTML omitted -->
 <div class="highlight"><div class="chroma">
@@ -534,7 +538,7 @@ g <span class="o">()</span> <span class="o">{</span>
 </li>
 </ul>
 <hr>
-<p>Did you git alais as well? What&rsquo;s your favorite git alias? Share it with me and let me learn from you.</p>
+<p>Did you git alias as well? What&rsquo;s your favorite git alias? Share it with me and let me learn from you.</p>
 
           </section>
           <br/>
