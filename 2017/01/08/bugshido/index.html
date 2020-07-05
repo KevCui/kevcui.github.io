@@ -27,8 +27,6 @@
     <link rel="shortcut icon" href="https://kevcui.github.io/images/favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="msapplication-TileImage" content="https://kevcui.github.io/images/favicons/mstile-144x144.png">
-    
-    <link href="https://kevcui.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Kevin Cui" />
 	
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Bugshido: Classify Warrior Bugs">
@@ -279,8 +277,8 @@
 <blockquote>
 <p>&ldquo;Warriors are born to die. Warriors live to be remembered.&rdquo;</p>
 </blockquote>
-<p>The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase<!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link1">[1]</a><!-- raw HTML omitted --><!-- raw HTML omitted --> &hellip; I wonder: if bugs are warriors whom we&rsquo;ve to fight against, what are their classifications? In this post, I&rsquo;m gonna try to explain an interesting bug classification idea, called <strong>Bugshido</strong>.</p>
-<p>As we all know, <a href="https://en.wikipedia.org/wiki/Bushido">Bushido</a>: 武士道 the <strong>way</strong> (Dō or Tao) of the <strong>warrior</strong> (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors. Inspired by Bushido, Bugshido is the way symbolically to determine the existence of different bugs. The idea of Bugshido is based on the way which combines <strong>priority</strong> and <strong>severity</strong><!-- raw HTML omitted --><!-- raw HTML omitted --><a href="#link2">[2]</a><!-- raw HTML omitted --><!-- raw HTML omitted --> by</p>
+<p>The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase<sup><a name="back1"><a href="#link1">[1]</a></a></sup> &hellip; I wonder: if bugs are warriors whom we&rsquo;ve to fight against, what are their classifications? In this post, I&rsquo;m gonna try to explain an interesting bug classification idea, called <strong>Bugshido</strong>.</p>
+<p>As we all know, <a href="https://en.wikipedia.org/wiki/Bushido">Bushido</a>: 武士道 the <strong>way</strong> (Dō or Tao) of the <strong>warrior</strong> (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors. Inspired by Bushido, Bugshido is the way symbolically to determine the existence of different bugs. The idea of Bugshido is based on the way which combines <strong>priority</strong> and <strong>severity</strong><sup><a name="back2"><a href="#link2">[2]</a></a></sup> by</p>
 <ul>
 <li>
 <p>Priority: High, Medium, Low&hellip;</p>
@@ -293,27 +291,27 @@
 <p>Now, imagine you are the emperor (developer/PO) rules a country (code base/product). Due to some changes here or there, the evil forces will raise against you. They are gathering warriors to break your country. As your Emperor&rsquo;s adviser (tester), I&rsquo;d like to explain to you how to identify your enemies and the tactic to handle them.</p>
 <h3 id="geisha">Geisha</h3>
 <p><img src="http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=79215&amp;type=card" alt="geisha"></p>
-<p>Priority: Low<!-- raw HTML omitted -->Severity: Minor</p>
+<p>Priority: Low<br/>Severity: Minor</p>
 <p><a href="https://en.wikipedia.org/wiki/Geisha">Geisha</a> barely knows how to fight. All Geisha&rsquo;s skills related to performing arts like music, dance&hellip; Therefore, Geisha is not harmful and sometimes very entertaining. But in some edge cases, when the art a Geisha trained is the martial art, she could become a dangerous assassin.</p>
 <p><strong>Advice: Go to visit them time to time when you&rsquo;re bored.</strong></p>
 <h3 id="sōhei">Sōhei</h3>
 <p><img src="http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=78684&amp;type=card" alt="sohei"></p>
-<p>Priority: Low<!-- raw HTML omitted -->Severity: Major</p>
+<p>Priority: Low<br/>Severity: Major</p>
 <p><a href="https://en.wikipedia.org/wiki/S%C5%8Dhei">Sōhei</a> is known as the warrior monk. Although warrior monk is the master of martial arts, his initial purpose to fight is to protect people, temple, Buddha&hellip; Monk warriors are usually humble and peaceful. They won&rsquo;t attack unless they&rsquo;re attacked. Even they gonna fight, they will fight defensively. In general, warrior monks stay in their territory quietly. They appear because of the broke environment, which is caused by some small or big changes.</p>
 <p><strong>Advice: Find out the trigger is important. Normally they&rsquo;re tough but there is no need for a long battle. A promise of reform should pacify them. If you choose to collect information and do nothing first, just don&rsquo;t forget to add improvement later by refactoring.</strong></p>
 <h3 id="rōnin">Rōnin</h3>
 <p><img src="http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=74199&amp;type=card" alt="Ronin"></p>
-<p>Priority: High<!-- raw HTML omitted -->Severity: Minor</p>
+<p>Priority: High<br/>Severity: Minor</p>
 <p><a href="https://en.wikipedia.org/wiki/R%C5%8Dnin">Rōnin</a> was a samurai who becomes masterless. Their skills were highly developed but without the purpose of life, their mind could become weak. They are wandering everywhere in the country and looking for a way to make a living with their sword, no matter good or evil.</p>
 <p><strong>Advice: Seize the opportunity When they&rsquo;re still weak and eliminate them as soon as possible before they are caught by the evil force.</strong></p>
 <h3 id="samurai">Samurai</h3>
 <p><img src="http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=50408&amp;type=card" alt="samurai"></p>
-<p>Priority: High<!-- raw HTML omitted -->Severity: Major</p>
+<p>Priority: High<br/>Severity: Major</p>
 <p><a href="https://en.wikipedia.org/wiki/Samurai">Samurai</a> is the highest rank of warriors. The mastery of the sword is one of Samurai&rsquo;s traits. Another one is the loyalty: they believe that the death to serve their Lord is a great honor. They will fight to die in the battle, without blinking an eye. Send shivers down spine, right?</p>
 <p><strong>Advice: Brace yourself, you know a tough fight is impossible to avoid. If you&rsquo;re not sure Samurai&rsquo;s capability, better to ask team members for support.</strong></p>
 <h3 id="ninja">Ninja</h3>
 <p><img src="http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=423530&amp;type=card" alt="ninja"></p>
-<p>Priority: High<!-- raw HTML omitted -->Severity: Critical</p>
+<p>Priority: High<br/>Severity: Critical</p>
 <p><a href="https://en.wikipedia.org/wiki/Ninja">Ninja</a> exists as a mystery, rather than a warrior. A typical Ninja will hide in the shadow, waiting for a moment to kill the target with one fatal hit. The danger begins when the negligence of Ninja&rsquo;s existence. Even sometimes there is a feeling to tell you that Ninja might be hidden in certain areas, but Ninja performs ninjutsu to keep them <strong>unpredictable</strong> in the first place.</p>
 <p><strong>Advice: Unfortunately, most of time Ninja is only found after serious damages are made. The key point is fast-react in order to minimize the losses. Once a Ninja is defeated, take a lesson and learn not to be fooled by the same ninjutsu next time.</strong></p>
 <h3 id="warrior-triage">Warrior Triage</h3>
@@ -330,9 +328,9 @@
 <p>&ldquo;Wake up! Evil warriors are killing your customers!&rdquo;</p>
 </blockquote>
 <hr>
-<p><!-- raw HTML omitted --><a href="#back1">[1]</a><!-- raw HTML omitted --> Defect <a href="http://softwaretestingfundamentals.com/defect/">Classification</a>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --><a href="#back2">[2]</a><!-- raw HTML omitted --> Dan Ashby: <a href="https://danashby.co.uk/2013/05/07/what-about-priority-and-severity/">What about Priority and Severity</a></p>
+<p><a name="link1"><a href="#back1">[1]</a></a> Defect <a href="http://softwaretestingfundamentals.com/defect/">Classification</a>
+<br/>
+<a name="link2"><a href="#back2">[2]</a></a> Dan Ashby: <a href="https://danashby.co.uk/2013/05/07/what-about-priority-and-severity/">What about Priority and Severity</a></p>
 
           </section>
           <br/>

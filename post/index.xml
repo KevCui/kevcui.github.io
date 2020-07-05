@@ -89,7 +89,7 @@ My requirements? My dream system must be Easy, Efficient and Flexible:
       <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2018/09/02/replace-8-frequently-used-linux-commands/</guid>
-      <description>Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.
+      <description>.lnt { display: none }  Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.
 Here is a list of improved commands I&amp;rsquo;d like to share with you:</description>
     </item>
     
@@ -203,7 +203,8 @@ The Three Ways As described in the book, The Phoenix Project presents the Three 
       <pubDate>Tue, 20 Jun 2017 21:28:30 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/06/20/i-am-a-rubber-duck/</guid>
-      <description>Photo by Silvia Maggi    &amp;ldquo;I&amp;rsquo;ll be there for you, like I&amp;rsquo;ve been there before; I&amp;rsquo;ll be there for you, &amp;lsquo;Cause you&amp;rsquo;re there for me too.&amp;rdquo; [1] I&amp;rsquo;m a tester. When a developer talks to me, I see myself as a rubber duck.
+      <description>Photo by Silvia Maggi    &amp;ldquo;I&amp;rsquo;ll be there for you, like I&amp;rsquo;ve been there before; I&amp;rsquo;ll be there for you, &amp;lsquo;Cause you&amp;rsquo;re there for me too.&amp;rdquo; [1]
+ I&amp;rsquo;m a tester. When a developer talks to me, I see myself as a rubber duck.
 A rubber duck? Why not Winnie-the-Pooh, Pikachu or Minion? Because the color doesn&amp;rsquo;t matter 😉 But other things do matter.
 I&amp;rsquo;m a tester, a rubber duck, you are a developer.</description>
     </item>
@@ -244,7 +245,8 @@ To be honest, the initial configuration is simple but I cannot recall it at all.
       <pubDate>Mon, 17 Apr 2017 22:30:00 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
-      <description>Photo by Kenny Louie    &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1] What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same time.</description>
+      <description>Photo by Kenny Louie    &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1]
+ What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution.</description>
     </item>
     
     <item>
@@ -310,7 +312,7 @@ Why hexo was chosen? Let&amp;rsquo;s start from the reasons why I ditched jekyll
       
       <guid>https://kevcui.github.io/2017/01/08/bugshido/</guid>
       <description>&amp;ldquo;Warriors are born to die. Warriors live to be remembered.&amp;rdquo;
- The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase[1]&amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called Bugshido.
+ The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase[1] &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called Bugshido.
 As we all know, Bushido: 武士道 the way (Dō or Tao) of the warrior (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors.</description>
     </item>
     
@@ -320,7 +322,8 @@ As we all know, Bushido: 武士道 the way (Dō or Tao) of the warrior (Bushi), 
       <pubDate>Thu, 01 Dec 2016 21:37:35 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
-      <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1] Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
+      <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1]
+ Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
   People are sitting around a table.
   Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
     </item>
