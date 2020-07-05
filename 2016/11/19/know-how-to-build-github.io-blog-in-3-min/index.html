@@ -348,7 +348,12 @@ date:  2016-11-18 23:25:28 +0200
 <script>
     
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('\/sw.js')
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            for(let registration of registrations) {
+                registration.unregister()
+            }
+        })
+        navigator.serviceWorker.register("/sw.js")
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
