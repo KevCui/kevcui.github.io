@@ -1,5 +1,6 @@
 var CACHE_NAME = 'kevin-site';
 var urlsToCache = [
+    '/index.html',
     '/#blog',
     '/css/font.min.css',
     '/css/animate.min.css',
