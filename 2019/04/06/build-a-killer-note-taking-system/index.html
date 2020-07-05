@@ -356,7 +356,12 @@ Note auto backup system: fswatch + GitHub</code></pre></div>
 <script>
     
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('\/sw.js')
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            for(let registration of registrations) {
+                registration.unregister()
+            }
+        })
+        navigator.serviceWorker.register("/sw.js")
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
