@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="Why I Switch to Colemak Keyboard Layout?">
 	<meta name="twitter:title" content="Why I Switch to Colemak Keyboard Layout?">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="Colemak, pronounced /‘ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It’s developed by Shai Coleman and released in 2006. What’s special about Colemak? Why do I decide to switch from QWERTY to Colemak?...">
@@ -334,8 +334,9 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -343,6 +344,7 @@
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">

@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="Please Don&#39;t Call Me QA">
 	<meta name="twitter:title" content="Please Don&#39;t Call Me QA">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="Now let me tell you truth from the darkness: I don&#39;t like people calling me QA, especially those who know me. I have strong opinions on it, that&#39;s why I&#39;d like to share my opinions and to express my feeling in this post....">
@@ -343,8 +343,9 @@ Developer is the troublemaker.
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -352,6 +353,7 @@ Developer is the troublemaker.
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
 

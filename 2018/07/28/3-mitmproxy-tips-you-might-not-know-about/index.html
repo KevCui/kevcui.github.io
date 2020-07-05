@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="3 mitmproxy Tips You Might Not Know About">
 	<meta name="twitter:title" content="3 mitmproxy Tips You Might Not Know About">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
@@ -384,8 +384,9 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -393,6 +394,7 @@
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">

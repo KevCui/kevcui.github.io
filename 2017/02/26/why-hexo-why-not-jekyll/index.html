@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="Why Hexo Why Not Jekyll">
 	<meta name="twitter:title" content="Why Hexo Why Not Jekyll">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="Do you remember several months ago, I wrote a post about how to build github.io blog in 3 min? At that time, I was kidding that 3 min in that post title was actually the time to finish reading that post. But today, I could make this raving come true with hexo, a super simple and powerful static blog generator...">
@@ -301,8 +301,9 @@ hexo cl &lt;<span class="o">=</span>&gt; hexo clean
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -310,6 +311,7 @@ hexo cl &lt;<span class="o">=</span>&gt; hexo clean
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">

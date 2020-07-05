@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="Ghost in the Shell - A Testing Horror Story">
 	<meta name="twitter:title" content="Ghost in the Shell - A Testing Horror Story">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="My name is Rick, 30 years old single male. I&#39;m a test automation specialist. I&#39;m working as a software consultant in banking. I&#39;m universally recognized in my consultant company as the top talent. My business is to help my client solve their technical problems in software testing...">
@@ -332,8 +332,9 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -341,6 +342,7 @@
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
 
