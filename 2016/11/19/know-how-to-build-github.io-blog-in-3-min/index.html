@@ -27,8 +27,6 @@
     <link rel="shortcut icon" href="https://kevcui.github.io/images/favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="msapplication-TileImage" content="https://kevcui.github.io/images/favicons/mstile-144x144.png">
-    
-    <link href="https://kevcui.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Kevin Cui" />
 	
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Know How to Build github.io Blog in 3 min?">
@@ -265,38 +263,38 @@
           <section id="post-content" class="article-content post">
               <p>I write this tutorial with some notes about how to build a github.io blog, because I was struggling a bit on it (well, I&rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could <strong>waste</strong> some of your time on customizing your own awesome blog. 😉</p>
 <p><em>(What about 3 min? It&rsquo;s the time to read this post&hellip;)</em></p>
-<h3 id="brstep-0-know-_things_-first"><!-- raw HTML omitted -->STEP 0: Know <em>things</em> first</h3>
+<h3 id="brstep-0-know-_things_-first"><br/>STEP 0: Know <em>things</em> first</h3>
 <ul>
 <li><a href="https://github.com/join/">GitHub account</a>: If you don&rsquo;t have one, what are you waiting for? Just get one ;)</li>
 <li><a href="https://pages.github.com/">GitHub Pages</a>: It&rsquo;s designed to host your personal, organization, or project pages directly from a GitHub repository.</li>
 <li><a href="https://jekyllrb.com/">Jeykll</a>: It transfers plain text into static websites and blogs.</li>
 </ul>
-<h3 id="brstep-1-why"><!-- raw HTML omitted -->STEP 1: Why?</h3>
+<h3 id="brstep-1-why"><br/>STEP 1: Why?</h3>
 <ul>
 <li>It&rsquo;s really simple, compared to WordPress</li>
 <li>It&rsquo;s interesting to write post with Markdown ^^</li>
 <li>You will tell me&hellip; 😄</li>
 </ul>
-<h3 id="brstep-2-pick-theme"><!-- raw HTML omitted -->STEP 2: Pick theme</h3>
+<h3 id="brstep-2-pick-theme"><br/>STEP 2: Pick theme</h3>
 <ul>
 <li>A list of some nice jekyll <a href="https://github.com/jekyll/jekyll/wiki/Themes">themes</a></li>
 <li>Check theme demos and pick favorite one</li>
 <li>Open GitHub and check source page ☕</li>
 </ul>
-<h3 id="brstep-3-fork-it"><!-- raw HTML omitted -->STEP 3: Fork-it</h3>
+<h3 id="brstep-3-fork-it"><br/>STEP 3: Fork-it</h3>
 <ul>
 <li>Fork the theme repository to your <strong><em>username</em>.github.io</strong>, where <em>username</em> is your own username on GitHub.
 (<em>#Eg: my repository for this blog is <strong>kevcui.github.io</strong></em>)</li>
-<li>Clone it to your local<!-- raw HTML omitted --></li>
+<li>Clone it to your local<br/></li>
 </ul>
 <div class="highlight"><pre class="chroma"><code class="language-Shell" data-lang="Shell">~ $ git clone https://github.com/username/username.github.io my-blog
-</code></pre></div><h3 id="brstep-4-configure-it"><!-- raw HTML omitted -->STEP 4: Configure-it</h3>
+</code></pre></div><h3 id="brstep-4-configure-it"><br/>STEP 4: Configure-it</h3>
 <ul>
-<li>Go to my-blog<!-- raw HTML omitted --></li>
+<li>Go to my-blog<br/></li>
 </ul>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">~ $ <span class="nb">cd</span> my-blog
 </code></pre></div><ul>
-<li>Open <strong>_config.yml</strong> and modify<!-- raw HTML omitted --></li>
+<li>Open <strong>_config.yml</strong> and modify<br/></li>
 </ul>
 <div class="highlight"><pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="k">title</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;your-blog-title&#39;</span><span class="w">
 </span><span class="w"></span><span class="k">description</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;your-blog-description&#39;</span><span class="w">
@@ -304,29 +302,29 @@
 </span><span class="w"></span><span class="k">baseurl</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/&#39;</span><span class="w">
 </span><span class="w"></span>...<span class="w">
 </span><span class="w"></span><span class="k">gems </span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;jekyull-paginate&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;jemoji&#39;</span><span class="p">]</span><span class="w">
-</span></code></pre></div><p>⚠️ Empty <strong>baseurl</strong> or change it to <strong>/</strong> depends on theme. Otherwise, some themes may not work correctly.<!-- raw HTML omitted -->
+</span></code></pre></div><p>⚠️ Empty <strong>baseurl</strong> or change it to <strong>/</strong> depends on theme. Otherwise, some themes may not work correctly.<br>
 👊 jemoji!</p>
-<h3 id="brstep-5-test-it"><!-- raw HTML omitted -->STEP 5: Test-it</h3>
+<h3 id="brstep-5-test-it"><br/>STEP 5: Test-it</h3>
 <ul>
-<li>Run locally<!-- raw HTML omitted --></li>
+<li>Run locally<br/></li>
 </ul>
 <div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash">~ $ <span class="nb">cd</span> my-blog
 ~ $ jekyll serve
 <span class="c1"># =&gt; Now browse to http://localhost:4000/</span>
-</code></pre></div><h3 id="brstep-6-post-it"><!-- raw HTML omitted -->STEP 6: Post-it</h3>
+</code></pre></div><h3 id="brstep-6-post-it"><br/>STEP 6: Post-it</h3>
 <ul>
-<li>Create a post in <strong>_post</strong>, name it <strong>YEAR-MONTH-DAY-title.md</strong><!-- raw HTML omitted --></li>
+<li>Create a post in <strong>_post</strong>, name it <strong>YEAR-MONTH-DAY-title.md</strong><br/></li>
 </ul>
 <div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">title: &#34;How to build github.io blog in 3 min?&#34;
 date:  2016-11-18 23:25:28 +0200
 ...
 </code></pre></div><p>⚠️ Be careful of date format <strong>YYYY-MM-DD HH:MM:SS +/-TTTT</strong>, TTTT is timezone offset</p>
-<h3 id="brstep-7-publish-it"><!-- raw HTML omitted -->STEP 7: Publish-it</h3>
+<h3 id="brstep-7-publish-it"><br/>STEP 7: Publish-it</h3>
 <ul>
 <li>git add, git commit, git push :octocat:</li>
 <li>Browse your new blog <strong><a href="https://username.github.io">https://username.github.io</a></strong>  👯‍♀️</li>
 </ul>
-<h3 id="brhelpful-links"><!-- raw HTML omitted -->Helpful links:</h3>
+<h3 id="brhelpful-links"><br/>Helpful links:</h3>
 <ul>
 <li>Basic syntax help for <a href="https://daringfireball.net/projects/markdown/basics">Markdown</a></li>
 <li>GitHub basic formatting <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">syntax</a></li>
