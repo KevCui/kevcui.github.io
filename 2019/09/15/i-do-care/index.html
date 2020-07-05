@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="I Don&#39;t Care?">
 	<meta name="twitter:title" content="I Don&#39;t Care?">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="Let&#39;s start with your imagination: in a team discussion, someone purposes a solution to solve a certain problem. However, another person expresses a strong opinion against that solution. The discussion is heating up with arguments on two sides back and forth. You are sitting there in your zone silently and listening to the whole conversation insouciantly...">
@@ -311,8 +311,9 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -320,6 +321,7 @@
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
 

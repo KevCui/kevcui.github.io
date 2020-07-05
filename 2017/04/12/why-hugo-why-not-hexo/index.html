@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="Why Hugo Why Not Hexo">
 	<meta name="twitter:title" content="Why Hugo Why Not Hexo">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="As you probably remember that I just about switched from jekyll to hexo 2 months ago, now I&#39;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you...">
@@ -333,8 +333,9 @@ Hugo: 29M
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -342,6 +343,7 @@ Hugo: 29M
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">

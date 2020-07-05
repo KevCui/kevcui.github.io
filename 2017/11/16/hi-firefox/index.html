@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="Hi Firefox!">
 	<meta name="twitter:title" content="Hi Firefox!">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="In case you are seeking for an answer of the question: Do I need to switch from Chrome to Firefox now? In my opinion, if you&#39;re still happy with Chrome, then feel comfortable to stay with Chrome...">
@@ -304,8 +304,9 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -313,6 +314,7 @@
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
 

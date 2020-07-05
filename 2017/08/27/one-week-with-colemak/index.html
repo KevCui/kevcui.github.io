@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="One Week with Colemak">
 	<meta name="twitter:title" content="One Week with Colemak">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="Last weekend, I decided to switch from QWERTY to Colemak keyboard layout. Did I suffer a lot since then? Of course no, well, maybe a little bit. After one-week intensive typing training, actually I quite enjoy the fresh feeling of typing with Colemak...">
@@ -373,8 +373,9 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -382,6 +383,7 @@
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">

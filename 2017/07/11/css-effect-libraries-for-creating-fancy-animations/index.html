@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="2 CSS Effect Libraries for Creating Fancy Animations">
 	<meta name="twitter:title" content="2 CSS Effect Libraries for Creating Fancy Animations">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="Animation is fun. It makes everything look vivid. A good animation is that you won&#39;t notice its existence but it pleases your eyes and makes you feel good!...">
@@ -320,8 +320,9 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -329,6 +330,7 @@
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
     <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">

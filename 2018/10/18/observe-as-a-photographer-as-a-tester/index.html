@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="Observe as A Photographer, as A Tester">
 	<meta name="twitter:title" content="Observe as A Photographer, as A Tester">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="Since the beginning of this year, I took photography as a &#34;serious&#34; hobby. The interesting thing I found is that the more I have learned about photography, the more I can feel the similarities between photography and software testing...">
@@ -336,8 +336,9 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -345,6 +346,7 @@
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
 

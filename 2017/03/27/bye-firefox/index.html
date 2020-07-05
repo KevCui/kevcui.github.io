@@ -36,7 +36,7 @@
 	<meta itemprop="name" content="Bye Firefox">
 	<meta name="twitter:title" content="Bye Firefox">
 	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@kevcui">
+    <meta name="twitter:creator" content="@KevCui">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="Last week, I made my decision to switch from Firefox to Chromium. Although it&#39;s not my first time trying to ditch Firefox, I&#39;m quite sure this time it would be the last time. As I&#39;m a reasonable person, therefore, I put my thoughts in this post with the reason why I made my decision...">
@@ -311,8 +311,9 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 <script>
+    
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('\/sw.js')
         .then(function(registration) {
             console.log("Service Worker Registered", registration);
         })
@@ -320,6 +321,7 @@
             console.log("Service Worker Failed to Register", err);
         })
     }
+    
 </script>
 
 
