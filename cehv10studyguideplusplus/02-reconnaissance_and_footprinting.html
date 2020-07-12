@@ -1,0 +1,603 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>02-Reconnaissance and Footprinting · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 3.4.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="03-scanning_and_enumeration.html" />
+    
+    
+    <link rel="prev" href="01-essential_knowledge.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    CEHv10 Study Guide++
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="01-essential_knowledge.html">
+            
+                <a href="01-essential_knowledge.html">
+            
+                    
+                    01-Essential Knowledge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3" data-path="02-reconnaissance_and_footprinting.html">
+            
+                <a href="02-reconnaissance_and_footprinting.html">
+            
+                    
+                    02-Reconnaissance and Footprinting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="03-scanning_and_enumeration.html">
+            
+                <a href="03-scanning_and_enumeration.html">
+            
+                    
+                    03-Scanning and Enumeration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="04-sniffing_and_evasion.html">
+            
+                <a href="04-sniffing_and_evasion.html">
+            
+                    
+                    04-Sniffing and Evasion
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="05-system_hacking.html">
+            
+                <a href="05-system_hacking.html">
+            
+                    
+                    05-System Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="06-web_server_and_web_application_hacking.html">
+            
+                <a href="06-web_server_and_web_application_hacking.html">
+            
+                    
+                    06-Web Server and Web Application Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="07-wireless_network_hacking.html">
+            
+                <a href="07-wireless_network_hacking.html">
+            
+                    
+                    07-Wireless Network Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="08-mobile_and_iot_hacking.html">
+            
+                <a href="08-mobile_and_iot_hacking.html">
+            
+                    
+                    08-Mobile and IoT Hacking
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="09-security_in_cloud_computing.html">
+            
+                <a href="09-security_in_cloud_computing.html">
+            
+                    
+                    09-Security in Cloud Computing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="10-malware_and_other_attacks.html">
+            
+                <a href="10-malware_and_other_attacks.html">
+            
+                    
+                    10-Malware and Other Attacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="11-cryptography.html">
+            
+                <a href="11-cryptography.html">
+            
+                    
+                    11-Cryptography
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="12-social_engineering.html">
+            
+                <a href="12-social_engineering.html">
+            
+                    
+                    12-Social Engineering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="13-pen_testing.html">
+            
+                <a href="13-pen_testing.html">
+            
+                    
+                    13-Pen Testing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >02-Reconnaissance and Footprinting</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="02-reconnaissance-and-footprinting">02-Reconnaissance and Footprinting</h1><h2 id="table-of-contents">Table of Contents</h2><ul><li><p><a href="02-reconnaissance_and_footprinting.html#reconnaissance-and-footprinting">Reconnaissance and Footprinting</a></p><ul><li><a href="02-reconnaissance_and_footprinting.html#types-of-footprinting">Types of Footprinting</a>
+</li>
+<li><a href="02-reconnaissance_and_footprinting.html#search-engines">Search Engines</a>
+</li>
+<li><a href="02-reconnaissance_and_footprinting.html#website-footprinting">Website Footprinting</a>
+</li>
+<li><a href="02-reconnaissance_and_footprinting.html#email-footprinting">Email Footprinting</a>
+</li>
+<li><p><a href="02-reconnaissance_and_footprinting.html#dns-footprinting">DNS Footprinting</a></p><ul><li><p><a href="02-reconnaissance_and_footprinting.html#types-of-dns-record">Types of DNS Record</a></p><ul><li><a href="02-reconnaissance_and_footprinting.html#soa-record-fields">SOA Record Fields</a>
+</li></ul>
+</li>
+<li><p><a href="02-reconnaissance_and_footprinting.html#regional-internet-registtry-rir">Regional Internet registtry (RIR)</a></p></li>
+<li><a href="02-reconnaissance_and_footprinting.html#nslookup">nslookup</a>
+</li>
+<li><a href="02-reconnaissance_and_footprinting.html#dig">dig</a>
+</li></ul>
+</li>
+<li><p><a href="02-reconnaissance_and_footprinting.html#network-footprinting">Network Footprinting</a></p></li>
+<li><a href="02-reconnaissance_and_footprinting.html#os-fingerprinting">OS Fingerprinting</a>
+</li>
+<li><p><a href="02-reconnaissance_and_footprinting.html#banner-grabbing">Banner Grabbing</a></p><ul><li><a href="02-reconnaissance_and_footprinting.html#telnet">Telnet</a>
+</li>
+<li><a href="02-reconnaissance_and_footprinting.html#netcat">Netcat</a>
+</li></ul>
+</li>
+<li><p><a href="02-reconnaissance_and_footprinting.html#other-tools">Other Tools</a></p></li></ul>
+</li></ul>
+<h2 id="reconnaissance-and-footprinting">Reconnaissance and Footprinting</h2><ul><li>Looking for high-level information on a target
+</li></ul>
+<h3 id="types-of-footprinting">Types of Footprinting</h3><ul><li><p><strong>Active</strong>: requiring attacker to touch the device or network</p><ul><li>Social engineering and other communications that require interaction with target
+</li></ul>
+</li>
+<li><p><strong>Passive</strong>: collecting information from publicly available sources</p><ul><li>Websites, DNS records, business information databases
+</li></ul>
+</li>
+<li><p><strong>Anonymous</strong>: information gathering without revealing anything about yourself</p></li>
+<li><strong>Pseudonymous</strong>: making someone else take the blame for your actions
+</li></ul>
+<h3 id="search-engines">Search Engines</h3><ul><li><strong>Alexa.com</strong>: resource for statistics about websites
+</li>
+<li><strong>NetCraft</strong>: information about website and possibly OS info, used to discover restricted URLs
+</li>
+<li><strong>Job Search Sites</strong>: information about technologies can be gleaned from job postings
+</li>
+<li><p><strong>Google</strong></p><ul><li>filetype: look for file types
+</li>
+<li>index of directory listings
+</li>
+<li>info: contain Google&apos;s information about the page
+</li>
+<li>intitle: string in title
+</li>
+<li>inurl: string in url
+</li>
+<li>link: find linked pages
+</li>
+<li>related: find similar pages
+</li>
+<li>site: find pages specific to that site
+</li></ul>
+</li>
+<li><p><strong>EDGAR</strong>: database maintained by SEC and includes filing information from public companies</p></li>
+<li><strong>Shodan</strong>: search engine that shows devices connected to the Internet
+</li>
+<li><strong>Whois</strong>: obtain registration information for the domain
+</li></ul>
+<h3 id="website-footprinting">Website Footprinting</h3><ul><li><p><strong>Web mirroring</strong>: allowing for discrete testing offline</p><ul><li>HTTrack
+</li>
+<li>Wget
+</li>
+<li>WebRipper
+</li>
+<li>Teleport Pro
+</li>
+<li>Backstreet Browser
+</li></ul>
+</li>
+<li><p><strong>Archive.org</strong>: providing cached websites from various dates which possibly have sensitive information that has been now removed</p></li>
+<li><strong>Web Spiders</strong>: obtaining information from the website such as pages, etc.
+</li></ul>
+<h3 id="email-footprinting">Email Footprinting</h3><ul><li><strong>Email header</strong>: may show servers and where the location of those servers are
+</li>
+<li><strong>Email tracking</strong>: services can track various bits of information including the IP address of where it was opened, where it went, etc.
+</li></ul>
+<h3 id="dns-footprinting">DNS Footprinting</h3><ul><li>Zone transfer replicates all records, happening when a primary server&apos;s serial number higher than the secondary&apos;s serial number
+</li>
+<li><strong>Name resolvers</strong>: answering requests
+</li>
+<li><strong>Authoritative Servers</strong>: holding all records for a namespace, where all records for a domain belonging to an organization or enterprise reside
+</li></ul>
+<h4 id="types-of-dns-record">Types of DNS Record</h4><table>
+<thead>
+<tr><th> Name </th>
+<th> Description </th>
+<th> Purpose </th>
+</tr></thead><tbody>
+<tr><td style="text-align:left"> SRV </td>
+<td style="text-align:left"> Service </td>
+<td style="text-align:left"> Points to a specific service </td>
+</tr><tr><td style="text-align:left"> SOA </td>
+<td style="text-align:left"> Start of Authority </td>
+<td style="text-align:left"> Indicates the authoritative NS for a namespace </td>
+</tr><tr><td style="text-align:left"> PTR </td>
+<td style="text-align:left"> Pointer </td>
+<td style="text-align:left"> Maps an IP to a hostname </td>
+</tr><tr><td style="text-align:left"> NS </td>
+<td style="text-align:left"> Nameserver </td>
+<td style="text-align:left"> Lists the nameservers for a namespace </td>
+</tr><tr><td style="text-align:left"> MX </td>
+<td style="text-align:left"> Mail Exchange </td>
+<td style="text-align:left"> Lists email servers, low number high priority </td>
+</tr><tr><td style="text-align:left"> CNAME </td>
+<td style="text-align:left"> Canonical Name </td>
+<td style="text-align:left"> Maps a name to an A reccord </td>
+</tr><tr><td style="text-align:left"> A </td>
+<td style="text-align:left"> Address </td>
+<td style="text-align:left"> Maps an hostname to an IP address </td>
+</tr><tr><td style="text-align:left"> AAAA </td>
+<td style="text-align:left"> IPv6 address </td>
+<td style="text-align:left"> Maps an hostname to an IPv6 address</td>
+</tr></tbody></table>
+
+<h5 id="soa-record-fields">SOA Record Fields</h5><ul><li><strong>Source Host</strong>: hostname of the primary DNS
+</li>
+<li><strong>Contact Email</strong>: email for the person responsible for the zone file
+</li>
+<li><strong>Serial Number</strong>: revision number that increments with each change
+</li>
+<li><strong>Refresh Time</strong>: time in which an update should occur
+</li>
+<li><strong>Retry Time</strong>: time that a NS should wait on a failure
+</li>
+<li><strong>Expire Time</strong>: time in which a zone transfer is allowed to complete
+</li>
+<li><strong>TTL</strong> (Time to Live): minimum TTL for records within the zone
+</li></ul>
+<h4 id="regional-internet-registtry-rir">Regional Internet registtry (RIR)</h4><ul><li><strong>AfriNIC</strong>: Africa
+</li>
+<li><strong>APNIC</strong>: Asia Pacific
+</li>
+<li><strong>ARIN</strong>: North America
+</li>
+<li><strong>LACNIC</strong>: Latin America
+</li>
+<li><strong>RIPE</strong>: Europe, Middle East
+</li></ul>
+<h4 id="nslookup">nslookup</h4><ul><li>Perform DNS queries: <code>nslookup [-options] [hostname]</code>
+</li>
+<li>Determine if the entry is present in DNS cache with option: <code>-norecursive</code>
+</li>
+<li>Provide the type of computer and OS a host: <code>set type=HINFO</code>
+</li>
+<li>Interactive zone transfer
+</li></ul>
+<pre><code class="lang-text">nslookup
+server &lt;IP Address&gt;
+set type = any
+ls -d domainname.com</code></pre>
+<h4 id="dig">dig</h4><ul><li>Unix-based command like nslookup
+</li>
+<li><code>dig @server name type</code>
+</li></ul>
+<h3 id="network-footprinting">Network Footprinting</h3><ul><li>IP address range can be obtained from regional registrar
+</li>
+<li><p>Use traceroute to find intermediary servers</p><ul><li>traceroute uses ICMP ECHO in Windows, hop count of 1
+</li>
+<li>traceroute maps the route of a packet travel: manipulates the value of time to live (TTL) within packet to elicit a time exceeded in transit message
+</li>
+<li>TTL is incremented by 1 for each hop discovered
+</li></ul>
+</li>
+<li><p>Windows command: <code>tracert</code></p></li>
+<li>Linux command: <code>traceroute</code>
+</li></ul>
+<h3 id="os-fingerprinting">OS Fingerprinting</h3><ul><li><strong>Active</strong>: sending crafted packets to the target
+</li>
+<li><strong>Passive</strong>: sniffing network traffic for things such as TTL windows, DF (Don&apos;t Fragment) flags and ToS (Type of Service) fields
+</li></ul>
+<h3 id="banner-grabbing">Banner Grabbing</h3><ul><li>Getting information about OS or specific server info (such as web server, mail server, etc.)
+</li>
+<li><strong>Active</strong>: sending specially crafted packets and comparing responses to determine OS
+</li>
+<li><strong>Passive</strong>: reading error messages, sniffing traffic or looking at page extensions
+</li></ul>
+<h4 id="telnet">Telnet</h4><ul><li>Easy way to banner grabbing, connects via telnet on port:
+</li></ul>
+<pre><code class="lang-text">telnet webserveraddress 80
+HEAD / HTTP/1.0</code></pre>
+<h4 id="netcat">Netcat</h4><ul><li><code>nc &lt;IPaddress or FQDN&gt; &lt;port number&gt;</code>
+</li></ul>
+<table>
+<thead>
+<tr><th style="text-align:left"> Flag </th>
+<th style="text-align:left"> Function </th>
+</tr></thead><tbody>
+<tr><td style="text-align:left"> -4 </td>
+<td style="text-align:left"> IPv4 </td>
+</tr><tr><td style="text-align:left"> -6 </td>
+<td style="text-align:left"> IPv6 </td>
+</tr><tr><td style="text-align:left"> -z </td>
+<td style="text-align:left"> Report only open ports </td>
+</tr><tr><td style="text-align:left"> -u </td>
+<td style="text-align:left"> Scan for UDP ports </td>
+</tr><tr><td style="text-align:left"> -l </td>
+<td style="text-align:left"> Listen on a specific port </td>
+</tr><tr><td style="text-align:left"> -w </td>
+<td style="text-align:left"> Timeout seconds </td>
+</tr><tr><td style="text-align:left"> -p </td>
+<td style="text-align:left"> Specify source port</td>
+</tr></tbody></table>
+
+<h3 id="other-tools">Other Tools</h3><ul><li><strong>OSRFramework</strong>: uses open source intelligence to get information about target
+</li>
+<li><strong>Metagoofil</strong>: uses Google hacks to find information in meta tags
+</li>
+<li><strong>Maltego</strong>: social Engineering Tools
+</li></ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="01-essential_knowledge.html" class="navigation navigation-prev " aria-label="Previous page: 01-Essential Knowledge">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="03-scanning_and_enumeration.html" class="navigation navigation-next " aria-label="Next page: 03-Scanning and Enumeration">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"02-Reconnaissance and Footprinting","level":"1.3","depth":1,"next":{"title":"03-Scanning and Enumeration","level":"1.4","depth":1,"path":"03-scanning_and_enumeration.md","ref":"03-scanning_and_enumeration.md","articles":[]},"previous":{"title":"01-Essential Knowledge","level":"1.2","depth":1,"path":"01-essential_knowledge.md","ref":"01-essential_knowledge.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["advanced-emoji"],"pluginsConfig":{"advanced-emoji":{"embedEmojis":false},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}}},"file":{"path":"02-reconnaissance_and_footprinting.md","mtime":"2020-07-12T12:06:19.957Z","type":"markdown"},"gitbook":{"version":"3.4.0","time":"2020-07-12T12:50:14.063Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
