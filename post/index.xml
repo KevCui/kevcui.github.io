@@ -6,11 +6,7 @@
     <description>Recent content in Posts on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jul 2020 09:02:36 +0200</lastBuildDate>
-    
-	<atom:link href="https://kevcui.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 04 Jul 2020 09:02:36 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Alias -- Did You Git It?</title>
       <link>https://kevcui.github.io/2020/07/04/git-alias-did-you-git-it/</link>
@@ -268,22 +264,6 @@ Why hexo was chosen? Let&amp;rsquo;s start from the reasons why I ditched jekyll
       <guid>https://kevcui.github.io/2017/03/27/bye-firefox/</guid>
       <description>Photo by Garrrett LeSage    Love, without any reason. Leave, with a good reason.
  Last week, I made my decision to switch from Firefox to Chromium. Although it&amp;rsquo;s not my first time trying to ditch Firefox, I&amp;rsquo;m quite sure this time it would be the last time. As I&amp;rsquo;m a reasonable person, therefore, I put my thoughts in this post with the reason why I made my decision.</description>
-    </item>
-    
-    <item>
-      <title>My Toolbox</title>
-      <link>https://kevcui.github.io/2017/03/08/my-toolbox/</link>
-      <pubDate>Wed, 08 Mar 2017 22:12:08 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/03/08/my-toolbox/</guid>
-      <description>Software Testing 🌏👉 Test case generator (pairwise)
-📖👉 Test Heuristics Cheat Sheet
-📖👉 1-page usability test plan
-📀👉 faker-cli: generate massive amounts of fake data
-📀👉 Radamsa: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer
-📀👉 Ruby Pairwise: Ruby based tool for selecting a smaller number of test input combinations
-🌏👉 Name: all about name
-🌏👉 Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
     </item>
     
     <item>

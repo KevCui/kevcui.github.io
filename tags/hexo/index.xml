@@ -6,11 +6,7 @@
     <description>Recent content in hexo on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Apr 2017 22:47:26 +0200</lastBuildDate>
-    
-	<atom:link href="https://kevcui.github.io/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 12 Apr 2017 22:47:26 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Hugo Why Not Hexo</title>
       <link>https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/</link>

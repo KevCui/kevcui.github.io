@@ -6,11 +6,7 @@
     <description>Recent content in hugo on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jun 2017 15:55:09 +0200</lastBuildDate>
-    
-	<atom:link href="https://kevcui.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 18 Jun 2017 15:55:09 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo x Github Pages</title>
       <link>https://kevcui.github.io/2017/06/18/hugo-github-pages/</link>

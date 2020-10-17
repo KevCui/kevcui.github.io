@@ -6,11 +6,7 @@
     <description>Recent content in tool on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Jul 2018 15:13:04 +0200</lastBuildDate>
-    
-	<atom:link href="https://kevcui.github.io/tags/tool/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 28 Jul 2018 15:13:04 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/tool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3 mitmproxy Tips You Might Not Know About</title>
       <link>https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/</link>
@@ -30,22 +26,6 @@ First things first, a small checklist:
       <guid>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
       <description>Photo by Jim    If all you have is a hammer, everything looks like a nail.
  Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
-    </item>
-    
-    <item>
-      <title>My Toolbox</title>
-      <link>https://kevcui.github.io/2017/03/08/my-toolbox/</link>
-      <pubDate>Wed, 08 Mar 2017 22:12:08 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/03/08/my-toolbox/</guid>
-      <description>Software Testing 🌏👉 Test case generator (pairwise)
-📖👉 Test Heuristics Cheat Sheet
-📖👉 1-page usability test plan
-📀👉 faker-cli: generate massive amounts of fake data
-📀👉 Radamsa: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer
-📀👉 Ruby Pairwise: Ruby based tool for selecting a smaller number of test input combinations
-🌏👉 Name: all about name
-🌏👉 Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
     </item>
     
   </channel>
