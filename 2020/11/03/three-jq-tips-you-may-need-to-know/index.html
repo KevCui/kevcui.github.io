@@ -1,0 +1,384 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#000"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title> Kevin Cui </title>
+    
+    <link rel="manifest" href="/manifest.json">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kevcui.github.io/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kevcui.github.io/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kevcui.github.io/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kevcui.github.io/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kevcui.github.io/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kevcui.github.io/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kevcui.github.io/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kevcui.github.io/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kevcui.github.io/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kevcui.github.io/images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://kevcui.github.io/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://kevcui.github.io/images/favicons/mstile-144x144.png">
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Three jq Tips You May Need to Know">
+	<meta property="og:url" content="https://kevcui.github.io/2020/11/03/three-jq-tips-you-may-need-to-know/">
+	<meta property="og:site_name" content="Kevin Cui">
+    <meta name="twitter:site" content="Kevin Cui">
+	<meta itemprop="name" content="Three jq Tips You May Need to Know">
+	<meta name="twitter:title" content="Three jq Tips You May Need to Know">
+	<meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@KevCui">
+    <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
+	
+    <meta name="description" content="jq is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I’d like to share 3 jq tips you may need to know....">
+    <meta name="og:description" content="jq is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I’d like to share 3 jq tips you may need to know....">
+    <meta name="twitter:description" content="jq is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I’d like to share 3 jq tips you may need to know....">
+    <meta itemprop="description" content="jq is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I’d like to share 3 jq tips you may need to know....">
+	
+	
+		
+	<meta property="og:image" content="https://kevcui.github.io//images/profile.jpg"/>
+	<meta property="twitter:image" content="https://kevcui.github.io//images/profile.jpg"/>
+	<meta itemprop="image" content="https://kevcui.github.io//images/profile.jpg">
+		
+	
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/inter-ui.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/animate.min.css" />
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://kevcui.github.io/" title="Kevin Cui homepage"> <img src="/images/profile.jpg" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a class="blog-title" href="https://kevcui.github.io/"  title="Kevin Cui homepage">Kevin Cui</a>
+                </h1>
+                <br/>
+                
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    
+    
+    <li>
+        <a href="https://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank" rel="noopener"><span class="soc soc-twitter"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="soc soc-stackoverflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="soc soc-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io/index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="soc soc-rss"></span></a>
+    </li>
+</ul>
+
+                    </nav>
+                </div>
+
+                
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
+                
+                
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://kevcui.github.io/" title="Kevin Cui homepage"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a class="blog-title" href="https://kevcui.github.io/"  title="Kevin Cui homepage">Kevin Cui</a>
+                    </h1>
+                    
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    
+    
+    <li>
+        <a href="https://twitter.com/@KevCui" title="@KevCui on Twitter" target="_blank" rel="noopener"><span class="soc soc-twitter"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="soc soc-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="soc soc-stackoverflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="soc soc-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="soc soc-mail"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io/index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="soc soc-rss"></span></a>
+    </li>
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        <p><a class="main-button" href="/#blog">blog</a></p>
+                    
+                    
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Nov 3, 2020</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/jq">jq,</a>
+					
+                
+					
+						<a href="/tags/cli">CLI</a>
+					
+                
+              </span>
+              • 500 words 2 min. read
+          </div>
+          <h1>Three jq Tips You May Need to Know</h1>
+          <section id="post-content" class="article-content post">
+              <p><a href="https://stedolan.github.io/jq/manual/">jq</a> is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I&rsquo;d like to share 3 jq tips you may need to know.</p>
+<h3 id="json-prettier">JSON Prettier</h3>
+<p>When we <code>curl</code> API to fetch JSON response with raw data. It certainly looks messy:</p>
+<!-- prettier-ignore-start -->
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ curl https://api.spacexdata.com/v4/launches/latest
+<span class="o">{</span><span class="s2">&#34;fairings&#34;</span>:<span class="o">{</span><span class="s2">&#34;reused&#34;</span>:false,<span class="s2">&#34;recovery_attempt&#34;</span>:true,<span class="s2">&#34;recovered&#34;</span>:null,<span class="s2">&#34;ships&#34;</span>:<span class="o">[</span><span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,<span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span><span class="o">]}</span>,...<span class="s2">&#34;id&#34;</span>:<span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span><span class="o">}</span></code></pre></div>
+<!-- prettier-ignore-end -->
+<p>Now let&rsquo;s toss raw data into <code>jq</code> and make it look prettier:</p>
+<!-- prettier-ignore-start -->
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ curl https://api.spacexdata.com/v4/launches/latest <span class="p">|</span> jq
+<span class="o">{</span>
+  <span class="s2">&#34;fairings&#34;</span>: <span class="o">{</span>
+    <span class="s2">&#34;reused&#34;</span>: false,
+    <span class="s2">&#34;recovery_attempt&#34;</span>: true,
+    <span class="s2">&#34;recovered&#34;</span>: null,
+    <span class="s2">&#34;ships&#34;</span>: <span class="o">[</span>
+      <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,
+      <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span>
+    <span class="o">]</span>
+  <span class="o">}</span>,
+  ...
+  <span class="s2">&#34;id&#34;</span>: <span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span>
+<span class="o">}</span></code></pre></div>
+<!-- prettier-ignore-end -->
+<p>In the opposite way, when we got some pretty-printed JSON data and want to concatenate them to a one-line string, using <code>jq -c</code>:</p>
+<!-- prettier-ignore-start -->
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ curl https://api.spacexdata.com/v4/launches/latest <span class="p">|</span> jq &gt; example.json
+$ cat example.json
+<span class="o">{</span>
+  <span class="s2">&#34;fairings&#34;</span>: <span class="o">{</span>
+    <span class="s2">&#34;reused&#34;</span>: false,
+    <span class="s2">&#34;recovery_attempt&#34;</span>: true,
+    <span class="s2">&#34;recovered&#34;</span>: null,
+    <span class="s2">&#34;ships&#34;</span>: <span class="o">[</span>
+      <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,
+      <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span>
+    <span class="o">]</span>
+  <span class="o">}</span>,
+  ...
+  <span class="s2">&#34;id&#34;</span>: <span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span>
+<span class="o">}</span>
+$ cat example.json <span class="p">|</span> jq -c
+<span class="o">{</span><span class="s2">&#34;fairings&#34;</span>:<span class="o">{</span><span class="s2">&#34;reused&#34;</span>:false,<span class="s2">&#34;recovery_attempt&#34;</span>:true,<span class="s2">&#34;recovered&#34;</span>:null,<span class="s2">&#34;ships&#34;</span>:<span class="o">[</span><span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,<span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span><span class="o">]}</span>,...<span class="s2">&#34;id&#34;</span>:<span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span><span class="o">}</span></code></pre></div>
+<!-- prettier-ignore-end -->
+<h3 id="json-validator">JSON Validator</h3>
+<p>jq can be served as a simple JSON validator, for instance:</p>
+<!-- prettier-ignore-start -->
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">echo</span> <span class="s1">&#39;{&#34;fairings&#34;:{&#34;reused&#34;:false,, &#34;recovery_attempt&#34;:true}}&#39;</span> <span class="p">|</span> jq
+parse error: Expected value before <span class="s1">&#39;,&#39;</span> at line 1, column <span class="m">29</span></code></pre></div>
+<!-- prettier-ignore-end -->
+<p>Because its output doesn&rsquo;t give much information to pinpoint directly the error in an obvious way, it&rsquo;s better to use a proper validator. But for some quick checks to validate JSON data, jq can be considered as a suitable choice.</p>
+<h3 id="json-pathfinder">JSON Pathfinder</h3>
+<p>Analyzing JSON files and finding the correct path syntax to a certain value sometimes can be troublesome. Many times, I was punched hard by the frustration of trial and error. Until one day, this magic jq command line brings me the light: <code>jq -r 'paths(scalars) as $p | &quot;.&quot; + ([([$p[] | tostring] | join(&quot;.&quot;)), (getpath($p) | tojson)] | join(&quot;: &quot;))'</code>.</p>
+<p>Let&rsquo;s use the same <code>curl</code> data from the previous example, in this case, I want to get the path syntax of <code>ships</code> ids:</p>
+<!-- prettier-ignore-start -->
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ curl https://api.spacexdata.com/v4/launches/latest <span class="se">\
+</span><span class="se"></span><span class="p">|</span> jq -r <span class="s1">&#39;paths(scalars) as $p | &#34;.&#34; + ([([$p[] | tostring] | join(&#34;.&#34;)), (getpath($p) | tojson)] | join(&#34;: &#34;))&#39;</span> <span class="se">\
+</span><span class="se"></span><span class="p">|</span> grep <span class="s1">&#39;.ships&#39;</span>
+.fairings.ships.0: <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>
+.fairings.ships.1: <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span>
+.ships.0: <span class="s2">&#34;5ea6ed2f080df4000697c910&#34;</span>
+.ships.1: <span class="s2">&#34;5ea6ed2f080df4000697c90b&#34;</span>
+.ships.2: <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>
+.ships.3: <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span></code></pre></div>
+<!-- prettier-ignore-end -->
+<p>From the output, now I know the right path syntax is <code>.ships[]</code>.</p>
+<p>As you can see from this example, this magic jq command line will print each path and value pair from the input JSON. Combing with <code>grep</code> command, it&rsquo;s sufficient to be used as a handy JSON pathfinder.</p>
+<hr>
+<p>If you do know other hot jq tips, don&rsquo;t hesitate to share them with me.</p>
+
+          </section>
+          <br/>
+        </div>
+        
+        
+
+      </div>
+    </div>
+  </body>
+  <script src="https://kevcui.github.io/js/umbrella.min.js"></script>
+
+<script src="https://kevcui.github.io/js/main.min.js">></script>
+<script>
+    
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register("/sw.js")
+        .then(function(registration) {
+            console.log("Service Worker Registered", registration);
+        })
+        .catch(function(err) {
+            console.log("Service Worker Failed to Register", err);
+        })
+    }
+    
+</script>
+
+
+
+
+  <span class="toTopBtn" onclick="scrollToTop(750)">&#9650;</span>
+<script type="text/javascript">
+function scrollToTop(scrollDuration) {
+    const   scrollHeight = window.scrollY,
+            scrollStep = Math.PI / ( scrollDuration / 15 ),
+            cosParameter = scrollHeight / 2;
+    var     scrollCount = 0,
+            scrollMargin,
+    scrollInterval = setInterval( function() {
+        if ( window.scrollY != 0 ) {
+            scrollCount = scrollCount + 1;
+            scrollMargin = cosParameter - cosParameter * Math.cos( scrollCount * scrollStep );
+            window.scrollTo( 0, ( scrollHeight - scrollMargin ) );
+        }
+        else clearInterval(scrollInterval);
+    }, 15 );
+}
+</script>
+
+</html>
