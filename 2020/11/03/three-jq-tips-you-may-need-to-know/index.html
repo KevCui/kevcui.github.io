@@ -45,11 +45,9 @@
     <meta itemprop="description" content="jq is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I’d like to share 3 jq tips you may need to know....">
 	
 	
-		
-	<meta property="og:image" content="https://kevcui.github.io//images/profile.jpg"/>
-	<meta property="twitter:image" content="https://kevcui.github.io//images/profile.jpg"/>
-	<meta itemprop="image" content="https://kevcui.github.io//images/profile.jpg">
-		
+	<meta property="og:image" content="https://miro.medium.com/max/1000/1*Zb1Sf4nO9QqCcREfy4vfdA.png"/>
+	<meta property="twitter:image" content="https://miro.medium.com/max/1000/1*Zb1Sf4nO9QqCcREfy4vfdA.png"/>
+	<meta itemprop="image" content="https://miro.medium.com/max/1000/1*Zb1Sf4nO9QqCcREfy4vfdA.png">
 	
     
     
@@ -263,7 +261,12 @@
           </div>
           <h1>Three jq Tips You May Need to Know</h1>
           <section id="post-content" class="article-content post">
-              <p><a href="https://stedolan.github.io/jq/manual/">jq</a> is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I&rsquo;d like to share 3 jq tips you may need to know.</p>
+              <p class="coverimage">
+    <img src="https://miro.medium.com/max/1000/1*Zb1Sf4nO9QqCcREfy4vfdA.png" alt="coverimage"/>
+    
+</p>
+
+<p><a href="https://stedolan.github.io/jq/manual/">jq</a> is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I&rsquo;d like to share 3 jq tips you may need to know.</p>
 <h3 id="json-prettier">JSON Prettier</h3>
 <p>When we <code>curl</code> API to fetch JSON response with raw data. It certainly looks messy:</p>
 <!-- prettier-ignore-start -->
@@ -290,6 +293,7 @@
 <p>In the opposite way, when we got some pretty-printed JSON data and want to concatenate them to a one-line string, using <code>jq -c</code>:</p>
 <!-- prettier-ignore-start -->
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ curl https://api.spacexdata.com/v4/launches/latest <span class="p">|</span> jq &gt; example.json
+
 $ cat example.json
 <span class="o">{</span>
   <span class="s2">&#34;fairings&#34;</span>: <span class="o">{</span>
@@ -304,6 +308,7 @@ $ cat example.json
   ...
   <span class="s2">&#34;id&#34;</span>: <span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span>
 <span class="o">}</span>
+
 $ cat example.json <span class="p">|</span> jq -c
 <span class="o">{</span><span class="s2">&#34;fairings&#34;</span>:<span class="o">{</span><span class="s2">&#34;reused&#34;</span>:false,<span class="s2">&#34;recovery_attempt&#34;</span>:true,<span class="s2">&#34;recovered&#34;</span>:null,<span class="s2">&#34;ships&#34;</span>:<span class="o">[</span><span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,<span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span><span class="o">]}</span>,...<span class="s2">&#34;id&#34;</span>:<span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span><span class="o">}</span></code></pre></div>
 <!-- prettier-ignore-end -->
@@ -331,7 +336,7 @@ parse error: Expected value before <span class="s1">&#39;,&#39;</span> at line 1
 <p>From the output, now I know the right path syntax is <code>.ships[]</code>.</p>
 <p>As you can see from this example, this magic jq command line will print each path and value pair from the input JSON. Combing with <code>grep</code> command, it&rsquo;s sufficient to be used as a handy JSON pathfinder.</p>
 <hr>
-<p>If you do know other hot jq tips, don&rsquo;t hesitate to share them with me.</p>
+<p>If you do know other hot jq tips, do not hesitate to share them with me.</p>
 
           </section>
           <br/>
