@@ -318,7 +318,7 @@ $ cat example.json <span class="p">|</span> jq -c
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">echo</span> <span class="s1">&#39;{&#34;fairings&#34;:{&#34;reused&#34;:false,, &#34;recovery_attempt&#34;:true}}&#39;</span> <span class="p">|</span> jq
 parse error: Expected value before <span class="s1">&#39;,&#39;</span> at line 1, column <span class="m">29</span></code></pre></div>
 <!-- prettier-ignore-end -->
-<p>Because its output doesn&rsquo;t give much information to pinpoint directly the error in an obvious way, it&rsquo;s better to use a proper validator. But for some quick checks to validate JSON data, jq can be considered as a suitable choice.</p>
+<p>Because its output doesn&rsquo;t give much information to pinpoint directly the error in an obvious way, it&rsquo;s better to use a proper validator for some complex cases. But for some quick checks to validate JSON data, jq can be considered as a suitable choice.</p>
 <h3 id="json-pathfinder">JSON Pathfinder</h3>
 <p>Analyzing JSON files and finding the correct path syntax to a certain value sometimes can be troublesome. Many times, I was punched hard by the frustration of trial and error. Until one day, this magic jq command line brings me the light: <code>jq -r 'paths(scalars) as $p | &quot;.&quot; + ([([$p[] | tostring] | join(&quot;.&quot;)), (getpath($p) | tojson)] | join(&quot;: &quot;))'</code>.</p>
 <p>Let&rsquo;s use the same <code>curl</code> data from the previous example, in this case, I want to get the path syntax of <code>ships</code> ids:</p>
