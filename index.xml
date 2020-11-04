@@ -17,7 +17,12 @@
       <pubDate>Tue, 03 Nov 2020 14:50:55 +0100</pubDate>
       
       <guid>https://kevcui.github.io/2020/11/03/three-jq-tips-you-may-need-to-know/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://stedolan.github.io/jq/manual/&#34;&gt;jq&lt;/a&gt; is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I&amp;rsquo;d like to share 3 jq tips you may need to know.&lt;/p&gt;
+      <description>&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://miro.medium.com/max/1000/1*Zb1Sf4nO9QqCcREfy4vfdA.png&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://stedolan.github.io/jq/manual/&#34;&gt;jq&lt;/a&gt; is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I&amp;rsquo;d like to share 3 jq tips you may need to know.&lt;/p&gt;
 &lt;h3 id=&#34;json-prettier&#34;&gt;JSON Prettier&lt;/h3&gt;
 &lt;p&gt;When we &lt;code&gt;curl&lt;/code&gt; API to fetch JSON response with raw data. It certainly looks messy:&lt;/p&gt;
 &lt;!-- prettier-ignore-start --&gt;
@@ -44,6 +49,7 @@
 &lt;p&gt;In the opposite way, when we got some pretty-printed JSON data and want to concatenate them to a one-line string, using &lt;code&gt;jq -c&lt;/code&gt;:&lt;/p&gt;
 &lt;!-- prettier-ignore-start --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ curl https://api.spacexdata.com/v4/launches/latest &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; jq &amp;gt; example.json
+
 $ cat example.json
 &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
   &lt;span class=&#34;s2&#34;&gt;&amp;#34;fairings&amp;#34;&lt;/span&gt;: &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
@@ -58,6 +64,7 @@ $ cat example.json
   ...
   &lt;span class=&#34;s2&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;: &lt;span class=&#34;s2&#34;&gt;&amp;#34;5ef6a2e70059c33cee4a8293&amp;#34;&lt;/span&gt;
 &lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;
+
 $ cat example.json &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; jq -c
 &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;fairings&amp;#34;&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;reused&amp;#34;&lt;/span&gt;:false,&lt;span class=&#34;s2&#34;&gt;&amp;#34;recovery_attempt&amp;#34;&lt;/span&gt;:true,&lt;span class=&#34;s2&#34;&gt;&amp;#34;recovered&amp;#34;&lt;/span&gt;:null,&lt;span class=&#34;s2&#34;&gt;&amp;#34;ships&amp;#34;&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;5ea6ed2e080df4000697c907&amp;#34;&lt;/span&gt;,&lt;span class=&#34;s2&#34;&gt;&amp;#34;5ea6ed2e080df4000697c908&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]}&lt;/span&gt;,...&lt;span class=&#34;s2&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;:&lt;span class=&#34;s2&#34;&gt;&amp;#34;5ef6a2e70059c33cee4a8293&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;!-- prettier-ignore-end --&gt;
@@ -85,7 +92,7 @@ parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp
 &lt;p&gt;From the output, now I know the right path syntax is &lt;code&gt;.ships[]&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;As you can see from this example, this magic jq command line will print each path and value pair from the input JSON. Combing with &lt;code&gt;grep&lt;/code&gt; command, it&amp;rsquo;s sufficient to be used as a handy JSON pathfinder.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;If you do know other hot jq tips, don&amp;rsquo;t hesitate to share them with me.&lt;/p&gt;
+&lt;p&gt;If you do know other hot jq tips, do not hesitate to share them with me.&lt;/p&gt;
 </description>
     </item>
     
