@@ -89,15 +89,6 @@
     </item>
     
     <item>
-      <title>tester</title>
-      <link>https://kevcui.github.io/tags/tester/</link>
-      <pubDate>Fri, 12 Jul 2019 22:05:04 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/tester/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>colemak</title>
       <link>https://kevcui.github.io/tags/colemak/</link>
       <pubDate>Thu, 18 Apr 2019 10:55:55 +0200</pubDate>
@@ -121,33 +112,6 @@
       <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
       
       <guid>https://kevcui.github.io/tags/notetaking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>observation</title>
-      <link>https://kevcui.github.io/tags/observation/</link>
-      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/observation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>photography</title>
-      <link>https://kevcui.github.io/tags/photography/</link>
-      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/photography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>testing</title>
-      <link>https://kevcui.github.io/tags/testing/</link>
-      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/testing/</guid>
       <description></description>
     </item>
     
@@ -269,15 +233,6 @@
     </item>
     
     <item>
-      <title>story</title>
-      <link>https://kevcui.github.io/tags/story/</link>
-      <pubDate>Sun, 29 Oct 2017 15:11:23 +0100</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/story/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>experience</title>
       <link>https://kevcui.github.io/tags/experience/</link>
       <pubDate>Tue, 03 Oct 2017 17:50:00 +0200</pubDate>
@@ -292,6 +247,15 @@
       <pubDate>Tue, 03 Oct 2017 17:50:00 +0200</pubDate>
       
       <guid>https://kevcui.github.io/tags/question/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tester</title>
+      <link>https://kevcui.github.io/tags/tester/</link>
+      <pubDate>Tue, 03 Oct 2017 17:50:00 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/tester/</guid>
       <description></description>
     </item>
     
@@ -323,29 +287,20 @@
     </item>
     
     <item>
-      <title>book review</title>
-      <link>https://kevcui.github.io/tags/book-review/</link>
-      <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/book-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>https://kevcui.github.io/tags/devops/</link>
-      <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>charles</title>
       <link>https://kevcui.github.io/tags/charles/</link>
       <pubDate>Tue, 27 Jun 2017 21:43:23 +0200</pubDate>
       
       <guid>https://kevcui.github.io/tags/charles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>testing</title>
+      <link>https://kevcui.github.io/tags/testing/</link>
+      <pubDate>Tue, 27 Jun 2017 21:43:23 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/tags/testing/</guid>
       <description></description>
     </item>
     

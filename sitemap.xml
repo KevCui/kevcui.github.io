@@ -83,16 +83,6 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/2019/07/12/please-dont-call-me-qa/</loc>
-    <lastmod>2019-07-12T22:05:04+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/tags/tester/</loc>
-    <lastmod>2019-07-12T22:05:04+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kevcui.github.io/tags/colemak/</loc>
     <lastmod>2019-04-18T10:55:55+02:00</lastmod>
   </url>
@@ -115,26 +105,6 @@
   <url>
     <loc>https://kevcui.github.io/tags/notetaking/</loc>
     <lastmod>2019-04-06T10:29:29+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/tags/observation/</loc>
-    <lastmod>2018-10-18T23:20:30+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/2018/10/18/observe-as-a-photographer-as-a-tester/</loc>
-    <lastmod>2018-10-18T23:20:30+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/tags/photography/</loc>
-    <lastmod>2018-10-18T23:20:30+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/tags/testing/</loc>
-    <lastmod>2018-10-18T23:20:30+02:00</lastmod>
   </url>
   
   <url>
@@ -223,16 +193,6 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/2017/10/29/ghost-in-the-shell/</loc>
-    <lastmod>2017-10-29T15:11:23+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/tags/story/</loc>
-    <lastmod>2017-10-29T15:11:23+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kevcui.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</loc>
     <lastmod>2017-10-03T17:50:00+02:00</lastmod>
   </url>
@@ -244,6 +204,11 @@
   
   <url>
     <loc>https://kevcui.github.io/tags/question/</loc>
+    <lastmod>2017-10-03T17:50:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/tags/tester/</loc>
     <lastmod>2017-10-03T17:50:00+02:00</lastmod>
   </url>
   
@@ -278,27 +243,17 @@
   </url>
   
   <url>
-    <loc>https://kevcui.github.io/tags/book-review/</loc>
-    <lastmod>2017-07-04T19:35:28+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/2017/07/04/book-review-the-devops-handbook/</loc>
-    <lastmod>2017-07-04T19:35:28+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kevcui.github.io/tags/devops/</loc>
-    <lastmod>2017-07-04T19:35:28+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</loc>
     <lastmod>2017-06-27T21:43:23+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://kevcui.github.io/tags/charles/</loc>
+    <lastmod>2017-06-27T21:43:23+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kevcui.github.io/tags/testing/</loc>
     <lastmod>2017-06-27T21:43:23+02:00</lastmod>
   </url>
   
