@@ -6,40 +6,7 @@
     <description>Recent content in tester on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jul 2019 22:05:04 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/tester/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Please Don&#39;t Call Me QA</title>
-      <link>https://kevcui.github.io/2019/07/12/please-dont-call-me-qa/</link>
-      <pubDate>Fri, 12 Jul 2019 22:05:04 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2019/07/12/please-dont-call-me-qa/</guid>
-      <description>Photo by Gabriel   Before we dive deep into something serious, relax, let&amp;rsquo;s start with a joke:
-How many QA does it take to change a light bulb? None, we just report the darkness.
-&amp;mdash; RoboCoonie Wölver (@RoboCoonie) December 24, 2008  Funny? True? Now, let me tell you a truth from the darkness: I don&amp;rsquo;t like people calling me QA, especially those who know me.</description>
-    </item>
-    
-    <item>
-      <title>Observe as A Photographer, as A Tester</title>
-      <link>https://kevcui.github.io/2018/10/18/observe-as-a-photographer-as-a-tester/</link>
-      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2018/10/18/observe-as-a-photographer-as-a-tester/</guid>
-      <description>&amp;ldquo;Photography is an art of observation. It&amp;rsquo;s about finding something interesting in an ordinary place&amp;hellip; I&amp;rsquo;ve found it has little to do with the things you see and everything to do with the way you see them.&amp;rdquo; &amp;ndash; Elliott Erwitt
- Since the beginning of this year, I took photography as a &amp;ldquo;serious&amp;rdquo; hobby. The interesting thing I found is that the more I have learned about photography, the more I can feel the similarities between photography and software testing.</description>
-    </item>
-    
-    <item>
-      <title>Ghost in the Shell - A Testing Horror Story</title>
-      <link>https://kevcui.github.io/2017/10/29/ghost-in-the-shell/</link>
-      <pubDate>Sun, 29 Oct 2017 15:11:23 +0100</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/10/29/ghost-in-the-shell/</guid>
-      <description>Photo by Scott Walsh   Disclaimer: This story may never happen in my life. However, it may happen in yours.
-Rick &amp;ldquo;So, you are Rick? Nice to meet you.&amp;rdquo;
-I&amp;rsquo;m shaking hands with a middle-aged woman in her office. She is talking to me. She is Madame Q, the QA manager of Y Bank.
-My name is Rick, 30 years old single male. I&amp;rsquo;m a test automation specialist.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 03 Oct 2017 17:50:00 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/tester/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Asking Better Questions for 4 Different Purposes</title>
       <link>https://kevcui.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</link>

@@ -51,17 +51,6 @@ Unfortunately, I&amp;rsquo;m a part of the problem by generating noisy contents:
     </item>
     
     <item>
-      <title>Please Don&#39;t Call Me QA</title>
-      <link>https://kevcui.github.io/2019/07/12/please-dont-call-me-qa/</link>
-      <pubDate>Fri, 12 Jul 2019 22:05:04 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2019/07/12/please-dont-call-me-qa/</guid>
-      <description>Photo by Gabriel   Before we dive deep into something serious, relax, let&amp;rsquo;s start with a joke:
-How many QA does it take to change a light bulb? None, we just report the darkness.
-&amp;mdash; RoboCoonie Wölver (@RoboCoonie) December 24, 2008  Funny? True? Now, let me tell you a truth from the darkness: I don&amp;rsquo;t like people calling me QA, especially those who know me.</description>
-    </item>
-    
-    <item>
       <title>Twenty Months With Colemak</title>
       <link>https://kevcui.github.io/2019/04/18/twenty-months-with-colemak/</link>
       <pubDate>Thu, 18 Apr 2019 10:55:55 +0200</pubDate>
@@ -79,16 +68,6 @@ How many QA does it take to change a light bulb? None, we just report the darkne
       <description>The proverb says, &amp;ldquo;The palest ink is better than the best memory&amp;rdquo;. Note-taking is certainly an essential part of knowledge learning, information collecting and retaining. In the fast-changing digital era, pen, ink and paper may not be able to fulfill the important job of note-taking anymore. So, what&amp;rsquo;s a killer note-taking system nowadays?
 My requirements? My dream system must be Easy, Efficient and Flexible:
  Know where &amp;amp; how to write notes easily without hesitations Find right notes &amp;amp; roll back to old changes efficiently without hassles Convert notes to other formats and share them flexibly without troubles  Build it!</description>
-    </item>
-    
-    <item>
-      <title>Observe as A Photographer, as A Tester</title>
-      <link>https://kevcui.github.io/2018/10/18/observe-as-a-photographer-as-a-tester/</link>
-      <pubDate>Thu, 18 Oct 2018 23:20:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2018/10/18/observe-as-a-photographer-as-a-tester/</guid>
-      <description>&amp;ldquo;Photography is an art of observation. It&amp;rsquo;s about finding something interesting in an ordinary place&amp;hellip; I&amp;rsquo;ve found it has little to do with the things you see and everything to do with the way you see them.&amp;rdquo; &amp;ndash; Elliott Erwitt
- Since the beginning of this year, I took photography as a &amp;ldquo;serious&amp;rdquo; hobby. The interesting thing I found is that the more I have learned about photography, the more I can feel the similarities between photography and software testing.</description>
     </item>
     
     <item>
@@ -134,18 +113,6 @@ New Name Half year ago, you may (or may not) notice that I said Goodbye to Firef
     </item>
     
     <item>
-      <title>Ghost in the Shell - A Testing Horror Story</title>
-      <link>https://kevcui.github.io/2017/10/29/ghost-in-the-shell/</link>
-      <pubDate>Sun, 29 Oct 2017 15:11:23 +0100</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/10/29/ghost-in-the-shell/</guid>
-      <description>Photo by Scott Walsh   Disclaimer: This story may never happen in my life. However, it may happen in yours.
-Rick &amp;ldquo;So, you are Rick? Nice to meet you.&amp;rdquo;
-I&amp;rsquo;m shaking hands with a middle-aged woman in her office. She is talking to me. She is Madame Q, the QA manager of Y Bank.
-My name is Rick, 30 years old single male. I&amp;rsquo;m a test automation specialist.</description>
-    </item>
-    
-    <item>
       <title>Asking Better Questions for 4 Different Purposes</title>
       <link>https://kevcui.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</link>
       <pubDate>Tue, 03 Oct 2017 17:50:00 +0200</pubDate>
@@ -183,16 +150,6 @@ Reason 1: Discard QWERTY As we all known, QWERTY was originally designed for the
       <guid>https://kevcui.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</guid>
       <description>Photo by Sai Kiran Anagani Vijayawada   Animation is fun. It makes everything look vivid. A good animation is that you won&amp;rsquo;t notice its existence but it pleases your eyes and makes you feel good!
 To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results.</description>
-    </item>
-    
-    <item>
-      <title>Book Review: The DevOps Handbook</title>
-      <link>https://kevcui.github.io/2017/07/04/book-review-the-devops-handbook/</link>
-      <pubDate>Tue, 04 Jul 2017 19:35:28 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/07/04/book-review-the-devops-handbook/</guid>
-      <description>😀 Something interesting Deployment Lead Time DevOps focuses on optimizing &amp;ldquo;deployment lead time&amp;rdquo;. The definition of &amp;ldquo;deployment lead time&amp;rdquo; is not explained clearly in this book. As my understanding, a lead time is a latency between the initiation and execution of a process, then &amp;ldquo;deployment lead time&amp;rdquo; should be the time between deployment initiation is required and the product in production.
-The Three Ways As described in the book, The Phoenix Project presents the Three Ways as the principles underpinning DevOps:</description>
     </item>
     
     <item>
