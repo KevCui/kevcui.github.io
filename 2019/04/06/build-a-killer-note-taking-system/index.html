@@ -300,7 +300,7 @@
 <p>Google Drive? OneDrive? Dropbox? Nah, they are not really Git-compatible by default. However, I got inspired by <a href="https://github.com/hbons/SparkleShare">SparkleShare</a>, an open-source file sync app powered by Git, it adds file changes and pushes them to Github or GitLab automatically.</p>
 <p>I may achieve the same functionality by using a simple script. The idea is to run <a href="https://github.com/emcrisostomo/fswatch">fswatch</a> in the background and keep monitoring file changes. When file changes are happening, fswatch will trigger Git commands to add and push changes automatically.</p>
 <p>Here is a snippet of Bash script:</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/usr/bin/env bash
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/usr/bin/env bash
 </span><span class="cp"></span>...
 <span class="k">function</span> notesync<span class="o">()</span> <span class="o">{</span>
   fswatch -r -0 -d <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> -e <span class="s1">&#39;\.git&#39;</span> -m <span class="s2">&#34;inotify_monitor&#34;</span> --event<span class="o">=</span>Created --event<span class="o">=</span>Updated --event<span class="o">=</span>Removed <span class="p">|</span> xargs -0 -n <span class="m">1</span> zsh -c <span class="s2">&#34;source ~/.zshrc; cd </span><span class="nv">$1</span><span class="s2">; git add -A; git commit -m &#39;Update file&#39;; git push&#34;</span> <span class="p">&amp;</span>
@@ -309,7 +309,7 @@ notesync <span class="s2">&#34;&lt;folder_path&gt;&#34;</span>
 notesync <span class="s2">&#34;&lt;another_folder_path&gt;&#34;</span>
 ...</code></pre></div>
 <p><strong>fswatch part</strong> is to monitor file changes, filter out correct file change events and send the signal:</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">fswatch -r -0 -d <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> -e <span class="s1">&#39;\.git&#39;</span> -m <span class="s2">&#34;inotify_monitor&#34;</span> --event<span class="o">=</span>Created --event<span class="o">=</span>Updated --event<span class="o">=</span>Removed <span class="p">|</span> ... <span class="p">&amp;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">fswatch -r -0 -d <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> -e <span class="s1">&#39;\.git&#39;</span> -m <span class="s2">&#34;inotify_monitor&#34;</span> --event<span class="o">=</span>Created --event<span class="o">=</span>Updated --event<span class="o">=</span>Removed <span class="p">|</span> ... <span class="p">&amp;</span></code></pre></div>
 <ul>
 <li>-r: watch subdirectories recursively</li>
 <li>-0: pass NUL as delimiter (no idea why it&rsquo;s need&hellip;..)</li>
@@ -320,13 +320,13 @@ notesync <span class="s2">&#34;&lt;another_folder_path&gt;&#34;</span>
 <li>&amp;: last but not least, don&rsquo;t forget it at the end, because it provides the ability to run fswatch command in background and detach the process</li>
 </ul>
 <p><strong>xargs part</strong> is to get signal from fswatch and execute specific commands:</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">... <span class="p">|</span> xargs -0 -n <span class="m">1</span> ...</code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">... <span class="p">|</span> xargs -0 -n <span class="m">1</span> ...</code></pre></div>
 <ul>
 <li>-0: input items are terminated by null, not whitespace (no idea why it&rsquo;s needed&hellip;)</li>
 <li>-n: maximum argument, <code>1</code> it is</li>
 </ul>
 <p><strong>zsh command part</strong> is to run Git commands:</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">... zsh -c <span class="s2">&#34;source ~/.zshrc; cd </span><span class="nv">$1</span><span class="s2">; git add -A; git commit -m &#39;Update file&#39;; git push&#34;</span> ...</code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">... zsh -c <span class="s2">&#34;source ~/.zshrc; cd </span><span class="nv">$1</span><span class="s2">; git add -A; git commit -m &#39;Update file&#39;; git push&#34;</span> ...</code></pre></div>
 <ul>
 <li>zsh -c: execute following commands in <code>zsh</code></li>
 <li>source ~/.zshrc: all my SSH keys are declared in <code>.zshrc</code> file, this command will load configurations from <code>.zshrc</code> file. Otherwise, push to remove Git repository may get permission denied</li>
@@ -334,7 +334,7 @@ notesync <span class="s2">&#34;&lt;another_folder_path&gt;&#34;</span>
 </ul>
 <h4 id="sumup">Sumup</h4>
 <p>This is my killer note-taking system. It&rsquo;s easy, efficient and flexible:</p>
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">Note format: Markdown
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">Note format: Markdown
 Note taking <span class="err">&amp;</span> organization app: Vim + Notational Velocity for Vim
 Note version-control system: Git
 Note auto backup system: fswatch + GitHub</code></pre></div>
@@ -354,7 +354,7 @@ Note auto backup system: fswatch + GitHub</code></pre></div>
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 
-    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/nord.min.css">
     <script src="https://kevcui.github.io/js/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 

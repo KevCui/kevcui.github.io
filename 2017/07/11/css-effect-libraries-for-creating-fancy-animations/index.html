@@ -291,10 +291,10 @@
 <h3 id="animatecss">animate.css</h3>
 <p><a href="https://daneden.github.io/animate.css/">animate.css</a> is a super-star CSS library for creating page transitions. Almost all basic (PowerPoint style?) page transitions can be found in this library. The usage is simple. First of all, it needs to include animate.css in your project, file or hosted link as you prefer. Then you only need to add class name animated and effect name in HTML tag.</p>
 <p>But I didn&rsquo;t use this fixed way. I want to add animation dynamically with jQuery. For example, I did for of articles fade-in appearing on post summary page:</p>
-<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;article&#39;</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">&#39;animated fadeIn&#39;</span><span class="p">)</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;article&#39;</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">&#39;animated fadeIn&#39;</span><span class="p">)</span>
 </code></pre></div><p><img src="/images/fadein.gif" alt="article"></p>
 <p>You may notice that there is a delay of fade-in effect. It&rsquo;s a CSS trick. Actually, I set a 0.2s interval between the presences of 2 articles:</p>
-<div class="highlight"><pre class="chroma"><code class="language-css" data-lang="css"><span class="nt">article</span><span class="p">:</span><span class="nd">nth-child</span><span class="o">(</span><span class="nt">2</span><span class="o">)</span> <span class="p">{</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="nt">article</span><span class="p">:</span><span class="nd">nth-child</span><span class="o">(</span><span class="nt">2</span><span class="o">)</span> <span class="p">{</span>
   <span class="k">animation-delay</span><span class="p">:</span> <span class="mf">0.2</span><span class="kt">s</span><span class="p">;</span>
 <span class="p">}</span>
 <span class="nt">article</span><span class="p">:</span><span class="nd">nth-child</span><span class="o">(</span><span class="nt">3</span><span class="o">)</span> <span class="p">{</span>
@@ -320,7 +320,7 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 
-    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/nord.min.css">
     <script src="https://kevcui.github.io/js/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 

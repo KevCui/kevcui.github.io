@@ -26,12 +26,12 @@
 &lt;h3 id=&#34;json-prettier&#34;&gt;JSON Prettier&lt;/h3&gt;
 &lt;p&gt;When we &lt;code&gt;curl&lt;/code&gt; API to fetch JSON response with raw data. It certainly looks messy:&lt;/p&gt;
 &lt;!-- prettier-ignore-start --&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ curl https://api.spacexdata.com/v4/launches/latest
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ curl https://api.spacexdata.com/v4/launches/latest
 &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;fairings&amp;#34;&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;reused&amp;#34;&lt;/span&gt;:false,&lt;span class=&#34;s2&#34;&gt;&amp;#34;recovery_attempt&amp;#34;&lt;/span&gt;:true,&lt;span class=&#34;s2&#34;&gt;&amp;#34;recovered&amp;#34;&lt;/span&gt;:null,&lt;span class=&#34;s2&#34;&gt;&amp;#34;ships&amp;#34;&lt;/span&gt;:&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;5ea6ed2e080df4000697c907&amp;#34;&lt;/span&gt;,&lt;span class=&#34;s2&#34;&gt;&amp;#34;5ea6ed2e080df4000697c908&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]}&lt;/span&gt;,...&lt;span class=&#34;s2&#34;&gt;&amp;#34;id&amp;#34;&lt;/span&gt;:&lt;span class=&#34;s2&#34;&gt;&amp;#34;5ef6a2e70059c33cee4a8293&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;!-- prettier-ignore-end --&gt;
 &lt;p&gt;Now let&amp;rsquo;s toss raw data into &lt;code&gt;jq&lt;/code&gt; and make it look prettier:&lt;/p&gt;
 &lt;!-- prettier-ignore-start --&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ curl https://api.spacexdata.com/v4/launches/latest &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; jq
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ curl https://api.spacexdata.com/v4/launches/latest &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; jq
 &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
   &lt;span class=&#34;s2&#34;&gt;&amp;#34;fairings&amp;#34;&lt;/span&gt;: &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;s2&#34;&gt;&amp;#34;reused&amp;#34;&lt;/span&gt;: false,
@@ -48,7 +48,7 @@
 &lt;!-- prettier-ignore-end --&gt;
 &lt;p&gt;In the opposite way, when we got some pretty-printed JSON data and want to concatenate them to a one-line string, using &lt;code&gt;jq -c&lt;/code&gt;:&lt;/p&gt;
 &lt;!-- prettier-ignore-start --&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ curl https://api.spacexdata.com/v4/launches/latest &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; jq &amp;gt; example.json
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ curl https://api.spacexdata.com/v4/launches/latest &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; jq &amp;gt; example.json
 
 $ cat example.json
 &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
@@ -71,7 +71,7 @@ $ cat example.json &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; jq -c
 &lt;h3 id=&#34;json-validator&#34;&gt;JSON Validator&lt;/h3&gt;
 &lt;p&gt;jq can be served as a simple JSON validator, for instance:&lt;/p&gt;
 &lt;!-- prettier-ignore-start --&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;{&amp;#34;fairings&amp;#34;:{&amp;#34;reused&amp;#34;:false,, &amp;#34;recovery_attempt&amp;#34;:true}}&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; jq
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;{&amp;#34;fairings&amp;#34;:{&amp;#34;reused&amp;#34;:false,, &amp;#34;recovery_attempt&amp;#34;:true}}&amp;#39;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; jq
 parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp;#39;&lt;/span&gt; at line 1, column &lt;span class=&#34;m&#34;&gt;29&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;!-- prettier-ignore-end --&gt;
 &lt;p&gt;Because its output doesn&amp;rsquo;t give much information to pinpoint directly the error in an obvious way, it&amp;rsquo;s better to use a proper validator for some complex cases. But for some quick checks to validate JSON data, jq can be considered as a suitable choice.&lt;/p&gt;
@@ -79,7 +79,7 @@ parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp
 &lt;p&gt;Analyzing JSON files and finding the correct path syntax to a certain value sometimes can be troublesome. Many times, I was punched hard by the frustration of trial and error. Until one day, this magic jq command line brings me the light: &lt;code&gt;jq -r &#39;paths(scalars) as $p | &amp;quot;.&amp;quot; + ([([$p[] | tostring] | join(&amp;quot;.&amp;quot;)), (getpath($p) | tojson)] | join(&amp;quot;: &amp;quot;))&#39;&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s use the same &lt;code&gt;curl&lt;/code&gt; data from the previous example, in this case, I want to get the path syntax of &lt;code&gt;ships&lt;/code&gt; ids:&lt;/p&gt;
 &lt;!-- prettier-ignore-start --&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ curl https://api.spacexdata.com/v4/launches/latest &lt;span class=&#34;se&#34;&gt;\
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ curl https://api.spacexdata.com/v4/launches/latest &lt;span class=&#34;se&#34;&gt;\
 &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; jq -r &lt;span class=&#34;s1&#34;&gt;&amp;#39;paths(scalars) as $p | &amp;#34;.&amp;#34; + ([([$p[] | tostring] | join(&amp;#34;.&amp;#34;)), (getpath($p) | tojson)] | join(&amp;#34;: &amp;#34;))&amp;#39;&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
 &lt;/span&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; grep &lt;span class=&#34;s1&#34;&gt;&amp;#39;.ships&amp;#39;&lt;/span&gt;
 .fairings.ships.0: &lt;span class=&#34;s2&#34;&gt;&amp;#34;5ea6ed2e080df4000697c907&amp;#34;&lt;/span&gt;
@@ -135,7 +135,7 @@ parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp
 &lt;!-- prettier-ignore-start --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -149,7 +149,7 @@ parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;[alias]
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;[alias]
   a = add
   c = commit
   ca = commit --amend
@@ -173,12 +173,12 @@ parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp
 &lt;!-- prettier-ignore-start --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;[alias]
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;[alias]
   ...
   ac = ! git add $(git diff --name-only --diff-filter=M | fzf -m --bind &amp;#34;ctrl-a:select-all&amp;#34;)&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -200,12 +200,12 @@ parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp
 &lt;!-- prettier-ignore-start --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;[alias]
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;[alias]
   ...
   ds = ! git diff --name-only --cached | fzf --preview &amp;#34;git diff --cached -- {} | delta&amp;#34; --bind &amp;#34;enter:abort+execute(git commit)&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -230,12 +230,12 @@ parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp
 &lt;!-- prettier-ignore-start --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;[alias]
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;[alias]
   ...
   b = ! sh -c \&amp;#34;git blame $1 | fzf --bind &amp;#39;enter:abort+execute(git diff-tree -p {1} | delta)&amp;#39;\&amp;#34;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -252,13 +252,13 @@ parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp
 &lt;!-- prettier-ignore-start --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;[alias]
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;[alias]
   ac = ! git add $(git diff --name-only --diff-filter=M | fzf -0 -m --reverse --height=40% --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --cycle)
   b = ! sh -c \&amp;#34;git blame $1 | fzf -0 --ansi --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --bind &amp;#39;enter:abort+execute(git diff-tree -p {1} | delta --theme=iceberg)&amp;#39; --cycle\&amp;#34;
   ds = ! git diff --name-only --cached | fzf -0 --ansi --preview-window=right:80:wrap --preview &amp;#39;git diff --cached -- {} | delta --theme=iceberg&amp;#39; --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --bind alt-k:preview-down,alt-j:preview-up,alt-h:preview-page-down,alt-l:preview-page-up --bind &amp;#39;enter:abort+execute(git commit)&amp;#39; --cycle&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
@@ -268,14 +268,14 @@ parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp
 &lt;p&gt;For instance, if I want to update fzf preview screen key bindings for all aliases, I have to edit all aliases one by one. It&amp;rsquo;s a bummer.&lt;/p&gt;
 &lt;p&gt;Luckily, git alias can be edited via command line:&lt;/p&gt;
 &lt;!-- prettier-ignore-start --&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ git config --global alias.&amp;lt;alias_name&amp;gt; &amp;lt;command&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ git config --global alias.&amp;lt;alias_name&amp;gt; &amp;lt;command&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;!-- prettier-ignore-end --&gt;
 &lt;p&gt;This creates the possibility to let Bash script handle flexibly the alias modifications. I can define some variables for the common parts in the aliases, which permits that the modifications in one location will affect all aliases at once.&lt;/p&gt;
 &lt;p&gt;Here is a sample of Bash script:&lt;/p&gt;
 &lt;!-- prettier-ignore-start --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -293,7 +293,7 @@ parse error: Expected value before &lt;span class=&#34;s1&#34;&gt;&amp;#39;,&amp
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/env bash
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/env bash
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;# remove all aliases&lt;/span&gt;
 git config --global --remove-section &lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt;
 
@@ -325,7 +325,7 @@ git config --global alias.ds &lt;span class=&#34;s2&#34;&gt;&amp;#34;! &lt;/span
 &lt;!-- prettier-ignore-start --&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -336,7 +336,7 @@ git config --global alias.ds &lt;span class=&#34;s2&#34;&gt;&amp;#34;! &lt;/span
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zshrc&#34; data-lang=&#34;zshrc&#34;&gt;...
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-zshrc&#34; data-lang=&#34;zshrc&#34;&gt;...
 g &lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[[&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;am&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]]&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;then&lt;/span&gt;
         git ac
@@ -490,10 +490,10 @@ g &lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&
 &lt;li&gt;Act as &lt;strong&gt;Control&lt;/strong&gt; when press and hold: HHKB keyboard by default puts Control key on the usual Caps Lock position, which is great for me, so no tweak is needed. For other keyboards, I usually use &lt;code&gt;xmodmap&lt;/code&gt; to map Caps Lock key as Left Control key.&lt;/li&gt;
 &lt;li&gt;Act as &lt;strong&gt;Escape&lt;/strong&gt; when single press: &lt;a href=&#34;https://github.com/alols/xcape&#34;&gt;xcape&lt;/a&gt; can configure one key to act as other key when pressed and released:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;xcape -t &lt;span class=&#34;m&#34;&gt;300&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;Control_L=Escape&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;xcape -t &lt;span class=&#34;m&#34;&gt;300&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;Control_L=Escape&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h4 id=&#34;how-to-achieve-this-key-binding-on-macos&#34;&gt;How to achieve this key binding on macOS?&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/tekezo/Karabiner-Elements&#34;&gt;Karabiner&lt;/a&gt; is a great tool to achieve the same key binding conception on macOS. Karabiner supports customized json configuration file. Here is &lt;a href=&#34;https://github.com/KevCui/dotfiles/blob/master/karabiner/capslock.json&#34;&gt;my configuration file&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;err&#34;&gt;...&lt;/span&gt;
 &lt;span class=&#34;s2&#34;&gt;&amp;#34;from&amp;#34;&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;nt&#34;&gt;&amp;#34;key_code&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;caps_lock&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
     &lt;span class=&#34;nt&#34;&gt;&amp;#34;modifiers&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -556,7 +556,7 @@ g &lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&
 &lt;p&gt;Google Drive? OneDrive? Dropbox? Nah, they are not really Git-compatible by default. However, I got inspired by &lt;a href=&#34;https://github.com/hbons/SparkleShare&#34;&gt;SparkleShare&lt;/a&gt;, an open-source file sync app powered by Git, it adds file changes and pushes them to Github or GitLab automatically.&lt;/p&gt;
 &lt;p&gt;I may achieve the same functionality by using a simple script. The idea is to run &lt;a href=&#34;https://github.com/emcrisostomo/fswatch&#34;&gt;fswatch&lt;/a&gt; in the background and keep monitoring file changes. When file changes are happening, fswatch will trigger Git commands to add and push changes automatically.&lt;/p&gt;
 &lt;p&gt;Here is a snippet of Bash script:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/env bash
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/usr/bin/env bash
 &lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;...
 &lt;span class=&#34;k&#34;&gt;function&lt;/span&gt; notesync&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&lt;/span&gt;
   fswatch -r -0 -d &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;\.git&amp;#39;&lt;/span&gt; -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;inotify_monitor&amp;#34;&lt;/span&gt; --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Created --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Updated --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Removed &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xargs -0 -n &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; zsh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;source ~/.zshrc; cd &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;; git add -A; git commit -m &amp;#39;Update file&amp;#39;; git push&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;
@@ -565,7 +565,7 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;folder_path&amp;gt;&amp
 notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp;gt;&amp;#34;&lt;/span&gt;
 ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;strong&gt;fswatch part&lt;/strong&gt; is to monitor file changes, filter out correct file change events and send the signal:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;fswatch -r -0 -d &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;\.git&amp;#39;&lt;/span&gt; -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;inotify_monitor&amp;#34;&lt;/span&gt; --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Created --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Updated --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Removed &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; ... &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;fswatch -r -0 -d &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;\.git&amp;#39;&lt;/span&gt; -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;inotify_monitor&amp;#34;&lt;/span&gt; --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Created --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Updated --event&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Removed &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; ... &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;-r: watch subdirectories recursively&lt;/li&gt;
 &lt;li&gt;-0: pass NUL as delimiter (no idea why it&amp;rsquo;s need&amp;hellip;..)&lt;/li&gt;
@@ -576,13 +576,13 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 &lt;li&gt;&amp;amp;: last but not least, don&amp;rsquo;t forget it at the end, because it provides the ability to run fswatch command in background and detach the process&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;xargs part&lt;/strong&gt; is to get signal from fswatch and execute specific commands:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;... &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xargs -0 -n &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;... &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; xargs -0 -n &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;-0: input items are terminated by null, not whitespace (no idea why it&amp;rsquo;s needed&amp;hellip;)&lt;/li&gt;
 &lt;li&gt;-n: maximum argument, &lt;code&gt;1&lt;/code&gt; it is&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;zsh command part&lt;/strong&gt; is to run Git commands:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;... zsh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;source ~/.zshrc; cd &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;; git add -A; git commit -m &amp;#39;Update file&amp;#39;; git push&amp;#34;&lt;/span&gt; ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;... zsh -c &lt;span class=&#34;s2&#34;&gt;&amp;#34;source ~/.zshrc; cd &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$1&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;; git add -A; git commit -m &amp;#39;Update file&amp;#39;; git push&amp;#34;&lt;/span&gt; ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;zsh -c: execute following commands in &lt;code&gt;zsh&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;source ~/.zshrc: all my SSH keys are declared in &lt;code&gt;.zshrc&lt;/code&gt; file, this command will load configurations from &lt;code&gt;.zshrc&lt;/code&gt; file. Otherwise, push to remove Git repository may get permission denied&lt;/li&gt;
@@ -590,7 +590,7 @@ notesync &lt;span class=&#34;s2&#34;&gt;&amp;#34;&amp;lt;another_folder_path&amp
 &lt;/ul&gt;
 &lt;h4 id=&#34;sumup&#34;&gt;Sumup&lt;/h4&gt;
 &lt;p&gt;This is my killer note-taking system. It&amp;rsquo;s easy, efficient and flexible:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;Note format: Markdown
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;Note format: Markdown
 Note taking &lt;span class=&#34;err&#34;&gt;&amp;amp;&lt;/span&gt; organization app: Vim + Notational Velocity for Vim
 Note version-control system: Git
 Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -623,7 +623,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;An easy and quick example how to &lt;code&gt;z&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -639,7 +639,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ &lt;span class=&#34;nb&#34;&gt;pwd&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ &lt;span class=&#34;nb&#34;&gt;pwd&lt;/span&gt;
 /home/foo/bar/one/two/three
 
 ~$ z tw
@@ -661,7 +661,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/shannonmoeller/up&#34;&gt;up&lt;/a&gt; is an interesting command to replace &lt;code&gt;cd ..&lt;/code&gt; and this ridicules one &lt;code&gt;cd ../../../../&lt;/code&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -677,7 +677,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ &lt;span class=&#34;nb&#34;&gt;pwd&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ &lt;span class=&#34;nb&#34;&gt;pwd&lt;/span&gt;
 /home/foo/bar/one/two/three
 
 ~$ up
@@ -705,11 +705,11 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Here are my aliases:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ls&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;exa -s mod --git&amp;#39;&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ls&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;exa -s mod --git&amp;#39;&lt;/span&gt;
 &lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;ll&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;exa -l -s mod --git --time-style=long-iso&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -729,12 +729,12 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/sharkdp/fd&#34;&gt;fd&lt;/a&gt; is a replacement for &lt;code&gt;find&lt;/code&gt; focusing on user-friendly, with simplifying options of &lt;code&gt;find&lt;/code&gt;. For example, I want to edit a file but I don&amp;rsquo;t remember what&amp;rsquo;s its full path actually is. Usually, I need to find its full path first and then edit it:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ find . -ipath &lt;span class=&#34;s2&#34;&gt;&amp;#34;*how*exp*&amp;#34;&lt;/span&gt; -name &lt;span class=&#34;s2&#34;&gt;&amp;#34;index.html&amp;#34;&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ find . -ipath &lt;span class=&#34;s2&#34;&gt;&amp;#34;*how*exp*&amp;#34;&lt;/span&gt; -name &lt;span class=&#34;s2&#34;&gt;&amp;#34;index.html&amp;#34;&lt;/span&gt;
 ./2017/04/17/how-i-do-exploratory-testing/index.html
 ~$ vi ./2017/04/17/how-i-do-exploratory-testing/index.html&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
@@ -742,20 +742,20 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Since I know the result will be only one file found, I can combine &lt;code&gt;vi&lt;/code&gt; inside &lt;code&gt;find&lt;/code&gt; command as well:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ find . -ipath &lt;span class=&#34;s2&#34;&gt;&amp;#34;*how*exp*&amp;#34;&lt;/span&gt; -name &lt;span class=&#34;s2&#34;&gt;&amp;#34;index.html&amp;#34;&lt;/span&gt; -exec vi &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ find . -ipath &lt;span class=&#34;s2&#34;&gt;&amp;#34;*how*exp*&amp;#34;&lt;/span&gt; -name &lt;span class=&#34;s2&#34;&gt;&amp;#34;index.html&amp;#34;&lt;/span&gt; -exec vi &lt;span class=&#34;o&#34;&gt;{}&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;With &lt;code&gt;fd&lt;/code&gt;, the command is more readable:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ fd -p &lt;span class=&#34;s1&#34;&gt;&amp;#39;how.*exp.*/index&amp;#39;&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ fd -p &lt;span class=&#34;s1&#34;&gt;&amp;#39;how.*exp.*/index&amp;#39;&lt;/span&gt;
 2017/04/17/how-i-do-exploratory-testing/index.html&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -763,10 +763,10 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/junegunn/fzf&#34;&gt;fzf&lt;/a&gt; has an extremely powerful fuzzy searchability. It can nest finding steps directly with another command. I bind the key &lt;a href=&#34;https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh&#34;&gt;&lt;code&gt;ctrl-t&lt;/code&gt; to enable fzf&lt;/a&gt;. As the same example as above, but with &lt;code&gt;fzf&lt;/code&gt;, it&amp;rsquo;s a completely different story:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ vi &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;press ctrl-t&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ vi &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;press ctrl-t&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p class=&#34;embed&#34;&gt;
@@ -776,10 +776,10 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;An alias to combine &lt;code&gt;vim&lt;/code&gt; and &lt;code&gt;fzf&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;vif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;vim $(fzf)&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;nb&#34;&gt;alias&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;vif&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;vim $(fzf)&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;kill-fkill&#34;&gt;kill? fkill!&lt;/h3&gt;
@@ -792,7 +792,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;UNIX&amp;rsquo;s missing loop command.&amp;quot;&lt;/em&gt; &lt;a href=&#34;https://github.com/Miserlou/Loop&#34;&gt;loop&lt;/a&gt; is designed to fill the gap. It works well to replace &lt;code&gt;watch&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -801,7 +801,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# monitor current directory and print file list every 6 seconds&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# monitor current directory and print file list every 6 seconds&lt;/span&gt;
 
 &lt;span class=&#34;c1&#34;&gt;# watch&lt;/span&gt;
 ~$ watch -n &lt;span class=&#34;m&#34;&gt;6&lt;/span&gt; ls -l
@@ -813,7 +813,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Moreover, &lt;code&gt;loop&lt;/code&gt; has some awesome options to determine when to stop watching:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -821,7 +821,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;...
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;...
 -c, --until-contains &amp;lt;until_contains&amp;gt;    Keep going until the output contains this string
 -r, --until-error &amp;lt;until_error&amp;gt;          Keep going until the command exit status is non-zero, or the value given
 -m, --until-match &amp;lt;until_match&amp;gt;          Keep going until the output matches this regular expression
@@ -832,10 +832,10 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Example: stop watching when &lt;code&gt;stop-now&lt;/code&gt; file is created and then open it in vim:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ loop -e 6s &lt;span class=&#34;s1&#34;&gt;&amp;#39;clear;date;ls -l&amp;#39;&lt;/span&gt; -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;stop-now&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; vi stop-now&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ loop -e 6s &lt;span class=&#34;s1&#34;&gt;&amp;#39;clear;date;ls -l&amp;#39;&lt;/span&gt; -c &lt;span class=&#34;s1&#34;&gt;&amp;#39;stop-now&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; vi stop-now&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p class=&#34;embed&#34;&gt;
@@ -845,7 +845,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Actually, using &lt;code&gt;loop&lt;/code&gt; to replace &lt;code&gt;for&lt;/code&gt; command is also promising and full of pleasure:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -854,7 +854,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# create 10 markdown files: 0.md, 1.md ... 9.md&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# create 10 markdown files: 0.md, 1.md ... 9.md&lt;/span&gt;
 
 &lt;span class=&#34;c1&#34;&gt;# for&lt;/span&gt;
 ~$ &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;((&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; i &amp;lt; 10&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; i++&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;do&lt;/span&gt; touch &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;.md&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
@@ -914,14 +914,14 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;One of the advantages of mitmproxy is highly customizable. It&amp;rsquo;s convenient to set up once configurations that every time mitmproxy loads them automatically when it starts. All the available handy &lt;strong&gt;options&lt;/strong&gt; are in the &lt;a href=&#34;https://docs.mitmproxy.org/stable/concepts-options/&#34;&gt;mitmproxy document&lt;/a&gt;. Here is my &lt;code&gt;~/.mitmproxy/config.yaml&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;console_palette&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;dark&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;console_palette&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;dark&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;console_palette_transparent&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;console_mouse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;console_focus_follow&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -931,7 +931,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;As I&amp;rsquo;m using &lt;a href=&#34;https://kevcui.github.io/2017/08/27/one-week-with-colemak/&#34;&gt;colemak keyboard layout&lt;/a&gt;, &lt;em&gt;j&lt;/em&gt; and &lt;em&gt;k&lt;/em&gt; keys are opposite for the navigation of up and down in mitmproxy. I have to change these 2 keys to make navigation smooth. Before, to change key bindings in old versions, I have to hack around code in &lt;code&gt;defaultkeys.py&lt;/code&gt;. Since &lt;a href=&#34;https://mitmproxy.org/posts/releases/mitmproxy4/&#34;&gt;mitmproxy v4.0&lt;/a&gt;, custom key binding is finally officially supported! Here are my key bindings in &lt;code&gt;~/.mitmproxy/keys.yaml&lt;/code&gt;:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
@@ -945,7 +945,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;-&lt;span class=&#34;w&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;-&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;j&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ctx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;global&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;cmd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;console.nav.up&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -1023,7 +1023,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Are you sold by the idea of PWA? I&amp;rsquo;ll buy it. Because I would do whatever I could to improve the user experience. So, I decided to optimize my blog site for reaching PWA standard.&lt;/p&gt;
 &lt;h4 id=&#34;step-1-run-a-performance-audit&#34;&gt;Step 1: Run a performance audit&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/GoogleChrome/lighthouse&#34;&gt;Lighthouse&lt;/a&gt; is a must-have tool to audit web app performance. Lighthouse is already integrated in the recent versions of Chrome and Chromium, as a part of DevTools, which makes it super convenient to use:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;Inspect -&amp;gt; Audits -&amp;gt; Perform an audit...
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;Inspect -&amp;gt; Audits -&amp;gt; Perform an audit...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;step-2-read-audit-report-carefully&#34;&gt;Step 2: Read audit report carefully&lt;/h4&gt;
 &lt;p&gt;After running an audit in Lighthouse, it will provide a detailed report. First, it shows the overall scores:&lt;/p&gt;
 &lt;p class=&#34;imagsup&#34;&gt;
@@ -1052,7 +1052,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;manifest.json: It&amp;rsquo;s a json file located in &lt;em&gt;/&lt;/em&gt; &lt;strong&gt;web app root directory&lt;/strong&gt;:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
   &lt;span class=&#34;nt&#34;&gt;&amp;#34;short_name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Kevin&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
   &lt;span class=&#34;nt&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Kevin Cui&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
   &lt;span class=&#34;nt&#34;&gt;&amp;#34;icons&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
@@ -1070,11 +1070,11 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Link manifest.json in &lt;em&gt;index.html&lt;/em&gt;:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;manifest&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/manifest.json&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;rel&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;manifest&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;href&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/manifest.json&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Service worker js: It must be created in &lt;strong&gt;web app root directory&lt;/strong&gt;, alongside with &lt;em&gt;manifest.json&lt;/em&gt;. Here is an example of the service worker called &lt;em&gt;sw.js&lt;/em&gt;:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;CACHE_NAME&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;kevin-site&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;CACHE_NAME&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;kevin-site&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;kd&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;urlsToCache&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
     &lt;span class=&#34;s1&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
     &lt;span class=&#34;s1&#34;&gt;&amp;#39;/#blog&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
@@ -1128,7 +1128,7 @@ Note auto backup system: fswatch + GitHub&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;A piece of JavaScript code to register service worker in &lt;em&gt;index.html&lt;/em&gt;:&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;serviceWorker&amp;#39;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;navigator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;serviceWorker&amp;#39;&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;navigator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;span class=&#34;nx&#34;&gt;navigator&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;serviceWorker&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;./sw.js&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
   &lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;then&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;registration&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
     &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Service Worker Registered&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;registration&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
@@ -1414,7 +1414,7 @@ avoid double negative
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/TkWeMtX2N9z2M/giphy.gif&#34; alt=&#34;aiming&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;targeted-training&#34;&gt;Targeted training&lt;/h4&gt;
 &lt;p&gt;It&amp;rsquo;s time to have more targeted training of some common suffixes. In theory, if I could type them unconsciously as a reflection, my typing speed would increase a lot. So I made a list of suffixes to focus on:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;-ly, -ing, -ion, -er, -or, -ment, -ous, -ful, -able
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;-ly, -ing, -ion, -er, -or, -ment, -ous, -ful, -able
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;On the other hand, I found that I made many mistakes on top row letters &amp;ldquo;f&amp;rdquo;, &amp;ldquo;g&amp;rdquo;, &amp;ldquo;l&amp;rdquo; and &amp;ldquo;y&amp;rdquo;. I keep in my mind to pay attention to them: be accurate first, then speed up.&lt;/p&gt;
 &lt;p&gt;Moreover, I started to learn typing systematically by following the lessons on &lt;a href=&#34;https://www.typing.com/student&#34;&gt;typing.com&lt;/a&gt;. I skipped the entire beginner lessons and some lessons designed for QWERTY only.&lt;/p&gt;
 &lt;h3 id=&#34;d6---thursday&#34;&gt;D6 - Thursday&lt;/h3&gt;
@@ -1474,7 +1474,7 @@ avoid double negative
 &lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://colemak.com/FAQ&#34;&gt;Colemak&lt;/a&gt;, pronounced /&amp;lsquo;ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It&amp;rsquo;s developed by &lt;a href=&#34;https://ie.linkedin.com/in/shaicoleman&#34;&gt;Shai Coleman&lt;/a&gt; and released in 2006. Colemak keyboard layout looks like:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;  q w f p g j l u y &lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;  q w f p g j l u y &lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
    a r s t d h n e i o
     z x c v b k m , . /
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;What&amp;rsquo;s special about Colemak?  Why do I decide to switch from QWERTY to Colemak?&lt;/p&gt;
@@ -1554,10 +1554,10 @@ avoid double negative
 &lt;h3 id=&#34;animatecss&#34;&gt;animate.css&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://daneden.github.io/animate.css/&#34;&gt;animate.css&lt;/a&gt; is a super-star CSS library for creating page transitions. Almost all basic (PowerPoint style?) page transitions can be found in this library. The usage is simple. First of all, it needs to include animate.css in your project, file or hosted link as you prefer. Then you only need to add class name animated and effect name in HTML tag.&lt;/p&gt;
 &lt;p&gt;But I didn&amp;rsquo;t use this fixed way. I want to add animation dynamically with jQuery. For example, I did for of articles fade-in appearing on post summary page:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;article&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addClass&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;animated fadeIn&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;nx&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;article&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;addClass&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;animated fadeIn&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://kevcui.github.io/images/fadein.gif&#34; alt=&#34;article&#34;&gt;&lt;/p&gt;
 &lt;p&gt;You may notice that there is a delay of fade-in effect. It&amp;rsquo;s a CSS trick. Actually, I set a 0.2s interval between the presences of 2 articles:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;nt&#34;&gt;article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;nth-child&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;nt&#34;&gt;article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;nth-child&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
   &lt;span class=&#34;k&#34;&gt;animation-delay&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mf&#34;&gt;0.2&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;span class=&#34;nt&#34;&gt;article&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;nd&#34;&gt;nth-child&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
@@ -1677,12 +1677,12 @@ avoid double negative
 &lt;li&gt;Branch &lt;strong&gt;master&lt;/strong&gt;: public/ folder with all the generated static files&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Then I need to link the &lt;strong&gt;public/&lt;/strong&gt; to &lt;strong&gt;master&lt;/strong&gt; branch:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;rm -rf public
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;rm -rf public
 rm -rf ./worktrees
 git worktree add -B master public origin/master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;create-deploy-script&#34;&gt;Create deploy script&lt;/h3&gt;
 &lt;p&gt;Here is my deploy script &lt;a href=&#34;https://github.com/kevcui/kevcui.github.io/blob/hugo/deploy.sh&#34;&gt;deploy.sh&lt;/a&gt;. The theme I&amp;rsquo;m using is &lt;a href=&#34;https://github.com/kevcui/uno&#34;&gt;uno&lt;/a&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;
 &lt;span class=&#34;c1&#34;&gt;#!/bin/sh&lt;/span&gt;
 
 &lt;span class=&#34;c1&#34;&gt;# Create worktree&lt;/span&gt;
@@ -1745,11 +1745,11 @@ git push origin master
 &lt;p&gt;Actually we are more or less talking about the same thing. We misunderstand each other because we think from different perspectives.&lt;/p&gt;
 &lt;p&gt;In order to make less confusion, I try to refine software testing types by using 5 different categories. Each categories represent one perspective. In other words, they are independent of each other. These categories are &lt;strong&gt;How&lt;/strong&gt;, &lt;strong&gt;When&lt;/strong&gt;, &lt;strong&gt;Who&lt;/strong&gt;, &lt;strong&gt;What&lt;/strong&gt; and &lt;strong&gt;Which&lt;/strong&gt;. Then I put testing types one by one into each category, E.g:&lt;/p&gt;
 &lt;p&gt;1.1) &lt;strong&gt;How&lt;/strong&gt; does structure look like:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;White/Glass box/Structural Testing,
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;White/Glass box/Structural Testing,
 Black box/Functional Testing,
 Gray box Testing.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;1.2) &lt;strong&gt;How&lt;/strong&gt; does system perform:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;Non-functional Testing
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;Non-functional Testing
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br/&gt;
 2) **When** in software development life cycle (SDLC):
 ```bash
@@ -1779,7 +1779,7 @@ Boundary Value Testing, Sanity Testing, Smoke Testing,
 ```
 &lt;br/&gt;
 &lt;p&gt;Now let&amp;rsquo;s back to the beginning when I say &amp;ldquo;Integration Testing&amp;rdquo;&amp;hellip; and see if it makes things clear.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;1&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; How: Functional
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;1&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; How: Functional
 2&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; When: Integration
 3&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; Who: Automated
 4&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; What: Accessibility
@@ -1880,7 +1880,7 @@ What do you think? 💡❗ or 🐮💩?
     <item>
       <title>How I Do Exploratory Testing</title>
       <link>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</link>
-      <pubDate>Mon, 17 Apr 2017 22:30:00 +0200</pubDate>
+      <pubDate>Mon, 17 Apr 2017 22:30:00 +0000</pubDate>
       
       <guid>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
       <description>&lt;p class=&#34;coverimage&#34;&gt;
@@ -1927,11 +1927,11 @@ What do you think? 💡❗ or 🐮💩?
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;For example:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Region x Implementation versus Request: Does this feature need to be available &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; all customers or only &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; a specific region?
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Region x Implementation versus Request: Does this feature need to be available &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; all customers or only &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; a specific region?
 OS x Implementation versus Problem: Does this feature work on iOS &lt;span class=&#34;m&#34;&gt;7&lt;/span&gt; devices?
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br/&gt;
 Then I will put the ideas or assumptions shortly on a to-do list:
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Testing ideas:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;Testing ideas:
 &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Support all regions?
 &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; iOS &lt;span class=&#34;m&#34;&gt;7&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;stage-2-go-explore&#34;&gt;Stage 2: Go explore&lt;/h4&gt;
@@ -1945,7 +1945,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;p&gt;Once I got a finding or a question, I will make a quick note with the necessary screenshot and video record.&lt;/p&gt;
 &lt;p&gt;After one seed is finished, I will continue to explore anther seed. One seed at a time, seed by seed until timeout. You probably have a question in your mind &amp;ldquo;When one seed is done, what to pick as the next seed?&amp;rdquo; I have a rule of thumb for priority: seed on top of the list has higher priority to explore.&lt;/p&gt;
 &lt;p&gt;After 30 min, my to-do list looks like:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Shell&#34; data-lang=&#34;Shell&#34;&gt;Testing ideas:
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Shell&#34; data-lang=&#34;Shell&#34;&gt;Testing ideas:
 &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;?&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Support all regions?
     &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;x&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Europe
     &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;?&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; Asia: no response from &lt;span class=&#34;nv&#34;&gt;API&lt;/span&gt;
@@ -2055,7 +2055,7 @@ Issue 1: crash on iOS &lt;span class=&#34;m&#34;&gt;7&lt;/span&gt;
 &lt;p&gt;Hugo is built using Go, free, &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;open source&lt;/a&gt;. If I only want to use hugo without building from source, I could just download executable &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;release binary&lt;/a&gt;. Literally it has zero dependency, one binary that&amp;rsquo;s all, so clean. On the other hand, hexo requests much more. First npm, then install around 10 dependencies during initializing. Now I&amp;rsquo;ve only basic functionalities of hexo. If I want to generate emoji, 👌 add a &lt;a href=&#34;https://github.com/crimx/hexo-filter-github-emojis&#34;&gt;plugin&lt;/a&gt;; if I want deploy code automatically, 👌 add another &lt;a href=&#34;https://github.com/hexojs/hexo-deployer-git&#34;&gt;plugin&lt;/a&gt;; if I want backup code automatically, 👌 add another &lt;a href=&#34;https://github.com/coneycode/hexo-git-backup&#34;&gt;plugin&lt;/a&gt;&amp;hellip;&lt;/p&gt;
 &lt;h4 id=&#34;3-lightweight-file-structure&#34;&gt;3. Lightweight file structure&lt;/h4&gt;
 &lt;p&gt;Not to say if &lt;code&gt;node_modules&lt;/code&gt; is a design flaw of npm, the fact is that &lt;code&gt;node_modules&lt;/code&gt; is bloated heavily, interesting post &lt;a href=&#34;https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558&#34;&gt;here&lt;/a&gt; and interesting discussion &lt;a href=&#34;https://www.reddit.com/r/webdev/comments/42cpjy/why_is_my_node_modules_directory_140mb_is_this/&#34;&gt;here&lt;/a&gt;. Hexo is powered by Node.js and naturally bloated by it. That&amp;rsquo;s why &lt;code&gt;node_modules&lt;/code&gt; is that place where I really don&amp;rsquo;t want to look deep inside. To have a better understanding, I roughly checked the size of folders including the same theme and the result is kind as expected:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;Hexo w/ node_modules: 18M
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;Hexo w/ node_modules: 18M
 Hexo w/o node_modules: 69M
 Hugo: 29M
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;4-little-surprises&#34;&gt;4. Little surprises&lt;/h4&gt;
@@ -2079,7 +2079,7 @@ Hugo: 29M
     <item>
       <title>Bye Firefox</title>
       <link>https://kevcui.github.io/2017/03/27/bye-firefox/</link>
-      <pubDate>Mon, 27 Mar 2017 23:02:13 +0200</pubDate>
+      <pubDate>Mon, 27 Mar 2017 23:02:13 +0000</pubDate>
       
       <guid>https://kevcui.github.io/2017/03/27/bye-firefox/</guid>
       <description>&lt;p class=&#34;coverimage&#34;&gt;
@@ -2120,7 +2120,7 @@ Hugo: 29M
     <item>
       <title>My Toolbox</title>
       <link>https://kevcui.github.io/2017/03/08/my-toolbox/</link>
-      <pubDate>Wed, 08 Mar 2017 22:12:08 +0200</pubDate>
+      <pubDate>Wed, 08 Mar 2017 22:12:08 +0000</pubDate>
       
       <guid>https://kevcui.github.io/2017/03/08/my-toolbox/</guid>
       <description>&lt;h3 id=&#34;software-testing&#34;&gt;Software Testing&lt;/h3&gt;
@@ -2181,6 +2181,7 @@ Hugo: 29M
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://requestmap.webperf.tools/&#34;&gt;Request Map Generator&lt;/a&gt;: identify 3rd-parties on your site&lt;/p&gt;
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://whatdoesmysitecost.com/&#34;&gt;What Does My Siet Cost?&lt;/a&gt;: find out how much it costs for someone to use your site on mobile networks around the world.&lt;/p&gt;
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://tio.run/&#34;&gt;TIO&lt;/a&gt;: Try It Online. TIO is a family of online interpreters for an evergrowing list of practical and recreational programming languages.&lt;/p&gt;
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://hackvertor.co.uk&#34;&gt;Hackvertor&lt;/a&gt;: A tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc.&lt;/p&gt;
 &lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
 &lt;p&gt;👉 &lt;a href=&#34;https://pbs.twimg.com/media/C3JNXUtWEAAW951.jpg&#34;&gt;Cynefin Framework for user story splitting&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;👉 &lt;a href=&#34;https://cdn-images-1.medium.com/max/1200/1*rC6ZDnnSEK8NSPzrMG_A4Q.png&#34;&gt;Product Strategy Canvas&lt;/a&gt;&lt;/p&gt;
@@ -2201,6 +2202,7 @@ Hugo: 29M
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://causal.app/buy-to-rent/&#34;&gt;Buy to rent&lt;/a&gt;: Should you buy a house and rent it out?&lt;/p&gt;
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://outline.com&#34;&gt;Outline&lt;/a&gt;: read &amp;amp; annotate website&lt;/p&gt;
 &lt;p&gt;🌏👉 &lt;a href=&#34;https://yarn.co&#34;&gt;Yarn&lt;/a&gt;: Search by word or pharse for TV, movies, and music clips&lt;/p&gt;
+&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/5ky1ar/Awesome-Onion-Links&#34;&gt;Onion Links&lt;/a&gt;: Awesome Onion Links&lt;/p&gt;
 &lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
 &lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/sferik/t&#34;&gt;Ruby Twitter CLI&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;📀👉 &lt;a href=&#34;https://google-webfonts-helper.herokuapp.com/fonts&#34;&gt;Google Webfont Helper&lt;/a&gt;&lt;/p&gt;
@@ -2243,7 +2245,7 @@ Hugo: 29M
     <item>
       <title>Why Hexo Why Not Jekyll</title>
       <link>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
-      <pubDate>Sun, 26 Feb 2017 16:40:26 +0200</pubDate>
+      <pubDate>Sun, 26 Feb 2017 16:40:26 +0000</pubDate>
       
       <guid>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
       <description>&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
@@ -2255,14 +2257,14 @@ Hugo: 29M
 &lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable :neckbeard:. At the end, the only ting I want is just to set up something in 3 min and spend my time on writing more posts.&lt;/p&gt;
 &lt;h3 id=&#34;deployment-its-a-magic&#34;&gt;Deployment? It&amp;rsquo;s a magic!&lt;/h3&gt;
 &lt;p&gt;The deployment of hexo is amazing. I add my git repo info in _config.xml then run a simple command:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ hexo d
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~$ hexo d
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Done! What a magic! No need git add, git commit, git push&amp;hellip; It&amp;rsquo;s really continent to write and publish a post.&lt;/p&gt;
 &lt;p&gt;Another good thing is that hexo organizes git repo nicely. It contains only the final static html, js and css files. Other setup related file like _config.xml or themes or plugins can be stored separately in different repositories. It&amp;rsquo;s wonderful for person who has OCD.&lt;/p&gt;
 &lt;h3 id=&#34;setup-theme-dynamically&#34;&gt;Setup theme dynamically&lt;/h3&gt;
 &lt;p&gt;With hexo, there will be no more feeling of frustrated at changing theme. Hexo has an interesting structure to organize &lt;a href=&#34;https://hexo.io/docs/themes.html&#34;&gt;&lt;em&gt;themes&lt;/em&gt;&lt;/a&gt; in a separate folder. Choosing a theme is like switching a cloth. And it&amp;rsquo;s possible to have collect different themes 👗 in your armoire.&lt;/p&gt;
 &lt;h3 id=&#34;fast&#34;&gt;Fast&lt;/h3&gt;
 &lt;p&gt;Overall, hexo gives me an impression &lt;em&gt;fast&lt;/em&gt;, starting from the command execution with one letter:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;hexo s &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo server
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;hexo s &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo server
 hexo g &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo generate
 hexo d &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo deploy
 hexo cl &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo clean
@@ -2274,7 +2276,7 @@ hexo cl &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo clean
     <item>
       <title>Why I Failed to Use Calabash for Mobile Testing</title>
       <link>https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</link>
-      <pubDate>Sat, 21 Jan 2017 10:48:00 +0200</pubDate>
+      <pubDate>Sat, 21 Jan 2017 10:48:00 +0000</pubDate>
       
       <guid>https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
       <description>&lt;p class=&#34;coverimage&#34;&gt;
@@ -2399,7 +2401,7 @@ hexo cl &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo clean
     <item>
       <title>Bugshido: Classify Warrior Bugs</title>
       <link>https://kevcui.github.io/2017/01/08/bugshido/</link>
-      <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
+      <pubDate>Sun, 08 Jan 2017 12:31:43 +0000</pubDate>
       
       <guid>https://kevcui.github.io/2017/01/08/bugshido/</guid>
       <description>&lt;p class=&#34;coverimage&#34;&gt;
@@ -2470,7 +2472,7 @@ hexo cl &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo clean
     <item>
       <title>Let&#39;s Have Some Fun! Team Testing</title>
       <link>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
-      <pubDate>Thu, 01 Dec 2016 21:37:35 +0200</pubDate>
+      <pubDate>Thu, 01 Dec 2016 21:37:35 +0000</pubDate>
       
       <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
       <description>&lt;p class=&#34;coverimage&#34;&gt;
@@ -2536,7 +2538,7 @@ hexo cl &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo clean
 &lt;p&gt;And I will put them to the different &lt;strong&gt;missions&lt;/strong&gt; for different participants.&lt;/p&gt;
 &lt;h4 id=&#34;_soon-people-look-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-passfail_-nope-&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People look like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅‍♀️&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;Usually I set up a simple finding-wall, like blow:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;             iOS     &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;    Android
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;             iOS     &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;    Android
 Major                &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;
 Minor                &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;
 ?                    &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;
@@ -2558,7 +2560,7 @@ Minor                &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;
     <item>
       <title>Know How to Build github.io Blog in 3 min?</title>
       <link>https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</link>
-      <pubDate>Sat, 19 Nov 2016 13:00:00 +0200</pubDate>
+      <pubDate>Sat, 19 Nov 2016 13:00:00 +0000</pubDate>
       
       <guid>https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
       <description>&lt;p&gt;I write this tutorial with some notes about how to build a github.io blog, because I was struggling a bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could &lt;strong&gt;waste&lt;/strong&gt; some of your time on customizing your own awesome blog. 😉&lt;/p&gt;
@@ -2587,16 +2589,16 @@ Minor                &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;
 (&lt;em&gt;#Eg: my repository for this blog is &lt;strong&gt;kevcui.github.io&lt;/strong&gt;&lt;/em&gt;)&lt;/li&gt;
 &lt;li&gt;Clone it to your local&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Shell&#34; data-lang=&#34;Shell&#34;&gt;~ $ git clone https://github.com/username/username.github.io my-blog
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Shell&#34; data-lang=&#34;Shell&#34;&gt;~ $ git clone https://github.com/username/username.github.io my-blog
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;brstep-4-configure-it&#34;&gt;&lt;br/&gt;STEP 4: Configure-it&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Go to my-blog&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~ $ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; my-blog
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;~ $ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; my-blog
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;Open &lt;strong&gt;_config.yml&lt;/strong&gt; and modify&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;your-blog-title&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;your-blog-title&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;your-blog-description&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;url&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;https://username.github.io&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;baseurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -2608,14 +2610,14 @@ Minor                &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;
 &lt;ul&gt;
 &lt;li&gt;Run locally&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;~ $ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; my-blog
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;~ $ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; my-blog
 ~ $ jekyll serve
 &lt;span class=&#34;c1&#34;&gt;# =&amp;gt; Now browse to http://localhost:4000/&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;brstep-6-post-it&#34;&gt;&lt;br/&gt;STEP 6: Post-it&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a post in &lt;strong&gt;_post&lt;/strong&gt;, name it &lt;strong&gt;YEAR-MONTH-DAY-title.md&lt;/strong&gt;&lt;br/&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: &amp;#34;How to build github.io blog in 3 min?&amp;#34;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;title: &amp;#34;How to build github.io blog in 3 min?&amp;#34;
 date:  2016-11-18 23:25:28 +0200
 ...
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;⚠️ Be careful of date format &lt;strong&gt;YYYY-MM-DD HH:MM:SS +/-TTTT&lt;/strong&gt;, TTTT is timezone offset&lt;/p&gt;
@@ -2638,7 +2640,7 @@ date:  2016-11-18 23:25:28 +0200
     <item>
       <title>Blogging!</title>
       <link>https://kevcui.github.io/2016/11/18/hello-world/</link>
-      <pubDate>Fri, 18 Nov 2016 22:09:23 +0200</pubDate>
+      <pubDate>Fri, 18 Nov 2016 22:09:23 +0000</pubDate>
       
       <guid>https://kevcui.github.io/2016/11/18/hello-world/</guid>
       <description>&lt;p&gt;This is my f1rst bl0g. Yep, it&amp;rsquo;s als0 a test blog to check theme&lt;/p&gt;
