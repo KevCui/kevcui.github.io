@@ -301,7 +301,7 @@
 <p>Hugo is built using Go, free, <a href="https://github.com/spf13/hugo">open source</a>. If I only want to use hugo without building from source, I could just download executable <a href="https://github.com/spf13/hugo/releases">release binary</a>. Literally it has zero dependency, one binary that&rsquo;s all, so clean. On the other hand, hexo requests much more. First npm, then install around 10 dependencies during initializing. Now I&rsquo;ve only basic functionalities of hexo. If I want to generate emoji, 👌 add a <a href="https://github.com/crimx/hexo-filter-github-emojis">plugin</a>; if I want deploy code automatically, 👌 add another <a href="https://github.com/hexojs/hexo-deployer-git">plugin</a>; if I want backup code automatically, 👌 add another <a href="https://github.com/coneycode/hexo-git-backup">plugin</a>&hellip;</p>
 <h4 id="3-lightweight-file-structure">3. Lightweight file structure</h4>
 <p>Not to say if <code>node_modules</code> is a design flaw of npm, the fact is that <code>node_modules</code> is bloated heavily, interesting post <a href="https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558">here</a> and interesting discussion <a href="https://www.reddit.com/r/webdev/comments/42cpjy/why_is_my_node_modules_directory_140mb_is_this/">here</a>. Hexo is powered by Node.js and naturally bloated by it. That&rsquo;s why <code>node_modules</code> is that place where I really don&rsquo;t want to look deep inside. To have a better understanding, I roughly checked the size of folders including the same theme and the result is kind as expected:</p>
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">Hexo w/ node_modules: 18M
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">Hexo w/ node_modules: 18M
 Hexo w/o node_modules: 69M
 Hugo: 29M
 </code></pre></div><h4 id="4-little-surprises">4. Little surprises</h4>
@@ -333,7 +333,7 @@ Hugo: 29M
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 
-    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/nord.min.css">
     <script src="https://kevcui.github.io/js/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 

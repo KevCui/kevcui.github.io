@@ -280,10 +280,10 @@
 <li>Act as <strong>Control</strong> when press and hold: HHKB keyboard by default puts Control key on the usual Caps Lock position, which is great for me, so no tweak is needed. For other keyboards, I usually use <code>xmodmap</code> to map Caps Lock key as Left Control key.</li>
 <li>Act as <strong>Escape</strong> when single press: <a href="https://github.com/alols/xcape">xcape</a> can configure one key to act as other key when pressed and released:</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">xcape -t <span class="m">300</span> -e <span class="s1">&#39;Control_L=Escape&#39;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">xcape -t <span class="m">300</span> -e <span class="s1">&#39;Control_L=Escape&#39;</span></code></pre></div>
 <h4 id="how-to-achieve-this-key-binding-on-macos">How to achieve this key binding on macOS?</h4>
 <p><a href="https://github.com/tekezo/Karabiner-Elements">Karabiner</a> is a great tool to achieve the same key binding conception on macOS. Karabiner supports customized json configuration file. Here is <a href="https://github.com/KevCui/dotfiles/blob/master/karabiner/capslock.json">my configuration file</a>.</p>
-<div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="err">...</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="err">...</span>
 <span class="s2">&#34;from&#34;</span><span class="err">:</span> <span class="p">{</span>
     <span class="nt">&#34;key_code&#34;</span><span class="p">:</span> <span class="s2">&#34;caps_lock&#34;</span><span class="p">,</span>
     <span class="nt">&#34;modifiers&#34;</span><span class="p">:</span> <span class="p">{</span>
@@ -320,7 +320,7 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 
-    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/nord.min.css">
     <script src="https://kevcui.github.io/js/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 

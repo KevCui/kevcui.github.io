@@ -292,7 +292,7 @@
 <p>Are you sold by the idea of PWA? I&rsquo;ll buy it. Because I would do whatever I could to improve the user experience. So, I decided to optimize my blog site for reaching PWA standard.</p>
 <h4 id="step-1-run-a-performance-audit">Step 1: Run a performance audit</h4>
 <p><a href="https://github.com/GoogleChrome/lighthouse">Lighthouse</a> is a must-have tool to audit web app performance. Lighthouse is already integrated in the recent versions of Chrome and Chromium, as a part of DevTools, which makes it super convenient to use:</p>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">Inspect -&gt; Audits -&gt; Perform an audit...
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Inspect -&gt; Audits -&gt; Perform an audit...
 </code></pre></div><h4 id="step-2-read-audit-report-carefully">Step 2: Read audit report carefully</h4>
 <p>After running an audit in Lighthouse, it will provide a detailed report. First, it shows the overall scores:</p>
 <p class="imagsup">
@@ -321,7 +321,7 @@
 <ul>
 <li>manifest.json: It&rsquo;s a json file located in <em>/</em> <strong>web app root directory</strong>:</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
   <span class="nt">&#34;short_name&#34;</span><span class="p">:</span> <span class="s2">&#34;Kevin&#34;</span><span class="p">,</span>
   <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Kevin Cui&#34;</span><span class="p">,</span>
   <span class="nt">&#34;icons&#34;</span><span class="p">:</span> <span class="p">[</span>
@@ -339,11 +339,11 @@
 </code></pre></div><ul>
 <li>Link manifest.json in <em>index.html</em>:</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;manifest&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/manifest.json&#34;</span><span class="p">&gt;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;manifest&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;/manifest.json&#34;</span><span class="p">&gt;</span>
 </code></pre></div><ul>
 <li>Service worker js: It must be created in <strong>web app root directory</strong>, alongside with <em>manifest.json</em>. Here is an example of the service worker called <em>sw.js</em>:</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">CACHE_NAME</span> <span class="o">=</span> <span class="s1">&#39;kevin-site&#39;</span><span class="p">;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="kd">var</span> <span class="nx">CACHE_NAME</span> <span class="o">=</span> <span class="s1">&#39;kevin-site&#39;</span><span class="p">;</span>
 <span class="kd">var</span> <span class="nx">urlsToCache</span> <span class="o">=</span> <span class="p">[</span>
     <span class="s1">&#39;/&#39;</span><span class="p">,</span>
     <span class="s1">&#39;/#blog&#39;</span><span class="p">,</span>
@@ -397,7 +397,7 @@
 </code></pre></div><ul>
 <li>A piece of JavaScript code to register service worker in <em>index.html</em>:</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="k">if</span> <span class="p">(</span><span class="s1">&#39;serviceWorker&#39;</span> <span class="k">in</span> <span class="nx">navigator</span><span class="p">)</span> <span class="p">{</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="k">if</span> <span class="p">(</span><span class="s1">&#39;serviceWorker&#39;</span> <span class="k">in</span> <span class="nx">navigator</span><span class="p">)</span> <span class="p">{</span>
 <span class="nx">navigator</span><span class="p">.</span><span class="nx">serviceWorker</span><span class="p">.</span><span class="nx">register</span><span class="p">(</span><span class="s1">&#39;./sw.js&#39;</span><span class="p">)</span>
   <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">registration</span><span class="p">)</span> <span class="p">{</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Service Worker Registered&#34;</span><span class="p">,</span> <span class="nx">registration</span><span class="p">);</span>
@@ -444,7 +444,7 @@
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 
-    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/nord.min.css">
     <script src="https://kevcui.github.io/js/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 

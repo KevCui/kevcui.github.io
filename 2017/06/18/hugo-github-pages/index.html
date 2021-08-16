@@ -279,12 +279,12 @@
 <li>Branch <strong>master</strong>: public/ folder with all the generated static files</li>
 </ul>
 <p>Then I need to link the <strong>public/</strong> to <strong>master</strong> branch:</p>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">rm -rf public
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">rm -rf public
 rm -rf ./worktrees
 git worktree add -B master public origin/master
 </code></pre></div><h3 id="create-deploy-script">Create deploy script</h3>
 <p>Here is my deploy script <a href="https://github.com/kevcui/kevcui.github.io/blob/hugo/deploy.sh">deploy.sh</a>. The theme I&rsquo;m using is <a href="https://github.com/kevcui/uno">uno</a>:</p>
-<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">
 <span class="c1">#!/bin/sh</span>
 
 <span class="c1"># Create worktree</span>
@@ -336,7 +336,7 @@ git push origin master
 
 <script src="https://kevcui.github.io/js/main.min.js">></script>
 
-    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/dracula.min.css">
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/nord.min.css">
     <script src="https://kevcui.github.io/js/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 

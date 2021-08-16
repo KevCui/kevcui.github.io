@@ -287,7 +287,7 @@
 <p>An easy and quick example how to <code>z</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -303,7 +303,7 @@
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">~$ <span class="nb">pwd</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">~$ <span class="nb">pwd</span>
 /home/foo/bar/one/two/three
 
 ~$ z tw
@@ -325,7 +325,7 @@
 <p><a href="https://github.com/shannonmoeller/up">up</a> is an interesting command to replace <code>cd ..</code> and this ridicules one <code>cd ../../../../</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -341,7 +341,7 @@
 </span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">~$ <span class="nb">pwd</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">~$ <span class="nb">pwd</span>
 /home/foo/bar/one/two/three
 
 ~$ up
@@ -369,11 +369,11 @@
 <p>Here are my aliases:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">alias</span> <span class="nv">ls</span><span class="o">=</span><span class="s1">&#39;exa -s mod --git&#39;</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">alias</span> <span class="nv">ls</span><span class="o">=</span><span class="s1">&#39;exa -s mod --git&#39;</span>
 <span class="nb">alias</span> <span class="nv">ll</span><span class="o">=</span><span class="s1">&#39;exa -l -s mod --git --time-style=long-iso&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
@@ -393,12 +393,12 @@
 <p><a href="https://github.com/sharkdp/fd">fd</a> is a replacement for <code>find</code> focusing on user-friendly, with simplifying options of <code>find</code>. For example, I want to edit a file but I don&rsquo;t remember what&rsquo;s its full path actually is. Usually, I need to find its full path first and then edit it:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">~$ find . -ipath <span class="s2">&#34;*how*exp*&#34;</span> -name <span class="s2">&#34;index.html&#34;</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">~$ find . -ipath <span class="s2">&#34;*how*exp*&#34;</span> -name <span class="s2">&#34;index.html&#34;</span>
 ./2017/04/17/how-i-do-exploratory-testing/index.html
 ~$ vi ./2017/04/17/how-i-do-exploratory-testing/index.html</code></pre></td></tr></table>
 </div>
@@ -406,20 +406,20 @@
 <p>Since I know the result will be only one file found, I can combine <code>vi</code> inside <code>find</code> command as well:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">~$ find . -ipath <span class="s2">&#34;*how*exp*&#34;</span> -name <span class="s2">&#34;index.html&#34;</span> -exec vi <span class="o">{}</span> <span class="se">\;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">~$ find . -ipath <span class="s2">&#34;*how*exp*&#34;</span> -name <span class="s2">&#34;index.html&#34;</span> -exec vi <span class="o">{}</span> <span class="se">\;</span></code></pre></td></tr></table>
 </div>
 </div>
 <p>With <code>fd</code>, the command is more readable:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">~$ fd -p <span class="s1">&#39;how.*exp.*/index&#39;</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">~$ fd -p <span class="s1">&#39;how.*exp.*/index&#39;</span>
 2017/04/17/how-i-do-exploratory-testing/index.html</code></pre></td></tr></table>
 </div>
 </div>
@@ -427,10 +427,10 @@
 <p><a href="https://github.com/junegunn/fzf">fzf</a> has an extremely powerful fuzzy searchability. It can nest finding steps directly with another command. I bind the key <a href="https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh"><code>ctrl-t</code> to enable fzf</a>. As the same example as above, but with <code>fzf</code>, it&rsquo;s a completely different story:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">~$ vi <span class="o">(</span>press ctrl-t<span class="o">)</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">~$ vi <span class="o">(</span>press ctrl-t<span class="o">)</span></code></pre></td></tr></table>
 </div>
 </div>
 <p class="embed">
@@ -440,10 +440,10 @@
 <p>An alias to combine <code>vim</code> and <code>fzf</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">alias</span> <span class="nv">vif</span><span class="o">=</span><span class="s1">&#39;vim $(fzf)&#39;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">alias</span> <span class="nv">vif</span><span class="o">=</span><span class="s1">&#39;vim $(fzf)&#39;</span></code></pre></td></tr></table>
 </div>
 </div>
 <h3 id="kill-fkill">kill? fkill!</h3>
@@ -456,7 +456,7 @@
 <p><em>&ldquo;UNIX&rsquo;s missing loop command.&quot;</em> <a href="https://github.com/Miserlou/Loop">loop</a> is designed to fill the gap. It works well to replace <code>watch</code>:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -465,7 +465,7 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># monitor current directory and print file list every 6 seconds</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># monitor current directory and print file list every 6 seconds</span>
 
 <span class="c1"># watch</span>
 ~$ watch -n <span class="m">6</span> ls -l
@@ -477,7 +477,7 @@
 <p>Moreover, <code>loop</code> has some awesome options to determine when to stop watching:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -485,7 +485,7 @@
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">...
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">...
 -c, --until-contains &lt;until_contains&gt;    Keep going until the output contains this string
 -r, --until-error &lt;until_error&gt;          Keep going until the command exit status is non-zero, or the value given
 -m, --until-match &lt;until_match&gt;          Keep going until the output matches this regular expression
@@ -496,10 +496,10 @@
 <p>Example: stop watching when <code>stop-now</code> file is created and then open it in vim:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">~$ loop -e 6s <span class="s1">&#39;clear;date;ls -l&#39;</span> -c <span class="s1">&#39;stop-now&#39;</span><span class="p">;</span> vi stop-now</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">~$ loop -e 6s <span class="s1">&#39;clear;date;ls -l&#39;</span> -c <span class="s1">&#39;stop-now&#39;</span><span class="p">;</span> vi stop-now</code></pre></td></tr></table>
 </div>
 </div>
 <p class="embed">
@@ -509,7 +509,7 @@
 <p>Actually, using <code>loop</code> to replace <code>for</code> command is also promising and full of pleasure:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -518,7 +518,7 @@
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># create 10 markdown files: 0.md, 1.md ... 9.md</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># create 10 markdown files: 0.md, 1.md ... 9.md</span>
 
 <span class="c1"># for</span>
 ~$ <span class="k">for</span> <span class="o">((</span><span class="nv">i</span><span class="o">=</span>0<span class="p">;</span> i &lt; 10<span class="p">;</span> i++<span class="o">))</span><span class="p">;</span> <span class="k">do</span> touch <span class="si">${</span><span class="nv">i</span><span class="si">}</span>.md<span class="p">;</span> <span class="k">done</span>

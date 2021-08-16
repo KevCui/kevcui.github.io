@@ -306,7 +306,7 @@
 <!-- prettier-ignore-start -->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -320,7 +320,7 @@
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">[alias]
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">[alias]
   a = add
   c = commit
   ca = commit --amend
@@ -344,12 +344,12 @@
 <!-- prettier-ignore-start -->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">[alias]
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">[alias]
   ...
   ac = ! git add $(git diff --name-only --diff-filter=M | fzf -m --bind &#34;ctrl-a:select-all&#34;)</code></pre></td></tr></table>
 </div>
@@ -371,12 +371,12 @@
 <!-- prettier-ignore-start -->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">[alias]
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">[alias]
   ...
   ds = ! git diff --name-only --cached | fzf --preview &#34;git diff --cached -- {} | delta&#34; --bind &#34;enter:abort+execute(git commit)&#34;</code></pre></td></tr></table>
 </div>
@@ -401,12 +401,12 @@
 <!-- prettier-ignore-start -->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">[alias]
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">[alias]
   ...
   b = ! sh -c \&#34;git blame $1 | fzf --bind &#39;enter:abort+execute(git diff-tree -p {1} | delta)&#39;\&#34;</code></pre></td></tr></table>
 </div>
@@ -423,13 +423,13 @@
 <!-- prettier-ignore-start -->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-txt" data-lang="txt">[alias]
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">[alias]
   ac = ! git add $(git diff --name-only --diff-filter=M | fzf -0 -m --reverse --height=40% --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --cycle)
   b = ! sh -c \&#34;git blame $1 | fzf -0 --ansi --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --bind &#39;enter:abort+execute(git diff-tree -p {1} | delta --theme=iceberg)&#39; --cycle\&#34;
   ds = ! git diff --name-only --cached | fzf -0 --ansi --preview-window=right:80:wrap --preview &#39;git diff --cached -- {} | delta --theme=iceberg&#39; --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --bind alt-k:preview-down,alt-j:preview-up,alt-h:preview-page-down,alt-l:preview-page-up --bind &#39;enter:abort+execute(git commit)&#39; --cycle</code></pre></td></tr></table>
@@ -439,14 +439,14 @@
 <p>For instance, if I want to update fzf preview screen key bindings for all aliases, I have to edit all aliases one by one. It&rsquo;s a bummer.</p>
 <p>Luckily, git alias can be edited via command line:</p>
 <!-- prettier-ignore-start -->
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">~$ git config --global alias.&lt;alias_name&gt; &lt;command&gt;</code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">~$ git config --global alias.&lt;alias_name&gt; &lt;command&gt;</code></pre></div>
 <!-- prettier-ignore-end -->
 <p>This creates the possibility to let Bash script handle flexibly the alias modifications. I can define some variables for the common parts in the aliases, which permits that the modifications in one location will affect all aliases at once.</p>
 <p>Here is a sample of Bash script:</p>
 <!-- prettier-ignore-start -->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt"> 1
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -464,7 +464,7 @@
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/usr/bin/env bash
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/usr/bin/env bash
 </span><span class="cp"></span><span class="c1"># remove all aliases</span>
 git config --global --remove-section <span class="nb">alias</span>
 
@@ -496,7 +496,7 @@ git config --global alias.ds <span class="s2">&#34;! </span><span class="nv">$GI
 <!-- prettier-ignore-start -->
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -507,7 +507,7 @@ git config --global alias.ds <span class="s2">&#34;! </span><span class="nv">$GI
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-zshrc" data-lang="zshrc">...
+<pre tabindex="0" class="chroma"><code class="language-zshrc" data-lang="zshrc">...
 g <span class="o">()</span> <span class="o">{</span>
     <span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">==</span> <span class="s2">&#34;am&#34;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
         git ac
