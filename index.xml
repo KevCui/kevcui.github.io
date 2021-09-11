@@ -374,51 +374,6 @@ g &lt;span class=&#34;o&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;{&
     </item>
     
     <item>
-      <title>I Don&#39;t Care?</title>
-      <link>https://kevcui.github.io/2019/09/15/i-do-care/</link>
-      <pubDate>Sun, 15 Sep 2019 10:01:24 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2019/09/15/i-do-care/</guid>
-      <description>&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://images.unsplash.com/photo-1487932451588-8f8110a354e7?ixlib=rb-1.2.1&amp;amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=1950&amp;amp;q=80&#34; alt=&#34;coverimage&#34;/&gt;
-    
-    &lt;br/&gt;
-    &lt;sup&gt;
-        &lt;em&gt;
-            Photo by &lt;a href=&#34;https://unsplash.com/photos/bFAamvcm5kc&#34;&gt;Mitch Lensink&lt;/a&gt;
-        &lt;/em&gt;
-    &lt;/sup&gt;
-    
-&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s start with your imagination: in a team discussion, someone purposes a solution to solve a certain problem. However, another person expresses a strong opinion against that solution. The discussion is heating up with arguments on two sides back and forth. You are sitting there in your zone silently and listening to the whole conversation insouciantly.&lt;/p&gt;
-&lt;p&gt;Suddenly, someone asks you, &amp;ldquo;What&amp;rsquo;s your opinion?&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;You replied without hesitation, &amp;ldquo;I don&amp;rsquo;t care.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;h3 id=&#34;i-dont-care&#34;&gt;I don&amp;rsquo;t care.&lt;/h3&gt;
-&lt;p&gt;&amp;ldquo;I don&amp;rsquo;t care&amp;rdquo; literately can be a valid answer to almost any questions. At some point, &amp;ldquo;I don&amp;rsquo;t care&amp;rdquo; may tell the true feeling and real attitude.&lt;/p&gt;
-&lt;p&gt;However, it&amp;rsquo;s a powerful conversation terminator, which not only closes the ongoing conversation but also slaps the door to refuse further conversations. Sometimes when using &amp;ldquo;I don&amp;rsquo;t care&amp;rdquo;, it can be harmful to create isolations from your colleagues.&lt;/p&gt;
-&lt;p&gt;There can be different reasons behind the conclusion &amp;ldquo;I don&amp;rsquo;t care&amp;rdquo;. To figure out what causes &amp;ldquo;I don&amp;rsquo;t care&amp;rdquo; is important to understand the context of the problem. How about giving more explicit answer using the alternative &amp;ldquo;I do care if&amp;hellip;.&amp;rdquo;&lt;/p&gt;
-&lt;h3 id=&#34;i-do-care-if&#34;&gt;I do care if&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;In &amp;ldquo;I do care if&amp;hellip;&amp;rdquo;, the if part is the condition which acts as the trigger. It explains why &amp;ldquo;I don&amp;rsquo;t care&amp;rdquo;, it&amp;rsquo;s because &amp;ldquo;if&amp;rdquo; condition is not well fulfilled. This can open a deeper conversation to think towards the root cause. For example:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;I realize the context that we were discussing the wrong problem, &lt;em&gt;&amp;ldquo;I do care if it&amp;rsquo;s really a critical problem we are discussing, however, it&amp;rsquo;s not.&amp;quot;&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I know that my inputs are useless for decision making (yes, it can happen; and yes, it sucks), &lt;em&gt;&amp;ldquo;I do care if my voice had been heard before the decision was made.&amp;quot;&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I have no ideas and I need time to think, &lt;em&gt;&amp;ldquo;I do care if I want to contribute some thoughts in this meeting. However, I have none and I need time to think.&amp;quot;&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As you can see, &amp;ldquo;I don&amp;rsquo;t care&amp;rdquo; doesn&amp;rsquo;t always mean the topic is lack of my interest. It can be many unsaying reasons. If you would like to help others understand the context of why &amp;ldquo;I don&amp;rsquo;t care&amp;rdquo;, &amp;ldquo;I do care if&amp;hellip;&amp;rdquo; might be a good alternative.&lt;/p&gt;
-&lt;p&gt;Furthermore, the conversation and discussion itself is not important in many cases. The important thing is the reflected, unnoticed, harmful work culture during the discussion. And the person who says &amp;ldquo;I don&amp;rsquo;t care&amp;rdquo; may be the one who already realized this harmful work culture before others do. If you want to know more about the context from that person, you can also use &amp;ldquo;I do care if&amp;hellip;&amp;rdquo; as an open question &amp;ldquo;In which condition, you would care about it?&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;Overall, do care when being present.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Be Quiet</title>
       <link>https://kevcui.github.io/2019/07/27/be-quiet/</link>
       <pubDate>Sat, 27 Jul 2019 10:05:24 +0200</pubDate>
@@ -1607,57 +1562,6 @@ avoid double negative
 &lt;p&gt;I have to search for a proper solution. I find that &lt;a href=&#34;https://mitmproxy.org/&#34;&gt;mitmproxy&lt;/a&gt; could be a candidate to try out. Because of open-source and the support of customized python script, it would be flexible to adapt all kinds of situations. All I need to do is to make scripts to fulfill my need. I like making my hands dirty. Luckily, mitmproxy provides a good &lt;a href=&#34;http://docs.mitmproxy.org/en/stable/&#34;&gt;documentation&lt;/a&gt; and nice &lt;a href=&#34;https://discourse.mitmproxy.org/&#34;&gt;forums&lt;/a&gt;. At the end, it&amp;rsquo;s not too hard to write &lt;a href=&#34;https://github.com/kevcui/mitm-rewrite-script&#34;&gt;mitm-rewrite-script&lt;/a&gt;, which provides me the function I need.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Tools are designed to help us to deal with the problems. Depends on the different situations and the strength &amp;amp; weakness of tools, I have to think carefully and decide which one to use. Probably mitmproxy is my new proxy-hammer, but I won&amp;rsquo;t see everything like a nail. Once I decided that it is a good time to use Charles properly, I would say loudly and confidently &amp;ldquo;&lt;strong&gt;I choose you, Charles!&lt;/strong&gt;&amp;rdquo;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>I&#39;m A Tester &amp; I&#39;m A Rubber Duck</title>
-      <link>https://kevcui.github.io/2017/06/20/i-am-a-rubber-duck/</link>
-      <pubDate>Tue, 20 Jun 2017 21:28:30 +0200</pubDate>
-      
-      <guid>https://kevcui.github.io/2017/06/20/i-am-a-rubber-duck/</guid>
-      <description>&lt;p class=&#34;coverimage&#34;&gt;
-    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*EbZDvsozz270lIhuAibaCg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
-    
-    &lt;br/&gt;
-    &lt;sup&gt;
-        &lt;em&gt;
-            Photo by &lt;a href=&#34;https://www.flickr.com/photos/silvia-m/34764790472/in/photolist-UY3D2b-9zw2em-hSV-8XAvVA&#34;&gt;Silvia Maggi&lt;/a&gt;
-        &lt;/em&gt;
-    &lt;/sup&gt;
-    
-&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;I&amp;rsquo;ll be there for you, like I&amp;rsquo;ve been there before; I&amp;rsquo;ll be there for you, &amp;lsquo;Cause you&amp;rsquo;re there for me too.&amp;rdquo; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I&amp;rsquo;m a tester. When a developer talks to me, I see myself as a &lt;a href=&#34;https://en.wikipedia.org/wiki/Rubber_duck_debugging&#34;&gt;rubber duck&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A rubber duck? Why not Winnie-the-Pooh, Pikachu or Minion? Because the color doesn&amp;rsquo;t matter 😉 But other things do matter.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m a tester, a rubber duck, you are a developer.&lt;/p&gt;
-&lt;h3 id=&#34;be-close-to-you&#34;&gt;Be close to you&lt;/h3&gt;
-&lt;p&gt;I&amp;rsquo;m a rubber duck, not an occasional bath toy. I will be bored to float in the water with soap bubbles, meanwhile showing my duck face to who is singing in the tub.&lt;/p&gt;
-&lt;p&gt;I choose to stay close to you. You can easily reach me whenever you need me, no matter when you are happy, excited, bored, confused, dispirited&amp;hellip; And I&amp;rsquo;m always prepared for any talks. I keep calm and be ready to support you to solve any problems.&lt;/p&gt;
-&lt;h3 id=&#34;listen-to-you&#34;&gt;Listen to you&lt;/h3&gt;
-&lt;p&gt;I&amp;rsquo;m a rubber duck, not a noisy quak-quak. I&amp;rsquo;m patient to listen before I talk. I&amp;rsquo;ll stay silent and become a decent listener, like the initial method of &lt;em&gt;&amp;ldquo;rubber duck problem solving&amp;rdquo;&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;For me as a tester, I feel good to understand the context and background of the solution.&lt;/p&gt;
-&lt;p&gt;For you as a developer, you feel good to speak out loudly what you are now debugging, how you plan to resolve the problem, why thing didn&amp;rsquo;t work at the first place&amp;hellip; All I want to do is listening to you and waiting for your Aha! moment. I like this magic moment, which comes suddenly during talking.&lt;/p&gt;
-&lt;h3 id=&#34;probe-your-thinking&#34;&gt;Probe your thinking&lt;/h3&gt;
-&lt;p&gt;I&amp;rsquo;m a rubber duck, not a piece of rubber-like plastic. I&amp;rsquo;m better than a rubber duck cause I&amp;rsquo;m able to ask questions.&lt;/p&gt;
-&lt;p&gt;I learned to be good at questioning. But I never question your qualification. Because I know that a good developer is a problem-solving genius. And I believe &lt;em&gt;&amp;ldquo;a junior developer is code focused; a senior developer provides solutions to problems&amp;rdquo;&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;Sometimes when you are facing pretty complicated problems, you wracked your brain but all the ideas are towards to the dead end. I&amp;rsquo;ll ask you questions &lt;strong&gt;to encourage further thought&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Sometimes when you are facing really easy problems, they can immediately offer solutions 1, 2 and 3&amp;hellip; without a second thought. I&amp;rsquo;ll ask you questions &lt;strong&gt;to clarify the real problem&lt;/strong&gt; and &lt;strong&gt;to guide you to a proper solution&lt;/strong&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;I&amp;rsquo;m a tester &amp;amp; a rubber duck, you are a developer.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m staying with you, you can use me as your reliable coding buddy.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m listening to you, you can show me your professional skill.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m encouraging you to think, you can tell me your awesome thought.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m there for you, you get my full support. 👊&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;a name=&#34;link1&#34;&gt;&lt;a href=&#34;#back1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt; The Rembrandts: &lt;a href=&#34;https://www.youtube.com/watch?v=q-9kPks0IfE&#34;&gt;I&amp;rsquo;ll be there for you&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link2&#34;&gt;&lt;a href=&#34;#back2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt; Jeff Atwood: &lt;a href=&#34;https://blog.codinghorror.com/rubber-duck-problem-solving/&#34;&gt;Rubber Duck Problem Solving&lt;/a&gt;
-&lt;br/&gt;
-&lt;a name=&#34;link3&#34;&gt;&lt;a href=&#34;#back3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt; Matt Briggs: &lt;a href=&#34;http://mattbriggs.net/blog/2015/06/01/the-role-of-a-senior-developer/&#34;&gt;The Role of a Senior Developer&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
