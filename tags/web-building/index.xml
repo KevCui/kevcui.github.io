@@ -51,7 +51,7 @@ Why hexo was chosen? Let&amp;rsquo;s start from the reasons why I ditched jekyll
     <item>
       <title>Why Hexo Why Not Jekyll</title>
       <link>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
-      <pubDate>Sun, 26 Feb 2017 16:40:26 +0000</pubDate>
+      <pubDate>Sun, 26 Feb 2017 16:40:26 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
       <description>Do you remember several months ago I wrote a post about how to build github.io blog in 3 min? At that time, I was kidding that 3 min in that post title was actually the time to finish reading that post. But today, I could make this raving come true with hexo, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore?</description>
