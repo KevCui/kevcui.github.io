@@ -22,18 +22,18 @@
     
 &lt;/p&gt;
 
-&lt;p&gt;You should have noticed the pun in the post title 😉. That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.&lt;/p&gt;
+&lt;p&gt;You should have noticed the pun in this post title 😉. That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.&lt;/p&gt;
 &lt;h3 id=&#34;turbo-intruder&#34;&gt;Turbo Intruder&lt;/h3&gt;
 &lt;p&gt;Let&amp;rsquo;s start with &lt;a href=&#34;https://github.com/PortSwigger/turbo-intruder&#34;&gt;Turbo Intruder&lt;/a&gt;. It&amp;rsquo;s one of the most (if not the most) popular Burp extensions. Basically, anyone who knew Burp extensions should have heard the name of Turbo Intruder.&lt;/p&gt;
 &lt;p&gt;The Burp Suite community edition comes with a &amp;ldquo;lite&amp;rdquo; version of Burp Intruder. The first impression of this community edition Intruder is: It has really low RPS (Request Per Second). The time you waited for finishing a 1000-request brute-forcing attack can make you grow out some gray hair, slow and anxious. Meanwhile, the Burp Pro version provides a decent speed Burp Intruder, which is suitable for daily usage.&lt;/p&gt;
 &lt;p&gt;However, Turbo Intruder is a beast on another level. It&amp;rsquo;s fast and furious. To be honest, I never hit once its full speed and I don&amp;rsquo;t know how fast it can truly go&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Another highlight of the Turbo Intruder is the customization. It supports Python scripts, which makes it flexible. You could modify any parameters as you want or add additional steps in the script to fit your needs. Personally, I find it&amp;rsquo;s pretty fort testing race conditions.&lt;/p&gt;
-&lt;p&gt;Turbo Intruder will let you forget about the full version of Burp Intruder in the Burp Pro version.&lt;/p&gt;
+&lt;p&gt;Another highlight of the Turbo Intruder is the customization. It supports Python scripts, which makes it flexible. You could modify any parameters as you want or add additional steps in the script to fit your needs. Personally, I find it&amp;rsquo;s pretty handy for testing race conditions.&lt;/p&gt;
+&lt;p&gt;Turbo Intruder will let you forget about the Burp Intruder in the Burp Pro version.&lt;/p&gt;
 &lt;h3 id=&#34;logger&#34;&gt;Logger++&lt;/h3&gt;
 &lt;p&gt;After a session of testing, you may already have collected hundreds of requests and responses in Logger or HTTP history. Sometimes, you need to search for a specific request with a certain parameter in the request URI path or a specific request with a certain value in the response&amp;hellip; It&amp;rsquo;s clearly not an option to go through all the requests and check them one by one. Missing the search function is a big deal in the Burp Suite community edition.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/nccgroup/LoggerPlusPlus&#34;&gt;Logger++&lt;/a&gt; provides enhanced search functionality. Among all the features in Logg++, I find its grep tool is the most useful feature. As the name suggested, you could &amp;ldquo;grep&amp;rdquo; logs with matched patterns:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/nccgroup/LoggerPlusPlus&#34;&gt;Logger++&lt;/a&gt; provides enhanced search functionality. Among all the features in Logger++, I find its grep tool is the most useful feature. As the name suggested, you could &amp;ldquo;grep&amp;rdquo; logs with matched patterns:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/nccgroup/LoggerPlusPlus/master/images/grep.png&#34; alt=&#34;logger++ grep values&#34;&gt;&lt;/p&gt;
-&lt;p&gt;If you are using Logger++ already, I&amp;rsquo;m pretty sure you won&amp;rsquo;t open Burp Logger anymore, and you won&amp;rsquo;t ask for the search functionality in the Burp Pro version either.&lt;/p&gt;
+&lt;p&gt;If you are using Logger++ already, I&amp;rsquo;m pretty sure you won&amp;rsquo;t open Burp Logger anymore, and you won&amp;rsquo;t mind using the search functionality in the Burp Pro version either.&lt;/p&gt;
 &lt;h3 id=&#34;interactsh-collaborator&#34;&gt;Interactsh Collaborator&lt;/h3&gt;
 &lt;p&gt;The Burp Collaborator is a killer tool in the Burp Pro version. It&amp;rsquo;s valuable for testing OOB (Out-of-band), or generating temporary email addresses&amp;hellip;&lt;/p&gt;
 &lt;p&gt;Don&amp;rsquo;t be sad yet if you cannot use Collaborator in the community edition. Because if you know &lt;a href=&#34;https://github.com/wdahlenburg/interactsh-collaborator&#34;&gt;interactsh-collaborator&lt;/a&gt; extension, you won&amp;rsquo;t miss a thing.&lt;/p&gt;
