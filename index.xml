@@ -22,7 +22,7 @@
     
 &lt;/p&gt;
 
-&lt;p&gt;You should have noticed the pun in the post title :) That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.&lt;/p&gt;
+&lt;p&gt;You should have noticed the pun in the post title 😉. That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.&lt;/p&gt;
 &lt;h3 id=&#34;turbo-intruder&#34;&gt;Turbo Intruder&lt;/h3&gt;
 &lt;p&gt;Let&amp;rsquo;s start with &lt;a href=&#34;https://github.com/PortSwigger/turbo-intruder&#34;&gt;Turbo Intruder&lt;/a&gt;. It&amp;rsquo;s one of the most (if not the most) popular Burp extensions. Basically, anyone who knew Burp extensions should have heard the name of Turbo Intruder.&lt;/p&gt;
 &lt;p&gt;The Burp Suite community edition comes with a &amp;ldquo;lite&amp;rdquo; version of Burp Intruder. The first impression of this community edition Intruder is: It has really low RPS (Request Per Second). The time you waited for finishing a 1000-request brute-forcing attack can make you grow out some gray hair, slow and anxious. Meanwhile, the Burp Pro version provides a decent speed Burp Intruder, which is suitable for daily usage.&lt;/p&gt;
