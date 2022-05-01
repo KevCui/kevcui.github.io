@@ -279,48 +279,48 @@
 <li>Branch <strong>master</strong>: public/ folder with all the generated static files</li>
 </ul>
 <p>Then I need to link the <strong>public/</strong> to <strong>master</strong> branch:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">rm -rf public
-rm -rf ./worktrees
-git worktree add -B master public origin/master
-</code></pre></div><h3 id="create-deploy-script">Create deploy script</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">rm -rf public
+</span></span><span class="line"><span class="cl">rm -rf ./worktrees
+</span></span><span class="line"><span class="cl">git worktree add -B master public origin/master
+</span></span></code></pre></div><h3 id="create-deploy-script">Create deploy script</h3>
 <p>Here is my deploy script <a href="https://github.com/kevcui/kevcui.github.io/blob/hugo/deploy.sh">deploy.sh</a>. The theme I&rsquo;m using is <a href="https://github.com/kevcui/uno">uno</a>:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh">
-<span class="c1">#!/bin/sh</span>
-
-<span class="c1"># Create worktree</span>
-<span class="c1"># git worktree add -B master public origin/master</span>
-
-<span class="c1"># Build the project.</span>
-hugo -t uno
-
-<span class="c1"># Go To Public folder</span>
-<span class="nb">cd</span> public
-
-<span class="c1"># Add changes to git.</span>
-git add -A
-
-<span class="c1"># Remove original js files</span>
-<span class="nb">cd</span> js
-ls -1 --color<span class="o">=</span>none <span class="p">|</span> grep -v <span class="s2">&#34;min.js&#34;</span> <span class="p">|</span> xargs rm -f
-
-<span class="c1"># Remove original css files</span>
-<span class="nb">cd</span> ../css
-ls -1 --color<span class="o">=</span>none <span class="p">|</span> grep -v <span class="s2">&#34;min.css&#34;</span> <span class="p">|</span> xargs rm -f
-<span class="nb">cd</span> ..
-
-<span class="c1"># Commit changes.</span>
-<span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;rebuilding site `date`&#34;</span>
-<span class="k">if</span> <span class="o">[</span> <span class="nv">$#</span> -eq <span class="m">1</span> <span class="o">]</span>
-    <span class="k">then</span> <span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>
-<span class="k">fi</span>
-git commit -m <span class="s2">&#34;</span><span class="nv">$msg</span><span class="s2">&#34;</span>
-
-<span class="c1"># Push source and build repos.</span>
-git push origin master
-
-<span class="c1"># Come back</span>
-<span class="nb">cd</span> ..
-</code></pre></div><p>Every time after running the script deploy.sh, it will generate new static files and push them to master branch. The changes will be published immediately by Github Pages.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#!/bin/sh</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Create worktree</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># git worktree add -B master public origin/master</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Build the project.</span>
+</span></span><span class="line"><span class="cl">hugo -t uno
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Go To Public folder</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Add changes to git.</span>
+</span></span><span class="line"><span class="cl">git add -A
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Remove original js files</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> js
+</span></span><span class="line"><span class="cl">ls -1 --color<span class="o">=</span>none <span class="p">|</span> grep -v <span class="s2">&#34;min.js&#34;</span> <span class="p">|</span> xargs rm -f
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Remove original css files</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ../css
+</span></span><span class="line"><span class="cl">ls -1 --color<span class="o">=</span>none <span class="p">|</span> grep -v <span class="s2">&#34;min.css&#34;</span> <span class="p">|</span> xargs rm -f
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Commit changes.</span>
+</span></span><span class="line"><span class="cl"><span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;rebuilding site `date`&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="o">[</span> <span class="nv">$#</span> -eq <span class="m">1</span> <span class="o">]</span>
+</span></span><span class="line"><span class="cl">    <span class="k">then</span> <span class="nv">msg</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="k">fi</span>
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;</span><span class="nv">$msg</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Push source and build repos.</span>
+</span></span><span class="line"><span class="cl">git push origin master
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Come back</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span></code></pre></div><p>Every time after running the script deploy.sh, it will generate new static files and push them to master branch. The changes will be published immediately by Github Pages.</p>
 <p>That&rsquo;s all, a piece of 🍰</p>
 
           </section>

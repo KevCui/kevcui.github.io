@@ -270,68 +270,68 @@
 <h3 id="json-prettier">JSON Prettier</h3>
 <p>When we <code>curl</code> API to fetch JSON response with raw data. It certainly looks messy:</p>
 <!-- prettier-ignore-start -->
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ curl https://api.spacexdata.com/v4/launches/latest
-<span class="o">{</span><span class="s2">&#34;fairings&#34;</span>:<span class="o">{</span><span class="s2">&#34;reused&#34;</span>:false,<span class="s2">&#34;recovery_attempt&#34;</span>:true,<span class="s2">&#34;recovered&#34;</span>:null,<span class="s2">&#34;ships&#34;</span>:<span class="o">[</span><span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,<span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span><span class="o">]}</span>,...<span class="s2">&#34;id&#34;</span>:<span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span><span class="o">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ curl https://api.spacexdata.com/v4/launches/latest
+</span></span><span class="line"><span class="cl"><span class="o">{</span><span class="s2">&#34;fairings&#34;</span>:<span class="o">{</span><span class="s2">&#34;reused&#34;</span>:false,<span class="s2">&#34;recovery_attempt&#34;</span>:true,<span class="s2">&#34;recovered&#34;</span>:null,<span class="s2">&#34;ships&#34;</span>:<span class="o">[</span><span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,<span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span><span class="o">]}</span>,...<span class="s2">&#34;id&#34;</span>:<span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span><span class="o">}</span></span></span></code></pre></div>
 <!-- prettier-ignore-end -->
 <p>Now let&rsquo;s toss raw data into <code>jq</code> and make it look prettier:</p>
 <!-- prettier-ignore-start -->
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ curl https://api.spacexdata.com/v4/launches/latest <span class="p">|</span> jq
-<span class="o">{</span>
-  <span class="s2">&#34;fairings&#34;</span>: <span class="o">{</span>
-    <span class="s2">&#34;reused&#34;</span>: false,
-    <span class="s2">&#34;recovery_attempt&#34;</span>: true,
-    <span class="s2">&#34;recovered&#34;</span>: null,
-    <span class="s2">&#34;ships&#34;</span>: <span class="o">[</span>
-      <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,
-      <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span>
-    <span class="o">]</span>
-  <span class="o">}</span>,
-  ...
-  <span class="s2">&#34;id&#34;</span>: <span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span>
-<span class="o">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ curl https://api.spacexdata.com/v4/launches/latest <span class="p">|</span> jq
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;fairings&#34;</span>: <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;reused&#34;</span>: false,
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;recovery_attempt&#34;</span>: true,
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;recovered&#34;</span>: null,
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;ships&#34;</span>: <span class="o">[</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>,
+</span></span><span class="line"><span class="cl">  ...
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;id&#34;</span>: <span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span></span></span></code></pre></div>
 <!-- prettier-ignore-end -->
 <p>In the opposite way, when we got some pretty-printed JSON data and want to concatenate them to a one-line string, using <code>jq -c</code>:</p>
 <!-- prettier-ignore-start -->
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ curl https://api.spacexdata.com/v4/launches/latest <span class="p">|</span> jq &gt; example.json
-
-$ cat example.json
-<span class="o">{</span>
-  <span class="s2">&#34;fairings&#34;</span>: <span class="o">{</span>
-    <span class="s2">&#34;reused&#34;</span>: false,
-    <span class="s2">&#34;recovery_attempt&#34;</span>: true,
-    <span class="s2">&#34;recovered&#34;</span>: null,
-    <span class="s2">&#34;ships&#34;</span>: <span class="o">[</span>
-      <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,
-      <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span>
-    <span class="o">]</span>
-  <span class="o">}</span>,
-  ...
-  <span class="s2">&#34;id&#34;</span>: <span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span>
-<span class="o">}</span>
-
-$ cat example.json <span class="p">|</span> jq -c
-<span class="o">{</span><span class="s2">&#34;fairings&#34;</span>:<span class="o">{</span><span class="s2">&#34;reused&#34;</span>:false,<span class="s2">&#34;recovery_attempt&#34;</span>:true,<span class="s2">&#34;recovered&#34;</span>:null,<span class="s2">&#34;ships&#34;</span>:<span class="o">[</span><span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,<span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span><span class="o">]}</span>,...<span class="s2">&#34;id&#34;</span>:<span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span><span class="o">}</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ curl https://api.spacexdata.com/v4/launches/latest <span class="p">|</span> jq &gt; example.json
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ cat example.json
+</span></span><span class="line"><span class="cl"><span class="o">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;fairings&#34;</span>: <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;reused&#34;</span>: false,
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;recovery_attempt&#34;</span>: true,
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;recovered&#34;</span>: null,
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;ships&#34;</span>: <span class="o">[</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">]</span>
+</span></span><span class="line"><span class="cl">  <span class="o">}</span>,
+</span></span><span class="line"><span class="cl">  ...
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;id&#34;</span>: <span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ cat example.json <span class="p">|</span> jq -c
+</span></span><span class="line"><span class="cl"><span class="o">{</span><span class="s2">&#34;fairings&#34;</span>:<span class="o">{</span><span class="s2">&#34;reused&#34;</span>:false,<span class="s2">&#34;recovery_attempt&#34;</span>:true,<span class="s2">&#34;recovered&#34;</span>:null,<span class="s2">&#34;ships&#34;</span>:<span class="o">[</span><span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>,<span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span><span class="o">]}</span>,...<span class="s2">&#34;id&#34;</span>:<span class="s2">&#34;5ef6a2e70059c33cee4a8293&#34;</span><span class="o">}</span></span></span></code></pre></div>
 <!-- prettier-ignore-end -->
 <h3 id="json-validator">JSON Validator</h3>
 <p>jq can be served as a simple JSON validator, for instance:</p>
 <!-- prettier-ignore-start -->
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">echo</span> <span class="s1">&#39;{&#34;fairings&#34;:{&#34;reused&#34;:false,, &#34;recovery_attempt&#34;:true}}&#39;</span> <span class="p">|</span> jq
-parse error: Expected value before <span class="s1">&#39;,&#39;</span> at line 1, column <span class="m">29</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">echo</span> <span class="s1">&#39;{&#34;fairings&#34;:{&#34;reused&#34;:false,, &#34;recovery_attempt&#34;:true}}&#39;</span> <span class="p">|</span> jq
+</span></span><span class="line"><span class="cl">parse error: Expected value before <span class="s1">&#39;,&#39;</span> at line 1, column <span class="m">29</span></span></span></code></pre></div>
 <!-- prettier-ignore-end -->
 <p>Because its output doesn&rsquo;t give much information to pinpoint directly the error in an obvious way, it&rsquo;s better to use a proper validator for some complex cases. But for some quick checks to validate JSON data, jq can be considered as a suitable choice.</p>
 <h3 id="json-pathfinder">JSON Pathfinder</h3>
 <p>Analyzing JSON files and finding the correct path syntax to a certain value sometimes can be troublesome. Many times, I was punched hard by the frustration of trial and error. Until one day, this magic jq command line brings me the light: <code>jq -r 'paths(scalars) as $p | &quot;.&quot; + ([([$p[] | tostring] | join(&quot;.&quot;)), (getpath($p) | tojson)] | join(&quot;: &quot;))'</code>.</p>
 <p>Let&rsquo;s use the same <code>curl</code> data from the previous example, in this case, I want to get the path syntax of <code>ships</code> ids:</p>
 <!-- prettier-ignore-start -->
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ curl https://api.spacexdata.com/v4/launches/latest <span class="se">\
-</span><span class="se"></span><span class="p">|</span> jq -r <span class="s1">&#39;paths(scalars) as $p | &#34;.&#34; + ([([$p[] | tostring] | join(&#34;.&#34;)), (getpath($p) | tojson)] | join(&#34;: &#34;))&#39;</span> <span class="se">\
-</span><span class="se"></span><span class="p">|</span> grep <span class="s1">&#39;.ships&#39;</span>
-.fairings.ships.0: <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>
-.fairings.ships.1: <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span>
-.ships.0: <span class="s2">&#34;5ea6ed2f080df4000697c910&#34;</span>
-.ships.1: <span class="s2">&#34;5ea6ed2f080df4000697c90b&#34;</span>
-.ships.2: <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>
-.ships.3: <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ curl https://api.spacexdata.com/v4/launches/latest <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="p">|</span> jq -r <span class="s1">&#39;paths(scalars) as $p | &#34;.&#34; + ([([$p[] | tostring] | join(&#34;.&#34;)), (getpath($p) | tojson)] | join(&#34;: &#34;))&#39;</span> <span class="se">\
+</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="p">|</span> grep <span class="s1">&#39;.ships&#39;</span>
+</span></span><span class="line"><span class="cl">.fairings.ships.0: <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>
+</span></span><span class="line"><span class="cl">.fairings.ships.1: <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span>
+</span></span><span class="line"><span class="cl">.ships.0: <span class="s2">&#34;5ea6ed2f080df4000697c910&#34;</span>
+</span></span><span class="line"><span class="cl">.ships.1: <span class="s2">&#34;5ea6ed2f080df4000697c90b&#34;</span>
+</span></span><span class="line"><span class="cl">.ships.2: <span class="s2">&#34;5ea6ed2e080df4000697c907&#34;</span>
+</span></span><span class="line"><span class="cl">.ships.3: <span class="s2">&#34;5ea6ed2e080df4000697c908&#34;</span></span></span></code></pre></div>
 <!-- prettier-ignore-end -->
 <p>From the output, now I know the right path syntax is <code>.ships[]</code>.</p>
 <p>As you can see from this example, this magic jq command line will print each path and value pair from the input JSON. Combing with <code>grep</code> command, it&rsquo;s sufficient to be used as a handy JSON pathfinder.</p>

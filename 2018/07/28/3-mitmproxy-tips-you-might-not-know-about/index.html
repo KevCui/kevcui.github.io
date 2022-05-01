@@ -292,7 +292,7 @@
 <li><a href="https://docs.mitmproxy.org/stable/overview-installation/">Do you know how to install mitmproxy?</a></li>
 <li><a href="https://docs.mitmproxy.org/stable/concepts-certificates/">Do you know how to install CA cert on a client side?</a></li>
 </ul>
-<p>If these questions are way too easy for you and your answers are <em>&ldquo;Yes! Yes! Yes!&quot;</em>, then continue reading. Otherwise, please click and read the links above, and see you here later.</p>
+<p>If these questions are way too easy for you and your answers are <em>&ldquo;Yes! Yes! Yes!&rdquo;</em>, then continue reading. Otherwise, please click and read the links above, and see you here later.</p>
 <h3 id="tips-1-custom-configuration-and-key-binding">Tips 1: Custom configuration and key binding</h3>
 <p>One of the advantages of mitmproxy is highly customizable. It&rsquo;s convenient to set up once configurations that every time mitmproxy loads them automatically when it starts. All the available handy <strong>options</strong> are in the <a href="https://docs.mitmproxy.org/stable/concepts-options/">mitmproxy document</a>. Here is my <code>~/.mitmproxy/config.yaml</code>:</p>
 <div class="highlight"><div class="chroma">
@@ -304,11 +304,11 @@
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">console_palette</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;dark&#34;</span><span class="w">
-</span><span class="w"></span><span class="nt">console_palette_transparent</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
-</span><span class="w"></span><span class="nt">console_mouse</span><span class="p">:</span><span class="w"> </span><span class="kc">False</span><span class="w">
-</span><span class="w"></span><span class="nt">console_focus_follow</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
-</span><span class="w"></span><span class="nt">ignore_hosts</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">console_palette</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;dark&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">console_palette_transparent</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">console_mouse</span><span class="p">:</span><span class="w"> </span><span class="kc">False</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">console_focus_follow</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">ignore_hosts</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>As I&rsquo;m using <a href="/2017/08/27/one-week-with-colemak/">colemak keyboard layout</a>, <em>j</em> and <em>k</em> keys are opposite for the navigation of up and down in mitmproxy. I have to change these 2 keys to make navigation smooth. Before, to change key bindings in old versions, I have to hack around code in <code>defaultkeys.py</code>. Since <a href="https://mitmproxy.org/posts/releases/mitmproxy4/">mitmproxy v4.0</a>, custom key binding is finally officially supported! Here are my key bindings in <code>~/.mitmproxy/keys.yaml</code>:</p>
@@ -328,18 +328,18 @@
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml">-<span class="w">
-</span><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">j</span><span class="w">
-</span><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.up</span><span class="w">
-</span><span class="w"></span>-<span class="w">
-</span><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">k</span><span class="w">
-</span><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.down</span><span class="w">
-</span><span class="w"></span>-<span class="w">
-</span><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">l</span><span class="w">
-</span><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;flowlist&#34;</span><span class="p">]</span><span class="w">
-</span><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.select</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">-<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">j</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.up</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span>-<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">k</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.down</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span>-<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">l</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;flowlist&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.select</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>To know more about which <strong>command</strong> to use in <strong>cmd</strong> field, type <code>K</code> (shift + k) in mitmproxy. A list of current key bindings will show up. More information about key binging configuration is in the <a href="https://docs.mitmproxy.org/stable/tools-mitmproxy/">mitmproxy document</a>.</p>

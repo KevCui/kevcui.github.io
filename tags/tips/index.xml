@@ -6,7 +6,17 @@
     <description>Recent content in tips on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 28 Jul 2018 15:13:04 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 13:44:59 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Burp Suite Community Edition Like A Pro</title>
+      <link>https://kevcui.github.io/2022/05/01/use-burp-suite-community-edition-like-a-pro/</link>
+      <pubDate>Sun, 01 May 2022 13:44:59 +0200</pubDate>
+      
+      <guid>https://kevcui.github.io/2022/05/01/use-burp-suite-community-edition-like-a-pro/</guid>
+      <description>You should have noticed the pun in the post title :) That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.
+Turbo Intruder Let&amp;rsquo;s start with Turbo Intruder. It&amp;rsquo;s one of the most (if not the most) popular Burp extensions. Basically, anyone who knew Burp extensions should have heard the name of Turbo Intruder.</description>
+    </item>
+    
     <item>
       <title>3 mitmproxy Tips You Might Not Know About</title>
       <link>https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/</link>

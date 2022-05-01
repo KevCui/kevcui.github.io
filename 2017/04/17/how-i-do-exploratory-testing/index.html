@@ -305,14 +305,14 @@
 <li>&hellip;</li>
 </ul>
 <p>For example:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">Region x Implementation versus Request: Does this feature need to be available <span class="k">for</span> all customers or only <span class="k">for</span> a specific region?
-OS x Implementation versus Problem: Does this feature work on iOS <span class="m">7</span> devices?
-</code></pre></div><br/>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Region x Implementation versus Request: Does this feature need to be available <span class="k">for</span> all customers or only <span class="k">for</span> a specific region?
+</span></span><span class="line"><span class="cl">OS x Implementation versus Problem: Does this feature work on iOS <span class="m">7</span> devices?
+</span></span></code></pre></div><br/>
 Then I will put the ideas or assumptions shortly on a to-do list:
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">Testing ideas:
-<span class="o">[</span> <span class="o">]</span> Support all regions?
-<span class="o">[</span> <span class="o">]</span> iOS <span class="m">7</span>
-</code></pre></div><h4 id="stage-2-go-explore">Stage 2: Go explore</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Testing ideas:
+</span></span><span class="line"><span class="cl"><span class="o">[</span> <span class="o">]</span> Support all regions?
+</span></span><span class="line"><span class="cl"><span class="o">[</span> <span class="o">]</span> iOS <span class="m">7</span>
+</span></span></code></pre></div><h4 id="stage-2-go-explore">Stage 2: Go explore</h4>
 <p><strong>Timebox</strong>: 30 min</p>
 <p>This stage is the most exciting one. The key is to <strong>discover</strong> and to <strong>collect</strong>. Before starting exploring, a time box is rather important, which forces me to proceed with the next steps. Otherwise, I could probably explore forever far around and way deeper.</p>
 <p>Remember the to-do list earlier I got in the first stage? Now it&rsquo;s time to make hands dirty using the ideas, I call them seeds, as initial starting points to discover the unknown. Following and focusing on one seed to perform some checks, I will start to collect new seeds:</p>
@@ -323,35 +323,35 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 <p>Once I got a finding or a question, I will make a quick note with the necessary screenshot and video record.</p>
 <p>After one seed is finished, I will continue to explore anther seed. One seed at a time, seed by seed until timeout. You probably have a question in your mind &ldquo;When one seed is done, what to pick as the next seed?&rdquo; I have a rule of thumb for priority: seed on top of the list has higher priority to explore.</p>
 <p>After 30 min, my to-do list looks like:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell">Testing ideas:
-<span class="o">[</span>?<span class="o">]</span> Support all regions?
-    <span class="o">[</span>x<span class="o">]</span> Europe
-    <span class="o">[</span>?<span class="o">]</span> Asia: no response from <span class="nv">API</span>
-        <span class="o">=</span>&gt; Question <span class="m">1</span>
-<span class="o">[</span>-<span class="o">]</span> iOS <span class="nv">7</span>
-    <span class="o">=</span>&gt; Issue <span class="m">1</span>
-<span class="o">[</span>-<span class="o">]</span> No interent
-    <span class="o">[</span>x<span class="o">]</span> Error message
-    <span class="o">[</span>x<span class="o">]</span> retry when internet is back
-    <span class="o">[</span>x<span class="o">]</span> app restart when no internet
-<span class="o">[</span>?<span class="o">]</span> <span class="nv">Animation</span>
-    <span class="o">=</span>&gt; Question <span class="m">2</span>
-<span class="o">[</span> <span class="o">]</span> Performace of new API request?
-
-Question 1: need API response <span class="k">for</span> Asia?
-Need check with backend team: this feature is not available <span class="k">for</span> Asia users?
-&lt;Screenshot of API request and response&gt;
-
-Question 2: Refresh animation feels laggy
-Need check with designer and developer: make a nicer animation
-
-Issue 1: crash on iOS <span class="m">7</span>
-&lt;device info&gt;
-- &lt;step 1&gt;
-- &lt;step 2&gt;
-- &lt;step 3&gt;
-&lt;crash stack traces&gt;
-</code></pre></div><h4 id="stage-3-give-feedback">Stage 3: Give feedback</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">Testing ideas:
+</span></span><span class="line"><span class="cl"><span class="o">[</span>?<span class="o">]</span> Support all regions?
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>x<span class="o">]</span> Europe
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>?<span class="o">]</span> Asia: no response from <span class="nv">API</span>
+</span></span><span class="line"><span class="cl">        <span class="o">=</span>&gt; Question <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> iOS <span class="nv">7</span>
+</span></span><span class="line"><span class="cl">    <span class="o">=</span>&gt; Issue <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> No interent
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>x<span class="o">]</span> Error message
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>x<span class="o">]</span> retry when internet is back
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>x<span class="o">]</span> app restart when no internet
+</span></span><span class="line"><span class="cl"><span class="o">[</span>?<span class="o">]</span> <span class="nv">Animation</span>
+</span></span><span class="line"><span class="cl">    <span class="o">=</span>&gt; Question <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span> <span class="o">]</span> Performace of new API request?
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Question 1: need API response <span class="k">for</span> Asia?
+</span></span><span class="line"><span class="cl">Need check with backend team: this feature is not available <span class="k">for</span> Asia users?
+</span></span><span class="line"><span class="cl">&lt;Screenshot of API request and response&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Question 2: Refresh animation feels laggy
+</span></span><span class="line"><span class="cl">Need check with designer and developer: make a nicer animation
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Issue 1: crash on iOS <span class="m">7</span>
+</span></span><span class="line"><span class="cl">&lt;device info&gt;
+</span></span><span class="line"><span class="cl">- &lt;step 1&gt;
+</span></span><span class="line"><span class="cl">- &lt;step 2&gt;
+</span></span><span class="line"><span class="cl">- &lt;step 3&gt;
+</span></span><span class="line"><span class="cl">&lt;crash stack traces&gt;
+</span></span></code></pre></div><h4 id="stage-3-give-feedback">Stage 3: Give feedback</h4>
 <p><strong>Time estimation</strong>: 15 min</p>
 <p>The key to this stage is to <strong>share knowledge</strong>. I&rsquo;ve some questions and issues on my list collected from the previous stage and I know who I need to contact. Can I just throw my feedback on their face directly? I hope I can but apparently nope.</p>
 <p>Regarding the questions, it needs to have a proper conversation to remove misunderstandings and ambiguities:</p>

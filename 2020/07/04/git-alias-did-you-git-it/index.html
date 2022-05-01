@@ -320,18 +320,18 @@
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">[alias]
-  a = add
-  c = commit
-  ca = commit --amend
-  ci = commit -m
-  cm = commit -m
-  co = checkout
-  di = diff
-  p = push origin
-  pl = pull
-  rsthrd = reset --hard origin/master
-  s = status</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">[alias]
+</span></span><span class="line"><span class="cl">  a = add
+</span></span><span class="line"><span class="cl">  c = commit
+</span></span><span class="line"><span class="cl">  ca = commit --amend
+</span></span><span class="line"><span class="cl">  ci = commit -m
+</span></span><span class="line"><span class="cl">  cm = commit -m
+</span></span><span class="line"><span class="cl">  co = checkout
+</span></span><span class="line"><span class="cl">  di = diff
+</span></span><span class="line"><span class="cl">  p = push origin
+</span></span><span class="line"><span class="cl">  pl = pull
+</span></span><span class="line"><span class="cl">  rsthrd = reset --hard origin/master
+</span></span><span class="line"><span class="cl">  s = status</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <!-- prettier-ignore-end -->
@@ -349,9 +349,9 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">[alias]
-  ...
-  ac = ! git add $(git diff --name-only --diff-filter=M | fzf -m --bind &#34;ctrl-a:select-all&#34;)</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">[alias]
+</span></span><span class="line"><span class="cl">  ...
+</span></span><span class="line"><span class="cl">  ac = ! git add $(git diff --name-only --diff-filter=M | fzf -m --bind &#34;ctrl-a:select-all&#34;)</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <!-- prettier-ignore-end -->
@@ -376,9 +376,9 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">[alias]
-  ...
-  ds = ! git diff --name-only --cached | fzf --preview &#34;git diff --cached -- {} | delta&#34; --bind &#34;enter:abort+execute(git commit)&#34;</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">[alias]
+</span></span><span class="line"><span class="cl">  ...
+</span></span><span class="line"><span class="cl">  ds = ! git diff --name-only --cached | fzf --preview &#34;git diff --cached -- {} | delta&#34; --bind &#34;enter:abort+execute(git commit)&#34;</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <!-- prettier-ignore-end -->
@@ -406,9 +406,9 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">[alias]
-  ...
-  b = ! sh -c \&#34;git blame $1 | fzf --bind &#39;enter:abort+execute(git diff-tree -p {1} | delta)&#39;\&#34;</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">[alias]
+</span></span><span class="line"><span class="cl">  ...
+</span></span><span class="line"><span class="cl">  b = ! sh -c \&#34;git blame $1 | fzf --bind &#39;enter:abort+execute(git diff-tree -p {1} | delta)&#39;\&#34;</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <!-- prettier-ignore-end -->
@@ -429,17 +429,17 @@
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt">[alias]
-  ac = ! git add $(git diff --name-only --diff-filter=M | fzf -0 -m --reverse --height=40% --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --cycle)
-  b = ! sh -c \&#34;git blame $1 | fzf -0 --ansi --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --bind &#39;enter:abort+execute(git diff-tree -p {1} | delta --theme=iceberg)&#39; --cycle\&#34;
-  ds = ! git diff --name-only --cached | fzf -0 --ansi --preview-window=right:80:wrap --preview &#39;git diff --cached -- {} | delta --theme=iceberg&#39; --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --bind alt-k:preview-down,alt-j:preview-up,alt-h:preview-page-down,alt-l:preview-page-up --bind &#39;enter:abort+execute(git commit)&#39; --cycle</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">[alias]
+</span></span><span class="line"><span class="cl">  ac = ! git add $(git diff --name-only --diff-filter=M | fzf -0 -m --reverse --height=40% --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --cycle)
+</span></span><span class="line"><span class="cl">  b = ! sh -c \&#34;git blame $1 | fzf -0 --ansi --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --bind &#39;enter:abort+execute(git diff-tree -p {1} | delta --theme=iceberg)&#39; --cycle\&#34;
+</span></span><span class="line"><span class="cl">  ds = ! git diff --name-only --cached | fzf -0 --ansi --preview-window=right:80:wrap --preview &#39;git diff --cached -- {} | delta --theme=iceberg&#39; --bind tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all --bind alt-k:preview-down,alt-j:preview-up,alt-h:preview-page-down,alt-l:preview-page-up --bind &#39;enter:abort+execute(git commit)&#39; --cycle</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <!-- prettier-ignore-end -->
 <p>For instance, if I want to update fzf preview screen key bindings for all aliases, I have to edit all aliases one by one. It&rsquo;s a bummer.</p>
 <p>Luckily, git alias can be edited via command line:</p>
 <!-- prettier-ignore-start -->
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">~$ git config --global alias.&lt;alias_name&gt; &lt;command&gt;</code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">~$ git config --global alias.&lt;alias_name&gt; &lt;command&gt;</span></span></code></pre></div>
 <!-- prettier-ignore-end -->
 <p>This creates the possibility to let Bash script handle flexibly the alias modifications. I can define some variables for the common parts in the aliases, which permits that the modifications in one location will affect all aliases at once.</p>
 <p>Here is a sample of Bash script:</p>
@@ -464,22 +464,22 @@
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="cp">#!/usr/bin/env bash
-</span><span class="cp"></span><span class="c1"># remove all aliases</span>
-git config --global --remove-section <span class="nb">alias</span>
-
-<span class="c1"># set variables</span>
-<span class="nv">FZF_KEYBINDING</span><span class="o">=</span><span class="s2">&#34;tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all&#34;</span>
-<span class="nv">FZF_PREVIEW_KEYBINDING</span><span class="o">=</span><span class="s2">&#34;alt-k:preview-down,alt-j:preview-up,alt-h:preview-page-down,alt-l:preview-page-up&#34;</span>
-<span class="nv">DIFF_CMD</span><span class="o">=</span><span class="s2">&#34;delta --theme=iceberg&#34;</span>
-<span class="nv">GIT_DIFF_NAME</span><span class="o">=</span><span class="s2">&#34;git diff --name-only&#34;</span>
-<span class="nv">GIT_DIFF_NAME_CACHED</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$GIT_DIFF_NAME</span><span class="s2"> --cached&#34;</span>
-<span class="nv">GIT_DIFF_TREE</span><span class="o">=</span><span class="s2">&#34;git diff-tree -p {1}&#34;</span>
-
-<span class="c1"># define alias</span>
-git config --global alias.ac <span class="s2">&#34;! git add \$(</span><span class="nv">$GIT_DIFF_NAME</span><span class="s2"> --diff-filter=M | fzf -0 -m --reverse --height=40% --bind </span><span class="nv">$FZF_KEYBINDING</span><span class="s2"> --cycle)&#34;</span>
-git config --global alias.b <span class="s1">&#39;! sh -c &#34;git blame $1 | fzf -0 --ansi --bind &#39;</span><span class="s2">&#34;</span><span class="nv">$FZF_KEYBINDING</span><span class="s2">&#34;</span><span class="s1">&#39; --bind &#39;</span><span class="se">\&#39;</span><span class="s1">&#39;enter:abort+execute(&#39;</span><span class="s2">&#34;</span><span class="nv">$GIT_DIFF_TREE</span><span class="s2">&#34;</span><span class="s1">&#39; | &#39;</span><span class="s2">&#34;</span><span class="nv">$DIFF_CMD</span><span class="s2">&#34;</span><span class="s1">&#39;)&#39;</span><span class="se">\&#39;</span><span class="s1">&#39; --cycle&#34;&#39;</span>
-git config --global alias.ds <span class="s2">&#34;! </span><span class="nv">$GIT_DIFF_NAME_CACHED</span><span class="s2"> | fzf -0 --ansi --preview-window=right:80:wrap --preview &#39;git diff --cached -- {} | </span><span class="nv">$DIFF_CMD</span><span class="s2">&#39; --bind </span><span class="nv">$FZF_KEYBINDING</span><span class="s2"> --bind </span><span class="nv">$FZF_PREVIEW_KEYBINDING</span><span class="s2"> --bind &#39;enter:abort+execute(git commit)&#39; --cycle&#34;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/usr/bin/env bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="c1"># remove all aliases</span>
+</span></span><span class="line"><span class="cl">git config --global --remove-section <span class="nb">alias</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># set variables</span>
+</span></span><span class="line"><span class="cl"><span class="nv">FZF_KEYBINDING</span><span class="o">=</span><span class="s2">&#34;tab:down,btab:up,ctrl-j:up,ctrl-k:down,change:top,alt-space:toggle,ctrl-a:select-all,ctrl-u:deselect-all&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">FZF_PREVIEW_KEYBINDING</span><span class="o">=</span><span class="s2">&#34;alt-k:preview-down,alt-j:preview-up,alt-h:preview-page-down,alt-l:preview-page-up&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">DIFF_CMD</span><span class="o">=</span><span class="s2">&#34;delta --theme=iceberg&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">GIT_DIFF_NAME</span><span class="o">=</span><span class="s2">&#34;git diff --name-only&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">GIT_DIFF_NAME_CACHED</span><span class="o">=</span><span class="s2">&#34;</span><span class="nv">$GIT_DIFF_NAME</span><span class="s2"> --cached&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nv">GIT_DIFF_TREE</span><span class="o">=</span><span class="s2">&#34;git diff-tree -p {1}&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># define alias</span>
+</span></span><span class="line"><span class="cl">git config --global alias.ac <span class="s2">&#34;! git add \$(</span><span class="nv">$GIT_DIFF_NAME</span><span class="s2"> --diff-filter=M | fzf -0 -m --reverse --height=40% --bind </span><span class="nv">$FZF_KEYBINDING</span><span class="s2"> --cycle)&#34;</span>
+</span></span><span class="line"><span class="cl">git config --global alias.b <span class="s1">&#39;! sh -c &#34;git blame $1 | fzf -0 --ansi --bind &#39;</span><span class="s2">&#34;</span><span class="nv">$FZF_KEYBINDING</span><span class="s2">&#34;</span><span class="s1">&#39; --bind &#39;</span><span class="se">\&#39;</span><span class="s1">&#39;enter:abort+execute(&#39;</span><span class="s2">&#34;</span><span class="nv">$GIT_DIFF_TREE</span><span class="s2">&#34;</span><span class="s1">&#39; | &#39;</span><span class="s2">&#34;</span><span class="nv">$DIFF_CMD</span><span class="s2">&#34;</span><span class="s1">&#39;)&#39;</span><span class="se">\&#39;</span><span class="s1">&#39; --cycle&#34;&#39;</span>
+</span></span><span class="line"><span class="cl">git config --global alias.ds <span class="s2">&#34;! </span><span class="nv">$GIT_DIFF_NAME_CACHED</span><span class="s2"> | fzf -0 --ansi --preview-window=right:80:wrap --preview &#39;git diff --cached -- {} | </span><span class="nv">$DIFF_CMD</span><span class="s2">&#39; --bind </span><span class="nv">$FZF_KEYBINDING</span><span class="s2"> --bind </span><span class="nv">$FZF_PREVIEW_KEYBINDING</span><span class="s2"> --bind &#39;enter:abort+execute(git commit)&#39; --cycle&#34;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <!-- prettier-ignore-end -->
@@ -507,15 +507,15 @@ git config --global alias.ds <span class="s2">&#34;! </span><span class="nv">$GI
 </span><span class="lnt">9
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-zshrc" data-lang="zshrc">...
-g <span class="o">()</span> <span class="o">{</span>
-    <span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">==</span> <span class="s2">&#34;am&#34;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
-        git ac
-    <span class="k">else</span>
-        git <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span>
-    <span class="k">fi</span>
-<span class="o">}</span>
-...</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-zshrc" data-lang="zshrc"><span class="line"><span class="cl">...
+</span></span><span class="line"><span class="cl">g <span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="o">[[</span> <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> <span class="o">==</span> <span class="s2">&#34;am&#34;</span> <span class="o">]]</span><span class="p">;</span> <span class="k">then</span>
+</span></span><span class="line"><span class="cl">        git ac
+</span></span><span class="line"><span class="cl">    <span class="k">else</span>
+</span></span><span class="line"><span class="cl">        git <span class="s2">&#34;</span><span class="nv">$@</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">fi</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span><span class="line"><span class="cl">...</span></span></code></pre></td></tr></table>
 </div>
 </div>
 <!-- prettier-ignore-end -->

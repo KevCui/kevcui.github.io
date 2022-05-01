@@ -287,38 +287,38 @@
 (<em>#Eg: my repository for this blog is <strong>kevcui.github.io</strong></em>)</li>
 <li>Clone it to your local<br/></li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell">~ $ git clone https://github.com/username/username.github.io my-blog
-</code></pre></div><h3 id="brstep-4-configure-it"><br/>STEP 4: Configure-it</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">~ $ git clone https://github.com/username/username.github.io my-blog
+</span></span></code></pre></div><h3 id="brstep-4-configure-it"><br/>STEP 4: Configure-it</h3>
 <ul>
 <li>Go to my-blog<br/></li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">~ $ <span class="nb">cd</span> my-blog
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">~ $ <span class="nb">cd</span> my-blog
+</span></span></code></pre></div><ul>
 <li>Open <strong>_config.yml</strong> and modify<br/></li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;your-blog-title&#39;</span><span class="w">
-</span><span class="w"></span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;your-blog-description&#39;</span><span class="w">
-</span><span class="w"></span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;https://username.github.io&#39;</span><span class="w">
-</span><span class="w"></span><span class="nt">baseurl</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/&#39;</span><span class="w">
-</span><span class="w"></span><span class="nn">...</span><span class="w">
-</span><span class="w"></span><span class="nt">gems </span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;jekyull-paginate&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;jemoji&#39;</span><span class="p">]</span><span class="w">
-</span></code></pre></div><p>⚠️ Empty <strong>baseurl</strong> or change it to <strong>/</strong> depends on theme. Otherwise, some themes may not work correctly.<br>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;your-blog-title&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;your-blog-description&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;https://username.github.io&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">baseurl</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;/&#39;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nn">...</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">gems </span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s1">&#39;jekyull-paginate&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;jemoji&#39;</span><span class="p">]</span><span class="w">
+</span></span></span></code></pre></div><p>⚠️ Empty <strong>baseurl</strong> or change it to <strong>/</strong> depends on theme. Otherwise, some themes may not work correctly.<br>
 👊 jemoji!</p>
 <h3 id="brstep-5-test-it"><br/>STEP 5: Test-it</h3>
 <ul>
 <li>Run locally<br/></li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash">~ $ <span class="nb">cd</span> my-blog
-~ $ jekyll serve
-<span class="c1"># =&gt; Now browse to http://localhost:4000/</span>
-</code></pre></div><h3 id="brstep-6-post-it"><br/>STEP 6: Post-it</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="line"><span class="cl">~ $ <span class="nb">cd</span> my-blog
+</span></span><span class="line"><span class="cl">~ $ jekyll serve
+</span></span><span class="line"><span class="cl"><span class="c1"># =&gt; Now browse to http://localhost:4000/</span>
+</span></span></code></pre></div><h3 id="brstep-6-post-it"><br/>STEP 6: Post-it</h3>
 <ul>
 <li>Create a post in <strong>_post</strong>, name it <strong>YEAR-MONTH-DAY-title.md</strong><br/></li>
 </ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown">title: &#34;How to build github.io blog in 3 min?&#34;
-date:  2016-11-18 23:25:28 +0200
-...
-</code></pre></div><p>⚠️ Be careful of date format <strong>YYYY-MM-DD HH:MM:SS +/-TTTT</strong>, TTTT is timezone offset</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">title: &#34;How to build github.io blog in 3 min?&#34;
+</span></span><span class="line"><span class="cl">date:  2016-11-18 23:25:28 +0200
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></div><p>⚠️ Be careful of date format <strong>YYYY-MM-DD HH:MM:SS +/-TTTT</strong>, TTTT is timezone offset</p>
 <h3 id="brstep-7-publish-it"><br/>STEP 7: Publish-it</h3>
 <ul>
 <li>git add, git commit, git push :octocat:</li>
