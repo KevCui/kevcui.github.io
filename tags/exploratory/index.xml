@@ -13,8 +13,8 @@
       <pubDate>Mon, 17 Apr 2017 22:30:00 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
-      <description>Photo by Kenny Louie    &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1]
- What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution.</description>
+      <description>Photo by Kenny Louie &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1]
+What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same time.</description>
     </item>
     
     <item>
@@ -24,9 +24,9 @@
       
       <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
       <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1]
- Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
-  People are sitting around a table.
-  Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
+Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
+People are sitting around a table.
+Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
     </item>
     
   </channel>

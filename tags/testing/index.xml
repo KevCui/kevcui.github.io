@@ -13,8 +13,8 @@
       <pubDate>Tue, 27 Jun 2017 21:43:23 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
-      <description>Photo by Jim    If all you have is a hammer, everything looks like a nail.
- Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
+      <description>Photo by Jim If all you have is a hammer, everything looks like a nail.
+Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       
       <guid>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</guid>
       <description>Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:
- When I say &amp;ldquo;Integration Testing&amp;rdquo;, You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;, Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;, Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;, Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;.  Actually we are more or less talking about the same thing.</description>
+When I say &amp;ldquo;Integration Testing&amp;rdquo;, You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;, Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;, Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;, Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;. Actually we are more or less talking about the same thing.</description>
     </item>
     
     <item>
@@ -33,8 +33,8 @@
       <pubDate>Mon, 17 Apr 2017 22:30:00 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
-      <description>Photo by Kenny Louie    &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1]
- What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution.</description>
+      <description>Photo by Kenny Louie &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1]
+What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same time.</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       
       <guid>https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
       <description>&amp;ldquo;When I give up, I write it down. Someday I will pick myself up from the fall.&amp;rdquo;
- Preface I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it reckless passion. Although I learned a lot from it, I&amp;rsquo;ve never shared what I learned in public. After that, I changed my focus and gave up on traditional UI automation.</description>
+Preface I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it reckless passion. Although I learned a lot from it, I&amp;rsquo;ve never shared what I learned in public. After that, I changed my focus and gave up on traditional UI automation.</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@
       
       <guid>https://kevcui.github.io/2017/01/08/bugshido/</guid>
       <description>&amp;ldquo;Warriors are born to die. Warriors live to be remembered.&amp;rdquo;
- The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase[1] &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called Bugshido.
+The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase[1] &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called Bugshido.
 As we all know, Bushido: 武士道 the way (Dō or Tao) of the warrior (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors.</description>
     </item>
     
@@ -65,9 +65,9 @@ As we all know, Bushido: 武士道 the way (Dō or Tao) of the warrior (Bushi), 
       
       <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
       <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1]
- Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
-  People are sitting around a table.
-  Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
+Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
+People are sitting around a table.
+Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
     </item>
     
   </channel>

@@ -25,8 +25,7 @@ Turbo Intruder Let&amp;rsquo;s start with Turbo Intruder. It&amp;rsquo;s one of 
       <guid>https://kevcui.github.io/2020/11/03/three-jq-tips-you-may-need-to-know/</guid>
       <description>jq is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I&amp;rsquo;d like to share 3 jq tips you may need to know.
 JSON Prettier When we curl API to fetch JSON response with raw data. It certainly looks messy:
-$ curl https://api.spacexdata.com/v4/launches/latest {&amp;#34;fairings&amp;#34;:{&amp;#34;reused&amp;#34;:false,&amp;#34;recovery_attempt&amp;#34;:true,&amp;#34;recovered&amp;#34;:null,&amp;#34;ships&amp;#34;:[&amp;#34;5ea6ed2e080df4000697c907&amp;#34;,&amp;#34;5ea6ed2e080df4000697c908&amp;#34;]},...&amp;#34;id&amp;#34;:&amp;#34;5ef6a2e70059c33cee4a8293&amp;#34;} Now let&amp;rsquo;s toss raw data into jq and make it look prettier:
-$ curl https://api.</description>
+$ curl https://api.spacexdata.com/v4/launches/latest {&amp;#34;fairings&amp;#34;:{&amp;#34;reused&amp;#34;:false,&amp;#34;recovery_attempt&amp;#34;:true,&amp;#34;recovered&amp;#34;:null,&amp;#34;ships&amp;#34;:[&amp;#34;5ea6ed2e080df4000697c907&amp;#34;,&amp;#34;5ea6ed2e080df4000697c908&amp;#34;]},...&amp;#34;id&amp;#34;:&amp;#34;5ef6a2e70059c33cee4a8293&amp;#34;} Now let&amp;rsquo;s toss raw data into jq and make it look prettier:</description>
     </item>
     
     <item>
@@ -37,7 +36,7 @@ $ curl https://api.</description>
       <guid>https://kevcui.github.io/2020/07/04/git-alias-did-you-git-it/</guid>
       <description>Git alias is powerful and yet simple to set up. I&amp;rsquo;d like to share my journey in configuring git alias for my personal use. Now let&amp;rsquo;s dig it and git it!
 Day 1: Why git alias? I was using Tig for some time. It&amp;rsquo;s good but not great. The problems I got during the time:
- It takes time to memorize the default key bindings. Since I&amp;rsquo;m using Colemak keyboard layout, obviously, the default navigation key bindings need to be adjusted accordingly.</description>
+It takes time to memorize the default key bindings. Since I&amp;rsquo;m using Colemak keyboard layout, obviously, the default navigation key bindings need to be adjusted accordingly.</description>
     </item>
     
     <item>
@@ -46,7 +45,7 @@ Day 1: Why git alias? I was using Tig for some time. It&amp;rsquo;s good but not
       <pubDate>Sat, 27 Jul 2019 10:05:24 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2019/07/27/be-quiet/</guid>
-      <description>Photo by Jason Rosewell   Nowadays, the Internet becomes an extremely loud and noisy place: endless notifications, messages, chats, posts, streamings, ads, spams, bots&amp;hellip; They are all shouting right in front of you anytime everywhere to catch your limited attention and to steal your precious time.
+      <description>Photo by Jason Rosewell Nowadays, the Internet becomes an extremely loud and noisy place: endless notifications, messages, chats, posts, streamings, ads, spams, bots&amp;hellip; They are all shouting right in front of you anytime everywhere to catch your limited attention and to steal your precious time.
 Unfortunately, I&amp;rsquo;m a part of the problem by generating noisy contents: low-quality jokes, unrealistic complaints, and aggressive arguments&amp;hellip; Once I realized that, the feeling like a commuter in a subway during rush hour: being pushed around forward and backward, I cannot stand still for myself.</description>
     </item>
     
@@ -67,7 +66,7 @@ Unfortunately, I&amp;rsquo;m a part of the problem by generating noisy contents:
       <guid>https://kevcui.github.io/2019/04/06/build-a-killer-note-taking-system/</guid>
       <description>The proverb says, &amp;ldquo;The palest ink is better than the best memory&amp;rdquo;. Note-taking is certainly an essential part of knowledge learning, information collecting and retaining. In the fast-changing digital era, pen, ink and paper may not be able to fulfill the important job of note-taking anymore. So, what&amp;rsquo;s a killer note-taking system nowadays?
 My requirements? My dream system must be Easy, Efficient and Flexible:
- Know where &amp;amp; how to write notes easily without hesitations Find right notes &amp;amp; roll back to old changes efficiently without hassles Convert notes to other formats and share them flexibly without troubles  Build it!</description>
+Know where &amp;amp; how to write notes easily without hesitations Find right notes &amp;amp; roll back to old changes efficiently without hassles Convert notes to other formats and share them flexibly without troubles Build it!</description>
     </item>
     
     <item>
@@ -76,7 +75,7 @@ My requirements? My dream system must be Easy, Efficient and Flexible:
       <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2018/09/02/replace-8-frequently-used-linux-commands/</guid>
-      <description>.lnt { display: none }  Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.
+      <description>Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.
 Here is a list of improved commands I&amp;rsquo;d like to share with you:</description>
     </item>
     
@@ -86,9 +85,9 @@ Here is a list of improved commands I&amp;rsquo;d like to share with you:</descr
       <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/</guid>
-      <description>Photo by Ashley Batz   mitmproxy is a powerful proxy tool for debugging network requests and responses. It&amp;rsquo;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about.
+      <description>Photo by Ashley Batz mitmproxy is a powerful proxy tool for debugging network requests and responses. It&amp;rsquo;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about.
 First things first, a small checklist:
- Do you know how mitmproxy works? Do you know how to install mitmproxy?</description>
+Do you know how mitmproxy works? Do you know how to install mitmproxy? Do you know how to install CA cert on a client side?</description>
     </item>
     
     <item>
@@ -97,7 +96,7 @@ First things first, a small checklist:
       <pubDate>Sun, 03 Dec 2017 11:35:21 +0100</pubDate>
       
       <guid>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</guid>
-      <description>Photo by Robert Wiedemann   Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&amp;rsquo;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?
+      <description>Photo by Robert Wiedemann Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&amp;rsquo;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?
 What is actually PWA? According to Google, Progressive Web Apps are user experiences that have the reach of the web, and are [1]:</description>
     </item>
     
@@ -107,7 +106,7 @@ What is actually PWA? According to Google, Progressive Web Apps are user experie
       <pubDate>Thu, 16 Nov 2017 18:04:57 +0100</pubDate>
       
       <guid>https://kevcui.github.io/2017/11/16/hi-firefox/</guid>
-      <description>Photo by Garrett LeSage   In case you are seeking for an answer of the question: &amp;ldquo;Do I need to switch from Chrome to Firefox now?&amp;rdquo; In my opinion, if you&amp;rsquo;re still happy with Chrome, then feel comfortable to stay with Chrome. Because there is no obvious game-changing reason for switching.
+      <description>Photo by Garrett LeSage In case you are seeking for an answer of the question: &amp;ldquo;Do I need to switch from Chrome to Firefox now?&amp;rdquo; In my opinion, if you&amp;rsquo;re still happy with Chrome, then feel comfortable to stay with Chrome. Because there is no obvious game-changing reason for switching.
 So, what&amp;rsquo;s new about Firefox?
 New Name Half year ago, you may (or may not) notice that I said Goodbye to Firefox.</description>
     </item>
@@ -118,8 +117,9 @@ New Name Half year ago, you may (or may not) notice that I said Goodbye to Firef
       <pubDate>Tue, 03 Oct 2017 17:50:00 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
-      <description>Photo by Jonathan Simcoe    &amp;ldquo;You should not ask questions without knowledge.&amp;rdquo; &amp;ndash; W. Edwards Deming
- A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, asking questions is not always easy. We all know sometimes a bad question may cause some communication troubles:</description>
+      <description>Photo by Jonathan Simcoe &amp;ldquo;You should not ask questions without knowledge.&amp;rdquo; &amp;ndash; W. Edwards Deming
+A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, asking questions is not always easy. We all know sometimes a bad question may cause some communication troubles:
+An unnecessary question makes developers annoyed.</description>
     </item>
     
     <item>
@@ -138,8 +138,7 @@ New Name Half year ago, you may (or may not) notice that I said Goodbye to Firef
       
       <guid>https://kevcui.github.io/2017/08/19/why-i-switch-to-colemak/</guid>
       <description>Colemak, pronounced /&amp;lsquo;ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It&amp;rsquo;s developed by Shai Coleman and released in 2006. Colemak keyboard layout looks like:
-q w f p g j l u y ; a r s t d h n e i o z x c v b k m , . / What&amp;rsquo;s special about Colemak? Why do I decide to switch from QWERTY to Colemak?
-Reason 1: Discard QWERTY As we all known, QWERTY was originally designed for the typewriter to solve the problem of the type bars colliding with each other and jamming.</description>
+q w f p g j l u y ; a r s t d h n e i o z x c v b k m , . / What&amp;rsquo;s special about Colemak? Why do I decide to switch from QWERTY to Colemak?</description>
     </item>
     
     <item>
@@ -148,7 +147,7 @@ Reason 1: Discard QWERTY As we all known, QWERTY was originally designed for the
       <pubDate>Tue, 11 Jul 2017 20:57:53 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</guid>
-      <description>Photo by Sai Kiran Anagani Vijayawada   Animation is fun. It makes everything look vivid. A good animation is that you won&amp;rsquo;t notice its existence but it pleases your eyes and makes you feel good!
+      <description>Photo by Sai Kiran Anagani Vijayawada Animation is fun. It makes everything look vivid. A good animation is that you won&amp;rsquo;t notice its existence but it pleases your eyes and makes you feel good!
 To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results.</description>
     </item>
     
@@ -158,8 +157,8 @@ To see fancy animations is really enjoyable, but to make it is not. Specially fo
       <pubDate>Tue, 27 Jun 2017 21:43:23 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
-      <description>Photo by Jim    If all you have is a hammer, everything looks like a nail.
- Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
+      <description>Photo by Jim If all you have is a hammer, everything looks like a nail.
+Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
     </item>
     
     <item>
@@ -179,7 +178,7 @@ To be honest, the initial configuration is simple but I cannot recall it at all.
       
       <guid>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</guid>
       <description>Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:
- When I say &amp;ldquo;Integration Testing&amp;rdquo;, You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;, Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;, Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;, Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;.  Actually we are more or less talking about the same thing.</description>
+When I say &amp;ldquo;Integration Testing&amp;rdquo;, You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;, Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;, Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;, Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;. Actually we are more or less talking about the same thing.</description>
     </item>
     
     <item>
@@ -188,8 +187,8 @@ To be honest, the initial configuration is simple but I cannot recall it at all.
       <pubDate>Sat, 29 Apr 2017 21:25:25 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/04/29/be-prepared-interruption-is-coming/</guid>
-      <description>Photo by Mark Hunter    By failing to prepare, you are preparing to fail. - Benjamin Franklin
- Recently I read an interesting article about Why do programmers wear headphones?. The truth is that &amp;ldquo;programmers are easily distracted, headphones eliminate some distractions, thus headphones make programmers.&amp;rdquo; To reduce losing attention by distractions, I could improve my attention span and control the working environment around myself. But on the other hand, I could lose my attention as well by interruptions, which are usually unexpected.</description>
+      <description>Photo by Mark Hunter By failing to prepare, you are preparing to fail. - Benjamin Franklin
+Recently I read an interesting article about Why do programmers wear headphones?. The truth is that &amp;ldquo;programmers are easily distracted, headphones eliminate some distractions, thus headphones make programmers.&amp;rdquo; To reduce losing attention by distractions, I could improve my attention span and control the working environment around myself. But on the other hand, I could lose my attention as well by interruptions, which are usually unexpected.</description>
     </item>
     
     <item>
@@ -198,8 +197,8 @@ To be honest, the initial configuration is simple but I cannot recall it at all.
       <pubDate>Mon, 17 Apr 2017 22:30:00 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
-      <description>Photo by Kenny Louie    &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1]
- What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution.</description>
+      <description>Photo by Kenny Louie &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1]
+What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same time.</description>
     </item>
     
     <item>
@@ -210,7 +209,7 @@ To be honest, the initial configuration is simple but I cannot recall it at all.
       <guid>https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/</guid>
       <description>As you probably remember that I just about switched from jekyll to hexo 2 months ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.
 Why hexo was chosen? Let&amp;rsquo;s start from the reasons why I ditched jekyll without any regrets:
- Hexo has a good name   Hexo is powered by Node.js Hexo is easy to deploy Hexo supports theme change Hexo is pretty fast  Honestly hexo is quite good and I&amp;rsquo;m pretty happy living with it.</description>
+Hexo has a good name Hexo is powered by Node.js Hexo is easy to deploy Hexo supports theme change Hexo is pretty fast Honestly hexo is quite good and I&amp;rsquo;m pretty happy living with it.</description>
     </item>
     
     <item>
@@ -219,8 +218,9 @@ Why hexo was chosen? Let&amp;rsquo;s start from the reasons why I ditched jekyll
       <pubDate>Mon, 27 Mar 2017 23:02:13 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/03/27/bye-firefox/</guid>
-      <description>Photo by Garrrett LeSage    Love, without any reason. Leave, with a good reason.
- Last week, I made my decision to switch from Firefox to Chromium. Although it&amp;rsquo;s not my first time trying to ditch Firefox, I&amp;rsquo;m quite sure this time it would be the last time. As I&amp;rsquo;m a reasonable person, therefore, I put my thoughts in this post with the reason why I made my decision.</description>
+      <description>Photo by Garrrett LeSage Love, without any reason. Leave, with a good reason.
+Last week, I made my decision to switch from Firefox to Chromium. Although it&amp;rsquo;s not my first time trying to ditch Firefox, I&amp;rsquo;m quite sure this time it would be the last time. As I&amp;rsquo;m a reasonable person, therefore, I put my thoughts in this post with the reason why I made my decision.
+A pressure from outside I didn&amp;rsquo;t really remember since when I started to use Firefox, I always have it as my main browser.</description>
     </item>
     
     <item>
@@ -255,7 +255,7 @@ Why hexo was chosen? Let&amp;rsquo;s start from the reasons why I ditched jekyll
       
       <guid>https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/</guid>
       <description>&amp;ldquo;When I give up, I write it down. Someday I will pick myself up from the fall.&amp;rdquo;
- Preface I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it reckless passion. Although I learned a lot from it, I&amp;rsquo;ve never shared what I learned in public. After that, I changed my focus and gave up on traditional UI automation.</description>
+Preface I admit that I failed to use Calabash for mobile testing. It was a big failure but it was beautiful, I call it reckless passion. Although I learned a lot from it, I&amp;rsquo;ve never shared what I learned in public. After that, I changed my focus and gave up on traditional UI automation.</description>
     </item>
     
     <item>
@@ -265,7 +265,7 @@ Why hexo was chosen? Let&amp;rsquo;s start from the reasons why I ditched jekyll
       
       <guid>https://kevcui.github.io/2017/01/08/bugshido/</guid>
       <description>&amp;ldquo;Warriors are born to die. Warriors live to be remembered.&amp;rdquo;
- The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase[1] &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called Bugshido.
+The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase[1] &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called Bugshido.
 As we all know, Bushido: 武士道 the way (Dō or Tao) of the warrior (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors.</description>
     </item>
     
@@ -276,9 +276,9 @@ As we all know, Bushido: 武士道 the way (Dō or Tao) of the warrior (Bushi), 
       
       <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
       <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1]
- Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
-  People are sitting around a table.
-  Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
+Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
+People are sitting around a table.
+Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
     </item>
     
     <item>
