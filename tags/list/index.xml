@@ -1,37 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>list on Kevin Cui</title>
+    <title>List on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/list/</link>
-    <description>Recent content in list on Kevin Cui</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in List on Kevin Cui</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Sep 2018 17:21:08 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/list/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Sep 2018 17:21:08 +0200</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/list/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Replace 8 Frequently Used Linux Commands!?</title>
       <link>https://kevcui.github.io/2018/09/02/replace-8-frequently-used-linux-commands/</link>
       <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2018/09/02/replace-8-frequently-used-linux-commands/</guid>
-      <description>Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.
-Here is a list of improved commands I&amp;rsquo;d like to share with you:</description>
+      <description>Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.&#xA;Here is a list of improved commands I&amp;rsquo;d like to share with you:</description>
     </item>
-    
     <item>
       <title>My Toolbox</title>
       <link>https://kevcui.github.io/2017/03/08/my-toolbox/</link>
       <pubDate>Wed, 08 Mar 2017 22:12:08 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/03/08/my-toolbox/</guid>
-      <description>Software Testing 🌏👉 Test case generator (pairwise)
-📖👉 Test Heuristics Cheat Sheet
-📖👉 1-page usability test plan
-📀👉 faker-cli: generate massive amounts of fake data
-📀👉 Radamsa: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer
-📀👉 Ruby Pairwise: Ruby based tool for selecting a smaller number of test input combinations
-🌏👉 Name: all about name
-🌏👉 Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
+      <description>Software Testing &amp;#x1f30f;&amp;#x1f449; Test case generator (pairwise)&#xA;&amp;#x1f4d6;&amp;#x1f449; Test Heuristics Cheat Sheet&#xA;&amp;#x1f4d6;&amp;#x1f449; 1-page usability test plan&#xA;&amp;#x1f4c0;&amp;#x1f449; faker-cli: generate massive amounts of fake data&#xA;&amp;#x1f4c0;&amp;#x1f449; Radamsa: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&#xA;&amp;#x1f4c0;&amp;#x1f449; Ruby Pairwise: Ruby based tool for selecting a smaller number of test input combinations&#xA;&amp;#x1f30f;&amp;#x1f449; Name: all about name&#xA;&amp;#x1f30f;&amp;#x1f449; Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
     </item>
-    
   </channel>
 </rss>

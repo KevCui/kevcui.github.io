@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>experience on Kevin Cui</title>
+    <title>Experience on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/experience/</link>
-    <description>Recent content in experience on Kevin Cui</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Experience on Kevin Cui</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Oct 2017 17:50:00 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Oct 2017 17:50:00 +0200</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Asking Better Questions for 4 Different Purposes</title>
       <link>https://kevcui.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</link>
       <pubDate>Tue, 03 Oct 2017 17:50:00 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/10/03/ask-better-questions-for-four-different-purposes/</guid>
-      <description>Photo by Jonathan Simcoe &amp;ldquo;You should not ask questions without knowledge.&amp;rdquo; &amp;ndash; W. Edwards Deming
-A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, asking questions is not always easy. We all know sometimes a bad question may cause some communication troubles:
-An unnecessary question makes developers annoyed.</description>
+      <description>Photo by Jonathan Simcoe &amp;ldquo;You should not ask questions without knowledge.&amp;rdquo; &amp;ndash; W. Edwards Deming&#xA;A good tester asks good questions. Asking questions is a must-have skill for a software tester. Therefore, as a software tester, I see asking questions as a privilege, which is allowed under any circumstances. However, asking questions is not always easy. We all know sometimes a bad question may cause some communication troubles:&#xA;An unnecessary question makes developers annoyed.</description>
     </item>
-    
   </channel>
 </rss>

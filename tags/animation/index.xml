@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>animation on Kevin Cui</title>
+    <title>Animation on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/animation/</link>
-    <description>Recent content in animation on Kevin Cui</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Animation on Kevin Cui</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Jul 2017 20:57:53 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/animation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Jul 2017 20:57:53 +0200</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/animation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2 CSS Effect Libraries for Creating Fancy Animations</title>
       <link>https://kevcui.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</link>
       <pubDate>Tue, 11 Jul 2017 20:57:53 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/07/11/css-effect-libraries-for-creating-fancy-animations/</guid>
-      <description>Photo by Sai Kiran Anagani Vijayawada Animation is fun. It makes everything look vivid. A good animation is that you won&amp;rsquo;t notice its existence but it pleases your eyes and makes you feel good!
-To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results.</description>
+      <description>Photo by Sai Kiran Anagani Vijayawada Animation is fun. It makes everything look vivid. A good animation is that you won&amp;rsquo;t notice its existence but it pleases your eyes and makes you feel good!&#xA;To see fancy animations is really enjoyable, but to make it is not. Specially for me, a CSS -webkit newbie, creating animations with CSS is a dirty job. It needs a lot of guess work and experiments to archive the expect results.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>qwerty on Kevin Cui</title>
+    <title>Qwerty on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/qwerty/</link>
-    <description>Recent content in qwerty on Kevin Cui</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Qwerty on Kevin Cui</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Aug 2017 20:48:03 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/qwerty/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Aug 2017 20:48:03 +0200</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/qwerty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why I Switch to Colemak Keyboard Layout?</title>
       <link>https://kevcui.github.io/2017/08/19/why-i-switch-to-colemak/</link>
       <pubDate>Sat, 19 Aug 2017 20:48:03 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/08/19/why-i-switch-to-colemak/</guid>
-      <description>Colemak, pronounced /&amp;lsquo;ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It&amp;rsquo;s developed by Shai Coleman and released in 2006. Colemak keyboard layout looks like:
-q w f p g j l u y ; a r s t d h n e i o z x c v b k m , . / What&amp;rsquo;s special about Colemak? Why do I decide to switch from QWERTY to Colemak?</description>
+      <description>Colemak, pronounced /&amp;lsquo;ko:lmæk/ (Coal-Mac), is a keyboard layout based on QWERTY. It&amp;rsquo;s developed by Shai Coleman and released in 2006. Colemak keyboard layout looks like:&#xA;q w f p g j l u y ; a r s t d h n e i o z x c v b k m , . / What&amp;rsquo;s special about Colemak? Why do I decide to switch from QWERTY to Colemak?</description>
     </item>
-    
   </channel>
 </rss>

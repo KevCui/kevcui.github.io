@@ -22,7 +22,7 @@
     
 &lt;/p&gt;
 
-&lt;p&gt;You should have noticed the pun in this post title 😉. That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.&lt;/p&gt;
+&lt;p&gt;You should have noticed the pun in this post title &amp;#x1f609;. That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.&lt;/p&gt;
 &lt;h3 id=&#34;turbo-intruder&#34;&gt;Turbo Intruder&lt;/h3&gt;
 &lt;p&gt;Let&amp;rsquo;s start with &lt;a href=&#34;https://github.com/PortSwigger/turbo-intruder&#34;&gt;Turbo Intruder&lt;/a&gt;. It&amp;rsquo;s one of the most (if not the most) popular Burp extensions. Basically, anyone who knew Burp extensions should have heard the name of Turbo Intruder.&lt;/p&gt;
 &lt;p&gt;The Burp Suite community edition comes with a &amp;ldquo;lite&amp;rdquo; version of Burp Intruder. The first impression of this community edition Intruder is: It has really low RPS (Request Per Second). The time you waited for finishing a 1000-request brute-forcing attack can make you grow out some gray hair, slow and anxious. Meanwhile, the Burp Pro version provides a decent speed Burp Intruder, which is suitable for daily usage.&lt;/p&gt;
@@ -159,7 +159,7 @@
 &lt;li&gt;Switching between different views in Tig makes the workflow complex and slow. For example, to add an untracked file: run tig, press &lt;code&gt;s&lt;/code&gt; to switch to status view, move up and down to select an untracked file, press &lt;code&gt;u&lt;/code&gt; to add it. Well, in this case, why using Tig instead of simply typing &lt;code&gt;git add &amp;lt;untracked_file&amp;gt;&lt;/code&gt;?&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;At some point, I decided to drop Tig and tried to search for other tools to assist my git workflow.&lt;/p&gt;
-&lt;p&gt;Don&amp;rsquo;t get me wrong. Tig is a decent tool. However, my needs are just picky and I&amp;rsquo;m just too lazy 🤷.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t get me wrong. Tig is a decent tool. However, my needs are just picky and I&amp;rsquo;m just too lazy &amp;#x1f937;.&lt;/p&gt;
 &lt;p&gt;After trying &lt;a href=&#34;https://git-scm.com/downloads/guis/&#34;&gt;this and that&lt;/a&gt;, surprisingly, I find out that git alias is one ideal solution:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Git alias is supported by default, no need to install any 3rd-party dependencies.&lt;/li&gt;
@@ -288,7 +288,7 @@
   &lt;video controls src=&#34;https://kevcui.github.io/videos/git-alias-b.mp4&#34;&gt;&lt;/video&gt;
 &lt;/p&gt;
 
-&lt;p&gt;⚠️ Pay attention to escape single quotes &lt;code&gt;&#39;&lt;/code&gt; or/and double quotes &lt;code&gt;&amp;quot;&lt;/code&gt; inside &lt;code&gt;sh -c&lt;/code&gt; if needed.&lt;/p&gt;
+&lt;p&gt;&amp;#x26a0;&amp;#xfe0f; Pay attention to escape single quotes &lt;code&gt;&#39;&lt;/code&gt; or/and double quotes &lt;code&gt;&amp;quot;&lt;/code&gt; inside &lt;code&gt;sh -c&lt;/code&gt; if needed.&lt;/p&gt;
 &lt;p&gt;An alternative and more complex method is to bind a function, like &lt;code&gt;! f() {...}; f&lt;/code&gt;. Once you dig deeper in this way, you will certainly find the answers for all your needs.&lt;/p&gt;
 &lt;h3 id=&#34;day-6-go-flexible&#34;&gt;Day 6: go flexible&lt;/h3&gt;
 &lt;p&gt;Pursuing the ambition of customizing as many aliases as possible to perfectly suit my needs, the aliases are getting complicated with many duplicated and redundant codes. It&amp;rsquo;s hard to maintain in the configuration file like this:&lt;/p&gt;
@@ -355,7 +355,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- prettier-ignore-end --&gt;
-&lt;p&gt;⚠️ Pay attention to escape &lt;code&gt;$&lt;/code&gt; symbol by &lt;code&gt;\$&lt;/code&gt;, in case &lt;code&gt;$&lt;/code&gt; symbol indicates the variable used in alias.&lt;/p&gt;
+&lt;p&gt;&amp;#x26a0;&amp;#xfe0f; Pay attention to escape &lt;code&gt;$&lt;/code&gt; symbol by &lt;code&gt;\$&lt;/code&gt;, in case &lt;code&gt;$&lt;/code&gt; symbol indicates the variable used in alias.&lt;/p&gt;
 &lt;p&gt;In the example above, if I want to add more key bindings for fzf preview screen, I&amp;rsquo;ll modify &lt;code&gt;FZF_PREVIEW_KEYBINDING&lt;/code&gt; then run the Bash script. All aliases will be updated accordingly and beautifully.&lt;/p&gt;
 &lt;p&gt;For more details and examples, go checkout &lt;a href=&#34;https://github.com/KevCui/dotfiles/blob/master/git/addalias.sh&#34;&gt;addalias.sh&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;day-7-go-extreme&#34;&gt;Day 7: go extreme&lt;/h3&gt;
@@ -463,7 +463,7 @@
 &lt;p&gt;I need to be quiet. There are so many things to do in real life: reading, writing, walk outside, talk to friends in person, call family members, take care of myself&amp;hellip; Stay with people I love, spend my time loving them.&lt;/p&gt;
 &lt;p&gt;From now on, I switch on read-only mode, tune down the volume of this noisy world, slow down the pace of following the crowd. Why should I catch that fast train like others? I even don&amp;rsquo;t know if it&amp;rsquo;s going to the direction where I want to go?&lt;/p&gt;
 &lt;p&gt;Stop following the crowd, suddenly I can smell the fresh air from all over the place. My curiosity would guide me to take a peek behind the rocks. There would be a small path leading to a forest. The beautiful and peaceful nature there are waiting for me to explore.&lt;/p&gt;
-&lt;p&gt;Shut up, be quiet. Listen, learn and love. ❤️&lt;/p&gt;
+&lt;p&gt;Shut up, be quiet. Listen, learn and love. &amp;#x2764;&amp;#xfe0f;&lt;/p&gt;
 </description>
     </item>
     
@@ -513,7 +513,7 @@
 &lt;li&gt;&amp;ldquo;This guy is a weirdo.&amp;rdquo;: So what?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;p&gt;Overall, I&amp;rsquo;m super happy with Colemak for now. I have no plan to learn another keyboard layout. I guess I will stick with Colemak for years. Maybe after some years, I&amp;rsquo;ll write another recap post about Colemak. I shall call it &amp;ldquo;Twenty Years With Colemak&amp;rdquo;. 😉&lt;/p&gt;
+&lt;p&gt;Overall, I&amp;rsquo;m super happy with Colemak for now. I have no plan to learn another keyboard layout. I guess I will stick with Colemak for years. Maybe after some years, I&amp;rsquo;ll write another recap post about Colemak. I shall call it &amp;ldquo;Twenty Years With Colemak&amp;rdquo;. &amp;#x1f609;&lt;/p&gt;
 </description>
     </item>
     
@@ -546,7 +546,7 @@
 &lt;/ul&gt;
 &lt;h4 id=&#34;note-taking--organization-app&#34;&gt;Note taking &amp;amp; organization app&lt;/h4&gt;
 &lt;p&gt;I like doing everything in the terminal, so naturally, Vim is the best note-taking editor for me.&lt;/p&gt;
-&lt;p&gt;For organizing notes, in the beginning, I set up different folders for different notes. But it&amp;rsquo;s not quite close to what I want. Especially, searching note is not a straightforward task, it needs to &lt;code&gt;find&lt;/code&gt; or &lt;code&gt;grep&lt;/code&gt; for a while. Then I wrote a handy script &lt;a href=&#34;https://github.com/KevCui/pynote&#34;&gt;pynote&lt;/a&gt; for helping note organization, it worked and only at &amp;ldquo;it works&amp;rdquo; level&amp;hellip; Recently, I switched to the amazing &lt;a href=&#34;https://github.com/alok/notational-fzf-vim&#34;&gt;Notational Velocity for Vim&lt;/a&gt;, a plugin to port famous &lt;a href=&#34;http://notational.net/&#34;&gt;Notational Velocity&lt;/a&gt; into Vim. The whole note-taking experience never becomes so smooth! 💆‍♀️&lt;/p&gt;
+&lt;p&gt;For organizing notes, in the beginning, I set up different folders for different notes. But it&amp;rsquo;s not quite close to what I want. Especially, searching note is not a straightforward task, it needs to &lt;code&gt;find&lt;/code&gt; or &lt;code&gt;grep&lt;/code&gt; for a while. Then I wrote a handy script &lt;a href=&#34;https://github.com/KevCui/pynote&#34;&gt;pynote&lt;/a&gt; for helping note organization, it worked and only at &amp;ldquo;it works&amp;rdquo; level&amp;hellip; Recently, I switched to the amazing &lt;a href=&#34;https://github.com/alok/notational-fzf-vim&#34;&gt;Notational Velocity for Vim&lt;/a&gt;, a plugin to port famous &lt;a href=&#34;http://notational.net/&#34;&gt;Notational Velocity&lt;/a&gt; into Vim. The whole note-taking experience never becomes so smooth! &amp;#x1f486;&lt;/p&gt;
 &lt;h4 id=&#34;note-version-control-system&#34;&gt;Note version-control system&lt;/h4&gt;
 &lt;p&gt;It&amp;rsquo;s easy. Git is the only reasonable option I can think of. &lt;code&gt;¯\_(ツ)_/¯&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;git init&lt;/code&gt;, make note changes, &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt; or &lt;code&gt;git revert&lt;/code&gt;&amp;hellip; All the fancy version control things are already familiar under my hands.&lt;/p&gt;
@@ -781,7 +781,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;kill-fkill&#34;&gt;kill? fkill!&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/sindresorhus/fkill&#34;&gt;fkill&lt;/a&gt;, its &lt;strong&gt;f&lt;/strong&gt; stands for &amp;ldquo;fabulously&amp;rdquo; (It&amp;rsquo;s definitely not the word I&amp;rsquo;m thinking in my mind 😉). Sometimes, &lt;code&gt;kill&lt;/code&gt; some zombie processes is necessary. &lt;code&gt;fkill&lt;/code&gt; can search a process and kill it interactively. It makes killing stylish:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/sindresorhus/fkill&#34;&gt;fkill&lt;/a&gt;, its &lt;strong&gt;f&lt;/strong&gt; stands for &amp;ldquo;fabulously&amp;rdquo; (It&amp;rsquo;s definitely not the word I&amp;rsquo;m thinking in my mind &amp;#x1f609;). Sometimes, &lt;code&gt;kill&lt;/code&gt; some zombie processes is necessary. &lt;code&gt;fkill&lt;/code&gt; can search a process and kill it interactively. It makes killing stylish:&lt;/p&gt;
 &lt;p class=&#34;embed&#34;&gt;
 &lt;embed src=&#34;https://kevcui.github.io/videos/fkill-example.svg&#34; style=&#34;height:300px&#34;/&gt;
 &lt;/p&gt;
@@ -877,8 +877,8 @@
 &lt;p&gt;From now on, we can get confident to &amp;ldquo;save the world&amp;rdquo;!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/tar.png&#34; alt=&#34;xkcd-tar&#34;&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Share this list if you think it&amp;rsquo;s a good read for other CLI nerds. 💝&lt;/p&gt;
-&lt;p&gt;Drop me a message if you have other commands to recommend. ❤️&lt;/p&gt;
+&lt;p&gt;Share this list if you think it&amp;rsquo;s a good read for other CLI nerds. &amp;#x1f49d;&lt;/p&gt;
+&lt;p&gt;Drop me a message if you have other commands to recommend. &amp;#x2764;&amp;#xfe0f;&lt;/p&gt;
 </description>
     </item>
     
@@ -983,8 +983,8 @@
 &lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/KevCui/mitm-scripts/master/screenshot/mitm-rewrite-example.jpg&#34; alt=&#34;mitmproxy mock server picture&#34;&gt;&lt;/p&gt;
 &lt;p&gt;If you want to know more useful scripts, I have a &lt;a href=&#34;https://github.com/KevCui/mitm-scripts&#34;&gt;mitm-scripts collection&lt;/a&gt; to check out. If you want to make your own scripts, there are &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy/tree/master/examples/simple&#34;&gt;some examples&lt;/a&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;Didn&amp;rsquo;t try mitmproxy yet? Get it a try. 😉&lt;/p&gt;
-&lt;p&gt;Know other mitmproxy tricks? Tell me more. 😍&lt;/p&gt;
+&lt;p&gt;Didn&amp;rsquo;t try mitmproxy yet? Get it a try. &amp;#x1f609;&lt;/p&gt;
+&lt;p&gt;Know other mitmproxy tricks? Tell me more. &amp;#x1f60d;&lt;/p&gt;
 </description>
     </item>
     
@@ -1014,7 +1014,7 @@
 &lt;li&gt;Fast: Respond quickly to user interactions with silky smooth animations and no janky scrolling.&lt;/li&gt;
 &lt;li&gt;Engaging: Feel like a natural app on the device, with an immersive user experience.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Personally, I prefer another alternative version because it uses one word to represent PWA: &lt;em&gt;F.I.R.E 🔥 Fast, Integrated, Reliable and Engaging.&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+&lt;p&gt;Personally, I prefer another alternative version because it uses one word to represent PWA: &lt;em&gt;F.I.R.E &amp;#x1f525; Fast, Integrated, Reliable and Engaging.&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
 &lt;p&gt;Many people are confused by the fancy term of PWA, like this: &lt;em&gt;Google&amp;rsquo;s continued use of the term &amp;ldquo;quality&amp;rdquo; in describing things leaves me with a ton of confusion&amp;hellip;&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;To be honest, PWA is not a new technology at all. It&amp;rsquo;s &lt;strong&gt;a new web app quality standard for web experiences&lt;/strong&gt; &lt;sup&gt;&lt;a name=&#34;back4&#34;&gt;&lt;a href=&#34;#link4&#34;&gt;[4]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;how-to-get-my-app-on-fire&#34;&gt;How to get my app on F.I.R.E.?&lt;/h3&gt;
@@ -1136,7 +1136,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;})&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more details of all these parts above, there is a good tutorial to follow: &lt;a href=&#34;https://codelabs.developers.google.com/codelabs/add-to-home-screen/#0&#34;&gt;Add Your Web App to a User&amp;rsquo;s Home Screen&lt;/a&gt; and a good example of PWA app to check its source code: &lt;a href=&#34;https://github.com/GoogleChromeLabs/airhorn&#34;&gt;airhorn&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;my-app-is-on-&#34;&gt;My app is on 🔥!&lt;/h3&gt;
+&lt;h3 id=&#34;my-app-is-on-fire&#34;&gt;My app is on &amp;#x1f525;!&lt;/h3&gt;
 &lt;p&gt;Once the dirty jobs are well done, it&amp;rsquo;s time to run another performance audit. Although I know all score numbers are meaningless without contexts, it still feels damn awesome when I see all greens, right?&lt;/p&gt;
 &lt;p class=&#34;imagsup&#34;&gt;
     &lt;img src=&#34;https://kevcui.github.io/images/lighthouse-after-overview.jpg&#34; alt=&#34;after-overview&#34;/&gt;
@@ -1666,7 +1666,7 @@ avoid double negative
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Come back&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ..
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Every time after running the script deploy.sh, it will generate new static files and push them to master branch. The changes will be published immediately by Github Pages.&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s all, a piece of 🍰&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s all, a piece of &amp;#x1f370;&lt;/p&gt;
 </description>
     </item>
     
@@ -1737,7 +1737,7 @@ Finally we have a buzz word
 Functional Integration Automated Accessbility Regression Testing
 ```
 &lt;br/&gt;
-What do you think? 💡❗ or 🐮💩?
+What do you think? :bulb::exclamation: or :cow::shit:?
 </description>
     </item>
     
@@ -1810,9 +1810,9 @@ What do you think? 💡❗ or 🐮💩?
 &lt;p&gt;When interruption comes during my defocus time, without the impact of interruption, I can easily engage myself in other high priority tasks.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Continuous focus and defocus reduce the impact of interruptions.&lt;/strong&gt;&lt;/p&gt;
 &lt;h4 id=&#34;2-short-refocus-time&#34;&gt;2. Short Refocus Time&lt;/h4&gt;
-&lt;p&gt;No one can plan his life perfectly. Sometimes when the interruption comes, I&amp;rsquo;m still focusing on my task! 💩 happens. The reason why people hate interruption so much is not only that interruption draws attention away, but also that it takes a long time to go back to flow. If you could get back to flow in seconds, probably you will feel that interruption is only a kind of annoying, but not really hateful. Therefore, a short refocus time is rather important.&lt;/p&gt;
+&lt;p&gt;No one can plan his life perfectly. Sometimes when the interruption comes, I&amp;rsquo;m still focusing on my task! &amp;#x1f4a9; happens. The reason why people hate interruption so much is not only that interruption draws attention away, but also that it takes a long time to go back to flow. If you could get back to flow in seconds, probably you will feel that interruption is only a kind of annoying, but not really hateful. Therefore, a short refocus time is rather important.&lt;/p&gt;
 &lt;p&gt;I find a way to gain refocus easily and it works quite well for me. First I will take one deep breath, and then I will cast a magical spell: &amp;ldquo;What am I doing now?&amp;rdquo;. By taking a deep breath, I can control my emotion and empty my mind. By questioning myself as a psychological hint, it helps me to focus on the question first, then the focus will be moving back to the task.&lt;/p&gt;
-&lt;p&gt;By the way, recently I discovered another spell which does the same psychological trick, &amp;ldquo;I Am One With the Focus and the Focus Is With Me&amp;rdquo;. But I cannot use that because I cannot resist 😆&lt;/p&gt;
+&lt;p&gt;By the way, recently I discovered another spell which does the same psychological trick, &amp;ldquo;I Am One With the Focus and the Focus Is With Me&amp;rdquo;. But I cannot use that because I cannot resist &amp;#x1f606;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A short refocus time reduces the hatred of interruptions.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&#34;interruption-is-coming&#34;&gt;Interruption is coming!&lt;/h3&gt;
 &lt;p&gt;Speak of the devil and he is sure to appear. Before you finished reading this post, I guess you&amp;rsquo;ve probably been distracted or interrupted at least once. Take it easy, it&amp;rsquo;s totally normal. Remember interruption brings changes and challenges on purpose; Remember continuous focus and defocus makes you have more than ease for interruptions; Remember improving refocus time makes you feel comfortable to embrace interruptions.&lt;/p&gt;
@@ -1851,7 +1851,7 @@ What do you think? 💡❗ or 🐮💩?
 &lt;p&gt;For me, ET is an elegant testing approach with a &lt;strong&gt;free spirit&lt;/strong&gt;, to &lt;strong&gt;think&lt;/strong&gt; about different possibilities, to &lt;strong&gt;discover&lt;/strong&gt; the unknown, to &lt;strong&gt;collect&lt;/strong&gt; effective information and to &lt;strong&gt;share&lt;/strong&gt; new knowledge efficiently.&lt;/p&gt;
 &lt;h3 id=&#34;what-is-my-practice-of-et&#34;&gt;What is my practice of ET?&lt;/h3&gt;
 &lt;p&gt;Since the beginning of last year when &lt;a href=&#34;https://kevcui.github.io/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/&#34;&gt;I failed to use Calabash for mobile testing&lt;/a&gt;, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: &lt;strong&gt;To have a concrete structure of ET and to adapt change easily based on it.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Combining the purpose and my understanding, I tried some practices and made some changes. It becomes the current one I&amp;rsquo;m satisfied with. First of all, please remember it&amp;rsquo;s definitely &lt;strong&gt;not&lt;/strong&gt; the &amp;ldquo;best practice&amp;rdquo;. I still keep striving for a better practice, your feedback could help me as well 😉&lt;/p&gt;
+&lt;p&gt;Combining the purpose and my understanding, I tried some practices and made some changes. It becomes the current one I&amp;rsquo;m satisfied with. First of all, please remember it&amp;rsquo;s definitely &lt;strong&gt;not&lt;/strong&gt; the &amp;ldquo;best practice&amp;rdquo;. I still keep striving for a better practice, your feedback could help me as well &amp;#x1f609;&lt;/p&gt;
 &lt;p&gt;Back to my practice of ET, each time I proceed with 3 important stages (a.k.a. 3G stages): &lt;strong&gt;Get context&lt;/strong&gt;, &lt;strong&gt;Go explore&lt;/strong&gt; and &lt;strong&gt;Give feedback&lt;/strong&gt;.&lt;/p&gt;
 &lt;h4 id=&#34;stage-1-get-context&#34;&gt;Stage 1: Get context&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;Time estimation&lt;/strong&gt;: 15 min&lt;/p&gt;
@@ -1983,7 +1983,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;li&gt;Branch &lt;strong&gt;hexo&lt;/strong&gt;: to keep source code, posts and theme&lt;/li&gt;
 &lt;li&gt;Branch &lt;strong&gt;master&lt;/strong&gt;: to store all generated static files&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I found &lt;a href=&#34;https://github.com/hexojs/hexo-deployer-git&#34;&gt;a useful deploy plugin&lt;/a&gt;, which allows me to write posts and backup them in hexo branch, to publish final static files easily to master branch. I&amp;rsquo;ve to say I got nothing to complain. Hexo works as expected, all 👌&lt;/p&gt;
+&lt;p&gt;I found &lt;a href=&#34;https://github.com/hexojs/hexo-deployer-git&#34;&gt;a useful deploy plugin&lt;/a&gt;, which allows me to write posts and backup them in hexo branch, to publish final static files easily to master branch. I&amp;rsquo;ve to say I got nothing to complain. Hexo works as expected, all &amp;#x1f44c;&lt;/p&gt;
 &lt;h3 id=&#34;why-i-choose-hugo-then&#34;&gt;Why I choose hugo then?&lt;/h3&gt;
 &lt;p&gt;You know I&amp;rsquo;m a guy who crave clean &amp;amp; fast thingy and I never settle down. I cannot control myself not touching cool thing. &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, another popular static web generator engine, is mentioned a lot as &amp;ldquo;an alternative&amp;rdquo; of jekyll and recommended by some cool guys. When I&amp;rsquo;m motivated, I won&amp;rsquo;t give up the chance to try hugo, would I?&lt;/p&gt;
 &lt;h4 id=&#34;1-even-better-on-theme-changing&#34;&gt;1. Even better on theme changing&lt;/h4&gt;
@@ -1999,7 +1999,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;li&gt;Run server with theme name as a parameter, done!&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&#34;2-zero-dependency&#34;&gt;2. Zero dependency&lt;/h4&gt;
-&lt;p&gt;Hugo is built using Go, free, &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;open source&lt;/a&gt;. If I only want to use hugo without building from source, I could just download executable &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;release binary&lt;/a&gt;. Literally it has zero dependency, one binary that&amp;rsquo;s all, so clean. On the other hand, hexo requests much more. First npm, then install around 10 dependencies during initializing. Now I&amp;rsquo;ve only basic functionalities of hexo. If I want to generate emoji, 👌 add a &lt;a href=&#34;https://github.com/crimx/hexo-filter-github-emojis&#34;&gt;plugin&lt;/a&gt;; if I want deploy code automatically, 👌 add another &lt;a href=&#34;https://github.com/hexojs/hexo-deployer-git&#34;&gt;plugin&lt;/a&gt;; if I want backup code automatically, 👌 add another &lt;a href=&#34;https://github.com/coneycode/hexo-git-backup&#34;&gt;plugin&lt;/a&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Hugo is built using Go, free, &lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;open source&lt;/a&gt;. If I only want to use hugo without building from source, I could just download executable &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;release binary&lt;/a&gt;. Literally it has zero dependency, one binary that&amp;rsquo;s all, so clean. On the other hand, hexo requests much more. First npm, then install around 10 dependencies during initializing. Now I&amp;rsquo;ve only basic functionalities of hexo. If I want to generate emoji, &amp;#x1f44c; add a &lt;a href=&#34;https://github.com/crimx/hexo-filter-github-emojis&#34;&gt;plugin&lt;/a&gt;; if I want deploy code automatically, &amp;#x1f44c; add another &lt;a href=&#34;https://github.com/hexojs/hexo-deployer-git&#34;&gt;plugin&lt;/a&gt;; if I want backup code automatically, &amp;#x1f44c; add another &lt;a href=&#34;https://github.com/coneycode/hexo-git-backup&#34;&gt;plugin&lt;/a&gt;&amp;hellip;&lt;/p&gt;
 &lt;h4 id=&#34;3-lightweight-file-structure&#34;&gt;3. Lightweight file structure&lt;/h4&gt;
 &lt;p&gt;Not to say if &lt;code&gt;node_modules&lt;/code&gt; is a design flaw of npm, the fact is that &lt;code&gt;node_modules&lt;/code&gt; is bloated heavily, interesting post &lt;a href=&#34;https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558&#34;&gt;here&lt;/a&gt; and interesting discussion &lt;a href=&#34;https://www.reddit.com/r/webdev/comments/42cpjy/why_is_my_node_modules_directory_140mb_is_this/&#34;&gt;here&lt;/a&gt;. Hexo is powered by Node.js and naturally bloated by it. That&amp;rsquo;s why &lt;code&gt;node_modules&lt;/code&gt; is that place where I really don&amp;rsquo;t want to look deep inside. To have a better understanding, I roughly checked the size of folders including the same theme and the result is kind as expected:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Hexo w/ node_modules: 18M
@@ -2008,7 +2008,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;4-little-surprises&#34;&gt;4. Little surprises&lt;/h4&gt;
 &lt;p&gt;After I know more about hugo, I get more little surprises:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/livereload/&#34;&gt;LiveReload&lt;/a&gt;: it instantly reloads browser after any changes. Based on hugo&amp;rsquo;s build speed, it&amp;rsquo;s super continent for developing theme and checking post&amp;rsquo;s looking, easy and fun. I like its speedy &lt;strong&gt;live&lt;/strong&gt; reload. ⚡&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/livereload/&#34;&gt;LiveReload&lt;/a&gt;: it instantly reloads browser after any changes. Based on hugo&amp;rsquo;s build speed, it&amp;rsquo;s super continent for developing theme and checking post&amp;rsquo;s looking, easy and fun. I like its speedy &lt;strong&gt;live&lt;/strong&gt; reload. &amp;#x26a1;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io/extras/aliases/&#34;&gt;Aliases&lt;/a&gt;: I call it  page redirect. Once I put alias URL in a post and then visiting this alias URL from browser, hugo will redirect alias URL to post URL. It easily solves the problem of URL changes caused by migration from other frameworks.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
@@ -2018,7 +2018,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;li&gt;You already use hexo, and you are a fan of JavaScript, then &lt;strong&gt;hexo&lt;/strong&gt; is the one to stick with.&lt;/li&gt;
 &lt;li&gt;You already use hexo, and your plan is to spend time on writing, then &lt;strong&gt;hexo&lt;/strong&gt; is good enough.&lt;/li&gt;
 &lt;li&gt;You already use hexo, and you want to learn new thing, and you&amp;rsquo;ve 1-2 days free time, then &lt;strong&gt;hugo&lt;/strong&gt; would be a good choice for you.&lt;/li&gt;
-&lt;li&gt;You already use hugo, then keep using &lt;strong&gt;hugo&lt;/strong&gt; and don&amp;rsquo;t look around 😉&lt;/li&gt;
+&lt;li&gt;You already use hugo, then keep using &lt;strong&gt;hugo&lt;/strong&gt; and don&amp;rsquo;t look around &amp;#x1f609;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -2071,136 +2071,138 @@ Then I will put the ideas or assumptions shortly on a to-do list:
       
       <guid>https://kevcui.github.io/2017/03/08/my-toolbox/</guid>
       <description>&lt;h3 id=&#34;software-testing&#34;&gt;Software Testing&lt;/h3&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://sqamate.com/tools/pairwise&#34;&gt;Test case generator (pairwise)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📖👉 &lt;a href=&#34;http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf&#34;&gt;Test Heuristics Cheat Sheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📖👉 &lt;a href=&#34;https://medium.com/@userfocus/the-1-page-usability-test-plan-dbc8c3d7fb54#.e4fd2w21q&#34;&gt;1-page usability test plan&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/lestoni/faker-cli&#34;&gt;faker-cli&lt;/a&gt;: generate massive amounts of fake data&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/aoh/radamsa&#34;&gt;Radamsa&lt;/a&gt;: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/josephwilk/pairwise&#34;&gt;Ruby Pairwise&lt;/a&gt;: Ruby based tool for selecting a smaller number of test input combinations&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/&#34;&gt;Name&lt;/a&gt;: all about name&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/minimaxir/big-list-of-naughty-strings&#34;&gt;Big List of Naughty Strings&lt;/a&gt;: list of strings which have a high probability of causing issues&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/jagracey/Awesome-Unicode&#34;&gt;Awesome Unicode&lt;/a&gt;: Unicode list&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/danielmiessler/SecLists&#34;&gt;SecLists&lt;/a&gt;: a collection of multiple types of lists used during security assessments&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://commons.wikimedia.org/wiki/Category:Large_images&#34;&gt;Large images&lt;/a&gt;: a list of very large images above 50 Megapixel&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.mailslurp.com/#page-top&#34;&gt;MailSlurp&lt;/a&gt;: send and receive emails from randomly generated addresses via REST.&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://mockaroo.com/&#34;&gt;Mockaroo&lt;/a&gt;: realistic data generator&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://sqamate.com/tools/pairwise&#34;&gt;Test case generator (pairwise)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4d6;&amp;#x1f449; &lt;a href=&#34;http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf&#34;&gt;Test Heuristics Cheat Sheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4d6;&amp;#x1f449; &lt;a href=&#34;https://medium.com/@userfocus/the-1-page-usability-test-plan-dbc8c3d7fb54#.e4fd2w21q&#34;&gt;1-page usability test plan&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/lestoni/faker-cli&#34;&gt;faker-cli&lt;/a&gt;: generate massive amounts of fake data&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/aoh/radamsa&#34;&gt;Radamsa&lt;/a&gt;: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/josephwilk/pairwise&#34;&gt;Ruby Pairwise&lt;/a&gt;: Ruby based tool for selecting a smaller number of test input combinations&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/&#34;&gt;Name&lt;/a&gt;: all about name&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://github.com/minimaxir/big-list-of-naughty-strings&#34;&gt;Big List of Naughty Strings&lt;/a&gt;: list of strings which have a high probability of causing issues&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://github.com/jagracey/Awesome-Unicode&#34;&gt;Awesome Unicode&lt;/a&gt;: Unicode list&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://github.com/danielmiessler/SecLists&#34;&gt;SecLists&lt;/a&gt;: a collection of multiple types of lists used during security assessments&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://commons.wikimedia.org/wiki/Category:Large_images&#34;&gt;Large images&lt;/a&gt;: a list of very large images above 50 Megapixel&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.mailslurp.com/#page-top&#34;&gt;MailSlurp&lt;/a&gt;: send and receive emails from randomly generated addresses via REST.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://mockaroo.com/&#34;&gt;Mockaroo&lt;/a&gt;: realistic data generator&lt;/p&gt;
 &lt;h3 id=&#34;mobile-testing&#34;&gt;Mobile Testing&lt;/h3&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://tools.perfectomobile.com/test-coverage-optimizer/&#34;&gt;Test coverage optimizer&lt;/a&gt;: discover the optimal mix for maximizing your test coverage with the fewest devices possible&lt;/p&gt;
-&lt;p&gt;📦👉 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.glasswire.android&#34;&gt;GlassWire&lt;/a&gt;: monitor app data usage&lt;/p&gt;
-&lt;p&gt;📦👉 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.testerkey.testerkeyboard&#34;&gt;TesterKey&lt;/a&gt;: generate complex and randomised input values&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/selendroid/selendroid&#34;&gt;Selendroid&lt;/a&gt;: test automation framework which drives of the UI of Android native and hybrid applications apps&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://tools.perfectomobile.com/test-coverage-optimizer/&#34;&gt;Test coverage optimizer&lt;/a&gt;: discover the optimal mix for maximizing your test coverage with the fewest devices possible&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4e6;&amp;#x1f449; &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.glasswire.android&#34;&gt;GlassWire&lt;/a&gt;: monitor app data usage&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4e6;&amp;#x1f449; &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.testerkey.testerkeyboard&#34;&gt;TesterKey&lt;/a&gt;: generate complex and randomised input values&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/selendroid/selendroid&#34;&gt;Selendroid&lt;/a&gt;: test automation framework which drives of the UI of Android native and hybrid applications apps&lt;/p&gt;
 &lt;h3 id=&#34;web-testing&#34;&gt;Web Testing&lt;/h3&gt;
-&lt;p&gt;📖👉 &lt;a href=&#34;https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html&#34;&gt;UTF-8 plain text test file&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📖👉 &lt;a href=&#34;https://github.com/dhamaniasad/HeadlessBrowsers&#34;&gt;Headless Browser list&lt;/a&gt;: a list of (almost) all headless web browsers in existence&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.performancebudget.io/&#34;&gt;Performance Budget Calculator&lt;/a&gt;: calculate a performance budget for your site&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/dhatanian/ticketmagpie&#34;&gt;TicketMagpie OWASP Top10 demo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://validator.w3.org/i18n-checker/&#34;&gt;i18n Validator&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/galenframework/galen&#34;&gt;Galen Framework&lt;/a&gt;: testing layout and responsive design of web applications&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/jan-molak/serenity-js&#34;&gt;Serenity/JS&lt;/a&gt;: a node.js library designed to make acceptance and regression testing of modern web applications faster&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/teamcapybara/capybara&#34;&gt;capybara&lt;/a&gt;: acceptance test framework for web applications&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://cards-dev.twitter.com/validator&#34;&gt;Twitter Card Validator&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://developers.facebook.com/tools/debug/&#34;&gt;Facebook Debugger&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.jsontest.com&#34;&gt;JSON Test&lt;/a&gt;: JSON Testing Service&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://apitester.com&#34;&gt;API tester&lt;/a&gt;: test API&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;Webpagetest&lt;/a&gt;: test a website&amp;rsquo;s performance&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4d6;&amp;#x1f449; &lt;a href=&#34;https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html&#34;&gt;UTF-8 plain text test file&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4d6;&amp;#x1f449; &lt;a href=&#34;https://github.com/dhamaniasad/HeadlessBrowsers&#34;&gt;Headless Browser list&lt;/a&gt;: a list of (almost) all headless web browsers in existence&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://www.performancebudget.io/&#34;&gt;Performance Budget Calculator&lt;/a&gt;: calculate a performance budget for your site&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://github.com/dhatanian/ticketmagpie&#34;&gt;TicketMagpie OWASP Top10 demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://validator.w3.org/i18n-checker/&#34;&gt;i18n Validator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/galenframework/galen&#34;&gt;Galen Framework&lt;/a&gt;: testing layout and responsive design of web applications&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/jan-molak/serenity-js&#34;&gt;Serenity/JS&lt;/a&gt;: a node.js library designed to make acceptance and regression testing of modern web applications faster&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/teamcapybara/capybara&#34;&gt;capybara&lt;/a&gt;: acceptance test framework for web applications&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://cards-dev.twitter.com/validator&#34;&gt;Twitter Card Validator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://developers.facebook.com/tools/debug/&#34;&gt;Facebook Debugger&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://www.jsontest.com&#34;&gt;JSON Test&lt;/a&gt;: JSON Testing Service&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://apitester.com&#34;&gt;API tester&lt;/a&gt;: test API&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://www.webpagetest.org&#34;&gt;Webpagetest&lt;/a&gt;: test a website&amp;rsquo;s performance&lt;/p&gt;
 &lt;h3 id=&#34;dev-tools&#34;&gt;Dev Tools&lt;/h3&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://putsreq.com/&#34;&gt;PutsReq&lt;/a&gt;: record HTTP requests and fake responses&lt;/p&gt;
-&lt;p&gt;📖👉 &lt;a href=&#34;http://www.stefankrause.net/js-frameworks-benchmark2/webdriver-java/table.html?utm_content=buffer615ad&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&#34;&gt;JS framework benchmark&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📖👉 &lt;a href=&#34;http://cdn2.hubspot.net/hubfs/208250/Blog_Images/devops11.png&#34;&gt;The Ultimate DevOps Tools Ecosystem&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://regex101.com/&#34;&gt;regex101&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://ihateregex.io/&#34;&gt;iHateRegex&lt;/a&gt;: regex Cheat Sheet&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://rubular.com/&#34;&gt;rubular&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📦👉 &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/dxa4481/truffleHog&#34;&gt;Truffle Dog&lt;/a&gt;: searches through git repositories for high entropy strings, digging deep into commit history and branches&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/jkbrzt/httpie&#34;&gt;HTTPie&lt;/a&gt;: a CLI, cURL-like tool for humans&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/lord/slate&#34;&gt;Slate&lt;/a&gt;: API doc generator&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/anvaka/git-also&#34;&gt;git-also&lt;/a&gt;: for a file in your git repository, prints other files that are most often committed together&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;mitmproxy&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/naptha/tesseract.js&#34;&gt;Tesseract.js&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;💻👉 &lt;a href=&#34;https://asciinema.org/&#34;&gt;asciinema&lt;/a&gt;: record and share terminal sessions&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://obfuscator.uo1.net/&#34;&gt;Online Text Obfuscator&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://webcode.tools&#34;&gt;Web Code Tools&lt;/a&gt;: code generator&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.json-generator.com/&#34;&gt;JSON generator&lt;/a&gt;: JSON generator&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://foragoodstrftime.com/&#34;&gt;For a Good Strftime&lt;/a&gt;: easy date time formatting&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://pin.gy/cli/&#34;&gt;Pingy&lt;/a&gt;: the simple frontend build tool&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://patterns.boilerform.design&#34;&gt;Boilerform&lt;/a&gt;: Generic input fields with variations for size, placeholders and validation states.&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://jqplay.org/&#34;&gt;jq play&lt;/a&gt;: a playground for jq&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://requestmap.webperf.tools/&#34;&gt;Request Map Generator&lt;/a&gt;: identify 3rd-parties on your site&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://whatdoesmysitecost.com/&#34;&gt;What Does My Siet Cost?&lt;/a&gt;: find out how much it costs for someone to use your site on mobile networks around the world.&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://tio.run/&#34;&gt;TIO&lt;/a&gt;: Try It Online. TIO is a family of online interpreters for an evergrowing list of practical and recreational programming languages.&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://hackvertor.co.uk&#34;&gt;Hackvertor&lt;/a&gt;: A tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc.&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://check-host.net/check-http&#34;&gt;Check HTTP&lt;/a&gt;: Check website availability and performance with responses from many servers in various countries.&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://cronprompt.com/&#34;&gt;Cron Prompt&lt;/a&gt;: Convert English text into cron expressions.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://putsreq.com/&#34;&gt;PutsReq&lt;/a&gt;: record HTTP requests and fake responses&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4d6;&amp;#x1f449; &lt;a href=&#34;http://www.stefankrause.net/js-frameworks-benchmark2/webdriver-java/table.html?utm_content=buffer615ad&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&#34;&gt;JS framework benchmark&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4d6;&amp;#x1f449; &lt;a href=&#34;http://cdn2.hubspot.net/hubfs/208250/Blog_Images/devops11.png&#34;&gt;The Ultimate DevOps Tools Ecosystem&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://regex101.com/&#34;&gt;regex101&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://ihateregex.io/&#34;&gt;iHateRegex&lt;/a&gt;: regex Cheat Sheet&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://rubular.com/&#34;&gt;rubular&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4e6;&amp;#x1f449; &lt;a href=&#34;https://www.getpostman.com/&#34;&gt;Postman&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/dxa4481/truffleHog&#34;&gt;Truffle Dog&lt;/a&gt;: searches through git repositories for high entropy strings, digging deep into commit history and branches&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/jkbrzt/httpie&#34;&gt;HTTPie&lt;/a&gt;: a CLI, cURL-like tool for humans&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/lord/slate&#34;&gt;Slate&lt;/a&gt;: API doc generator&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/anvaka/git-also&#34;&gt;git-also&lt;/a&gt;: for a file in your git repository, prints other files that are most often committed together&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy&#34;&gt;mitmproxy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/naptha/tesseract.js&#34;&gt;Tesseract.js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4bb;&amp;#x1f449; &lt;a href=&#34;https://asciinema.org/&#34;&gt;asciinema&lt;/a&gt;: record and share terminal sessions&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://obfuscator.uo1.net/&#34;&gt;Online Text Obfuscator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://webcode.tools&#34;&gt;Web Code Tools&lt;/a&gt;: code generator&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://www.json-generator.com/&#34;&gt;JSON generator&lt;/a&gt;: JSON generator&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://foragoodstrftime.com/&#34;&gt;For a Good Strftime&lt;/a&gt;: easy date time formatting&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://pin.gy/cli/&#34;&gt;Pingy&lt;/a&gt;: the simple frontend build tool&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://patterns.boilerform.design&#34;&gt;Boilerform&lt;/a&gt;: Generic input fields with variations for size, placeholders and validation states.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://jqplay.org/&#34;&gt;jq play&lt;/a&gt;: a playground for jq&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://requestmap.webperf.tools/&#34;&gt;Request Map Generator&lt;/a&gt;: identify 3rd-parties on your site&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://whatdoesmysitecost.com/&#34;&gt;What Does My Siet Cost?&lt;/a&gt;: find out how much it costs for someone to use your site on mobile networks around the world.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://tio.run/&#34;&gt;TIO&lt;/a&gt;: Try It Online. TIO is a family of online interpreters for an evergrowing list of practical and recreational programming languages.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://hackvertor.co.uk&#34;&gt;Hackvertor&lt;/a&gt;: A tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://check-host.net/check-http&#34;&gt;Check HTTP&lt;/a&gt;: Check website availability and performance with responses from many servers in various countries.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://cronprompt.com/&#34;&gt;Cron Prompt&lt;/a&gt;: Convert English text into cron expressions.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.writefull.com/&#34;&gt;Writefull&lt;/a&gt;: Use artificial intelligence to correct grammar, punctuation, word use&lt;/p&gt;
 &lt;h3 id=&#34;method--mode&#34;&gt;Method &amp;amp; Mode&lt;/h3&gt;
-&lt;p&gt;👉 &lt;a href=&#34;https://pbs.twimg.com/media/C3JNXUtWEAAW951.jpg&#34;&gt;Cynefin Framework for user story splitting&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;👉 &lt;a href=&#34;https://cdn-images-1.medium.com/max/1200/1*rC6ZDnnSEK8NSPzrMG_A4Q.png&#34;&gt;Product Strategy Canvas&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;👉 &lt;a href=&#34;https://natgeoeducationblog.files.wordpress.com/2017/01/ultimate-critical-thinking-worksheet.jpg&#34;&gt;The ultimate cheat sheet for critical thinking&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;👉 &lt;a href=&#34;https://en.wikipedia.org/wiki/Kano_model#/media/File:Kano_model_showing_transition_over_time.png&#34;&gt;Kano model&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;👉 &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/6/65/Cognitive_bias_codex_en.svg&#34;&gt;The Cognitive Bias Codex&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f449; &lt;a href=&#34;https://pbs.twimg.com/media/C3JNXUtWEAAW951.jpg&#34;&gt;Cynefin Framework for user story splitting&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f449; &lt;a href=&#34;https://cdn-images-1.medium.com/max/1200/1*rC6ZDnnSEK8NSPzrMG_A4Q.png&#34;&gt;Product Strategy Canvas&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f449; &lt;a href=&#34;https://natgeoeducationblog.files.wordpress.com/2017/01/ultimate-critical-thinking-worksheet.jpg&#34;&gt;The ultimate cheat sheet for critical thinking&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f449; &lt;a href=&#34;https://en.wikipedia.org/wiki/Kano_model#/media/File:Kano_model_showing_transition_over_time.png&#34;&gt;Kano model&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f449; &lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/6/65/Cognitive_bias_codex_en.svg&#34;&gt;The Cognitive Bias Codex&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;search&#34;&gt;Search&lt;/h3&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.shodan.io/&#34;&gt;Shodan&lt;/a&gt;: search engine for Internet-connected devices&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://foller.me/&#34;&gt;Twitter Analytics&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.pexels.com/&#34;&gt;Pexels&lt;/a&gt;: best free stock photos in one place&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://startup-videos.com/&#34;&gt;StartupVideos&lt;/a&gt;: showcasing The Best Startup Videos&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.landingfolio.com/&#34;&gt;Landingfolio&lt;/a&gt;: landing page design inspiration&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.videvo.net/&#34;&gt;videovo&lt;/a&gt;: free stock video footage&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.mankier.com/&#34;&gt;Mankier&lt;/a&gt;: collection of online man pages&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://bbcsfx.acropolis.org.uk/&#34;&gt;BBC Sound Effects&lt;/a&gt;: 16,000 BBC sound effects are made available by the BBC&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://keywordtool.io/google&#34;&gt;Keyword Tool&lt;/a&gt;: search for the keywords&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.gutenberg.org/&#34;&gt;Project Gutenberg&lt;/a&gt;: free books&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://web.archive.org/&#34;&gt;Wayback&lt;/a&gt;: Internet archive&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://causal.app/buy-to-rent/&#34;&gt;Buy to rent&lt;/a&gt;: Should you buy a house and rent it out?&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://outline.com&#34;&gt;Outline&lt;/a&gt;: read &amp;amp; annotate website&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://yarn.co&#34;&gt;Yarn&lt;/a&gt;: Search by word or pharse for TV, movies, and music clips&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://github.com/5ky1ar/Awesome-Onion-Links&#34;&gt;Onion Links&lt;/a&gt;: Awesome Onion Links&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://agoodmovietowatch.com&#34;&gt;A Good Movie to Watch&lt;/a&gt;: TV and movies recommendation&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://forvo.com&#34;&gt;Forvo&lt;/a&gt;: Words pronunciations&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://memegine.com&#34;&gt;memegine&lt;/a&gt;: The internet meme search engine&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://findthatmeme.com/&#34;&gt;FindThatMeme&lt;/a&gt;: Search millions of memes from across the web in seconds. You can search by text in the meme, or by providing a meme you want to find similar memes to&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://pinatahub.incognita.tech&#34;&gt;PinataHub&lt;/a&gt;: PinataHub allows you to explore a fraction of the 4M+ passwords and secrets committed in public GitHub repositories&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.greynoise.io/&#34;&gt;Greynoise&lt;/a&gt;: Malicious IP lookup&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://chir.ag/projects/tip-of-my-tongue/&#34;&gt;Tip of My Tongue&lt;/a&gt;: Find that word that you&amp;rsquo;ve been thinking about all day but just can&amp;rsquo;t seem to remember&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://arthub.ai/&#34;&gt;ArtHub.ai&lt;/a&gt;: Explore AI generated designs, images, art and prompts by top community artists and designers&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://netlas.io/&#34;&gt;Netlas.io&lt;/a&gt;: Internet intelligence apps that provide accurate technical information on IP addresses, domain names, websites, web applications, IoT devices, and other online assets.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.shodan.io/&#34;&gt;Shodan&lt;/a&gt;: search engine for Internet-connected devices&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://foller.me/&#34;&gt;Twitter Analytics&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.pexels.com/&#34;&gt;Pexels&lt;/a&gt;: best free stock photos in one place&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://startup-videos.com/&#34;&gt;StartupVideos&lt;/a&gt;: showcasing The Best Startup Videos&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://www.landingfolio.com/&#34;&gt;Landingfolio&lt;/a&gt;: landing page design inspiration&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.videvo.net/&#34;&gt;videovo&lt;/a&gt;: free stock video footage&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.mankier.com/&#34;&gt;Mankier&lt;/a&gt;: collection of online man pages&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://bbcsfx.acropolis.org.uk/&#34;&gt;BBC Sound Effects&lt;/a&gt;: 16,000 BBC sound effects are made available by the BBC&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://keywordtool.io/google&#34;&gt;Keyword Tool&lt;/a&gt;: search for the keywords&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.gutenberg.org/&#34;&gt;Project Gutenberg&lt;/a&gt;: free books&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://web.archive.org/&#34;&gt;Wayback&lt;/a&gt;: Internet archive&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://causal.app/buy-to-rent/&#34;&gt;Buy to rent&lt;/a&gt;: Should you buy a house and rent it out?&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://outline.com&#34;&gt;Outline&lt;/a&gt;: read &amp;amp; annotate website&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://yarn.co&#34;&gt;Yarn&lt;/a&gt;: Search by word or pharse for TV, movies, and music clips&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://github.com/5ky1ar/Awesome-Onion-Links&#34;&gt;Onion Links&lt;/a&gt;: Awesome Onion Links&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://agoodmovietowatch.com&#34;&gt;A Good Movie to Watch&lt;/a&gt;: TV and movies recommendation&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://forvo.com&#34;&gt;Forvo&lt;/a&gt;: Words pronunciations&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://memegine.com&#34;&gt;memegine&lt;/a&gt;: The internet meme search engine&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://findthatmeme.com/&#34;&gt;FindThatMeme&lt;/a&gt;: Search millions of memes from across the web in seconds. You can search by text in the meme, or by providing a meme you want to find similar memes to&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://pinatahub.incognita.tech&#34;&gt;PinataHub&lt;/a&gt;: PinataHub allows you to explore a fraction of the 4M+ passwords and secrets committed in public GitHub repositories&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.greynoise.io/&#34;&gt;Greynoise&lt;/a&gt;: Malicious IP lookup&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://chir.ag/projects/tip-of-my-tongue/&#34;&gt;Tip of My Tongue&lt;/a&gt;: Find that word that you&amp;rsquo;ve been thinking about all day but just can&amp;rsquo;t seem to remember&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://arthub.ai/&#34;&gt;ArtHub.ai&lt;/a&gt;: Explore AI generated designs, images, art and prompts by top community artists and designers&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://netlas.io/&#34;&gt;Netlas.io&lt;/a&gt;: Internet intelligence apps that provide accurate technical information on IP addresses, domain names, websites, web applications, IoT devices, and other online assets.&lt;/p&gt;
 &lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/sferik/t&#34;&gt;Ruby Twitter CLI&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://google-webfonts-helper.herokuapp.com/fonts&#34;&gt;Google Webfont Helper&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://vimcolors.com/&#34;&gt;VIM color themes&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/mxstbr/sharingbuttons.io&#34;&gt;sharingbuttons.io&lt;/a&gt;: generate social sharing buttons&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/l0b0/xterm-color-count&#34;&gt;XTerm Color Count&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;📀👉 &lt;a href=&#34;https://github.com/WebpageFX/emoji-cheat-sheet.com&#34;&gt;emoji cheat sheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://excel2jira.bluurgh.com/&#34;&gt;Excel to Jira table&lt;/a&gt;: copy and paste a table from Excel, click the button, and in return you will get the table formatted for JIRA&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://colormind.io/&#34;&gt;Colormind&lt;/a&gt;: Colormind is a deep learning AI that knows color theory. It can generate color palettes from scratch, or it can take your input and intelligently fill in the blanks.&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.canva.com/color-palette/&#34;&gt;Color palette&lt;/a&gt;: get colors from photos&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://smartmockups.com/&#34;&gt;Smartmockups&lt;/a&gt;: create product screenshots with mocks&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://sproutsocial.com/landscape&#34;&gt;Landscape&lt;/a&gt;: streamlined image resizing for social media&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://coolors.co/&#34;&gt;Coolors&lt;/a&gt;: fast color schemes generator&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.colourlovers.com/&#34;&gt;Colour Lovers&lt;/a&gt;: share color ideas &amp;amp; inspiration&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.colorhunt.co/&#34;&gt;Color Hunt&lt;/a&gt;: free and open platform for color inspiration with thousands of trendy hand-picked color palettes&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://www.archetypeapp.com/&#34;&gt;archetype&lt;/a&gt;: create consistent typography styling and spacing live&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.boardofinnovation.com/idea-generator/&#34;&gt;The Idea Generator&lt;/a&gt;: boost the quantity and quality of innovated idea.&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://vickylai.io/uni-pretty&#34;&gt;Uni-pretty&lt;/a&gt;: turn boring plain text into pretty unicode characters.&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://ourownthing.co.uk/gradpad.html&#34;&gt;GradPad&lt;/a&gt;: generate gradient CSS&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://dtstyle.net/&#34;&gt;dtstyle&lt;/a&gt;: a darktable styles repository&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://dryicons.com/&#34;&gt;Dryicons&lt;/a&gt;: icons&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://icons8.com/music/&#34;&gt;Fugue&lt;/a&gt;: free music for videos&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://photos.icons8.com/&#34;&gt;Moose&lt;/a&gt;: stock photos&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.photopea.com/&#34;&gt;Photepea&lt;/a&gt;: online photoshop&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;http://phlntn.com/emojibuilder/&#34;&gt;Emoji Builder&lt;/a&gt;: build emoji&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://fontdrop.info/&#34;&gt;FontDrop!&lt;/a&gt;: analyze what&amp;rsquo;s inside a font file&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://cssreference.io/&#34;&gt;CSS Reference&lt;/a&gt;: free visual guide to CSS&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://picsum.photos/&#34;&gt;Picsum&lt;/a&gt;: the Lorem Ipsum for photos.&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://undraw.co/&#34;&gt;unDraw&lt;/a&gt;: open-source illustrations&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://delesign.com/free-designs/graphics&#34;&gt;Delesign&lt;/a&gt;: illustrations&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://mage.space&#34;&gt;Mage&lt;/a&gt;: stable diffusion&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://www.watermarkremover.io/&#34;&gt;WatermarkRemover.io&lt;/a&gt;: get rid of the watermarks from your images using our powerful AI technology&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/sferik/t&#34;&gt;Ruby Twitter CLI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://google-webfonts-helper.herokuapp.com/fonts&#34;&gt;Google Webfont Helper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://vimcolors.com/&#34;&gt;VIM color themes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/mxstbr/sharingbuttons.io&#34;&gt;sharingbuttons.io&lt;/a&gt;: generate social sharing buttons&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/l0b0/xterm-color-count&#34;&gt;XTerm Color Count&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/WebpageFX/emoji-cheat-sheet.com&#34;&gt;emoji cheat sheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://excel2jira.bluurgh.com/&#34;&gt;Excel to Jira table&lt;/a&gt;: copy and paste a table from Excel, click the button, and in return you will get the table formatted for JIRA&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://colormind.io/&#34;&gt;Colormind&lt;/a&gt;: Colormind is a deep learning AI that knows color theory. It can generate color palettes from scratch, or it can take your input and intelligently fill in the blanks.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.canva.com/color-palette/&#34;&gt;Color palette&lt;/a&gt;: get colors from photos&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://smartmockups.com/&#34;&gt;Smartmockups&lt;/a&gt;: create product screenshots with mocks&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://sproutsocial.com/landscape&#34;&gt;Landscape&lt;/a&gt;: streamlined image resizing for social media&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://coolors.co/&#34;&gt;Coolors&lt;/a&gt;: fast color schemes generator&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.colourlovers.com/&#34;&gt;Colour Lovers&lt;/a&gt;: share color ideas &amp;amp; inspiration&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.colorhunt.co/&#34;&gt;Color Hunt&lt;/a&gt;: free and open platform for color inspiration with thousands of trendy hand-picked color palettes&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://www.archetypeapp.com/&#34;&gt;archetype&lt;/a&gt;: create consistent typography styling and spacing live&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.boardofinnovation.com/idea-generator/&#34;&gt;The Idea Generator&lt;/a&gt;: boost the quantity and quality of innovated idea.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://vickylai.io/uni-pretty&#34;&gt;Uni-pretty&lt;/a&gt;: turn boring plain text into pretty unicode characters.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://ourownthing.co.uk/gradpad.html&#34;&gt;GradPad&lt;/a&gt;: generate gradient CSS&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://dtstyle.net/&#34;&gt;dtstyle&lt;/a&gt;: a darktable styles repository&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://dryicons.com/&#34;&gt;Dryicons&lt;/a&gt;: icons&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://icons8.com/music/&#34;&gt;Fugue&lt;/a&gt;: free music for videos&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://photos.icons8.com/&#34;&gt;Moose&lt;/a&gt;: stock photos&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.photopea.com/&#34;&gt;Photepea&lt;/a&gt;: online photoshop&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://phlntn.com/emojibuilder/&#34;&gt;Emoji Builder&lt;/a&gt;: build emoji&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://fontdrop.info/&#34;&gt;FontDrop!&lt;/a&gt;: analyze what&amp;rsquo;s inside a font file&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://cssreference.io/&#34;&gt;CSS Reference&lt;/a&gt;: free visual guide to CSS&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://picsum.photos/&#34;&gt;Picsum&lt;/a&gt;: the Lorem Ipsum for photos.&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://undraw.co/&#34;&gt;unDraw&lt;/a&gt;: open-source illustrations&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://delesign.com/free-designs/graphics&#34;&gt;Delesign&lt;/a&gt;: illustrations&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://mage.space&#34;&gt;Mage&lt;/a&gt;: stable diffusion&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://www.watermarkremover.io/&#34;&gt;WatermarkRemover.io&lt;/a&gt;: get rid of the watermarks from your images using our powerful AI technology&lt;/p&gt;
 &lt;h3 id=&#34;security&#34;&gt;Security&lt;/h3&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://securityheaders.io&#34;&gt;SecurityHeaders.io&lt;/a&gt;: a quick and easy way to check http headers&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://pyup.io/tools/requirements-checker/&#34;&gt;Online Requirements Checker&lt;/a&gt;: Python requirements checker&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://beeceptor.com/&#34;&gt;Beeceptor&lt;/a&gt;: Rest API mocking and intercepting&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://cloudsecdocs.com/&#34;&gt;CloudSecDocs&lt;/a&gt;: a website collecting technical notes, how-tos, and cheatsheets related to cloud-native technologies&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://asecure.cloud/&#34;&gt;asecurecloud&lt;/a&gt;: choose from a free library of 600+ customizable AWS security configurations and best practices available in CloudFormation, Terraform and AWS CLI&lt;/p&gt;
-&lt;p&gt;🌏👉 &lt;a href=&#34;https://fullhunt.io&#34;&gt;FullHunt&lt;/a&gt;: attack surface intelligence&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://securityheaders.io&#34;&gt;SecurityHeaders.io&lt;/a&gt;: a quick and easy way to check http headers&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://pyup.io/tools/requirements-checker/&#34;&gt;Online Requirements Checker&lt;/a&gt;: Python requirements checker&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://beeceptor.com/&#34;&gt;Beeceptor&lt;/a&gt;: Rest API mocking and intercepting&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://cloudsecdocs.com/&#34;&gt;CloudSecDocs&lt;/a&gt;: a website collecting technical notes, how-tos, and cheatsheets related to cloud-native technologies&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://asecure.cloud/&#34;&gt;asecurecloud&lt;/a&gt;: choose from a free library of 600+ customizable AWS security configurations and best practices available in CloudFormation, Terraform and AWS CLI&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://fullhunt.io&#34;&gt;FullHunt&lt;/a&gt;: attack surface intelligence&lt;/p&gt;
+&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://publicwww.com/&#34;&gt;PublicWWW&lt;/a&gt;: source sode search engine&lt;/p&gt;
 </description>
     </item>
     
@@ -2210,10 +2212,10 @@ Then I will put the ideas or assumptions shortly on a to-do list:
       <pubDate>Sun, 26 Feb 2017 16:40:26 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
-      <description>&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? 😵&lt;/p&gt;
+      <description>&lt;p&gt;Do you remember several months ago I wrote a post about &lt;a href=&#34;https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/&#34;&gt;how to build github.io blog in 3 min?&lt;/a&gt; At that time, I was kidding that &lt;strong&gt;3 min&lt;/strong&gt; in that post title was actually the &lt;strong&gt;time to finish reading that post&lt;/strong&gt;. But today, I could make this raving come true with &lt;a href=&#34;https://hexo.io/&#34;&gt;hexo&lt;/a&gt;, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore? &amp;#x1f635;&lt;/p&gt;
 &lt;h3 id=&#34;a-net-name-is-half-success&#34;&gt;A net name is half-success&lt;/h3&gt;
 &lt;p&gt;Everyone has his own taste on naming. Hexo vs. Jekyll which one is cooler? I cannot tell. But which one is net and easy to write. I vote for hexo.&lt;/p&gt;
-&lt;p&gt;You probably are not a clumsy-handed person, but unfortunately sometimes I am. I admit that many times I&amp;rsquo;m stupid (or drunken) to write jekyll as jeykll, jekyl, jekeyll&amp;hellip; How about hexo? I think I still need drink more 🍷 in order to make a spelling mistake of hexo.&lt;/p&gt;
+&lt;p&gt;You probably are not a clumsy-handed person, but unfortunately sometimes I am. I admit that many times I&amp;rsquo;m stupid (or drunken) to write jekyll as jeykll, jekyl, jekeyll&amp;hellip; How about hexo? I think I still need drink more &amp;#x1f377; in order to make a spelling mistake of hexo.&lt;/p&gt;
 &lt;h3 id=&#34;nodejs-home-lovely-home&#34;&gt;Node.js home lovely home&lt;/h3&gt;
 &lt;p&gt;Jekyll is powered by ruby. Hexo is powered by Node.js. Personally I&amp;rsquo;m more familiar with js than ruby. Using npm to set up project and install plugins makes me feel super relax like staying at home.&lt;/p&gt;
 &lt;p&gt;On the other hand, ruby is also quite interesting to play with. Like dating a beautiful lady for the first time, I&amp;rsquo;ve to understand what she likes and what she doesn&amp;rsquo;t like and then to cater to her pleasure in order to start our relationship. Sometimes I feel embarrassed and ashamed when I made some stupid mistakes and they&amp;rsquo;re unavoidable for a newbie. This feeling will inscribe my nervous level, so uncomfortable :neckbeard:. At the end, the only ting I want is just to set up something in 3 min and spend my time on writing more posts.&lt;/p&gt;
@@ -2223,7 +2225,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Done! What a magic! No need git add, git commit, git push&amp;hellip; It&amp;rsquo;s really continent to write and publish a post.&lt;/p&gt;
 &lt;p&gt;Another good thing is that hexo organizes git repo nicely. It contains only the final static html, js and css files. Other setup related file like _config.xml or themes or plugins can be stored separately in different repositories. It&amp;rsquo;s wonderful for person who has OCD.&lt;/p&gt;
 &lt;h3 id=&#34;setup-theme-dynamically&#34;&gt;Setup theme dynamically&lt;/h3&gt;
-&lt;p&gt;With hexo, there will be no more feeling of frustrated at changing theme. Hexo has an interesting structure to organize &lt;a href=&#34;https://hexo.io/docs/themes.html&#34;&gt;&lt;em&gt;themes&lt;/em&gt;&lt;/a&gt; in a separate folder. Choosing a theme is like switching a cloth. And it&amp;rsquo;s possible to have collect different themes 👗 in your armoire.&lt;/p&gt;
+&lt;p&gt;With hexo, there will be no more feeling of frustrated at changing theme. Hexo has an interesting structure to organize &lt;a href=&#34;https://hexo.io/docs/themes.html&#34;&gt;&lt;em&gt;themes&lt;/em&gt;&lt;/a&gt; in a separate folder. Choosing a theme is like switching a cloth. And it&amp;rsquo;s possible to have collect different themes &amp;#x1f457; in your armoire.&lt;/p&gt;
 &lt;h3 id=&#34;fast&#34;&gt;Fast&lt;/h3&gt;
 &lt;p&gt;Overall, hexo gives me an impression &lt;em&gt;fast&lt;/em&gt;, starting from the command execution with one letter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hexo s &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo server
@@ -2231,7 +2233,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hexo d &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo deploy
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hexo cl &amp;lt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&amp;gt; hexo clean
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;According to my needs, compared to Jekyll hexo has a net name, no learning curve, magic deployment, variable themes, and it runs faster. I&amp;rsquo;m quite satisfied with hexo so far. Maybe I will give &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; a try soon. But who knows when I will switch to the &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;next generator&lt;/a&gt;? 😬&lt;/p&gt;
+&lt;p&gt;According to my needs, compared to Jekyll hexo has a net name, no learning curve, magic deployment, variable themes, and it runs faster. I&amp;rsquo;m quite satisfied with hexo so far. Maybe I will give &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt; a try soon. But who knows when I will switch to the &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;next generator&lt;/a&gt;? &amp;#x1f62c;&lt;/p&gt;
 </description>
     </item>
     
@@ -2467,7 +2469,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;p&gt;Why not make team testing like taking a challenge, playing a game, exploring around?&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://oscarandpatch.co.uk/image_uploads_mce/testing-team.jpg&#34; alt=&#34;&#34;&gt;&lt;sup&gt;&lt;a name=&#34;back3&#34;&gt;&lt;a href=&#34;#link3&#34;&gt;[3]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;h3 id=&#34;lets-have-some-fun&#34;&gt;&lt;strong&gt;Let&amp;rsquo;s have some fun!&lt;/strong&gt;&lt;/h3&gt;
-&lt;h4 id=&#34;_people-are-sitting-around-a-table_-nope-&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;People are sitting around a table.&amp;rdquo;&lt;/em&gt; Nope! 🙅‍♀️&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;_people-are-sitting-around-a-table_-nope-no_good&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;People are sitting around a table.&amp;rdquo;&lt;/em&gt; Nope! &amp;#x1f645;&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;Instead of limiting people to focus on his own stuff, I really like to make people pair together and let them share a &amp;ldquo;test challenge&amp;rdquo;. They can do testing together no matter where they want. Pairing together in team testing is a good test strategy for:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -2483,14 +2485,14 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;p&gt;&lt;strong&gt;Training newcomer&lt;/strong&gt;: when a new team member is joining, (s)he is not quite familiar with product&amp;hellip;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;_everyone-gets-a-paper-in-front-of-them-this-paper-could-be-a-checklist-full-of-test-steps-could-be-a-sheet-full-of-test-scenarios_-nope-&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅‍♀️&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;_everyone-gets-a-paper-in-front-of-them-this-paper-could-be-a-checklist-full-of-test-steps-could-be-a-sheet-full-of-test-scenarios_-nope-no_good&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! &amp;#x1f645;&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;In my team testing, there is no checklist, no test scenarios. I call them &lt;strong&gt;mission&lt;/strong&gt; and &lt;strong&gt;challenge&lt;/strong&gt;. My thought here: Do exploring, not checking, because exploring is more exciting. I prefer to describe simply a challenge in one sentence using &lt;strong&gt;CAR&lt;/strong&gt; model (it&amp;rsquo;s the first name comes to my mind&amp;hellip;). CAR stands for &lt;strong&gt;C&lt;/strong&gt;ondition,  &lt;strong&gt;A&lt;/strong&gt;ction and &lt;strong&gt;R&lt;/strong&gt;esult. A simple example:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;C&lt;/strong&gt;ondition: GPS on&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;ction:  open app&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;R&lt;/strong&gt;esult: my current location was shown&lt;/p&gt;
 &lt;p&gt;Then the challenge is: When phone GPS turned on, I open app, should I see my current location shown correctly?&lt;/p&gt;
 &lt;p&gt;For a 30min testing session, in a mission, 10-15 challenges are recommended. Above 15 is too much, because when people are getting tired, no fun :(&lt;/p&gt;
-&lt;h4 id=&#34;_when-testing-starts-people-follow-same-test-cases-on-the-paper-step-by-step_-nope-&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing starts, people follow same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! 🙅‍♀️&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;_when-testing-starts-people-follow-same-test-cases-on-the-paper-step-by-step_-nope-no_good&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;When testing starts, people follow same test cases on the paper, step by step&amp;hellip;&amp;rdquo;&lt;/em&gt; Nope! &amp;#x1f645;&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;Using CAR model, it&amp;rsquo;s easy to remove useless test steps and to modify them dynamically according to tests.&lt;/p&gt;
 &lt;p&gt;For example, we&amp;rsquo;re focusing on a new feature to reserve vehicle from vehicle list. Then the challenge is: &lt;strong&gt;When my test account is logged in, I pick a vehicle in list, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If next time, we want to test general reservation function. Then the challenge is: &lt;strong&gt;When my test account is logged in, I pick a vehicle in list or on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
@@ -2498,7 +2500,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle in list, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;When my test account is logged in, I pick a vehicle on map, should I be able to reserve vehicle?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;And I will put them to the different &lt;strong&gt;missions&lt;/strong&gt; for different participants.&lt;/p&gt;
-&lt;h4 id=&#34;_soon-people-look-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-passfail_-nope-&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People look like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! 🙅‍♀️&lt;/strong&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;_soon-people-look-like-a-robot-they-look-at-paper-and-write-down-the-answer-someone-will-collect-paper-and-check-passfail_-nope-no_good&#34;&gt;&lt;strong&gt;&lt;em&gt;&amp;ldquo;Soon, People look like a robot: they look at paper and write down the answer&amp;hellip; Someone will collect paper and check pass/fail&amp;rdquo;&lt;/em&gt; Nope! &amp;#x1f645;&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;Usually I set up a simple finding-wall, like blow:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;             iOS     &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;    Android
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Major                &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt;
@@ -2525,7 +2527,7 @@ Then I will put the ideas or assumptions shortly on a to-do list:
       <pubDate>Sat, 19 Nov 2016 13:00:00 +0200</pubDate>
       
       <guid>https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
-      <description>&lt;p&gt;I write this tutorial with some notes about how to build a github.io blog, because I was struggling a bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could &lt;strong&gt;waste&lt;/strong&gt; some of your time on customizing your own awesome blog. 😉&lt;/p&gt;
+      <description>&lt;p&gt;I write this tutorial with some notes about how to build a github.io blog, because I was struggling a bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could &lt;strong&gt;waste&lt;/strong&gt; some of your time on customizing your own awesome blog. &amp;#x1f609;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(What about 3 min? It&amp;rsquo;s the time to read this post&amp;hellip;)&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;brstep-0-know-_things_-first&#34;&gt;&lt;br/&gt;STEP 0: Know &lt;em&gt;things&lt;/em&gt; first&lt;/h3&gt;
 &lt;ul&gt;
@@ -2537,13 +2539,13 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;ul&gt;
 &lt;li&gt;It&amp;rsquo;s really simple, compared to WordPress&lt;/li&gt;
 &lt;li&gt;It&amp;rsquo;s interesting to write post with Markdown ^^&lt;/li&gt;
-&lt;li&gt;You will tell me&amp;hellip; 😄&lt;/li&gt;
+&lt;li&gt;You will tell me&amp;hellip; &amp;#x1f604;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;brstep-2-pick-theme&#34;&gt;&lt;br/&gt;STEP 2: Pick theme&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;A list of some nice jekyll &lt;a href=&#34;https://github.com/jekyll/jekyll/wiki/Themes&#34;&gt;themes&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Check theme demos and pick favorite one&lt;/li&gt;
-&lt;li&gt;Open GitHub and check source page ☕&lt;/li&gt;
+&lt;li&gt;Open GitHub and check source page &amp;#x2615;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;brstep-3-fork-it&#34;&gt;&lt;br/&gt;STEP 3: Fork-it&lt;/h3&gt;
 &lt;ul&gt;
@@ -2566,8 +2568,8 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;baseurl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;...&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;gems &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;jekyull-paginate&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;jemoji&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;⚠️ Empty &lt;strong&gt;baseurl&lt;/strong&gt; or change it to &lt;strong&gt;/&lt;/strong&gt; depends on theme. Otherwise, some themes may not work correctly.&lt;br&gt;
-👊 jemoji!&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&amp;#x26a0;&amp;#xfe0f; Empty &lt;strong&gt;baseurl&lt;/strong&gt; or change it to &lt;strong&gt;/&lt;/strong&gt; depends on theme. Otherwise, some themes may not work correctly.&lt;br&gt;
+&amp;#x1f44a; jemoji!&lt;/p&gt;
 &lt;h3 id=&#34;brstep-5-test-it&#34;&gt;&lt;br/&gt;STEP 5: Test-it&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Run locally&lt;br/&gt;&lt;/li&gt;
@@ -2582,11 +2584,11 @@ Then I will put the ideas or assumptions shortly on a to-do list:
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &amp;#34;How to build github.io blog in 3 min?&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date:  2016-11-18 23:25:28 +0200
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;...
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;⚠️ Be careful of date format &lt;strong&gt;YYYY-MM-DD HH:MM:SS +/-TTTT&lt;/strong&gt;, TTTT is timezone offset&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&amp;#x26a0;&amp;#xfe0f; Be careful of date format &lt;strong&gt;YYYY-MM-DD HH:MM:SS +/-TTTT&lt;/strong&gt;, TTTT is timezone offset&lt;/p&gt;
 &lt;h3 id=&#34;brstep-7-publish-it&#34;&gt;&lt;br/&gt;STEP 7: Publish-it&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;git add, git commit, git push :octocat:&lt;/li&gt;
-&lt;li&gt;Browse your new blog &lt;strong&gt;&lt;a href=&#34;https://username.github.io&#34;&gt;https://username.github.io&lt;/a&gt;&lt;/strong&gt;  👯‍♀️&lt;/li&gt;
+&lt;li&gt;Browse your new blog &lt;strong&gt;&lt;a href=&#34;https://username.github.io&#34;&gt;https://username.github.io&lt;/a&gt;&lt;/strong&gt;  &amp;#x1f46f;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;brhelpful-links&#34;&gt;&lt;br/&gt;Helpful links:&lt;/h3&gt;
 &lt;ul&gt;

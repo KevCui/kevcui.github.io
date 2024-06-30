@@ -1,32 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Kevin Cui</title>
+    <title>Hugo on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on Kevin Cui</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Hugo on Kevin Cui</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Jun 2017 15:55:09 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Jun 2017 15:55:09 +0200</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo x Github Pages</title>
       <link>https://kevcui.github.io/2017/06/18/hugo-github-pages/</link>
       <pubDate>Sun, 18 Jun 2017 15:55:09 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/06/18/hugo-github-pages/</guid>
-      <description>It has been 2 months since I switched from Hexo to Hugo. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog Git repository, then I have to reconfigure the part of deploying Hugo website to Github Pages&amp;hellip;
-To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for the forgetful people, like me.</description>
+      <description>It has been 2 months since I switched from Hexo to Hugo. Everything went smoothly. Until yesterday, I made a small mistake. I messed up my entire blog Git repository, then I have to reconfigure the part of deploying Hugo website to Github Pages&amp;hellip;&#xA;To be honest, the initial configuration is simple but I cannot recall it at all. That&amp;rsquo;s why I finally decide to write down this quick note, for the forgetful people, like me.</description>
     </item>
-    
     <item>
       <title>Why Hugo Why Not Hexo</title>
       <link>https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/</link>
       <pubDate>Wed, 12 Apr 2017 22:47:26 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/04/12/why-hugo-why-not-hexo/</guid>
-      <description>As you probably remember that I just about switched from jekyll to hexo 2 months ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.
-Why hexo was chosen? Let&amp;rsquo;s start from the reasons why I ditched jekyll without any regrets:
-Hexo has a good name Hexo is powered by Node.js Hexo is easy to deploy Hexo supports theme change Hexo is pretty fast Honestly hexo is quite good and I&amp;rsquo;m pretty happy living with it.</description>
+      <description>As you probably remember that I just about switched from jekyll to hexo 2 months ago, now I&amp;rsquo;m again switching from hexo to hugo. Am I crazy? Yep. You want to know why? Let me tell you.&#xA;Why hexo was chosen? Let&amp;rsquo;s start from the reasons why I ditched jekyll without any regrets:&#xA;Hexo has a good name Hexo is powered by Node.js Hexo is easy to deploy Hexo supports theme change Hexo is pretty fast Honestly hexo is quite good and I&amp;rsquo;m pretty happy living with it.</description>
     </item>
-    
   </channel>
 </rss>

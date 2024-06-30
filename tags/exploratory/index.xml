@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>exploratory on Kevin Cui</title>
+    <title>Exploratory on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/exploratory/</link>
-    <description>Recent content in exploratory on Kevin Cui</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Exploratory on Kevin Cui</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Apr 2017 22:30:00 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/exploratory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Apr 2017 22:30:00 +0200</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/exploratory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Do Exploratory Testing</title>
       <link>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</link>
       <pubDate>Mon, 17 Apr 2017 22:30:00 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/</guid>
-      <description>Photo by Kenny Louie &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1]
-What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same time.</description>
+      <description>Photo by Kenny Louie &amp;ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&amp;rdquo; [1]&#xA;What is ET? Exploratory Testing is the nature of testing[2]. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same time.</description>
     </item>
-    
     <item>
       <title>Let&#39;s Have Some Fun! Team Testing</title>
       <link>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
       <pubDate>Thu, 01 Dec 2016 21:37:35 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
-      <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1]
-Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:
-People are sitting around a table.
-Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
+      <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1]&#xA;Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:&#xA;People are sitting around a table.&#xA;Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
     </item>
-    
   </channel>
 </rss>

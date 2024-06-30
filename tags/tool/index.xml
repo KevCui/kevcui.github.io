@@ -1,58 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tool on Kevin Cui</title>
+    <title>Tool on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/tool/</link>
-    <description>Recent content in tool on Kevin Cui</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Tool on Kevin Cui</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 13:44:59 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/tool/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 13:44:59 +0200</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/tool/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use Burp Suite Community Edition Like A Pro</title>
       <link>https://kevcui.github.io/2022/05/01/use-burp-suite-community-edition-like-a-pro/</link>
       <pubDate>Sun, 01 May 2022 13:44:59 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2022/05/01/use-burp-suite-community-edition-like-a-pro/</guid>
-      <description>You should have noticed the pun in this post title 😉. That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.
-Turbo Intruder Let&amp;rsquo;s start with Turbo Intruder. It&amp;rsquo;s one of the most (if not the most) popular Burp extensions. Basically, anyone who knew Burp extensions should have heard the name of Turbo Intruder.</description>
+      <description>You should have noticed the pun in this post title &amp;#x1f609;. That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.&#xA;Turbo Intruder Let&amp;rsquo;s start with Turbo Intruder. It&amp;rsquo;s one of the most (if not the most) popular Burp extensions. Basically, anyone who knew Burp extensions should have heard the name of Turbo Intruder.</description>
     </item>
-    
     <item>
       <title>3 mitmproxy Tips You Might Not Know About</title>
       <link>https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/</link>
       <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/</guid>
-      <description>Photo by Ashley Batz mitmproxy is a powerful proxy tool for debugging network requests and responses. It&amp;rsquo;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about.
-First things first, a small checklist:
-Do you know how mitmproxy works? Do you know how to install mitmproxy? Do you know how to install CA cert on a client side?</description>
+      <description>Photo by Ashley Batz mitmproxy is a powerful proxy tool for debugging network requests and responses. It&amp;rsquo;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about.&#xA;First things first, a small checklist:&#xA;Do you know how mitmproxy works? Do you know how to install mitmproxy? Do you know how to install CA cert on a client side?</description>
     </item>
-    
     <item>
       <title>Bad Use of A Good Tool</title>
       <link>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
       <pubDate>Tue, 27 Jun 2017 21:43:23 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
-      <description>Photo by Jim If all you have is a hammer, everything looks like a nail.
-Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
+      <description>Photo by Jim If all you have is a hammer, everything looks like a nail.&#xA;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
     </item>
-    
     <item>
       <title>My Toolbox</title>
       <link>https://kevcui.github.io/2017/03/08/my-toolbox/</link>
       <pubDate>Wed, 08 Mar 2017 22:12:08 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/03/08/my-toolbox/</guid>
-      <description>Software Testing 🌏👉 Test case generator (pairwise)
-📖👉 Test Heuristics Cheat Sheet
-📖👉 1-page usability test plan
-📀👉 faker-cli: generate massive amounts of fake data
-📀👉 Radamsa: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer
-📀👉 Ruby Pairwise: Ruby based tool for selecting a smaller number of test input combinations
-🌏👉 Name: all about name
-🌏👉 Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
+      <description>Software Testing &amp;#x1f30f;&amp;#x1f449; Test case generator (pairwise)&#xA;&amp;#x1f4d6;&amp;#x1f449; Test Heuristics Cheat Sheet&#xA;&amp;#x1f4d6;&amp;#x1f449; 1-page usability test plan&#xA;&amp;#x1f4c0;&amp;#x1f449; faker-cli: generate massive amounts of fake data&#xA;&amp;#x1f4c0;&amp;#x1f449; Radamsa: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&#xA;&amp;#x1f4c0;&amp;#x1f449; Ruby Pairwise: Ruby based tool for selecting a smaller number of test input combinations&#xA;&amp;#x1f30f;&amp;#x1f449; Name: all about name&#xA;&amp;#x1f30f;&amp;#x1f449; Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
     </item>
-    
   </channel>
 </rss>

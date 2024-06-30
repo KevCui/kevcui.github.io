@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>charles on Kevin Cui</title>
+    <title>Charles on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/charles/</link>
-    <description>Recent content in charles on Kevin Cui</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Charles on Kevin Cui</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jun 2017 21:43:23 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/charles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Jun 2017 21:43:23 +0200</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/charles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bad Use of A Good Tool</title>
       <link>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
       <pubDate>Tue, 27 Jun 2017 21:43:23 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
-      <description>Photo by Jim If all you have is a hammer, everything looks like a nail.
-Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
+      <description>Photo by Jim If all you have is a hammer, everything looks like a nail.&#xA;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
     </item>
-    
   </channel>
 </rss>

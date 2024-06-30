@@ -1,40 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jekyll on Kevin Cui</title>
+    <title>Jekyll on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/jekyll/</link>
-    <description>Recent content in jekyll on Kevin Cui</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Jekyll on Kevin Cui</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Feb 2017 16:40:26 +0200</lastBuildDate><atom:link href="https://kevcui.github.io/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Feb 2017 16:40:26 +0200</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Hexo Why Not Jekyll</title>
       <link>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</link>
       <pubDate>Sun, 26 Feb 2017 16:40:26 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2017/02/26/why-hexo-why-not-jekyll/</guid>
       <description>Do you remember several months ago I wrote a post about how to build github.io blog in 3 min? At that time, I was kidding that 3 min in that post title was actually the time to finish reading that post. But today, I could make this raving come true with hexo, a super simple and powerful static blog generator. I switched immediately from jekyll to hexo. Really? Why hexo, why not jekyll anymore?</description>
     </item>
-    
     <item>
       <title>Know How to Build github.io Blog in 3 min?</title>
       <link>https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</link>
       <pubDate>Sat, 19 Nov 2016 13:00:00 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2016/11/19/know-how-to-build-github.io-blog-in-3-min/</guid>
-      <description>I write this tutorial with some notes about how to build a github.io blog, because I was struggling a bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could waste some of your time on customizing your own awesome blog. 😉
-(What about 3 min? It&amp;rsquo;s the time to read this post&amp;hellip;)</description>
+      <description>I write this tutorial with some notes about how to build a github.io blog, because I was struggling a bit on it (well, I&amp;rsquo;m a dummy). Hope this post will give you a clear view and make you enjoy the build-up phrase. Then after that, you could waste some of your time on customizing your own awesome blog. &amp;#x1f609;&#xA;(What about 3 min? It&amp;rsquo;s the time to read this post&amp;hellip;)</description>
     </item>
-    
     <item>
       <title>Blogging!</title>
       <link>https://kevcui.github.io/2016/11/18/hello-world/</link>
       <pubDate>Fri, 18 Nov 2016 22:09:23 +0200</pubDate>
-      
       <guid>https://kevcui.github.io/2016/11/18/hello-world/</guid>
-      <description>This is my f1rst bl0g. Yep, it&amp;rsquo;s als0 a test blog to check theme
-pןɹoʍ oןןǝɥ</description>
+      <description>This is my f1rst bl0g. Yep, it&amp;rsquo;s als0 a test blog to check theme&#xA;pןɹoʍ oןןǝɥ</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jq on Kevin Cui</title>
+    <title>Jq on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/jq/</link>
-    <description>Recent content in jq on Kevin Cui</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Jq on Kevin Cui</description>
+    <generator>Hugo 0.125.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Nov 2020 14:50:55 +0100</lastBuildDate><atom:link href="https://kevcui.github.io/tags/jq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Nov 2020 14:50:55 +0100</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/jq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Three jq Tips You May Need to Know</title>
       <link>https://kevcui.github.io/2020/11/03/three-jq-tips-you-may-need-to-know/</link>
       <pubDate>Tue, 03 Nov 2020 14:50:55 +0100</pubDate>
-      
       <guid>https://kevcui.github.io/2020/11/03/three-jq-tips-you-may-need-to-know/</guid>
-      <description>jq is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I&amp;rsquo;d like to share 3 jq tips you may need to know.
-JSON Prettier When we curl API to fetch JSON response with raw data. It certainly looks messy:
-$ curl https://api.spacexdata.com/v4/launches/latest {&amp;#34;fairings&amp;#34;:{&amp;#34;reused&amp;#34;:false,&amp;#34;recovery_attempt&amp;#34;:true,&amp;#34;recovered&amp;#34;:null,&amp;#34;ships&amp;#34;:[&amp;#34;5ea6ed2e080df4000697c907&amp;#34;,&amp;#34;5ea6ed2e080df4000697c908&amp;#34;]},...&amp;#34;id&amp;#34;:&amp;#34;5ef6a2e70059c33cee4a8293&amp;#34;} Now let&amp;rsquo;s toss raw data into jq and make it look prettier:</description>
+      <description>jq is famously known as a powerful command-line JSON parser. Besides performing as a parser, jq has many other handy usages as well. Here, I&amp;rsquo;d like to share 3 jq tips you may need to know.&#xA;JSON Prettier When we curl API to fetch JSON response with raw data. It certainly looks messy:&#xA;$ curl https://api.spacexdata.com/v4/launches/latest {&amp;#34;fairings&amp;#34;:{&amp;#34;reused&amp;#34;:false,&amp;#34;recovery_attempt&amp;#34;:true,&amp;#34;recovered&amp;#34;:null,&amp;#34;ships&amp;#34;:[&amp;#34;5ea6ed2e080df4000697c907&amp;#34;,&amp;#34;5ea6ed2e080df4000697c908&amp;#34;]},...&amp;#34;id&amp;#34;:&amp;#34;5ef6a2e70059c33cee4a8293&amp;#34;} Now let&amp;rsquo;s toss raw data into jq and make it look prettier:</description>
     </item>
-    
   </channel>
 </rss>
