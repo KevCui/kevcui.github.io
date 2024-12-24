@@ -4,7 +4,7 @@
     <title>Idea on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/idea/</link>
     <description>Recent content in Idea on Kevin Cui</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 May 2017 20:35:50 +0200</lastBuildDate>
     <atom:link href="https://kevcui.github.io/tags/idea/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</link>
       <pubDate>Tue, 02 May 2017 20:35:50 +0200</pubDate>
       <guid>https://kevcui.github.io/2017/05/02/refine-software-testing-types/</guid>
-      <description>Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:&#xA;When I say &amp;ldquo;Integration Testing&amp;rdquo;, You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;, Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;, Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;, Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;. Actually we are more or less talking about the same thing.</description>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://kevcui.github.io/images/testing-types-wordcloud.png&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Software Testing is a huge topic. The types of software testing are enormous. Tons of terminologies and syllabuses could make people feel sick. A small example:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;When I say &amp;ldquo;Integration Testing&amp;rdquo;,&lt;/li&gt;&#xA;&lt;li&gt;You may interpret as &amp;ldquo;Functional Testing&amp;rdquo;,&lt;/li&gt;&#xA;&lt;li&gt;Your tester friend may think it&amp;rsquo;s &amp;ldquo;Accessibility Testing&amp;rdquo;,&lt;/li&gt;&#xA;&lt;li&gt;Your developer buddy may consider it as &amp;ldquo;Regression Testing&amp;rdquo;,&lt;/li&gt;&#xA;&lt;li&gt;Your PO bro may see it as &amp;ldquo;Automated Testing&amp;rdquo;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Actually we are more or less talking about the same thing. We misunderstand each other because we think from different perspectives.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

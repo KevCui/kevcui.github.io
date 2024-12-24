@@ -4,7 +4,7 @@
     <title>List on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/list/</link>
     <description>Recent content in List on Kevin Cui</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Sep 2018 17:21:08 +0200</lastBuildDate>
     <atom:link href="https://kevcui.github.io/tags/list/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://kevcui.github.io/2018/09/02/replace-8-frequently-used-linux-commands/</link>
       <pubDate>Sun, 02 Sep 2018 17:21:08 +0200</pubDate>
       <guid>https://kevcui.github.io/2018/09/02/replace-8-frequently-used-linux-commands/</guid>
-      <description>Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.&#xA;Here is a list of improved commands I&amp;rsquo;d like to share with you:</description>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*hcY3Bk8YY_1keCJW_b70Vw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;style&gt;&#xA;.lnt {&#xA;    display: none&#xA;}&#xA;&lt;/style&gt;&#xA;&lt;p&gt;Almost a decade ago, I started to touch the command-line interface (CLI). I&amp;rsquo;m now a nerdy CLI lover and I&amp;rsquo;m so obsessed by its efficiency. Therefore, I&amp;rsquo;m always trying out new command-line commands. From time to time, some commands are replaced by other improved ones in my daily workflow. Especially for some frequently used commands, it&amp;rsquo;s worth to find better alternatives.&lt;/p&gt;&#xA;&lt;p&gt;Here is a list of improved commands I&amp;rsquo;d like to share with you:&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Toolbox</title>
       <link>https://kevcui.github.io/2017/03/08/my-toolbox/</link>
       <pubDate>Wed, 08 Mar 2017 22:12:08 +0200</pubDate>
       <guid>https://kevcui.github.io/2017/03/08/my-toolbox/</guid>
-      <description>Software Testing &amp;#x1f30f;&amp;#x1f449; Test case generator (pairwise)&#xA;&amp;#x1f4d6;&amp;#x1f449; Test Heuristics Cheat Sheet&#xA;&amp;#x1f4d6;&amp;#x1f449; 1-page usability test plan&#xA;&amp;#x1f4c0;&amp;#x1f449; faker-cli: generate massive amounts of fake data&#xA;&amp;#x1f4c0;&amp;#x1f449; Radamsa: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&#xA;&amp;#x1f4c0;&amp;#x1f449; Ruby Pairwise: Ruby based tool for selecting a smaller number of test input combinations&#xA;&amp;#x1f30f;&amp;#x1f449; Name: all about name&#xA;&amp;#x1f30f;&amp;#x1f449; Big List of Naughty Strings: list of strings which have a high probability of causing issues</description>
+      <description>&lt;h3 id=&#34;software-testing&#34;&gt;Software Testing&lt;/h3&gt;&#xA;&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://sqamate.com/tools/pairwise&#34;&gt;Test case generator (pairwise)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;#x1f4d6;&amp;#x1f449; &lt;a href=&#34;http://testobsessed.com/wp-content/uploads/2011/04/testheuristicscheatsheetv1.pdf&#34;&gt;Test Heuristics Cheat Sheet&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;#x1f4d6;&amp;#x1f449; &lt;a href=&#34;https://medium.com/@userfocus/the-1-page-usability-test-plan-dbc8c3d7fb54#.e4fd2w21q&#34;&gt;1-page usability test plan&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/lestoni/faker-cli&#34;&gt;faker-cli&lt;/a&gt;: generate massive amounts of fake data&lt;/p&gt;&#xA;&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/aoh/radamsa&#34;&gt;Radamsa&lt;/a&gt;: Radamsa is a test case generator for robustness testing, a.k.a. a fuzzer&lt;/p&gt;&#xA;&lt;p&gt;&amp;#x1f4c0;&amp;#x1f449; &lt;a href=&#34;https://github.com/josephwilk/pairwise&#34;&gt;Ruby Pairwise&lt;/a&gt;: Ruby based tool for selecting a smaller number of test input combinations&lt;/p&gt;&#xA;&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/&#34;&gt;Name&lt;/a&gt;: all about name&lt;/p&gt;&#xA;&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://github.com/minimaxir/big-list-of-naughty-strings&#34;&gt;Big List of Naughty Strings&lt;/a&gt;: list of strings which have a high probability of causing issues&lt;/p&gt;&#xA;&lt;p&gt;&amp;#x1f30f;&amp;#x1f449; &lt;a href=&#34;https://github.com/jagracey/Awesome-Unicode&#34;&gt;Awesome Unicode&lt;/a&gt;: Unicode list&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

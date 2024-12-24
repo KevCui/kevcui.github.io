@@ -4,7 +4,7 @@
     <title>Warrior on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/warrior/</link>
     <description>Recent content in Warrior on Kevin Cui</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 08 Jan 2017 12:31:43 +0200</lastBuildDate>
     <atom:link href="https://kevcui.github.io/tags/warrior/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://kevcui.github.io/2017/01/08/bugshido/</link>
       <pubDate>Sun, 08 Jan 2017 12:31:43 +0200</pubDate>
       <guid>https://kevcui.github.io/2017/01/08/bugshido/</guid>
-      <description>&amp;ldquo;Warriors are born to die. Warriors live to be remembered.&amp;rdquo;&#xA;The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase[1] &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called Bugshido.&#xA;As we all know, Bushido: 武士道 the way (Dō or Tao) of the warrior (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors.</description>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*En26YWwPSATot5n4bBjLrw.jpeg&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Warriors are born to die. Warriors live to be remembered.&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The methods to classify a bug are various, depend on its impact, visibility, related component, related testing phase&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; &amp;hellip; I wonder: if bugs are warriors whom we&amp;rsquo;ve to fight against, what are their classifications? In this post, I&amp;rsquo;m gonna try to explain an interesting bug classification idea, called &lt;strong&gt;Bugshido&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As we all know, &lt;a href=&#34;https://en.wikipedia.org/wiki/Bushido&#34;&gt;Bushido&lt;/a&gt;: 武士道 the &lt;strong&gt;way&lt;/strong&gt; (Dō or Tao) of the &lt;strong&gt;warrior&lt;/strong&gt; (Bushi), is used symbolically in its sense of way, as the right way of existence of warriors. Inspired by Bushido, Bugshido is the way symbolically to determine the existence of different bugs. The idea of Bugshido is based on the way which combines &lt;strong&gt;priority&lt;/strong&gt; and &lt;strong&gt;severity&lt;/strong&gt;&lt;sup&gt;&lt;a name=&#34;back2&#34;&gt;&lt;a href=&#34;#link2&#34;&gt;[2]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt; by&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

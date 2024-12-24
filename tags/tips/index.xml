@@ -4,7 +4,7 @@
     <title>Tips on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/tips/</link>
     <description>Recent content in Tips on Kevin Cui</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 May 2022 13:44:59 +0200</lastBuildDate>
     <atom:link href="https://kevcui.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://kevcui.github.io/2022/05/01/use-burp-suite-community-edition-like-a-pro/</link>
       <pubDate>Sun, 01 May 2022 13:44:59 +0200</pubDate>
       <guid>https://kevcui.github.io/2022/05/01/use-burp-suite-community-edition-like-a-pro/</guid>
-      <description>You should have noticed the pun in this post title &amp;#x1f609;. That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.&#xA;Turbo Intruder Let&amp;rsquo;s start with Turbo Intruder. It&amp;rsquo;s one of the most (if not the most) popular Burp extensions. Basically, anyone who knew Burp extensions should have heard the name of Turbo Intruder.</description>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://kevcui.github.io/images/burp-suite-community-to-pro.png&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;You should have noticed the pun in this post title &amp;#x1f609;. That&amp;rsquo;s right, some powerful Burp Suite extensions can make the free community edition as good as the Burp Pro version. Knowing how to use those extensions will make you feel like a pro.&lt;/p&gt;&#xA;&lt;h3 id=&#34;turbo-intruder&#34;&gt;Turbo Intruder&lt;/h3&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with &lt;a href=&#34;https://github.com/PortSwigger/turbo-intruder&#34;&gt;Turbo Intruder&lt;/a&gt;. It&amp;rsquo;s one of the most (if not the most) popular Burp extensions. Basically, anyone who knew Burp extensions should have heard the name of Turbo Intruder.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3 mitmproxy Tips You Might Not Know About</title>
       <link>https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/</link>
       <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
       <guid>https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/</guid>
-      <description>Photo by Ashley Batz mitmproxy is a powerful proxy tool for debugging network requests and responses. It&amp;rsquo;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about.&#xA;First things first, a small checklist:&#xA;Do you know how mitmproxy works? Do you know how to install mitmproxy? Do you know how to install CA cert on a client side?</description>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;    &lt;br/&gt;&#xA;    &lt;sup&gt;&#xA;        &lt;em&gt;&#xA;            Photo by &lt;a href=&#34;https://unsplash.com/photos/betmVWGYcLY&#34;&gt;Ashley Batz&lt;/a&gt;&#xA;        &lt;/em&gt;&#xA;    &lt;/sup&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;https://mitmproxy.org/&#34;&gt;mitmproxy&lt;/a&gt; is a powerful proxy tool for debugging network requests and responses. It&amp;rsquo;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about.&lt;/p&gt;&#xA;&lt;p&gt;First things first, a small checklist:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.mitmproxy.org/stable/concepts-modes/&#34;&gt;Do you know how mitmproxy works?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.mitmproxy.org/stable/overview-installation/&#34;&gt;Do you know how to install mitmproxy?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.mitmproxy.org/stable/concepts-certificates/&#34;&gt;Do you know how to install CA cert on a client side?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If these questions are way too easy for you and your answers are &lt;em&gt;&amp;ldquo;Yes! Yes! Yes!&amp;rdquo;&lt;/em&gt;, then continue reading. Otherwise, please click and read the links above, and see you here later.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

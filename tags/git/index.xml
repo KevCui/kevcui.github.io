@@ -4,7 +4,7 @@
     <title>Git on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/git/</link>
     <description>Recent content in Git on Kevin Cui</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Jul 2020 09:02:36 +0200</lastBuildDate>
     <atom:link href="https://kevcui.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://kevcui.github.io/2020/07/04/git-alias-did-you-git-it/</link>
       <pubDate>Sat, 04 Jul 2020 09:02:36 +0200</pubDate>
       <guid>https://kevcui.github.io/2020/07/04/git-alias-did-you-git-it/</guid>
-      <description>Git alias is powerful and yet simple to set up. I&amp;rsquo;d like to share my journey in configuring git alias for my personal use. Now let&amp;rsquo;s dig it and git it!&#xA;Day 1: Why git alias? I was using Tig for some time. It&amp;rsquo;s good but not great. The problems I got during the time:&#xA;It takes time to memorize the default key bindings. Since I&amp;rsquo;m using Colemak keyboard layout, obviously, the default navigation key bindings need to be adjusted accordingly.</description>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://miro.medium.com/max/1000/1*3FdoxRpyTvSD4-bqAaiV2w.png&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Git alias is powerful and yet simple to set up. I&amp;rsquo;d like to share my journey in configuring git alias for my personal use. Now let&amp;rsquo;s dig it and git it!&lt;/p&gt;&#xA;&lt;h3 id=&#34;day-1-why-git-alias&#34;&gt;Day 1: Why git alias?&lt;/h3&gt;&#xA;&lt;p&gt;I was using &lt;a href=&#34;https://github.com/jonas/tig&#34;&gt;Tig&lt;/a&gt; for some time. It&amp;rsquo;s good but not great. The problems I got during the time:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;It takes time to memorize &lt;a href=&#34;https://jonas.github.io/tig/doc/manual.html&#34;&gt;the default key bindings&lt;/a&gt;. Since I&amp;rsquo;m using &lt;a href=&#34;https://kevcui.github.io/2019/04/18/twenty-months-with-colemak/&#34;&gt;Colemak&lt;/a&gt; keyboard layout, obviously, the default navigation key bindings need to be adjusted accordingly. Therefore, it takes me more time to customize them.&lt;/li&gt;&#xA;&lt;li&gt;Tig doesn&amp;rsquo;t support customized diff formatter, like my current favorite &lt;a href=&#34;https://github.com/dandavison/delta&#34;&gt;delta&lt;/a&gt;. &lt;a href=&#34;https://github.com/jonas/tig/issues/542&#34;&gt;An open issue from 2016&lt;/a&gt; gives me the fearful feeling that Tig wouldn&amp;rsquo;t officially support this feature in the foreseeable future.&lt;/li&gt;&#xA;&lt;li&gt;Switching between different views in Tig makes the workflow complex and slow. For example, to add an untracked file: run tig, press &lt;code&gt;s&lt;/code&gt; to switch to status view, move up and down to select an untracked file, press &lt;code&gt;u&lt;/code&gt; to add it. Well, in this case, why using Tig instead of simply typing &lt;code&gt;git add &amp;lt;untracked_file&amp;gt;&lt;/code&gt;?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;At some point, I decided to drop Tig and tried to search for other tools to assist my git workflow.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

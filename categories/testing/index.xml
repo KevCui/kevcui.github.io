@@ -4,7 +4,7 @@
     <title>Testing on Kevin Cui</title>
     <link>https://kevcui.github.io/categories/testing/</link>
     <description>Recent content in Testing on Kevin Cui</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Dec 2016 21:37:35 +0200</lastBuildDate>
     <atom:link href="https://kevcui.github.io/categories/testing/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</link>
       <pubDate>Thu, 01 Dec 2016 21:37:35 +0200</pubDate>
       <guid>https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/</guid>
-      <description>&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton[1]&#xA;Damn old picture of team testing When we talk about team testing, I guess many of you will image a picture in your mind:&#xA;People are sitting around a table.&#xA;Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;</description>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*sonAggQw-dsCFHGrcozMfg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Testing is something that we do with the motivation of finding new information.&amp;rdquo; &amp;ndash; Michael Bolton&lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;damn-old-picture-of-team-testing&#34;&gt;&lt;strong&gt;Damn old picture of team testing&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;When we talk about team testing, I guess many of you will image a picture in your mind:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;People are sitting around a table.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Everyone gets a paper in front of them. This paper could be a checklist full of test steps, could be a sheet full of test scenarios&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

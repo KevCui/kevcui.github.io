@@ -4,7 +4,7 @@
     <title>Notetaking on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/notetaking/</link>
     <description>Recent content in Notetaking on Kevin Cui</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Apr 2019 10:29:29 +0200</lastBuildDate>
     <atom:link href="https://kevcui.github.io/tags/notetaking/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://kevcui.github.io/2019/04/06/build-a-killer-note-taking-system/</link>
       <pubDate>Sat, 06 Apr 2019 10:29:29 +0200</pubDate>
       <guid>https://kevcui.github.io/2019/04/06/build-a-killer-note-taking-system/</guid>
-      <description>The proverb says, &amp;ldquo;The palest ink is better than the best memory&amp;rdquo;. Note-taking is certainly an essential part of knowledge learning, information collecting and retaining. In the fast-changing digital era, pen, ink and paper may not be able to fulfill the important job of note-taking anymore. So, what&amp;rsquo;s a killer note-taking system nowadays?&#xA;My requirements? My dream system must be Easy, Efficient and Flexible:&#xA;Know where &amp;amp; how to write notes easily without hesitations Find right notes &amp;amp; roll back to old changes efficiently without hassles Convert notes to other formats and share them flexibly without troubles Build it!</description>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1440/1*zsmrN549VmJc13l4ViuFvA.jpeg&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;The proverb says, &amp;ldquo;The palest ink is better than the best memory&amp;rdquo;. Note-taking is certainly an essential part of knowledge learning, information collecting and retaining. In the fast-changing digital era, pen, ink and paper may not be able to fulfill the important job of note-taking anymore. So, what&amp;rsquo;s a killer note-taking system nowadays?&lt;/p&gt;&#xA;&lt;h3 id=&#34;my-requirements&#34;&gt;My requirements?&lt;/h3&gt;&#xA;&lt;p&gt;My dream system must be &lt;em&gt;Easy&lt;/em&gt;, &lt;em&gt;Efficient&lt;/em&gt; and &lt;em&gt;Flexible&lt;/em&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Know where &amp;amp; how to write notes easily without hesitations&lt;/li&gt;&#xA;&lt;li&gt;Find right notes &amp;amp; roll back to old changes efficiently without hassles&lt;/li&gt;&#xA;&lt;li&gt;Convert notes to other formats and share them flexibly without troubles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;build-it&#34;&gt;Build it!&lt;/h3&gt;&#xA;&lt;h4 id=&#34;note-format&#34;&gt;Note format&lt;/h4&gt;&#xA;&lt;p&gt;I love taking notes with markdown. Why markdown?&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

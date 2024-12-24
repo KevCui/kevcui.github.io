@@ -4,7 +4,7 @@
     <title>Charles on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/charles/</link>
     <description>Recent content in Charles on Kevin Cui</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Jun 2017 21:43:23 +0200</lastBuildDate>
     <atom:link href="https://kevcui.github.io/tags/charles/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</link>
       <pubDate>Tue, 27 Jun 2017 21:43:23 +0200</pubDate>
       <guid>https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/</guid>
-      <description>Photo by Jim If all you have is a hammer, everything looks like a nail.&#xA;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to organize this testing party. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well.</description>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*Y7unAywBRkUxr51nVx_kvg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;    &lt;br/&gt;&#xA;    &lt;sup&gt;&#xA;        &lt;em&gt;&#xA;            Photo by &lt;a href=&#34;https://www.flickr.com/photos/clumsyjim/1907979770/&#34;&gt;Jim&lt;/a&gt;&#xA;        &lt;/em&gt;&#xA;    &lt;/sup&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;If all you have is a hammer, everything looks like a nail.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Every sprint, we have a team testing session with one hour fixed time slot. It&amp;rsquo;s a team-fun-thing for all team members to try out new features. I take the honor to &lt;a href=&#34;https://kevcui.github.io/2016/12/01/lets-have-some-fun-team-exploratory-testing/&#34;&gt;organize this testing party&lt;/a&gt;. But unfortunately, the last sprint I failed to prepare test devices in time, which causes that the team testing didn&amp;rsquo;t end very well. I feel shame for it. I ask myself why it happened? After I think again and again, one thing I could tell is because of &lt;strong&gt;my bad use of a good tool&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

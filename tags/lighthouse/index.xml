@@ -4,7 +4,7 @@
     <title>Lighthouse on Kevin Cui</title>
     <link>https://kevcui.github.io/tags/lighthouse/</link>
     <description>Recent content in Lighthouse on Kevin Cui</description>
-    <generator>Hugo 0.125.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Dec 2017 11:35:21 +0100</lastBuildDate>
     <atom:link href="https://kevcui.github.io/tags/lighthouse/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</link>
       <pubDate>Sun, 03 Dec 2017 11:35:21 +0100</pubDate>
       <guid>https://kevcui.github.io/2017/12/03/ship-pwa-guided-by-lighthouse/</guid>
-      <description>Photo by Robert Wiedemann Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&amp;rsquo;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?&#xA;What is actually PWA? According to Google, Progressive Web Apps are user experiences that have the reach of the web, and are [1]:</description>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://cdn-images-1.medium.com/max/2000/1*c4LxfFXAUMhEzNiXsGXbQg.jpeg&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;    &lt;br/&gt;&#xA;    &lt;sup&gt;&#xA;        &lt;em&gt;&#xA;            Photo by &lt;a href=&#34;https://unsplash.com/photos/D5OzyJ71mLI&#34;&gt;Robert Wiedemann&lt;/a&gt;&#xA;        &lt;/em&gt;&#xA;    &lt;/sup&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Nowadays, PWA is so hyped. All the cool kids are implementing PWA, or on the way to implement it. It&amp;rsquo;s like a magic box, they said, what contains ultimate happiness for users. Wow it sounds awesome, right? How is it possible that I could miss this opportunity to stay as a member of the cool kids club?&lt;/p&gt;&#xA;&lt;h3 id=&#34;what-is-actually-pwa&#34;&gt;What is actually PWA?&lt;/h3&gt;&#xA;&lt;p&gt;According to Google, &lt;em&gt;Progressive Web Apps are user experiences that have the reach of the web, and are&lt;/em&gt; &lt;sup&gt;&lt;a name=&#34;back1&#34;&gt;&lt;a href=&#34;#link1&#34;&gt;[1]&lt;/a&gt;&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
