@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bug Bounty on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/bug-bounty/</link>
+    <description>Recent content in Bug Bounty on Kevin Cui</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Feb 2025 12:14:16 +0100</lastBuildDate>
+    <atom:link href="https://kevcui.github.io/tags/bug-bounty/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One Year of Bug Bounty Hunting</title>
+      <link>https://kevcui.github.io/2025/02/22/one-year-of-bug-bounty-hunting/</link>
+      <pubDate>Sat, 22 Feb 2025 12:14:16 +0100</pubDate>
+      <guid>https://kevcui.github.io/2025/02/22/one-year-of-bug-bounty-hunting/</guid>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;&#xA;    &lt;img src=&#34;https://kevcui.github.io/images/bug-bounty.png&#34; alt=&#34;coverimage&#34;/&gt;&#xA;    &#xA;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;It&amp;rsquo;s been a year since I started bug bounty hunting as a hobby, and overall, I&amp;rsquo;m happy to have it as my passion. Not only it is a blast to discover new vulnerability, but I&amp;rsquo;ve also learned a ton from it.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with some stats to sum up my first year of my bug bounty journey:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Report accepted: 150&lt;/li&gt;&#xA;&lt;li&gt;Bounty rewarded: 20k Euros&lt;/li&gt;&#xA;&lt;li&gt;Total time spent: around 300 hours, give or take&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Next, I&amp;rsquo;d like to share some thoughts from my first-year experience. I&amp;rsquo;m not here to promote any tools or methodologies. I just want to talk about what I felt, observed, and the decisions I made during that time. If you choose to follow any of it, take it with a grain of salt, since my experiences and choices might not fit your situation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

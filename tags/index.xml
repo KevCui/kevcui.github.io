@@ -6,8 +6,15 @@
     <description>Recent content in Tags on Kevin Cui</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 13:44:59 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 12:14:16 +0100</lastBuildDate>
     <atom:link href="https://kevcui.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bug Bounty</title>
+      <link>https://kevcui.github.io/tags/bug-bounty/</link>
+      <pubDate>Sat, 22 Feb 2025 12:14:16 +0100</pubDate>
+      <guid>https://kevcui.github.io/tags/bug-bounty/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Burp</title>
       <link>https://kevcui.github.io/tags/burp/</link>

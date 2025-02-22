@@ -1,0 +1,349 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#000"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title> Kevin Cui </title>
+    
+    <link rel="manifest" href="/manifest.json">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kevcui.github.io//images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kevcui.github.io//images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kevcui.github.io//images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kevcui.github.io//images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kevcui.github.io//images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kevcui.github.io//images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kevcui.github.io//images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kevcui.github.io//images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kevcui.github.io//images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kevcui.github.io//images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://kevcui.github.io//images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://kevcui.github.io//images/favicons/mstile-144x144.png">
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="One Year of Bug Bounty Hunting">
+	<meta property="og:url" content="https://kevcui.github.io/2025/02/22/one-year-of-bug-bounty-hunting/">
+	<meta property="og:site_name" content="Kevin Cui">
+    <meta name="twitter:site" content="Kevin Cui">
+	<meta itemprop="name" content="One Year of Bug Bounty Hunting">
+	<meta name="twitter:title" content="One Year of Bug Bounty Hunting">
+	<meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="">
+    <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
+	
+    <meta name="description" content="It&#39;s been a year since I started bug bounty hunting as a hobby, and overall, I&#39;m happy to have it as my passion. Not only it is a lucrative pastime, but I&#39;ve also learned a ton from it...">
+    <meta name="og:description" content="It&#39;s been a year since I started bug bounty hunting as a hobby, and overall, I&#39;m happy to have it as my passion. Not only it is a lucrative pastime, but I&#39;ve also learned a ton from it...">
+    <meta name="twitter:description" content="It&#39;s been a year since I started bug bounty hunting as a hobby, and overall, I&#39;m happy to have it as my passion. Not only it is a lucrative pastime, but I&#39;ve also learned a ton from it...">
+    <meta itemprop="description" content="It&#39;s been a year since I started bug bounty hunting as a hobby, and overall, I&#39;m happy to have it as my passion. Not only it is a lucrative pastime, but I&#39;ve also learned a ton from it...">
+	
+	
+	<meta property="og:image" content="/images/bug-bounty.png"/>
+	<meta property="twitter:image" content="/images/bug-bounty.png"/>
+	<meta itemprop="image" content="/images/bug-bounty.png">
+	
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/inter-ui.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/brands.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/solid.min.css" />
+    <link rel="me" href="https://infosec.exchange/@kevcui" />
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://kevcui.github.io//" title="Kevin Cui homepage"> <img src="/images/profile.jpg" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a class="blog-title" href="https://kevcui.github.io//"  title="Kevin Cui homepage">Kevin Cui</a>
+                </h1>
+                <br/>
+                
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    
+    
+
+    
+    
+    <li>
+        <a href="https://infosec.exchange/@kevcui" title="https://infosec.exchange/@kevcui" target="_blank" rel="noopener"><span class="fa-brands fa-mastodon"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="fa-brands fa-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="fa-brands fa-stack-overflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="fa-brands fa-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="fa-solid fa-envelope"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io//index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="fa-solid fa-rss"></span></a>
+    </li>
+</ul>
+
+                    </nav>
+                </div>
+
+                
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
+                
+                
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://kevcui.github.io//" title="Kevin Cui homepage"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a class="blog-title" href="https://kevcui.github.io//"  title="Kevin Cui homepage">Kevin Cui</a>
+                    </h1>
+                    
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    
+    
+
+    
+    
+    <li>
+        <a href="https://infosec.exchange/@kevcui" title="https://infosec.exchange/@kevcui" target="_blank" rel="noopener"><span class="fa-brands fa-mastodon"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="fa-brands fa-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="fa-brands fa-stack-overflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="fa-brands fa-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="fa-solid fa-envelope"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io//index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="fa-solid fa-rss"></span></a>
+    </li>
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        <p><a class="main-button" href="/#blog">blog</a></p>
+                    
+                    
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Feb 22, 2025</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/bug-bounty">bug bounty</a>
+					
+                
+              </span>
+              • 1000 words 5 min. read
+          </div>
+          <h1>One Year of Bug Bounty Hunting</h1>
+          <section id="post-content" class="article-content post">
+              <p class="coverimage">
+    <img src="/images/bug-bounty.png" alt="coverimage"/>
+    
+</p>
+
+<p>It&rsquo;s been a year since I started bug bounty hunting as a hobby, and overall, I&rsquo;m happy to have it as my passion. Not only it is a blast to discover new vulnerability, but I&rsquo;ve also learned a ton from it.</p>
+<p>Let&rsquo;s start with some stats to sum up my first year of my bug bounty journey:</p>
+<ul>
+<li>Report accepted: 150</li>
+<li>Bounty rewarded: 20k Euros</li>
+<li>Total time spent: around 300 hours, give or take</li>
+</ul>
+<p>Next, I&rsquo;d like to share some thoughts from my first-year experience. I&rsquo;m not here to promote any tools or methodologies. I just want to talk about what I felt, observed, and the decisions I made during that time. If you choose to follow any of it, take it with a grain of salt, since my experiences and choices might not fit your situation.</p>
+<h3 id="choose-hunting-style">Choose hunting style</h3>
+<p>You might already know this, but there are two main approaches to bug bounty hunting: automation and manual. It’s a lot like software testing:</p>
+<ul>
+<li>Manual hunting takes time and effort. Yyou have to dig deep into your target. No work, no reward, plain and simple. It may deliver consistent results, but how much you get out of it depends on how much you put in.</li>
+<li>On the other hand, automated hunting sounds more appealing. It does require some upfront time investment and regular maintenance to get it running smoothly, though. Sure, the tools and scanners are impressive, but there are only a handful of top-tier automation tools out there. And every other hacker can use them too. Relying on the same tools as everyone else won’t set you apart. In the bug bounty world, if you’re not the first to report a vulnerability, you’re just the last in line, stuck with a Duplicate and no bounty payout.</li>
+</ul>
+<p>At first, I spent a few weeks setting up automation tools, scanning subdomains, fuzzing file directories, and so on. I had a rough idea of what to look for, but I didn’t really uncover anything worthwhile. Some findings were low impact issues on out-of-scope assets, while others had already been reported and marked as duplicates.</p>
+<p>I wasn’t really motivated and interested in improving my automation setup, so I dove into manual hunting instead. As a seasoned software tester, exploratory testing is my strong suit. I can usually spot obscure BAC and business logic vulnerabilities pretty quickly. It’s great to have a solid number of vulnerabilities to report, but the downside is that BAC/IDOR vulnerabilities don’t typically earn big bounties. They’re usually rated Medium severity, sometimes High, and only rarely Critical.</p>
+<p>Looking back now, I think I made the right call switching up my hunting style. Sure, sticking with automation might&rsquo;ve landed me a couple of critical ones, but there&rsquo;s is a huge chance they&rsquo;d have all been duplicates. Something small is better than nothing. Besides, I don&rsquo;t worry too much about the bounty. The dopamine hit I get from finding vulnerabilities is a bigger reward.</p>
+<p>For this year, I’ll keep going with manual hunting since it’s working well for me. I also plan to spend some time on recon automation to uncover more assets to hunt.</p>
+<h3 id="choose-platform">Choose platform</h3>
+<p>When it comes to bug bounty, HackerOne is hands-down the most popular platform. But with a bigger platform comes more hackers, and more hackers means tougher competition and more duplicate submissions. The same applies to Bugcrowd. Both platforms work great for seasoned pros, but they might not be the best fit for a beginner like me.</p>
+<p>On the other hand, most programs on Intigriti are run by European companies, and my family and I use many of their products every day. Joining their bug bounty programs gives me a chance to test their product&rsquo;s security and help uncover vulnerabilities, which ultimately benefits users like me and my family.</p>
+<p>That&rsquo;s why I choose Intigriti as the platform to kick off my bug bounty journey.</p>
+<p>After a year of submitting reports on Intigriti, my overall experience has been pretty good. My biggest complaint is the communication with their triagers. Once traigers close reports, they never respond to my follow-up messages. Even in most cases, they&rsquo;ve made mistakes or misunderstood things while reviewing the reports. On the flip side, their support team is responsive. They respond quickly and actually addresses my issues and requests.</p>
+<h3 id="choose-program">Choose program</h3>
+<p>Depending on your hunting style, if you lean toward automation, you might prefer a program with more wildcard assets. If you&rsquo;re like me and enjoy a hands-on approach, you might opt for a program with complex features, offering different roles and permissions.</p>
+<p>No matter what style to choose, I&rsquo;ll evaluate 2 criteria to decide which program to hack:</p>
+<ol>
+<li>Program statistics and maturity: How long has this program been around? How frequently are the program policies updated? How well are the program and its products documented? What&rsquo;s the average response time and bounty payout?</li>
+<li>Hunting style compatibility: Do they have the assets or the products that match my hunting style?</li>
+</ol>
+<hr>
+<p>Some important things I&rsquo;ve picked up along the way:</p>
+<ol>
+<li>Choosing the right program is key. The only thing worse than not finding any bugs is having my report go unreviewed or unrewarded.</li>
+<li>Figuring out when I&rsquo;ll get a bounty is like dealing with Schrödinger&rsquo;s cat problem. I won’t know when I get bounty until the moment I get it. Be ready for it to take anywhere from a week to a year, though hopefully not longer.</li>
+<li>Having fun is what matters most in a hobby. I love it when I can dive into hacking and try out new techniques. As for the outcome, I shouldn&rsquo;t really stress about it too much.</li>
+</ol>
+<p>This year, as long as I have time to mess around with hacking, I&rsquo;ll keep bug bounty as a hobby. Let&rsquo;s see how far I can take it down this path.</p>
+
+          </section>
+          <br/>
+        </div>
+        
+        
+
+      </div>
+    </div>
+  </body>
+  <script src="https://kevcui.github.io//js/umbrella.min.js"></script>
+
+<script src="https://kevcui.github.io/js/main.min.js">></script>
+
+
+
+
+  <span class="toTopBtn" onclick="scrollToTop(750)">&#9650;</span>
+<script type="text/javascript">
+function scrollToTop(scrollDuration) {
+    const   scrollHeight = window.scrollY,
+            scrollStep = Math.PI / ( scrollDuration / 15 ),
+            cosParameter = scrollHeight / 2;
+    var     scrollCount = 0,
+            scrollMargin,
+    scrollInterval = setInterval( function() {
+        if ( window.scrollY != 0 ) {
+            scrollCount = scrollCount + 1;
+            scrollMargin = cosParameter - cosParameter * Math.cos( scrollCount * scrollStep );
+            window.scrollTo( 0, ( scrollHeight - scrollMargin ) );
+        }
+        else clearInterval(scrollInterval);
+    }, 15 );
+}
+</script>
+
+</html>

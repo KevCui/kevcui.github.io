@@ -6,10 +6,62 @@
     <description>Recent content on Kevin Cui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 13:44:59 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 12:14:16 +0100</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>One Year of Bug Bounty Hunting</title>
+      <link>https://kevcui.github.io/2025/02/22/one-year-of-bug-bounty-hunting/</link>
+      <pubDate>Sat, 22 Feb 2025 12:14:16 +0100</pubDate>
+      
+      <guid>https://kevcui.github.io/2025/02/22/one-year-of-bug-bounty-hunting/</guid>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://kevcui.github.io/images/bug-bounty.png&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s been a year since I started bug bounty hunting as a hobby, and overall, I&amp;rsquo;m happy to have it as my passion. Not only it is a blast to discover new vulnerability, but I&amp;rsquo;ve also learned a ton from it.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start with some stats to sum up my first year of my bug bounty journey:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Report accepted: 150&lt;/li&gt;
+&lt;li&gt;Bounty rewarded: 20k Euros&lt;/li&gt;
+&lt;li&gt;Total time spent: around 300 hours, give or take&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Next, I&amp;rsquo;d like to share some thoughts from my first-year experience. I&amp;rsquo;m not here to promote any tools or methodologies. I just want to talk about what I felt, observed, and the decisions I made during that time. If you choose to follow any of it, take it with a grain of salt, since my experiences and choices might not fit your situation.&lt;/p&gt;
+&lt;h3 id=&#34;choose-hunting-style&#34;&gt;Choose hunting style&lt;/h3&gt;
+&lt;p&gt;You might already know this, but there are two main approaches to bug bounty hunting: automation and manual. It’s a lot like software testing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Manual hunting takes time and effort. Yyou have to dig deep into your target. No work, no reward, plain and simple. It may deliver consistent results, but how much you get out of it depends on how much you put in.&lt;/li&gt;
+&lt;li&gt;On the other hand, automated hunting sounds more appealing. It does require some upfront time investment and regular maintenance to get it running smoothly, though. Sure, the tools and scanners are impressive, but there are only a handful of top-tier automation tools out there. And every other hacker can use them too. Relying on the same tools as everyone else won’t set you apart. In the bug bounty world, if you’re not the first to report a vulnerability, you’re just the last in line, stuck with a Duplicate and no bounty payout.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At first, I spent a few weeks setting up automation tools, scanning subdomains, fuzzing file directories, and so on. I had a rough idea of what to look for, but I didn’t really uncover anything worthwhile. Some findings were low impact issues on out-of-scope assets, while others had already been reported and marked as duplicates.&lt;/p&gt;
+&lt;p&gt;I wasn’t really motivated and interested in improving my automation setup, so I dove into manual hunting instead. As a seasoned software tester, exploratory testing is my strong suit. I can usually spot obscure BAC and business logic vulnerabilities pretty quickly. It’s great to have a solid number of vulnerabilities to report, but the downside is that BAC/IDOR vulnerabilities don’t typically earn big bounties. They’re usually rated Medium severity, sometimes High, and only rarely Critical.&lt;/p&gt;
+&lt;p&gt;Looking back now, I think I made the right call switching up my hunting style. Sure, sticking with automation might&amp;rsquo;ve landed me a couple of critical ones, but there&amp;rsquo;s is a huge chance they&amp;rsquo;d have all been duplicates. Something small is better than nothing. Besides, I don&amp;rsquo;t worry too much about the bounty. The dopamine hit I get from finding vulnerabilities is a bigger reward.&lt;/p&gt;
+&lt;p&gt;For this year, I’ll keep going with manual hunting since it’s working well for me. I also plan to spend some time on recon automation to uncover more assets to hunt.&lt;/p&gt;
+&lt;h3 id=&#34;choose-platform&#34;&gt;Choose platform&lt;/h3&gt;
+&lt;p&gt;When it comes to bug bounty, HackerOne is hands-down the most popular platform. But with a bigger platform comes more hackers, and more hackers means tougher competition and more duplicate submissions. The same applies to Bugcrowd. Both platforms work great for seasoned pros, but they might not be the best fit for a beginner like me.&lt;/p&gt;
+&lt;p&gt;On the other hand, most programs on Intigriti are run by European companies, and my family and I use many of their products every day. Joining their bug bounty programs gives me a chance to test their product&amp;rsquo;s security and help uncover vulnerabilities, which ultimately benefits users like me and my family.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s why I choose Intigriti as the platform to kick off my bug bounty journey.&lt;/p&gt;
+&lt;p&gt;After a year of submitting reports on Intigriti, my overall experience has been pretty good. My biggest complaint is the communication with their triagers. Once traigers close reports, they never respond to my follow-up messages. Even in most cases, they&amp;rsquo;ve made mistakes or misunderstood things while reviewing the reports. On the flip side, their support team is responsive. They respond quickly and actually addresses my issues and requests.&lt;/p&gt;
+&lt;h3 id=&#34;choose-program&#34;&gt;Choose program&lt;/h3&gt;
+&lt;p&gt;Depending on your hunting style, if you lean toward automation, you might prefer a program with more wildcard assets. If you&amp;rsquo;re like me and enjoy a hands-on approach, you might opt for a program with complex features, offering different roles and permissions.&lt;/p&gt;
+&lt;p&gt;No matter what style to choose, I&amp;rsquo;ll evaluate 2 criteria to decide which program to hack:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Program statistics and maturity: How long has this program been around? How frequently are the program policies updated? How well are the program and its products documented? What&amp;rsquo;s the average response time and bounty payout?&lt;/li&gt;
+&lt;li&gt;Hunting style compatibility: Do they have the assets or the products that match my hunting style?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;Some important things I&amp;rsquo;ve picked up along the way:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Choosing the right program is key. The only thing worse than not finding any bugs is having my report go unreviewed or unrewarded.&lt;/li&gt;
+&lt;li&gt;Figuring out when I&amp;rsquo;ll get a bounty is like dealing with Schrödinger&amp;rsquo;s cat problem. I won’t know when I get bounty until the moment I get it. Be ready for it to take anywhere from a week to a year, though hopefully not longer.&lt;/li&gt;
+&lt;li&gt;Having fun is what matters most in a hobby. I love it when I can dive into hacking and try out new techniques. As for the outcome, I shouldn&amp;rsquo;t really stress about it too much.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This year, as long as I have time to mess around with hacking, I&amp;rsquo;ll keep bug bounty as a hobby. Let&amp;rsquo;s see how far I can take it down this path.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Use Burp Suite Community Edition Like A Pro</title>
