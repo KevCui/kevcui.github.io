@@ -32,21 +32,21 @@
 	<meta property="og:title" content="3 mitmproxy Tips You Might Not Know About">
 	<meta property="og:url" content="https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/">
 	<meta property="og:site_name" content="Kevin Cui">
-    <meta name="twitter:site" content="Kevin Cui">
+    <meta name="x:site" content="Kevin Cui">
 	<meta itemprop="name" content="3 mitmproxy Tips You Might Not Know About">
-	<meta name="twitter:title" content="3 mitmproxy Tips You Might Not Know About">
-	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="">
+	<meta name="x:title" content="3 mitmproxy Tips You Might Not Know About">
+	<meta name="x:card" content="summary">
+    <meta name="x:creator" content="">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
     <meta name="og:description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
-    <meta name="twitter:description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
+    <meta name="x:description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
     <meta itemprop="description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
 	
 	
 	<meta property="og:image" content="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg"/>
-	<meta property="twitter:image" content="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg"/>
+	<meta property="x:image" content="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg"/>
 	<meta itemprop="image" content="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg">
 	
     
@@ -315,10 +315,10 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">console_palette</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;dark&#34;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">console_palette_transparent</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">console_mouse</span><span class="p">:</span><span class="w"> </span><span class="kc">False</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">console_focus_follow</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">ignore_hosts</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span></span></span></code></pre></td></tr></table>
+</span></span></span><span class="line"><span class="cl"><span class="nt">console_palette_transparent</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">console_mouse</span><span class="p">:</span><span class="w"> </span><span class="kc">False</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">console_focus_follow</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">ignore_hosts</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <p>As I&rsquo;m using <a href="/2017/08/27/one-week-with-colemak/">colemak keyboard layout</a>, <em>j</em> and <em>k</em> keys are opposite for the navigation of up and down in mitmproxy. I have to change these 2 keys to make navigation smooth. Before, to change key bindings in old versions, I have to hack around code in <code>defaultkeys.py</code>. Since <a href="https://mitmproxy.org/posts/releases/mitmproxy4/">mitmproxy v4.0</a>, custom key binding is finally officially supported! Here are my key bindings in <code>~/.mitmproxy/keys.yaml</code>:</p>
@@ -342,11 +342,11 @@
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">j</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.up</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span>-<span class="w">
+</span></span></span><span class="line"><span class="cl">-<span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">k</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.down</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span>-<span class="w">
+</span></span></span><span class="line"><span class="cl">-<span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">l</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;flowlist&#34;</span><span class="p">]</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.select</span></span></span></code></pre></td></tr></table>

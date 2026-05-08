@@ -32,21 +32,21 @@
 	<meta property="og:title" content="Build A Killer Note-taking System">
 	<meta property="og:url" content="https://kevcui.github.io/2019/04/06/build-a-killer-note-taking-system/">
 	<meta property="og:site_name" content="Kevin Cui">
-    <meta name="twitter:site" content="Kevin Cui">
+    <meta name="x:site" content="Kevin Cui">
 	<meta itemprop="name" content="Build A Killer Note-taking System">
-	<meta name="twitter:title" content="Build A Killer Note-taking System">
-	<meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="">
+	<meta name="x:title" content="Build A Killer Note-taking System">
+	<meta name="x:card" content="summary">
+    <meta name="x:creator" content="">
     <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
 	
     <meta name="description" content="The proverb says, &#34;The palest ink is better than the best memory&#34;. Note-taking is certainly an essential part of knowledge learning, information collecting and retaining....">
     <meta name="og:description" content="The proverb says, &#34;The palest ink is better than the best memory&#34;. Note-taking is certainly an essential part of knowledge learning, information collecting and retaining....">
-    <meta name="twitter:description" content="The proverb says, &#34;The palest ink is better than the best memory&#34;. Note-taking is certainly an essential part of knowledge learning, information collecting and retaining....">
+    <meta name="x:description" content="The proverb says, &#34;The palest ink is better than the best memory&#34;. Note-taking is certainly an essential part of knowledge learning, information collecting and retaining....">
     <meta itemprop="description" content="The proverb says, &#34;The palest ink is better than the best memory&#34;. Note-taking is certainly an essential part of knowledge learning, information collecting and retaining....">
 	
 	
 	<meta property="og:image" content="https://cdn-images-1.medium.com/max/1000/1*zsmrN549VmJc13l4ViuFvA.jpeg"/>
-	<meta property="twitter:image" content="https://cdn-images-1.medium.com/max/1000/1*zsmrN549VmJc13l4ViuFvA.jpeg"/>
+	<meta property="x:image" content="https://cdn-images-1.medium.com/max/1000/1*zsmrN549VmJc13l4ViuFvA.jpeg"/>
 	<meta itemprop="image" content="https://cdn-images-1.medium.com/max/1000/1*zsmrN549VmJc13l4ViuFvA.jpeg">
 	
     
@@ -311,7 +311,7 @@
 <p>I may achieve the same functionality by using a simple script. The idea is to run <a href="https://github.com/emcrisostomo/fswatch">fswatch</a> in the background and keep monitoring file changes. When file changes are happening, fswatch will trigger Git commands to add and push changes automatically.</p>
 <p>Here is a snippet of Bash script:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/usr/bin/env bash
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>...
+</span></span></span><span class="line"><span class="cl">...
 </span></span><span class="line"><span class="cl"><span class="k">function</span> notesync<span class="o">()</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">  fswatch -r -0 -d <span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span> -e <span class="s1">&#39;\.git&#39;</span> -m <span class="s2">&#34;inotify_monitor&#34;</span> --event<span class="o">=</span>Created --event<span class="o">=</span>Updated --event<span class="o">=</span>Removed <span class="p">|</span> xargs -0 -n <span class="m">1</span> zsh -c <span class="s2">&#34;source ~/.zshrc; cd </span><span class="nv">$1</span><span class="s2">; git add -A; git commit -m &#39;Update file&#39;; git push&#34;</span> <span class="p">&amp;</span>
 </span></span><span class="line"><span class="cl"><span class="o">}</span>
@@ -345,7 +345,7 @@
 <h4 id="sumup">Sumup</h4>
 <p>This is my killer note-taking system. It&rsquo;s easy, efficient and flexible:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">Note format: Markdown
-</span></span><span class="line"><span class="cl">Note taking <span class="err">&amp;</span> organization app: Vim + Notational Velocity for Vim
+</span></span><span class="line"><span class="cl">Note taking &amp; organization app: Vim + Notational Velocity for Vim
 </span></span><span class="line"><span class="cl">Note version-control system: Git
 </span></span><span class="line"><span class="cl">Note auto backup system: fswatch + GitHub</span></span></code></pre></div>
 <p>So far I&rsquo;m quite happy with this system. I enjoy using it not only for taking some private notes with my dirty secrets, but also for sharing notes with colleagues in my day-to-day work, like notes for <a href="/2017/04/17/how-i-do-exploratory-testing/">exploratory testing</a>. Oh, I almost forget, guess what I&rsquo;m using now for wring this blog post?</p>
