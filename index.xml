@@ -19,7 +19,12 @@
       <pubDate>Tue, 26 May 2026 17:00:00 +0200</pubDate>
       <author>krazycavin AT gmail.com (Kevin Cui)</author>
       <guid>https://kevcui.github.io/2026/05/26/the-age-of-bespoke-everything/</guid>
-      <description>&lt;p&gt;Imagine this: you are using an open-source note-taking app. It is great, but you wish it had one tiny feature: a daily digest surfacing your most-edited files. A few years ago, you would file a GitHub issue, wait months, or roll up your sleeves to learn a new framework. Today? You paste the repository into an AI coding agent, describe the feature in plain English, and three minutes later, a custom build is waiting. The app now fits you, not the other way around.&lt;/p&gt;
+      <description>&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://kevcui.github.io/images/age-of-bespoke-everything.png&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
+&lt;p&gt;Imagine this: you are using an open-source note-taking app. It is great, but you wish it had one tiny feature: a daily digest surfacing your most-edited files. A few years ago, you would file a GitHub issue, wait months, or roll up your sleeves to learn a new framework. Today? You paste the repository into an AI coding agent, describe the feature in plain English, and three minutes later, a custom build is waiting. The app now fits you, not the other way around.&lt;/p&gt;
 &lt;p&gt;This is the age of bespoke everything.&lt;/p&gt;
 &lt;h3 id=&#34;your-soundtrack-by-you&#34;&gt;Your Soundtrack, By You&lt;/h3&gt;
 &lt;p&gt;Music streaming platforms already knew your taste, but AI no longer just recommends. It creates. If you want lo-fi hip hop with a saxophone solo and lyrics about rainy afternoons, you simply type it in. Tools like Suno and Udio generate production-quality tracks from a single sentence. Every playlist becomes your personal genre, your exact mood, your private concert. The traditional artist becomes optional; the algorithm becomes the composer.&lt;/p&gt;
