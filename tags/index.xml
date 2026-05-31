@@ -8,10 +8,37 @@
     <language>en</language>
     <managingEditor>krazycavin AT gmail.com (Kevin Cui)</managingEditor>
     <webMaster>krazycavin AT gmail.com (Kevin Cui)</webMaster>
-    <lastBuildDate>Tue, 03 Nov 2020 14:50:55 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 17:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://kevcui.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AI</title>
+      <link>https://kevcui.github.io/tags/ai/</link>
+      <pubDate>Tue, 26 May 2026 17:00:00 +0200</pubDate>
+      <author>krazycavin AT gmail.com (Kevin Cui)</author>
+      <guid>https://kevcui.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daily-Life</title>
+      <link>https://kevcui.github.io/tags/daily-life/</link>
+      <pubDate>Tue, 26 May 2026 17:00:00 +0200</pubDate>
+      <author>krazycavin AT gmail.com (Kevin Cui)</author>
+      <guid>https://kevcui.github.io/tags/daily-life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thoughts</title>
+      <link>https://kevcui.github.io/tags/thoughts/</link>
+      <pubDate>Tue, 26 May 2026 17:00:00 +0200</pubDate>
+      <author>krazycavin AT gmail.com (Kevin Cui)</author>
+      <guid>https://kevcui.github.io/tags/thoughts/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CLI</title>
