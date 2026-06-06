@@ -1,0 +1,441 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#000"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title> Kevin Cui </title>
+    
+    <link rel="manifest" href="/manifest.json">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kevcui.github.io//images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kevcui.github.io//images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kevcui.github.io//images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kevcui.github.io//images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kevcui.github.io//images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kevcui.github.io//images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kevcui.github.io//images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kevcui.github.io//images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kevcui.github.io//images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kevcui.github.io//images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://kevcui.github.io//images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://kevcui.github.io//images/favicons/mstile-144x144.png">
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="How I Do Exploratory Testing">
+	<meta property="og:url" content="https://kevcui.github.io/2017/04/17/how-i-do-exploratory-testing/">
+	<meta property="og:site_name" content="Kevin Cui">
+    <meta name="x:site" content="Kevin Cui">
+	<meta itemprop="name" content="How I Do Exploratory Testing">
+	<meta name="x:title" content="How I Do Exploratory Testing">
+	<meta name="x:card" content="summary">
+    <meta name="x:creator" content="">
+    <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
+	
+    <meta name="description" content="Since the beginning of last year when I failed to use calabash for mobile testing, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: To have a concrete structure of ET and to adapt change easily based on it...">
+    <meta name="og:description" content="Since the beginning of last year when I failed to use calabash for mobile testing, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: To have a concrete structure of ET and to adapt change easily based on it...">
+    <meta name="x:description" content="Since the beginning of last year when I failed to use calabash for mobile testing, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: To have a concrete structure of ET and to adapt change easily based on it...">
+    <meta itemprop="description" content="Since the beginning of last year when I failed to use calabash for mobile testing, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: To have a concrete structure of ET and to adapt change easily based on it...">
+	
+	
+	<meta property="og:image" content="https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg"/>
+	<meta property="x:image" content="https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg"/>
+	<meta itemprop="image" content="https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg">
+	
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/inter-ui.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/brands.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/solid.min.css" />
+    <link rel="me" href="https://infosec.exchange/@kevcui" />
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://kevcui.github.io//" title="Kevin Cui homepage"> <img src="/images/profile.jpg" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a class="blog-title" href="https://kevcui.github.io//"  title="Kevin Cui homepage">Kevin Cui</a>
+                </h1>
+                <br/>
+                
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    
+    
+
+    
+    
+    <li>
+        <a href="https://infosec.exchange/@kevcui" title="https://infosec.exchange/@kevcui" target="_blank" rel="noopener"><span class="fa-brands fa-mastodon"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="fa-brands fa-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="fa-brands fa-stack-overflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="fa-brands fa-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="fa-solid fa-envelope"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io//index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="fa-solid fa-rss"></span></a>
+    </li>
+</ul>
+
+                    </nav>
+                </div>
+
+                
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
+                
+                
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://kevcui.github.io//" title="Kevin Cui homepage"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a class="blog-title" href="https://kevcui.github.io//"  title="Kevin Cui homepage">Kevin Cui</a>
+                    </h1>
+                    
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    
+    
+
+    
+    
+    <li>
+        <a href="https://infosec.exchange/@kevcui" title="https://infosec.exchange/@kevcui" target="_blank" rel="noopener"><span class="fa-brands fa-mastodon"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="fa-brands fa-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="fa-brands fa-stack-overflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="fa-brands fa-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="fa-solid fa-envelope"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io//index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="fa-solid fa-rss"></span></a>
+    </li>
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        <p><a class="main-button" href="/#blog">blog</a></p>
+                    
+                    
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Apr 17, 2017</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/exploratory">exploratory,</a>
+					
+                
+					
+						<a href="/tags/testing">testing</a>
+					
+                
+              </span>
+              • 1100 words 5 min. read
+          </div>
+          <h1>How I Do Exploratory Testing</h1>
+          <section id="post-content" class="article-content post">
+              <p class="coverimage">
+    <img src="https://cdn-images-1.medium.com/max/1000/1*UZ_21MTQrfOwJbixUgik4w.jpeg" alt="coverimage"/>
+    
+    <br/>
+    <sup>
+        <em>
+            Photo by <a href="https://www.flickr.com/photos/kwl/3573458354/in/photostream/">Kenny Louie</a>
+        </em>
+    </sup>
+    
+</p>
+
+<blockquote>
+<p>&ldquo;Children are born naturalists. They explore the world with all of their senses, experiment in the environment, and communicate their discoveries to those around them.&rdquo; <sup><a name="back1"><a href="#link1">[1]</a></a></sup></p>
+</blockquote>
+<h3 id="what-is-et">What is ET?</h3>
+<p><strong>E</strong>xploratory <strong>T</strong>esting is the nature of testing<sup><a name="back2"><a href="#link2">[2]</a></a></sup>. The pure beauty of ET is that it starts without specific test plan and tester comes up with ideas or assumptions during testing execution. Then test design and test execution happen at the same time. It&rsquo;s the true symphony of efficiency!</p>
+<h3 id="what-is-my-understanding-of-et">What is my understanding of ET?</h3>
+<p>For me, ET is an elegant testing approach with a <strong>free spirit</strong>, to <strong>think</strong> about different possibilities, to <strong>discover</strong> the unknown, to <strong>collect</strong> effective information and to <strong>share</strong> new knowledge efficiently.</p>
+<h3 id="what-is-my-practice-of-et">What is my practice of ET?</h3>
+<p>Since the beginning of last year when <a href="/2017/01/21/why-i-failed-to-use-calabash-for-mobile-testing/">I failed to use Calabash for mobile testing</a>, I mainly focus on improving my ET skill. I want to establish a practice for the purpose: <strong>To have a concrete structure of ET and to adapt change easily based on it.</strong></p>
+<p>Combining the purpose and my understanding, I tried some practices and made some changes. It becomes the current one I&rsquo;m satisfied with. First of all, please remember it&rsquo;s definitely <strong>not</strong> the &ldquo;best practice&rdquo;. I still keep striving for a better practice, your feedback could help me as well &#x1f609;</p>
+<p>Back to my practice of ET, each time I proceed with 3 important stages (a.k.a. 3G stages): <strong>Get context</strong>, <strong>Go explore</strong> and <strong>Give feedback</strong>.</p>
+<h4 id="stage-1-get-context">Stage 1: Get context</h4>
+<p><strong>Time estimation</strong>: 15 min</p>
+<p>On this stage, the key is to <strong>think different</strong>. By asking PO, stakeholder, designer, developer, etc&hellip; who already have the information of context. For instance, if the testing target is a new feature:</p>
+<ul>
+<li>To understand the <strong>problem</strong> behind: What&rsquo;s the problem to solve?</li>
+<li>To understand the <strong>request</strong> of developing this feature: What&rsquo;s the acceptable result look like?</li>
+<li>To understand the detail of <strong>implementation</strong>: Which kind of user cases are considered and checked already?</li>
+</ul>
+<p>With this information in mind, I will <strong>think</strong> about that the implementation does not only meet the request but also provide the functionality to solve the problem:</p>
+<ul>
+<li>Implementation versus Request: What are the misunderstandings and ambiguities?</li>
+<li>Implementation versus Problem: What are the blind spots and missing checks, could potentially cause the risk of malfunction?</li>
+</ul>
+<p>Normally I prefer to take some factors and put them in the questions, in order to generate some testing ideas. Some factors could be considered:</p>
+<ul>
+<li>Environment: region, timezone, language&hellip;</li>
+<li>Hardware: device, platform, OS, screen size&hellip;</li>
+<li>Aspect: usability, security, performance&hellip;</li>
+<li>&hellip;</li>
+</ul>
+<p>For example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Region x Implementation versus Request: Does this feature need to be available <span class="k">for</span> all customers or only <span class="k">for</span> a specific region?
+</span></span><span class="line"><span class="cl">OS x Implementation versus Problem: Does this feature work on iOS <span class="m">7</span> devices?
+</span></span></code></pre></div><br/>
+Then I will put the ideas or assumptions shortly on a to-do list:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">Testing ideas:
+</span></span><span class="line"><span class="cl"><span class="o">[</span> <span class="o">]</span> Support all regions?
+</span></span><span class="line"><span class="cl"><span class="o">[</span> <span class="o">]</span> iOS <span class="m">7</span>
+</span></span></code></pre></div><h4 id="stage-2-go-explore">Stage 2: Go explore</h4>
+<p><strong>Timebox</strong>: 30 min</p>
+<p>This stage is the most exciting one. The key is to <strong>discover</strong> and to <strong>collect</strong>. Before starting exploring, a time box is rather important, which forces me to proceed with the next steps. Otherwise, I could probably explore forever far around and way deeper.</p>
+<p>Remember the to-do list earlier I got in the first stage? Now it&rsquo;s time to make hands dirty using the ideas, I call them seeds, as initial starting points to discover the unknown. Following and focusing on one seed to perform some checks, I will start to collect new seeds:</p>
+<ul>
+<li>Relate to current seed, add it as a child seed</li>
+<li>Not relate to current seed, add it as a new seed</li>
+</ul>
+<p>Once I got a finding or a question, I will make a quick note with the necessary screenshot and video record.</p>
+<p>After one seed is finished, I will continue to explore anther seed. One seed at a time, seed by seed until timeout. You probably have a question in your mind &ldquo;When one seed is done, what to pick as the next seed?&rdquo; I have a rule of thumb for priority: seed on top of the list has higher priority to explore.</p>
+<p>After 30 min, my to-do list looks like:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Shell" data-lang="Shell"><span class="line"><span class="cl">Testing ideas:
+</span></span><span class="line"><span class="cl"><span class="o">[</span>?<span class="o">]</span> Support all regions?
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>x<span class="o">]</span> Europe
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>?<span class="o">]</span> Asia: no response from <span class="nv">API</span>
+</span></span><span class="line"><span class="cl">        <span class="o">=</span>&gt; Question <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> iOS <span class="nv">7</span>
+</span></span><span class="line"><span class="cl">    <span class="o">=</span>&gt; Issue <span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>-<span class="o">]</span> No interent
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>x<span class="o">]</span> Error message
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>x<span class="o">]</span> retry when internet is back
+</span></span><span class="line"><span class="cl">    <span class="o">[</span>x<span class="o">]</span> app restart when no internet
+</span></span><span class="line"><span class="cl"><span class="o">[</span>?<span class="o">]</span> <span class="nv">Animation</span>
+</span></span><span class="line"><span class="cl">    <span class="o">=</span>&gt; Question <span class="m">2</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span> <span class="o">]</span> Performace of new API request?
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Question 1: need API response <span class="k">for</span> Asia?
+</span></span><span class="line"><span class="cl">Need check with backend team: this feature is not available <span class="k">for</span> Asia users?
+</span></span><span class="line"><span class="cl">&lt;Screenshot of API request and response&gt;
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Question 2: Refresh animation feels laggy
+</span></span><span class="line"><span class="cl">Need check with designer and developer: make a nicer animation
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Issue 1: crash on iOS <span class="m">7</span>
+</span></span><span class="line"><span class="cl">&lt;device info&gt;
+</span></span><span class="line"><span class="cl">- &lt;step 1&gt;
+</span></span><span class="line"><span class="cl">- &lt;step 2&gt;
+</span></span><span class="line"><span class="cl">- &lt;step 3&gt;
+</span></span><span class="line"><span class="cl">&lt;crash stack traces&gt;
+</span></span></code></pre></div><h4 id="stage-3-give-feedback">Stage 3: Give feedback</h4>
+<p><strong>Time estimation</strong>: 15 min</p>
+<p>The key to this stage is to <strong>share knowledge</strong>. I&rsquo;ve some questions and issues on my list collected from the previous stage and I know who I need to contact. Can I just throw my feedback on their face directly? I hope I can but apparently nope.</p>
+<p>Regarding the questions, it needs to have a proper conversation to remove misunderstandings and ambiguities:</p>
+<ul>
+<li>What&rsquo;s my opinion and suggestion?</li>
+<li>What&rsquo;s your opinion and suggestion?</li>
+</ul>
+<p>Regarding the issues, it needs to have a proper discussion to evaluate the risk:</p>
+<ul>
+<li>What can be fixed?</li>
+<li>What is out of scope?</li>
+<li>What needs to be improved in the future?</li>
+</ul>
+<h3 id="what-else">What else?</h3>
+<p>Basically, it&rsquo;s the core part of my lovely ET practice:</p>
+<ul>
+<li>3G stages: Get context, Go explore and Give feedback</li>
+<li>4 actions: Think, Discover, Collect and Share</li>
+</ul>
+<p>Although there are still a lot of topics I&rsquo;d like to expand, I don&rsquo;t want to make one post too long too boring. I will probably write <strong>a series of ET topics</strong> in the future, like:</p>
+<ul>
+<li>How to think different and some factors to consider?</li>
+<li>How to collect and share findings efficiently?</li>
+<li>How to shorten feedback loop in development?</li>
+<li>How to train myself be always ready to be interrupted?</li>
+<li>How to pair with developers?</li>
+<li>&hellip;</li>
+</ul>
+<p><img src="https://media.giphy.com/media/3o6Zthv4W72jUHRCUg/giphy.gif" alt="out"></p>
+<blockquote>
+<p>Testing is like holding a torch to light up the road in darkness. You could clearly see the way to go, make a map, and mark thorns and flowers.</p>
+</blockquote>
+<hr>
+<p><a name="link1"><a href="#back1">[1]</a></a> <a href="https://anshome.org/ans-preschool/">The Audubon Nature Preschool</a>
+<br/>
+<a name="link2"><a href="#back2">[2]</a></a> <a href="https://www.kaner.com/pdfs/QAIExploring.pdf">Cem Kaner: A Tutorial in Exploratory Testing</a></p>
+
+          </section>
+          <br/>
+        </div>
+        
+        
+
+      </div>
+    </div>
+  </body>
+  <script src="https://kevcui.github.io//js/umbrella.min.js"></script>
+
+<script src="https://kevcui.github.io/js/main.min.js">></script>
+
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/nord.min.css">
+    <script src="https://kevcui.github.io//js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  <span class="toTopBtn" onclick="scrollToTop(750)">&#9650;</span>
+<script type="text/javascript">
+function scrollToTop(scrollDuration) {
+    const   scrollHeight = window.scrollY,
+            scrollStep = Math.PI / ( scrollDuration / 15 ),
+            cosParameter = scrollHeight / 2;
+    var     scrollCount = 0,
+            scrollMargin,
+    scrollInterval = setInterval( function() {
+        if ( window.scrollY != 0 ) {
+            scrollCount = scrollCount + 1;
+            scrollMargin = cosParameter - cosParameter * Math.cos( scrollCount * scrollStep );
+            window.scrollTo( 0, ( scrollHeight - scrollMargin ) );
+        }
+        else clearInterval(scrollInterval);
+    }, 15 );
+}
+</script>
+
+</html>

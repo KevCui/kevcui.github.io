@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daily-Life on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/daily-life/</link>
+    <description>Recent content in Daily-Life on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krazycavin AT gmail.com (Kevin Cui)</managingEditor>
+    <webMaster>krazycavin AT gmail.com (Kevin Cui)</webMaster>
+    <lastBuildDate>Tue, 26 May 2026 17:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://kevcui.github.io/tags/daily-life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Age of Bespoke Everything</title>
+      <link>https://kevcui.github.io/2026/05/26/the-age-of-bespoke-everything/</link>
+      <pubDate>Tue, 26 May 2026 17:00:00 +0200</pubDate>
+      <author>krazycavin AT gmail.com (Kevin Cui)</author>
+      <guid>https://kevcui.github.io/2026/05/26/the-age-of-bespoke-everything/</guid>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://kevcui.github.io/images/age-of-bespoke-everything.png&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
+&lt;p&gt;Imagine this: you are using an open-source note-taking app. It is great, but you wish it had one tiny feature: a daily digest surfacing your most-edited files. A few years ago, you would file a GitHub issue, wait months, or roll up your sleeves to learn a new framework. Today? You paste the repository into an AI coding agent, describe the feature in plain English, and three minutes later, a custom build is waiting. The app now fits you, not the other way around.&lt;/p&gt;
+&lt;p&gt;This is the age of bespoke everything.&lt;/p&gt;
+&lt;h3 id=&#34;your-soundtrack-by-you&#34;&gt;Your Soundtrack, By You&lt;/h3&gt;
+&lt;p&gt;Music streaming platforms already knew your taste, but AI no longer just recommends. It creates. If you want lo-fi hip hop with a saxophone solo and lyrics about rainy afternoons, you simply type it in. Tools like Suno and Udio generate production-quality tracks from a single sentence. Every playlist becomes your personal genre, your exact mood, your private concert. The traditional artist becomes optional; the algorithm becomes the composer.&lt;/p&gt;
+&lt;h3 id=&#34;personalized-podcasts&#34;&gt;Personalized Podcasts&lt;/h3&gt;
+&lt;p&gt;NotebookLM demonstrated that AI can transform a dry PDF into an engaging podcast conversation between two synthetic hosts. Now, imagine that same technology, but the hosts sound like your friends, the content is your morning email digest, and the runtime perfectly matches your commute. You are no longer browsing the feed, the feed is browsing you, serving a show precision-engineered for your brain. Want A deep dive on Byzantine history narrated by your favorite voice? Loading.&lt;/p&gt;
+&lt;h3 id=&#34;the-bespoke-silver-screen&#34;&gt;The Bespoke Silver Screen&lt;/h3&gt;
+&lt;p&gt;With tools like Sora, Veo, and Movie Gen, video generation accelerates every quarter. Today yields short clips, tomorrow will deliver feature-length films assembled from a single paragraph. Imagine characters that mimic people you know and plot points optimized by your psychographic profile. A movie that no one else has ever seen, designed to make you laugh, cry, or gasp at precisely the right second. It is the ultimate personalized experience.&lt;/p&gt;
+&lt;h3 id=&#34;the-invisible-cost&#34;&gt;The Invisible Cost&lt;/h3&gt;
+&lt;p&gt;Yet, a troubling reality underpins this friction-free future.&lt;/p&gt;
+&lt;p&gt;When everything is made for me, nothing is shared. My neighbor watches a different movie. My coworker listens to a different news summary. My friend&amp;rsquo;s daily soundtrack shares zero overlap with mine. Our cultural common ground, water-cooler moments, the shared references, the collective experience of watching the same thing and feeling the same way, dissolves into a million personalized micro-worlds.&lt;/p&gt;
+&lt;p&gt;We stop understanding each other because we stop consuming the same things.&lt;/p&gt;
+&lt;p&gt;And the saddest part? We don&amp;rsquo;t even notice. We chat with our AI podcast host on the drive home. We ask our voice assistant how its day was. We thank the music generator for reading our mood so well. Surrounded by synthetic empathy, we mistake personalization for connection. We all sit comfortably inside our own warm, perfectly curated bubble. Yet, no one is talking to anyone else, leaving us utterly alone.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,423 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#000"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title> Kevin Cui </title>
+    
+    <link rel="manifest" href="/manifest.json">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kevcui.github.io//images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kevcui.github.io//images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kevcui.github.io//images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kevcui.github.io//images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kevcui.github.io//images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kevcui.github.io//images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kevcui.github.io//images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kevcui.github.io//images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kevcui.github.io//images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kevcui.github.io//images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://kevcui.github.io//images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://kevcui.github.io//images/favicons/mstile-144x144.png">
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="3 mitmproxy Tips You Might Not Know About">
+	<meta property="og:url" content="https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/">
+	<meta property="og:site_name" content="Kevin Cui">
+    <meta name="x:site" content="Kevin Cui">
+	<meta itemprop="name" content="3 mitmproxy Tips You Might Not Know About">
+	<meta name="x:title" content="3 mitmproxy Tips You Might Not Know About">
+	<meta name="x:card" content="summary">
+    <meta name="x:creator" content="">
+    <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
+	
+    <meta name="description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
+    <meta name="og:description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
+    <meta name="x:description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
+    <meta itemprop="description" content="mitmproxy is a powerful proxy tool for debugging network requests and responses. It&#39;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about...">
+	
+	
+	<meta property="og:image" content="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg"/>
+	<meta property="x:image" content="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg"/>
+	<meta itemprop="image" content="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg">
+	
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/inter-ui.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/brands.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/solid.min.css" />
+    <link rel="me" href="https://infosec.exchange/@kevcui" />
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://kevcui.github.io//" title="Kevin Cui homepage"> <img src="/images/profile.jpg" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a class="blog-title" href="https://kevcui.github.io//"  title="Kevin Cui homepage">Kevin Cui</a>
+                </h1>
+                <br/>
+                
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    
+    
+
+    
+    
+    <li>
+        <a href="https://infosec.exchange/@kevcui" title="https://infosec.exchange/@kevcui" target="_blank" rel="noopener"><span class="fa-brands fa-mastodon"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="fa-brands fa-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="fa-brands fa-stack-overflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="fa-brands fa-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="fa-solid fa-envelope"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io//index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="fa-solid fa-rss"></span></a>
+    </li>
+</ul>
+
+                    </nav>
+                </div>
+
+                
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
+                
+                
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://kevcui.github.io//" title="Kevin Cui homepage"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a class="blog-title" href="https://kevcui.github.io//"  title="Kevin Cui homepage">Kevin Cui</a>
+                    </h1>
+                    
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    
+    
+
+    
+    
+    <li>
+        <a href="https://infosec.exchange/@kevcui" title="https://infosec.exchange/@kevcui" target="_blank" rel="noopener"><span class="fa-brands fa-mastodon"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="fa-brands fa-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="fa-brands fa-stack-overflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="fa-brands fa-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="fa-solid fa-envelope"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io//index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="fa-solid fa-rss"></span></a>
+    </li>
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        <p><a class="main-button" href="/#blog">blog</a></p>
+                    
+                    
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Jul 28, 2018</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/mitmproxy">mitmproxy,</a>
+					
+                
+					
+						<a href="/tags/proxy">proxy,</a>
+					
+                
+					
+						<a href="/tags/tool">tool,</a>
+					
+                
+					
+						<a href="/tags/mock">mock,</a>
+					
+                
+					
+						<a href="/tags/tips">tips</a>
+					
+                
+              </span>
+              • 700 words 3 min. read
+          </div>
+          <h1>3 mitmproxy Tips You Might Not Know About</h1>
+          <section id="post-content" class="article-content post">
+              <p class="coverimage">
+    <img src="https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg" alt="coverimage"/>
+    
+    <br/>
+    <sup>
+        <em>
+            Photo by <a href="https://unsplash.com/photos/betmVWGYcLY">Ashley Batz</a>
+        </em>
+    </sup>
+    
+</p>
+
+<p><a href="https://mitmproxy.org/">mitmproxy</a> is a powerful proxy tool for debugging network requests and responses. It&rsquo;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about.</p>
+<p>First things first, a small checklist:</p>
+<ul>
+<li><a href="https://docs.mitmproxy.org/stable/concepts-modes/">Do you know how mitmproxy works?</a></li>
+<li><a href="https://docs.mitmproxy.org/stable/overview-installation/">Do you know how to install mitmproxy?</a></li>
+<li><a href="https://docs.mitmproxy.org/stable/concepts-certificates/">Do you know how to install CA cert on a client side?</a></li>
+</ul>
+<p>If these questions are way too easy for you and your answers are <em>&ldquo;Yes! Yes! Yes!&rdquo;</em>, then continue reading. Otherwise, please click and read the links above, and see you here later.</p>
+<h3 id="tips-1-custom-configuration-and-key-binding">Tips 1: Custom configuration and key binding</h3>
+<p>One of the advantages of mitmproxy is highly customizable. It&rsquo;s convenient to set up once configurations that every time mitmproxy loads them automatically when it starts. All the available handy <strong>options</strong> are in the <a href="https://docs.mitmproxy.org/stable/concepts-options/">mitmproxy document</a>. Here is my <code>~/.mitmproxy/config.yaml</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">console_palette</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;dark&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">console_palette_transparent</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">console_mouse</span><span class="p">:</span><span class="w"> </span><span class="kc">False</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">console_focus_follow</span><span class="p">:</span><span class="w"> </span><span class="kc">True</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">ignore_hosts</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>As I&rsquo;m using <a href="/2017/08/27/one-week-with-colemak/">colemak keyboard layout</a>, <em>j</em> and <em>k</em> keys are opposite for the navigation of up and down in mitmproxy. I have to change these 2 keys to make navigation smooth. Before, to change key bindings in old versions, I have to hack around code in <code>defaultkeys.py</code>. Since <a href="https://mitmproxy.org/posts/releases/mitmproxy4/">mitmproxy v4.0</a>, custom key binding is finally officially supported! Here are my key bindings in <code>~/.mitmproxy/keys.yaml</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl">-<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">j</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.up</span><span class="w">
+</span></span></span><span class="line"><span class="cl">-<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">k</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;global&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.down</span><span class="w">
+</span></span></span><span class="line"><span class="cl">-<span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">key</span><span class="p">:</span><span class="w"> </span><span class="l">l</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">ctx</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;flowlist&#34;</span><span class="p">]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">cmd</span><span class="p">:</span><span class="w"> </span><span class="l">console.nav.select</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>To know more about which <strong>command</strong> to use in <strong>cmd</strong> field, type <code>K</code> (shift + k) in mitmproxy. A list of current key bindings will show up. More information about key binging configuration is in the <a href="https://docs.mitmproxy.org/stable/tools-mitmproxy/">mitmproxy document</a>.</p>
+<h3 id="tips-2-knowing-client-connection-status-when-a-filter-is-applied">Tips 2: Knowing client connection status when a filter is applied</h3>
+<p>It happens quite often to me: when I applied all filters in advance and then tried to connect a client to mitmproxy. However, there is nothing show up in the flow list. How do I know if it&rsquo;s because <em>the client is not connected to the proxy successfully</em> or <em>no requests are matching the filter</em>?</p>
+<p>A usual but not good way: Well, I have to remove the filter to see all requests. If I can see requests from the client, then I will again apply the filter&hellip;</p>
+<p>An easy way is to add <code>| .*</code> in the filter, which will reveal all incoming requests. Yep, regex magic:</p>
+<p class="embed">
+<embed src="/videos/mitmproxy-filter-on.svg" style="height:600px"/>
+</p>
+
+<p>Another easy way is to simply type <code>E</code> (shift+e), which will open events logs. It shows the client connection status. Use <code>q</code> to quit events view:</p>
+<p class="embed">
+<embed src="/videos/mitmproxy-events-view.svg" style="height:600px"/>
+</p>
+
+<h3 id="tips-3-using-mitmproxy-as-a-mock-server">Tips 3: Using mitmproxy as a mock server</h3>
+<p>The killer feature of mitmproxy is scripting. Using python scripts, all requests and responses are fully controlled and changeable <strong>on the fly</strong>. Besides that, mitmproxy is super robust to handle multiple clients simultaneously connected to one host. These features make mitmproxy a decent mock server. Therefore, I use mitmproxy a lot as <a href="https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/">a mock server</a>.</p>
+<p>For example, a script for the purpose of rewriting and mocking response body, <a href="https://github.com/KevCui/mitm-scripts/tree/master/mitm-rewrite">mitm-rewrite</a>:</p>
+<ul>
+<li>Map <code>http://example.com/pass</code> to <code>test_pass.json</code> <em>(terminal on the bottom left)</em></li>
+<li>Create mock response data in <code>test_pass.json</code> <em>(terminal on the bottom right)</em></li>
+<li>Visit <code>http://example.com/pass</code> on the client side</li>
+<li>The initial response is now replaced by the one in <code>test_pass.json</code> <em>(terminal on top)</em></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/KevCui/mitm-scripts/master/screenshot/mitm-rewrite-example.jpg" alt="mitmproxy mock server picture"></p>
+<p>If you want to know more useful scripts, I have a <a href="https://github.com/KevCui/mitm-scripts">mitm-scripts collection</a> to check out. If you want to make your own scripts, there are <a href="https://github.com/mitmproxy/mitmproxy/tree/master/examples/simple">some examples</a>.</p>
+<hr>
+<p>Didn&rsquo;t try mitmproxy yet? Get it a try. &#x1f609;</p>
+<p>Know other mitmproxy tricks? Tell me more. &#x1f60d;</p>
+
+          </section>
+          <br/>
+        </div>
+        
+        
+
+      </div>
+    </div>
+  </body>
+  <script src="https://kevcui.github.io//js/umbrella.min.js"></script>
+
+<script src="https://kevcui.github.io/js/main.min.js">></script>
+
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/nord.min.css">
+    <script src="https://kevcui.github.io//js/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  <span class="toTopBtn" onclick="scrollToTop(750)">&#9650;</span>
+<script type="text/javascript">
+function scrollToTop(scrollDuration) {
+    const   scrollHeight = window.scrollY,
+            scrollStep = Math.PI / ( scrollDuration / 15 ),
+            cosParameter = scrollHeight / 2;
+    var     scrollCount = 0,
+            scrollMargin,
+    scrollInterval = setInterval( function() {
+        if ( window.scrollY != 0 ) {
+            scrollCount = scrollCount + 1;
+            scrollMargin = cosParameter - cosParameter * Math.cos( scrollCount * scrollStep );
+            window.scrollTo( 0, ( scrollHeight - scrollMargin ) );
+        }
+        else clearInterval(scrollInterval);
+    }, 15 );
+}
+</script>
+
+</html>

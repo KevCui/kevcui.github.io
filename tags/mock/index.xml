@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mock on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/mock/</link>
+    <description>Recent content in Mock on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krazycavin AT gmail.com (Kevin Cui)</managingEditor>
+    <webMaster>krazycavin AT gmail.com (Kevin Cui)</webMaster>
+    <lastBuildDate>Sat, 28 Jul 2018 15:13:04 +0200</lastBuildDate>
+    
+	<atom:link href="https://kevcui.github.io/tags/mock/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3 mitmproxy Tips You Might Not Know About</title>
+      <link>https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/</link>
+      <pubDate>Sat, 28 Jul 2018 15:13:04 +0200</pubDate>
+      <author>krazycavin AT gmail.com (Kevin Cui)</author>
+      <guid>https://kevcui.github.io/2018/07/28/3-mitmproxy-tips-you-might-not-know-about/</guid>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://cdn-images-1.medium.com/max/1000/1*aleslIm6g3NqRL1xLQ3w5g.jpeg&#34; alt=&#34;coverimage&#34;/&gt;
+    
+    &lt;br/&gt;
+    &lt;sup&gt;
+        &lt;em&gt;
+            Photo by &lt;a href=&#34;https://unsplash.com/photos/betmVWGYcLY&#34;&gt;Ashley Batz&lt;/a&gt;
+        &lt;/em&gt;
+    &lt;/sup&gt;
+    
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mitmproxy.org/&#34;&gt;mitmproxy&lt;/a&gt; is a powerful proxy tool for debugging network requests and responses. It&amp;rsquo;s my favorite proxy tool and becoming one of my daily essential tools for working. I would like to share with you 3 mitmproxy tips you might not know about.&lt;/p&gt;
+&lt;p&gt;First things first, a small checklist:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.mitmproxy.org/stable/concepts-modes/&#34;&gt;Do you know how mitmproxy works?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.mitmproxy.org/stable/overview-installation/&#34;&gt;Do you know how to install mitmproxy?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.mitmproxy.org/stable/concepts-certificates/&#34;&gt;Do you know how to install CA cert on a client side?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If these questions are way too easy for you and your answers are &lt;em&gt;&amp;ldquo;Yes! Yes! Yes!&amp;rdquo;&lt;/em&gt;, then continue reading. Otherwise, please click and read the links above, and see you here later.&lt;/p&gt;
+&lt;h3 id=&#34;tips-1-custom-configuration-and-key-binding&#34;&gt;Tips 1: Custom configuration and key binding&lt;/h3&gt;
+&lt;p&gt;One of the advantages of mitmproxy is highly customizable. It&amp;rsquo;s convenient to set up once configurations that every time mitmproxy loads them automatically when it starts. All the available handy &lt;strong&gt;options&lt;/strong&gt; are in the &lt;a href=&#34;https://docs.mitmproxy.org/stable/concepts-options/&#34;&gt;mitmproxy document&lt;/a&gt;. Here is my &lt;code&gt;~/.mitmproxy/config.yaml&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;console_palette&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;dark&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;console_palette_transparent&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;console_mouse&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;console_focus_follow&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;True&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;ignore_hosts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;As I&amp;rsquo;m using &lt;a href=&#34;https://kevcui.github.io/2017/08/27/one-week-with-colemak/&#34;&gt;colemak keyboard layout&lt;/a&gt;, &lt;em&gt;j&lt;/em&gt; and &lt;em&gt;k&lt;/em&gt; keys are opposite for the navigation of up and down in mitmproxy. I have to change these 2 keys to make navigation smooth. Before, to change key bindings in old versions, I have to hack around code in &lt;code&gt;defaultkeys.py&lt;/code&gt;. Since &lt;a href=&#34;https://mitmproxy.org/posts/releases/mitmproxy4/&#34;&gt;mitmproxy v4.0&lt;/a&gt;, custom key binding is finally officially supported! Here are my key bindings in &lt;code&gt;~/.mitmproxy/keys.yaml&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;j&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ctx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;global&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;cmd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;console.nav.up&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;k&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ctx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;global&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;cmd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;console.nav.down&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;key&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;l&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;ctx&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;flowlist&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;cmd&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;console.nav.select&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;To know more about which &lt;strong&gt;command&lt;/strong&gt; to use in &lt;strong&gt;cmd&lt;/strong&gt; field, type &lt;code&gt;K&lt;/code&gt; (shift + k) in mitmproxy. A list of current key bindings will show up. More information about key binging configuration is in the &lt;a href=&#34;https://docs.mitmproxy.org/stable/tools-mitmproxy/&#34;&gt;mitmproxy document&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;tips-2-knowing-client-connection-status-when-a-filter-is-applied&#34;&gt;Tips 2: Knowing client connection status when a filter is applied&lt;/h3&gt;
+&lt;p&gt;It happens quite often to me: when I applied all filters in advance and then tried to connect a client to mitmproxy. However, there is nothing show up in the flow list. How do I know if it&amp;rsquo;s because &lt;em&gt;the client is not connected to the proxy successfully&lt;/em&gt; or &lt;em&gt;no requests are matching the filter&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;A usual but not good way: Well, I have to remove the filter to see all requests. If I can see requests from the client, then I will again apply the filter&amp;hellip;&lt;/p&gt;
+&lt;p&gt;An easy way is to add &lt;code&gt;| .*&lt;/code&gt; in the filter, which will reveal all incoming requests. Yep, regex magic:&lt;/p&gt;
+&lt;p class=&#34;embed&#34;&gt;
+&lt;embed src=&#34;https://kevcui.github.io/videos/mitmproxy-filter-on.svg&#34; style=&#34;height:600px&#34;/&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Another easy way is to simply type &lt;code&gt;E&lt;/code&gt; (shift+e), which will open events logs. It shows the client connection status. Use &lt;code&gt;q&lt;/code&gt; to quit events view:&lt;/p&gt;
+&lt;p class=&#34;embed&#34;&gt;
+&lt;embed src=&#34;https://kevcui.github.io/videos/mitmproxy-events-view.svg&#34; style=&#34;height:600px&#34;/&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;tips-3-using-mitmproxy-as-a-mock-server&#34;&gt;Tips 3: Using mitmproxy as a mock server&lt;/h3&gt;
+&lt;p&gt;The killer feature of mitmproxy is scripting. Using python scripts, all requests and responses are fully controlled and changeable &lt;strong&gt;on the fly&lt;/strong&gt;. Besides that, mitmproxy is super robust to handle multiple clients simultaneously connected to one host. These features make mitmproxy a decent mock server. Therefore, I use mitmproxy a lot as &lt;a href=&#34;https://kevcui.github.io/2017/06/27/bad-use-of-a-good-tool/&#34;&gt;a mock server&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For example, a script for the purpose of rewriting and mocking response body, &lt;a href=&#34;https://github.com/KevCui/mitm-scripts/tree/master/mitm-rewrite&#34;&gt;mitm-rewrite&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Map &lt;code&gt;http://example.com/pass&lt;/code&gt; to &lt;code&gt;test_pass.json&lt;/code&gt; &lt;em&gt;(terminal on the bottom left)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Create mock response data in &lt;code&gt;test_pass.json&lt;/code&gt; &lt;em&gt;(terminal on the bottom right)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Visit &lt;code&gt;http://example.com/pass&lt;/code&gt; on the client side&lt;/li&gt;
+&lt;li&gt;The initial response is now replaced by the one in &lt;code&gt;test_pass.json&lt;/code&gt; &lt;em&gt;(terminal on top)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/KevCui/mitm-scripts/master/screenshot/mitm-rewrite-example.jpg&#34; alt=&#34;mitmproxy mock server picture&#34;&gt;&lt;/p&gt;
+&lt;p&gt;If you want to know more useful scripts, I have a &lt;a href=&#34;https://github.com/KevCui/mitm-scripts&#34;&gt;mitm-scripts collection&lt;/a&gt; to check out. If you want to make your own scripts, there are &lt;a href=&#34;https://github.com/mitmproxy/mitmproxy/tree/master/examples/simple&#34;&gt;some examples&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Didn&amp;rsquo;t try mitmproxy yet? Get it a try. &amp;#x1f609;&lt;/p&gt;
+&lt;p&gt;Know other mitmproxy tricks? Tell me more. &amp;#x1f60d;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

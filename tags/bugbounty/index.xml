@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bugbounty on Kevin Cui</title>
+    <link>https://kevcui.github.io/tags/bugbounty/</link>
+    <description>Recent content in Bugbounty on Kevin Cui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>krazycavin AT gmail.com (Kevin Cui)</managingEditor>
+    <webMaster>krazycavin AT gmail.com (Kevin Cui)</webMaster>
+    <lastBuildDate>Sat, 06 Jun 2026 15:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://kevcui.github.io/tags/bugbounty/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>From Script Kiddie to Prompt Kiddie: Bug Bounty in the AI Era</title>
+      <link>https://kevcui.github.io/2026/06/06/from-script-kiddie-to-prompt-kiddie/</link>
+      <pubDate>Sat, 06 Jun 2026 15:00:00 +0200</pubDate>
+      <author>krazycavin AT gmail.com (Kevin Cui)</author>
+      <guid>https://kevcui.github.io/2026/06/06/from-script-kiddie-to-prompt-kiddie/</guid>
+      <description>&lt;p class=&#34;coverimage&#34;&gt;
+    &lt;img src=&#34;https://kevcui.github.io/images/prompt-kiddie.png&#34; alt=&#34;coverimage&#34;/&gt;
+    
+&lt;/p&gt;
+
+&lt;p&gt;You just signed up for a bug bounty platform. You&amp;rsquo;ve never written a line of SQL or dissected a packet trace. But you have an AI and a fine-word prompt: &amp;ldquo;find all vulnerabilities in this.&amp;rdquo; Fifteen seconds later, you copy-paste a report into a submission. You don&amp;rsquo;t know what XSS actually is, but the AI says it found one. So do a thousand others. The triage queue instantly drowns an ocean of noise.&lt;/p&gt;
+&lt;p&gt;Welcome to bug bounty in the age of AI.&lt;/p&gt;
+&lt;h3 id=&#34;the-great-flood&#34;&gt;The Great Flood&lt;/h3&gt;
+&lt;p&gt;Bug bounty programs are drowning. Every hallucinated or non-exploitable finding gets blasted to triage. A path traversal on a dead, static endpoint. A SQL injection attempt successfully neutralized by parameterized queries. A CRLF injection instantly dropped by the WAF&amp;hellip; To a human engineer with context, these are obvious non-starters. To a prompt kiddie, they look like easy paydays. As a result, platforms are tightening submission limits, forcing legitimate researchers to battle an avalanche of automated garbage.&lt;/p&gt;
+&lt;h3 id=&#34;script-kiddie---prompt-kiddie&#34;&gt;Script Kiddie -&amp;gt; Prompt Kiddie&lt;/h3&gt;
+&lt;p&gt;The moniker changed; the mindset didn&amp;rsquo;t. Script kiddies point-and-clicked tools they couldn&amp;rsquo;t explain. Prompt kiddies fire off &amp;ldquo;Check for IDOR&amp;rdquo; and dump the raw markdown verbatim. No validation. No proof of concept.&lt;/p&gt;
+&lt;p&gt;The real victim here isn&amp;rsquo;t the triage queue, it&amp;rsquo;s the prompt kiddie who behinds the keyboard. Dumping AI-generated reports teaches zero transferable skills. You never build the intuition for where vulnerabilities actually hide. Your professional growth flatlines because the LLM did the intellectual heavy lifting. The core fundamentals: HTTP mechanics, cryptography, complex business logic, which remain untouched by the prompt kiddie.&lt;/p&gt;
+&lt;h3 id=&#34;efficiency-is-not-effectiveness&#34;&gt;Efficiency Is Not Effectiveness&lt;/h3&gt;
+&lt;p&gt;AI is an incredible force multiplier for scaling from 1 to 100. It can automate wide-scope recon, format edge-case payloads, or map out messy endpoints,&amp;hellip; if you already know the craft.&lt;/p&gt;
+&lt;p&gt;But AI inherently struggles with 0 to 1. It cannot chain an obscure response header into a critical privilege escalation. It cannot replicate the intuition built from thousands of hours reviewing code paths. That 0-to-1 gap is exactly where hacking remains an art form. AI can accelerate your learning, but it cannot do the learning for you. Outsource the cognition, forfeit the growth.&lt;/p&gt;
+&lt;h3 id=&#34;a-note-for-beginners&#34;&gt;A Note for Beginners&lt;/h3&gt;
+&lt;p&gt;If you&amp;rsquo;re a beginner, don&amp;rsquo;t let this landscape discourage you. Everyone starts at zero, and not knowing things is part of the deal. The temptation to let a prompt do the heavy lifting is intoxicating, but that shortcut is a trap.&lt;/p&gt;
+&lt;p&gt;Master the basics first. Learn what an HTTP request looks like. Understand how authentication and authorization differ. Read other researchers&amp;rsquo; writeups. Replicate their findings by hand. Every vulnerability you find on your own, no matter how small, teaches you more than a hundred AI-generated reports ever will.&lt;/p&gt;
+&lt;h3 id=&#34;the-hard-path-forward&#34;&gt;The Hard Path Forward&lt;/h3&gt;
+&lt;p&gt;AI can be your best teacher. Ask it to break down complex OAuth flows or explain why an edge-case payload executes. Use it to explain code you don&amp;rsquo;t understand. But always verify. Always ask why. The goal is not to collect bounties, it is to become someone who can find them with or without an AI model&amp;rsquo;s help.&lt;/p&gt;
+&lt;p&gt;Treat AI as a sparring partner, not a substitute. The researchers who thrive are the ones who can look at an AI finding and say &amp;ldquo;false positive&amp;rdquo; with confidence earned through experience.&lt;/p&gt;
+&lt;p&gt;AI takes you from 1 to 100, however, getting from 0 to 1 is entirely on you. That hasn’t changed, and that’s exactly what makes this field worth learning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

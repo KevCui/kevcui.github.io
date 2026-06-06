@@ -1,0 +1,336 @@
+  <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="theme-color" content="#000"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+    <title> Kevin Cui </title>
+    
+    <link rel="manifest" href="/manifest.json">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="https://kevcui.github.io//images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://kevcui.github.io//images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://kevcui.github.io//images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://kevcui.github.io//images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://kevcui.github.io//images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://kevcui.github.io//images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://kevcui.github.io//images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://kevcui.github.io//images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://kevcui.github.io//images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-16x16.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/android-icon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://kevcui.github.io//images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://kevcui.github.io//images/favicons/manifest.json">
+    <link rel="shortcut icon" href="https://kevcui.github.io//images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="https://kevcui.github.io//images/favicons/mstile-144x144.png">
+	
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="From Script Kiddie to Prompt Kiddie: Bug Bounty in the AI Era">
+	<meta property="og:url" content="https://kevcui.github.io/2026/06/06/from-script-kiddie-to-prompt-kiddie/">
+	<meta property="og:site_name" content="Kevin Cui">
+    <meta name="x:site" content="Kevin Cui">
+	<meta itemprop="name" content="From Script Kiddie to Prompt Kiddie: Bug Bounty in the AI Era">
+	<meta name="x:title" content="From Script Kiddie to Prompt Kiddie: Bug Bounty in the AI Era">
+	<meta name="x:card" content="summary">
+    <meta name="x:creator" content="">
+    <meta name="Description" content="Title: Kevin Cui; Author Kevin Cui">
+	
+    <meta name="description" content="You just signed up for a bug bounty platform. You&#39;ve never written a line of SQL or dissected a packet trace. But you have an AI and a fine-word prompt: &#34;find all vulnerabilities in this.&#34; Fifteen seconds later, you copy-paste a report into a submission...">
+    <meta name="og:description" content="You just signed up for a bug bounty platform. You&#39;ve never written a line of SQL or dissected a packet trace. But you have an AI and a fine-word prompt: &#34;find all vulnerabilities in this.&#34; Fifteen seconds later, you copy-paste a report into a submission...">
+    <meta name="x:description" content="You just signed up for a bug bounty platform. You&#39;ve never written a line of SQL or dissected a packet trace. But you have an AI and a fine-word prompt: &#34;find all vulnerabilities in this.&#34; Fifteen seconds later, you copy-paste a report into a submission...">
+    <meta itemprop="description" content="You just signed up for a bug bounty platform. You&#39;ve never written a line of SQL or dissected a packet trace. But you have an AI and a fine-word prompt: &#34;find all vulnerabilities in this.&#34; Fifteen seconds later, you copy-paste a report into a submission...">
+	
+	
+	<meta property="og:image" content="/images/prompt-kiddie.png"/>
+	<meta property="x:image" content="/images/prompt-kiddie.png"/>
+	<meta itemprop="image" content="/images/prompt-kiddie.png">
+	
+    
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/uno.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/font.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/inter-ui.min.css" />
+    
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io/css/syntax.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/brands.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://kevcui.github.io//css/solid.min.css" />
+    <link rel="me" href="https://infosec.exchange/@kevcui" />
+</head>
+
+  <body>
+    <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="icon icon-list btn-mobile-menu__icon"></i>
+            <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+            
+                <a class="mobile-top-right-button" href="/#blog">Other Posts</a>
+            
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="https://kevcui.github.io//" title="Kevin Cui homepage"> <img src="/images/profile.jpg" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a class="blog-title" href="https://kevcui.github.io//"  title="Kevin Cui homepage">Kevin Cui</a>
+                </h1>
+                <br/>
+                
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="soc">
+    
+    
+
+    
+    
+    <li>
+        <a href="https://infosec.exchange/@kevcui" title="https://infosec.exchange/@kevcui" target="_blank" rel="noopener"><span class="fa-brands fa-mastodon"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="fa-brands fa-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="fa-brands fa-stack-overflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="fa-brands fa-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="fa-solid fa-envelope"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io//index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="fa-solid fa-rss"></span></a>
+    </li>
+</ul>
+
+                    </nav>
+                </div>
+
+                
+                    <p class=""><a class="main-button" href="/#blog">blog</a></p>
+                
+                
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="https://kevcui.github.io//" title="Kevin Cui homepage"> <img src="/images/profile.jpg" width="80" alt="Kevin Cui logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a class="blog-title" href="https://kevcui.github.io//"  title="Kevin Cui homepage">Kevin Cui</a>
+                    </h1>
+                    
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="soc">
+    
+    
+
+    
+    
+    <li>
+        <a href="https://infosec.exchange/@kevcui" title="https://infosec.exchange/@kevcui" target="_blank" rel="noopener"><span class="fa-brands fa-mastodon"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://github.com/KevCui" title="KevCui on github" target="_blank" rel="noopener"><span class="fa-brands fa-github"></span></a>
+    </li> 
+
+    
+    
+    <li>
+        <a href="https://stackoverflow.com/users/8272771" title="Stack Overflow" target="_blank" rel="noopener"><span class="fa-brands fa-stack-overflow"></span></a>
+    </li> 
+</ul>
+
+<ul class="soc">
+    
+    
+    <li>
+        <a href="https://www.instagram.com/kevcui" title="Instagram" target="_blank" rel="noopener"><span class="fa-brands fa-instagram"></span></a>
+    </li> 
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    <li>
+        <a href="mailto:krazycavin%20AT%20gmail.com" title="Email krazycavin AT gmail.com" target="_blank" rel="noopener"><span class="fa-solid fa-envelope"></span></a>
+    </li> 
+    <li>
+        <a href="https://kevcui.github.io//index.xml" title="Subsribe" target="_blank" rel="noopener"><span class="fa-solid fa-rss"></span></a>
+    </li>
+</ul>
+
+                        </nav>
+                    </div>
+                    
+                        <p><a class="main-button" href="/#blog">blog</a></p>
+                    
+                    
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+    
+    
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post singlepost">
+          <div class="post-meta">
+              <span class="post-meta__date date">Jun 6, 2026</span>
+              
+                  • on
+              
+              <span class="post-meta__tags tags">
+				
+					
+						<a href="/tags/ai">AI,</a>
+					
+                
+					
+						<a href="/tags/bugbounty">bugbounty,</a>
+					
+                
+					
+						<a href="/tags/thoughts">thoughts</a>
+					
+                
+              </span>
+              • 600 words 3 min. read
+          </div>
+          <h1>From Script Kiddie to Prompt Kiddie: Bug Bounty in the AI Era</h1>
+          <section id="post-content" class="article-content post">
+              <p class="coverimage">
+    <img src="/images/prompt-kiddie.png" alt="coverimage"/>
+    
+</p>
+
+<p>You just signed up for a bug bounty platform. You&rsquo;ve never written a line of SQL or dissected a packet trace. But you have an AI and a fine-word prompt: &ldquo;find all vulnerabilities in this.&rdquo; Fifteen seconds later, you copy-paste a report into a submission. You don&rsquo;t know what XSS actually is, but the AI says it found one. So do a thousand others. The triage queue instantly drowns an ocean of noise.</p>
+<p>Welcome to bug bounty in the age of AI.</p>
+<h3 id="the-great-flood">The Great Flood</h3>
+<p>Bug bounty programs are drowning. Every hallucinated or non-exploitable finding gets blasted to triage. A path traversal on a dead, static endpoint. A SQL injection attempt successfully neutralized by parameterized queries. A CRLF injection instantly dropped by the WAF&hellip; To a human engineer with context, these are obvious non-starters. To a prompt kiddie, they look like easy paydays. As a result, platforms are tightening submission limits, forcing legitimate researchers to battle an avalanche of automated garbage.</p>
+<h3 id="script-kiddie---prompt-kiddie">Script Kiddie -&gt; Prompt Kiddie</h3>
+<p>The moniker changed; the mindset didn&rsquo;t. Script kiddies point-and-clicked tools they couldn&rsquo;t explain. Prompt kiddies fire off &ldquo;Check for IDOR&rdquo; and dump the raw markdown verbatim. No validation. No proof of concept.</p>
+<p>The real victim here isn&rsquo;t the triage queue, it&rsquo;s the prompt kiddie who behinds the keyboard. Dumping AI-generated reports teaches zero transferable skills. You never build the intuition for where vulnerabilities actually hide. Your professional growth flatlines because the LLM did the intellectual heavy lifting. The core fundamentals: HTTP mechanics, cryptography, complex business logic, which remain untouched by the prompt kiddie.</p>
+<h3 id="efficiency-is-not-effectiveness">Efficiency Is Not Effectiveness</h3>
+<p>AI is an incredible force multiplier for scaling from 1 to 100. It can automate wide-scope recon, format edge-case payloads, or map out messy endpoints,&hellip; if you already know the craft.</p>
+<p>But AI inherently struggles with 0 to 1. It cannot chain an obscure response header into a critical privilege escalation. It cannot replicate the intuition built from thousands of hours reviewing code paths. That 0-to-1 gap is exactly where hacking remains an art form. AI can accelerate your learning, but it cannot do the learning for you. Outsource the cognition, forfeit the growth.</p>
+<h3 id="a-note-for-beginners">A Note for Beginners</h3>
+<p>If you&rsquo;re a beginner, don&rsquo;t let this landscape discourage you. Everyone starts at zero, and not knowing things is part of the deal. The temptation to let a prompt do the heavy lifting is intoxicating, but that shortcut is a trap.</p>
+<p>Master the basics first. Learn what an HTTP request looks like. Understand how authentication and authorization differ. Read other researchers&rsquo; writeups. Replicate their findings by hand. Every vulnerability you find on your own, no matter how small, teaches you more than a hundred AI-generated reports ever will.</p>
+<h3 id="the-hard-path-forward">The Hard Path Forward</h3>
+<p>AI can be your best teacher. Ask it to break down complex OAuth flows or explain why an edge-case payload executes. Use it to explain code you don&rsquo;t understand. But always verify. Always ask why. The goal is not to collect bounties, it is to become someone who can find them with or without an AI model&rsquo;s help.</p>
+<p>Treat AI as a sparring partner, not a substitute. The researchers who thrive are the ones who can look at an AI finding and say &ldquo;false positive&rdquo; with confidence earned through experience.</p>
+<p>AI takes you from 1 to 100, however, getting from 0 to 1 is entirely on you. That hasn’t changed, and that’s exactly what makes this field worth learning.</p>
+
+          </section>
+          <br/>
+        </div>
+        
+        
+
+      </div>
+    </div>
+  </body>
+  <script src="https://kevcui.github.io//js/umbrella.min.js"></script>
+
+<script src="https://kevcui.github.io/js/main.min.js">></script>
+
+
+
+
+  <span class="toTopBtn" onclick="scrollToTop(750)">&#9650;</span>
+<script type="text/javascript">
+function scrollToTop(scrollDuration) {
+    const   scrollHeight = window.scrollY,
+            scrollStep = Math.PI / ( scrollDuration / 15 ),
+            cosParameter = scrollHeight / 2;
+    var     scrollCount = 0,
+            scrollMargin,
+    scrollInterval = setInterval( function() {
+        if ( window.scrollY != 0 ) {
+            scrollCount = scrollCount + 1;
+            scrollMargin = cosParameter - cosParameter * Math.cos( scrollCount * scrollStep );
+            window.scrollTo( 0, ( scrollHeight - scrollMargin ) );
+        }
+        else clearInterval(scrollInterval);
+    }, 15 );
+}
+</script>
+
+</html>
